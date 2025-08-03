@@ -3004,13 +3004,15 @@ span.button__67645.enabled__67645:hover,
 	padding: 0;
 }
 
+.subscription_d970da,
 .cardFolder__1a4ef,
 .tierBody_a36dee {
 	background-color: var(--backgroundDarker);
 }
 
 .settingCard__1a4ef,
-.bd-addon-list .bd-addon-header {
+.bd-addon-list .bd-addon-header,
+.tierPill_d970da {
 	background-color: rgb(0, 0, 0, .35);
 }
 
@@ -3029,14 +3031,6 @@ span.button__67645.enabled__67645:hover,
 	background-color: var(--backgroundDark);
 	box-shadow: var(--elevation-high);
 	padding-right: 10px !important;
-}
-
-.subscription_d970da {
-	background-color: rgba(0, 0, 0, .3);
-}
-
-.tierPill_d970da {
-	background-color: var(--backgroundDark);
 }
 
 .search_f69601 .searchBox_f69601 .searchBoxInput_f69601 {
@@ -3400,7 +3394,6 @@ span.button__67645.enabled__67645:hover,
 }
 
 .iconWrapper__9293f foreignObject,
-.svg__44b0c foreignObject,
 .svg_d48241:not(.mask_a423bd) foreignObject,
 .avatarMask_b50d96 foreignObject,
 .avatar_ef4a91,
@@ -8321,8 +8314,7 @@ path[stroke="rgb(123,162,255)"] {
 .mask_db811b foreignObject,
 .avatarDecorationHint_f89da9 foreignObject,
 .bd-who-reacted__reactors:not(:empty) foreignObject,
-.inspectedIndicator_c6367b,
-.mask__44b0c foreignObject {
+.inspectedIndicator_c6367b {
 	-webkit-mask: none;
 	mask: none;
 }
@@ -8816,8 +8808,12 @@ path[stroke="rgb(123,162,255)"] {
 	max-width: none;
 }
 
+.selectGuild__39466 {
+	margin-right: 2px;
+}
+
 .selectGuild__39466:hover {
-	background-color: rgba(0, 0, 0, .2);
+	background-color: var(--backgroundDarker);
 }
 
 .confirmationContainer__892e3,
@@ -10878,7 +10874,6 @@ path[fill="#6a7df6"] {
 }
 
 .list_c3cd7d,
-.item__81f73,
 .voiceUserSummary__629e4,
 .autocompleteRow__13533,
 .innerContainer__6b102 {
@@ -11025,10 +11020,6 @@ path[fill="#6a7df6"] {
 .modalContent_c50f62 {
 	padding-right: 0 !important;
 	overflow: hidden !important;
-}
-
-.selectGuild__39466 {
-	margin-right: 2px;
 }
 
 .indentCharacterCount__74017 {
@@ -11413,7 +11404,8 @@ path[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"] {
 .summaryContainer__143a4,
 .contentContainer__8f46b,
 .contentContainer_c6b177,
-.contentContainer_f8758b {
+.contentContainer_f8758b,
+.searchBar__81f73 {
 	background-color: var(--backgroundDarker);
 	border: none;
 }
@@ -12044,7 +12036,9 @@ svg.avatarDecoration__44b0c,
 .avatar__20a53 g svg,
 .ruleTextContainer_c5e6a1,
 .emojiPicker_c0e32c,
-.container_fed6d3 {
+.container_fed6d3,
+.footer__49fc1,
+.header__49fc1 {
 	overflow: visible;
 }
 
