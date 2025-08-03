@@ -1295,7 +1295,7 @@ svg.contentImage__42bf5,
 .cardPrimaryOutline__9df8a,
 .cardPrimaryOutlineEditable__2822a,
 .codeRedemptionRedirect_a706ba,
-.blockedPaymentsWarning_b7b2cf,
+.theme-dark .blockedPaymentsWarning_b7b2cf,
 .paymentPane__01014 {
 	background-color: rgba(0, 0, 0, .3);
 	border-color: rgba(0, 0, 0, 0);
@@ -7731,6 +7731,7 @@ svg.contentImage__42bf5 path {
 	cursor: default;
 }
 
+.wrapper_a45028:not(:focus-within),
 .wrapper_d14335,
 .nameInput__0511a,
 .tagInputWrapper__69ef9,
@@ -7742,15 +7743,14 @@ svg.contentImage__42bf5 path {
 .textArea_d19bc9,
 .defaultTextInputWrapper__7b848,
 .input__0ed4f:not(.value__96f95, .nameInputInnerWithEmojiPicker__0511a, .inputWrapperWithEmojiPicker_ac72c6, .inputInnerWithEmojiPicker_ac72c6, .tagInput__69ef9, .multiInputField_b404ff, .textarea__9daae, .traitInput__4cbea, .note_fcb628 textarea, .inputField_d64f22, .fieldBackground_d48a51, .inputInner_a97616, .input_cedfaf, .input__72ba7, .descriptionInput__5579e, .clipTitleInput__1d12e, .defaultTextInput__7b848, .searchBox_d727b3 .searchBoxInput_d727b3, .input__72ba7, .title_d9be46, .messageInput_f2c0a8, .textarea_dde0a8) {
-	border: none !important;
-	transition: var(--transition);
-	transition-property: box-shadow;
+	border-color: rgba(0, 0, 0, 0);
 }
 
 .tagInputWrapper__69ef9 {
 	background-color: var(--backgroundDarker);
 }
 
+.wrapper_a45028:hover:not(:focus-within),
 .wrapper_d14335:hover,
 .nameInput__0511a:hover,
 .tagInputWrapper__69ef9:hover,
@@ -7758,11 +7758,11 @@ svg.contentImage__42bf5 path {
 .cardInput__8b579:hover,
 .textArea_d19bc9:hover,
 .input__0ed4f:not([readOnly]):hover:not(.value__96f95, .nameInputInnerWithEmojiPicker__0511a, .inputWrapperWithEmojiPicker_ac72c6, .inputInnerWithEmojiPicker_ac72c6, .disabled__0ed4f, .tagInput__69ef9, .multiInputField_b404ff, .textarea__9daae, .traitInput__4cbea, .note_fcb628 textarea, .inputField_d64f22, .fieldBackground_d48a51, .inputInner_a97616, .input_cedfaf, .input__72ba7, .descriptionInput__5579e, .clipTitleInput__1d12e, .defaultTextInput__7b848, .searchBox_d727b3 .searchBoxInput_d727b3, .input__72ba7, .title_d9be46, .messageInput_f2c0a8, .textarea_dde0a8) {
-	box-shadow: 0 0 0 2px var(--deprecated-text-input-border-hover);
+	border-color: var(--deprecated-text-input-border-hover);
 }
 
 .theme-light .input__0ed4f:not([readOnly]):hover:not(.value__96f95, .nameInputInnerWithEmojiPicker__0511a, .inputWrapperWithEmojiPicker_ac72c6, .inputInnerWithEmojiPicker_ac72c6, .tagInput__69ef9, .multiInputField_b404ff, .textarea__9daae, .traitInput__4cbea, .note_fcb628 textarea, .inputField_d64f22, .fieldBackground_d48a51, .inputInner_a97616, .input_cedfaf, .input__72ba7, .descriptionInput__5579e, .clipTitleInput__1d12e, .defaultTextInput__7b848, .searchBox_d727b3 .searchBoxInput_d727b3, .input__72ba7, .title_d9be46, .messageInput_f2c0a8, .textarea_dde0a8) {
-	box-shadow: 0 0 0 2px #020202;
+	border-color: #020202;
 }
 
 .wrapper_d14335:focus-within,
@@ -7777,11 +7777,11 @@ svg.contentImage__42bf5 path {
 .input__0ed4f:not([readOnly]).focused__0ed4f:hover:not(.value__96f95, .nameInputInnerWithEmojiPicker__0511a, .inputWrapperWithEmojiPicker_ac72c6, .inputInnerWithEmojiPicker_ac72c6, .tagInput__69ef9, .multiInputField_b404ff, .textarea__9daae, .traitInput__4cbea, .note_fcb628 textarea, .inputField_d64f22, .fieldBackground_d48a51, .inputInner_a97616, .input_cedfaf, .input__72ba7, .descriptionInput__5579e, .clipTitleInput__1d12e, .defaultTextInput__7b848, .searchBox_d727b3 .searchBoxInput_d727b3, .input__72ba7, .title_d9be46, .messageInput_f2c0a8, .textarea_dde0a8),
 .input__0ed4f:not([readOnly]):focus:not(.value__96f95, .nameInputInnerWithEmojiPicker__0511a, .inputWrapperWithEmojiPicker_ac72c6, .inputInnerWithEmojiPicker_ac72c6, .tagInput__69ef9, .multiInputField_b404ff, .textarea__9daae, .traitInput__4cbea, .note_fcb628 textarea, .inputField_d64f22, .fieldBackground_d48a51, .inputInner_a97616, .input_cedfaf, .input__72ba7, .descriptionInput__5579e, .clipTitleInput__1d12e, .defaultTextInput__7b848, .searchBox_d727b3 .searchBoxInput_d727b3, .input__72ba7, .title_d9be46, .messageInput_f2c0a8, .textarea_dde0a8),
 .input__0ed4f:not([readOnly]):focus:hover:not(.value__96f95, .nameInputInnerWithEmojiPicker__0511a, .inputWrapperWithEmojiPicker_ac72c6, .inputInnerWithEmojiPicker_ac72c6, .tagInput__69ef9, .multiInputField_b404ff, .textarea__9daae, .traitInput__4cbea, .note_fcb628 textarea, .inputField_d64f22, .fieldBackground_d48a51, .inputInner_a97616, .input_cedfaf, .input__72ba7, .descriptionInput__5579e, .clipTitleInput__1d12e, .defaultTextInput__7b848, .searchBox_d727b3 .searchBoxInput_d727b3, .input__72ba7, .title_d9be46, .messageInput_f2c0a8, .textarea_dde0a8) {
-	box-shadow: 0 0 0 2px rgb(var(--accent)), 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), 0.25) !important;
+	border-color: var(--text-link) !important;
 }
 
 .input__0ed4f.error__0ed4f {
-	box-shadow: 0 0 0 3px var(--status-danger) !important;
+	border-width: 2px !important;
 }
 
 .inputField_d64f22,
@@ -11842,11 +11842,8 @@ rect[fill="badge-brand-bg"] {
 svg.avatarDecoration__44b0c,
 .avatarDecoration__44b0c img,
 .avatar__20a53 g svg,
-.ruleTextContainer_c5e6a1,
 .emojiPicker_c0e32c,
-.container_fed6d3,
-.footer__49fc1,
-.header__49fc1 {
+.container_fed6d3 {
 	overflow: visible;
 }
 
@@ -12848,8 +12845,6 @@ rect[fill="brand-200"] {
 &.theme-midnight .subtitleContainer_f75fb0,
 &.theme-midnight:not(.high-contrast-mode) .content_f75fb0,
 &.theme-midnight:not(.high-contrast-mode) .subtitleContainer_f75fb0,
-.input__0ed4f:hover,
-.input__0ed4f[readonly],
 .profileNote__9c3be textarea,
 .popover__2d0ab,
 .popover_c97e55,
@@ -13236,7 +13231,6 @@ rect[fill="brand-200"] {
 	margin-right: auto;
 }
 
-.wrapper_a45028,
 .nameInput_ac72c6,
 .nameInput_ac72c6:focus-within,
 .traitContainer__4cbea:not(:has(.input__0ed4f.disabled__0ed4f)),
@@ -13247,13 +13241,11 @@ rect[fill="brand-200"] {
 	transition-property: box-shadow;
 }
 
-.wrapper_a45028:hover,
 .nameInput_ac72c6:hover,
 .traitContainer__4cbea:hover:not(:has(.input__0ed4f.disabled__0ed4f)) {
 	box-shadow: 0 0 0 2px var(--deprecated-text-input-border-hover);
 }
 
-.wrapper_a45028:focus-within,
 .nameInput_ac72c6:focus-within,
 .traitContainerFocused__4cbea:not(:has(.input__0ed4f.disabled__0ed4f)),
 .traitContainerFocused__4cbea:focus-within:not(:has(.input__0ed4f.disabled__0ed4f)) {
