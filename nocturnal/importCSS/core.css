@@ -2941,7 +2941,6 @@ span.button__67645.enabled__67645:hover,
 .option__3f413:hover,
 .css-1yoocth-option {
 	background-color: rgba(0, 0, 0, .15);
-	border: none;
 }
 
 .option__3f413.focused__3f413,
@@ -2949,7 +2948,6 @@ span.button__67645.enabled__67645:hover,
 .css-1yoocth-option:active,
 .css-bvzh9g-option:active {
 	background-color: rgba(0, 0, 0, .25);
-	border: none;
 }
 
 .option__3f413[aria-selected=true]:not(.option__3f413.multi__3f413),
@@ -2957,7 +2955,6 @@ span.button__67645.enabled__67645:hover,
 .css-12hzpgx-option,
 .css-12hzpgx-option:active {
 	background-color: rgba(0, 0, 0, .35);
-	border: none;
 }
 
 .detailsBlock_e335a7 {
