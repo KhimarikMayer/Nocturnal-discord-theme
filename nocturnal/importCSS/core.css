@@ -1146,16 +1146,16 @@ svg.contentImage__42bf5,
 	-webkit-mask: url(https://discordapp.com/assets/20c50d12234b09ef.svg);
 }
 
-.quickSelectPopout_ebaca5 {
+.theme-dark .quickSelectPopout_ebaca5 {
 	background-color: var(--backgroundDark);
 	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .15);
 }
 
-.quickSelectPopoutOption_ebaca5:hover {
+.quickSelectPopoutOption_ebaca5:focus {
 	background-color: rgba(0, 0, 0, .2);
 }
 
-.quickSelectPopoutOption_ebaca5:focus {
+.theme-dark .quickSelectPopoutOption_ebaca5:hover {
 	background-color: rgba(0, 0, 0, .35);
 }
 
