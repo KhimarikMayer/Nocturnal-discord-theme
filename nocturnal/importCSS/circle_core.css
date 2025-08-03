@@ -613,8 +613,7 @@
 	background-color: var(--backgroundDark) !important;
 }
 
-.peopleListItem_cc6179:hover,
-.wrapper__00943 {
+.peopleListItem_cc6179:hover {
 	background-color: rgba(0, 0, 0, .25);
 }
 
@@ -1624,13 +1623,13 @@ svg[name=Nitro] g path {
 }
 
 .folderGroupBackground__48112 {
-	background-color: #101218;
+	background-color: rgba(0, 0, 0, .35);
 	border-radius: 50px;
 	border: none;
 }
 
 .isExpanded__48112 .folderGroupBackground__48112 {
-	background-color: var(--custom-folder-background, #101218)
+	background-color: var(--custom-folder-background, rgba(0, 0, 0, .35))
 }
 
 .wrapper__6e9f8[aria-owns="guild-list-unread-dms"],
@@ -1981,11 +1980,6 @@ svg[name=Nitro] g path {
 .custom-theme-background .folderPreviewWrapper__48112 {
 	background-color: var(--custom-preview-background, #101218);
 	border-radius: 50px;
-}
-
-.folderPreviewWrapper__48112[style*="primary"],
-.folderPreviewWrapper__48112[style*="bg-mod-subtle"] {
-	background-color: rgb(16, 18, 24) !important;
 }
 
 .customScroller__23e6b>div,
@@ -2944,6 +2938,7 @@ span.button__67645.enabled__67645:hover,
 	background-color: var(--backgroundDark);
 }
 
+.outer_bf1984,
 .pageButton_c15210:hover {
 	background-color: rgba(0, 0, 0, .25);
 }
@@ -3120,7 +3115,8 @@ span.button__67645.enabled__67645:hover,
 	background-color: var(--primary);
 }
 
-.section__00943 {
+.section__00943,
+.section__00943:only-child {
 	background-color: rgba(0, 0, 0, 0);
 	border: none;
 }
@@ -3173,7 +3169,7 @@ span.button__67645.enabled__67645:hover,
 #app-mount .unread__6fddf:hover:after,
 #app-mount .unread__9c019:hover:after,
 #app-mount .unreadPill__972a0:hover:after {
-	animation: none
+	animation: none;
 }
 
 @keyframes pulse {
@@ -3184,15 +3180,13 @@ span.button__67645.enabled__67645:hover,
 
 	100% {
 		transform: scale(2);
-		opacity: 0
+		opacity: 0;
 	}
 }
 
 .folderGroup__48112:not([style*="--custom-folder-color:"]) .childWrapper__6e9f8,
 .option__3f413 .noIcon_f34534.iconSizeSmol_f34534,
-.guildSelectOptionIcon__999b5.noIcon_f34534.iconSizeSmol_f34534,
-.folderPreviewWrapper__48112[style*="bg-mod-subtle"] .folderPreviewGuildIcon__48112,
-.folderPreviewWrapper__48112[style*="bg-mod-subtle"] .folderPreviewGuildIconError__48112 {
+.guildSelectOptionIcon__999b5.noIcon_f34534.iconSizeSmol_f34534 {
 	background-color: rgba(0, 0, 0, .95) !important;
 }
 
@@ -9354,7 +9348,6 @@ h3.improved__1689b:after,
 }
 
 .addReactButton_c67c5a,
-.outer_bf1984,
 .loadMoreBar__38524,
 .tableOptions__98d1c .button__51120:hover,
 .winButtonMinMax_c38106:hover {
@@ -12916,7 +12909,7 @@ rect[fill="brand-200"] {
 .theme-light .customLabelContainer_c2c6a6:active,
 .theme-light .nagivateBackContainer__786f4:active,
 .theme-light .otherDatesContainer__786f4:active {
-	background: var(--bg-mod-subtle) !important;
+	background: var(--background-mod-subtle) !important;
 }
 
 .theme-light .separator_c1e9c4 {
@@ -13365,13 +13358,16 @@ rect[fill="brand-200"] {
 	border-radius: 50px;
 }
 
-.isExpanded__48112 .pendingFolderButtonIcon__93fc9 {
-	background-color: #101218;
+.pendingFolderButtonIcon__93fc9:hover {
+	background-color: rgba(0, 0, 0, .7);
 }
 
-.pendingFolderButtonIcon__93fc9:hover,
+.isExpanded__48112 .pendingFolderButtonIcon__93fc9 {
+	background-color: rgba(0, 0, 0, 0);
+}
+
 .isExpanded__48112 .pendingFolderButtonIcon__93fc9:hover {
-	background-color: rgba(0, 0, 0, .7);
+	background-color: rgba(0, 0, 0, .35);
 }
 
 .streamOptionsButton__388f8 {
