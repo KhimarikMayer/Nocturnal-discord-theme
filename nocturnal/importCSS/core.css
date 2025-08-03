@@ -9240,8 +9240,9 @@ h3.improved__1689b:after,
 }
 
 .theme-dark .reactorDefault_cc2dff,
-.channelNotice__4c43d,
-.theme-dark .voterDefault__01c8c {
+.theme-dark .channelNotice__4c43d,
+.theme-dark .voterDefault__01c8c,
+.theme-dark .row__740f2 {
 	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .95);
 }
 
@@ -9948,10 +9949,6 @@ rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 .firstMessageContent__3e6ff,
 .mostRecentMessageContent_a55e34 {
 	color: #e9eaeb;
-}
-
-.row__740f2 {
-	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .95);
 }
 
 .chatPreview_c50f62,
@@ -11418,10 +11415,6 @@ path[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"] {
 .searchBar__81f73 {
 	background-color: var(--backgroundDarker);
 	border: none;
-}
-
-.channelNotice__4c43d {
-	box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .95);
 }
 
 .container__01ae2,
