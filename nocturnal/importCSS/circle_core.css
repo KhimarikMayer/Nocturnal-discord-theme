@@ -11841,9 +11841,7 @@ rect[fill="badge-brand-bg"] {
 .avatarDecoration__44b0c foreignObject,
 svg.avatarDecoration__44b0c,
 .avatarDecoration__44b0c img,
-.avatar__20a53 g svg,
-.emojiPicker_c0e32c,
-.container_fed6d3 {
+.avatar__20a53 g svg {
 	overflow: visible;
 }
 
