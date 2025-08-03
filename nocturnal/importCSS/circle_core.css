@@ -1916,24 +1916,11 @@ svg[name=Nitro] g path {
 .messageContainer__95796,
 .messages__1ccd1 {
 	background-color: var(--backgroundDarker);
-	border-radius: 0 0 5px 5px;
 	border: none;
 }
 
-.channelHeader__35a7e .tertiary__06eda {
-	margin-left: 0;
-	margin-right: 12px;
-	border-radius: 50px;
-}
-
-.channelHeader__35a7e .tertiary__06eda:hover:not(.disabled__06eda) {
-	margin-left: 0;
-	margin-right: 12px;
-	border-radius: 50px;
-}
-
-.channelHeader__35a7e .closeButton__95796 {
-	margin-right: 12px;
+.closeButton__95796 {
+	margin-right: 6px;
 }
 
 .textarea_dde0a8 {
@@ -3152,10 +3139,6 @@ span.button__67645.enabled__67645:hover,
 
 .wrapper__00943 {
 	border: none;
-}
-
-.ownerIcon__5d473 {
-	margin-right: 4px;
 }
 
 #app-mount .unread__2ea32,
@@ -6042,7 +6025,6 @@ svg.contentImage__42bf5 path {
 .loader_f75fb0,
 .focused__55c99,
 .searchResultsWrap_a9e706,
-.messageContainer__95796,
 .messages__1ccd1,
 .sidebar__68062,
 .page_c791b2,
@@ -12714,7 +12696,13 @@ path[fill="brand-200"] {
 .headerV2__50a54,
 .joinOptionContent__959cb.uninteractive__959cb:hover,
 .buttonSection_fcb27c,
-.modalRoot_fc200b .modalFooter_fc200b {
+.modalRoot_fc200b .modalFooter_fc200b,
+.messageGroupWrapper__45690 .guildInviteContainer__083ae,
+.messageGroupWrapper__45690 .footerContent__083ae,
+.messageContainer__95796 .guildInviteContainer__083ae,
+.messageContainer__95796 .footerContent__083ae,
+.messages__1ccd1 .guildInviteContainer__083ae,
+.messages__1ccd1 .footerContent__083ae {
 	border: none;
 	background-color: var(--backgroundDarker-alt);
 }
@@ -13063,6 +13051,12 @@ path[fill="brand-200"] {
 
 .gradient__083ae {
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, var(--backgroundDarker) 100%)
+}
+
+.messageGroupWrapper__45690 .gradient__083ae,
+.messageContainer__95796 .gradient__083ae,
+.messages__1ccd1 .gradient__083ae {
+	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, var(--backgroundDarker-alt) 100%)
 }
 
 .page_c48ade:has(.main_c08b38),
