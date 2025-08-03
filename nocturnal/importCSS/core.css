@@ -3397,6 +3397,7 @@ span.button__67645.enabled__67645:hover,
 .avatarMask_b50d96 foreignObject,
 .avatar_ef4a91,
 .mask_db811b foreignObject,
+.mask__44b0c foreignObject,
 .activitySectionAssets__00943 .largeImageMask__00943,
 .progressBar_c44edb g {
 	-webkit-mask: none;
@@ -7036,9 +7037,7 @@ svg.contentImage__42bf5 path {
 	box-shadow: none !important
 }
 
-.header_e825f6 foreignObject,
-.mask__44b0c foreignObject,
-.mask_db811b foreignObject {
+.header_e825f6 foreignObject {
 	mask: none;
 }
 
@@ -8310,7 +8309,6 @@ path[stroke="rgb(123,162,255)"] {
 [mask="url(#svg-mask-diagonal-facepile-typing-64)"],
 [mask="url(#svg-mask-diagonal-facepile-typing-80)"],
 [mask="url(#svg-mask-squircle)"],
-.mask_db811b foreignObject,
 .avatarDecorationHint_f89da9 foreignObject,
 .bd-who-reacted__reactors:not(:empty) foreignObject,
 .inspectedIndicator_c6367b {
@@ -11384,7 +11382,6 @@ path[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"] {
 	background-color: rgba(0, 0, 0, 0);
 }
 
-.mask_db811b foreignObject,
 .clanIconMask_e0fe28 foreignObject,
 .clanIconInner_e0fe28 foreignObject,
 .mask_ca5f52 foreignObject,
