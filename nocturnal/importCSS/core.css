@@ -636,7 +636,7 @@
 }
 
 .attachWrapper__0923f,
-.button__201d5:not(.lookFilled__201d5.colorGreen__201d5):not(.lookFilled__201d5.colorWhite__201d5):not(.lookFilled__201d5.colorPrimary__201d5):not(.lookFilled__201d5.colorBrand__201d5):not(.lookOutlined__201d5):not(.lookLink__201d5):not(.lookBlank__201d5),
+.button__201d5:not(.colorBrandInverted__201d5):not(.lookInverted__201d5):not(.lookFilled__201d5.colorGreen__201d5):not(.lookFilled__201d5.colorWhite__201d5):not(.lookFilled__201d5.colorPrimary__201d5):not(.lookFilled__201d5.colorBrand__201d5):not(.lookOutlined__201d5):not(.lookLink__201d5):not(.lookBlank__201d5),
 .button__6af3a {
 	border: none;
 }
@@ -2945,7 +2945,7 @@ span.button__67645.enabled__67645:hover,
 }
 
 .option__3f413.focused__3f413,
-.option__3f413:focus,
+.option__3f413:focus-visible,
 .css-1yoocth-option:active,
 .css-bvzh9g-option:active {
 	background-color: rgba(0, 0, 0, .25);
@@ -2954,7 +2954,8 @@ span.button__67645.enabled__67645:hover,
 
 .option__3f413[aria-selected=true]:not(.option__3f413.multi__3f413),
 .option__3f413[aria-selected=true]:hover,
-.css-12hzpgx-option {
+.css-12hzpgx-option,
+.css-12hzpgx-option:active {
 	background-color: rgba(0, 0, 0, .35);
 	border: none;
 }
@@ -9692,21 +9693,30 @@ h3.improved__1689b:after,
 path[fill="var(--text-secondary)"],
 path[fill="var(--text-muted-on-default)"],
 path[fill="var(--header-secondary)"],
-path[fill="var(--interactive-normal)"] {
+path[fill="var(--interactive-normal)"],
+rect[fill="var(--text-secondary)"],
+rect[fill="var(--text-muted-on-default)"],
+rect[fill="var(--header-secondary)"],
+rect[fill="var(--interactive-normal)"] {
 	fill: #fff;
 }
 
 .filterIcon__9dd6b path[fill="var(--text-muted)"],
 path[fill="var(--text-muted)"],
 path[fill="var(--header-muted)"],
-path[fill="var(--textbox-markdown-syntax)"] {
+path[fill="var(--textbox-markdown-syntax)"],
+rect[fill="var(--text-muted)"],
+rect[fill="var(--header-muted)"],
+rect[fill="var(--textbox-markdown-syntax)"] {
 	fill: #e9eaeb;
 }
 
 .filterIcon__9dd6b path[fill="var(--control-brand-foreground)"],
 .shieldIcon__6f7ce path[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"],
 path[fill="var(--control-brand-foreground)"],
-path[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
+path[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"],
+rect[fill="var(--control-brand-foreground)"],
+rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 	fill: var(--senary);
 }
 
@@ -10301,7 +10311,6 @@ path[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 .line_d878e7,
 .marker_d878e7,
 .marker_d878e7 .empty_d878e7,
-.content__79cbe,
 .darkCardBackground_c3d04b,
 .mainTableContainer_fa2640,
 .movedTable_fa2640,
@@ -10348,6 +10357,8 @@ path[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 .pageWrapper__6db1d,
 .container__88e24,
 div.cardContainer__88e24,
+&.content__79cbe,
+.content__79cbe,
 .container_d829e7,
 .ctaContainer_d829e7 {
 	background-color: var(--backgroundDark);
@@ -10649,7 +10660,12 @@ path[fill="var(--text-brand)"],
 path[fill="#949cf7"],
 path[fill="#93a7fd"],
 path[fill="#7a8ef9"],
-path[fill="#6a7df6"] {
+path[fill="#6a7df6"],
+rect[fill="var(--text-brand)"],
+rect[fill="#949cf7"],
+rect[fill="#93a7fd"],
+rect[fill="#7a8ef9"],
+rect[fill="#6a7df6"] {
 	fill: var(--senary);
 }
 
@@ -11199,6 +11215,12 @@ path[fill="#6a7df6"] {
 	background-color: #0c0e12;
 }
 
+rect[fill="#5865f2"],
+rect[fill="var(--brand-500)"],
+rect[fill="var(--badge-brand-text)"],
+rect[fill="var(--bg-brand)"],
+rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"],
+path[fill="#5865f2"],
 path[fill="var(--brand-500)"],
 path[fill="var(--badge-brand-text)"],
 path[fill="var(--bg-brand)"],
@@ -11995,16 +12017,20 @@ body {
 	color: #2ca8de !important;
 }
 
-path[fill="brand-260"] {
+path[fill="brand-260"],
+rect[fill="brand-260"] {
 	fill: var(--nonary);
 }
 
-path[fill="var(--mention-foreground)"] {
+path[fill="var(--mention-foreground)"],
+rect[fill="var(--mention-foreground)"] {
 	fill: var(--denaryformentions);
 }
 
 path[fill="201, 205, 251"],
-path[fill="badge-brand-bg"] {
+path[fill="badge-brand-bg"],
+rect[fill="201, 205, 251"],
+rect[fill="badge-brand-bg"] {
 	fill: var(--denary);
 }
 
@@ -12122,12 +12148,6 @@ svg.avatarDecoration__44b0c,
 	color: var(--primary-300) !important;
 }
 
-.avatar__5906b,
-.avatar_a36dee {
-	width: 32px !important;
-	height: 32px !important;
-}
-
 .row_d5ae15.selected_d5ae15 .rowInner_d5ae15 {
 	background-color: rgba(0, 0, 0, .5) !important;
 }
@@ -12158,7 +12178,8 @@ svg.avatarDecoration__44b0c,
 	background-color: var(--senary) !important;
 }
 
-path[fill="brand-230"] {
+path[fill="brand-230"],
+rect[fill="brand-230"] {
 	fill: var(--denary);
 }
 
@@ -12167,7 +12188,9 @@ path[fill="brand-230"] {
 }
 
 path[fill="222, 224, 252"],
-path[fill="brand-200"] {
+path[fill="brand-200"],
+rect[fill="222, 224, 252"],
+rect[fill="brand-200"] {
 	fill: var(--undenary);
 }
 
@@ -13756,7 +13779,9 @@ path[fill="brand-200"] {
 	stroke: rgba(0, 0, 0, .95);
 }
 
-.recentClipsPopout__20c92:after {
+.recentClipsPopout__20c92:after,
+.popoutRoot__79cbe.top__79cbe.arrowAlignmentMiddle__79cbe:before,
+.popoutRoot__79cbe.top__79cbe.arrowAlignmentTop__79cbe:before {
 	border-top-color: var(--backgroundDark);
 }
 
@@ -13900,6 +13925,8 @@ path[fill="brand-200"] {
 .slider_a562c8 .grabber_a562c8,
 .standardStickerShortcut__3ad28,
 .keywordsTextArea__6a631,
+&.contentWithMedia__79cbe,
+.contentWithMedia__79cbe,
 .fullRegionDropdownButton_f1ceac {
 	border: none;
 }
@@ -13953,4 +13980,34 @@ path[fill="brand-200"] {
 .builtInSeparator_b1e4f3 {
 	border-color: rgba(0, 0, 0, .95);
 	margin-right: -6px;
+}
+
+.avatarSizeOverride_ee658d:before {
+	width: calc(100% + 16px) !important;
+	height: calc(100% + 16px) !important;
+}
+
+.avatar_a36dee:before,
+.avatar__5906b:before {
+	width: calc(100% - 2px) !important;
+	height: calc(100% - 2px) !important;
+}
+
+.illustration_ee658d {
+	z-index: 1;
+}
+
+path[fill="#999CF4"],
+rect[fill="#999CF4"] {
+	fill: #41c1e8;
+}
+
+path[fill="#ACB0FF"],
+rect[fill="#ACB0FF"] {
+	fill: #54d5f3;
+}
+
+path[fill="#D3D6ED"],
+rect[fill="#D3D6ED"] {
+	fill: #7bfbe1;
 }
