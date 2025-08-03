@@ -2929,8 +2929,9 @@ span.button__67645.enabled__67645:hover,
 .lookFilled__3f413.popout__3f413,
 .lookFilled__3f413.popout__3f413.popoutPositionTop__3f413,
 .popout__3f413.popoutPositionTop__3f413 {
-	background-color: var(--backgroundDarker);
-	border-color: rgba(0, 0, 0, .95);
+	background-color: var(--backgroundDark);
+	box-shadow: 0 0 16px 8px rgba(0, 0, 0, .5);
+	border: none;
 }
 
 .css-1yoocth-option:active {
@@ -2939,7 +2940,7 @@ span.button__67645.enabled__67645:hover,
 
 .option__3f413:hover,
 .css-1yoocth-option {
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, .15);
 	border: none;
 }
 
@@ -2947,14 +2948,14 @@ span.button__67645.enabled__67645:hover,
 .option__3f413:focus,
 .css-1yoocth-option:active,
 .css-bvzh9g-option:active {
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, .25);
 	border: none;
 }
 
 .option__3f413[aria-selected=true]:not(.option__3f413.multi__3f413),
 .option__3f413[aria-selected=true]:hover,
 .css-12hzpgx-option {
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 0, .35);
 	border: none;
 }
 
