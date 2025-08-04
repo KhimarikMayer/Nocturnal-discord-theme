@@ -4191,22 +4191,20 @@ span.button__67645.enabled__67645:hover,
 	background-color: var(--backgroundDarker) !important;
 }
 
-.uploadIconInnerContainer_d507dd {
-	background-color: rgba(0, 0, 0, .2);
-}
-
+.uploadIconInnerContainer_d507dd,
+.bd-tab-item.selected,
 .clickable_a97e58:hover {
 	background-color: rgba(0, 0, 0, .2);
 }
 
-.container_bc0d35,
-.scrollIcon__0a383 {
-	background-color: var(--backgroundDarker-alt);
+.bd-tab-item.selected {
+	background-color: rgba(0, 0, 0, .4);
 }
 
 .bd-addon-error-icon,
-.bd-tab-item.selected {
-	background-color: rgba(0, 0, 0, .55);
+.container_bc0d35,
+.scrollIcon__0a383 {
+	background-color: var(--backgroundDarker-alt);
 }
 
 .buttonColor__7b3e8,
@@ -4372,10 +4370,7 @@ span.button__67645.enabled__67645:hover,
 	border-color: rgba(0, 0, 0, .35) !important;
 }
 
-.tableContainer_ef2eb4 {
-	background-color: rgba(0, 0, 0, .2);
-}
-
+.tableContainer_ef2eb4,
 .memberRow__9a73f:hover {
 	background-color: rgba(0, 0, 0, .2);
 }
@@ -4465,10 +4460,6 @@ span.button__67645.enabled__67645:hover,
 
 .userContainer_f91b40 {
 	border: 1px solid rgba(0, 0, 0, .95);
-}
-
-.topGuildEmojiBadge_aeaaeb {
-	background: linear-gradient(to top left, #f04747, #faa61a);
 }
 
 .qualitySettingsContainer_c6d3dc,
@@ -5169,19 +5160,19 @@ span.button__67645.enabled__67645:hover,
 	padding-left: 28px
 }
 
-.bd-addon-error {
+.theme-dark .bd-addon-error {
 	background-color: rgba(0, 0, 0, .2);
 	border-color: rgba(0, 0, 0, 0)
 }
 
-.bd-addon-error:hover {
-	border-color: rgba(0, 0, 0, .55)
+.theme-dark .bd-addon-error:hover {
+	border-color: rgba(0, 0, 0, .95);
 }
 
 .bd-addon-error-stack code {
-	background-color: rgba(0, 0, 0, 0);
-	border: 1px solid rgba(0, 0, 0, .95);
-	scrollbar-color: rgba(0, 0, 0, .35) rgba(0, 0, 0, 0);
+	background-color: var(--backgroundDark);
+	border: 1px solid var(--backgroundDarker);
+	scrollbar-color: var(--backgroundDarker) var(--backgroundDark);
 }
 
 .preview__4e29d {
