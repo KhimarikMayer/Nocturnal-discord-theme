@@ -2623,7 +2623,6 @@ svg[name=Nitro] g path {
 .connectionHeader_c7f964,
 .header__812a7,
 .enableContainer__5ea8c,
-.searchHeader_f3b986,
 .guildHeader__30707 {
 	background-color: rgb(18, 21, 27);
 	border: none;
@@ -6125,10 +6124,6 @@ svg.contentImage__42bf5 path {
 	background: var(--background-gradient-high, var(--backgroundDarker)) !important;
 }
 
-.searchHeader_f3b986 {
-	background: var(--background-gradient-chat, rgba(0, 0, 0, .15));
-}
-
 .header_c791b2.container__9293f.themed__9293f {
 	--__header-bar-background: var(--backgroundDarker);
 	background: var(--background-gradient-high, var(--__header-bar-background));
@@ -8968,6 +8963,7 @@ path[stroke="rgb(123,162,255)"] {
 .container__0d0f9,
 .bodySpacerTopBorder__53cea,
 .bodySpacerBottomBorder__53cea,
+.searchHeader_f3b986,
 .header__38524 {
 	border-color: rgba(0, 0, 0, .95);
 }
@@ -11438,7 +11434,6 @@ div.profileThemedContainer__656be .inner_c0bea0 {
 .panels_c48ade,
 .container__0e476,
 .inlineContainer__74017:not(.flushContainer__74017),
-.searchHeader_f3b986,
 .optionPillItem__3f413 button .optionPill__3f413,
 .channelRow_e4503a,
 .header_f369db,
