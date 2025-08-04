@@ -2606,7 +2606,6 @@ svg[name=Nitro] g path {
 .connectionHeader_c7f964,
 .header__812a7,
 .enableContainer__5ea8c,
-.searchHeader_f3b986,
 .guildHeader__30707 {
 	background-color: rgb(18, 21, 27);
 	border: none;
@@ -6013,10 +6012,6 @@ svg.contentImage__42bf5 path {
 	background: var(--background-gradient-high, var(--backgroundDarker)) !important;
 }
 
-.searchHeader_f3b986 {
-	background: var(--background-gradient-chat, rgba(0, 0, 0, .15));
-}
-
 .header_c791b2.container__9293f.themed__9293f {
 	--__header-bar-background: var(--backgroundDarker);
 	background: var(--background-gradient-high, var(--__header-bar-background));
@@ -8818,6 +8813,7 @@ path[stroke="rgb(123,162,255)"] {
 .container__0d0f9,
 .bodySpacerTopBorder__53cea,
 .bodySpacerBottomBorder__53cea,
+.searchHeader_f3b986,
 .header__38524 {
 	border-color: rgba(0, 0, 0, .95);
 }
@@ -11268,7 +11264,6 @@ div.profileThemedContainer__656be .inner_c0bea0 {
 .panels_c48ade,
 .container__0e476,
 .inlineContainer__74017:not(.flushContainer__74017),
-.searchHeader_f3b986,
 .optionPillItem__3f413 button .optionPill__3f413,
 .channelRow_e4503a,
 .header_f369db,
@@ -12690,10 +12685,13 @@ svg.avatarDecoration__44b0c,
 .modalRoot_fc200b .modalFooter_fc200b,
 .messageGroupWrapper__45690 .guildInviteContainer__083ae,
 .messageGroupWrapper__45690 .footerContent__083ae,
+.messageGroupWrapper__45690 .avatarWrapper_dca174,
 .messageContainer__95796 .guildInviteContainer__083ae,
 .messageContainer__95796 .footerContent__083ae,
+.messageContainer__95796 .avatarWrapper_dca174,
 .messages__1ccd1 .guildInviteContainer__083ae,
 .messages__1ccd1 .footerContent__083ae,
+.messages__1ccd1 .avatarWrapper_dca174,
 .topPerksCardLabelContainer__3add8 {
 	border: none;
 	background-color: var(--backgroundDarker-alt);
