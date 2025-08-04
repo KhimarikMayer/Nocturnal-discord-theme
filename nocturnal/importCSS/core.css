@@ -8662,6 +8662,7 @@ path[stroke="rgb(123,162,255)"] {
 #lazyLoader>.channel,
 #lazyLoader .stats,
 .pill__33d66,
+.default_e18686:hover,
 .clickable__761e5 {
 	background-color: var(--backgroundDarker);
 	border: none;
@@ -12200,7 +12201,8 @@ svg.avatarDecoration__44b0c,
 .container__89463,
 .shopScroll__1feb0,
 .previewBar__9c3be,
-.value__96f95 {
+.value__96f95,
+.noResults__3f413 {
 	background-color: var(--backgroundDark);
 	border: none;
 }
