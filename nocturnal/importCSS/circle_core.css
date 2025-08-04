@@ -2684,7 +2684,7 @@ svg[name=Nitro] g path {
 .notice_c9e42f,
 .notice__30f28,
 .notice_c5cd6a {
-	background-color: rgb(0, 79, 151);
+	background-color: rgb(0, 58, 160);
 	box-shadow: none;
 }
 
@@ -9591,7 +9591,7 @@ rect[fill="var(--control-brand-foreground)"] {
 }
 
 .newMembersNotice_acdcc0:active {
-	background-color: rgb(0, 79, 151);
+	background-color: rgb(0, 58, 160);
 }
 
 .childWrapper__0d706 {
@@ -11821,6 +11821,10 @@ rect[fill="brand-230"] {
 	fill: var(--denary);
 }
 
+[style*="background-color: var(--control-brand-foreground);"] {
+	background-color: var(--quinary) !important;
+}
+
 [style*="background-color: #949cf7;"],
 [style*="background-color: #93a7fd;"],
 [style*="background-color: rgba(148, 156, 247);"],
@@ -11969,10 +11973,6 @@ svg.avatarDecoration__44b0c,
 .root__49fc1.modalRoot_c50f62,
 .bd-modal-root {
 	box-shadow: none !important;
-}
-
-[style*="background-color: var(--control-brand-foreground);"] {
-	background-color: var(--quinary) !important;
 }
 
 .container__6a6d6,
