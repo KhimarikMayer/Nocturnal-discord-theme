@@ -546,9 +546,12 @@
 	--denary: rgb(121, 255, 243);
 	--undenaryforreactions: color-mix(in oklab, rgb(145, 255, 243, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--undenary: rgb(140, 255, 243);
-	--mentionedmessages: color-mix(in oklab, rgb(0, 176, 244, 0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessageshover: color-mix(in oklab, rgb(0, 176, 244, 0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessagesbefore: color-mix(in oklab, rgb(0, 176, 244) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--duodenary: rgb(159, 255, 243);
+	--tredenary: rgb(159, 255, 243);
+	--quattuordenary: rgb(159, 255, 243);
+	--mentionedmessages: color-mix(in oklab, hsl(213.934 calc(1*85.915%) 72.157% /0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessageshover: color-mix(in oklab, hsl(213.934 calc(1*85.915%) 72.157% /0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessagesbefore: color-mix(in oklab, hsl(213.934 calc(1*85.915%) 72.157% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--accent: 0, 231, 169;
 	--glow-intensity: 1;
 	--chat-glow-intensity: var(--glow-intensity);
@@ -580,14 +583,12 @@
 
 .theme-darker {
 	--senary: rgb(34, 179, 237);
-	--nonary: rgb(74, 218, 243);
 	--denaryformentions: rgb(81, 223, 243);
 	--undenaryforreactions: rgb(97, 236, 243);
 }
 
 .theme-midnight {
 	--senary: rgb(18, 162, 234);
-	--nonary: rgb(50, 197, 239);
 	--denaryformentions: rgb(57, 202, 239);
 	--undenaryforreactions: rgb(75, 217, 242);
 }
@@ -3238,7 +3239,7 @@ span.button__67645.enabled__67645:hover,
 }
 
 .highlight {
-	background-color: rgba(0, 176, 244, 0.3);
+	background-color: hsl(213.934 calc(1*85.915%) 72.157% /.3);;
 }
 
 .reaction__23977:hover,
@@ -7719,11 +7720,13 @@ svg.contentImage__42bf5 path {
 	color: var(--primary) !important;
 }
 
+[style="color: var(--control-brand-foreground);"] {
+	color: var(--quinary) !important;
+}
+
 [style="color: var(--text-brand);"],
 [style="color: #949cf7;"],
 [style="color: #93a7fd;"],
-[style="color: var(--control-brand-foreground);"],
-[style="color: hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%);"],
 [style="color: rgba(148, 156, 247);"],
 [style="color: rgba(147, 167, 253);"],
 [style="color: #7a8ef9;"],
@@ -7764,15 +7767,15 @@ svg.contentImage__42bf5 path {
 	background-color: #e9eaeb;
 }
 
-.container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786 {
+.theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786 {
 	background: linear-gradient(151.11deg, var(--secondary) 16.55%, #0067b4 104.36%);
 }
 
-.container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:hover {
+.theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:hover {
 	background: linear-gradient(151.11deg, var(--quaternary) 17.78%, var(--secondary) 82.22%);
 }
 
-.container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:active {
+.theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:active {
 	background: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(151.11deg, var(--secondary) 16.55%, #0067b4 104.36%)
 }
 
@@ -9713,12 +9716,9 @@ rect[fill="var(--textbox-markdown-syntax)"] {
 }
 
 .filterIcon__9dd6b path[fill="var(--control-brand-foreground)"],
-.shieldIcon__6f7ce path[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"],
 path[fill="var(--control-brand-foreground)"],
-path[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"],
-rect[fill="var(--control-brand-foreground)"],
-rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
-	fill: var(--senary);
+rect[fill="var(--control-brand-foreground)"] {
+	fill: var(--quinary);
 }
 
 .newBadge_edf232,
@@ -11213,15 +11213,15 @@ rect[fill="#6a7df6"] {
 }
 
 rect[fill="#5865f2"],
+rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"],
 rect[fill="var(--brand-500)"],
 rect[fill="var(--badge-brand-text)"],
 rect[fill="var(--bg-brand)"],
-rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"],
 path[fill="#5865f2"],
+path[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"],
 path[fill="var(--brand-500)"],
 path[fill="var(--badge-brand-text)"],
-path[fill="var(--bg-brand)"],
-path[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"] {
+path[fill="var(--bg-brand)"] {
 	fill: var(--primary);
 }
 
@@ -12149,14 +12149,12 @@ svg.avatarDecoration__44b0c,
 	box-shadow: none !important;
 }
 
-.sizeMin__201d5 .contents__201d5 {
-	display: flex;
+[style*="background-color: var(--control-brand-foreground);"] {
+	background-color: var(--quinary) !important;
 }
 
 [style*="background-color: #949cf7;"],
 [style*="background-color: #93a7fd;"],
-[style*="background-color: var(--control-brand-foreground);"],
-[style*="background-color: hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%);"],
 [style*="background-color: rgba(148, 156, 247);"],
 [style*="background-color: rgba(147, 167, 253);"],
 [style*="background-color: var(--text-brand);"],
@@ -12558,6 +12556,15 @@ rect[fill="brand-200"] {
 
 .top_b3f026 .item_b3f026.brand_b3f026 {
 	--selected-tab-item-color: var(--senary);
+}
+
+.top_b3f026 .brand_b3f026.item_b3f026:hover {
+	border-bottom-color: var(--primary);
+}
+
+.top_b3f026 .brand_b3f026.item_b3f026:active,
+.top_b3f026 .brand_b3f026.selected_b3f026.item_b3f026 {
+	border-bottom-color: var(--quinary);
 }
 
 &.theme-dark .lookLink__201d5.colorLink__201d5,
@@ -13268,6 +13275,7 @@ rect[fill="brand-200"] {
 .bottomBar__0f481 {
 	bottom: -8px;
 	border-radius: 16px 16px 0 0;
+	border: none;
 }
 
 .container__08bd2 {
@@ -13910,7 +13918,8 @@ rect[fill="brand-200"] {
 .fullRegionDropdownButton_f1ceac,
 .profileNote__9c3be textarea,
 .profileNote__9c3be textarea:hover,
-:where(.overlay_c0bea0) .theme-dark {
+:where(.overlay_c0bea0) .theme-dark,
+.barBase__0f481 {
 	border: none;
 }
 
