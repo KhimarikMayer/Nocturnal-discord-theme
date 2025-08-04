@@ -876,17 +876,16 @@ svg[name=Nova_Discord] * {
 
 .messageGroupWrapper__45690 {
 	background-color: var(--backgroundDarker);
-	border-color: rgba(0, 0, 0, 0);
-	border-radius: 5px;
-	margin: 0 0 16px 0;
+	border: none;
+	margin: 0 0 6px 0;
 }
 
-.footer__45690,
-.header__45690 {
+.footer__45690 {
 	background-color: rgba(0, 0, 0, .15);
 }
 
-.messagesPopoutWrap__45690 {
+.messagesPopoutWrap__45690,
+.header__45690 {
 	background-color: var(--backgroundDark);
 }
 
@@ -2263,7 +2262,7 @@ svg[name=Nitro] g path {
 	margin-top: 2px;
 }
 
-.messagesPopout__45690:not(.scroller__95796) {
+.messagesPopout__45690[style*="overflow: hidden scroll;"]:not(.scroller__95796) {
 	padding-right: 2px !important;
 }
 
@@ -3442,7 +3441,11 @@ span.button__67645.enabled__67645:hover,
 	}
 }
 
-.header_d9c882,
+.header_d9c882 {
+	background-color: var(--backgroundDarker);
+	border-color: rgba(0, 0, 0, .95);
+}
+
 .chatHeaderBar_a5700d,
 .container_d8f25b,
 .promotionCard_d4883c,
@@ -3486,6 +3489,8 @@ span.button__67645.enabled__67645:hover,
 	background-color: rgba(0, 0, 0, 0);
 }
 
+.container_d9c882,
+.header_d9c882,
 .embedCard__44492,
 .header_c6bf1b,
 .previewContainer__981c8 .messageContainer__981c8 {
@@ -5607,7 +5612,6 @@ svg.contentImage__42bf5 path {
 .scroller__53543,
 .app__160d8,
 .container_e131a9,
-.container_d9c882,
 .container__2692d,
 .container_fc561d,
 .container__7d20c,
@@ -5999,8 +6003,7 @@ svg.contentImage__42bf5 path {
 .background_c54132,
 .emptyPage__5d7c9,
 .scrollerContainer_c6b11b,
-.container__49668,
-.header_d9c882 {
+.container__49668 {
 	background: var(--background-gradient-high, var(--backgroundDarker));
 	border: none;
 }
@@ -7023,6 +7026,10 @@ svg.contentImage__42bf5 path {
 }
 
 .list_c441f0[style*="padding-right: 8px;"] {
+	padding-right: 16px !important;
+}
+
+.list_c441f0[style*="padding-right: 8px;"][style*="overflow: hidden scroll;"] {
 	padding-right: 10px !important;
 }
 
