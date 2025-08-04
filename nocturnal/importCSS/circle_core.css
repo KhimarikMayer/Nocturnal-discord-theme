@@ -10679,7 +10679,7 @@ rect[fill="#6a7df6"] {
 }
 
 .answer__4c520 .answerInner__4c520.currentlyVoting__4c520.selected__4c520 {
-	background-color: rgb(53, 198, 240, 0.15);
+	background-color: rgb(51, 180, 243, 0.15);
 	outline: 1px solid var(--quinary);
 }
 
@@ -10690,7 +10690,7 @@ rect[fill="#6a7df6"] {
 
 .votedStyles_a1443c {
 	--custom-poll-style-vote-percentage: color-mix(in oklab, rgba(0, 138, 230, 0.2) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.2) var(--custom-theme-base-color-amount, 0%));
-	--custom-poll-style-border: color-mix(in oklab, rgb(53, 198, 240, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--custom-poll-style-border: color-mix(in oklab, rgb(51, 180, 243, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 }
 
 .guildCategorySeparator_b9ee0c,
@@ -12352,7 +12352,7 @@ svg.avatarDecoration__44b0c,
 
 &.theme-dark .lookLink__201d5.colorLink__201d5,
 &.theme-dark .lookLink__201d5.colorPrimary__201d5:not(.cancelButton_cc46f0) {
-	color: rgb(53, 198, 240);
+	color: rgb(51, 180, 243);
 }
 
 .radioIndicatorChecked__001a7 .refreshIconFill__001a7 {
@@ -13096,7 +13096,7 @@ svg.avatarDecoration__44b0c,
 
 &.theme-dark .lookLink__201d5.colorLink__201d5:hover .contents__201d5,
 &.theme-dark .lookLink__201d5.colorPrimary__201d5:hover .contents__201d5 {
-	--button--underline-color: rgb(53, 198, 240);
+	--button--underline-color: rgb(51, 180, 243);
 }
 
 #app-mount .unread__6fddf {
