@@ -13772,3 +13772,7 @@ rect[fill="#D3D6ED"] {
 .popoutRoot__79cbe.bottom__79cbe.arrowAlignmentTop__79cbe:before {
 	border-bottom-color: var(--backgroundDark);
 }
+
+.containerSidenav_dc2e0e .contentPanel_dc2e0e {
+	border-left: solid 1px rgba(1, 1, 1, 0.25)
+}
