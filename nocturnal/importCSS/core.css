@@ -1847,7 +1847,7 @@ svg[name=Nitro] g path {
 .imageWrapper__178ee,
 .role__48c1c,
 .embed__623de,
-.scrollableContainer__74017,
+.scrollableContainer__74017:not(.topic__0511a),
 .avatar__183c2 {
 	border-radius: 5px;
 }
@@ -8676,8 +8676,7 @@ path[stroke="rgb(123,162,255)"] {
 	background-color: rgba(0, 0, 0, 0);
 }
 
-.wrapper_ac2cfb,
-.theme-dark .staticToolbar_bba883 {
+.wrapper_ac2cfb {
 	background-color: rgb(18, 21, 27);
 }
 
@@ -8689,7 +8688,8 @@ path[stroke="rgb(123,162,255)"] {
 .row__0624f,
 .unownedStickerLockContainer_ced283,
 .rowContainer__8a920 .videoWrapper__2f4f7,
-.createInspected_c6367b {
+.createInspected_c6367b,
+.theme-dark .staticToolbar_bba883 {
 	background-color: var(--backgroundDarker-alt);
 	border: none;
 }
