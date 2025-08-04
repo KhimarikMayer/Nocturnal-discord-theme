@@ -549,9 +549,9 @@
 	--duodenary: rgb(121, 246, 255);
 	--tredenary: rgb(128, 254, 255);
 	--quattuordenary: rgb(139, 255, 255);
-	--mentionedmessages: color-mix(in oklab, hsl(213.934 calc(1*85.915%) 72.157% /0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessageshover: color-mix(in oklab, hsl(213.934 calc(1*85.915%) 72.157% /0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessagesbefore: color-mix(in oklab, hsl(213.934 calc(1*85.915%) 72.157% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--mentionedmessages: color-mix(in oklab, hsl(209.339 calc(1*100%) 44.51% /0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessageshover: color-mix(in oklab, hsl(209.339 calc(1*100%) 44.51% /0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessagesbefore: color-mix(in oklab, hsl(209.339 calc(1*100%) 44.51% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--accent: 0, 231, 169;
 	--glow-intensity: 1;
 	--chat-glow-intensity: var(--glow-intensity);
@@ -581,18 +581,12 @@
 }
 
 .theme-darker {
-	--mentionedmessages: color-mix(in oklab, hsl(213.077 calc(1*81.25%) 62.353% /0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessageshover: color-mix(in oklab, hsl(213.077 calc(1*81.25%) 62.353% /0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessagesbefore: color-mix(in oklab, hsl(213.077 calc(1*81.25%) 62.353% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--senary: rgb(32, 161, 240);
 	--denaryformentions: rgb(64, 195, 255);
 	--undenaryforreactions: rgb(65, 223, 254);
 }
 
 .theme-midnight {
-	--mentionedmessages: color-mix(in oklab, hsl(212.849 calc(1*80.269%) 56.275% /0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessageshover: color-mix(in oklab, hsl(212.849 calc(1*80.269%) 56.275% /0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessagesbefore: color-mix(in oklab, hsl(212.849 calc(1*80.269%) 56.275% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--senary: rgb(16, 146, 237);
 	--denaryformentions: rgb(40, 174, 251);
 	--undenaryforreactions: rgb(43, 204, 254);
