@@ -12912,10 +12912,13 @@ svg.avatarDecoration__44b0c,
 .modalRoot_fc200b .modalFooter_fc200b,
 .messageGroupWrapper__45690 .guildInviteContainer__083ae,
 .messageGroupWrapper__45690 .footerContent__083ae,
+.messageGroupWrapper__45690 .avatarWrapper_dca174,
 .messageContainer__95796 .guildInviteContainer__083ae,
 .messageContainer__95796 .footerContent__083ae,
+.messageContainer__95796 .avatarWrapper_dca174,
 .messages__1ccd1 .guildInviteContainer__083ae,
 .messages__1ccd1 .footerContent__083ae,
+.messages__1ccd1 .avatarWrapper_dca174,
 .topPerksCardLabelContainer__3add8 {
 	border: none;
 	background-color: var(--backgroundDarker-alt);
