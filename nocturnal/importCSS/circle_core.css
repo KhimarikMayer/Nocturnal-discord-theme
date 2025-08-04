@@ -1351,12 +1351,12 @@ svg.contentImage__42bf5,
 }
 
 .disabled_e03935 {
-	color: rgba(0, 0, 0, .35) !important
+	color: rgba(0, 0, 0, .35) !important;
 }
 
 .divider_c87e85,
 .option_e03935 {
-	background-color: rgba(0, 0, 0, .35)
+	background-color: rgba(0, 0, 0, .35);
 }
 
 .checked_f525d3,
@@ -1365,11 +1365,11 @@ svg.contentImage__42bf5,
 }
 
 .checked_f525d3 svg[name=Checkmark] g polyline {
-	stroke: var(--primary) !important
+	stroke: var(--primary) !important;
 }
 
 #bd-settingspane-container .ui-switch-item .style-description {
-	border-color: rgba(0, 0, 0, .35) !important
+	border-color: rgba(0, 0, 0, .35) !important;
 }
 
 .defaultIndicator__43963 {
@@ -1379,7 +1379,7 @@ svg.contentImage__42bf5,
 .bodySection_ae0d90,
 .root__26095,
 .row_c85137 {
-	background-color: var(--backgroundDarker) !important
+	background-color: var(--backgroundDarker) !important;
 }
 
 .divider__43dab {
@@ -1418,7 +1418,7 @@ svg.contentImage__42bf5,
 
 .bd-modal-wrapper .bd-modal-body,
 .bd-modal-wrapper .bd-modal-inner {
-	background-color: var(--backgroundDark) !important
+	background-color: var(--backgroundDark) !important;
 }
 
 .bd-modal-wrapper .header,
@@ -13315,6 +13315,7 @@ svg.avatarDecoration__44b0c,
 }
 
 .button__6d791.active__6d791 {
+	background-color: var(--primaryforreplyingmessages);
 	border-color: var(--senary);
 }
 
