@@ -1585,10 +1585,6 @@ svg[name=Nitro] g path {
 	background: linear-gradient(to top left, var(--primaryGradient1), var(--primaryGradient2));
 }
 
-.unread__3b95d {
-	background-color: var(--primaryGradient1);
-}
-
 .progressBarContainer_eff079 {
 	background-color: rgba(0, 0, 0, .45) !important
 }
@@ -3710,17 +3706,13 @@ span.button__67645.enabled__67645:hover,
 	bottom: 14px
 }
 
-.base__2b1f5[style*="background-accent"]:not(.iconBadge__6980e, .lockBadge_b4019a, .iconBadge_dfa67d),
-.base__2b1f5[style*="brand-500"]:not(.iconBadge__6980e, .lockBadge_b4019a, .iconBadge_dfa67d),
-.base__2b1f5[style*="primary-500"]:not(.iconBadge__6980e, .lockBadge_b4019a, .iconBadge_dfa67d),
+.base__2b1f5[style*="brand-500"],
 .newBadge__29021,
-.textBadge__2b1f5[style*="background-color: var(--primary-500);"],
 .clipBadgeIcon__8c88a,
 .textBadge__2b1f5[style*="background-color: var(--status-danger-background);"],
 [style*="background-color: var(--bg-brand);"],
 .textBadge__2b1f5[style*="background-color: var(--red-400);"],
 .textBadge__2b1f5[style*="background-color: var(--status-danger);"],
-.textBadge__2b1f5[style*="background-color: var(--background-accent);"],
 [style*="background-color: var(--brand-500);"],
 .textBadge__2b1f5[style*="background-color: var(--button-danger-background);"],
 [style*="background-color: var(--badge-brand-text);"] {
@@ -9814,7 +9806,8 @@ rect[fill="var(--control-brand-foreground)"] {
 .cardSummary__72fa0,
 .cardDescription__72fa0,
 .cardTitle__72fa0,
-.cardAvatar__72fa0 {
+.cardAvatar__72fa0,
+.shopPreviewBanner__51743 {
 	background-color: var(--backgroundDark);
 }
 
@@ -9823,13 +9816,12 @@ rect[fill="var(--control-brand-foreground)"] {
 }
 
 .shopPreviewContainer__51743 {
-	background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)) padding-box, var(--custom-premium-colors-premium-gradient-tier-2-diagonal) border-box;
+	background: linear-gradient(var(--backgroundDarker), var(--backgroundDarker)) padding-box, var(--custom-premium-colors-premium-gradient-tier-2-diagonal) border-box;
 }
 
 .modalFooterShopButton_ced2f2,
 .ctaGradientBackground__39bd2,
-.upsellButton_a3bc57,
-.shopPreviewBanner__51743 {
+.upsellButton_a3bc57 {
 	background-color: rgba(0, 0, 0, 0);
 }
 
