@@ -9019,9 +9019,9 @@ h3.improved__1689b:after,
 	top: calc(100% + 2px);
 }
 
-.uploader_e7d73e,
-.bannedUser_cdb2b0,
-.inviteSettingsInviteRow__1de14 {
+.theme-dark .uploader_e7d73e,
+.theme-dark .bannedUser_cdb2b0,
+.theme-dark .inviteSettingsInviteRow__1de14 {
 	box-shadow: 0 1px 0 0 rgba(0, 0, 0, .95);
 }
 
