@@ -896,7 +896,6 @@ svg[name=Nova_Discord] * {
 }
 
 #bd-settingspane-container .bd-pfbtn,
-.overlay-secondary__6af3a,
 .datePicker__56fec .datePickerHint__56fec .hintValue__56fec,
 .reactionEmojiDetailsClickable_d5cd2d,
 .showMoreButton__84832,
@@ -953,7 +952,6 @@ svg[name=Nova_Discord] * {
 }
 
 #bd-settingspane-container .bd-pfbtn:hover,
-.overlay-secondary__6af3a:hover:not(:disabled),
 .datePicker__56fec .datePickerHint__56fec .hintValue__56fec:hover,
 .reactionEmojiDetailsClickable_d5cd2d:hover,
 .showMoreButton__84832:hover:not(:disabled),
@@ -1006,7 +1004,6 @@ svg[name=Nova_Discord] * {
 }
 
 #bd-settingspane-container .bd-pfbtn:active,
-.overlay-secondary__6af3a:active:not(:disabled),
 .showMoreButton__84832:active:not(:disabled),
 .roleStyleUpsellButton__981c8:active:not(:disabled),
 .iconButton__8a7fc:active:not(:disabled),
