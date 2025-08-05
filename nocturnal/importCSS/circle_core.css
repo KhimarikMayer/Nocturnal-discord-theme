@@ -13725,8 +13725,8 @@ svg.avatarDecoration__44b0c,
 
 .avatar_a36dee:before,
 .avatar__5906b:before {
-	width: calc(100% + 2px) !important;
-	height: calc(100% + 2px) !important;
+	width: calc(100% - 2px) !important;
+	height: calc(100% - 2px) !important;
 }
 
 .illustration_ee658d,
