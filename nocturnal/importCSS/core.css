@@ -5719,7 +5719,6 @@ svg.contentImage__42bf5 path {
 	padding: 16px;
 }
 
-.theme-dark.user-profile-sidebar.outer_c0bea0:not(.custom-theme-background) .avatar__75742:not(.withReactReply__75742),
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .avatar__75742.panel__75742:not(.withReactReply__75742),
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .userPanelInnerThemed_c69a7b .avatarWrapper_f89da9:not(.withReactReply__75742),
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .userPanelInnerThemed_c69a7b .avatar__75742:not(.withReactReply__75742) {
@@ -8780,7 +8779,6 @@ path[stroke="rgb(123,162,255)"] {
 .compact_c19a55 .clanTagChiplet_c19a55>span,
 .chipletContainerInner__10651:not(.guildTag__63ed3),
 .clickable__10651:hover,
-.theme-dark.user-profile-sidebar.outer_c0bea0:not(.custom-theme-background) .row__0a95c:hover,
 .iconPlaceholder_ccbbbb,
 .bannerImage_ccbbbb,
 .textPlaceholder_ccbbbb,
@@ -8959,7 +8957,6 @@ path[stroke="rgb(123,162,255)"] {
 .reasonContainer__958c7,
 .container_d71b96,
 .commandContainer_c94584 .command_c94584:not(:last-child),
-.theme-dark.outer_c0bea0:not(.custom-theme-background) .footer__7f9c0,
 .container__960ef,
 .container__9aed4,
 .separator__4126d,
@@ -12885,7 +12882,6 @@ svg.avatarDecoration__44b0c,
 .roleStylePreviewContainer__981c8,
 .emptyContainer_de8069,
 .authedAppV2__50a54,
-.theme-dark.user-profile-sidebar.outer_c0bea0:not(.custom-theme-background),
 .confirmation__1051d,
 .guildRow__58ae6,
 .right__58ae6,
@@ -13322,7 +13318,8 @@ svg.avatarDecoration__44b0c,
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, var(--backgroundDarker-alt) 100%)
 }
 
-.page_c48ade:has(.main_c08b38) {
+.page_c48ade:has(.main_c08b38),
+.user-profile-sidebar.outer_c0bea0:not(.custom-theme-background) {
 	border-left: solid 1px rgba(1, 1, 1, 0.25) !important;
 }
 
@@ -14096,6 +14093,7 @@ rect[fill="#D3D6ED"] {
 	margin-left: 0;
 }
 
+.theme-dark.outer_c0bea0:not(.custom-theme-background) .footer__7f9c0,
 .title__7449f {
 	border-top: solid 1px rgba(1, 1, 1, 0.25);
 }
