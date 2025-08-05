@@ -6230,7 +6230,6 @@ svg.contentImage__42bf5 path {
 	background-color: #08090c;
 }
 
-.titleInput__5d756:hover,
 .calendarPicker_d27f17 .react-datepicker__navigation.react-datepicker__navigation--next,
 .calendarPicker_d27f17 .react-datepicker__navigation.react-datepicker__navigation--previous {
 	border-color: var(--deprecated-text-input-border-hover);
@@ -7710,9 +7709,13 @@ svg.contentImage__42bf5 path {
 	cursor: default;
 }
 
+.wrapper_d14335 {
+	--custom-input-border-color: rgba(0, 0, 0, 0);
+	--custom-input-hover-border-color: var(--deprecated-text-input-border);
+}
+
 .nameInput_ac72c6,
 .wrapper_a45028:not(:focus-within),
-.wrapper_d14335,
 .nameInput__0511a,
 .tagInputWrapper__69ef9,
 .disabledForm__69ef9 .tagInputWrapper__69ef9:focus-within,
@@ -7723,23 +7726,16 @@ svg.contentImage__42bf5 path {
 .textArea_d19bc9,
 .defaultTextInputWrapper__7b848,
 .input__0ed4f[readonly],
-.input__0ed4f:not(.value__96f95, .nameInputInnerWithEmojiPicker__0511a, .inputWrapperWithEmojiPicker_ac72c6, .inputInnerWithEmojiPicker_ac72c6, .tagInput__69ef9, .multiInputField_b404ff, .textarea__9daae, .traitInput__4cbea, .note_fcb628 textarea, .inputField_d64f22, .fieldBackground_d48a51, .inputInner_a97616, .input_cedfaf, .input__72ba7, .descriptionInput__5579e, .clipTitleInput__1d12e, .defaultTextInput__7b848, .searchBox_d727b3 .searchBoxInput_d727b3, .input__72ba7, .title_d9be46, .messageInput_f2c0a8, .textarea_dde0a8) {
+.input__0ed4f:not(.value__96f95, .nameInputInnerWithEmojiPicker__0511a, .inputWrapperWithEmojiPicker_ac72c6, .inputInnerWithEmojiPicker_ac72c6, .tagInput__69ef9, .multiInputField_b404ff, .textarea__9daae, .traitInput__4cbea, .note_fcb628 textarea, .inputField_d64f22, .fieldBackground_d48a51, .inputInner_a97616, .input_cedfaf, .input__72ba7, .descriptionInput__5579e, .clipTitleInput__1d12e, .defaultTextInput__7b848, .searchBox_d727b3 .searchBoxInput_d727b3, .input__72ba7, .title_d9be46, .messageInput_f2c0a8, .textarea_dde0a8):not(:focus):not(:focus-within) {
 	border-color: rgba(0, 0, 0, 0);
+}
+
+.input__0ed4f:not(.value__96f95, .nameInputInnerWithEmojiPicker__0511a, .inputWrapperWithEmojiPicker_ac72c6, .inputInnerWithEmojiPicker_ac72c6, .tagInput__69ef9, .multiInputField_b404ff, .textarea__9daae, .traitInput__4cbea, .note_fcb628 textarea, .inputField_d64f22, .fieldBackground_d48a51, .inputInner_a97616, .input_cedfaf, .input__72ba7, .descriptionInput__5579e, .clipTitleInput__1d12e, .defaultTextInput__7b848, .searchBox_d727b3 .searchBoxInput_d727b3, .input__72ba7, .title_d9be46, .messageInput_f2c0a8, .textarea_dde0a8):hover:not(:focus):not(:focus-within) {
+	border-color: var(--deprecated-text-input-border);
 }
 
 .tagInputWrapper__69ef9 {
 	background-color: var(--backgroundDarker);
-}
-
-.inputField_d64f22,
-.descriptionInput__5579e,
-.input_cedfaf,
-.input__0ed4f.noBorder__0a7b8,
-.noBorder_bf418d,
-.clipTitleInput__1d12e,
-.input_e6af9c,
-.note_fcb628 textarea {
-	border: none !important;
 }
 
 .searchAnswer_bd8186,
@@ -8003,14 +7999,6 @@ path[stroke="rgb(123,162,255)"] {
 	z-index: 0;
 }
 
-.titleInput__5d756:hover {
-	border-color: var(--deprecated-text-input-border-hover);
-}
-
-.titleInput__5d756:focus {
-	border-color: var(--text-link);
-}
-
 .premiumLabel_e681d1 svg {
 	display: none;
 }
@@ -8077,7 +8065,6 @@ path[stroke="rgb(123,162,255)"] {
 	margin-top: auto;
 }
 
-.titleInput__5d756,
 .input__0ed4f.fieldBackground_eaaeee,
 .soundAddButton_da9eb2.focused_da9eb2,
 .soundAddButton_da9eb2:hover {
