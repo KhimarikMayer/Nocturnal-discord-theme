@@ -3901,10 +3901,12 @@ span.button__67645.enabled__67645:hover,
 
 .sortDropdown_f369db,
 .stepContainer_a68543:hover,
-.postBody__9a337 .tagPill__9a337,
-.postBody__9a337 .pill_a2c9e8,
 .category_d7acc7 {
 	background-color: var(--backgroundDarker);
+}
+
+.theme-dark .tagPill__9a337 {
+	background-color: rgba(0, 0, 0, .9);
 }
 
 .placeholderLine_db5301,
@@ -3969,7 +3971,6 @@ span.button__67645.enabled__67645:hover,
 }
 
 .chatInput_ee8e87,
-.container__5808f,
 .container__6b38f {
 	background-color: var(--backgroundDark);
 	border: none;
