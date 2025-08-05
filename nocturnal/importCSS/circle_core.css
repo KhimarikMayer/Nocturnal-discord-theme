@@ -550,6 +550,8 @@
 	--highlight-messages: rgb(0, 176, 244, 0.3);
 	--buttons-active-primaryGradient1: rgb(0, 102, 184);
 	--buttons-active-primaryGradient2: rgb(0, 184, 102);
+	--new-buttons-active-primaryGradient1: rgb(0, 98, 179);
+	--new-buttons-active-primaryGradient2: rgb(0, 179, 98);
 	--accent: 0, 231, 169;
 	--glow-intensity: 1;
 	--chat-glow-intensity: var(--glow-intensity);
@@ -600,6 +602,8 @@
 	--highlight-messages: rgb(0, 146, 235, 0.3);
 	--buttons-active-primaryGradient1: rgb(0, 103, 180);
 	--buttons-active-primaryGradient2: rgb(0, 180, 103);
+	--new-buttons-active-primaryGradient1: rgb(0, 99, 175);
+	--new-buttons-active-primaryGradient2: rgb(0, 175, 99);
 }
 
 .theme-midnight {
@@ -624,6 +628,8 @@
 	--highlight-messages: rgb(0, 116, 227, 0.3);
 	--buttons-active-primaryGradient1: rgb(0, 90, 189);
 	--buttons-active-primaryGradient2: rgb(0, 189, 90);
+	--new-buttons-active-primaryGradient1: rgb(0, 86, 184);
+	--new-buttons-active-primaryGradient2: rgb(0, 184, 86);
 }
 
 #app-mount {
@@ -1085,7 +1091,7 @@ svg[name=Nova_Discord] * {
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
-	background: linear-gradient(to right, #0063af, #00af63) !important;
+	background: linear-gradient(to right, var(--new-buttons-active-primaryGradient1), var(--new-buttons-active-primaryGradient2)) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: 200% 200% !important;
@@ -2422,7 +2428,7 @@ svg[name=Nitro] g path {
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
-	background: linear-gradient(to right, #0063af, #00af63);
+	background: linear-gradient(to right, var(--new-buttons-active-primaryGradient1), var(--new-buttons-active-primaryGradient2));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%
