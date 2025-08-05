@@ -529,24 +529,27 @@
 	--primaryformentions: color-mix(in oklab, rgb(0, 138, 230, 0.23921568627450981) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.23921568627450981) var(--custom-theme-base-color-amount, 0%));
 	--primaryforreplyingmessages: color-mix(in oklab, rgb(0, 138, 230, 0.1607843137254902) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%) / 0.1607843137254902) var(--custom-theme-base-color-amount, 0%));
 	--primaryforcodes: color-mix(in oklab, rgb(0, 138, 230, 0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
-	--secondary: rgb(11, 147, 233);
-	--tertiary: rgb(20, 155, 235);
-	--quaternary: rgb(28, 162, 237);
-	--quinary: rgb(51, 180, 243);
-	--senary: color-mix(in oklab, rgb(57, 186, 244) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--septenary: rgb(67, 194, 248);
-	--octonary: rgb(85, 209, 252);
-	--nonary: rgb(95, 218, 255);
-	--denaryformentions: color-mix(in oklab, rgb(101, 224, 255, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--denary: rgb(104, 227, 255);
-	--undenaryforreactions: color-mix(in oklab, rgb(113, 242, 255, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--undenary: rgb(113, 237, 255);
-	--duodenary: rgb(121, 246, 255);
-	--tredenary: rgb(128, 254, 255);
-	--quattuordenary: rgb(139, 255, 255);
-	--mentionedmessages: color-mix(in oklab, hsl(209.339 calc(1*100%) 44.51% /0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessageshover: color-mix(in oklab, hsl(209.339 calc(1*100%) 44.51% /0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessagesbefore: color-mix(in oklab, hsl(209.339 calc(1*100%) 44.51% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--secondary: rgb(11, 153, 232);
+	--tertiary: rgb(24, 160, 232);
+	--quaternary: rgb(29, 173, 236);
+	--quinary: rgb(53, 198, 240);
+	--senary: color-mix(in oklab, rgb(59, 204, 241) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--septenary: rgb(75, 217, 242);
+	--octonary: rgb(97, 236, 243);
+	--nonary: rgb(111, 247, 243);
+	--denaryformentions: color-mix(in oklab, rgb(118, 252, 243, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--denary: rgb(121, 255, 243);
+	--undenaryforreactions: color-mix(in oklab, rgb(145, 255, 243, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--undenary: rgb(140, 255, 243);
+	--duodenary: rgb(158, 255, 251);
+	--tredenary: rgb(158, 255, 251);
+	--quattuordenary: rgb(158, 255, 251);
+	--mentionedmessages: color-mix(in oklab, rgb(0, 176, 244, 0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessageshover: color-mix(in oklab, rgb(0, 176, 244, 0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessagesbefore: color-mix(in oklab, rgb(0, 176, 244, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--highlight-messages: rgb(0, 176, 244, 0.3);
+	--buttons-active-primaryGradient1: rgb(0, 102, 184);
+	--buttons-active-primaryGradient2: rgb(0, 184, 102);
 	--accent: 0, 231, 169;
 	--glow-intensity: 1;
 	--chat-glow-intensity: var(--glow-intensity);
@@ -576,15 +579,51 @@
 }
 
 .theme-darker {
-	--senary: rgb(32, 161, 240);
-	--denaryformentions: rgb(64, 195, 255);
-	--undenaryforreactions: rgb(65, 223, 254);
+	--secondary: rgb(13, 150, 231);
+	--tertiary: rgb(18, 162, 234);
+	--quaternary: rgb(33, 169, 233);
+	--quinary: rgb(52, 189, 242);
+	--senary: color-mix(in oklab, rgb(34, 179, 237) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--septenary: rgb(80, 212, 236);
+	--octonary: rgb(100, 230, 238);
+	--nonary: rgb(113, 242, 239);
+	--denary: rgb(124, 252, 240);
+	--denaryformentions: color-mix(in oklab, rgb(81, 223, 243, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--undenary: rgb(138, 255, 240);
+	--undenaryforreactions: color-mix(in oklab, rgb(97, 236, 243, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--duodenary: rgb(159, 255, 243);
+	--tredenary: rgb(177, 255, 242);
+	--quattuordenary: rgb(189, 255, 242);
+	--mentionedmessages: color-mix(in oklab, rgb(0, 146, 235, 0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessageshover: color-mix(in oklab, rgb(0, 146, 235, 0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessagesbefore: color-mix(in oklab, rgb(0, 146, 235, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--highlight-messages: rgb(0, 146, 235, 0.3);
+	--buttons-active-primaryGradient1: rgb(0, 103, 180);
+	--buttons-active-primaryGradient2: rgb(0, 180, 103);
 }
 
 .theme-midnight {
-	--senary: rgb(16, 146, 237);
-	--denaryformentions: rgb(40, 174, 251);
-	--undenaryforreactions: rgb(43, 204, 254);
+	--secondary: rgb(11, 147, 233);
+	--tertiary: rgb(20, 155, 235);
+	--quaternary: rgb(28, 162, 237);
+	--quinary: rgb(51, 180, 243);
+	--senary: color-mix(in oklab, rgb(18, 162, 234) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--septenary: rgb(67, 194, 248);
+	--octonary: rgb(85, 209, 252);
+	--nonary: rgb(95, 218, 255);
+	--denary: rgb(104, 227, 255);
+	--denaryformentions: color-mix(in oklab, rgb(57, 202, 239, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--undenary: rgb(113, 237, 255);
+	--undenaryforreactions: color-mix(in oklab, rgb(75, 217, 242, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));;
+	--duodenary: rgb(121, 246, 255);
+	--tredenary: rgb(128, 254, 255);
+	--quattuordenary: rgb(139, 255, 255);
+	--mentionedmessages: color-mix(in oklab, rgb(0, 116, 227, 0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessageshover: color-mix(in oklab, rgb(0, 116, 227, 0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessagesbefore: color-mix(in oklab, rgb(0, 116, 227, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--highlight-messages: rgb(0, 116, 227, 0.3);
+	--buttons-active-primaryGradient1: rgb(0, 90, 189);
+	--buttons-active-primaryGradient2: rgb(0, 189, 90);
 }
 
 #app-mount {
@@ -870,10 +909,6 @@ svg[name=Nova_Discord] * {
 	box-shadow: 0 0 10px 10px rgba(0, 0, 0, .5) !important;
 }
 
-.message__89466 {
-	background-color: rgba(0, 0, 0, 0) !important;
-}
-
 .messageGroupWrapper__45690 {
 	background-color: var(--backgroundDarker);
 	border: none;
@@ -1039,7 +1074,7 @@ svg[name=Nova_Discord] * {
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
-	background: linear-gradient(to right, #005abd, #00bd5a) !important;
+	background: linear-gradient(to right, var(--buttons-active-primaryGradient1), var(--buttons-active-primaryGradient2)) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: 200% 200% !important;
@@ -1050,7 +1085,7 @@ svg[name=Nova_Discord] * {
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
-	background: linear-gradient(to right, #0056b8, #00b856) !important;
+	background: linear-gradient(to right, #0063af, #00af63) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: 200% 200% !important;
@@ -1078,8 +1113,16 @@ svg.contentImage__42bf5,
 }
 
 .newMessagesBar__0f481:active {
-	background-color: #003aa0;
+	background-color: rgb(0, 78, 153);
 	padding-top: 0;
+}
+
+.theme-darker .newMessagesBar__0f481:active {
+	background-color: rgb(0, 79, 151);
+}
+
+.theme-midnight .newMessagesBar__0f481:active {
+	background-color: rgb(0, 58, 160);
 }
 
 #pluginNotice {
@@ -2382,7 +2425,7 @@ svg[name=Nitro] g path {
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
-	background: linear-gradient(to right, #005abd, #00bd5a);
+	background: linear-gradient(to right, var(--buttons-active-primaryGradient1), var(--buttons-active-primaryGradient2));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%
@@ -2392,7 +2435,7 @@ svg[name=Nitro] g path {
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
-	background: linear-gradient(to right, #0056b8, #00b856);
+	background: linear-gradient(to right, #0063af, #00af63);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%
@@ -2418,7 +2461,7 @@ svg[name=Nitro] g path {
 .lookFilled__201d5.colorWhite__201d5.tierCardButton_a45ed3:active:not(:disabled) {
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
-	background-color: rgb(0, 90, 189) !important;
+	background-color: rgb(0, 102, 184) !important;
 }
 
 .cta_a1eddf:active,
@@ -2686,8 +2729,20 @@ svg[name=Nitro] g path {
 .notice_c9e42f,
 .notice__30f28,
 .notice_c5cd6a {
-	background-color: rgb(0, 58, 160);
+	background-color: rgb(0, 78, 153);
 	box-shadow: none;
+}
+
+.theme-darker .notice_c9e42f,
+.theme-darker .notice__30f28,
+.theme-darker .notice_c5cd6a {
+	background-color: rgb(0, 79, 151);
+}
+
+.theme-midnight .notice_c9e42f,
+.theme-midnight .notice__30f28,
+.theme-midnight .notice_c5cd6a {
+	background-color: rgb(0, 58, 160);
 }
 
 .exampleContainer_b34334 {
@@ -3229,7 +3284,7 @@ span.button__67645.enabled__67645:hover,
 }
 
 .highlight {
-	background-color: hsl(209.339 calc(1*100%) 44.51% /.3);
+	background-color: var(--highlight-messages);
 }
 
 .reaction__23977:hover,
@@ -3286,8 +3341,20 @@ span.button__67645.enabled__67645:hover,
 .button_c9e42f:hover,
 .button__30f28:hover,
 .button_c5cd6a:hover {
-	background-color: rgb(0, 116, 210);
+	background-color: rgb(0, 123, 207);
 	border: none;
+}
+
+.theme-darker .button_c9e42f:hover,
+.theme-darker .button__30f28:hover,
+.theme-darker .button_c5cd6a:hover {
+	background-color: rgb(0, 121, 208);
+}
+
+.theme-midnight .button_c9e42f:hover,
+.theme-midnight .button__30f28:hover,
+.theme-midnight .button_c5cd6a:hover {
+	background-color: rgb(0, 116, 210);
 }
 
 .bd-toast.toast-success,
@@ -3302,7 +3369,7 @@ span.button__67645.enabled__67645:hover,
 
 .mediaBarInteraction_b26b79:hover .mediaBarGrabber_b26b79,
 .mediaBarInteractionDragging_b26b79 .mediaBarGrabber_b26b79 {
-	background-color: rgb(0, 90, 189);
+	background-color: rgb(0, 102, 184);
 }
 
 .button_e131a9 .buttonColor_e131a9.buttonActive_e131a9:hover,
@@ -3410,11 +3477,21 @@ span.button__67645.enabled__67645:hover,
 .message_dae006 strong {
 	background-color: rgba(0, 138, 230, 0.15);
 	border-radius: 50px;
-	color: rgb(0, 116, 210);
+	color: rgb(0, 123, 207);
 	padding: .5px 5px;
 }
 
-.theme-dark .message_dae006 strong {
+.theme-darker .message_dae006 strong {
+	color: rgb(0, 121, 208);
+}
+
+.theme-midnight .message_dae006 strong {
+	color: rgb(0, 116, 210);
+}
+
+.theme-dark .message_dae006 strong,
+.theme-darker .message_dae006 strong,
+.theme-midnight .message_dae006 strong {
 	background-color: rgba(0, 138, 230, 0.298);
 	color: var(--undenary);
 }
@@ -3696,7 +3773,7 @@ span.button__67645.enabled__67645:hover,
 }
 
 .newBadgeText__29021 {
-	color: rgb(0, 90, 189);
+	color: rgb(0, 102, 184);
 }
 
 .container__65338,
@@ -4212,7 +4289,7 @@ span.button__67645.enabled__67645:hover,
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
-	background-image: linear-gradient(to right, #005abd, #00bd5a);
+	background-image: linear-gradient(to right, var(--buttons-active-primaryGradient1), var(--buttons-active-primaryGradient2));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%
@@ -4477,7 +4554,7 @@ span.button__67645.enabled__67645:hover,
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
-	background-image: linear-gradient(to right, #005abd, #00bd5a);
+	background-image: linear-gradient(to right, var(--buttons-active-primaryGradient1), var(--buttons-active-primaryGradient2));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%
@@ -6233,9 +6310,9 @@ svg.contentImage__42bf5 path {
 
 .cardPrimary__73069,
 .cardPrimary__73069.editable__73069 {
-	--__card-accent-color: rgba(0, 0, 0, .3);
-	background-color: rgba(0, 0, 0, .3);
-	border: none;
+	--__card-accent-color: var(--backgroundDark);
+	background-color: var(--backgroundDark);
+	border-color: rgba(0, 0, 0, .95);
 }
 
 .forumPost__7d15e.container__9a337:active,
@@ -6694,7 +6771,7 @@ svg.contentImage__42bf5 path {
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
-	background-image: linear-gradient(to right, #005abd, #00bd5a);
+	background-image: linear-gradient(to right, var(--buttons-active-primaryGradient1), var(--buttons-active-primaryGradient2));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%
@@ -7330,10 +7407,26 @@ svg.contentImage__42bf5 path {
 }
 
 .subscriberCountText__2485e {
+	background-color: rgb(0, 123, 207);
+}
+
+.theme-darker .subscriberCountText__2485e {
+	background-color: rgb(0, 121, 208);
+}
+
+.theme-midnight .subscriberCountText__2485e {
 	background-color: rgb(0, 116, 210);
 }
 
 .subscriberCountValue__2485e {
+	background-color: rgb(0, 59, 129);
+}
+
+.theme-darker .subscriberCountText__2485e {
+	background-color: rgb(0, 57, 130);
+}
+
+.theme-midnight .subscriberCountText__2485e {
 	background-color: rgb(0, 52, 132);
 }
 
@@ -7532,7 +7625,7 @@ svg.contentImage__42bf5 path {
 }
 
 .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf:active {
-	background: linear-gradient(to right, #005abd, #00bd5a);
+	background: linear-gradient(to right, var(--buttons-active-primaryGradient1), var(--buttons-active-primaryGradient2));
 	border: 2px solid rgba(0, 0, 0, 0);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -7740,7 +7833,7 @@ svg.contentImage__42bf5 path {
 }
 
 .theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786 {
-	background: linear-gradient(151.11deg, var(--secondary) 16.55%, #005abd 104.36%);
+	background: linear-gradient(151.11deg, var(--secondary) 16.55%, var(--buttons-active-primaryGradient1) 104.36%);
 }
 
 .theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:hover {
@@ -7748,7 +7841,7 @@ svg.contentImage__42bf5 path {
 }
 
 .theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:active {
-	background: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(151.11deg, var(--secondary) 16.55%, #005abd 104.36%)
+	background: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(151.11deg, var(--secondary) 16.55%, var(--buttons-active-primaryGradient1) 104.36%)
 }
 
 .playing_a8e786 .playButtonContainer_a8e786:active {
@@ -8538,12 +8631,15 @@ path[stroke="rgb(123,162,255)"] {
 }
 
 .ripple_a8e786 {
-	background-color: rgb(0, 116, 210);
+	background-color: rgb(0, 123, 207);
 }
 
-.birthdayFeatureBorder-24qmMm {
-	background: -webkit-gradient(linear, left top, left bottom, from(var(--backgroundDark)), to(var(--backgroundDark))) padding-box, -webkit-gradient(linear, left top, right top, from(hsl(234, calc(var(--saturation-factor, 1)*93.1%), 65.7%)), color-stop(hsl(316, calc(var(--saturation-factor, 1)*100%), 66.1%)), to(hsl(79, calc(var(--saturation-factor, 1)*100%), 46.9%))) border-box;
-	background: linear-gradient(var(--backgroundDark), var(--backgroundDark)) padding-box, linear-gradient(90deg, hsl(234, calc(var(--saturation-factor, 1)*93.1%), 65.7%), hsl(316, calc(var(--saturation-factor, 1)*100%), 66.1%), hsl(79, calc(var(--saturation-factor, 1)*100%), 46.9%)) border-box;
+.theme-darker .ripple_a8e786 {
+	background-color: rgb(0, 121, 208);
+}
+
+.theme-midnight .ripple_a8e786 {
+	background-color: rgb(0, 116, 210);
 }
 
 .actionItemEmojiWrapper_d2b0e4 svg {
@@ -8711,7 +8807,6 @@ path[stroke="rgb(123,162,255)"] {
 	border: none;
 }
 
-.cardPrimary__73069.outline__73069,
 .dot__148e9,
 .container_adb50a {
 	border: none;
@@ -9145,7 +9240,7 @@ h3.improved__1689b:after,
 .titleBadge_e4503a,
 .newBadge_faa96b,
 .newBadge__9a337 {
-	color: rgb(0, 90, 189);
+	color: rgb(0, 102, 184);
 }
 
 .bd-modal-footer {
@@ -9667,6 +9762,14 @@ rect[fill="var(--control-brand-foreground)"] {
 }
 
 .newMembersNotice_acdcc0:active {
+	background-color: rgb(0, 78, 153);
+}
+
+.theme-darker .newMembersNotice_acdcc0:active {
+	background-color: rgb(0, 79, 151);
+}
+
+.theme-darker .newMembersNotice_acdcc0:active {
 	background-color: rgb(0, 58, 160);
 }
 
@@ -13988,6 +14091,6 @@ rect[fill="#D3D6ED"] {
 	margin-left: 0;
 }
 
-.title__7449f  {
+.title__7449f {
 	border-top: solid 1px rgba(1, 1, 1, 0.25);
 }
