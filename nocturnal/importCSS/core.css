@@ -7868,7 +7868,6 @@ svg.contentImage__42bf5 path {
 }
 
 .inputInner_b1f01d,
-.input_b1f01d,
 .channelTextArea_f75fb0,
 .inlineContainer__74017:not(.flushContainer__74017) {
 	transition: var(--transition);
@@ -7876,7 +7875,6 @@ svg.contentImage__42bf5 path {
 }
 
 .inputInner_b1f01d:hover,
-.input_b1f01d:hover,
 .channelTextArea_f75fb0:hover:not(.channelTextAreaDisabled__74017),
 .inlineContainer__74017:hover:not(.flushContainer__74017),
 .messageInput__62280:hover {
@@ -7886,7 +7884,6 @@ svg.contentImage__42bf5 path {
 }
 
 .inputInner_b1f01d:focus-within,
-.input_b1f01d:focus-within,
 .channelTextArea_f75fb0:focus-within:not(.channelTextAreaDisabled__74017),
 .inlineContainer__74017:focus-within:not(.flushContainer__74017),
 .messageInput__62280:focus-within {
@@ -11541,7 +11538,8 @@ div.profileThemedContainer__656be .inner_c0bea0 {
 [mask="url(#svg-mask-diagonal-facepile-24)"] img,
 .guildIcon__143a4,
 .icon__1a58a img,
-.traitContainer__4cbea {
+.traitContainer__4cbea,
+html:not(.chat-input) .inputInner_b1f01d {
 	border-radius: 5px;
 }
 
