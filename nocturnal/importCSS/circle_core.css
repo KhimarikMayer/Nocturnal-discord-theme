@@ -12888,7 +12888,10 @@ rect[fill="brand-200"] {
 	overflow-y: hidden;
 }
 
-.scroller__629e4 {
+.scroller__629e4,
+.listScroller__9d78f,
+.avatar_ef4a91.isLast_ef4a91,
+.addMemberRow__01dab {
 	margin-right: 0;
 }
 
@@ -12929,11 +12932,6 @@ rect[fill="brand-200"] {
 
 .folderGroup__48112:not([style*="--custom-folder-color:"]) .noIcon_f34534 {
 	background-color: var(--backgroundDark-95);
-}
-
-.listScroller__9d78f,
-.avatar_ef4a91.isLast_ef4a91 {
-	margin-right: 0;
 }
 
 .theme-dark .image__98cbd {
