@@ -8569,7 +8569,7 @@ path[stroke="rgb(123,162,255)"] {
 
 .icon_d2d51d {
 	border-radius: 5px;
-	margin-bottom: 0.4rem;
+	margin-bottom: 0.45rem;
 }
 
 .theme-dark .itemFilled__001a7[aria-checked=true]:has(.radioBar__001a7[style*="green-360"]) {
@@ -11339,7 +11339,7 @@ path[fill="var(--bg-brand)"] {
 }
 
 .icon_b75563 {
-	margin-bottom: 0.4rem;
+	margin-bottom: 0.45rem;
 }
 
 .content_d5ee5c:after {
@@ -12931,7 +12931,8 @@ rect[fill="brand-200"] {
 }
 
 .container__98cbd,
-.parentContainer__98cbd:hover .container__98cbd {
+.parentContainer__98cbd:hover .container__98cbd,
+.message__89466 {
 	background-color: var(--backgroundDark);
 }
 
