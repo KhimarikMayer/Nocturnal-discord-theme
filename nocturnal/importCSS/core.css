@@ -8601,10 +8601,6 @@ path[stroke="rgb(123,162,255)"] {
 	background-color: var(--backgroundDark-50) !important;
 }
 
-.queryContainer__55c99 .combo_fcddc1 .key_fcddc1 {
-	border-color: var(--backgroundDarker);
-}
-
 .custom-theme-background .tooltip__382e7 {
 	border: none;
 }
@@ -14175,4 +14171,9 @@ rect[fill="#D3D6ED"] {
 	background-color: rgba(0, 0, 0, 0);
 	border: 2px solid var(--chat-avatar-border-color);
 	border-radius: 5px;
+}
+
+.dim_fcddc1 span {
+	background-color: rgba(0, 0, 0, 0);
+	color: var(--backgroundDark);
 }
