@@ -11262,7 +11262,8 @@ rect[fill="#6a7df6"] {
 .tabs__955a3,
 .section_d5ae15,
 .content_f0d60d,
-.empty_d5ae15 {
+.empty_d5ae15,
+.inventoryFilter__1feb0 {
 	padding-right: 14px;
 }
 
@@ -14196,4 +14197,9 @@ rect[fill="#D3D6ED"] {
 
 .themeToggled__11877 {
 	background-color: var(--primary);
+}
+
+.shopBanner__7f856 {
+	outline: none !important;
+	box-shadow: none;
 }
