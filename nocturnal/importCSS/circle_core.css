@@ -1754,6 +1754,12 @@ svg[name=Nitro] g path {
 	box-shadow: 0 0 10px 3px var(--backgroundDark-50) !important;
 }
 
+@media (min-width: 486px) {
+	.theme-dark .selected_bf202d {
+		background-color: rgba(0, 0, 0, .15);
+	}
+}
+
 .theme-dark .childContainer__91a9d,
 .theme-dark .interactive__972a0,
 .theme-dark .navItem__551b0,
