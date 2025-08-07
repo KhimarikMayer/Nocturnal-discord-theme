@@ -766,11 +766,6 @@
 	background-color: var(--backgroundDarker) !important;
 }
 
-.form_f75fb0:before,
-.form_f75fb0:after {
-	display: none;
-}
-
 .content_a8c622 {
 	background-color: rgba(0, 0, 0, 0);
 }
@@ -1398,7 +1393,7 @@ svg.contentImage__42bf5,
 .cardPrimaryEditable__25559:not([style*=rgb]),
 .cardPrimaryOutline__9df8a,
 .cardPrimaryOutlineEditable__2822a,
-.codeRedemptionRedirect_a706ba,
+.theme-dark .codeRedemptionRedirect_a706ba,
 .theme-dark .blockedPaymentsWarning_b7b2cf,
 .paymentPane__01014 {
 	background-color: rgba(0, 0, 0, .3);
@@ -1600,10 +1595,6 @@ svg[name=Nitro] g path {
 
 .categoryFadeBlurple_d02962 {
 	background-color: color-mix(in srgb, var(--primary), rgba(0, 0, 0, 0) 20%);
-}
-
-.children__9293f:after {
-	display: none;
 }
 
 .theme-dark .side_b3f026 .themed_b3f026.item_b3f026::after,
@@ -12079,6 +12070,9 @@ body {
 .notifTabs__8683b,
 .controls__8683b,
 .filter_b02222:hover,
+.safetyTable__573a4,
+.safetyTable__1f3e3,
+.safetyTable_fdf9c0,
 .image__3299f {
 	background-color: var(--backgroundDark-15);
 }
@@ -12368,9 +12362,6 @@ rect[fill="brand-200"] {
 .fieldBackground_d48a51:hover:not(:focus),
 .disabledFieldBackground__523ab,
 .restrictedSafetyTable__573a4,
-.safetyTable__573a4,
-.safetyTable__1f3e3,
-.safetyTable_fdf9c0,
 .shopAll__08415,
 .container__1729d,
 .theme-dark.outer_c0bea0.panel_c0bea0:not(.custom-theme-background),
@@ -13963,7 +13954,6 @@ rect[fill="brand-200"] {
 .icon_ea1e0b,
 .avatarIconContainer__7970d {
 	background-color: var(--backgroundDark);
-	border: none;
 	z-index: 1;
 }
 
