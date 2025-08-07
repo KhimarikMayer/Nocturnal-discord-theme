@@ -272,3 +272,20 @@
 	background-repeat: no-repeat !important;
 	background-size: 200% 200% !important;
 }
+
+.custom-user-profile-theme .avatarIconContainer__7970d {
+	background-color: var(--profile-gradient-primary-color);
+}
+
+.theme-light .background_fdf9c0:after {
+	background-color: var(--background-surface-high);
+}
+
+.theme-light .safetyTable_fdf9c0,
+.user-profile-modal-v2 .row__19fd1:not(:last-child):after {
+	background-color: var(--background-mod-subtle);
+}
+
+.theme-light .background_fdf9c0 {
+	background: url(/assets/5071d09daafd2d99.svg);
+}
