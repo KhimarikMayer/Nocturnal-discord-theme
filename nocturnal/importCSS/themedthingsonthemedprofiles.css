@@ -273,7 +273,7 @@
 	background-size: 200% 200% !important;
 }
 
-.custom-user-profile-theme .avatarIconContainer__7970d {
+.theme-light .avatarIconContainer__7970d {
 	background-color: var(--profile-gradient-primary-color);
 }
 
@@ -282,7 +282,7 @@
 }
 
 .theme-light .safetyTable_fdf9c0,
-.user-profile-modal-v2 .row__19fd1:not(:last-child):after {
+.theme-light .user-profile-modal-v2 .row__19fd1:not(:last-child):after {
 	background-color: var(--background-mod-subtle);
 }
 
