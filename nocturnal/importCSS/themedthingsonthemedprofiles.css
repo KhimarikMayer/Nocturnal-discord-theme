@@ -55,7 +55,11 @@
 .theme-dark.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225,
 .theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225,
 .theme-dark.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225,
-.theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225 {
+.theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225,
+.theme-dark.custom-user-profile-theme .lookFilled__201d5.primary__6af3a,
+.theme-light.custom-user-profile-theme .lookFilled__201d5.primary__6af3a,
+.theme-dark.custom-user-profile-theme .lookFilled__201d5.secondary__6af3a,
+.theme-light.custom-user-profile-theme .lookFilled__201d5.secondary__6af3a {
 	background-color: rgba(0, 0, 0, .5) !important;
 	border: 2px solid var(--profile-gradient-secondary-color) !important;
 	border-radius: 6px !important;
@@ -89,7 +93,15 @@
 .theme-dark.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225:active:not(:disabled),
 .theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225:active:not(:disabled),
 .theme-dark.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225:active:not(:disabled),
-.theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225:active:not(:disabled) {
+.theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225:active:not(:disabled),
+.theme-dark.custom-user-profile-theme .lookFilled__201d5.primary__6af3a:hover:not(:disabled),
+.theme-light.custom-user-profile-theme .lookFilled__201d5.primary__6af3a:hover:not(:disabled),
+.theme-dark.custom-user-profile-theme .lookFilled__201d5.primary__6af3a:active:not(:disabled),
+.theme-light.custom-user-profile-theme .lookFilled__201d5.primary__6af3a:active:not(:disabled),
+.theme-dark.custom-user-profile-theme .lookFilled__201d5.secondary__6af3a:hover:not(:disabled),
+.theme-light.custom-user-profile-theme .lookFilled__201d5.secondary__6af3a:hover:not(:disabled),
+.theme-dark.custom-user-profile-theme .lookFilled__201d5.secondary__6af3a:active:not(:disabled),
+.theme-light.custom-user-profile-theme .lookFilled__201d5.secondary__6af3a:active:not(:disabled) {
 	color: #fff !important;
 	border: 2px solid transparent !important;
 	background-color: var(--profile-gradient-secondary-color);
@@ -120,7 +132,15 @@
 .theme-light.custom-user-profile-theme .lookFilled__201d5.colorPrimary__201d5:disabled,
 .theme-light.custom-user-profile-theme .lookFilled__201d5.colorBrand__201d5:disabled,
 .theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_dfbe6b:disabled,
-.theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225:disabled {
+.theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225:disabled,
+.theme-light.custom-user-profile-theme .lookFilled__201d5.primary__6af3a,
+.theme-light.custom-user-profile-theme .lookFilled__201d5.primary__6af3a:hover,
+.theme-light.custom-user-profile-theme .lookFilled__201d5.primary__6af3a:active,
+.theme-light.custom-user-profile-theme .lookFilled__201d5.primary__6af3a:disabled,
+.theme-light.custom-user-profile-theme .lookFilled__201d5.secondary__6af3a,
+.theme-light.custom-user-profile-theme .lookFilled__201d5.secondary__6af3a:hover,
+.theme-light.custom-user-profile-theme .lookFilled__201d5.secondary__6af3a:active,
+.theme-light.custom-user-profile-theme .lookFilled__201d5.secondary__6af3a:disabled {
 	color: #060607 !important;
 }
 
@@ -243,16 +263,14 @@
 	border-radius: 0 0 6px 6px !important;
 }
 
-.theme-dark.custom-user-profile-theme .innerContainer__39de8 .lookFilled__201d5.colorPrimary__201d5:not(.color_f9d37d.banner_fb7f94),
-.theme-light.custom-user-profile-theme .innerContainer__39de8 .lookFilled__201d5.colorPrimary__201d5:not(.color_f9d37d.banner_fb7f94) {
+.theme-dark.custom-user-profile-theme .innerContainer__39de8 .lookFilled__201d5.colorPrimary__201d5:not(.color_f9d37d.banner_fb7f94) {
 	background-color: rgba(0, 0, 0, .5) !important;
 	border: 2px solid var(--primary) !important;
 	border-radius: 6px !important;
 	color: #fff !important;
 }
 
-.theme-dark.custom-user-profile-theme .innerContainer__39de8 .lookFilled__201d5.colorPrimary__201d5:hover:not(:disabled,.color_f9d37d.banner_fb7f94),
-.theme-light.custom-user-profile-theme .innerContainer__39de8 .lookFilled__201d5.colorPrimary__201d5:hover:not(:disabled,.color_f9d37d.banner_fb7f94) {
+.theme-dark.custom-user-profile-theme .innerContainer__39de8 .lookFilled__201d5.colorPrimary__201d5:hover:not(:disabled,.color_f9d37d.banner_fb7f94) {
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
@@ -262,12 +280,31 @@
 	background-size: 200% 200% !important;
 }
 
-.theme-dark.custom-user-profile-theme .innerContainer__39de8 .lookFilled__201d5.colorPrimary__201d5:active:not(:disabled,.color_f9d37d.banner_fb7f94),
-.theme-light.custom-user-profile-theme .innerContainer__39de8 .lookFilled__201d5.colorPrimary__201d5:active:not(:disabled,.color_f9d37d.banner_fb7f94) {
+.theme-dark.custom-user-profile-theme .innerContainer__39de8 .lookFilled__201d5.colorPrimary__201d5:active:not(:disabled,.color_f9d37d.banner_fb7f94) {
+	color: #fff !important;
+	border: 2px solid rgba(0, 0, 0, 0) !important;
+	background-color: var(--primary);
+	background: linear-gradient(to right, #0066b8, #00b866) !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: 200% 200% !important;
+}
+
+.theme-darker.custom-user-profile-theme .innerContainer__39de8 .lookFilled__201d5.colorPrimary__201d5:active:not(:disabled,.color_f9d37d.banner_fb7f94) {
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
 	background: linear-gradient(to right, #0067b4, #00b467) !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: 200% 200% !important;
+}
+
+.theme-midnight.custom-user-profile-theme .innerContainer__39de8 .lookFilled__201d5.colorPrimary__201d5:active:not(:disabled,.color_f9d37d.banner_fb7f94) {
+	color: #fff !important;
+	border: 2px solid rgba(0, 0, 0, 0) !important;
+	background-color: var(--primary);
+	background: linear-gradient(to right, #005abd, #00bd5a) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: 200% 200% !important;
@@ -289,3 +326,4 @@
 .theme-light .background_fdf9c0 {
 	background: url(/assets/5071d09daafd2d99.svg);
 }
+
