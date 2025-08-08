@@ -1955,7 +1955,6 @@ svg[name=Nitro] g path {
 
 .imageWrapper__178ee,
 .role__48c1c,
-.embed__623de,
 .scrollableContainer__74017:not(.topic__0511a),
 .avatar__183c2 {
 	border-radius: 5px;
@@ -2091,7 +2090,7 @@ svg[name=Nitro] g path {
 
 .customScroller__23e6b>div,
 .sidebarScrollable__53543+.content__53543 {
-	max-width: none !important;
+	max-width: none;
 }
 
 .noticeRegion__23e6b {
@@ -13396,7 +13395,8 @@ rect[fill="brand-200"] {
 .avatar__20a53 rect[fill="#43a25a"],
 .selectionGroup__6b52d,
 .theme-dark .headerBarInner__7449f:after,
-.theme-dark .children__9293f:after {
+.theme-dark .children__9293f:after,
+.container__60fa3.withAccentColor__60fa3:before {
 	display: none;
 }
 
@@ -14195,4 +14195,12 @@ rect[fill="#D3D6ED"] {
 .noChannel__01d5c {
 	border-top: solid 1px var(--border-for-chats);
 	border-left: solid 1px var(--border-for-chats);
+}
+
+.theme-dark .container__60fa3,
+.custom-theme-background .container__60fa3 {
+	background-color: rgba(1, 1, 1, 0.1);
+	border: none;
+	border-left: 2.5px solid var(--__accent-color);
+	border-radius: 4px;
 }
