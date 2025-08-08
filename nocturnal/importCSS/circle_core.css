@@ -716,8 +716,18 @@
 	background-color: var(--backgroundDark) !important;
 }
 
-.theme-dark .peopleListItem_cc6179:hover {
+.theme-dark .listItem__2bb83.active_cc6179,
+.theme-dark .listItem__2bb83:hover,
+.theme-dark .rowItem_a0365b.active_a0365b,
+.theme-dark .rowItem_a0365b:hover {
 	background-color: var(--backgroundDark-25);
+}
+
+.theme-dark .peopleListItem_cc6179.active_cc6179:not(.listItem__2bb83),
+.theme-dark .peopleListItem_cc6179:hover:not(.listItem__2bb83) {
+	background-color: var(--backgroundDark-25);
+	margin-right: 10px;
+	padding-right: 8px;
 }
 
 .actionButton_f8fa06,
@@ -2326,22 +2336,14 @@ svg[name=Nitro] g path {
 }
 
 .theme-dark .peopleListItem_cc6179:not(.listItem__2bb83) {
-	border-top-color: var(--backgroundDark-95);
+	border-top-color: var(--backgroundDark-15);
 	margin-right: 18px;
 }
 
-.theme-dark .peopleListItem_cc6179.active_cc6179,
-.theme-dark .peopleListItem_cc6179:hover,
-.theme-dark .rowItem_a0365b.active_a0365b,
+.theme-dark .listItem__2bb83:hover,
+.theme-dark .peopleListItem_cc6179:hover:not(.listItem__2bb83),
 .theme-dark .rowItem_a0365b:hover {
 	background-color: var(--backgroundDark-15);
-	border-color: rgba(0, 0, 0, 0);
-}
-
-.theme-dark .peopleListItem_cc6179.active_cc6179:not(.listItem__2bb83),
-.theme-dark .peopleListItem_cc6179:hover:not(.listItem__2bb83) {
-	margin-right: 10px;
-	padding-right: 8px;
 }
 
 .item__3d4a0,
