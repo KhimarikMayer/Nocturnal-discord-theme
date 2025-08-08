@@ -13170,7 +13170,9 @@ rect[fill="brand-200"] {
 .theme-darker.messageWrapper__981c8,
 .avatar__20a53 .status_a423bd,
 .avatar__20a53 rect[fill="#43a25a"],
-.selectionGroup__6b52d {
+.selectionGroup__6b52d,
+.theme-dark .headerBarInner__7449f:after,
+.theme-dark .children__9293f:after {
 	display: none;
 }
 
