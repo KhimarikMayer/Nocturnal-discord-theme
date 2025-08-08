@@ -782,10 +782,6 @@
 	background-color: var(--backgroundDark) !important;
 }
 
-.platform-win .sidebar_c48ade {
-	border-radius: 0;
-}
-
 .toolbar_bba883 {
 	background-color: var(--backgroundDark);
 }
@@ -1894,7 +1890,6 @@ svg[name=Nitro] g path {
 
 .sidebar_c48ade {
 	background-color: var(--backgroundDark);
-	border-left: 1.2px solid var(--border-for-chats) !important;
 }
 
 .content_f75fb0:not(.container_c791b2,.emptyPage__5d7c9),
@@ -5833,6 +5828,13 @@ svg.contentImage__42bf5 path {
 	background-color: #1c212c;
 }
 
+.appMount__51fd7 {
+	color: var(--backgroundDark);
+}
+
+.app__160d8,
+.appMount__51fd7,
+body,
 .container__2692d,
 .panels_c48ade {
 	background-color: var(--backgroundDark);
@@ -5846,7 +5848,6 @@ svg.contentImage__42bf5 path {
 .button__02a39,
 .scroller__6fd0e,
 .scroller__53543,
-.app__160d8,
 .container_e131a9,
 .container_fc561d,
 .container__7d20c,
@@ -5863,7 +5864,6 @@ svg.contentImage__42bf5 path {
 .pageWrapperBackgroundPrimary__36469,
 .pageWrapper_a3a4ce,
 .scroller_a39aa3,
-.sidebar_c48ade,
 .container__34c2c,
 .container__55c99,
 .wrapper_cb9592.minimum_cb9592,
@@ -11889,11 +11889,6 @@ div.cardContainer__88e24,
 .container_a2f514,
 .loading__6ef4d {
 	background: var(--background-gradient-high, var(--backgroundDarker));
-}
-
-.appMount__51fd7,
-body {
-	background: var(--background-gradient-high, var(--backgroundDark));
 }
 
 .bd-modal-content {
