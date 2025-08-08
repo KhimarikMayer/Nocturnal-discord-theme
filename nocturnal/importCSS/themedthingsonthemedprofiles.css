@@ -56,10 +56,10 @@
 .theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225,
 .theme-dark.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225,
 .theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225,
-.theme-dark.custom-user-profile-theme .lookFilled__201d5.primary__6af3a,
-.theme-light.custom-user-profile-theme .lookFilled__201d5.primary__6af3a,
-.theme-dark.custom-user-profile-theme .lookFilled__201d5.secondary__6af3a,
-.theme-light.custom-user-profile-theme .lookFilled__201d5.secondary__6af3a {
+.theme-dark.custom-user-profile-theme .primary__6af3a,
+.theme-light.custom-user-profile-theme .primary__6af3a,
+.theme-dark.custom-user-profile-theme .secondary__6af3a,
+.theme-light.custom-user-profile-theme .secondary__6af3a {
 	background-color: rgba(0, 0, 0, .5) !important;
 	border: 2px solid var(--profile-gradient-secondary-color) !important;
 	border-radius: 6px !important;
@@ -94,14 +94,14 @@
 .theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225:active:not(:disabled),
 .theme-dark.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225:active:not(:disabled),
 .theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225:active:not(:disabled),
-.theme-dark.custom-user-profile-theme .lookFilled__201d5.primary__6af3a:hover:not(:disabled),
-.theme-light.custom-user-profile-theme .lookFilled__201d5.primary__6af3a:hover:not(:disabled),
-.theme-dark.custom-user-profile-theme .lookFilled__201d5.primary__6af3a:active:not(:disabled),
-.theme-light.custom-user-profile-theme .lookFilled__201d5.primary__6af3a:active:not(:disabled),
-.theme-dark.custom-user-profile-theme .lookFilled__201d5.secondary__6af3a:hover:not(:disabled),
-.theme-light.custom-user-profile-theme .lookFilled__201d5.secondary__6af3a:hover:not(:disabled),
-.theme-dark.custom-user-profile-theme .lookFilled__201d5.secondary__6af3a:active:not(:disabled),
-.theme-light.custom-user-profile-theme .lookFilled__201d5.secondary__6af3a:active:not(:disabled) {
+.theme-dark.custom-user-profile-theme .primary__6af3a:hover:not(:disabled),
+.theme-light.custom-user-profile-theme .primary__6af3a:hover:not(:disabled),
+.theme-dark.custom-user-profile-theme .primary__6af3a:active:not(:disabled),
+.theme-light.custom-user-profile-theme .primary__6af3a:active:not(:disabled),
+.theme-dark.custom-user-profile-theme .secondary__6af3a:hover:not(:disabled),
+.theme-light.custom-user-profile-theme .secondary__6af3a:hover:not(:disabled),
+.theme-dark.custom-user-profile-theme .secondary__6af3a:active:not(:disabled),
+.theme-light.custom-user-profile-theme .secondary__6af3a:active:not(:disabled) {
 	color: #fff !important;
 	border: 2px solid transparent !important;
 	background-color: var(--profile-gradient-secondary-color);
@@ -133,14 +133,14 @@
 .theme-light.custom-user-profile-theme .lookFilled__201d5.colorBrand__201d5:disabled,
 .theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_dfbe6b:disabled,
 .theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225:disabled,
-.theme-light.custom-user-profile-theme .lookFilled__201d5.primary__6af3a,
-.theme-light.custom-user-profile-theme .lookFilled__201d5.primary__6af3a:hover,
-.theme-light.custom-user-profile-theme .lookFilled__201d5.primary__6af3a:active,
-.theme-light.custom-user-profile-theme .lookFilled__201d5.primary__6af3a:disabled,
-.theme-light.custom-user-profile-theme .lookFilled__201d5.secondary__6af3a,
-.theme-light.custom-user-profile-theme .lookFilled__201d5.secondary__6af3a:hover,
-.theme-light.custom-user-profile-theme .lookFilled__201d5.secondary__6af3a:active,
-.theme-light.custom-user-profile-theme .lookFilled__201d5.secondary__6af3a:disabled {
+.theme-light.custom-user-profile-theme .primary__6af3a,
+.theme-light.custom-user-profile-theme .primary__6af3a:hover,
+.theme-light.custom-user-profile-theme .primary__6af3a:active,
+.theme-light.custom-user-profile-theme .primary__6af3a:disabled,
+.theme-light.custom-user-profile-theme .secondary__6af3a,
+.theme-light.custom-user-profile-theme .secondary__6af3a:hover,
+.theme-light.custom-user-profile-theme .secondary__6af3a:active,
+.theme-light.custom-user-profile-theme .secondary__6af3a:disabled {
 	color: #060607 !important;
 }
 
@@ -326,3 +326,4 @@
 .theme-light .background_fdf9c0 {
 	background: url(/assets/5071d09daafd2d99.svg);
 }
+
