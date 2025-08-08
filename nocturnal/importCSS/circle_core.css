@@ -967,9 +967,10 @@ svg[name=Nova_Discord] * {
 }
 
 .menu_c1e9c4:not(.isBurstReactionPicker__428c0, .menu_ad5fac) {
+	background-color: var(--backgroundDark);
 	border: 1px solid var(--backgroundDark-50) !important;
 	box-sizing: border-box;
-	box-shadow: 0 0 10px 10px var(--backgroundDark-50) !important;
+	box-shadow: 0 0 10px 3px var(--backgroundDark-50) !important;
 }
 
 .messageGroupWrapper__45690 {
@@ -1742,10 +1743,6 @@ svg[name=Nitro] g path {
 	display: none;
 }
 
-.menu_c1e9c4:not(.isBurstReactionPicker__428c0, .menu_ad5fac) {
-	box-shadow: 0 0 10px 3px var(--backgroundDark-50) !important;
-}
-
 @media (min-width: 486px) {
 	.theme-dark .selected_bf202d {
 		background-color: var(--backgroundDark-15);
@@ -2031,7 +2028,6 @@ svg[name=Nitro] g path {
 
 .wrapper__14245,
 .emojiPicker_c0e32c,
-.menu_c1e9c4:not(.menu_ad5fac),
 .channelHeader__35a7e {
 	background-color: var(--backgroundDark);
 }
@@ -5741,6 +5737,7 @@ svg.contentImage__42bf5 path {
 	background-color: #1c212c;
 }
 
+.container__2692d,
 .panels_c48ade {
 	background-color: var(--backgroundDark);
 }
@@ -5755,7 +5752,6 @@ svg.contentImage__42bf5 path {
 .scroller__53543,
 .app__160d8,
 .container_e131a9,
-.container__2692d,
 .container_fc561d,
 .container__7d20c,
 .container_c8ffbb,
@@ -5834,7 +5830,7 @@ svg.contentImage__42bf5 path {
 }
 
 .theme-dark .searchBar__97492 {
-	background: var(--background-gradient-high, rgb(12, 15, 19));
+	background: var(--background-gradient-chat, rgb(12, 15, 19));
 	border: none;
 	border-radius: 50px;
 }
@@ -6134,7 +6130,6 @@ svg.contentImage__42bf5 path {
 .container_c2efea,
 .focused__55c99,
 .searchResultsWrap_a9e706,
-.messages__1ccd1,
 .sidebar__68062,
 .background_c54132,
 .emptyPage__5d7c9,
@@ -10157,10 +10152,6 @@ rect[fill="var(--control-brand-foreground)"] {
 .detailsTooltip_78f589 div.icon_78f589,
 .surpriseMeButton__68a18:hover {
 	background-color: var(--backgroundDark-50);
-}
-
-.messages__1ccd1 .content__908e2 {
-	background: var(--background-gradient-high, var(--backgroundDarker)) !important;
 }
 
 .option__56fec,
