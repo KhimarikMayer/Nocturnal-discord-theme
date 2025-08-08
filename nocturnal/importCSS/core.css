@@ -7712,7 +7712,6 @@ svg.contentImage__42bf5 path {
 
 .progressBarTrack_b28bb7,
 .progressBarMarker__1f1cb,
-.theme-dark .headerArtPlaceholder__553a5,
 .categoryIcon_a1e0e0.selected_a1e0e0 {
 	background-color: #0c0e12;
 	box-shadow: none;
@@ -7722,6 +7721,7 @@ svg.contentImage__42bf5 path {
 	transition: none;
 }
 
+.theme-dark .headerArtPlaceholder__553a5,
 .appContainer__5a4b6:focus,
 .appContainer__5a4b6:hover,
 .full-motion .appContainer__5a4b6:focus,
