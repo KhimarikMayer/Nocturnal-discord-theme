@@ -1536,10 +1536,8 @@ svg.contentImage__42bf5,
 	border: none !important;
 }
 
-.calendarPicker_d27f17 .react-datepicker__day--disabled,
-.calendarPicker_d27f17 .react-datepicker__day--outside-month,
-.calendarPicker_d27f17 .react-datepicker__day.react-datepicker__day--disabled,
-.calendarPicker_d27f17 .react-datepicker__day.react-datepicker__day--disabled:hover {
+.theme-dark .calendarPicker_d27f17 .react-datepicker__day.react-datepicker__day--disabled,
+.theme-dark .calendarPicker_d27f17 .react-datepicker__day.react-datepicker__day--disabled:hover {
 	background-color: var(--backgroundDark-35);
 }
 
@@ -1565,6 +1563,11 @@ svg.contentImage__42bf5,
 .calendarPicker_d27f17 .react-datepicker__day.react-datepicker__day--selected:hover,
 .calendarPicker_d27f17 .react-datepicker__day:hover {
 	background-color: var(--primary);
+}
+
+.calendarPicker_d27f17 .react-datepicker__week:last-of-type>.react-datepicker__day,
+.theme-dark .calendarPicker_d27f17 .react-datepicker__week:last-of-type .react-datepicker__day {
+	border-bottom-color: var(--backgroundDarker-alt);
 }
 
 svg[name=Nitro] g path {
@@ -10952,11 +10955,20 @@ rect[fill="#6a7df6"] {
 }
 
 .answer__4c520 .answerInner__4c520.currentlyVoting__4c520.selected__4c520 {
-	background-color: rgb(51, 180, 243, 0.15);
 	outline: 1px solid var(--quinary);
 }
 
 .votedStyles_a1443c {
+	--custom-poll-style-vote-percentage: color-mix(in oklab, rgba(53, 198, 240, 0.2) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.2) var(--custom-theme-base-color-amount, 0%));
+	--custom-poll-style-border: color-mix(in oklab, rgb(53, 198, 240, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+}
+
+.theme-darker .votedStyles_a1443c {
+	--custom-poll-style-vote-percentage: color-mix(in oklab, rgba(52, 189, 242, 0.2) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.2) var(--custom-theme-base-color-amount, 0%));
+	--custom-poll-style-border: color-mix(in oklab, rgb(52, 189, 242, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+}
+
+.theme-midnight .votedStyles_a1443c {
 	--custom-poll-style-vote-percentage: color-mix(in oklab, rgba(51, 180, 243, 0.2) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.2) var(--custom-theme-base-color-amount, 0%));
 	--custom-poll-style-border: color-mix(in oklab, rgb(51, 180, 243, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 }
@@ -11659,6 +11671,11 @@ html:not(.chat-input) .inputInner_b1f01d {
 	background-color: color-mix(in oklab, var(--backgroundDark), rgba(0, 0, 0, 0) 20%);
 }
 
+.destinationRow__62280 {
+	margin-right: 10px;
+	border-radius: 5px;
+}
+
 .bottomRowAction__34940 .innerBottomRowAction__34940:hover,
 .container_afa88e,
 .iconBackground_f08fc1,
@@ -11926,13 +11943,15 @@ body {
 	fill: var(--primary);
 }
 
-.popout__669b5 .divider__669b5,
-.destinationRow__62280,
+.popout__669b5 .divider__669b5 {
+	margin-right: 6px;
+}
+
 .list__3b260 .row__0a95c,
 .list__3b260 .row__89036,
 .listScroller__9d78f .row__0a95c,
 .listScroller__9d78f .row__89036 {
-	margin-right: 6px;
+	margin-right: 4px;
 }
 
 .defaultThemeSelection__36dee {
@@ -12162,13 +12181,7 @@ rect[fill="brand-200"] {
 	background-color: var(--undenary) !important;
 }
 
-.destinationRow__62280 {
-	margin-right: 10px;
-	border-radius: 5px;
-}
-
 .command_c94584:active:has(.commandSentCTAButton_c94584:first-of-type:hover),
-.destinationRow__62280:not(.disabled__62280)[aria-selected=true],
 .container_cb32c7:hover,
 .keyboard-mode .container_cb32c7:focus,
 .command_c94584:hover,
@@ -12667,7 +12680,7 @@ rect[fill="brand-200"] {
 
 &.theme-dark .lookLink__201d5.colorLink__201d5,
 &.theme-dark .lookLink__201d5.colorPrimary__201d5:not(.cancelButton_cc46f0) {
-	color: rgb(51, 180, 243);
+	color: var(--quinary);
 }
 
 .radioIndicatorChecked__001a7 .refreshIconFill__001a7 {
@@ -13423,7 +13436,7 @@ rect[fill="brand-200"] {
 
 &.theme-dark .lookLink__201d5.colorLink__201d5:hover .contents__201d5,
 &.theme-dark .lookLink__201d5.colorPrimary__201d5:hover .contents__201d5 {
-	--button--underline-color: rgb(51, 180, 243);
+	--button--underline-color: var(--quinary);
 }
 
 #app-mount .unread__6fddf {
