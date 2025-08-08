@@ -3782,9 +3782,6 @@ span.button__67645.enabled__67645:hover,
 .iconWrapper__54b20,
 .result__71961[aria-selected=true],
 .card__88264,
-.previewCard__735fb .card__88264:hover,
-.previewCard_f70348,
-.previewCard_f70348:hover,
 .groupContainer_b6a9f9 {
 	background-color: var(--backgroundDark-20);
 	border: none;
@@ -3797,6 +3794,11 @@ span.button__67645.enabled__67645:hover,
 .separator_e4503a {
 	background-color: var(--backgroundDark-35);
 	border: none;
+}
+
+.previewCard_f70348,
+.previewCard_f70348:hover {
+	background-color: var(--backgroundDark-20);
 }
 
 .childButton__3ed08:active {
@@ -10720,8 +10722,8 @@ html:not(.chat-input) .inputInner_b1f01d {
 	padding-right: 6px;
 }
 
-.guildIcon__4591d.noIcon_f34534 {
-	background-color: var(--primary) !important;
+.guildIcon__4591d {
+	background-color: var(--primary);
 }
 
 .upsellContainer_a3bc57,
