@@ -1898,10 +1898,6 @@ svg[name=Nitro] g path {
 	display: none;
 }
 
-.sidebar_c48ade {
-	background-color: var(--backgroundDark);
-}
-
 .content_f75fb0:not(.container_c791b2, .emptyPage__5d7c9),
 .container_c8ffbb {
 	border-left: 1.2px solid var(--border-for-chats) !important;
@@ -5726,7 +5722,6 @@ svg.contentImage__42bf5 path {
 	top: 8px;
 }
 
-.wrapper_ef3116,
 .multiSelectCheckbox__3f413.checked__3f413,
 .container__50387 {
 	background-color: var(--backgroundDark);
@@ -5787,7 +5782,6 @@ body,
 .content__908e2,
 .theme-dark.custom-theme-background .container_e131a9,
 .panels_c48ade,
-.wrapper_ef3116,
 .container__01ae2,
 .nowPlayingColumn__133bf,
 .noiseCancellationPopout_e131a9,
@@ -12069,7 +12063,6 @@ rect[fill="brand-200"] {
 .bd-install-modal-author-mask,
 .gifFavoriteButton__43deb,
 .homeWrapper__0920e,
-.sidebar_c48ade:after,
 .header__8ef02,
 .buttonSection__49094,
 .colorable_f1ceac.experimentDisconnect_f1ceac.active_f1ceac,
