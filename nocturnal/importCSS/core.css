@@ -7759,10 +7759,7 @@ body,
 .perm-user-avatar,
 .headerArtWrapper__553a5,
 .imageUploaderInner_e4d0bf.avatarUploaderInner_cd0bbe,
-.imageUploaderInner_e4d0bf.avatarUploaderInner_ab876d,
-.wrapper_f7ecac,
-.root__49fc1,
-.childButton__3ed08 {
+.imageUploaderInner_e4d0bf.avatarUploaderInner_ab876d {
 	border-radius: 5px;
 }
 
@@ -10320,7 +10317,8 @@ rect[fill="var(--control-brand-foreground)"] {
 .outline__7fe3a,
 .avatar_f24497,
 .folderButtonInner__48112,
-.circular__1df30 {
+.circular__1df30,
+.popover__2d0ab {
 	border-radius: 8px;
 }
 
@@ -13185,11 +13183,11 @@ rect[fill="brand-200"] {
 }
 
 .popover__2d0ab>.tooltipContainer__2d0ab:first-of-type>.button__2d0ab {
-	border-radius: 3px 0 0 3px;
+	border-radius: 6px 0 0 6px;
 }
 
 .popover__2d0ab>.tooltipContainer__2d0ab:last-of-type>.button__2d0ab {
-	border-radius: 0 3px 3px 0;
+	border-radius: 0 6px 6px 0;
 }
 
 .theme-light .header_c0e32c,
@@ -14160,4 +14158,12 @@ rect[fill="#D3D6ED"] {
 	border: none;
 	border-left: 2.5px solid var(--__accent-color);
 	border-radius: 4px;
+}
+
+.hoverBarButton_f84418:first-of-type {
+	border-radius: 6px 0 0 6px;
+}
+
+.hoverBarButton_f84418:last-of-type {
+	border-radius: 0 6px 6px 0;
 }
