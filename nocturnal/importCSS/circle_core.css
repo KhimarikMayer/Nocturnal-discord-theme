@@ -13765,7 +13765,8 @@ rect[fill="brand-200"] {
 .profileNote__9c3be textarea,
 .profileNote__9c3be textarea:hover,
 :where(.overlay_c0bea0) .theme-dark,
-.barBase__0f481 {
+.barBase__0f481,
+.listContainer__527b1 {
 	border: none;
 }
 
