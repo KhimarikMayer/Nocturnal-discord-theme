@@ -3837,6 +3837,7 @@ span.button__67645.enabled__67645:hover,
 	bottom: 14px
 }
 
+.liveQualityIndicator__30845,
 .base__2b1f5[style*="brand-500"],
 .newBadge__29021,
 .clipBadgeIcon__8c88a,
@@ -12227,6 +12228,11 @@ rect[fill="brand-200"] {
 .primaryButton_af3b89 .text-md\/semibold_cf4812,
 .button__075ec .text-sm\/semibold_cf4812,
 .postButton_d97f89 .text-md\/semibold_cf4812,
+.colorBrand__201d5 .text-md\/semibold_cf4812,
+.colorPrimary__201d5 .text-md\/semibold_cf4812,
+.colorGreen__201d5 .text-md\/semibold_cf4812,
+.primary__6af3a .text-md\/semibold_cf4812,
+.secondary__6af3a .text-md\/semibold_cf4812,
 .addButton_a76561 {
 	font-size: 14px;
 	line-height: inherit;
@@ -12640,7 +12646,8 @@ rect[fill="brand-200"] {
 .parentContainer__5573a:hover .container__5573a,
 .message__89466,
 .page__1feb0,
-.filterBar__11877 {
+.filterBar__11877,
+.sidebar_c48ade:after {
 	background-color: var(--backgroundDark);
 }
 
