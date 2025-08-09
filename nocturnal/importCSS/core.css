@@ -880,10 +880,6 @@
 	letter-spacing: 1.2px;
 }
 
-.option__56fec:after {
-	background-image: none !important;
-}
-
 .searchBar__35e86 {
 	box-shadow: none !important;
 }
@@ -2231,7 +2227,6 @@ svg[name=Nitro] g path {
 }
 
 .statusContainer_f910d0 {
-	border-radius: 6px;
 	right: -8px;
 	bottom: -8px;
 }
@@ -5726,7 +5721,6 @@ html.theme-light .app__160d8::after {
 	color: var(--primary);
 }
 
-.statusDotBackground_ab876d,
 .overflowRolesPopoutArrowWrapper__48c1c,
 svg.gameIcon_b52e4f circle,
 svg.gameIcon_b52e4f path,
@@ -7166,9 +7160,8 @@ body,
 	border-color: var(--backgroundDark-50);
 }
 
-.modalContent__4d95d .footer__4d95d {
+.modalTextContainer__4d95d+.footer__4d95d {
 	background-color: var(--backgroundDarker-alt);
-	border-radius: 0;
 }
 
 .popout__86331 {
@@ -7512,33 +7505,11 @@ body,
 .body__51eb2:not(.hasSplash__51eb2) .iconMask__51eb2,
 .jump__5126c,
 .textInput__97cfe,
-.status_ab876d,
-.statusDotBackground_ab876d,
 .multipleIconWrapper__00943,
 .avatarBackground__6f212,
 .handleFrame__7dce2:after,
 .handleFrame__7dce2:before {
 	background-color: rgba(0, 0, 0, 0);
-}
-
-.status_ab876d,
-.statusDotBackground_ab876d {
-	border-radius: 0;
-}
-
-.status_ab876d {
-	top: 0;
-	left: 0;
-}
-
-.imageUploaderIcon_e4d0bf {
-	z-index: 1;
-}
-
-.status_ab876d,
-.statusDotBackground_ab876d {
-	width: 0;
-	height: 0;
 }
 
 .userPopoutOuter_c69a7b .member-perm.role__48c1c,
