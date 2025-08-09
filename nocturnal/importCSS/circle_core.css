@@ -714,6 +714,7 @@
 .header_adb41f,
 .video__94748 {
 	background-color: var(--backgroundDark) !important;
+	border: none;
 }
 
 .theme-dark .listItem__2bb83.active_cc6179,
@@ -5739,6 +5740,8 @@ svg.contentImage__42bf5 path {
 	color: var(--backgroundDark);
 }
 
+.container__0f711,
+.container_fc561d,
 .app__160d8,
 .appMount__51fd7,
 body,
@@ -5756,7 +5759,6 @@ body,
 .scroller__6fd0e,
 .scroller__53543,
 .container_e131a9,
-.container_fc561d,
 .container__7d20c,
 .container_c8ffbb,
 .container__2637a,
@@ -5766,18 +5768,15 @@ body,
 .privateChannels__35e86,
 .scroller__99e7c,
 .content__37e49,
-.applicationStore_f07d62,
 .shopScrollBackgroundPrimary__28f1d,
 .pageWrapperBackgroundPrimary__36469,
 .pageWrapper_a3a4ce,
 .scroller_a39aa3,
 .container__34c2c,
-.container__55c99,
 .wrapper_cb9592.minimum_cb9592,
 .searchResult__02a39,
 .container__09ccc,
 .container__23c08,
-.container__0f711,
 .bg__960e4,
 .scroller__244e5,
 .panel__5dec7,
@@ -8036,7 +8035,6 @@ path[stroke="rgb(123,162,255)"] {
 #permissions-modal-wrapper .modal-body,
 .clickableAction_c66e86:hover,
 .action_c66e86:hover,
-.voicePanelIntroductionWrapper_e131a9,
 .root__4ad81,
 .wrapper__97f37,
 .upsellPreview_d9161f .action_c66e86,
@@ -8051,9 +8049,10 @@ path[stroke="rgb(123,162,255)"] {
 	border-color: var(--backgroundDark);
 }
 
-.voicePanelIntroductionWrapper_e131a9,
-.elevationBorderHigh__2b2f1.container__55c99 {
+.voicePanelIntroductionWrapper_e131a9 {
+	background-color: var(--backgroundDark);
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
+	border: none;
 }
 
 .voicePanelIntroductionWrapper_e131a9:after {
@@ -8625,7 +8624,6 @@ path[stroke="rgb(123,162,255)"] {
 	background: linear-gradient(120deg, #0c0e12, var(--backgroundDarker-alt))
 }
 
-.containerSidenav_dc2e0e,
 .page__99a7e,
 .sidebarContainer__89463,
 .contentContainer__89463 {
@@ -8633,7 +8631,11 @@ path[stroke="rgb(123,162,255)"] {
 	border-left: solid 1px var(--border-for-chats);
 }
 
-.containerSidenav_dc2e0e,
+.containerSidenav_dc2e0e {
+	background: var(--background-gradient-app-frame,var(--backgroundDark));
+	border-top: solid 1px var(--border-for-chats);
+}
+
 .applicationStore_f07d62 .container__9293f {
 	border-left: none;
 }
@@ -8703,7 +8705,6 @@ path[stroke="rgb(123,162,255)"] {
 .container_d9914b,
 .container__38524,
 .max-width__5b321,
-.sideNavContent_dc2e0e,
 .content__6fd0e {
 	max-width: none;
 }
@@ -9588,6 +9589,7 @@ h3.improved__1689b:after,
 }
 
 .sideNavContent_dc2e0e {
+	max-width: none;
 	padding-right: 18px;
 }
 
@@ -9881,10 +9883,6 @@ rect[fill="var(--control-brand-foreground)"] {
 	background-color: rgba(24, 28, 37, 0.9);
 }
 
-.container__55c99 {
-	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
-}
-
 .avatar_dc1809 {
 	width: 24px !important;
 	height: 24px !important;
@@ -10150,8 +10148,7 @@ rect[fill="var(--control-brand-foreground)"] {
 	background-color: var(--backgroundDark-50);
 }
 
-.option__56fec,
-.container__55c99 {
+.option__56fec {
 	border-radius: 5px;
 }
 
@@ -11570,7 +11567,6 @@ div.profileThemedContainer__656be .inner_c0bea0,
 	width: 100%;
 }
 
-.image__62119,
 .gifPicker__6c39d.container_fed6d3 .header_fed6d3,
 .gifPicker__6c39d.container_fed6d3,
 .body_c6f1a4,
@@ -12622,7 +12618,6 @@ rect[fill="brand-200"] {
 	border-color: #1c212c;
 }
 
-.containerSidenav_dc2e0e,
 .sidebarTabBar_dc2e0e {
 	border-top-color: var(--border-for-chats);
 }
