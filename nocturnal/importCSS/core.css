@@ -682,7 +682,6 @@
 	--denaryformentions: color-mix(in oklab, rgb(57, 202, 239, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--undenary: rgb(113, 237, 255);
 	--undenaryforreactions: color-mix(in oklab, rgb(75, 217, 242, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	;
 	--duodenary: rgb(121, 246, 255);
 	--tredenary: rgb(128, 254, 255);
 	--quattuordenary: rgb(139, 255, 255);
