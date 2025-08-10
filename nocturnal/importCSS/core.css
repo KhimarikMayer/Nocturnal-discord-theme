@@ -14137,3 +14137,7 @@ rect[fill="#D3D6ED"] {
 .victorIcon_f69538 path[fill="var(--button-positive-background)"] {
 	fill: var(--primary);
 }
+
+.theme-light .clickableContainer__39ec2:hover>.card__39ec2 {
+	background-color: var(--user-profile-overlay-background-hover);
+}
