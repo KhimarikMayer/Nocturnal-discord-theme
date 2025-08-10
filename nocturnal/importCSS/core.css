@@ -6849,7 +6849,6 @@ body,
 	margin-left: 6px;
 }
 
-.answerSelectionIcon__4c520 path[fill="var(--brand-500)"],
 .checked_f525d3 path[fill="var(--brand-500)"],
 .activeIcon_d40c56 path[fill="var(--brand-500)"],
 .flowerStar__3e3b0 path[fill="var(--brand-500)"],
@@ -9743,6 +9742,7 @@ rect[fill="var(--textbox-markdown-syntax)"],
 	fill: #e9eaeb;
 }
 
+.answerSelectionIcon__4c520 path[fill="var(--brand-500)"],
 .filterIcon__9dd6b path[fill="var(--control-brand-foreground)"],
 path[fill="var(--control-brand-foreground)"],
 rect[fill="var(--control-brand-foreground)"] {
@@ -14165,4 +14165,9 @@ rect[fill="#D3D6ED"] {
 	border: none;
 	border-left: 2.5px solid var(--__accent-color);
 	border-radius: 4px;
+}
+
+.answerSelectionIcon__4c520 path[fill="var(--button-positive-background)"],
+.victorIcon_f69538 path[fill="var(--button-positive-background)"] {
+	fill: var(--primary);
 }
