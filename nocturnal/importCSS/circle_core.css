@@ -2405,8 +2405,7 @@ svg[name=Nitro] g path {
 	padding-right: 18px !important;
 }
 
-.status__2f4f7,
-.popover__2d0ab {
+.status__2f4f7 {
 	border-radius: 8px;
 }
 
@@ -12853,8 +12852,6 @@ rect[fill="brand-200"] {
 &.theme-midnight:not(.high-contrast-mode) .content_f75fb0,
 &.theme-midnight:not(.high-contrast-mode) .subtitleContainer_f75fb0,
 .profileNote__9c3be textarea,
-.popover__2d0ab,
-.popover_c97e55,
 .itemContainer_ec9088,
 .modalFooter__08bd2,
 .voiceBar__7aaec,
@@ -12871,6 +12868,12 @@ rect[fill="brand-200"] {
 .high-contrast-mode .page_c48ade,
 .theme-midnight .page_c48ade,
 .lookFilled__3f413.select__3f413 {
+	border: none;
+}
+
+.popover_c97e55,
+.popover__2d0ab {
+	border-radius: 8px;
 	border: none;
 }
 
