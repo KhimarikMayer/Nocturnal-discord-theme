@@ -134,12 +134,12 @@
 .theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_dfbe6b:disabled,
 .theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225:disabled,
 .theme-light.custom-user-profile-theme .primary__6af3a,
-.theme-light.custom-user-profile-theme .primary__6af3a:hover,
-.theme-light.custom-user-profile-theme .primary__6af3a:active,
+.theme-light.custom-user-profile-theme .primary__6af3a:hover:not(:disabled),
+.theme-light.custom-user-profile-theme .primary__6af3a:active:not(:disabled),
 .theme-light.custom-user-profile-theme .primary__6af3a:disabled,
 .theme-light.custom-user-profile-theme .secondary__6af3a,
-.theme-light.custom-user-profile-theme .secondary__6af3a:hover,
-.theme-light.custom-user-profile-theme .secondary__6af3a:active,
+.theme-light.custom-user-profile-theme .secondary__6af3a:hover:not(:disabled),
+.theme-light.custom-user-profile-theme .secondary__6af3a:active:not(:disabled),
 .theme-light.custom-user-profile-theme .secondary__6af3a:disabled {
 	color: #060607 !important;
 }
@@ -326,3 +326,4 @@
 .theme-light .background_fdf9c0 {
 	background: url(/assets/5071d09daafd2d99.svg);
 }
+
