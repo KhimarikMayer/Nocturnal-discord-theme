@@ -10303,8 +10303,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .outline__7fe3a,
 .avatar_f24497,
 .folderButtonInner__48112,
-.circular__1df30,
-.popover__2d0ab {
+.circular__1df30 {
 	border-radius: 8px;
 }
 
@@ -13084,8 +13083,6 @@ rect[fill="brand-200"] {
 &.theme-midnight:not(.high-contrast-mode) .content_f75fb0,
 &.theme-midnight:not(.high-contrast-mode) .subtitleContainer_f75fb0,
 .profileNote__9c3be textarea,
-.popover__2d0ab,
-.popover_c97e55,
 .appAvatarV2__50a54,
 .itemContainer_ec9088,
 .modalFooter__08bd2,
@@ -13103,6 +13100,12 @@ rect[fill="brand-200"] {
 .high-contrast-mode .page_c48ade,
 .theme-midnight .page_c48ade,
 .lookFilled__3f413.select__3f413 {
+	border: none;
+}
+
+.popover_c97e55,
+.popover__2d0ab {
+	border-radius: 8px;
 	border: none;
 }
 
