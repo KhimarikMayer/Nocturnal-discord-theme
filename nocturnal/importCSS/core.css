@@ -6019,13 +6019,13 @@ body,
 
 .forumPost__7d15e,
 .forumPost__7d15e.container__9a337:hover,
-.label_df4aaf,
-.list__920b8 {
+.label_df4aaf {
 	background-color: var(--backgroundDarker);
 }
 
 .iconWrapper__7e6bb,
-.whatYouLoseItem__89307 {
+.whatYouLoseItem__89307,
+.list__920b8 {
 	background-color: var(--backgroundDark-20);
 }
 
