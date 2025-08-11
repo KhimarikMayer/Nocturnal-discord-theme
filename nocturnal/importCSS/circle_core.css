@@ -8515,6 +8515,7 @@ path[stroke="rgb(123,162,255)"] {
 	border: none;
 }
 
+.row_b1c9f2,
 .avatarPair__30f35,
 .modInfoItem__96c0b,
 .otherRoles__61ca6,
@@ -8584,6 +8585,7 @@ path[stroke="rgb(123,162,255)"] {
 	border-left: none;
 }
 
+.row_b1c9f2:hover,
 .iconContainer__0624f,
 .iconContainer_eaaeee,
 .modInfoAction__96c0b:hover,
@@ -9759,7 +9761,6 @@ rect[fill="var(--control-brand-foreground)"] {
 .outerContainer__2055a,
 .content_d5ee5c,
 .tooltip_ad198f,
-.row_b1c9f2,
 .container_a14595,
 .iconPlaceholder__46773,
 .container_a3e8db.default_a3e8db {
@@ -9782,7 +9783,6 @@ rect[fill="var(--control-brand-foreground)"] {
 .clipItem__1d12e:hover,
 .linkButton_b1585f:hover,
 .replies__1b03e:hover,
-.row_b1c9f2:hover,
 .iconWidget__669b5:hover,
 .container_a14595:hover,
 .container_a3e8db.highlighted_a3e8db,
@@ -11399,7 +11399,6 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .header_da32a8,
 .sectionContent_da32a8,
 .contentBackground__3d3b0,
-.overviewContainerNoVideo_b1c9f2,
 .friends_b37a75,
 .bd-install-modal-items,
 .bd-install-modal-clickable:hover,
@@ -13939,7 +13938,7 @@ rect[fill="#D3D6ED"] {
 }
 
 .bodyControls__53cea:after {
-	background: radial-gradient(88.69% 87.5% at 50% 87.5%,rgba(0, 0, 0, 0) 0,var(--backgroundDark) 100%);
+	background: linear-gradient(to bottom,var(--backgroundDark) 0,rgba(0, 0, 0, 0) 100%);
 }
 
 .colorable_f1ceac.greenGlow_f1ceac {
