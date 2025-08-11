@@ -3193,9 +3193,14 @@ span.button__67645.enabled__67645:hover,
 
 .root__2dbe1,
 .wrapper_ef3116,
-.separator__00943,
+.separator__00943 {
+	background-color: var(--backgroundDark);
+}
+
 .container__664ff {
 	background-color: var(--backgroundDark);
+	border-left: 8px solid var(--backgroundDarker-alt);
+	border-radius: 0;
 }
 
 .scroller__7d20c {
@@ -3622,7 +3627,8 @@ span.button__67645.enabled__67645:hover,
 	background-color: var(--backgroundDark);
 }
 
-.container__9271d {
+.container__9271d,
+.custom-theme-background .container__9271d {
 	background-color: var(--backgroundDark-26);
 	border: none;
 }
@@ -6151,8 +6157,8 @@ body,
 
 .headerContainer__664ff,
 .sidebarOrChatVisible__722ff {
-	border-top-left-radius: 0;
-	border-top-right-radius: 0;
+	border-radius: 0;
+	box-shadow: none;
 }
 
 .reactionDefault_cc2dff:hover,
@@ -13935,4 +13941,20 @@ rect[fill="#D3D6ED"] {
 
 .bodyControls__53cea:after {
 	background: radial-gradient(88.69% 87.5% at 50% 87.5%,rgba(0, 0, 0, 0) 0,var(--backgroundDark) 100%);
+}
+
+.colorable_f1ceac.greenGlow_f1ceac {
+	background-color: var(--primary-12);
+}
+
+.colorable_f1ceac.greenGlow_f1ceac, .colorable_f1ceac.greenGlow_f1ceac .centerIcon_f1ceac {
+	color: var(--primary);
+}
+
+.colorable_f1ceac.greenGlow_f1ceac.popoutOpen_f1ceac, .colorable_f1ceac.greenGlow_f1ceac:hover {
+	background-color: var(--primary-24);
+}
+
+.colorable_f1ceac.greenGlow_f1ceac:active {
+	background-color: var(--primary-36);
 }
