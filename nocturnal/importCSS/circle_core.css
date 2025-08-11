@@ -3619,6 +3619,7 @@ span.button__67645.enabled__67645:hover,
 	background-color: rgba(0, 0, 0, 0);
 }
 
+.chatTarget__01ae2,
 .container_d9c882,
 .header_d9c882,
 .embedCard__44492,
@@ -3741,7 +3742,6 @@ span.button__67645.enabled__67645:hover,
 .container__6764b,
 .channelChatWrapper_cb9592,
 .wrapper_cb9592,
-.chatTarget__01ae2,
 .embedCard__44492.selected__44492 {
 	background-color: var(--backgroundDarker);
 	border-color: var(--backgroundDarker);
@@ -3756,8 +3756,7 @@ span.button__67645.enabled__67645:hover,
 	border-color: rgba(0, 0, 0, 0);
 }
 
-.scroller_a39aa3,
-.floating__01ae2 {
+.scroller_a39aa3 {
 	border-left: 1px solid var(--border-for-chats);
 }
 
@@ -13674,7 +13673,8 @@ rect[fill="brand-200"] {
 
 .shop__6db1d .container__9293f,
 .header_c791b2.container__9293f,
-.background__7449f.container__9293f {
+.background__7449f.container__9293f,
+.container__01ae2 .container__9293f {
 	border-left: none !important;
 }
 
@@ -13891,7 +13891,8 @@ rect[fill="#D3D6ED"] {
 	background-color: var(--primary);
 }
 
-.shopBanner__7f856 {
+.shopBanner__7f856,
+.chat_ee72fa:before {
 	outline: none !important;
 	box-shadow: none;
 }
