@@ -7805,6 +7805,8 @@ body,
 }
 
 .tagInputWrapper__69ef9:hover,
+.disabledForm__69ef9 .tagInputWrapper__69ef9:focus-within,
+.disabledForm__69ef9 .tagInputWrapper__69ef9:hover,
 .wrapper_a45028:hover:not(:focus):not(:focus-within),
 .input__0ed4f:not(.value__96f95, .nameInputInnerWithEmojiPicker__0511a, .inputWrapperWithEmojiPicker_ac72c6, .inputInnerWithEmojiPicker_ac72c6, .tagInput__69ef9, .multiInputField_b404ff, .textarea__9daae, .traitInput__4cbea, .note_fcb628 textarea, .inputField_d64f22, .fieldBackground_d48a51, .inputInner_a97616, .input_cedfaf, .input__72ba7, .descriptionInput__5579e, .clipTitleInput__1d12e, .defaultTextInput__7b848, .searchBox_d727b3 .searchBoxInput_d727b3, .input__72ba7, .title_d9be46, .messageInput_f2c0a8, .textarea_dde0a8):hover:not(:focus):not(:focus-within) {
 	border-color: var(--deprecated-text-input-border);
