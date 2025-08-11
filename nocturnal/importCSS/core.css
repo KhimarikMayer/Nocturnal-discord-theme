@@ -247,11 +247,6 @@
 	cx: 4 !important;
 }
 
-.markup__75297 pre,
-.markup__75297 code.inline {
-	border-radius: 6px;
-}
-
 .theme-dark .side_b3f026 .item_b3f026:not(.role_f07e3e, .row_e29cd7)::before {
 	content: "";
 	width: 20px;
@@ -7135,7 +7130,6 @@ body,
 
 .hljs {
 	background-color: rgba(0, 0, 0, 0);
-	border-radius: 6px;
 }
 
 .trait_d452e4,
@@ -13502,9 +13496,17 @@ rect[fill="brand-200"] {
 	border: none;
 }
 
+.custom-theme-background .markup__75297 code {
+	background: color-mix(in oklab, var(--primaryforcodes) 95%, #fff);
+}
+
 .embed__623de code {
 	background-color: var(--backgroundDark-65);
 	border: none;
+}
+
+.custom-theme-background .embed__623de code {
+	background: color-mix(in oklab, var(--backgroundDark-65) 95%, #fff);
 }
 
 .colorBrand__6e2b9 {
@@ -13520,10 +13522,6 @@ rect[fill="brand-200"] {
 	background-color: var(--primaryforcodes);
 	border-color: var(--primary);
 	color: var(--primary);
-}
-
-.custom-theme-background .markup__75297 code {
-	background: color-mix(in oklab, var(--primaryforcodes) 95%, #fff);
 }
 
 .ctaButtonText__175e2 {
