@@ -11720,7 +11720,6 @@ html:not(.chat-input) .inputInner_b1f01d {
 .actionMenuButton_d84e0f:active,
 .guildTagContainer__63ed3,
 .guildTagContainer__63ed3:hover,
-.overflowCount_e928f4,
 .headerIconWrapper__42179,
 .bottomRowActionDisabled__34940 .innerBottomRowAction__34940,
 .bottomRowActionDisabled__34940 .innerBottomRowAction__34940:hover,
@@ -11733,6 +11732,10 @@ html:not(.chat-input) .inputInner_b1f01d {
 	background-color: rgba(0, 0, 0, 0);
 	border: none;
 	box-shadow: none;
+}
+
+.overflowCount_e928f4 {
+	background-color: var(--backgroundDark-95);
 }
 
 .wrapper__4413f {
