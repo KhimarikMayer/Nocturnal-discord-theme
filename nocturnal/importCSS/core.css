@@ -4358,7 +4358,6 @@ span.button__67645.enabled__67645:hover,
 }
 
 .bd-addon-error-icon,
-.container_bc0d35,
 .scrollIcon__0a383 {
 	background-color: var(--backgroundDarker-alt);
 }
@@ -6983,9 +6982,6 @@ body,
 
 .searchSuggestion_e94b8c:hover,
 .addActionItem_d2b0e4:active,
-.missingReadHistoryPermission_f369db,
-.adminUpsell_bc0d35.container_bc0d35,
-.deprecationNotice__6b6ed,
 .actionItemEmojiWrapper_d2b0e4,
 .resourceChannelIcon_e88228,
 .valuePill__5dac8,
@@ -7115,6 +7111,11 @@ body,
 	box-shadow: none;
 }
 
+.subheaderContainer__6f7ce,
+.missingReadHistoryPermission_f369db,
+.deprecationNotice__6b6ed,
+.adminUpsell_bc0d35.container_bc0d35,
+.container_bc0d35,
 .monaco-editor,
 .monaco-editor-background,
 .monaco-editor .inputarea.ime-input,
@@ -9872,7 +9873,6 @@ rect[fill="var(--control-brand-foreground)"] {
 .classificationPolicyCard_a48d6b,
 .previewForm_d9be46,
 .tipsSection_a193aa,
-.subheaderContainer__6f7ce,
 .emojiErrorItem__67954,
 .effectGridItem_b4019a,
 .attachedRoleContainer_e3f977,
@@ -10673,11 +10673,13 @@ path[fill="#949cf7"],
 path[fill="#93a7fd"],
 path[fill="#7a8ef9"],
 path[fill="#6a7df6"],
+path[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"],
 rect[fill="var(--text-brand)"],
 rect[fill="#949cf7"],
 rect[fill="#93a7fd"],
 rect[fill="#7a8ef9"],
-rect[fill="#6a7df6"] {
+rect[fill="#6a7df6"],
+rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 	fill: var(--senary);
 }
 
@@ -12403,10 +12405,18 @@ rect[fill="brand-200"] {
 .colorGreen__201d5 .text-md\/semibold_cf4812,
 .primary__6af3a .text-md\/semibold_cf4812,
 .secondary__6af3a .text-md\/semibold_cf4812,
+.secondaryButton_af3b89 .text-sm\/semibold_cf4812,
+.primaryButton_af3b89 .text-sm\/semibold_cf4812,
+.postButton_d97f89 .text-sm\/semibold_cf4812,
+.colorBrand__201d5 .text-sm\/semibold_cf4812,
+.colorPrimary__201d5 .text-sm\/semibold_cf4812,
+.colorGreen__201d5 .text-sm\/semibold_cf4812,
+.primary__6af3a .text-sm\/semibold_cf4812,
+.secondary__6af3a .text-sm\/semibold_cf4812,
 .addButton_a76561 {
 	font-size: 14px;
 	line-height: inherit;
-	font-weight: inherit;
+	font-weight: 500;
 }
 
 .chatIcon__233f8 g {
@@ -13416,13 +13426,13 @@ rect[fill="brand-200"] {
 	border: none !important;
 }
 
-.subtitleContainer__49508 .container__9293f.transparent__9293f {
-	border-bottom: none !important;
-}
-
 .callContainer_cb9592 .container__9293f.transparent__9293f {
 	border-left: none !important;
 	border-bottom: solid 1px var(--border-for-chats) !important;
+}
+
+.subtitleContainer__49508 .container__9293f.transparent__9293f {
+	border-bottom: none !important;
 }
 
 .sectionDivider__35e86 {
