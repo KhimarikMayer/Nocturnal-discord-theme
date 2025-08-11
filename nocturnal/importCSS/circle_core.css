@@ -3739,6 +3739,8 @@ span.button__67645.enabled__67645:hover,
 	background-color: var(--backgroundDark-25);
 }
 
+.childButton__3ed08,
+.listContainer__527b1 .listElement__527b1,
 .container__6764b,
 .channelChatWrapper_cb9592,
 .wrapper_cb9592,
@@ -3760,7 +3762,6 @@ span.button__67645.enabled__67645:hover,
 	border-left: 1px solid var(--border-for-chats);
 }
 
-.childButton__3ed08,
 .row__76f04:hover,
 .iconWrapper__54b20,
 .result__71961[aria-selected=true],
@@ -3771,6 +3772,7 @@ span.button__67645.enabled__67645:hover,
 }
 
 .childButton__3ed08:hover,
+.listContainer__527b1 .listElement__527b1:hover,
 .card__88264:hover,
 .collapseable__217b7.groupContainer_b6a9f9:hover,
 .separator_e4503a {
@@ -3783,8 +3785,9 @@ span.button__67645.enabled__67645:hover,
 	background-color: var(--backgroundDark-20);
 }
 
-.childButton__3ed08:active {
-	background-color: var(--backgroundDark-45);
+.childButton__3ed08:active,
+.listContainer__527b1 .listElement__527b1:active {
+	background-color: var(--backgroundDark-50);
 }
 
 .rsvpCount_b5010b {
@@ -8598,7 +8601,6 @@ path[stroke="rgb(123,162,255)"] {
 .clickable__761e5:hover,
 .contentContainer_c55cae,
 .autocompletePlaceholder__13533,
-.iconWrapper__1051d,
 .compact_c19a55 .clanTagChiplet_c19a55>span,
 .chipletContainerInner__10651:not(.guildTag__63ed3),
 .clickable__10651:hover,
@@ -8608,14 +8610,16 @@ path[stroke="rgb(123,162,255)"] {
 .loadingHeader__32c75,
 .textPlaceholder__1729d,
 .pill__33d66:hover,
+.listItemContainer__7c901:hover,
 .playbackRate_a8e786 {
 	background-color: var(--backgroundDark-35);
 	border: none;
 }
 
+.listItemContainer__7c901:active,
 .floating-window-buttons .maximize-button:active,
 .clickable__761e5:active {
-	background-color: var(--backgroundDark-70);
+	background-color: var(--backgroundDark-50);
 }
 
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .badgeList_ec3b75,
@@ -8652,8 +8656,10 @@ path[stroke="rgb(123,162,255)"] {
 	margin-right: 2px;
 }
 
+.listItemContainer__7c901,
 .selectGuild__39466:hover {
 	background-color: var(--backgroundDarker);
+	border: none;
 }
 
 .confirmationContainer__892e3,
@@ -9516,6 +9522,7 @@ h3.improved__1689b:after,
 	background-color: var(--backgroundDarker);
 }
 
+.iconWrapper__1051d,
 .addAnswerButton_d97f89:hover {
 	background-color: var(--backgroundDarker-alt);
 }
@@ -9730,11 +9737,9 @@ rect[fill="var(--control-brand-foreground)"] {
 .container__3dc42,
 .clipItem__1d12e,
 .linkButton_b1585f,
-.listContainer__527b1 .listElement__527b1,
 .smallDecorationPreviewsContainer__51743,
 .bannedUser_cdb2b0:hover,
 .replies__1b03e,
-.listItemContainer__7c901,
 .container_a548c7,
 .emoji__932f7:hover,
 .container_b6a3c4,
@@ -9774,9 +9779,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .clipItem-3C35Ec:hover,
 .clipItem__1d12e:hover,
 .linkButton_b1585f:hover,
-.listContainer__527b1 .listElement__527b1:hover,
 .replies__1b03e:hover,
-.listItemContainer__7c901:hover,
 .row_b1c9f2:hover,
 .iconWidget__669b5:hover,
 .container_a14595:hover,
@@ -9798,8 +9801,6 @@ rect[fill="var(--control-brand-foreground)"] {
 .container__04119:hover.active__04119,
 .classificationPolicyCardIcon_a48d6b,
 .linkButton_b1585f:active,
-.listContainer__527b1 .listElement__527b1:active,
-.listItemContainer__7c901:active,
 .container_a14595:active {
 	background-color: var(--backgroundDark-80);
 }
@@ -11395,7 +11396,6 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .container_ccbbbb,
 .header_da32a8,
 .sectionContent_da32a8,
-.upsellsContainer__8f3cb,
 .contentBackground__3d3b0,
 .overviewContainerNoVideo_b1c9f2,
 .friends_b37a75,
@@ -12043,6 +12043,7 @@ rect[fill="brand-200"] {
 	background: linear-gradient(180deg, rgba(52, 52, 52, 0)0%, rgba(35, 35, 35, .9)50%, var(--backgroundDarker) 100%);
 }
 
+.upsellsContainer__8f3cb,
 .exampleImage__61aee,
 .closeInner__6a6d6,
 .container_cec934,
@@ -13370,14 +13371,6 @@ rect[fill="brand-200"] {
 
 .pendingFolderButtonIcon__93fc9:hover {
 	background-color: var(--backgroundDark-70);
-}
-
-.isExpanded__48112 .pendingFolderButtonIcon__93fc9 {
-	background-color: rgba(0, 0, 0, 0);
-}
-
-.isExpanded__48112 .pendingFolderButtonIcon__93fc9:hover {
-	background-color: var(--backgroundDark-35);
 }
 
 .streamOptionsButton__388f8 {
