@@ -9628,7 +9628,6 @@ rect[fill="var(--control-brand-foreground)"] {
 .list_dcc822,
 .modalContent__3297f,
 .content__50a6f,
-.contentWrapper__9b0f4,
 .modalContent_bdbb1b,
 .body__527b1,
 .footer__7c901,
@@ -10081,7 +10080,6 @@ rect[fill="var(--control-brand-foreground)"] {
 .colorable_f1ceac.primaryDark_f1ceac.active_f1ceac:not(.disabled_f1ceac),
 .colorable_f1ceac.primaryDark_f1ceac:hover:not(.disabled_f1ceac),
 .filterBackground__72086:hover,
-.headerIconWrapper__42179,
 .colorable_f1ceac.experimentRed_f1ceac.active_f1ceac,
 .colorable_f1ceac.experimentRed_f1ceac:hover,
 .detailsTooltip_78f589 div.icon_78f589,
@@ -11237,6 +11235,8 @@ path[fill="var(--bg-brand)"] {
 	mask: none;
 }
 
+.editProfileContainer__42179,
+.footer__67dba,
 .container__8cc9a,
 .icon__1b24f,
 .label_df4aaf,
@@ -11407,7 +11407,6 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .pill_f7c056:hover,
 .earnedBadge_a92dc5,
 .listContainer_bdbb1b,
-.editProfileContainer__42179,
 .option__54675,
 .nameplate__5a2c6,
 .channelResult__32fe1:hover,
