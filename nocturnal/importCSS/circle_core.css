@@ -13960,3 +13960,7 @@ rect[fill="#D3D6ED"] {
 .colorable_f1ceac.greenGlow_f1ceac:active {
 	background-color: var(--primary-36);
 }
+
+.theme-midnight .backdrop__9c3be {
+	background-color: var(--backgroundDark-70);
+}
