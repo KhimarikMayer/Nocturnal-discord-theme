@@ -1590,16 +1590,6 @@
 	background-color: rgb(255, 83, 88)!important;
 }
 
-.memberRowContainer__71c22[style] {
-	background-color: rgb(60, 193, 235, 0.153) !important;
-	transition: filter .6s ease-in-out, background-color .3s ease-in;
-}
-
-.memberRowContainer__71c22[style*="54, 55, 62, 0"] {
-	background-color: rgb(0, 58, 50, 0)!important;
-	transition: filter .6s ease-in-out, background-color .3s ease-in;
-}
-
 .backdrop__78332[style*='33, 34, 41, 0.24'] {
 	background: rgba(0, 0, 0, 0.24) !important;
 }
@@ -22855,3 +22845,4 @@
 [style*="border-color: rgba(81, 151, 237)"] {
 	border-color: rgba(0, 107, 225) !important;
 }
+
