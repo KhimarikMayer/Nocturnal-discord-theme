@@ -552,6 +552,7 @@
 	--tertiary: rgb(24, 160, 232);
 	--quaternary: rgb(29, 173, 236);
 	--quinary: rgb(53, 198, 240);
+	--control-quinary-foreground: color-mix(in oklab,rgb(53, 198, 240) 100%,var(--custom-theme-text-color,#000) var(--custom-theme-text-color-amount,0%));
 	--senary: color-mix(in oklab, rgb(59, 204, 241) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--septenary: rgb(75, 217, 242);
 	--octonary: rgb(97, 236, 243);
@@ -9590,7 +9591,7 @@ rect[fill="var(--textbox-markdown-syntax)"],
 .filterIcon__9dd6b path[fill="var(--control-brand-foreground)"],
 path[fill="var(--control-brand-foreground)"],
 rect[fill="var(--control-brand-foreground)"] {
-	fill: var(--quinary);
+	fill: var(--control-quinary-foreground);
 }
 
 .newBadge_edf232,
@@ -10687,7 +10688,7 @@ html:not(.chat-input) .inputInner_b1f01d {
 }
 
 .answer__4c520 .answerInner__4c520.currentlyVoting__4c520.selected__4c520 {
-	outline: 1px solid var(--quinary);
+	outline: 1px solid var(--control-quinary-foreground);
 }
 
 .votedStyles_a1443c {
@@ -10711,7 +10712,7 @@ html:not(.chat-input) .inputInner_b1f01d {
 }
 
 .radioForeground_f4f0eb {
-	color: var(--quinary);
+	color: var(--control-quinary-foreground);
 }
 
 .primary__98277 {
@@ -11835,7 +11836,7 @@ rect[fill="brand-230"] {
 }
 
 [style*="background-color: var(--control-brand-foreground);"] {
-	background-color: var(--quinary) !important;
+	background-color: var(--control-quinary-foreground) !important;
 }
 
 [style*="background-color: #949cf7;"],
@@ -12353,12 +12354,17 @@ rect[fill="brand-200"] {
 
 .top_b3f026 .brand_b3f026.item_b3f026:active,
 .top_b3f026 .brand_b3f026.selected_b3f026.item_b3f026 {
-	border-bottom-color: var(--quinary);
+	border-bottom-color: var(--control-quinary-foreground);
 }
 
 &.theme-dark .lookLink__201d5.colorLink__201d5,
-&.theme-dark .lookLink__201d5.colorPrimary__201d5:not(.cancelButton_cc46f0) {
+&.theme-dark .lookLink__201d5.colorPrimary__201d5 {
 	color: var(--quinary);
+}
+
+&.theme-dark .lookLink__201d5.colorLink__201d5:hover .contents__201d5,
+&.theme-dark .lookLink__201d5.colorPrimary__201d5:hover .contents__201d5 {
+	--button--underline-color: var(--quinary);
 }
 
 .radioIndicatorChecked__001a7 .refreshIconFill__001a7 {
@@ -13108,11 +13114,6 @@ rect[fill="brand-200"] {
 
 .overlay__57752 {
 	box-shadow: 0 0 0 9999px var(--backgroundLighter)99;
-}
-
-&.theme-dark .lookLink__201d5.colorLink__201d5:hover .contents__201d5,
-&.theme-dark .lookLink__201d5.colorPrimary__201d5:hover .contents__201d5 {
-	--button--underline-color: var(--quinary);
 }
 
 #app-mount .unread__6fddf {
