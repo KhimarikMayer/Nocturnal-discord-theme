@@ -13665,13 +13665,16 @@ rect[fill="brand-200"] {
 
 .container__1ce5d[style*="24px"] foreignObject img:not(.circularImage__1ce5d),
 .container__1ce5d[style*="24px"] .circularImage__1ce5d {
-	margin: 3px 0 0 3px;
 	width: 12px;
 	height: 12px;
 }
 
 .container__1ce5d[style*="24px"] foreignObject img:not(.circularImage__1ce5d) {
-	margin: 2px 0 2px 2px;
+	margin-bottom: 8px;
+}
+
+.container__1ce5d[style*="24px"] .circularImage__1ce5d {
+	margin-left: 3px;
 }
 
 .container__1ce5d[style*="32px"] foreignObject img:not(.circularImage__1ce5d),
