@@ -13959,3 +13959,17 @@ rect[fill="#D3D6ED"] {
 .title__7449f.background__7449f {
 	border-top: none;
 }
+
+@keyframes pulseBorder_eafb9c {
+	0% {
+		border-color: rgba(0, 0, 0, 0);
+	}
+
+	50% {
+		border-color: var(--primary);
+	}
+
+	100% {
+		border-color: rgba(0, 0, 0, 0);
+	}
+}
