@@ -13485,7 +13485,7 @@ rect[fill="brand-200"] {
 .after_inlineCode_ada32f,
 .before_inlineCode_ada32f,
 .inlineCode_ada32f {
-	background: var(--primaryforcodes);
+	background-color: var(--primaryforcodes);
 	border: none;
 }
 
@@ -14045,8 +14045,7 @@ rect[fill="#D3D6ED"] {
 	border-bottom-color: var(--backgroundDark);
 }
 
-.containerSidenav_dc2e0e .contentPanel_dc2e0e,
-.background__7449f {
+.containerSidenav_dc2e0e .contentPanel_dc2e0e {
 	border-left: solid 1px var(--border-for-chats);
 }
 
@@ -14091,7 +14090,8 @@ rect[fill="#D3D6ED"] {
 }
 
 .shopBanner__7f856,
-.chat_ee72fa:before {
+.chat_ee72fa:before,
+.chat_a44415:before {
 	outline: none !important;
 	box-shadow: none;
 }
@@ -14118,10 +14118,16 @@ rect[fill="#D3D6ED"] {
 }
 
 .contentWrapper__99a7e,
-.noChannel__01d5c {
+.noChannel__01d5c,
+.background__7449f:not(.title__7449f),
+.container__01ae2 {
 	border-top: solid 1px var(--border-for-chats);
 	border-left: solid 1px var(--border-for-chats);
 	border-top-left-radius: 0;
+}
+
+.floating__01ae2 {
+	border-left: solid 1px var(--border-for-chats);
 }
 
 .theme-dark .container__60fa3,
@@ -14165,4 +14171,8 @@ rect[fill="#D3D6ED"] {
 
 .theme-midnight .backdrop__9c3be {
 	background-color: var(--backgroundDark-70);
+}
+
+.title__7449f.background__7449f {
+	border-top: none;
 }
