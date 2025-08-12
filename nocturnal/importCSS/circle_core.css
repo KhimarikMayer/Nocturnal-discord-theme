@@ -8287,11 +8287,6 @@ path[stroke="rgb(123,162,255)"] {
 	border: none;
 }
 
-.headerText_c19a55 .botTag__82f07,
-.headerText_c19a55:has(.badges-XRnWAp) .botTag__82f07 {
-	top: 0.15rem;
-}
-
 .burstReactionTooltipCoachmark_f8f406 {
 	background-color: var(--backgroundDark);
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
@@ -9343,9 +9338,7 @@ h3.improved__1689b:after,
 .maskBackground_d4ced7,
 .pngImage__31fc2,
 .wrapper__8b9fc:not(.badge__35a7e),
-.item__001a7,
-.rem__82f07.botTag__82f07,
-.px__82f07.botTag__82f07 {
+.item__001a7 {
 	border-radius: 5px;
 }
 
