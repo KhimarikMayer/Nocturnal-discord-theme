@@ -552,7 +552,7 @@
 	--tertiary: rgb(24, 160, 232);
 	--quaternary: rgb(29, 173, 236);
 	--quinary: rgb(53, 198, 240);
-	--control-quinary-foreground: color-mix(in oklab,rgb(53, 198, 240) 100%,var(--custom-theme-text-color,#000) var(--custom-theme-text-color-amount,0%));
+	--control-quinary-foreground: color-mix(in oklab, rgb(53, 198, 240) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--senary: color-mix(in oklab, rgb(59, 204, 241) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--septenary: rgb(75, 217, 242);
 	--octonary: rgb(97, 236, 243);
@@ -4974,9 +4974,6 @@ span.button__67645.enabled__67645:hover,
 	background-color: var(--backgroundDark-50);
 }
 
-.after_inlineCode_ada32f,
-.before_inlineCode_ada32f,
-.inlineCode_ada32f,
 .bd-changelog-modal code.inline {
 	background-color: var(--backgroundDark-65);
 }
@@ -10954,9 +10951,6 @@ html:not(.chat-input) .inputInner_b1f01d {
 	background-color: rgba(0, 0, 0, 0);
 }
 
-.themedBackground__74017:not(.channelTextAreaInner_d9be46) .after_inlineCode_ada32f,
-.themedBackground__74017:not(.channelTextAreaInner_d9be46) .before_inlineCode_ada32f,
-.themedBackground__74017:not(.channelTextAreaInner_d9be46) .inlineCode_ada32f,
 .tooltipNested__382e7 {
 	background-color: var(--backgroundLighter);
 }
@@ -13275,7 +13269,10 @@ rect[fill="brand-200"] {
 	border-radius: 0 0 6px 6px !important;
 }
 
-.markup__75297 code {
+.markup__75297 code,
+.after_inlineCode_ada32f,
+.before_inlineCode_ada32f,
+.inlineCode_ada32f {
 	background: var(--primaryforcodes);
 	border: none;
 }
