@@ -515,12 +515,12 @@
 }
 
 .theme-dark {
-	--backgroundLighter-alt: color-mix(in oklab,rgb(36, 42, 55) 100%,var(--custom-theme-base-color,#000) var(--custom-theme-base-color-amount,0%));
-	--backgroundLighter: color-mix(in oklab,rgb(32, 38, 50) 100%,var(--custom-theme-base-color,#000) var(--custom-theme-base-color-amount,0%));
-	--backgroundLight: color-mix(in oklab,rgb(28, 33, 44) 100%,var(--custom-theme-base-color,#000) var(--custom-theme-base-color-amount,0%));
-	--backgroundDark: color-mix(in oklab,rgb(24, 28, 37) 100%,var(--custom-theme-base-color,#000) var(--custom-theme-base-color-amount,0%));
-	--backgroundDarker: color-mix(in oklab,rgb(20, 23, 31) 100%,var(--custom-theme-base-color,#000) var(--custom-theme-base-color-amount,0%));
-	--backgroundDarker-alt: color-mix(in oklab,rgb(16, 18, 24) 100%,var(--custom-theme-base-color,#000) var(--custom-theme-base-color-amount,0%));
+	--backgroundLighter-alt: color-mix(in oklab, rgb(36, 42, 55) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+	--backgroundLighter: color-mix(in oklab, rgb(32, 38, 50) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+	--backgroundLight: color-mix(in oklab, rgb(28, 33, 44) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+	--backgroundDark: color-mix(in oklab, rgb(24, 28, 37) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+	--backgroundDarker: color-mix(in oklab, rgb(20, 23, 31) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+	--backgroundDarker-alt: color-mix(in oklab, rgb(16, 18, 24) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
 	--backgroundDark-15: rgba(0, 0, 0, .15);
 	--backgroundDark-20: rgba(0, 0, 0, .2);
 	--backgroundDark-25: rgba(0, 0, 0, .25);
@@ -1946,7 +1946,7 @@ svg[name=Nitro] g path {
 
 .imageWrapper__178ee,
 .role__48c1c,
-.scrollableContainer__74017:not(.topic__0511a,.hasStackedBar__74017),
+.scrollableContainer__74017:not(.topic__0511a, .hasStackedBar__74017),
 .avatar__183c2 {
 	border-radius: 5px;
 }
@@ -4060,7 +4060,7 @@ span.button__67645.enabled__67645:hover,
 	border-radius: 5px;
 }
 
-.sortDropdown_f369db,
+.tagsButton_f369db,
 .stepContainer_a68543:hover,
 .category_d7acc7 {
 	background-color: var(--backgroundDarker);
@@ -4107,7 +4107,6 @@ span.button__67645.enabled__67645:hover,
 }
 
 .tag_c993da,
-.tagsButton_f369db,
 .inlineTag_ee8e87,
 .sortDropdown_f369db,
 .tagsButton_f369db {
@@ -11860,7 +11859,9 @@ div.cardContainer__88e24,
 }
 
 .sortDropdown_f369db:active,
-.sortDropdown_f369db[aria-expanded=true] {
+.tagsButton_f369db:active,
+.sortDropdown_f369db[aria-expanded=true],
+.tagsButton_f369db[aria-expanded=true] {
 	background-color: var(--backgroundDark-80);
 }
 
@@ -14152,18 +14153,20 @@ rect[fill="#D3D6ED"] {
 }
 
 .bodyControls__53cea:after {
-	background: linear-gradient(to bottom,var(--backgroundDark) 0,rgba(0, 0, 0, 0) 100%);
+	background: linear-gradient(to bottom, var(--backgroundDark) 0, rgba(0, 0, 0, 0) 100%);
 }
 
 .colorable_f1ceac.greenGlow_f1ceac {
 	background-color: var(--primary-12);
 }
 
-.colorable_f1ceac.greenGlow_f1ceac, .colorable_f1ceac.greenGlow_f1ceac .centerIcon_f1ceac {
+.colorable_f1ceac.greenGlow_f1ceac,
+.colorable_f1ceac.greenGlow_f1ceac .centerIcon_f1ceac {
 	color: var(--primary);
 }
 
-.colorable_f1ceac.greenGlow_f1ceac.popoutOpen_f1ceac, .colorable_f1ceac.greenGlow_f1ceac:hover {
+.colorable_f1ceac.greenGlow_f1ceac.popoutOpen_f1ceac,
+.colorable_f1ceac.greenGlow_f1ceac:hover {
 	background-color: var(--primary-24);
 }
 
