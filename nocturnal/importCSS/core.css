@@ -647,6 +647,7 @@
 	--tertiary: rgb(18, 162, 234);
 	--quaternary: rgb(33, 169, 233);
 	--quinary: rgb(52, 189, 242);
+	--control-quinary-foreground: color-mix(in oklab, rgb(52, 189, 242) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--senary: color-mix(in oklab, rgb(34, 179, 237) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--septenary: rgb(80, 212, 236);
 	--octonary: rgb(100, 230, 238);
@@ -673,6 +674,7 @@
 	--tertiary: rgb(20, 155, 235);
 	--quaternary: rgb(28, 162, 237);
 	--quinary: rgb(51, 180, 243);
+	--control-quinary-foreground: color-mix(in oklab, rgb(51, 180, 243) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--senary: color-mix(in oklab, rgb(18, 162, 234) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--septenary: rgb(67, 194, 248);
 	--octonary: rgb(85, 209, 252);
