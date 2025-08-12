@@ -13053,6 +13053,11 @@ rect[fill="brand-200"] {
 	top: 51px;
 }
 
+.custom-user-profile-theme .avatar__8771c {
+	top: 55px;
+	left: 10px;
+}
+
 .container__7641b {
 	background-color: var(--backgroundDark);
 	border-left: solid 1.2px var(--border-for-chats);
