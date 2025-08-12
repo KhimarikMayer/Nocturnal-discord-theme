@@ -13953,7 +13953,9 @@ rect[fill="brand-200"] {
 .barBase__0f481,
 .root__49fc1,
 .listContainer__527b1,
-.theme-dark.custom-theme-background .stackedBars__74017:not(:last-child) {
+.theme-dark.custom-theme-background .stackedBars__74017:not(:last-child),
+.note_fcb628 textarea,
+.note_fcb628 textarea:hover {
 	border: none;
 }
 
