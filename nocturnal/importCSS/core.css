@@ -6161,9 +6161,6 @@ body,
 	background-color: rgba(0, 0, 0, 0);
 }
 
-.colorDefault_c1e9c4:hover.groupLabel_c1e9c4,
-.colorDefault_c1e9c4.focused_c1e9c4.groupLabel_c1e9c4,
-.colorDefault_c1e9c4:active.groupLabel_c1e9c4,
 .memberRow__9a73f.emptyRowContainer__9a73f:hover,
 .memberRow__9a73f.emptyRowContainer__9a73f:active {
 	background-color: rgba(0, 0, 0, 0) !important
@@ -6174,13 +6171,6 @@ body,
 	cursor: default;
 }
 
-.colorDefault_c1e9c4.groupLabel_c1e9c4,
-.item_c1e9c4[aria-checked=true] .radioSelection_c1e9c4 {
-	color: #b9bbbe !important;
-}
-
-.item_c1e9c4[aria-checked=true]:hover .radioSelection_c1e9c4,
-.item_c1e9c4[aria-checked=true].focused_c1e9c4 .radioSelection_c1e9c4,
 .bd-settings-title.bd-settings-group-title {
 	color: #fff !important;
 }
