@@ -545,25 +545,6 @@
 	--primary: rgb(0, 138, 230);
 	--primaryGradient1: rgb(0, 138, 230);
 	--primaryGradient2: rgb(0, 230, 138);
-	--primaryformentions: color-mix(in oklab, rgb(0, 138, 230, 0.23921568627450981) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.23921568627450981) var(--custom-theme-base-color-amount, 0%));
-	--primaryforreplyingmessages: color-mix(in oklab, rgb(0, 138, 230, 0.1607843137254902) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%) / 0.1607843137254902) var(--custom-theme-base-color-amount, 0%));
-	--primaryforcodes: color-mix(in oklab, rgb(0, 138, 230, 0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
-	--secondary: rgb(11, 153, 232);
-	--tertiary: rgb(24, 160, 232);
-	--quaternary: rgb(29, 173, 236);
-	--quinary: rgb(53, 198, 240);
-	--control-quinary-foreground: color-mix(in oklab, rgb(53, 198, 240) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--senary: color-mix(in oklab, rgb(59, 204, 241) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--septenary: rgb(75, 217, 242);
-	--octonary: rgb(97, 236, 243);
-	--nonary: rgb(111, 247, 243);
-	--denaryformentions: color-mix(in oklab, rgb(118, 252, 243, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--denary: rgb(121, 255, 243);
-	--undenaryforreactions: color-mix(in oklab, rgb(145, 255, 243, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--undenary: rgb(140, 255, 243);
-	--duodenary: rgb(158, 255, 251);
-	--tredenary: rgb(158, 255, 251);
-	--quattuordenary: rgb(158, 255, 251);
 	--primary-1: rgb(0, 138, 230, 0.0196078431372549);
 	--primary-4: rgb(0, 138, 230, 0.0392156862745098);
 	--primary-05a: rgb(0, 138, 230, 0.05);
@@ -606,6 +587,26 @@
 	--primary-92: rgb(0, 138, 230, 0.9215686274509803);
 	--primary-95a: rgb(0, 138, 230, 0.95);
 	--primary-96: rgb(0, 138, 230, 0.9607843137254902);
+	--primaryformentions: color-mix(in oklab, rgb(0, 138, 230, 0.23921568627450981) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.23921568627450981) var(--custom-theme-base-color-amount, 0%));
+	--primaryforreplyingmessages: color-mix(in oklab, rgb(0, 138, 230, 0.1607843137254902) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%) / 0.1607843137254902) var(--custom-theme-base-color-amount, 0%));
+	--primaryforcodes: color-mix(in oklab, rgb(0, 138, 230, 0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
+	--secondary: rgb(11, 153, 232);
+	--tertiary: rgb(24, 160, 232);
+	--quaternary: rgb(29, 173, 236);
+	--quinary: rgb(53, 198, 240);
+	--control-quinary-foreground: color-mix(in oklab, rgb(53, 198, 240) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--senary: rgb(59, 204, 241);
+	--text-senary: color-mix(in oklab, rgb(59, 204, 241) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--septenary: rgb(75, 217, 242);
+	--octonary: rgb(97, 236, 243);
+	--nonary: rgb(111, 247, 243);
+	--denaryformentions: color-mix(in oklab, rgb(118, 252, 243, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--denary: rgb(121, 255, 243);
+	--undenaryforreactions: color-mix(in oklab, rgb(145, 255, 243, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--undenary: rgb(140, 255, 243);
+	--duodenary: rgb(158, 255, 251);
+	--tredenary: rgb(158, 255, 251);
+	--quattuordenary: rgb(158, 255, 251);
 	--mentionedmessages: color-mix(in oklab, rgb(0, 176, 244, 0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
 	--mentionedmessageshover: color-mix(in oklab, rgb(0, 176, 244, 0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
 	--mentionedmessagesbefore: color-mix(in oklab, rgb(0, 176, 244, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
@@ -648,7 +649,8 @@
 	--quaternary: rgb(33, 169, 233);
 	--quinary: rgb(52, 189, 242);
 	--control-quinary-foreground: color-mix(in oklab, rgb(52, 189, 242) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--senary: color-mix(in oklab, rgb(34, 179, 237) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--senary: rgb(60, 193, 235);
+	--text-senary: color-mix(in oklab, rgb(34, 179, 237) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--septenary: rgb(80, 212, 236);
 	--octonary: rgb(100, 230, 238);
 	--nonary: rgb(113, 242, 239);
@@ -675,7 +677,8 @@
 	--quaternary: rgb(28, 162, 237);
 	--quinary: rgb(51, 180, 243);
 	--control-quinary-foreground: color-mix(in oklab, rgb(51, 180, 243) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--senary: color-mix(in oklab, rgb(18, 162, 234) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--senary: rgb(57, 176, 239);
+	--text-senary: color-mix(in oklab, rgb(18, 162, 234) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--septenary: rgb(67, 194, 248);
 	--octonary: rgb(85, 209, 252);
 	--nonary: rgb(95, 218, 255);
@@ -2569,7 +2572,7 @@ svg[name=Nitro] g path {
 
 .path2__0b5bb:not(.spinnerPath_f3b986),
 .path3__0b5bb:not(.spinnerPath_f3b986) {
-	stroke: var(--senary);
+	stroke: var(--text-senary);
 }
 
 .iconWrapper__4a3a5 {
@@ -3349,7 +3352,7 @@ span.button__67645.enabled__67645:hover,
 
 .custom-theme-background .reaction__23977.reactionMe__23977 .reactionCount__23977,
 .reaction_f8896c.reactionMe_f8896c .reactionCount_f8896c {
-	color: var(--senary);
+	color: var(--text-senary);
 }
 
 .form_f75fb0:has(.base_b88801),
@@ -4138,7 +4141,7 @@ span.button__67645.enabled__67645:hover,
 }
 
 .fakeReactions_ee8e87 {
-	border-color: var(--senary);
+	border-color: var(--text-senary);
 }
 
 .chatInput_ee8e87 {
@@ -4191,7 +4194,7 @@ span.button__67645.enabled__67645:hover,
 .actionButton__34c2c,
 .active__34c2c,
 .active__34c2c:hover {
-	color: var(--senary);
+	color: var(--text-senary);
 }
 
 .contentCircle_edf440 {
@@ -4537,7 +4540,7 @@ span.button__67645.enabled__67645:hover,
 
 .colorDefault_c1e9c4:not(.colorDanger_c1e9c4):not(.focused_c1e9c4) .checkbox_c1e9c4,
 .colorDefault_c1e9c4:not(.colorDanger_c1e9c4):not(.focused_c1e9c4) .radioSelection_c1e9c4 {
-	color: var(--senary);
+	color: var(--text-senary);
 }
 
 .icon__795b3 {
@@ -6775,7 +6778,7 @@ body,
 }
 
 .activeButtonChild_aa63ab {
-	color: var(--senary);
+	color: var(--text-senary);
 }
 
 .button_aa63ab:focus-within .activeButtonChild_aa63ab,
@@ -7491,7 +7494,7 @@ body,
 
 .theme-dark .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf[aria-selected=true] {
 	background: linear-gradient(to right, var(--primaryGradient1-16), var(--primaryGradient2-16));
-	color: var(--senary);
+	color: var(--text-senary);
 	border: 2px solid rgba(0, 0, 0, 0);
 	background-position: center;
 	background-repeat: no-repeat;
@@ -7622,7 +7625,7 @@ body,
 
 .plusIcon_e34850,
 .colorBrand_c9946a {
-	color: var(--senary);
+	color: var(--text-senary);
 }
 
 [style="color: var(--bg-brand);"],
@@ -7642,7 +7645,7 @@ body,
 [style="color: rgba(147, 167, 253);"],
 [style="color: #7a8ef9;"],
 [style="color: #6a7df6;"] {
-	color: var(--senary) !important;
+	color: var(--text-senary) !important;
 }
 
 [style="color: var(--brand-260);"] {
@@ -7697,7 +7700,7 @@ body,
 .selectedProgressBar__5537c,
 .progressBarCurrent__008b2,
 .chattableIndicator__75906 {
-	background-color: var(--senary);
+	background-color: var(--text-senary);
 }
 
 .colorBrand_f866f2,
@@ -7707,7 +7710,7 @@ body,
 .suggestedChannelsDismissCheck_d2b0e4,
 .tagsContainer_d9be46 .tagsButton_d9be46 .tagsButtonInner_d9be46,
 .previewButton__50a36 {
-	color: var(--senary);
+	color: var(--text-senary);
 }
 
 .video__1689b {
@@ -8287,7 +8290,7 @@ path[stroke="rgb(123,162,255)"] {
 }
 
 .progressBar__58525[style*=text-brand] {
-	background-color: var(--senary) !important;
+	background-color: var(--text-senary) !important;
 }
 
 .scrollerContent_fe70ca {
@@ -9020,14 +9023,14 @@ path[stroke="rgb(123,162,255)"] {
 
 .improved__1689b,
 h3.improved__1689b {
-	color: var(--senary);
+	color: var(--text-senary);
 }
 
 .bd-changelog-improved::after,
 .improved__1689b:after,
 h3.improved__1689b:after,
 .tab__0afb5.current__0afb5 .progressBar__0afb5 {
-	background-color: var(--senary);
+	background-color: var(--text-senary);
 }
 
 .botTagOP__82f07,
@@ -9498,7 +9501,7 @@ h3.improved__1689b:after,
 
 .iconContainer_fec266 {
 	background-color: var(--backgroundDark-35);
-	color: var(--senary);
+	color: var(--text-senary);
 }
 
 .inModal__0624f,
@@ -10445,7 +10448,7 @@ rect[fill="#93a7fd"],
 rect[fill="#7a8ef9"],
 rect[fill="#6a7df6"],
 rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
-	fill: var(--senary);
+	fill: var(--text-senary);
 }
 
 .inventory__1feb0,
@@ -10698,7 +10701,7 @@ html:not(.chat-input) .inputInner_b1f01d {
 }
 
 .primary__98277 {
-	color: var(--senary);
+	color: var(--text-senary);
 }
 
 .guildCategorySeparator_b9ee0c,
@@ -10922,8 +10925,8 @@ html:not(.chat-input) .inputInner_b1f01d {
 
 .colorDefault_c1e9c4:not(.colorDanger_c1e9c4).focused_c1e9c4 .check_c1e9c4,
 .bd-changelog-improved {
-	color: var(--senary);
-	fill: var(--senary);
+	color: var(--text-senary);
+	fill: var(--text-senary);
 }
 
 .modalContent__39466,
@@ -11825,7 +11828,7 @@ rect[fill="brand-230"] {
 [style*="background-color: var(--text-brand);"],
 [style*="background-color: #7a8ef9;"],
 [style*="background-color: #6a7df6;"] {
-	background-color: var(--senary) !important;
+	background-color: var(--text-senary) !important;
 }
 
 [style*="background-color: var(--brand-230);"] {
@@ -12324,7 +12327,7 @@ rect[fill="brand-200"] {
 }
 
 .top_b3f026 .item_b3f026.brand_b3f026 {
-	--selected-tab-item-color: var(--senary);
+	--selected-tab-item-color: var(--text-senary);
 }
 
 .top_b3f026 .brand_b3f026.item_b3f026:hover {
@@ -13113,8 +13116,8 @@ rect[fill="brand-200"] {
 }
 
 .tab_f8303a.vertical_f8303a.selected_f8303a {
-	border-color: var(--senary);
-	color: var(--senary);
+	border-color: var(--text-senary);
+	color: var(--text-senary);
 }
 
 .actionContainer__6b102 path[fill='var(--background-base-lower)'] {
