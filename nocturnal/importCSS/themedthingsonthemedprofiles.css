@@ -326,3 +326,7 @@
 .theme-light .background_fdf9c0 {
 	background: url(/assets/5071d09daafd2d99.svg);
 }
+
+.theme-light.custom-user-profile-theme .showMoreButton__84832 {
+	color: #060607 !important;
+}
