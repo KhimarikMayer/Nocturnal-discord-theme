@@ -11504,7 +11504,8 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .guildIcon__143a4,
 .icon__1a58a img,
 .traitContainer__4cbea,
-html:not(.chat-input) .inputInner_b1f01d {
+html:not(.chat-input) .inputInner_b1f01d,
+.uploadInput__94439 {
 	border-radius: 5px;
 }
 
@@ -11708,7 +11709,8 @@ html:not(.chat-input) .inputInner_b1f01d {
 .icon-only__6af3a:hover,
 .username_adebba,
 .icon_d8f25b,
-.container__34940 {
+.container__34940,
+.upload_aa605f {
 	background-color: rgba(0, 0, 0, 0);
 	border: none;
 	box-shadow: none;
@@ -12527,7 +12529,8 @@ rect[fill="brand-200"] {
 .clydeIconContainer_b476ba,
 .mini_a562c8 .barFill_a562c8,
 .slider_a562c8 .barFill_a562c8,
-.noIcon__0a95c {
+.noIcon__0a95c,
+.badge__94439 {
 	background-color: var(--primary);
 	border: none;
 }
@@ -14192,4 +14195,11 @@ rect[fill="#D3D6ED"] {
 	100% {
 		border-color: rgba(0, 0, 0, 0);
 	}
+}
+
+.popout__94439 {
+	background-color: var(--backgroundDark);
+	border: none;
+	box-shadow: none;
+	border-radius: 5px;
 }
