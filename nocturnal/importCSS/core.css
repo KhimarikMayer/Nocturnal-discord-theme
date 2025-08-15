@@ -2338,10 +2338,6 @@ svg[name=Nitro] g path {
 .button_f7ecac[aria-expanded=true],
 .button_f7ecac.selected_f7ecac {
 	background-color: var(--backgroundDarker) !important;
-	background-color: rgb(88, 101, 242);
-	background-color: rgb(183, 204, 255);
-	background-color: rgb(0, 138, 230);
-	background-color: #5ff1f3;
 }
 
 .invite__4d3fa {
