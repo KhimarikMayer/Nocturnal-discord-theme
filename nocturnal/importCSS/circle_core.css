@@ -13986,3 +13986,27 @@ rect[fill="#D3D6ED"] {
 	box-shadow: none;
 	border-radius: 5px;
 }
+
+.addReactButton__34c2c {
+	height: 1.125rem;
+	padding: 4px 6px;
+	margin-bottom: .25rem;
+	margin-left: 1px;
+	margin-right: .25rem;
+	margin-top: .25rem;
+	min-width: auto;
+	line-height: 0;
+	gap: 0;
+	font-size: 100%;
+	font-weight: inherit;
+	display: block;
+}
+
+.icon_f8896c {
+	width: 1.125rem;
+	height: 1.125rem;
+}
+
+.buttons__34c2c .buttonChildrenWrapper__6af3a {
+	min-height: 26px;
+}
