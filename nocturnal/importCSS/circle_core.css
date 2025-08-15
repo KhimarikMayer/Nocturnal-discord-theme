@@ -5924,6 +5924,7 @@ body,
 	width: 100%;
 }
 
+.whatYouLoseItem__89307,
 .forumPost__7d15e,
 .forumPost__7d15e.container__9a337:hover,
 .label_df4aaf {
@@ -5931,7 +5932,6 @@ body,
 }
 
 .iconWrapper__7e6bb,
-.whatYouLoseItem__89307,
 .list__920b8 {
 	background-color: var(--backgroundDark-20);
 }
@@ -5943,7 +5943,7 @@ body,
 
 .profileAvatar__89307 {
 	background-color: var(--backgroundDark);
-	border: 4px solid var(--backgroundDark);
+	border: 4px solid var(--backgroundDark) !important;
 	border-radius: 100%;
 	top: 26px;
 	left: 8px;
