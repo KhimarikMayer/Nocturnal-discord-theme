@@ -7265,11 +7265,6 @@ body,
 	margin: 0;
 }
 
-.messages__1ccd1 {
-	border-top-left-radius: 0;
-	border-top-right-radius: 0;
-}
-
 #permissions-modal-wrapper .role-item:hover {
 	background-color: var(--backgroundDark-20);
 }
@@ -7277,14 +7272,6 @@ body,
 #permissions-modal-wrapper .role-item.selected,
 .card__4d7bb {
 	background-color: var(--backgroundDark-30);
-}
-
-.newCircleIcon_aca3b3 path[fill="#5865F2"] {
-	fill: #fff;
-}
-
-.newCircleIcon_aca3b3 path[fill="currentColor"] {
-	fill: var(--backgroundDarker-alt);
 }
 
 .subscriberCountText__2485e {
