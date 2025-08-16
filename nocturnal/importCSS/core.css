@@ -6347,6 +6347,7 @@ body,
 	border: none;
 }
 
+.tableRowGroup__19fd1 .content__19fd1,
 .deprivateTableBody_e6fa8e,
 .theme-dark .footer_be95d0,
 .header__75906,
@@ -6363,6 +6364,7 @@ body,
 .container__99486,
 .tableContainer__16462 {
 	background-color: var(--backgroundDarker);
+	border: none;
 }
 
 .optionCard_b96967 {
@@ -8918,7 +8920,6 @@ path[stroke="rgb(123,162,255)"] {
 .theme-dark .hr__70151,
 :where(.banner__68edb):before,
 .row__19fd1,
-.content__19fd1,
 .primaryActionPopoutDivider_af3b89,
 .header__45690,
 .forwardPreviewWrapper__62280,
@@ -11560,7 +11561,6 @@ html:not(.chat-input) .inputInner_b1f01d,
 .friends_b37a75,
 .bd-install-modal-items,
 .bd-install-modal-clickable:hover,
-.tableRowGroup__19fd1 .content__19fd1,
 .pill_f7c056,
 .pill_f7c056:hover,
 .earnedBadge_a92dc5,
