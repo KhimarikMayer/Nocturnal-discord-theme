@@ -160,7 +160,8 @@
 .custom-user-profile-theme .divider__23eb0,
 .custom-user-profile-theme .menuOverlay_af7fb7 .menuItemColor_af7fb7:hover,
 .custom-user-profile-theme .menuDivider_af7fb7
-.custom-user-profile-theme .voiceChannelDivider__39ec2 {
+.custom-user-profile-theme .voiceChannelDivider__39ec2,
+.custom-user-profile-theme .menuItemColor_ce8328:hover {
 	background: var(--profile-gradient-secondary-color);
 }
 
