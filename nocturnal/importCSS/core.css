@@ -11492,7 +11492,8 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .icon__1a58a img,
 .traitContainer__4cbea,
 html:not(.chat-input) .inputInner_b1f01d,
-.uploadInput__94439 {
+.uploadInput__94439,
+.result__71961 {
 	border-radius: 5px;
 }
 
