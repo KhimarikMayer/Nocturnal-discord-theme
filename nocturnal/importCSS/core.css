@@ -1816,18 +1816,18 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDark-25);
 }
 
-.theme-dark .container__0f2e8 {
-	background: var(--background-gradient-high, var(--backgroundDark-15));
+.container__0f2e8 {
+	background: var(--background-gradient-high, var(--backgroundDarker));
 	border: none;
 }
 
-.theme-dark .container__0f2e8:hover {
-	background: var(--background-gradient-low, var(--backgroundDark-25));
+.container__0f2e8:hover {
+	background: var(--background-gradient-high, var(--backgroundDark-15));
 }
 
-.theme-dark .selected__0f2e8,
-.theme-dark .selected__0f2e8:hover {
-	background: var(--background-gradient-lower, var(--backgroundDark-50));
+.selected__0f2e8,
+.selected__0f2e8:hover {
+	background: var(--background-gradient-lower, var(--backgroundDark-25));
 }
 
 .theme-dark .clickable__91a9d[aria-expanded=true] .childContainer__91a9d:after,
