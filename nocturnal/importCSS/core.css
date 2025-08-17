@@ -1822,12 +1822,12 @@ svg[name=Nitro] g path {
 }
 
 .container__0f2e8:hover {
-	background: var(--background-gradient-high, var(--backgroundDark-15));
+	background: var(--background-gradient-low, var(--backgroundDark-15));
 }
 
 .selected__0f2e8,
 .selected__0f2e8:hover {
-	background: var(--background-gradient-lower, var(--backgroundDark-25));
+	background-color: var(--backgroundDark-25);
 }
 
 .theme-dark .clickable__91a9d[aria-expanded=true] .childContainer__91a9d:after,
