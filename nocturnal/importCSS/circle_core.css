@@ -13738,3 +13738,7 @@ rect[fill="#D3D6ED"] {
 	min-width: 60px;
 	padding: calc(var(--space-4) - 1px) calc(var(--space-12) - 1px);
 }
+
+.button__6af3a {
+	border: 2px solid transparent;
+}
