@@ -2345,6 +2345,7 @@ svg[name=Nitro] g path {
 }
 
 .inviteRow__67dba {
+	border-radius: 5px;
 	margin-right: 0;
 }
 
@@ -8396,7 +8397,6 @@ path[stroke="rgb(123,162,255)"] {
 .iconContainer__03273,
 .stepNumber_d9914b,
 .circle__8cc9a,
-.inviteRow__67dba:hover,
 .bd-settings-group.collapsible .bd-settings-title::before,
 .iconBackground__33980,
 .rowIcon__95bea,
@@ -8429,6 +8429,7 @@ path[stroke="rgb(123,162,255)"] {
 	background-color: var(--backgroundDark-50);
 }
 
+.inviteRow__67dba:hover,
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .badgeList_ec3b75,
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .badgeList_ab525a,
 .container_c44293,
