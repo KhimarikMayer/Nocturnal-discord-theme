@@ -39,24 +39,29 @@
 }
 
 .wrapper__44b0c:has([fill="#43a25a"])[role="img"]:before,
+.wrapper__44b0c:has([mask="url(#svg-mask-status-online)"])[role="img"]:before,
 .container__1ce5d:has([mask="url(#svg-mask-status-online)"]):before,
 .container__1ce5d:has([mask="url(#svg-mask-diagonal-facepile-typing-32)"]):before {
 	box-shadow: 0 0 0 2px #43b581 !important;
 }
 
-.wrapper__44b0c:has([fill="#d83a42"])[role="img"]:before {
+.wrapper__44b0c:has([fill="#d83a42"])[role="img"]:before,
+.wrapper__44b0c:has([mask="url(#svg-mask-status-dnd)"])[role="img"]:before {
 	box-shadow: 0 0 0 2px #f04747 !important;
 }
 
-.wrapper__44b0c:has([fill="#ca9654"])[role="img"]:before {
+.wrapper__44b0c:has([fill="#ca9654"])[role="img"]:before,
+.wrapper__44b0c:has([mask="url(#svg-mask-status-idle)"])[role="img"]:before {
 	box-shadow: 0 0 0 2px #faa61a !important;
 }
 
-.wrapper__44b0c:has([fill="#9147ff"])[role="img"]:before {
+.wrapper__44b0c:has([fill="#9147ff"])[role="img"]:before,
+.wrapper__44b0c:has([mask="url(#svg-mask-status-streaming)"])[role="img"]:before {
 	box-shadow: 0 0 0 2px #6441a5 !important;
 }
 
-.wrapper__44b0c:has([fill="#82838b"])[role="img"]:before {
+.wrapper__44b0c:has([fill="#82838b"])[role="img"]:before,
+.wrapper__44b0c:has([mask="url(#svg-mask-status-offline)"])[role="img"]:before {
 	box-shadow: 0 0 0 2px #747f8d !important;
 }
 
