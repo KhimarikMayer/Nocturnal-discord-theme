@@ -3,7 +3,6 @@
 @import url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/themedthingsonthemedprofiles.css");
 @import url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/main.css");
 
-.theme-dark .wrapper__44b0c[role="img"][aria-label]:before,
 .theme-dark .wrapper__44b0c[role="img"]:before,
 .theme-dark .container__1ce5d:before {
 	content: "";
@@ -17,207 +16,46 @@
 	z-index: 1;
 }
 
-.theme-dark [role="img"][aria-label] .avatar__44b0c,
-.theme-dark [role="img"][aria-label] .avatar__44b0c:before,
-.theme-dark [role="img"][aria-label] .avatarSpeaking__44b0c,
 .theme-dark [role="img"] .avatar__44b0c,
-.theme-dark [role="img"] .avatar__44b0c:before {
+.theme-dark [role="img"] .avatar__44b0c:before,
+.theme-dark [role="img"] .avatarSpeaking__44b0c {
 	margin: 2px 0 0 2px;
 	width: calc(100% - 4px);
 	height: calc(100% - 4px);
 }
 
-.theme-dark [role="img"][aria-label] foreignObject,
 .theme-dark [role="img"] foreignObject,
-.container__1ce5d foreignObject {
+.theme-dark .container__1ce5d foreignObject {
 	mask: none;
 }
 
-.theme-dark [role="img"][aria-label] .svg__44b0c foreignObject img,
 .theme-dark [role="img"] .svg__44b0c foreignObject img {
 	border-radius: 100%;
 }
 
-.theme-dark [role="img"][aria-label] svg rect,
 .theme-dark [role="img"] svg rect,
 .theme-dark .container__1ce5d svg rect {
 	display: none;
 }
 
-[role="img"][aria-label*="Online"]:before,
-[role="img"][aria-label*="online"]:before,
-[role="img"][aria-label*="Conectado"]:before,
-[role="img"][aria-label*="En línea"]:before,
-[role="img"][aria-label*="En ligne"]:before,
-[role="img"][aria-label*="Na mreži"]:before,
-[role="img"][aria-label*="Prisijungęs"]:before,
-[role="img"][aria-label*="Elérhető"]:before,
-[role="img"][aria-label*="Pålogget"]:before,
-[role="img"][aria-label*="Dostępny"]:before,
-[role="img"][aria-label*="Disponível"]:before,
-[role="img"][aria-label*="Paikalla"]:before,
-[role="img"][aria-label*="Trực tuyến"]:before,
-[role="img"][aria-label*="Çevrimiçi"]:before,
-[role="img"][aria-label*="Συνδεδεμένος"]:before,
-[role="img"][aria-label*="μέσω κινητού"]:before,
-[role="img"][aria-label*="На линия"]:before,
-[role="img"][aria-label*="Онлайн"]:before,
-[role="img"][aria-label*="В сети"]:before,
-[role="img"][aria-label*="В мережі"]:before,
-[role="img"][aria-label*="ऑनलाइन"]:before,
-[role="img"][aria-label*="ออนไลน์"]:before,
-[role="img"][aria-label*="在线"]:before,
-[role="img"][aria-label*="オンライン"]:before,
-[role="img"][aria-label*="線上"]:before,
-[role="img"][aria-label*="온라인"]:before,
-[role="img"][aria-label*="Çevrim içi"]:before,
-[role="img"][aria-label*="üzerinden çevrimiçi"]:before,
-[role="img"][aria-label*="透過行動裝置上線"]:before,
 .wrapper__44b0c:has([fill="#43a25a"])[role="img"]:before,
 .container__1ce5d:has([mask="url(#svg-mask-status-online)"]):before,
 .container__1ce5d:has([mask="url(#svg-mask-diagonal-facepile-typing-32)"]):before {
 	box-shadow: 0 0 0 2px #43b581 !important;
 }
 
-[role="img"][aria-label*="Do Not Disturb"]:before,
-[role="img"][aria-label*="Vil ikke forstyrres"]:before,
-[role="img"][aria-label*="Bitte nicht stören"]:before,
-[role="img"][aria-label*="No molestar"]:before,
-[role="img"][aria-label*="Ne pas déranger"]:before,
-[role="img"][aria-label*="Ne uznemiravaj"]:before,
-[role="img"][aria-label*="Non disturbare"]:before,
-[role="img"][aria-label*="Netrukdyti"]:before,
-[role="img"][aria-label*="Niet storen"]:before,
-[role="img"][aria-label*="Ikke forstyrr"]:before,
-[role="img"][aria-label*="Nie przeszkadzać"]:before,
-[role="img"][aria-label*="Elfoglalt"]:before,
-[role="img"][aria-label*="Não perturbar"]:before,
-[role="img"][aria-label*="Nu deranja"]:before,
-[role="img"][aria-label*="Älä häiritse"]:before,
-[role="img"][aria-label*="Stör ej"]:before,
-[role="img"][aria-label*="Vui Lòng Không Làm Phiền"]:before,
-[role="img"][aria-label*="Rahatsız Etmeyin"]:before,
-[role="img"][aria-label*="Nerušit"]:before,
-[role="img"][aria-label*="Μην ενοχλείτε"]:before,
-[role="img"][aria-label*="Не ме безпокой"]:before,
-[role="img"][aria-label*="Не беспокоить"]:before,
-[role="img"][aria-label*="Не турбувати"]:before,
-[role="img"][aria-label*="ห้ามรบกวน"]:before,
-[role="img"][aria-label*="请勿打扰"]:before,
-[role="img"][aria-label*="取り込み中"]:before,
-[role="img"][aria-label*="請勿打擾"]:before,
-[role="img"][aria-label*="다른 용무 중"]:before,
 .wrapper__44b0c:has([fill="#d83a42"])[role="img"]:before {
 	box-shadow: 0 0 0 2px #f04747 !important;
 }
 
-[role="img"][aria-label*="Idle"]:before,
-[role="img"][aria-label*="Inaktiv"]:before,
-[role="img"][aria-label*="Abwesend"]:before,
-[role="img"][aria-label*="Ausente"]:before,
-[role="img"][aria-label*="Inactif"]:before,
-[role="img"][aria-label*="U mirovanju"]:before,
-[role="img"][aria-label*="Inattivo"]:before,
-[role="img"][aria-label*="Pasitraukęs"]:before,
-[role="img"][aria-label*="Tétlen"]:before,
-[role="img"][aria-label*="Inactief"]:before,
-[role="img"][aria-label*="Zaraz wracam"]:before,
-[role="img"][aria-label*="Inactiv"]:before,
-[role="img"][aria-label*="Toimeton"]:before,
-[role="img"][aria-label*="Chờ"]:before,
-[role="img"][aria-label*="Boşta"]:before,
-[role="img"][aria-label*="Nečinný"]:before,
-[role="img"][aria-label*="Αδρανής"]:before,
-[role="img"][aria-label*="Не се използва"]:before,
-[role="img"][aria-label*="Неактивен"]:before,
-[role="img"][aria-label*="Відійшов"]:before,
-[role="img"][aria-label*="ไม่อยู่"]:before,
-[role="img"][aria-label*="闲置"]:before,
-[role="img"][aria-label*="退席中"]:before,
-[role="img"][aria-label*="閒置"]:before,
-[role="img"][aria-label*="자리비움"]:before,
 .wrapper__44b0c:has([fill="#ca9654"])[role="img"]:before {
 	box-shadow: 0 0 0 2px #faa61a !important;
 }
 
-[role="img"][aria-label*="Streaming"]:before,
-[role="img"][aria-label*="Streamer"]:before,
-[role="img"][aria-label*="Transmitiendo"]:before,
-[role="img"][aria-label*="En direct"]:before,
-[role="img"][aria-label*="In diretta"]:before,
-[role="img"][aria-label*="Transliuojama"]:before,
-[role="img"][aria-label*="Közvetítés"]:before,
-[role="img"][aria-label*="Streamt"]:before,
-[role="img"][aria-label*="Strømmer"]:before,
-[role="img"][aria-label*="Streamowanie"]:before,
-[role="img"][aria-label*="Transmitindo"]:before,
-[role="img"][aria-label*="Transmite live"]:before,
-[role="img"][aria-label*="Striimaa"]:before,
-[role="img"][aria-label*="Streamar"]:before,
-[role="img"][aria-label*="Đang stream"]:before,
-[role="img"][aria-label*="Yayın Yapıyor"]:before,
-[role="img"][aria-label*="Streamuje"]:before,
-[role="img"][aria-label*="Ζωντανά"]:before,
-[role="img"][aria-label*="Стрийминг"]:before,
-[role="img"][aria-label*="Стримит"]:before,
-[role="img"][aria-label*="Трансляція"]:before,
-[role="img"][aria-label*="ถ่ายทอดสด"]:before,
-[role="img"][aria-label*="正在直播"]:before,
-[role="img"][aria-label*="配信"]:before,
-[role="img"][aria-label*="直播中"]:before,
-[role="img"][aria-label*="配信"]:before,
 .wrapper__44b0c:has([fill="#9147ff"])[role="img"]:before {
 	box-shadow: 0 0 0 2px #6441a5 !important;
 }
 
-[role="img"][aria-label*="Offline"]:before,
-[role="img"][aria-label*="Hors ligne"]:before,
-[role="img"][aria-label*="Nem elérhető"]:before,
-[role="img"][aria-label*="Neprisijungęs"]:before,
-[role="img"][aria-label*="Niedostępny"]:before,
-[role="img"][aria-label*="Izvan mreže"]:before,
-[role="img"][aria-label*="오프라인"]:before,
-[role="img"][aria-label*="離線"]:before,
-[role="img"][aria-label*="オフライン"]:before,
-[role="img"][aria-label*="离线"]:before,
-[role="img"][aria-label*="ออฟไลน์"]:before,
-[role="img"][aria-label*="Не в мережі"]:before,
-[role="img"][aria-label*="Не в сети"]:before,
-[role="img"][aria-label*="Извън линия"]:before,
-[role="img"][aria-label*="Αποσυνδεδεμένος"]:before,
-[role="img"][aria-label*="Çevrimdışı"]:before,
-[role="img"][aria-label*="Ngoại tuyến"]:before,
-[role="img"][aria-label*="Ei paikalla"]:before,
-[role="img"][aria-label*="Frakoblet"]:before,
-[role="img"][aria-label*="Desconectado"]:before,
-[role="img"][aria-label*="Invisible"]:before,
-[role="img"][aria-label*="Usynlig"]:before,
-[role="img"][aria-label*="Unsichtbar"]:before,
-[role="img"][aria-label*="Nevidljiv/a"]:before,
-[role="img"][aria-label*="Nematomas"]:before,
-[role="img"][aria-label*="Izvan mreže"]:before,
-[role="img"][aria-label*="Nevidljiv/a"]:before,
-[role="img"][aria-label*="Nematomas"]:before,
-[role="img"][aria-label*="Láthatatlan"]:before,
-[role="img"][aria-label*="Onzichtbaar"]:before,
-[role="img"][aria-label*="Usynlig"]:before,
-[role="img"][aria-label*="Niewidoczny"]:before,
-[role="img"][aria-label*="Invisível"]:before,
-[role="img"][aria-label*="Invizibil"]:before,
-[role="img"][aria-label*="Näkymätön"]:before,
-[role="img"][aria-label*="Osynlig"]:before,
-[role="img"][aria-label*="Vô hình"]:before,
-[role="img"][aria-label*="Görünmez"]:before,
-[role="img"][aria-label*="Neviditelný"]:before,
-[role="img"][aria-label*="Αόρατος"]:before,
-[role="img"][aria-label*="Невидим"]:before,
-[role="img"][aria-label*="Невидимый"]:before,
-[role="img"][aria-label*="Невидимий"]:before,
-[role="img"][aria-label*="ไม่ระบุ"]:before,
-[role="img"][aria-label*="隐身"]:before,
-[role="img"][aria-label*="オンライン状態を隠す"]:before,
-[role="img"][aria-label*="隱形"]:before,
-[role="img"][aria-label*="오프라인 표시"]:before,
 .wrapper__44b0c:has([fill="#82838b"])[role="img"]:before {
 	box-shadow: 0 0 0 2px #747f8d !important;
 }
@@ -3725,6 +3563,7 @@ span.button__67645.enabled__67645:hover,
 	background-color: var(--backgroundDark-25);
 }
 
+.theme-dark .card__88264,
 .childButton__3ed08,
 .listContainer__527b1 .listElement__527b1,
 .container__6764b,
@@ -3751,7 +3590,6 @@ span.button__67645.enabled__67645:hover,
 .row__76f04:hover,
 .iconWrapper__54b20,
 .result__71961[aria-selected=true],
-.card__88264,
 .groupContainer_b6a9f9 {
 	background-color: var(--backgroundDark-20);
 	border: none;
@@ -3759,25 +3597,15 @@ span.button__67645.enabled__67645:hover,
 
 .childButton__3ed08:hover,
 .listContainer__527b1 .listElement__527b1:hover,
-.card__88264:hover,
 .collapseable__217b7.groupContainer_b6a9f9:hover,
 .separator_e4503a {
 	background-color: var(--backgroundDark-35);
 	border: none;
 }
 
-.previewCard_f70348,
-.previewCard_f70348:hover {
-	background-color: var(--backgroundDark-20);
-}
-
 .childButton__3ed08:active,
 .listContainer__527b1 .listElement__527b1:active {
 	background-color: var(--backgroundDark-50);
-}
-
-.rsvpCount_b5010b {
-	background-color: var(--backgroundDark-75);
 }
 
 .newBadgeText__29021 {
@@ -3834,17 +3662,13 @@ span.button__67645.enabled__67645:hover,
 .textBadge__2b1f5[style*="background-color: var(--status-danger);"],
 [style*="background-color: var(--brand-500);"],
 .textBadge__2b1f5[style*="background-color: var(--button-danger-background);"],
-[style*="background-color: var(--badge-brand-text);"] {
+[style*="background-color: var(--badge-brand-text);"],
+.maskBackground_db811b[style*="background-color: var(--background-accent);"] {
 	background-color: var(--primary) !important;
 }
 
 .triggerMainContainer_b6c6eb {
 	border: 1px solid var(--backgroundDark-95);
-}
-
-.actionContainer__6446f,
-.interactiveRow__60626:hover {
-	background-color: var(--backgroundDark-20);
 }
 
 .selected__60626,
@@ -3853,14 +3677,20 @@ span.button__67645.enabled__67645:hover,
 	background-color: var(--backgroundDark-35);
 }
 
+.theme-dark .card__88264:hover {
+	background-color: #12151c;
+}
+
 .compactButton__7ff28:hover,
 .fieldBackground_eaaeee {
 	background-color: var(--backgroundDarker-alt);
 	border: none;
 }
 
-.helpText_fe70ca {
-	max-width: none;
+.actionContainer__6446f,
+.interactiveRow__60626:hover,
+.theme-dark .previewCard_f70348 {
+	background-color: var(--backgroundDark-20);
 }
 
 .actionContainer_bc4513,
@@ -5097,18 +4927,6 @@ span.button__67645.enabled__67645:hover,
 
 .badgeUpgrade_fbcaba {
 	color: var(--primary);
-}
-
-.cursorPointer_f75fb0:active,
-.container__2637a .avatar__183c2:active,
-.pointer__44b0c:active:not(.partyAvatar__7ba6e, .avatar_a36dee, .creator_b5010b, .subscriberMask_a36dee),
-.avatar__07f91:active,
-.chatContent_f75fb0 .replyAvatar_c19a55:active,
-.chatContent_f75fb0 .executedCommandAvatar_c19a55:active,
-.chatContent_f75fb0 .threadMessageAccessoryAvatar_c19a55:active,
-.avatar__71eb2:active,
-.avatar__183c2:active {
-	transform: translateY(1px);
 }
 
 .overlap__07f91 {
@@ -7832,10 +7650,6 @@ path[stroke="rgb(123,162,255)"] {
 	max-width: 100%;
 }
 
-.noHeaderSpacer__0f50c {
-	padding-top: 0;
-}
-
 .editButton__553a5,
 .tooltip__382e7.tooltipRed__382e7 {
 	box-shadow: none;
@@ -8912,7 +8726,6 @@ h3.improved__1689b:after,
 	background-color: var(--text-senary);
 }
 
-.botTagOP__82f07,
 [style*="background-color: var(--brand-260);"] {
 	background-color: var(--nonary) !important;
 }
@@ -8926,7 +8739,11 @@ h3.improved__1689b:after,
 	background-color: var(--denary) !important;
 }
 
-.botTagOP__82f07,
+.botTagOP__82f07 {
+	background-color: var(--nonary);
+	color: rgb(0, 102, 184);
+}
+
 .newChannel__599fa,
 .newBadge__5d7c9,
 .newBadge__0b563,
@@ -8940,23 +8757,6 @@ h3.improved__1689b:after,
 
 .bd-modal-footer {
 	box-shadow: inset 0 1px 0 var(--backgroundDark-95);
-}
-
-.progressBarScrubber_b28bb7 {
-	left: 12px;
-	right: 12px;
-}
-
-.tooltipBottom__382e7.tooltipBrand__382e7 .tooltipPointer__382e7,
-.tooltipCenter__382e7.tooltipBrand__382e7 .tooltipPointer__382e7,
-.tooltipBottom__382e7.tooltipGreen__382e7 .tooltipPointer__382e7,
-.tooltipCenter__382e7.tooltipGreen__382e7 .tooltipPointer__382e7 {
-	bottom: calc(100% + 2px);
-}
-
-.tooltipTop__382e7.tooltipBrand__382e7 .tooltipPointer__382e7,
-.tooltipTop__382e7.tooltipGreen__382e7 .tooltipPointer__382e7 {
-	top: calc(100% + 2px);
 }
 
 .theme-dark .uploader_e7d73e,
@@ -12597,6 +12397,7 @@ rect[fill="brand-200"] {
 	background-color: var(--backgroundDarker-alt);
 }
 
+.rsvpCount_b5010b,
 .theme-dark .option_a19535,
 .tagContainer__95856,
 .themeOption__81345,
