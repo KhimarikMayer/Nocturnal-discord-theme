@@ -8251,38 +8251,6 @@ path[stroke="rgb(123,162,255)"] {
 	background-color: var(--backgroundDark-40);
 }
 
-.mask_db811b:has(.container_db811b[style*="brand-500"]) {
-	overflow: hidden;
-}
-
-.optionCard_b96967.dropIndicatorBefore_b96967 {
-	border-radius: 0 12px 12px 0;
-}
-
-.optionCard_b96967.dropIndicatorAfter_b96967 {
-	border-radius: 12px 0 0 12px;
-}
-
-.container__5d756.dropIndicatorBefore__5d756,
-.actionItem_d2b0e4.dropIndicatorBefore_d2b0e4 {
-	border-radius: 0 0 12px 12px;
-}
-
-.dropIndicatorBefore__5d756:before,
-.dropIndicatorBefore_d2b0e4:before {
-	padding-bottom: 2px;
-	border-radius: 50px 50px 0 0;
-}
-
-.actionItem_d2b0e4.dropIndicatorAfter_d2b0e4 {
-	border-radius: 12px 12px 0 0;
-}
-
-.dropIndicatorAfter_d2b0e4:after {
-	padding-bottom: 2px;
-	border-radius: 0 0 50px 50px;
-}
-
 .pinIcon_a93f74,
 .redPing_f0dcaf,
 .icon_a14595,
@@ -9515,7 +9483,7 @@ rect[fill="var(--control-brand-foreground)"] {
 	height: 100%;
 	top: -2px;
 	left: -2px;
-	box-shadow: none;
+	box-shadow: none !important;
 	border: 2px solid var(--chat-avatar-border-color);
 	z-index: 0;
 }
@@ -10215,8 +10183,6 @@ input[type=checkbox]:focus-visible+.label__0d242 {
 
 .badge_b37eda,
 .labelChecked__0d242,
-.dropIndicatorAfter_d2b0e4:after,
-.dropIndicatorBefore_d2b0e4:before,
 .clipNewBadge__1d12e,
 .newBadge__669b5 {
 	background-color: var(--primary);
@@ -10697,13 +10663,6 @@ html:not(.chat-input) .inputInner_b1f01d,
 
 .tierInfoContainer__3efc4 {
 	background-color: #0c0e12;
-}
-
-.dropIndicatorBefore_d2b0e4:before,
-.dropIndicatorAfter_d2b0e4:after,
-.dropIndicatorBefore__5d756:before,
-.dropIndicatorAfter__5d756:after {
-	background-color: var(--primary);
 }
 
 .modalContent__78e61,
@@ -13773,12 +13732,12 @@ rect[fill="#D3D6ED"] {
 }
 
 .theme-dark .childWrapper__6e9f8 .container__1ce5d:before,
-.theme-dark .childWrapper__6e9f8 .wrapper__44b0c:before {
+.theme-dark .childWrapper__6e9f8 .wrapper__44b0c[role="img"]:before {
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	box-shadow: none;
+	box-shadow: none !important;
 	border-radius: 0;
 	z-index: auto;
 }
