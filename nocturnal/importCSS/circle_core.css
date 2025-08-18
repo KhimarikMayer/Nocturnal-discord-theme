@@ -13159,38 +13159,8 @@ rect[fill="brand-200"] {
 }
 
 #app-mount .wrapper__44b0c foreignObject[mask*=mobile]:after,
-#app-mount .wrapper__44b0c:has([mask="url(#svg-mask-avatar-status-mobile-32)"])[role="img"][aria-label] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="В сети (моб. устройство)"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Online via mobil"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Online via mobile"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Via Mobilgerät online"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Online via Mobile"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="En línea con móvil"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="En línea en un dispositivo móvil"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="En ligne sur mobile"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Online na mobilnom uređaju"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Online su dispositivo mobile"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Prisijungęs per mobilųjį įrenginį"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Online mobillal"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Online via mobiel"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Pålogget via mobil"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Dostępny mobilnie"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Online via dispositivo móvel"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Online prin mobil"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Paikalla mobiilissa"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Trực tuyến trên điện thoại"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Mobil üzerinden çevrimiçi"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Online přes mobil"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Σύνδεση μέσω κινητού"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Онлайн чрез мобилно приложение"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="В мережі з мобільного"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="मोबाइल से ऑनलाइन आएं"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="ออนไลน์ผ่านโทรศัพท์มือถือ"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="移动端在线"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="モバイル経由のオンライン"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="透過行動裝置上線"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="ออนไลน์ผ่านโทรศัพท์มือถือ"] foreignObject:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="모바일에서 온라인 접속 중"] foreignObject:after {
+#app-mount .wrapper__44b0c:has([mask="url(#svg-mask-avatar-status-mobile-32)"])[role="img"] foreignObject:after,
+#app-mount .wrapper__44b0c:has([rx="4.2"][ry="4.2"])[role="img"] foreignObject:after {
 	content: "";
 	mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>') center no-repeat;
 	position: absolute;
@@ -13206,38 +13176,8 @@ rect[fill="brand-200"] {
 	bottom: 6px;
 }
 
-#app-mount .wrapper__44b0c:has([mask="url(#svg-mask-avatar-status-mobile-32)"])[role="img"][aria-label] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="В сети (моб. устройство)"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Online via mobil"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Online via mobile"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Via Mobilgerät online"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Online via Mobile"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="En línea con móvil"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="En línea en un dispositivo móvil"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="En ligne sur mobile"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Online na mobilnom uređaju"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Online su dispositivo mobile"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Prisijungęs per mobilųjį įrenginį"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Online mobillal"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Online via mobiel"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Pålogget via mobil"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Dostępny mobilnie"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Online via dispositivo móvel"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Online prin mobil"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Paikalla mobiilissa"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Trực tuyến trên điện thoại"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Mobil üzerinden çevrimiçi"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Online přes mobil"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Σύνδεση μέσω κινητού"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="Онлайн чрез мобилно приложение"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="В мережі з мобільного"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="मोबाइल से ऑनलाइन आएं"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="ออนไลน์ผ่านโทรศัพท์มือถือ"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="移动端在线"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="モバイル経由のオンライン"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="透過行動裝置上線"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="ออนไลน์ผ่านโทรศัพท์มือถือ"] foreignObject[width="32"]:after,
-#app-mount .wrapper__44b0c[role="img"][aria-label*="모바일에서 온라인 접속 중"] foreignObject[width="32"]:after {
+#app-mount .wrapper__44b0c:has([mask="url(#svg-mask-avatar-status-mobile-32)"])[role="img"] foreignObject[width="32"]:after,
+#app-mount .wrapper__44b0c:has([rx="4.2"][ry="4.2"])[role="img"] foreignObject[width="32"]:after {
 	width: 12px;
 	height: 12px;
 	right: 0;
