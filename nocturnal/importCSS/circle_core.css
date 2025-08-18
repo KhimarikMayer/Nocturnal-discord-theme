@@ -10324,9 +10324,7 @@ rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 .traitContainer__4cbea,
 html:not(.chat-input) .inputInner_b1f01d,
 .uploadInput__94439,
-.result__71961,
-.emptyUserDimmed__183c2,
-.size16__183c2 .moreUsers__183c2 {
+.result__71961 {
 	border-radius: 5px;
 }
 
