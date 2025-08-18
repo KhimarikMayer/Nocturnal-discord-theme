@@ -10324,7 +10324,9 @@ rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 .traitContainer__4cbea,
 html:not(.chat-input) .inputInner_b1f01d,
 .uploadInput__94439,
-.result__71961 {
+.result__71961,
+.emptyUserDimmed__183c2,
+.size16__183c2 .moreUsers__183c2 {
 	border-radius: 5px;
 }
 
@@ -10968,7 +10970,8 @@ path[fill="var(--bg-brand)"] {
 .discoverHeader_b992d4,
 .rows_c3787a,
 .appLauncherPlaceholder__87dda,
-.chatTextAreaPlaceholder__87dda {
+.chatTextAreaPlaceholder__87dda,
+.destinationRow__62280 {
 	margin-right: 10px;
 }
 
@@ -11148,11 +11151,6 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .topRow__34940,
 .bottomRowAction__34940 {
 	background-color: color-mix(in oklab, var(--backgroundDark), rgba(0, 0, 0, 0) 20%);
-}
-
-.destinationRow__62280 {
-	margin-right: 10px;
-	border-radius: 5px;
 }
 
 .container__19cf2,
@@ -12396,6 +12394,7 @@ rect[fill="brand-200"] {
 	background-color: var(--backgroundDark);
 }
 
+.hero_af3b89,
 .wrapper_b76891,
 .postEnrollmentBackground__636a2,
 .buttonSection__1405b,
