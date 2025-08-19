@@ -3694,10 +3694,9 @@ span.button__67645.enabled__67645:hover,
 
 .popout__76f04 {
 	background-color: var(--backgroundDark);
-	border: 1px solid var(--backgroundDark-50) !important;
+	border: 1px solid var(--backgroundDark-50);
 	box-sizing: border-box;
 	box-shadow: 0 0 10px 3px var(--backgroundDark-50);
-	border-radius: 0 8px 8px 0;
 	margin-left: 8px;
 }
 
@@ -4116,7 +4115,8 @@ span.button__67645.enabled__67645:hover,
 
 .previewContainer_ee8e87 {
 	border-radius: 0 5px 5px 0;
-	border-left: solid 8px var(--backgroundDarker-alt);
+	border-left: 8px solid var(--backgroundDarker-alt);
+	max-height: 100% !important;
 }
 
 .opTag_ee8e87 {
@@ -13738,4 +13738,9 @@ circle[fill="#C12A35"],
 .tooltipLeft__382e7.tooltipBrand__382e7 .tooltipPointer__382e7,
 .tooltipLeft__382e7.tooltipGreen__382e7 .tooltipPointer__382e7 {
 	left: calc(100% + 2px);
+}
+
+.addReactButton__34c2c {
+	margin-top: 2px;
+	margin-bottom: 2px;
 }
