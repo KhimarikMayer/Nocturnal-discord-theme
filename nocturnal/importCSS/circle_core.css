@@ -543,6 +543,7 @@
 	--backgroundDark-100: rgba(0, 0, 0, 1);
 	--border-for-chats: rgba(1, 1, 1, 0.25);
 	--primary: rgb(0, 138, 230);
+	--primary-hsl: 204 100% 45%;
 	--primaryGradient1: rgb(0, 138, 230);
 	--primaryGradient2: rgb(0, 230, 138);
 	--primary-1: rgb(0, 138, 230, 0.0196078431372549);
@@ -3136,15 +3137,6 @@ span.button__67645.enabled__67645:hover,
 .speakerRaiseHandBadge__0c63f {
 	top: -2px;
 	right: 4.5px;
-}
-
-.buttonContainer__664ff {
-	background-color: var(--backgroundDark-45) !important;
-}
-
-.buttonContainer__664ff:hover {
-	background: linear-gradient(to top left, var(--primaryGradient1), var(--primaryGradient2)) !important;
-	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-50) !important;
 }
 
 .acceptText__477aa {
@@ -8304,7 +8296,6 @@ path[stroke="rgb(123,162,255)"] {
 .bd-settings-group.collapsible .bd-settings-title::before,
 .iconBackground__33980,
 .rowIcon__95bea,
-.background__506d9,
 .iconBackground__33efa,
 .floating-window-buttons .maximize-button:hover,
 .iconContainer__8a472,
@@ -8368,6 +8359,7 @@ path[stroke="rgb(123,162,255)"] {
 	margin-right: 2px;
 }
 
+.background__506d9,
 .listItemContainer__7c901,
 .selectGuild__39466:hover {
 	background-color: var(--backgroundDarker);
@@ -11056,7 +11048,6 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .container__19cf2,
 .bottomRowAction__34940 .innerBottomRowAction__34940:hover,
 .container_afa88e,
-.iconBackground_f08fc1,
 .tabs_adcef2,
 .tabs__8683b,
 .tabBackground_adcef2,
@@ -11415,6 +11406,7 @@ div.cardContainer__88e24,
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
 }
 
+.pillItem__9e06a:not(.pillItemSelected__9e06a):hover,
 .hoverableContainer__754bd:hover,
 .menuItem__8683b.active__8683b {
 	background-color: var(--backgroundDark-20);
@@ -11475,7 +11467,6 @@ div.cardContainer__88e24,
 	background-color: var(--backgroundDark-45);
 }
 
-.pillItem__9e06a:not(.pillItemSelected__9e06a):hover,
 #app-mount :where(.bd-paginator-back, .bd-paginator-next):hover,
 .footerContainer__122e4:hover,
 .channelIconContainer_c66e86,
@@ -11723,6 +11714,7 @@ rect[fill="brand-200"] {
 	background: linear-gradient(180deg, rgba(52, 52, 52, 0)0%, rgba(35, 35, 35, .9)50%, var(--backgroundDarker) 100%);
 }
 
+.iconBackground_f08fc1,
 .upsellsContainer__8f3cb,
 .exampleImage__61aee,
 .closeInner__6a6d6,
@@ -12259,7 +12251,6 @@ rect[fill="brand-200"] {
 .premiumDisabledRefresh__9be63:hover,
 .premiumDisabledRefresh__9be63:active:not(:focus-within),
 .noIcon_f34534.guildIcon_d5f3cd,
-.pillItemSelected__9e06a,
 .guildIconImage_d28ae0.acronym_d28ae0 {
 	background-color: var(--backgroundDark-50);
 	border: none;
@@ -12418,6 +12409,7 @@ rect[fill="brand-200"] {
 	background-color: var(--backgroundDarker-alt);
 }
 
+.pillItemSelected__9e06a,
 .playButton__76084:hover,
 .playButton_cf0b5e:hover,
 .rsvpCount_b5010b,
@@ -13663,10 +13655,6 @@ circle[fill="#C12A35"],
 	padding: calc(var(--space-4) - 1px) calc(var(--space-12) - 1px);
 }
 
-.button__6af3a {
-	border: 2px solid transparent;
-}
-
 .tooltipCenter__382e7.tooltipBrand__382e7 .tooltipPointer__382e7,
 .tooltipCenter__382e7.tooltipGreen__382e7 .tooltipPointer__382e7 {
 	bottom: calc(100% + 2px);
@@ -13695,4 +13683,18 @@ circle[fill="#C12A35"],
 .addReactButton__34c2c {
 	margin-top: 2px;
 	margin-bottom: 2px;
+}
+
+.pulse__6b38f {
+	box-shadow: 0 0 0 0 hsl(var(--primary-hsl)/.5);
+}
+
+@keyframes pulse-animation__6b38f {
+	70% {
+		box-shadow: 0 0 0 20px hsl(var(--primary-hsl) / 0);
+	}
+
+	100% {
+		box-shadow: 0 0 0 0px hsl(var(--primary-hsl) / 0);
+	}
 }
