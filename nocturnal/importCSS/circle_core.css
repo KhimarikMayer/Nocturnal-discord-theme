@@ -4759,10 +4759,6 @@ span.button__67645.enabled__67645:hover,
 	color: #060607;
 }
 
-.wrapper__44b0c[style="width: 16px; height: 16px;"] foreignObject {
-	mask: none;
-}
-
 .theme-light .nickname_c9ccf6,
 .theme-light .userTagUsernameBase_c9ccf6,
 .theme-light .discrimBase_c9ccf6,
@@ -5062,16 +5058,6 @@ span.button__67645.enabled__67645:hover,
 
 .card__11580:hover {
 	background-color: var(--backgroundDark-45) !important;
-}
-
-.bar__7aaec:not(.voiceBar__7aaec, .mentionsBar__7aaec) {
-	background-color: var(--backgroundDark);
-	border: none;
-}
-
-.mentionsBar__7aaec {
-	background-color: var(--primary);
-	box-shadow: none;
 }
 
 .emptyPreview__48b20 {
@@ -5433,6 +5419,7 @@ html.theme-light .app__160d8::after {
 	background: linear-gradient(to right, var(--backgroundDark-52), var(--backgroundDark-26), var(--backgroundDark-52));
 }
 
+.toast__3fde7[data-type=success],
 .newPostCount_c9d7dd,
 .unreadCount__23463,
 .chatIcon__233f8:hover .unreadCount__23463 {
@@ -6007,8 +5994,6 @@ body,
 	background-color: var(--backgroundDarker);
 	box-shadow: 0 0 16px 8px var(--backgroundDark-75);
 	margin-left: -8px;
-	border-bottom-left-radius: 0;
-	border-top-left-radius: 0;
 }
 
 .newlyAddedBadge_aeaaeb {
@@ -6711,10 +6696,21 @@ body,
 	border-color: rgba(0, 0, 0, 0);
 }
 
-.toast__3fde7:not([data-type=success]) {
+.toast__3fde7 {
 	background-color: var(--backgroundDark);
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
 	border: none;
+}
+
+.bar__7aaec {
+	background-color: var(--backgroundDark);
+	border: none;
+}
+
+.voiceBar__7aaec,
+.mentionsBar__7aaec {
+	background-color: var(--primary);
+	box-shadow: none;
 }
 
 .popoutRoot__79cbe.right__79cbe.arrowAlignmentMiddle__79cbe:before,
@@ -8205,15 +8201,19 @@ path[stroke="rgb(123,162,255)"] {
 	border: none;
 }
 
+.tooltip__382e7 {
+	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
+}
+
 .tooltipGreen__382e7,
 .tooltipBrand__382e7 {
-	background-color: rgb(10, 12, 16);
+	background-color: var(--backgroundDark);
 	border: 2px solid var(--primary) !important;
 }
 
 .tooltip__382e7.tooltipGreen__382e7,
 .tooltip__382e7.tooltipBrand__382e7 {
-	box-shadow: none;
+	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-50);
 }
 
 .tooltipGreen__382e7 .tooltipPointer__382e7 {
@@ -10806,8 +10806,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 	margin-top: 0;
 }
 
-.theme-dark .toast_g4bfgI,
-.theme-dark .tooltip__382e7 {
+.theme-dark .toast_g4bfgI {
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
 }
 
@@ -12636,9 +12635,7 @@ rect[fill="brand-200"] {
 .profileNote__9c3be textarea,
 .itemContainer_ec9088,
 .modalFooter__08bd2,
-.voiceBar__7aaec,
-.toast__3fde7,
-.toast__3fde7[data-type=success],
+.bar__7aaec,
 .rippleContainer_a8e786,
 .bannerVisible_f37cb1 .headerGlass_f37cb1,
 :where(.banner__68edb):before,
@@ -13081,6 +13078,7 @@ rect[fill="brand-200"] {
 	font-weight: 500;
 }
 
+.icon__3fde7 path,
 .premiumIcon__175e2 path {
 	fill: #fff;
 }
@@ -13181,7 +13179,7 @@ rect[fill="brand-200"] {
 	border: none;
 	outline: none;
 	filter: none;
-	border-radius: 12px 0 0 12px;
+	border-radius: 12px;
 	margin-right: -8px;
 }
 
@@ -13336,6 +13334,8 @@ rect[fill="brand-200"] {
 	border-radius: 50px;
 }
 
+.voiceBar__7aaec, .voiceBar__7aaec .barText__7aaec,
+.voiceChannelsIcon__7aaec,
 .lookFilled__201d5.colorBrand__201d5 .defaultColor__4bd52,
 .lookFilled__201d5.colorPrimary__201d5 .defaultColor__4bd52,
 .lookFilled__201d5.colorGreen__201d5 .defaultColor__4bd52,
@@ -13739,4 +13739,26 @@ rect[fill="#D3D6ED"] {
 
 .button__6af3a {
 	border: 2px solid transparent;
+}
+
+.tooltipBottom__382e7.tooltipBrand__382e7 .tooltipPointer__382e7,
+.tooltipCenter__382e7.tooltipBrand__382e7 .tooltipPointer__382e7,
+.tooltipBottom__382e7.tooltipGreen__382e7 .tooltipPointer__382e7,
+.tooltipCenter__382e7.tooltipGreen__382e7 .tooltipPointer__382e7 {
+	bottom: calc(100% + 2px);
+}
+
+.tooltipTop__382e7.tooltipBrand__382e7 .tooltipPointer__382e7,
+.tooltipTop__382e7.tooltipGreen__382e7 .tooltipPointer__382e7 {
+	top: calc(100% + 2px);
+}
+
+.tooltipRight__382e7.tooltipBrand__382e7 .tooltipPointer__382e7,
+.tooltipRight__382e7.tooltipGreen__382e7 .tooltipPointer__382e7 {
+	right: calc(100% + 2px);
+}
+
+.tooltipLeft__382e7.tooltipBrand__382e7 .tooltipPointer__382e7,
+.tooltipLeft__382e7.tooltipGreen__382e7 .tooltipPointer__382e7 {
+	left: calc(100% + 2px);
 }
