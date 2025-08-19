@@ -13785,6 +13785,7 @@ rect[fill="#D3D6ED"] {
 	box-shadow: 0 0 0 2px var(--primary);
 }
 
+.redDot_cbe0b4,
 .themeToggled__11877,
 .newlyAddedBadge_fc7141 {
 	background-color: var(--primary);
@@ -13840,6 +13841,7 @@ rect[fill="#D3D6ED"] {
 	border-radius: 4px;
 }
 
+circle[fill="#C12A35"],
 .answerSelectionIcon__4c520 path[fill="var(--button-positive-background)"],
 .victorIcon_f69538 path[fill="var(--button-positive-background)"] {
 	fill: var(--primary);
