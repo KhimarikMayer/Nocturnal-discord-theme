@@ -11243,7 +11243,8 @@ html:not(.chat-input) .inputInner_b1f01d,
 .emptyUserDimmed__183c2,
 .size16__183c2 .moreUsers__183c2,
 .wrapper__44b0c[style*="16px"] .avatar__44b0c,
-.wrapper__44b0c[style*="20px"] .avatar__44b0c {
+.wrapper__44b0c[style*="20px"] .avatar__44b0c,
+.profileNote__9c3be textarea {
 	border-radius: 5px;
 }
 
