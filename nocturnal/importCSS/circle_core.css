@@ -3911,7 +3911,7 @@ span.button__67645.enabled__67645:hover,
 }
 
 .container_ee8e87 {
-	background-color: var(--background-gradient-high,var(--backgroundDarker));
+	background-color: var(--background-gradient-high, var(--backgroundDarker));
 	border: none;
 	border-radius: 5px;
 }
@@ -3985,6 +3985,7 @@ span.button__67645.enabled__67645:hover,
 .increasedActivityMainCard_e53744,
 .post_ee8e87,
 .chatInput_ee8e87,
+.opTag_ee8e87,
 .mainCard_f369db,
 .header_f369db,
 .card_d4f6c7 {
@@ -11710,7 +11711,12 @@ rect[fill="brand-200"] {
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, var(--backgroundDark));
 }
 
-.preview_ee8e87,
+.preview_ee8e87 {
+	background-color: var(--backgroundDark);
+	border: none;
+	border-radius: 5px;
+}
+
 .container__6a6d6,
 .container_a56260,
 .shop__08415,
@@ -13303,7 +13309,8 @@ rect[fill="brand-200"] {
 	border-radius: 50px;
 }
 
-.voiceBar__7aaec, .voiceBar__7aaec .barText__7aaec,
+.voiceBar__7aaec,
+.voiceBar__7aaec .barText__7aaec,
 .voiceChannelsIcon__7aaec,
 .lookFilled__201d5.colorBrand__201d5 .defaultColor__4bd52,
 .lookFilled__201d5.colorPrimary__201d5 .defaultColor__4bd52,
