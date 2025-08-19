@@ -4858,27 +4858,6 @@ span.button__67645.enabled__67645:hover,
 	border-radius: 5px;
 }
 
-.tooltipBrand__382e7 .tooltipPointer__382e7 {
-	border-top-color: var(--primary);
-}
-
-.clickable__91a9d[aria-expanded=true]:hover .childContainer__91a9d,
-.clickable__91a9d:hover .childContainer__91a9d .activityText__5d473,
-.clickable__91a9d[aria-expanded=true]:hover .childContainer__91a9d .activityText__5d473,
-.interactive_bf202d:hover .text_c9d15c {
-	color: #dcddde !important;
-}
-
-.clickable__91a9d[aria-expanded=true] .childContainer__91a9d .activityText__5d473,
-.selected__91a9d .childContainer__91a9d .activityText__5d473,
-.clickable__91a9d:active .childContainer__91a9d .activityText__5d473,
-.clickable__91a9d[aria-expanded=true]:hover .childContainer__91a9d .activityText__5d473,
-.clickable__91a9d[aria-expanded=true] .childContainer__91a9d .name__91a9d,
-.interactive_bf202d:active .text_c9d15c,
-.interactive_bf202d.selected_bf202d .text_c9d15c {
-	color: #fff !important;
-}
-
 .clickable__91a9d[aria-expanded=true] .childContainer__91a9d {
 	cursor: default;
 }
@@ -8333,22 +8312,17 @@ path[stroke="rgb(123,162,255)"] {
 	background-color: var(--backgroundDark-50) !important;
 }
 
+.tooltip__382e7,
 .custom-theme-background .tooltip__382e7 {
 	border: none;
-}
-
-.tooltip__382e7 {
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
 }
 
 .tooltipGreen__382e7,
 .tooltipBrand__382e7 {
 	background-color: var(--backgroundDark);
-	border: 2px solid var(--primary) !important;
-}
-
-.tooltip__382e7.tooltipGreen__382e7,
-.tooltip__382e7.tooltipBrand__382e7 {
+	border: 2px solid var(--primary);
+	border-radius: 6px;
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-50);
 }
 
@@ -10337,10 +10311,6 @@ div.cardContainer__88e24,
 	margin-right: auto;
 }
 
-.tooltip__382e7:has(.inviterTooltipContainer_a6dcab) {
-	max-width: 100%;
-}
-
 .earningsPreviewContainer__02e4c {
 	background-color: #131c1d !important;
 }
@@ -11202,7 +11172,6 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .popoverReactionHoverBar_f84418,
 .popoverReactionHoverBar_f84418:hover,
 .soundButtonRefresh__9be63,
-.tooltip__382e7,
 .panels_c48ade,
 .container__0e476,
 .inlineContainer__74017:not(.flushContainer__74017),
@@ -13940,11 +13909,14 @@ circle[fill="#C12A35"],
 	border: 2px solid transparent;
 }
 
-.tooltipBottom__382e7.tooltipBrand__382e7 .tooltipPointer__382e7,
 .tooltipCenter__382e7.tooltipBrand__382e7 .tooltipPointer__382e7,
-.tooltipBottom__382e7.tooltipGreen__382e7 .tooltipPointer__382e7,
 .tooltipCenter__382e7.tooltipGreen__382e7 .tooltipPointer__382e7 {
 	bottom: calc(100% + 2px);
+}
+
+.tooltipBottom__382e7.tooltipBrand__382e7 .tooltipPointer__382e7,
+.tooltipBottom__382e7.tooltipGreen__382e7 .tooltipPointer__382e7 {
+	bottom: calc(100% + 4px);
 }
 
 .tooltipTop__382e7.tooltipBrand__382e7 .tooltipPointer__382e7,
