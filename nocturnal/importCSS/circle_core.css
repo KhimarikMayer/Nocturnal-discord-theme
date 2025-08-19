@@ -1878,7 +1878,7 @@ svg[name=Nitro] g path {
 
 .content_f75fb0:not(.container_c791b2, .emptyPage__5d7c9),
 .container_c8ffbb {
-	border-left: 1.2px solid var(--border-for-chats) !important;
+	border-left: 1px solid var(--border-for-chats) !important;
 }
 
 .message__5126c.selected__5126c:not(.automodMessage__5126c, .mentioned__5126c, .replying__5126c, .ephemeral__5126c, .highlighted_d5deea),
@@ -9126,7 +9126,7 @@ h3.improved__1689b:after,
 }
 
 .protip_ac6cb0.hasContent_ac6cb0 {
-	border-top: 1.2px solid var(--border-for-chats);
+	border-top: 1px solid var(--border-for-chats);
 }
 
 .guildContainer__5dba5,
@@ -10326,7 +10326,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 
 .page_c791b2 {
 	background-color: var(--backgroundDark) !important;
-	border-left: 1.2px solid var(--border-for-chats) !important;
+	border-left: 1px solid var(--border-for-chats) !important;
 }
 
 :root.giftButton_ff61dc:before,
@@ -12230,7 +12230,7 @@ rect[fill="brand-200"] {
 .searchBar__35e86,
 .client-theme-color-picker .searchBar__35e86 {
 	border-color: var(--border-for-chats);
-	border-width: 1.2px;
+	border-width: 1px;
 }
 
 .container__9293f,
@@ -12784,7 +12784,7 @@ rect[fill="brand-200"] {
 
 .container__7641b {
 	background-color: var(--backgroundDark);
-	border-left: solid 1.2px var(--border-for-chats);
+	border-left: solid 1px var(--border-for-chats);
 }
 
 .bottomBar__0f481 {
@@ -13507,7 +13507,18 @@ rect[fill="#D3D6ED"] {
 	border-bottom-color: var(--backgroundDark);
 }
 
-.containerSidenav_dc2e0e .contentPanel_dc2e0e {
+.contentWrapper__99a7e,
+.noChannel__01d5c,
+.background__7449f:not(.title__7449f),
+.container__01ae2 {
+	border-top: solid 1px var(--border-for-chats);
+	border-left: solid 1px var(--border-for-chats);
+	border-top-left-radius: 0;
+}
+
+.containerSidenav_dc2e0e .contentPanel_dc2e0e,
+.emptyState__7641b,
+.floating__01ae2 {
 	border-left: solid 1px var(--border-for-chats);
 }
 
@@ -13578,19 +13589,6 @@ rect[fill="#D3D6ED"] {
 
 .joinOptionTab__959cb:hover {
 	background-color: rgba(0, 0, 0, 0) !important;
-}
-
-.contentWrapper__99a7e,
-.noChannel__01d5c,
-.background__7449f:not(.title__7449f),
-.container__01ae2 {
-	border-top: solid 1px var(--border-for-chats);
-	border-left: solid 1px var(--border-for-chats);
-	border-top-left-radius: 0;
-}
-
-.floating__01ae2 {
-	border-left: solid 1px var(--border-for-chats);
 }
 
 .theme-dark .container__60fa3,
