@@ -13463,8 +13463,9 @@ rect[fill="brand-200"] {
 	padding: 0;
 }
 
-.has-webkit-scrollbar .bodyInner__53cea {
-	padding-right: calc(var(--custom-modal-padding) - var(--space-6));
+.has-webkit-scrollbar .bodyInner__53cea,
+.bodyList__53cea {
+	padding-right: calc(var(--custom-modal-padding) - var(--space-6)) !important;
 }
 
 .bioTextArea__6a919 {
@@ -13640,6 +13641,7 @@ rect[fill="brand-200"] {
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0), var(--backgroundDark-40));
 }
 
+.contentRegion__3c9fa,
 .saveNoticeContainer__51673 {
 	margin-left: auto;
 	margin-right: auto;
@@ -13895,9 +13897,10 @@ circle[fill="#C12A35"],
 	border-radius: 12px;
 }
 
+.sm__6af3a .buttonChildrenWrapper__6af3a,
 .md__6af3a .buttonChildrenWrapper__6af3a {
-	min-height: 30px;
-	min-width: 30px;
+	min-height: 28px;
+	min-width: 28px;
 }
 
 .md__6af3a.hasText__6af3a .buttonChildrenWrapper__6af3a {
