@@ -1834,8 +1834,12 @@ svg[name=Nitro] g path {
 	transform: translateX(0);
 }
 
-.theme-dark .selected__91a9d .childContainer__91a9d .name__91a9d,
-.theme-dark .interactive__972a0.selected_bf202d {
+.interactive__972a0:active {
+	color: var(--interactive-active);
+}
+
+.theme-dark .interactive__972a0.selected_bf202d,
+.theme-dark .interactiveSelected__972a0 {
 	color: #fff;
 }
 
@@ -4778,10 +4782,6 @@ span.button__67645.enabled__67645:hover,
 	border-top-color: var(--backgroundDark) !important;
 }
 
-.clickable__91a9d[aria-expanded=true] .childContainer__91a9d {
-	cursor: default;
-}
-
 .ping_f0dcaf,
 .pillSelected__5cdc6 {
 	border: none;
@@ -5911,6 +5911,7 @@ body,
 	background-color: rgba(0, 0, 0, 0) !important
 }
 
+.selected_bf202d .link__972a0,
 .memberRow__9a73f.emptyRowContainer__9a73f:hover,
 .memberRow__9a73f.emptyRowContainer__9a73f:active {
 	cursor: default;
@@ -7539,15 +7540,6 @@ body,
 
 .quotes__3e7e2 {
 	color: var(--backgroundDarker-alt);
-}
-
-.theme-dark .interactive_bf202d.selected_bf202d,
-.theme-dark .interactive_bf202d.selected_bf202d:hover,
-.theme-dark .interactive_bf202d.selected_bf202d .link__972a0,
-.theme-dark .interactive_bf202d.selected_bf202d:hover .link__972a0,
-.theme-dark .navItem__551b0.selected__551b0,
-.theme-dark .modeSelected__2ea32:hover .link__2ea32 {
-	cursor: default;
 }
 
 .wrapper_d14335 {
