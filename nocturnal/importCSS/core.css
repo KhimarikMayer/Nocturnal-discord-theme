@@ -744,7 +744,6 @@
 .modal__7f8f5,
 .root__49fc1:not(.carouselModal_d3a6f0, .forcedTransparency__8a837, .container_ac6cb0, .zoomedCarouselModalRoot_f74404),
 .bd-modal-root,
-.content__908e2,
 .exampleModal_b34334 {
 	background-color: var(--backgroundDark) !important;
 }
@@ -780,12 +779,6 @@
 
 .content_a8c622 {
 	background-color: rgba(0, 0, 0, 0);
-}
-
-.content__908e2 {
-	background-color: var(--backgroundDark) !important;
-	border: 0 solid #fff !important;
-	border-radius: 0;
 }
 
 .modal__7f8f5 {
@@ -1938,10 +1931,6 @@ svg[name=Nitro] g path {
 
 .roleCircle__4f569 {
 	border-radius: 2.5px;
-}
-
-.content__908e2 {
-	box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0) !important;
 }
 
 .tabBody__133bf {
@@ -6098,6 +6087,10 @@ body,
 .container__49668 {
 	background: var(--background-gradient-high, var(--backgroundDarker));
 	border: none;
+}
+
+.messages__1ccd1 .content__908e2 {
+	background: var(--background-gradient-low, var(--backgroundDarker));
 }
 
 .container__0b563,
