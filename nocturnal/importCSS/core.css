@@ -13197,8 +13197,8 @@ rect[fill="brand-200"] {
 	outline: none;
 }
 
-.theme-dark .speaking_adebba .avatar_adebba:before {
-	box-shadow: 0 0 0 2px #666, inset 0 0 5px 4px #43b581;
+.theme-dark .speaking_adebba .wrapper__44b0c.avatar_adebba:before {
+	box-shadow: 0 0 0 2px #666, inset 0 0 5px 4px #43b581 !important;
 }
 
 .container_d878e7 {
