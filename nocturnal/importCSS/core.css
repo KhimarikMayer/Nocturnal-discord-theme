@@ -2214,8 +2214,10 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDark);
 }
 
+.card_aae012,
 .bd-modal-footer {
 	background-color: var(--backgroundDark-15);
+	border: none;
 }
 
 .cta_a3a802,
@@ -2254,6 +2256,7 @@ svg[name=Nitro] g path {
 	background-color: rgba(0, 0, 0, 0);
 }
 
+.card_aae012:hover,
 .bd-addon-list .bd-addon-card {
 	background-color: var(--backgroundDark-30);
 }
@@ -2502,14 +2505,9 @@ svg[name=Nitro] g path {
 
 .featureCard_bebc5b,
 .guildDetails_bebc5b,
-.card_aae012,
 .tile__90dc5 {
 	background-color: var(--backgroundDarker);
 	border: none;
-}
-
-.card_aae012:hover {
-	background-color: var(--backgroundDark-35);
 }
 
 .search__97492 .DraftEditor-root .public-DraftStyleDefault-block,
@@ -2534,7 +2532,7 @@ svg[name=Nitro] g path {
 
 .row_d5ae15:focus .rowInner_d5ae15,
 .row_d5ae15:hover .rowInner_d5ae15 {
-	background-color: var(--backgroundDark-25) !important;
+	background-color: var(--backgroundDark-25);
 }
 
 .path__0b5bb:not(.spinnerPath_f3b986) {
@@ -6254,6 +6252,7 @@ body,
 	background-color: #0c0e12;
 }
 
+.classificationPolicyCardIcon_a48d6b,
 .example__5d756:hover,
 .previewListItem_d9161f.selected_d9161f,
 .importRoleCard__9076a:hover:not(.disabled__9076a),
@@ -6558,11 +6557,6 @@ body,
 .theme-light .label_b717a1,
 .theme-light .legend_b717a1 {
 	color: #000;
-}
-
-.cardWrapper_aae012,
-.shinyButton_d5e126 {
-	background-color: rgba(0, 0, 0, 0);
 }
 
 .floating-window-titlebar {
@@ -7607,15 +7601,13 @@ body,
 }
 
 .inputInner_b1f01d,
-.channelTextArea_f75fb0,
-.inlineContainer__74017:not(.flushContainer__74017) {
+.channelTextArea_f75fb0.channelTextArea__74017:not(.channelTextAreaDisabled__74017) {
 	transition: var(--transition);
 	transition-property: box-shadow;
 }
 
 .inputInner_b1f01d:hover,
-.channelTextArea_f75fb0:hover:not(.channelTextAreaDisabled__74017),
-.inlineContainer__74017:hover:not(.flushContainer__74017),
+.channelTextArea_f75fb0.channelTextArea__74017:hover:not(.channelTextAreaDisabled__74017,.highlighted__74017),
 .messageInput__62280:hover {
 	box-shadow: 0 0 0 2px var(--deprecated-text-input-border-hover);
 	transition: var(--transition);
@@ -7623,12 +7615,15 @@ body,
 }
 
 .inputInner_b1f01d:focus-within,
-.channelTextArea_f75fb0:focus-within:not(.channelTextAreaDisabled__74017),
-.inlineContainer__74017:focus-within:not(.flushContainer__74017),
+.channelTextArea_f75fb0.channelTextArea__74017:focus-within:not(.channelTextAreaDisabled__74017,.highlighted__74017),
 .messageInput__62280:focus-within {
 	transition: var(--transition);
 	transition-property: box-shadow;
 	box-shadow: 0 0 0 2px rgb(var(--accent)), 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
+
+.channelTextArea_f75fb0.channelTextArea__74017.highlighted__74017 {
+	box-shadow: 0 0 0 4px var(--blue-345);
 }
 
 #app-mount .attachButton__74017[aria-expanded=true] path {
@@ -9285,7 +9280,6 @@ h3.improved__1689b:after,
 .circularButton__49094,
 .wrapper__14403,
 .body__89307,
-.timestamp_edf232,
 .container__000a3,
 .wrapper__4106a,
 .popoutContainer__0f481.emojiDetailsLoader_cf58b5,
@@ -9299,11 +9293,6 @@ h3.improved__1689b:after,
 	background-color: rgba(0, 0, 0, 0);
 	border: none;
 	box-shadow: none;
-}
-
-[id="user-settings-cog-Appearance--light"],
-[id="user-settings-cog-Appearance--system"] {
-	display: none;
 }
 
 .content_a8af02,
@@ -9531,7 +9520,6 @@ rect[fill="var(--control-brand-foreground)"] {
 .container__03b47,
 .enhancedBanner__39bd2,
 .safetyPolicyNoticeContainer_e80b85,
-.classificationPolicyCard_a48d6b,
 .previewForm_d9be46,
 .tipsSection_a193aa,
 .emojiErrorItem__67954,
@@ -9582,7 +9570,6 @@ rect[fill="var(--control-brand-foreground)"] {
 .container__04119:hover:not(.canceled__04119),
 .addAnswerButtonDefault_d97f89:hover,
 .bd-addon-controls .bd-button:hover,
-.classificationPolicyCard_a48d6b:hover,
 .tipNumber_a193aa,
 .clipItem-3C35Ec:hover,
 .clipItem__1d12e:hover,
@@ -9606,7 +9593,6 @@ rect[fill="var(--control-brand-foreground)"] {
 
 .container__04119.active__04119,
 .container__04119:hover.active__04119,
-.classificationPolicyCardIcon_a48d6b,
 .linkButton_b1585f:active,
 .container_a14595:active {
 	background-color: var(--backgroundDark-80);
@@ -9646,6 +9632,7 @@ rect[fill="var(--control-brand-foreground)"] {
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
 }
 
+.timestamp_edf232,
 .featuredPack__04523,
 .userCountPill_f90ef0,
 .theme-dark.outer_c0bea0:not(.custom-theme-background),
@@ -9672,6 +9659,7 @@ rect[fill="var(--control-brand-foreground)"] {
 	background-color: rgba(0, 0, 0, 0);
 }
 
+.classificationPolicyCard_a48d6b,
 .effectGridItem_b4019a,
 .pauseContainer_c38e9f,
 .dropdown_edf232,
@@ -9691,6 +9679,7 @@ rect[fill="var(--control-brand-foreground)"] {
 	border: none;
 }
 
+.headerIconWrapper_edf232,
 .root_f90ef0,
 .root_a77292,
 .footerUpsell__34800,
@@ -9700,7 +9689,6 @@ rect[fill="var(--control-brand-foreground)"] {
 .button__4bf3d:hover,
 .card_e90143,
 .iconMask_c59071,
-.itemDetail_edf232,
 .subscriptionPerks__3efc4,
 .note_fcb628 textarea:focus,
 .skeleton__08415,
@@ -9776,12 +9764,14 @@ rect[fill="var(--control-brand-foreground)"] {
 	fill: var(--primary);
 }
 
+.classificationPolicyCard_a48d6b:hover,
 .pill__3dc42 {
 	background-color: var(--backgroundDark-35);
 	border: none;
 	box-shadow: none;
 }
 
+.itemDetail_edf232,
 .forumPostIcon_ee8e87,
 .container_f8a8fa,
 .inputWrapper_a97616 {
@@ -10148,7 +10138,6 @@ div.cardContainer__88e24,
 	}
 }
 
-.headerIconWrapper_edf232,
 .card_b651ff,
 .avatarBackground_eb2508,
 .wrapper__5b98e,
@@ -10398,10 +10387,6 @@ rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 .calendarPicker_d27f17 .react-datepicker__header {
 	border: none;
 	background-color: rgba(0, 0, 0, 0) !important;
-}
-
-.itemDetail_edf232 {
-	border: 1px solid var(--primary) !important;
 }
 
 .tab__80679:hover {
@@ -11090,6 +11075,7 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .channelRow_e4503a,
 .header_f369db,
 .channelTextArea__74017,
+.channelTextArea__74017.highlighted__74017,
 .tierHeader_a36dee,
 .enableCard__74f90,
 .phoneField_a0c54f,
@@ -12968,6 +12954,7 @@ rect[fill="brand-200"] {
 	--__current--spoiler-background-color: rgba(0, 0, 0, 0);
 }
 
+.formWithLoadedChatInput_f75fb0:before,
 .theme-midnight.messageWrapper__981c8,
 .theme-darker.messageWrapper__981c8,
 .avatar__20a53 .status_a423bd,
