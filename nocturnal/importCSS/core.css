@@ -1401,10 +1401,6 @@ svg.contentImage__42bf5,
 	background: 0 0;
 }
 
-.expandedInfo_e9cb00 {
-	background-color: var(--backgroundDark-60);
-}
-
 .paymentRow__01014 {
 	border: none;
 }
@@ -11573,6 +11569,9 @@ div.cardContainer__88e24,
 	border-right-color: var(--border-for-chats);
 }
 
+.payment_e9cb00:hover, .payment_e9cb00[data-expanded=true],
+.summaryInfo_e9cb00:hover,
+.summaryInfo_e9cb00[data-expanded=true],
 .theme-dark .listItem__2bb83:hover,
 .joinOptionContent__959cb:hover,
 .notifTabs__8683b,
@@ -13509,7 +13508,8 @@ rect[fill="brand-200"] {
 .theme-dark.custom-theme-background .stackedBars__74017:not(:last-child),
 .note_fcb628 textarea,
 .note_fcb628 textarea:hover,
-.avatar__03630 {
+.avatar__03630,
+.buttons__2d021 {
 	border: none;
 }
 
