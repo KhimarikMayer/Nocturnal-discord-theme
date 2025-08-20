@@ -7646,7 +7646,7 @@ body,
 .tagInputWrapper__69ef9:not(:focus):not(:focus-within):not(:hover),
 .z-select,
 .inputWrapper_a97616,
-.cardInput__8b579,
+.cardInput__8b579:not(.cardInputFocused__8b579),
 .textArea_d19bc9,
 .defaultTextInputWrapper__7b848,
 .input__0ed4f[readonly],
@@ -7654,6 +7654,7 @@ body,
 	border-color: rgba(0, 0, 0, 0);
 }
 
+.cardInput__8b579:hover:not(.cardInputFocused__8b579),
 .tagInputWrapper__69ef9:hover,
 .disabledForm__69ef9 .tagInputWrapper__69ef9:focus-within,
 .disabledForm__69ef9 .tagInputWrapper__69ef9:hover,
@@ -7698,7 +7699,6 @@ body,
 }
 
 .cardInput__8b579 {
-	-webkit-transition: border-color .2s ease-in-out;
 	transition: border-color .2s ease-in-out;
 }
 
