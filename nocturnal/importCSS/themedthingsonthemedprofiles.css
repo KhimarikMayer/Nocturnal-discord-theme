@@ -244,7 +244,8 @@
 .custom-user-profile-theme .clickable_f26c88:not(.withReactReply__75742),
 .custom-user-profile-theme .avatar_d28e10:not(.withReactReply__75742),
 .custom-user-profile-theme .avatar__75742:not(.withReactReply__75742),
-.user-profile-modal-v2.custom-user-profile-theme .avatar__75742:not(.withReactReply__75742) {
+.user-profile-modal-v2.custom-user-profile-theme .avatar__75742:not(.withReactReply__75742),
+.custom-user-profile-theme .profileAvatar__89307:not(.withReactReply__75742) {
 	border: 7px solid color-mix(in oklab,var(--profile-gradient-overlay-color) 100%,var(--profile-gradient-primary-color) 72%) !important;
 	background-color: color-mix(in oklab,var(--profile-gradient-overlay-color) 100%,var(--profile-gradient-primary-color) 72%) !important;
 }
@@ -332,4 +333,9 @@
 .theme-light.custom-user-profile-theme .showMoreButton__84832:hover:not(:disabled),
 .theme-light.custom-user-profile-theme .showMoreButton__84832:active:not(:disabled) {
 	color: #060607 !important;
+}
+
+.custom-user-profile-theme .profileAvatar__89307:not(.withReactReply__75742) {
+	border: 7px solid color-mix(in oklab,var(--profile-gradient-overlay-color) 100%,var(--profile-gradient-primary-color) 65%) !important;
+	background-color: color-mix(in oklab,var(--profile-gradient-overlay-color) 100%,var(--profile-gradient-primary-color) 65%) !important;
 }
