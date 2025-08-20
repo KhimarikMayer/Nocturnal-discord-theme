@@ -10985,8 +10985,6 @@ path[fill="var(--bg-brand)"] {
 	min-height: 32px;
 }
 
-.icon-only__6af3a:hover,
-.icon-only__6af3a:active,
 .root_d06335,
 .root__2055a,
 .modalHeader_a27f2f {
@@ -13914,4 +13912,10 @@ circle[fill="#C12A35"],
 .custom-user-profile-theme .overlay_c0bea0:has([style*="/assets/487de5256b2ae540.svg"]) .lookFilled__201d5.colorPrimary__201d5:active:not(.color_f9d37d.banner_fb7f94, :disabled) {
 	background-image: none !important;
 	background-color: #593695 !important;
+}
+
+.icon-only__6af3a:hover,
+.icon-only__6af3a:active {
+	background-color: rgba(0, 0, 0, 0);
+	border-color: rgba(0, 0, 0, 0);
 }
