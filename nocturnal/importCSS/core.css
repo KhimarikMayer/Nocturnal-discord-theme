@@ -11569,9 +11569,9 @@ div.cardContainer__88e24,
 	border-right-color: var(--border-for-chats);
 }
 
-.payment_e9cb00:hover, .payment_e9cb00[data-expanded=true],
+.payment_e9cb00:hover,
+.payment_e9cb00[data-expanded=true],
 .summaryInfo_e9cb00:hover,
-.summaryInfo_e9cb00[data-expanded=true],
 .theme-dark .listItem__2bb83:hover,
 .joinOptionContent__959cb:hover,
 .notifTabs__8683b,
@@ -11586,10 +11586,8 @@ div.cardContainer__88e24,
 	background-color: var(--backgroundDark-15);
 }
 
-.joinOptionContent__959cb.uninteractive__959cb:hover {
-	background-color: var(--backgroundDark-30);
-}
-
+.summaryInfo_e9cb00[data-expanded=true],
+.joinOptionContent__959cb.uninteractive__959cb:hover,
 .activeNotifTab__8683b,
 .menu__8683b .menuItem__8683b.active__8683b,
 .bd-store-card,
