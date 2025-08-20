@@ -738,7 +738,7 @@
 }
 
 .modal__7f8f5,
-.root__49fc1,
+.root__49fc1:not(.root__9c3be),
 .bd-modal-root,
 .exampleModal_b34334 {
 	background-color: var(--backgroundDark);
@@ -2003,6 +2003,7 @@ svg[name=Nitro] g path {
 .optionContainer__949ab,
 .optionContainer_b34334,
 .emojiItem_fc7141.emojiItemSelected_fc7141,
+.emojiItem_fc7141.expandCollapseButtonSelected_fc7141,
 .memberListItem_ec58fe:not(.popoutDisabled_ec58fe):hover,
 .memberListItem_d6b206:not(.popoutDisabled_d6b206):hover,
 .navButton__08434:hover,
@@ -2013,10 +2014,7 @@ svg[name=Nitro] g path {
 .navButton__08434:active,
 .navButtonActive__08434,
 .navButtonActive__08434:hover,
-.navButtonActive__08434:active {
-	background-color: var(--backgroundDark-40);
-}
-
+.navButtonActive__08434:active,
 .optionContainer__949ab:hover {
 	background-color: var(--backgroundDark-35);
 }
@@ -2618,9 +2616,8 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDark-35);
 }
 
-.theme-dark .game_cc46f0 {
+.game_cc46f0 {
 	background-color: var(--backgroundDark-20);
-	box-shadow: 0 1px 0 0 var(--backgroundDark-95);
 }
 
 .theme-light .footer__49fc1 {
@@ -8466,7 +8463,6 @@ path[stroke="rgb(123,162,255)"] {
 .forwardPreviewWrapper__62280,
 .benefits__000a3,
 .sidebar__8e830,
-.profileEntryCard__655fa,
 .targetItem__3297f:not(:last-child),
 .divider__5a4b6,
 .intentsList__8f46b,
@@ -10983,7 +10979,8 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .avatar_d5c2c4,
 .dmIcon__35a7e,
 .icon__1a58a img,
-.iconContainer__0ecc4 {
+.iconContainer__0ecc4,
+.guildIcon__29497 {
 	border-radius: 100%;
 }
 
@@ -11012,7 +11009,6 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .header_da32a8,
 .sectionContent_da32a8,
 .contentBackground__3d3b0,
-.friends_b37a75,
 .bd-install-modal-items,
 .bd-install-modal-clickable:hover,
 .pill_f7c056,
@@ -11663,6 +11659,7 @@ rect[fill="brand-200"] {
 	background: linear-gradient(180deg, rgba(52, 52, 52, 0)0%, rgba(35, 35, 35, .9)50%, var(--backgroundDarker) 100%);
 }
 
+.friends_b37a75,
 .iconBackground_f08fc1,
 .upsellsContainer__8f3cb,
 .exampleImage__61aee,
@@ -12248,7 +12245,6 @@ rect[fill="brand-200"] {
 .buttonSection__1405b,
 .buttonSection__1405b.experimentButtonSection__1405b,
 .gameImageBackground_a3ec8a,
-.profileEntryCard__655fa,
 .levelContainer__3dcc3,
 .themeOption__81345,
 .themeOption__81345[data-selected=true],
@@ -13461,6 +13457,7 @@ rect[fill="#D3D6ED"] {
 	box-shadow: 0 0 0 2px var(--primary);
 }
 
+.newBadge__8e830,
 .redDot_cbe0b4,
 .themeToggled__11877,
 .newlyAddedBadge_fc7141 {
@@ -13724,4 +13721,9 @@ circle[fill="#C12A35"],
 
 .iconContainer__0ecc4>foreignObject {
 	background: linear-gradient(0deg, var(--backgroundDark-50, rgba(0, 0, 0, .45)) 0, var(--backgroundDark-50, rgba(0, 0, 0, .45)) 100%), var(--backgroundDarker);
+}
+
+.profileEntryCard__655fa {
+	background-color: var(--backgroundDarker);
+	border-color: var(--backgroundDark-95);
 }
