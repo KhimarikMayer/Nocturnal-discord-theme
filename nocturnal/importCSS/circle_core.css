@@ -3251,7 +3251,7 @@ span.button__67645.enabled__67645:hover,
 .reaction_f8896c:hover,
 .channelContainer_d5f35b,
 .reactionBtn__23977:hover {
-	background-color: var(--backgroundDark-50);
+	background-color: var(--backgroundDark-35);
 	border-color: rgba(0, 0, 0, 0);
 }
 
@@ -3259,7 +3259,7 @@ span.button__67645.enabled__67645:hover,
 .custom-theme-background .reaction__23977:active,
 .reaction_f8896c:active,
 .reactionBtn__23977:active {
-	background-color: var(--backgroundDark-100);
+	background-color: var(--backgroundDark-45);
 	border-color: rgba(0, 0, 0, 0);
 }
 
@@ -4012,11 +4012,11 @@ span.button__67645.enabled__67645:hover,
 .tagsButton_f369db:hover,
 .tagsButton_f369db[aria-expanded=true],
 .pill_a2c9e8.clickable_a2c9e8:not(.disabled_a2c9e8):hover {
-	background-color: var(--backgroundDark-40);
+	background-color: var(--backgroundDark-35);
 }
 
 .pill_a2c9e8.clickable_a2c9e8:not(.disabled_a2c9e8):active {
-	background-color: var(--backgroundDark-80);
+	background-color: var(--backgroundDark-50);
 }
 
 .chatInput_ee8e87,
@@ -9413,7 +9413,6 @@ rect[fill="var(--control-brand-foreground)"] {
 .addAnswerButtonDefault_d97f89:hover,
 .bd-addon-controls .bd-button:hover,
 .tipNumber_a193aa,
-.clipItem-3C35Ec:hover,
 .clipItem__1d12e:hover,
 .linkButton_b1585f:hover,
 .replies__1b03e:hover,
@@ -9422,7 +9421,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .container_a3e8db.highlighted_a3e8db,
 .container_a3e8db.selected_a3e8db,
 .iconContainer__46773:hover .iconPlaceholder__46773 {
-	background-color: var(--backgroundDark-40);
+	background-color: var(--backgroundDark-35);
 	box-shadow: none;
 	border: none;
 	outline: none;
@@ -9437,7 +9436,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .container__04119:hover.active__04119,
 .linkButton_b1585f:active,
 .container_a14595:active {
-	background-color: var(--backgroundDark-80);
+	background-color: var(--backgroundDark-50);
 }
 
 .scrollerContainer_cdb2b0 {
@@ -11247,14 +11246,14 @@ div.cardContainer__88e24,
 
 .sortDropdown_f369db:hover,
 .tagsButton_f369db:hover {
-	background-color: var(--backgroundDark-40);
+	background-color: var(--backgroundDark-35);
 }
 
 .sortDropdown_f369db:active,
 .tagsButton_f369db:active,
 .sortDropdown_f369db[aria-expanded=true],
 .tagsButton_f369db[aria-expanded=true] {
-	background-color: var(--backgroundDark-80);
+	background-color: var(--backgroundDark-50);
 }
 
 .selected_d804ff {
