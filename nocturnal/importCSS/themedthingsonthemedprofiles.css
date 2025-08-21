@@ -286,7 +286,7 @@
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
-	background: linear-gradient(to right, #0066b8, #00b866) !important;
+	background: linear-gradient(to right, rgb(0, 202, 255), rgb(0, 255, 202)) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: 200% 200% !important;
@@ -296,7 +296,7 @@
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
-	background: linear-gradient(to right, #0067b4, #00b467) !important;
+	background: linear-gradient(to right, rgb(0, 198, 255), rgb(0, 255, 198)) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: 200% 200% !important;
@@ -306,7 +306,7 @@
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
-	background: linear-gradient(to right, #005abd, #00bd5a) !important;
+	background: linear-gradient(to right, rgb(0, 195, 255), rgb(0, 255, 195)) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: 200% 200% !important;
