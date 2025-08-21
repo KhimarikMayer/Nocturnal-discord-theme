@@ -2643,18 +2643,6 @@ svg[name=Nitro] g path {
 	border: none;
 }
 
-.container_eb2cd2 {
-	background-color: var(--backgroundLighter) !important;
-	box-shadow: inset 0 0 100000px var(--backgroundDark-50);
-	border: none;
-}
-
-.container_eb2cd2:hover {
-	background-color: var(--backgroundLight) !important;
-	box-shadow: inset 0 0 100000px var(--backgroundDark-50);
-	border: none;
-}
-
 .upsellTooltipWrapper__675aa {
 	background-color: var(--backgroundDark);
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
@@ -3938,6 +3926,8 @@ span.button__67645.enabled__67645:hover,
 }
 
 .tag_c993da,
+.container_eb2cd2,
+.rowContainer__991a0,
 .sortDropdown_f369db,
 .tagsButton_f369db {
 	background-color: var(--backgroundDark-20);
@@ -3949,6 +3939,7 @@ span.button__67645.enabled__67645:hover,
 	border: 1px solid rgba(0, 0, 0, 0);
 }
 
+.container_eb2cd2:hover,
 .tag_c993da:hover,
 .tagsButton_f369db:hover,
 .tagsButton_f369db[aria-expanded=true],
@@ -3956,6 +3947,7 @@ span.button__67645.enabled__67645:hover,
 	background-color: var(--backgroundDark-35);
 }
 
+.container_eb2cd2:active,
 .pill_a2c9e8.clickable_a2c9e8:not(.disabled_a2c9e8):active {
 	background-color: var(--backgroundDark-50);
 }
@@ -6164,19 +6156,6 @@ body,
 	background-color: var(--backgroundDark);
 	border-color: var(--backgroundDark-45);
 	padding-right: 10px !important;
-}
-
-.rowContainer__991a0 {
-	background-color: var(--backgroundLighter);
-	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-50);
-}
-
-.rowContainer__991a0:hover {
-	background-color: var(--backgroundLight);
-}
-
-.rowContainer__991a0:active {
-	background-color: var(--backgroundDark);
 }
 
 .insightsNoticeContainer-2ZrM4d,
@@ -11106,11 +11085,13 @@ div.cardContainer__88e24,
 	position: static;
 }
 
+.rowContainer__991a0:hover,
 .sortDropdown_f369db:hover,
 .tagsButton_f369db:hover {
 	background-color: var(--backgroundDark-35);
 }
 
+.rowContainer__991a0:active,
 .sortDropdown_f369db:active,
 .tagsButton_f369db:active,
 .sortDropdown_f369db[aria-expanded=true],
@@ -12008,7 +11989,7 @@ rect[fill="brand-200"] {
 
 .input__4f074:focus,
 .outer__4f074:hover .input__4f074:focus {
-	background-color: var(--backgroundDark-50);
+	background-color: var(--backgroundDark-35);
 	outline: none;
 	border: none;
 }
@@ -13583,4 +13564,18 @@ circle[fill="#C12A35"],
 
 .density-cozy .typeThread__2ea32 .unread__2ea32 {
 	left: calc((16px + var(--space-md))*-1 + 6px);
+}
+
+.popover_d6f39b,
+.popoverGradientWrapper_d6f39b {
+	background-color: var(--backgroundDark);
+	box-shadow: inset 0 0 0 1px var(--backgroundDark-95), var(--shadow-high);
+}
+
+.caretIcon_d6f39b .caretFill_d6f39b {
+	fill: var(--backgroundDark)
+}
+
+.caretIcon_d6f39b .caretStroke_d6f39b {
+	stroke: none;
 }
