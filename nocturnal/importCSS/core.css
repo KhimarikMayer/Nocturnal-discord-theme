@@ -612,10 +612,8 @@
 	--mentionedmessageshover: color-mix(in oklab, rgb(0, 176, 244, 0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
 	--mentionedmessagesbefore: color-mix(in oklab, rgb(0, 176, 244, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--highlight-messages: rgb(0, 176, 244, 0.3);
-	--buttons-active-primaryGradient1: rgb(0, 102, 184);
-	--buttons-active-primaryGradient2: rgb(0, 184, 102);
-	--new-buttons-active-primaryGradient1: rgb(0, 98, 179);
-	--new-buttons-active-primaryGradient2: rgb(0, 179, 98);
+	--buttons-active-primaryGradient1: rgb(0, 202, 255);
+	--buttons-active-primaryGradient2: rgb(0, 255, 202);
 	--accent: 0, 231, 169;
 	--glow-intensity: 1;
 	--chat-glow-intensity: var(--glow-intensity);
@@ -666,10 +664,8 @@
 	--mentionedmessageshover: color-mix(in oklab, rgb(0, 146, 235, 0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
 	--mentionedmessagesbefore: color-mix(in oklab, rgb(0, 146, 235, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--highlight-messages: rgb(0, 146, 235, 0.3);
-	--buttons-active-primaryGradient1: rgb(0, 103, 180);
-	--buttons-active-primaryGradient2: rgb(0, 180, 103);
-	--new-buttons-active-primaryGradient1: rgb(0, 99, 175);
-	--new-buttons-active-primaryGradient2: rgb(0, 175, 99);
+	--buttons-active-primaryGradient1: rgb(0, 198, 255);
+	--buttons-active-primaryGradient2: rgb(0, 255, 198);
 }
 
 .theme-midnight {
@@ -694,11 +690,10 @@
 	--mentionedmessageshover: color-mix(in oklab, rgb(0, 116, 227, 0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
 	--mentionedmessagesbefore: color-mix(in oklab, rgb(0, 116, 227, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--highlight-messages: rgb(0, 116, 227, 0.3);
-	--buttons-active-primaryGradient1: rgb(0, 90, 189);
-	--buttons-active-primaryGradient2: rgb(0, 189, 90);
-	--new-buttons-active-primaryGradient1: rgb(0, 86, 184);
-	--new-buttons-active-primaryGradient2: rgb(0, 184, 86);
+	--buttons-active-primaryGradient1: rgb(0, 195, 255);
+	--buttons-active-primaryGradient2: rgb(0, 255, 195);
 }
+
 
 #app-mount {
 	animation: themeStart .5s linear 0s 1 normal;
@@ -1078,7 +1073,7 @@ svg[name=Nova_Discord] * {
 .headerButtonColor__619f1:hover,
 .primary__6af3a:hover:not(:disabled, .optionPillBtn__3f413, [aria-disabled=true]),
 .primary__6af3a[aria-expanded=true],
-.lookFilled__201d5.colorBrand__201d5:hover:not(:disabled, .optionPillBtn__3f413, [aria-disabled=true]),
+.lookFilled__201d5.colorBrand__201d5:hover:not(.fauxDisabled_e131a9, :disabled, .optionPillBtn__3f413, [aria-disabled=true]),
 .lookFilled__201d5.colorBrand__201d5[aria-expanded=true],
 .secondary__6af3a:hover:not(.color_f9d37d.banner_fb7f94, :disabled),
 .lookFilled__201d5.colorPrimary__201d5:hover:not(.color_f9d37d.banner_fb7f94, :disabled),
@@ -1122,26 +1117,17 @@ svg[name=Nova_Discord] * {
 .bd-modal-wrapper .footer button:active,
 .bda-slist .bda-footer button:active,
 .headerButtonColor__619f1:active,
-.lookFilled__201d5.colorBrand__201d5:active:not(:disabled, .optionPillBtn__3f413, [aria-disabled=true]),
+.lookFilled__201d5.colorBrand__201d5:active:not(.fauxDisabled_e131a9, :disabled, .optionPillBtn__3f413, [aria-disabled=true]),
 .lookFilled__201d5.colorPrimary__201d5:active:not(.color_f9d37d.banner_fb7f94, :disabled),
 .lookOutlined__201d5.colorBrand__201d5:active:not(:disabled),
 .plugin-settings button:active,
-.standardSidebarView__23e6b #bd-customcss-attach-controls button:active {
-	color: #fff !important;
-	border: 2px solid rgba(0, 0, 0, 0) !important;
-	background-color: var(--primary);
-	background: linear-gradient(to right, var(--buttons-active-primaryGradient1), var(--buttons-active-primaryGradient2)) !important;
-	background-position: center !important;
-	background-repeat: no-repeat !important;
-	background-size: 200% 200% !important;
-}
-
+.standardSidebarView__23e6b #bd-customcss-attach-controls button:active,
 .primary__6af3a:active:not(:disabled, .optionPillBtn__3f413, [aria-disabled=true]),
 .secondary__6af3a:active:not(.color_f9d37d.banner_fb7f94, :disabled) {
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
-	background: linear-gradient(to right, var(--new-buttons-active-primaryGradient1), var(--new-buttons-active-primaryGradient2)) !important;
+	background: linear-gradient(to right, var(--buttons-active-primaryGradient1), var(--buttons-active-primaryGradient2)) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: 200% 200% !important;
@@ -2389,21 +2375,12 @@ svg[name=Nitro] g path {
 
 .lookFilled__201d5.colorGreen__201d5:active:not(:disabled),
 .guildBoostCta_f9f04c.lookOutlined__201d5.colorWhite__201d5:active:not(:disabled),
-.lookOutlined__201d5.colorWhite__201d5.managePlanButton_a45ed3:active:not(:disabled) {
-	color: #fff !important;
-	border: 2px solid rgba(0, 0, 0, 0) !important;
-	background-color: var(--primary);
-	background: linear-gradient(to right, var(--buttons-active-primaryGradient1), var(--buttons-active-primaryGradient2));
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 200% 200%
-}
-
+.lookOutlined__201d5.colorWhite__201d5.managePlanButton_a45ed3:active:not(:disabled),
 .active__6af3a:active:not(:disabled) {
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
-	background: linear-gradient(to right, var(--new-buttons-active-primaryGradient1), var(--new-buttons-active-primaryGradient2));
+	background: linear-gradient(to right, var(--buttons-active-primaryGradient1), var(--buttons-active-primaryGradient2));
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%
@@ -2426,17 +2403,12 @@ svg[name=Nitro] g path {
 .lookFilled__201d5.colorBrandInverted__201d5.button_bf1984:active:not(:disabled),
 .lookFilled__201d5.colorBrandInverted__201d5:active:not(:disabled),
 .guildBoostCtaBoost_f9f04c.lookFilled__201d5.colorWhite__201d5:active:not(:disabled),
-.lookFilled__201d5.colorWhite__201d5.tierCardButton_a45ed3:active:not(:disabled) {
-	color: #fff !important;
-	border: 2px solid rgba(0, 0, 0, 0) !important;
-	background-color: rgb(0, 102, 184) !important;
-}
-
+.lookFilled__201d5.colorWhite__201d5.tierCardButton_a45ed3:active:not(:disabled),
 .cta_a1eddf:active,
 .cta_a1eddf:active:not(:disabled) {
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
-	background-color: rgb(0, 99, 175) !important;
+	background-color: var(--buttons-active-primaryGradient1) !important;
 }
 
 .card__4bb93,
@@ -2455,10 +2427,6 @@ svg[name=Nitro] g path {
 
 .item__344e6:hover:not(.selected__344e6) {
 	background-color: var(--backgroundDark-45);
-}
-
-.modal_b0827a {
-	border-radius: 5px;
 }
 
 .featureCard_bebc5b,
@@ -3323,6 +3291,16 @@ span.button__67645.enabled__67645:hover,
 	background-color: rgb(0, 102, 184);
 }
 
+.theme-darker .mediaBarInteraction_b26b79:hover .mediaBarGrabber_b26b79,
+.theme-darker .mediaBarInteractionDragging_b26b79 .mediaBarGrabber_b26b79 {
+	background-color: rgb(0, 103, 180);
+}
+
+.theme-midnight .mediaBarInteraction_b26b79:hover .mediaBarGrabber_b26b79,
+.theme-midnight .mediaBarInteractionDragging_b26b79 .mediaBarGrabber_b26b79 {
+	background-color: rgb(0, 90, 189);
+}
+
 .button_e131a9 .buttonColor_e131a9.buttonActive_e131a9:hover,
 .button_e131a9.buttonColor_e131a9.buttonActive_e131a9:hover,
 .custom-theme-background .button_e131a9 .buttonColor_e131a9.buttonActive_e131a9:hover,
@@ -3701,6 +3679,7 @@ span.button__67645.enabled__67645:hover,
 	border-left: 1px solid var(--border-for-chats);
 }
 
+.option__56fec:hover,
 .row__76f04:hover,
 .iconWrapper__54b20,
 .result__71961[aria-selected=true],
@@ -3709,6 +3688,7 @@ span.button__67645.enabled__67645:hover,
 	border: none;
 }
 
+.option__56fec[aria-selected=true],
 .childButton__3ed08:hover,
 .listContainer__527b1 .listElement__527b1:hover,
 .collapseable__217b7.groupContainer_b6a9f9:hover,
@@ -3724,6 +3704,14 @@ span.button__67645.enabled__67645:hover,
 
 .newBadgeText__29021 {
 	color: rgb(0, 102, 184);
+}
+
+.theme-darker .newBadgeText__29021 {
+	color: rgb(0, 103, 180);
+}
+
+.theme-midnight .newBadgeText__29021 {
+	color: rgb(0, 90, 189);
 }
 
 .stepContainer_a68543.completed_a68543,
@@ -4206,10 +4194,6 @@ span.button__67645.enabled__67645:hover,
 .bd-tab-item.selected,
 .clickable_a97e58:hover {
 	background-color: var(--backgroundDark-20);
-}
-
-.bd-tab-item.selected {
-	background-color: var(--backgroundDark-40);
 }
 
 .bd-addon-error-icon,
@@ -5178,8 +5162,6 @@ span.button__67645.enabled__67645:hover,
 }
 
 .diversityEmojiItem_a45a2a:hover,
-.option__56fec:hover,
-.option__56fec[aria-selected=true],
 .checkboxWrapper_f525d3.row_f525d3 {
 	background-color: var(--backgroundDark-20);
 }
@@ -7415,15 +7397,39 @@ body,
 }
 
 .theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786 {
-	background: linear-gradient(151.11deg, var(--secondary) 16.55%, var(--buttons-active-primaryGradient1) 104.36%);
+	background: linear-gradient(151.11deg, var(--secondary) 16.55%, rgb(0, 102, 184) 104.36%);
+}
+
+.theme-darker .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786 {
+	background: linear-gradient(151.11deg, var(--secondary) 16.55%, rgb(0, 103, 180) 104.36%);
+}
+
+.theme-midnight .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786 {
+	background: linear-gradient(151.11deg, var(--secondary) 16.55%, rgb(0, 90, 189) 104.36%);
 }
 
 .theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:hover {
 	background: linear-gradient(151.11deg, var(--quaternary) 17.78%, var(--secondary) 82.22%);
 }
 
+.theme-darker .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:hover {
+	background: linear-gradient(151.11deg, var(--quaternary) 17.78%, var(--secondary) 82.22%);
+}
+
+.theme-midnight .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:hover {
+	background: linear-gradient(151.11deg, var(--quaternary) 17.78%, var(--secondary) 82.22%);
+}
+
 .theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:active {
-	background: linear-gradient(0deg, var(--backgroundDark-20), var(--backgroundDark-20)), linear-gradient(151.11deg, var(--secondary) 16.55%, var(--buttons-active-primaryGradient1) 104.36%)
+	background: linear-gradient(0deg, var(--backgroundDark-20), var(--backgroundDark-20)), linear-gradient(151.11deg, var(--secondary) 16.55%, rgb(0, 102, 184) 104.36%)
+}
+
+.theme-darker .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:active {
+	background: linear-gradient(0deg, var(--backgroundDark-20), var(--backgroundDark-20)), linear-gradient(151.11deg, var(--secondary) 16.55%, rgb(0, 103, 180) 104.36%)
+}
+
+.theme-midnight .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:active {
+	background: linear-gradient(0deg, var(--backgroundDark-20), var(--backgroundDark-20)), linear-gradient(151.11deg, var(--secondary) 16.55%, rgb(0, 90, 189) 104.36%)
 }
 
 .playing_a8e786 .playButtonContainer_a8e786:active {
@@ -8203,6 +8209,7 @@ path[stroke="rgb(123,162,255)"] {
 #lazyLoader .stats,
 .pill__33d66,
 .default_e18686:hover,
+.iconContainer__03273,
 .clickable__761e5 {
 	background-color: var(--backgroundDarker);
 	border: none;
@@ -8260,7 +8267,6 @@ path[stroke="rgb(123,162,255)"] {
 .iconContainer__0624f,
 .iconContainer_eaaeee,
 .modInfoAction__96c0b:hover,
-.iconContainer__03273,
 .stepNumber_d9914b,
 .circle__8cc9a,
 .bd-settings-group.collapsible .bd-settings-title::before,
@@ -8736,6 +8742,30 @@ h3.improved__1689b:after,
 .newBadge_faa96b,
 .newBadge__9a337 {
 	color: rgb(0, 102, 184);
+}
+
+.theme-darker .botTagOP__82f07,
+.theme-darker .newChannel__599fa,
+.theme-darker .newBadge__5d7c9,
+.theme-darker .newBadge__0b563,
+.theme-darker .optionNewBadge__05934,
+.theme-darker .newBadge__270d7,
+.theme-darker .titleBadge_e4503a,
+.theme-darker .newBadge_faa96b,
+.theme-darker .newBadge__9a337 {
+	color: rgb(0, 103, 180);
+}
+
+.theme-midnight .botTagOP__82f07,
+.theme-midnight .newChannel__599fa,
+.theme-midnight .newBadge__5d7c9,
+.theme-midnight .newBadge__0b563,
+.theme-midnight .optionNewBadge__05934,
+.theme-midnight .newBadge__270d7,
+.theme-midnight .titleBadge_e4503a,
+.theme-midnight .newBadge_faa96b,
+.theme-midnight .newBadge__9a337 {
+	color: rgb(0, 90, 189);
 }
 
 .bd-modal-footer {
@@ -11571,7 +11601,7 @@ rect[fill="brand-200"] {
 .sectionContent_da32a8 .pillItemSelected__9e06a,
 .override_db81c6:hover,
 .iconContainer__5cea9 {
-	background-color: var(--backgroundDark-60);
+	background-color: var(--backgroundDark-40);
 }
 
 .badge__92e4b {
@@ -13002,8 +13032,8 @@ rect[fill="brand-200"] {
 	outline: none;
 }
 
-.theme-dark .speaking_adebba .wrapper__44b0c.avatar_adebba:before {
-	box-shadow: 0 0 0 2px #666, inset 0 0 5px 4px #43b581 !important;
+.theme-dark .speaking_adebba .avatar__44b0c {
+	box-shadow: inset 0 0 5px 4px #43b581;
 }
 
 .container_d878e7 {
