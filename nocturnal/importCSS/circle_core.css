@@ -1609,19 +1609,13 @@ svg[name=Nitro] g path {
 	transition: all .2s ease;
 }
 
-.side_b3f026 .themed_b3f026.item_b3f026:hover:not(.disabled_b3f026):not(.destructive_b3f026) {
-	background-color: var(--backgroundDark-25);
-}
-
+.side_b3f026 .themed_b3f026.item_b3f026:hover:not(.disabled_b3f026):not(.destructive_b3f026),
 .listDefault__07f91 .clickable__07f91:hover .content__07f91,
 .wrapper__2ea32:hover .link__2ea32 {
 	background-color: var(--backgroundDark-25);
 }
 
-.side_b3f026 .themed_b3f026.item_b3f026:active:not(.disabled_b3f026):not(.destructive_b3f026) {
-	background-color: var(--backgroundDark-35);
-}
-
+.side_b3f026 .themed_b3f026.item_b3f026:active:not(.disabled_b3f026):not(.destructive_b3f026),
 .listDefault__07f91 .clickable__07f91:active .content__07f91,
 .wrapper__2ea32:active .link__2ea32 {
 	background-color: var(--backgroundDark-35);
@@ -1654,6 +1648,7 @@ svg[name=Nitro] g path {
 .theme-dark .topPill_b3f026 .item_b3f026 {
 	border-radius: 20px;
 }
+
 
 .addGamePopout_cc46f0 {
 	background-color: var(--backgroundDark);
