@@ -340,3 +340,14 @@
 	background-color: color-mix(in oklab,var(--profile-gradient-overlay-color) 100%,var(--profile-gradient-primary-color) 65%) !important;
 }
 
+.custom-user-profile-theme .container_a99829.channelTextArea__74017:hover {
+	box-shadow: 0 0 0 2px var(--profile-gradient-secondary-color);
+	transition: var(--transition);
+	transition-property: box-shadow;
+}
+
+.custom-user-profile-theme .container_a99829.channelTextArea__74017:focus-within {
+	transition: var(--transition);
+	transition-property: box-shadow;
+	box-shadow: 0 0 0 2px rgb(var(--accent)), 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+}
