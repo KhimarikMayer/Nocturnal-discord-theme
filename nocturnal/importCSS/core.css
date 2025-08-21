@@ -9785,9 +9785,7 @@ rect[fill="var(--control-brand-foreground)"] {
 }
 
 .sidebarResizeHandle_c48ade:active,
-.sidebarResizeHandle_c48ade:hover,
-.clickable_f37cb1:not(.communityInfoVisible_f37cb1):not(.hasBanner_f37cb1) .header_f37cb1:hover,
-.selected_f37cb1:not(.communityInfoVisible_f37cb1):not(.hasBanner_f37cb1) .header_f37cb1 {
+.sidebarResizeHandle_c48ade:hover {
 	background-color: var(--backgroundDark-35);
 }
 
