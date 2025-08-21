@@ -3035,7 +3035,7 @@ span.button__67645.enabled__67645:hover,
 
 .scroller_d6b206 {
 	background-color: var(--backgroundDark);
-	box-shadow: var(--elevation-high);
+	box-shadow: var(--shadow-high);
 	padding-right: 10px !important;
 }
 
@@ -6034,7 +6034,7 @@ body,
 
 .overlayLabel__31fc2 {
 	background-color: var(--backgroundDark);
-	box-shadow: var(--elevation-stroke), var(--elevation-high);
+	box-shadow: var(--shadow-border), var(--shadow-high);
 }
 
 .markup__75297 a[aria-expanded=true],
@@ -6571,10 +6571,6 @@ body,
 	min-height: 50px;
 }
 
-.drag-previewer[style*="filter: drop-shadow(0 0 0 var(--background-floating)) drop-shadow(var(--elevation-high));"] {
-	filter: drop-shadow(0 0 0 var(--backgroundDark)) drop-shadow(var(--elevation-high)) !important
-}
-
 .avatarBorder__6f212 {
 	border-radius: 8px;
 }
@@ -6946,7 +6942,7 @@ body,
 }
 
 .wrapper_c0e32c {
-	box-shadow: var(--elevation-stroke), var(--elevation-high);
+	box-shadow: var(--shadow-border), var(--shadow-high);
 	border-radius: 8px;
 }
 
@@ -9464,7 +9460,7 @@ rect[fill="var(--control-brand-foreground)"] {
 
 .scrollerContainer_cdb2b0 {
 	background: var(--background-gradient-app-frame, var(--backgroundDark));
-	box-shadow: var(--elevation-medium), var(--elevation-stroke);
+	box-shadow: var(--elevation-medium), var(--shadow-border);
 	padding-right: 2px;
 	border: none;
 }
