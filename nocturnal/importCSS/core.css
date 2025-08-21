@@ -8122,6 +8122,7 @@ path[stroke="rgb(123,162,255)"] {
 	padding-right: 13px;
 }
 
+.chipletContainerInner__10651:not(.guildTag__63ed3),
 .bumpBox_cacd02,
 .memberRowContainer__71c22:hover td,
 .row_fec266,
@@ -8282,6 +8283,9 @@ path[stroke="rgb(123,162,255)"] {
 	border-left: none;
 }
 
+.chipletContainerInner__10651.noTooltip__10651:hover,
+.chipletContainerInner__10651.clickable__10651:not(.guildTag__63ed3):hover,
+.listDefault__07f91 .clickable__07f91:hover .clanTag__07f91,
 .row_b1c9f2:hover,
 .iconContainer__0624f,
 .iconContainer_eaaeee,
@@ -8299,8 +8303,6 @@ path[stroke="rgb(123,162,255)"] {
 .clickable__761e5:hover,
 .contentContainer_c55cae,
 .autocompletePlaceholder__13533,
-.compact_c19a55 .clanTagChiplet_c19a55>span,
-.chipletContainerInner__10651:not(.guildTag__63ed3),
 .clickable__10651:hover,
 .iconPlaceholder_ccbbbb,
 .bannerImage_ccbbbb,
@@ -8832,9 +8834,6 @@ h3.improved__1689b:after,
 .firstPartyCategorySelected__3ad28:hover,
 .stickerCategoryGenericSelected__3ad28,
 .stickerCategoryGenericSelected__3ad28:hover,
-.chipletContainerInner__10651.noTooltip__10651:hover,
-.chipletContainerInner__10651.clickable__10651:not(.guildTag__63ed3):hover,
-.listDefault__07f91 .clickable__07f91:hover .clanTag__07f91,
 .playbackRateContainer_a8e786:hover .playbackRate_a8e786 {
 	background-color: var(--backgroundDark-100);
 }
