@@ -2075,12 +2075,9 @@ svg[name=Nitro] g path {
 
 .theme-dark .border_f910d0,
 .theme-dark .voiceAvatar_f910d0,
+.theme-dark .voiceAvatar_f910d0 .border_f910d0
 .theme-dark .avatar__44b0c {
-	border-radius: 50px;
-}
-
-.theme-dark .voiceAvatar_f910d0 .border_f910d0 {
-	border-radius: 50%;
+	border-radius: 8px;
 }
 
 .icon__6e9f8,
