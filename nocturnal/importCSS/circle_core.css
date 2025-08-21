@@ -524,7 +524,7 @@
 	--backgroundDark-15: rgba(0, 0, 0, .15);
 	--backgroundDark-20: rgba(0, 0, 0, .2);
 	--backgroundDark-25: rgba(0, 0, 0, .25);
-	--backgroundDark-26: rgba(0, 0, 0, .25);
+	--backgroundDark-26: rgba(0, 0, 0, .26);
 	--backgroundDark-30: rgba(0, 0, 0, .3);
 	--backgroundDark-35: rgba(0, 0, 0, .35);
 	--backgroundDark-40: rgba(0, 0, 0, .4);
@@ -612,8 +612,8 @@
 	--mentionedmessageshover: color-mix(in oklab, rgb(0, 176, 244, 0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
 	--mentionedmessagesbefore: color-mix(in oklab, rgb(0, 176, 244, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--highlight-messages: rgb(0, 176, 244, 0.3);
-	--buttons-active-primaryGradient1: rgb(0, 202, 255);
-	--buttons-active-primaryGradient2: rgb(0, 255, 202);
+	--buttons-active-primaryGradient1: rgb(0, 195, 255);
+	--buttons-active-primaryGradient2: rgb(0, 255, 195);
 	--accent: 0, 231, 169;
 	--glow-intensity: 1;
 	--chat-glow-intensity: var(--glow-intensity);
@@ -664,8 +664,8 @@
 	--mentionedmessageshover: color-mix(in oklab, rgb(0, 146, 235, 0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
 	--mentionedmessagesbefore: color-mix(in oklab, rgb(0, 146, 235, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--highlight-messages: rgb(0, 146, 235, 0.3);
-	--buttons-active-primaryGradient1: rgb(0, 198, 255);
-	--buttons-active-primaryGradient2: rgb(0, 255, 198);
+	--buttons-active-primaryGradient1: rgb(0, 191, 255);
+	--buttons-active-primaryGradient2: rgb(0, 255, 191);
 }
 
 .theme-midnight {
@@ -690,8 +690,8 @@
 	--mentionedmessageshover: color-mix(in oklab, rgb(0, 116, 227, 0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
 	--mentionedmessagesbefore: color-mix(in oklab, rgb(0, 116, 227, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--highlight-messages: rgb(0, 116, 227, 0.3);
-	--buttons-active-primaryGradient1: rgb(0, 195, 255);
-	--buttons-active-primaryGradient2: rgb(0, 255, 195);
+	--buttons-active-primaryGradient1: rgb(0, 188, 255);
+	--buttons-active-primaryGradient2: rgb(0, 255, 188);
 }
 
 #app-mount {
@@ -1369,25 +1369,22 @@ svg.contentImage__42bf5,
 	background-color: var(--backgroundDark-35) !important;
 }
 
+.blockedPaymentsWarning_b7b2cf,
 .paginator__01014 .paymentRow__01014:hover,
-.cardBrand_c25152,
-.cardPrimaryEditable__25559:not([style*=rgb]),
-.cardPrimaryOutline__9df8a,
-.cardPrimaryOutlineEditable__2822a,
-.theme-dark .codeRedemptionRedirect_a706ba,
-.theme-dark .blockedPaymentsWarning_b7b2cf,
 .paymentPane__01014 {
 	background-color: var(--backgroundDark-30);
 	border-color: rgba(0, 0, 0, 0);
 }
 
-.paginator__01014,
-.payment_e9cb00 {
-	background: 0 0;
+.theme-dark .blockedPaymentsWarning_b7b2cf {
+	border-color: var(--backgroundDark-30);
 }
 
-.paymentRow__01014 {
-	border: none;
+.cardPrimary__73069,
+.cardPrimary__73069.editable__73069 {
+	--__card-accent-color: var(--backgroundDark-30);
+	background-color: var(--backgroundDark-30);
+	border-color: rgba(0, 0, 0, 0);
 }
 
 .pageButtonNext__2d021 {
@@ -1818,7 +1815,7 @@ svg[name=Nitro] g path {
 
 .theme-dark .channelTextArea_f75fb0 {
 	margin-bottom: 0;
-	background-color: rgba(0, 0, 0, 0);
+	background: var(--background-gradient-chat, rgb(14, 16, 21));;
 }
 
 .theme-dark .avatar_c19a55,
@@ -1963,6 +1960,7 @@ svg[name=Nitro] g path {
 .emojiItem_fc7141.expandCollapseButtonSelected_fc7141,
 .memberListItem_ec58fe:not(.popoutDisabled_ec58fe):hover,
 .memberListItem_d6b206:not(.popoutDisabled_d6b206):hover,
+.userListItem_ec58fe:not(.popoutDisabled_ec58fe):hover,
 .navButton__08434:hover,
 .perksList__3bf54 {
 	background-color: var(--backgroundDark-20);
@@ -2133,12 +2131,12 @@ svg[name=Nitro] g path {
 
 .footer__49fc1,
 .previewContainer__6da2d,
-.bd-select .bd-select-options {
+.bd-select .bd-select-options,
+.bd-modal-footer {
 	background-color: var(--backgroundDark);
 }
 
-.card_aae012,
-.bd-modal-footer {
+.card_aae012 {
 	background-color: var(--backgroundDark-15);
 	border: none;
 }
@@ -5503,7 +5501,7 @@ body,
 }
 
 .theme-dark .searchBar__97492 {
-	background: var(--background-gradient-chat, rgb(12, 15, 19));
+	background: var(--background-gradient-high, var(--input-background));
 	border: none;
 	border-radius: 50px;
 }
@@ -5895,22 +5893,6 @@ body,
 .username_c19a55.clickable_c19a55[aria-expanded=true],
 .anchor_edefb8[aria-expanded=true] {
 	text-decoration: underline;
-}
-
-.cardPrimary__73069,
-.cardPrimary__73069.editable__73069 {
-	--__card-accent-color: var(--backgroundDarker);
-	background-color: var(--backgroundDarker);
-	border: none;
-}
-
-.root__49fc1 .cardPrimary__73069,
-.root__49fc1 .cardPrimary__73069.editable__73069,
-.container__53cea .cardPrimary__73069,
-.container__53cea .cardPrimary__73069.editable__73069 {
-	--__card-accent-color: var(--backgroundDark);
-	background-color: var(--backgroundDark);
-	border: 1px solid rgba(0, 0, 0, .95);
 }
 
 .forumPost__7d15e.container__9a337:active,
@@ -7320,12 +7302,14 @@ body,
 }
 
 .inputInner_b1f01d,
+.container_a99829.channelTextArea__74017,
 .channelTextArea_f75fb0.channelTextArea__74017:not(.channelTextAreaDisabled__74017) {
 	transition: var(--transition);
 	transition-property: box-shadow;
 }
 
 .inputInner_b1f01d:hover,
+.container_a99829.channelTextArea__74017:hover,
 .channelTextArea_f75fb0.channelTextArea__74017:hover:not(.channelTextAreaDisabled__74017, .highlighted__74017),
 .messageInput__62280:hover {
 	box-shadow: 0 0 0 2px var(--deprecated-text-input-border-hover);
@@ -7334,6 +7318,7 @@ body,
 }
 
 .inputInner_b1f01d:focus-within,
+.container_a99829.channelTextArea__74017:focus-within,
 .channelTextArea_f75fb0.channelTextArea__74017:focus-within:not(.channelTextAreaDisabled__74017, .highlighted__74017),
 .messageInput__62280:focus-within {
 	transition: var(--transition);
@@ -7721,10 +7706,6 @@ path[stroke="rgb(123,162,255)"] {
 
 .premiumPromoDescription__3a1b6 {
 	margin: 0 0 24px;
-}
-
-.scrollerInner_e4503a {
-	padding-left: 10px;
 }
 
 .gameNightButton__71f00 {
@@ -8261,7 +8242,7 @@ path[stroke="rgb(123,162,255)"] {
 .columnHeading__686cf,
 .tableCell__686cf,
 .bd-setting-divider,
-.theme-dark .bottomDivider__01014,
+.bottomDivider__01014,
 .headerCell_e9cd98,
 .bodyCell_e9cd98,
 .row__15634,
@@ -8628,7 +8609,7 @@ h3.improved__1689b:after,
 }
 
 .bd-modal-footer {
-	box-shadow: inset 0 1px 0 var(--backgroundDark-95);
+	box-shadow: none;
 }
 
 .theme-dark .uploader_e7d73e,
@@ -10151,7 +10132,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 
 .normalStylesDefault_a1443c {
 	--custom-poll-style-vote-background: var(--backgroundDark-26);
-	--custom-poll-style-vote-percentage: var(--backgroundDark-52);
+	--custom-poll-style-vote-percentage: var(--backgroundDark-26);
 }
 
 .answerInner__4c520 {
@@ -10207,7 +10188,6 @@ html:not(.chat-input) .inputInner_b1f01d,
 }
 
 .guildCategorySeparator_b9ee0c,
-.bottomDivider__01014,
 .guildCategorySeparator__3ad28,
 .categoryIcon_a1e0e0,
 .channelSelectorComponent__7f727 .scrollerBase__99f8c {
@@ -10471,21 +10451,18 @@ html:not(.chat-input) .inputInner_b1f01d,
 }
 
 .pageBody__41ed7 {
-	padding: 16px 0 0 16px;
-	padding-left: 0;
-	background: var(--background-gradient-app-frame, var(--backgroundDark));
+	background-color: var(--backgroundDark);
+	padding: 16px 0 16px 0;
 }
 
 .browser__41ed7 {
-	padding-left: 6px;
-}
-
-.scrollerInner_e4503a {
-	padding: 0 10px 16px;
+	padding-left: 8px;
+	padding-right: 2px !important;
 }
 
 .header__41ed7 {
-	margin: 0 16px 16px 16px;
+	margin-left: 16px;
+	margin-right: 16px;
 }
 
 .wrapper__6e9f8:hover .childWrapperHoverScale__6e9f8,
@@ -11065,10 +11042,6 @@ div.cardContainer__88e24,
 .user-profile-sidebar :where(.avatar__75742) {
 	top: 66px;
 	left: 10px;
-}
-
-.bd-modal-content {
-	padding-right: 4px;
 }
 
 .shopCardDarkHighlighted_c3d04b {
@@ -13600,4 +13573,9 @@ circle[fill="#C12A35"],
 .prefixElement_d9be46,
 .title_d9be46 {
 	margin-top: 2px;
+}
+
+.bd-scroller-thin {
+	scrollbar-width: auto;
+	scrollbar-color: var(--backgroundDark-45) var(--scrollbar-thin-track);
 }
