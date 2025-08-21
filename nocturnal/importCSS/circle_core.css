@@ -7058,7 +7058,6 @@ body,
 	background-color: rgb(0, 52, 132);
 }
 
-.check__5dac8,
 .createTierIcon__15926,
 .addBenefitIcon_d28fa1,
 .playing_a8e786 .playIcon_a8e786 {
@@ -7717,7 +7716,7 @@ path[stroke="rgb(123,162,255)"] {
 .buttonOverlayBackground__9be63,
 .chatHeaderBar__452bd {
 	background-color: var(--backgroundDarker);
-	border-color: var(--backgroundDarker);
+	border: none;
 }
 
 .z-select:hover,
@@ -11077,10 +11076,6 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .role_dfa8b6 {
 	background-color: rgba(0, 0, 0, 0);
 	height: 22px;
-}
-
-.narrow_a5700d {
-	padding: 8px 16px;
 }
 
 .header_fed6d3 {
