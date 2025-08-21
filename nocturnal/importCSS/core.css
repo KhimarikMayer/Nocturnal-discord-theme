@@ -694,7 +694,6 @@
 	--buttons-active-primaryGradient2: rgb(0, 255, 195);
 }
 
-
 #app-mount {
 	animation: themeStart .5s linear 0s 1 normal;
 }
@@ -2074,13 +2073,13 @@ svg[name=Nitro] g path {
 	mask: none;
 }
 
-.border_f910d0,
-.voiceAvatar_f910d0,
+.theme-dark .border_f910d0,
+.theme-dark .voiceAvatar_f910d0,
 .theme-dark .avatar__44b0c {
-	border-radius: 8px;
+	border-radius: 50px;
 }
 
-.voiceAvatar_f910d0 .border_f910d0 {
+.theme-dark .voiceAvatar_f910d0 .border_f910d0 {
 	border-radius: 50%;
 }
 
@@ -13032,8 +13031,8 @@ rect[fill="brand-200"] {
 	outline: none;
 }
 
-.theme-dark .speaking_adebba .avatar__44b0c {
-	box-shadow: inset 0 0 5px 4px #43b581;
+.theme-dark .speaking_adebba .wrapper__44b0c.avatar_adebba:before {
+	box-shadow: 0 0 0 2px #666, inset 0 0 5px 4px #43b581 !important;
 }
 
 .container_d878e7 {
