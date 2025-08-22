@@ -2411,9 +2411,15 @@ svg[name=Nitro] g path {
 
 .lookOutlined__201d5.colorGreen__201d5 {
 	color: #303f6b;
-	border-width: 1.5px;
+	border-width: 2px;
 	border-color: #303f6b;
 	border-radius: 6px;
+}
+
+.lookOutlined__201d5.colorGreen__201d5:active {
+	background-color: #303f6b4d;
+	border-color: #303f6b;
+	color: #303f6b;
 }
 
 .card_aae012:hover,
