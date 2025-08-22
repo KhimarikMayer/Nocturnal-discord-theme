@@ -11108,7 +11108,6 @@ html:not(.chat-input) .inputInner_b1f01d,
 
 .modalHeader__49777,
 .collectiblePreviewsContainer_c50f62,
-.wrapper__14245,
 .rolePopout__31b61,
 .card__991c2,
 .container_ca9b56,
@@ -11717,12 +11716,6 @@ rect[fill="brand-200"] {
 .theme-light .categoryItemDefaultCategorySelected_b9ee0c,
 .theme-light .categoryItemDefaultCategorySelected_b9ee0c:hover {
 	background-color: var(--background-primary);
-}
-
-.theme-light .memberListItem_ec58fe:not(.popoutDisabled_ec58fe):hover,
-.theme-light .memberListItem_d6b206:not(.popoutDisabled_d6b206):hover,
-.theme-light .userListItem_ec58fe:not(.popoutDisabled_ec58fe):hover {
-	background-color: var(--background-base-lowest);
 }
 
 .button_c97e55.left_c97e55 {
