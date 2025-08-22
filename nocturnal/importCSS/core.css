@@ -975,10 +975,8 @@ svg[name=Nova_Discord] * {
 	background-color: var(--backgroundDark);
 }
 
-#bd-customcss-detach-container #bd-customcss-attach-controls,
-.contentRegion__23e6b #bd-customcss-attach-controls {
-	background-color: var(--backgroundDarker) !important;
-	box-shadow: none
+.button__201d5 {
+	border-color: rgba(0, 0, 0, 0);
 }
 
 #bd-settingspane-container .bd-pfbtn,
@@ -1385,14 +1383,6 @@ svg.contentImage__42bf5,
 	--__card-accent-color: var(--backgroundDark-30);
 	background-color: var(--backgroundDark-30);
 	border-color: rgba(0, 0, 0, 0);
-}
-
-.pageButtonNext__2d021 {
-	border-radius: 0 50px 50px 0;
-}
-
-.pageButtonPrev__2d021 {
-	border-radius: 50px 0 0 50px;
 }
 
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,
@@ -2477,12 +2467,6 @@ svg[name=Nitro] g path {
 
 .auditLog__43dab:has(.headerDefault__43dab) {
 	background-color: var(--backgroundDarker-alt);
-}
-
-.pageButtonNext__2d021,
-.pageButtonPrev__2d021,
-.pageIndicator__2d021 {
-	border: none;
 }
 
 .container__4e30a {
@@ -3763,8 +3747,8 @@ span.button__67645.enabled__67645:hover,
 	border: 1px solid var(--backgroundDark-95);
 }
 
-.selected__60626,
-.selected__60626[aria-expanded=true],
+.interactiveRow__60626.selected__60626,
+.interactiveRow__60626.selected__60626[aria-expanded=true],
 .mainContainer_c5e6a1 .ruleIconContainer_c5e6a1 {
 	background-color: var(--backgroundDark-35);
 }
@@ -9404,7 +9388,6 @@ rect[fill="var(--control-brand-foreground)"] {
 	border-radius: 16px;
 }
 
-.container__04119:hover:not(.canceled__04119),
 .addAnswerButtonDefault_d97f89:hover,
 .bd-addon-controls .bd-button:hover,
 .tipNumber_a193aa,
@@ -9427,8 +9410,6 @@ rect[fill="var(--control-brand-foreground)"] {
 	box-shadow: 0 0 0 2px var(--primary);
 }
 
-.container__04119.active__04119,
-.container__04119:hover.active__04119,
 .linkButton_b1585f:active,
 .container_a14595:active {
 	background-color: var(--backgroundDark-50);
@@ -10244,10 +10225,6 @@ rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 
 .role__48c1c.roleChiplet__3f11f {
 	height: 22px;
-}
-
-.recurrences__4fb8c {
-	padding-right: 6px;
 }
 
 .upsellContainer_a3bc57,
@@ -11401,6 +11378,7 @@ div.cardContainer__88e24,
 .safetyTable__1f3e3,
 .safetyTable_fdf9c0,
 .image__3299f,
+.container__04119:hover:not(.canceled__04119),
 .messageRequestItem_abb9ad.active_abb9ad,
 .messageRequestItem_abb9ad:hover {
 	background-color: var(--backgroundDark-15);
@@ -11427,6 +11405,8 @@ div.cardContainer__88e24,
 	background-color: var(--backgroundDark-45);
 }
 
+.container__04119.active__04119,
+.container__04119:hover.active__04119,
 #app-mount :where(.bd-paginator-back, .bd-paginator-next):hover,
 .footerContainer__122e4:hover,
 .channelIconContainer_c66e86,
