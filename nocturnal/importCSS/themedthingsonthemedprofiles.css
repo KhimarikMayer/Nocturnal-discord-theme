@@ -230,9 +230,12 @@
 	--selected-tab-item-color: var(--profile-gradient-secondary-color) !important;
 }
 
-.custom-user-profile-theme .overflowCount_e928f4,
-.visual-refresh .custom-user-profile-theme .inlineContainer__74017:not(.flushContainer__74017) {
+.custom-user-profile-theme .overflowCount_e928f4 {
 	background-color: var(--profile-gradient-primary-color) !important;
+}
+
+.custom-user-profile-theme .inlineContainer__74017:not(.flushContainer__74017) {
+	background-color: var(--profile-gradient-secondary-color) !important;
 }
 
 .custom-user-profile-theme .top_b3f026 .item_b3f026.selected_b3f026 {
