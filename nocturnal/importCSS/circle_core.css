@@ -4784,6 +4784,7 @@ span.button__67645.enabled__67645:hover,
 .theme-dark .markdown_d285a6 .blockquote_d285a6 {
 	border-left-color: var(--primary);
 	border-width: 2.5px;
+	border-radius: 5px;
 }
 
 .interactiveCard_d92364.selected__142a3,
