@@ -13494,3 +13494,7 @@ circle[fill="#C12A35"],
 .container__722ff+.layerContainer_da8173 .resizeHandle__01ae2 {
 	background: var(--background-gradient-low, var(--backgroundDarker-alt));
 }
+
+svg.thumbnail__0f2e8 {
+	height: 48px !important;
+}
