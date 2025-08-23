@@ -2042,10 +2042,6 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDark-26);
 }
 
-.wrapperAudio_cf09d8.newMosaicStyle_cf09d8 {
-	border-radius: 5px;
-}
-
 .avatarContainerMasked__183c2 foreignObject {
 	mask: none;
 }
@@ -3642,6 +3638,7 @@ span.button__67645.enabled__67645:hover,
 .wrapper_cb9592,
 .embedCard__44492.selected__44492 {
 	background-color: var(--backgroundDarker);
+	border-color: rgba(0, 0, 0, 0);
 }
 
 .resizeHandle__01ae2 {
