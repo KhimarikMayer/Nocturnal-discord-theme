@@ -259,6 +259,7 @@
 	background-color: color-mix(in oklab,var(--profile-gradient-primary-color) 65%,var(--profile-gradient-overlay-color) 100%) !important;
 }
 
+.custom-user-profile-theme .avatarIconContainer__7970d,
 .theme-dark.custom-user-profile-theme .container_e928f4 {
 	background: var(--profile-gradient-secondary-color);
 }
@@ -358,5 +359,3 @@
 	transition-property: box-shadow;
 	box-shadow: 0 0 0 2px rgb(var(--accent)), 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), 0.25);
 }
-
-
