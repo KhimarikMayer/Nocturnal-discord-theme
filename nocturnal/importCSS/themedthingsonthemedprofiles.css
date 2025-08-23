@@ -234,6 +234,7 @@
 	background-color: var(--profile-gradient-primary-color) !important;
 }
 
+.custom-user-profile-theme .vc-permviewer-role-button,
 .custom-user-profile-theme .inlineContainer__74017:not(.flushContainer__74017) {
 	background-color: var(--profile-gradient-secondary-color) !important;
 }
