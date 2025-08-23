@@ -7529,10 +7529,6 @@ path[stroke="rgb(123,162,255)"] {
 	stroke: rgb(35, 199, 243);
 }
 
-.flowerStar__3e3b0 {
-	stroke: rgba(0, 0, 0, 0);
-}
-
 .profilePanelConnections_b433b4,
 .userPanelOverlayBackground_a2b6ae,
 .container__00de6 {
@@ -8588,14 +8584,6 @@ span.clanTag__07f91,
 	padding: 0;
 }
 
-.disableColor__85d16,
-.iconBackgroundTierNone__97677,
-.iconBackgroundTierOne__97677:not(.boostedGuildTierIconBackgroundWithVisibleBanner__85d16),
-.iconBackgroundTierThree__97677:not(.boostedGuildTierIconBackgroundWithVisibleBanner__85d16),
-.iconBackgroundTierTwo__97677:not(.boostedGuildTierIconBackgroundWithVisibleBanner__85d16) {
-	color: #040506;
-}
-
 .tierCloseHint_a36dee {
 	background-color: var(--backgroundDark);
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-50);
@@ -8993,8 +8981,8 @@ h3.improved__1689b:after,
 }
 
 .childContainer__3e3b0 svg {
-	width: 24px;
-	height: 24px;
+	width: 12px !important;
+	height: 12px !important;
 }
 
 .containerCompact__7ff28 {
