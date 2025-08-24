@@ -1819,7 +1819,6 @@ svg[name=Nitro] g path {
 .theme-dark .channelTextArea_f75fb0 {
 	margin-bottom: 0;
 	background: var(--background-gradient-chat, rgb(14, 16, 21));
-	;
 }
 
 .theme-dark .avatar_c19a55,
@@ -2848,7 +2847,6 @@ span.button__67645.enabled__67645:hover,
 
 .popoutContainer__0f481 {
 	background-color: color-mix(in oklab, var(--backgroundDark), rgba(0, 0, 0, 0) 10%);
-	;
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50), var(--shadow-border), var(--shadow-low);
 }
 
