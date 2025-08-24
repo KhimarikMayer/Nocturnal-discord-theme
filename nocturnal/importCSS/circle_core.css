@@ -9175,7 +9175,6 @@ rect[fill="var(--control-brand-foreground)"] {
 
 .container_cd1bf7,
 .applicationStore_f07d62,
-.loader_c48ade,
 .container__49668,
 .container_cbd375 {
 	border-left: solid 1px var(--border-for-chats) !important;
@@ -12838,6 +12837,7 @@ rect[fill="#D3D6ED"] {
 	border-bottom-color: var(--backgroundDark);
 }
 
+.loader_c48ade,
 .shc-hidden-chat-content.chat_f75fb0,
 .contentWrapper__99a7e,
 .noChannel__01d5c,
@@ -13100,7 +13100,7 @@ circle[fill="#C12A35"],
 .clickableContainer__39ec2:hover>.card__39ec2:has([style*="/assets/f6833ce4dd20c1fb.svg"]),
 .overlay_c0bea0:has([style*="/assets/c4f09fda61827e19.svg"]):has(.tabularNumbers__4bd52),
 .clickableContainer__39ec2:hover>.card__39ec2:has([style*="/assets/c4f09fda61827e19.svg"]):has(.tabularNumbers__4bd52) {
-	background-image: linear-gradient(to top right, #181818, #414141) !important;
+	background-image: url(https://i.ibb.co/R5Nh8gt/unknown.png),linear-gradient(to top right, #181818, #414141) !important;
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-20) !important;
 	transition: none;
 }
