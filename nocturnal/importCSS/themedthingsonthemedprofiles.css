@@ -195,20 +195,6 @@
 	--custom-status-bubble-background: var(--profile-gradient-secondary-color);
 }
 
-.custom-user-profile-theme .avatar_bc9cc2:not(.withReactReply__75742),
-.custom-user-profile-theme .clickable_cc54d6:not(.withReactReply__75742),
-.custom-user-profile-theme .avatar__75742:not(.withReactReply__75742),
-.custom-user-profile-theme .clickable_f26c88:not(.withReactReply__75742),
-.custom-user-profile-theme .avatar_f9d668:not(.withReactReply__75742) {
-	border: 7px solid var(--profile-gradient-primary-color) !important;
-	background-color: var(--profile-gradient-primary-color) !important;
-}
-
-.custom-user-profile-theme .profileAvatar__89307:not(.withReactReply__75742) {
-	background-color: var(--profile-gradient-primary-color) !important;
-	border: 7px solid var(--profile-gradient-primary-color) !important;
-}
-
 .custom-user-profile-theme .top_b3f026,
 .custom-user-profile-theme .footer__7f9c0 {
 	border-color: var(--profile-gradient-secondary-color) !important;
@@ -241,23 +227,6 @@
 
 .custom-user-profile-theme .top_b3f026 .item_b3f026.selected_b3f026 {
 	color: var(--profile-gradient-secondary-color) !important;
-}
-
-.custom-user-profile-theme .avatar_bc9cc2:not(.withReactReply__75742),
-.custom-user-profile-theme .clickable_cc54d6:not(.withReactReply__75742),
-.custom-user-profile-theme .clickable_f26c88:not(.withReactReply__75742),
-.custom-user-profile-theme .avatar_d28e10:not(.withReactReply__75742),
-.custom-user-profile-theme .avatar__75742:not(.withReactReply__75742),
-.user-profile-modal-v2.custom-user-profile-theme .avatar__75742:not(.withReactReply__75742),
-.custom-user-profile-theme .profileAvatar__89307:not(.withReactReply__75742) {
-	border: 7px solid color-mix(in oklab,var(--profile-gradient-overlay-color) 100%,var(--profile-gradient-primary-color) 65%) !important;
-	background-color: color-mix(in oklab,var(--profile-gradient-overlay-color) 100%,var(--profile-gradient-primary-color) 65%) !important;
-}
-
-.user-profile-popout.custom-user-profile-theme .avatar__75742:not(.withReactReply__75742),
-.user-profile-sidebar.custom-user-profile-theme .avatar__75742:not(.withReactReply__75742) {
-	border: 7px solid color-mix(in oklab,var(--profile-gradient-primary-color) 65%,var(--profile-gradient-overlay-color) 100%) !important;
-	background-color: color-mix(in oklab,var(--profile-gradient-primary-color) 65%,var(--profile-gradient-overlay-color) 100%) !important;
 }
 
 .custom-user-profile-theme .avatarIconContainer__7970d,
@@ -360,4 +329,3 @@
 	transition-property: box-shadow;
 	box-shadow: 0 0 0 2px rgb(var(--accent)), 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), 0.25);
 }
-
