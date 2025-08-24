@@ -10892,7 +10892,6 @@ div.cardContainer__88e24,
 .card__5cea9,
 .header__5cea9,
 .loadMoreButton__5cea9,
-.clickableContainer__39ec2:hover>.card__39ec2,
 .iconContainer__5cea9,
 .container_e928f4,
 .overflowCount_e928f4,
@@ -10904,6 +10903,7 @@ div.cardContainer__88e24,
 	background-color: var(--backgroundDark-45);
 }
 
+.clickableContainer__39ec2:hover>.card__39ec2,
 .vc-permviewer-modal-list-item-active,
 .vc-permviewer-modal-list-item-active:hover,
 .actionButton__6b102:hover,
@@ -13100,7 +13100,7 @@ circle[fill="#C12A35"],
 .clickableContainer__39ec2:hover>.card__39ec2:has([style*="/assets/f6833ce4dd20c1fb.svg"]),
 .overlay_c0bea0:has([style*="/assets/c4f09fda61827e19.svg"]):has(.tabularNumbers__4bd52),
 .clickableContainer__39ec2:hover>.card__39ec2:has([style*="/assets/c4f09fda61827e19.svg"]):has(.tabularNumbers__4bd52) {
-	background-image: url(https://i.ibb.co/R5Nh8gt/unknown.png),linear-gradient(to top right, #181818, #414141) !important;
+	background-image: url(https://i.ibb.co/Jwc45cN9/unknown.png),linear-gradient(to top right, #181818, #414141) !important;
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-20) !important;
 	transition: none;
 }
