@@ -9399,7 +9399,7 @@ rect[fill="var(--control-brand-foreground)"] {
 
 .chatPreview_c50f62,
 .calendarPicker_d27f17 .react-date {
-	background: var(--background-gradient-app-frame, var(--backgroundDark));
+	background: var(--background-gradient-app-frame, var(--backgroundDark)) !important;
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
 }
 
