@@ -13447,24 +13447,6 @@ svg.thumbnail__0f2e8 {
 	--__card-accent-color: var(--background-feedback-warning);
 }
 
-.user-profile-popout.custom-user-profile-theme .avatar__75742:not(.withReactReply__75742), .user-profile-sidebar.custom-user-profile-theme .avatar__75742:not(.withReactReply__75742),
-.custom-user-profile-theme .avatar_bc9cc2:not(.withReactReply__75742), .custom-user-profile-theme .clickable_cc54d6:not(.withReactReply__75742), .custom-user-profile-theme .clickable_f26c88:not(.withReactReply__75742), .custom-user-profile-theme .avatar_d28e10:not(.withReactReply__75742), .custom-user-profile-theme .avatar__75742:not(.withReactReply__75742), .user-profile-modal-v2.custom-user-profile-theme .avatar__75742:not(.withReactReply__75742), .custom-user-profile-theme .profileAvatar__89307:not(.withReactReply__75742) {
-	background-color: rgba(0, 0, 0, 0) !important;
-	border: none !important;
-}
-
-.mask__68edb rect {
-	display: block;
-}
-
-.mask__68edb rect:before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	border: 7px solid;
-}
-
 .mask__68edb circle {
 	display: none;
 }
