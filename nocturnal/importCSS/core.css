@@ -751,7 +751,7 @@
 }
 
 .divider__908e2:not(.isUnread__908e2) {
-	border-top-color: var(--backgroundDark-95);
+	border-top-color: var(--border-for-chats);
 }
 
 .actionButton_f8fa06.highlight_f8fa06,
@@ -1391,7 +1391,7 @@ svg.contentImage__42bf5,
 	border-color: var(--backgroundDark-30);
 }
 
-.cardPrimary__73069:not(.vc-warning-card, .vc-backup-restore-card),
+.cardPrimary__73069:not(.vc-warning-card, .vc-backup-restore-card,.container_d878e7),
 .cardPrimary__73069.editable__73069 {
 	--__card-accent-color: var(--backgroundDark-30);
 	background-color: var(--backgroundDark-30);
@@ -11597,10 +11597,12 @@ rect[fill="brand-200"] {
 	width: 90px;
 }
 
-.container_ab8609,
-.inner_ab8609,
+.container_ab8609 {
+	--custom-status-bubble-background-color: var(--backgroundLight);
+	--custom-status-bubble-background: var(--backgroundLight);
+}
+
 .container_ab8609.editable_ab8609:hover {
-	--custom-status-bubble-background-color: var(--backgroundLighter);
 	--custom-status-bubble-background: var(--backgroundLighter);
 }
 
@@ -12613,10 +12615,6 @@ rect[fill="brand-200"] {
 
 .theme-dark .speaking_adebba .wrapper__44b0c.avatar_adebba:before {
 	box-shadow: 0 0 0 2px #666, inset 0 0 5px 4px #43b581 !important;
-}
-
-.container_d878e7 {
-	--__card-accent-color: rgba(0, 0, 0, 0);
 }
 
 .pendingFolderButtonIcon__93fc9 {
