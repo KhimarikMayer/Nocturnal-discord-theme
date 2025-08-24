@@ -1021,7 +1021,7 @@ svg[name=Nova_Discord] * {
 .primary__6af3a:not(.optionPillBtn__3f413),
 .primary__6af3a:disabled,
 .primary__6af3a[aria-disabled=true],
-.lookFilled__201d5.colorBrand__201d5:not(.optionPillBtn__3f413,.vc-plugins-restart-button),
+.lookFilled__201d5.colorBrand__201d5:not(.optionPillBtn__3f413, .vc-plugins-restart-button),
 .lookFilled__201d5.colorBrand__201d5:disabled,
 .lookFilled__201d5.colorBrand__201d5[aria-disabled=true],
 .secondary__6af3a:not(.color_f9d37d.banner_fb7f94),
@@ -1080,7 +1080,7 @@ svg[name=Nova_Discord] * {
 .headerButtonColor__619f1:hover,
 .primary__6af3a:hover:not(:disabled, .optionPillBtn__3f413, [aria-disabled=true]),
 .primary__6af3a[aria-expanded=true],
-.lookFilled__201d5.colorBrand__201d5:hover:not(.fauxDisabled_e131a9, :disabled, .optionPillBtn__3f413, [aria-disabled=true],.vc-plugins-restart-button),
+.lookFilled__201d5.colorBrand__201d5:hover:not(.fauxDisabled_e131a9, :disabled, .optionPillBtn__3f413, [aria-disabled=true], .vc-plugins-restart-button),
 .lookFilled__201d5.colorBrand__201d5[aria-expanded=true],
 .secondary__6af3a:hover:not(.color_f9d37d.banner_fb7f94, :disabled),
 .lookFilled__201d5.colorPrimary__201d5:hover:not(.color_f9d37d.banner_fb7f94, :disabled),
@@ -1126,7 +1126,7 @@ svg[name=Nova_Discord] * {
 .bd-modal-wrapper .footer button:active,
 .bda-slist .bda-footer button:active,
 .headerButtonColor__619f1:active,
-.lookFilled__201d5.colorBrand__201d5:active:not(.fauxDisabled_e131a9, :disabled, .optionPillBtn__3f413, [aria-disabled=true],.vc-plugins-restart-button),
+.lookFilled__201d5.colorBrand__201d5:active:not(.fauxDisabled_e131a9, :disabled, .optionPillBtn__3f413, [aria-disabled=true], .vc-plugins-restart-button),
 .lookFilled__201d5.colorPrimary__201d5:active:not(.color_f9d37d.banner_fb7f94, :disabled),
 .lookOutlined__201d5.colorBrand__201d5:active:not(:disabled),
 .plugin-settings button:active,
@@ -1391,7 +1391,7 @@ svg.contentImage__42bf5,
 	border-color: var(--backgroundDark-30);
 }
 
-.cardPrimary__73069:not(.vc-warning-card,.vc-backup-restore-card),
+.cardPrimary__73069:not(.vc-warning-card, .vc-backup-restore-card),
 .cardPrimary__73069.editable__73069 {
 	--__card-accent-color: var(--backgroundDark-30);
 	background-color: var(--backgroundDark-30);
@@ -1818,7 +1818,7 @@ svg[name=Nitro] g path {
 
 .theme-dark .channelTextArea_f75fb0 {
 	margin-bottom: 0;
-	background: var(--background-gradient-chat, rgb(14, 16, 21));;
+	background: var(--background-gradient-chat, rgb(14, 16, 21));
 }
 
 .theme-dark .avatar_c19a55,
@@ -2108,6 +2108,7 @@ svg[name=Nitro] g path {
 	background: none;
 }
 
+.previewContainer__6da2d,
 .root_d529e9,
 .emptyHintCard__2dc39,
 .tooltipGrey__382e7,
@@ -2128,7 +2129,6 @@ svg[name=Nitro] g path {
 }
 
 .footer__49fc1,
-.previewContainer__6da2d,
 .bd-select .bd-select-options,
 .bd-modal-footer {
 	background-color: var(--backgroundDark);
@@ -2816,7 +2816,7 @@ span.button__67645.enabled__67645:hover,
 }
 
 .popoutContainer__0f481 {
-	background-color: color-mix(in oklab, var(--backgroundDark), rgba(0, 0, 0, 0) 10%);;
+	background-color: color-mix(in oklab, var(--backgroundDark), rgba(0, 0, 0, 0) 10%);
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50), var(--shadow-border), var(--shadow-low);
 }
 
@@ -2912,6 +2912,7 @@ span.button__67645.enabled__67645:hover,
 	padding: 0;
 }
 
+.tierHeaderUnlocked_a36dee,
 .subscription_d970da,
 .cardFolder__1a4ef,
 .tierBody_a36dee {
@@ -2925,7 +2926,6 @@ span.button__67645.enabled__67645:hover,
 }
 
 .settingCard__1a4ef.active__1a4ef,
-.tierHeaderUnlocked_a36dee,
 .tierHeaderLocked_a36dee,
 .tierInProgress_c44edb {
 	background-color: var(--backgroundDarker-alt);
@@ -3551,13 +3551,13 @@ span.button__67645.enabled__67645:hover,
 .primary__06eda:hover:not(.disabled__06eda),
 .secondary__06eda,
 .tertiary__06eda,
-.roleRow__5f97b:hover:not(.roleRowDisableHover__5f97b):not(.roleRowDragging__5f97b) .circleButton__5f97b.disabled__5f97b,
+.roleRow__5f97b:hover:not(.roleRowDisableHover__5f97b) .circleButton__5f97b.disabled__5f97b,
 .wrapper__83b1d:focus-within,
 .wrapper__83b1d:hover {
 	background-color: var(--backgroundDark-45);
 }
 
-.roleRow__5f97b:hover:not(.roleRowDisableHover__5f97b):not(.roleRowDragging__5f97b) .circleButton__5f97b:not(.disabled__5f97b),
+.roleRow__5f97b:hover:not(.roleRowDisableHover__5f97b) .circleButton__5f97b:not(.disabled__5f97b),
 .friendRequestsButton__523aa:hover,
 .secondary__06eda:hover:not(.disabled__06eda),
 .tertiary__06eda:hover:not(.disabled__06eda) {
@@ -3578,8 +3578,12 @@ span.button__67645.enabled__67645:hover,
 	background-size: 100%;
 }
 
-.roleRow__5f97b:hover:not(.roleRowDisableHover__5f97b):not(.roleRowDragging__5f97b) {
+.roleRow__5f97b:hover:not(.roleRowDisableHover__5f97b) {
 	background-color: var(--backgroundDark-15);
+}
+
+.roleRow__5f97b.roleRowDragging__5f97b:not(.roleRowDisableHover__5f97b) {
+	background-color: rgba(0, 0, 0, 0);
 }
 
 .entryPointAppCommandButtonContainer_a83188,
@@ -3618,6 +3622,8 @@ span.button__67645.enabled__67645:hover,
 	border-left: 1px solid var(--border-for-chats);
 }
 
+.roleRow__5f97b:before,
+.roleRow__5f97b:last-child:after,
 .theme-dark .selectorButton__0907c,
 .replyBadge_c19a55,
 .option__56fec:hover,
@@ -3799,11 +3805,11 @@ span.button__67645.enabled__67645:hover,
 
 .activityItem__18da2,
 .activityItem__18da2.disabled__18da2 {
-	background-color: var(--backgroundDark-20);
+	background-color: var(--backgroundDark-15);
 }
 
 .activityItem__18da2:hover {
-	background-color: var(--backgroundDark-40);
+	background-color: var(--backgroundDark-25);
 }
 
 .linkContainer_ca49a1,
@@ -3950,7 +3956,7 @@ span.button__67645.enabled__67645:hover,
 
 .container_faa96b:hover:not(.header_f369db) {
 	background-color: var(--backgroundLight);
-	box-shadow: var(--shadow-border),0 12px 24px 0 hsl(none 0% 0%/0.24);
+	box-shadow: var(--shadow-border), 0 12px 24px 0 hsl(none 0% 0%/0.24);
 	border: none;
 }
 
@@ -4406,7 +4412,6 @@ span.button__67645.enabled__67645:hover,
 
 .bd-placeholder-card,
 .bd-server-card,
-.roleRowDragging__5f97b,
 .bd-server-card:hover,
 .bd-server-card:focus {
 	background-color: rgba(0, 0, 0, 0) !important;
@@ -4852,7 +4857,7 @@ span.button__67645.enabled__67645:hover,
 
 .textContentFooter__9a337 {
 	background-color: var(--backgroundDark);
-	mask-image: linear-gradient(to top,var(--backgroundDark) 20%,rgba(0, 0, 0, 0) 100%);
+	mask-image: linear-gradient(to top, var(--backgroundDark) 20%, rgba(0, 0, 0, 0) 100%);
 }
 
 .countContainer_f369db,
@@ -5686,8 +5691,8 @@ body,
 }
 
 .streamPreview__6da2d {
-	background-color: var(--backgroundDarker);
-	box-shadow: 0 0 16px 8px var(--backgroundDark-75);
+	background-color: var(--backgroundDark);
+	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
 	margin-left: -8px;
 }
 
@@ -5791,7 +5796,7 @@ body,
 
 .container_faa96b:active:not(.header_f369db) {
 	background-color: var(--backgroundLighter);
-	box-shadow: var(--shadow-border),0 12px 24px 0 hsl(none 0% 0%/0.24);
+	box-shadow: var(--shadow-border), 0 12px 24px 0 hsl(none 0% 0%/0.24);
 	border: none;
 }
 
@@ -5832,6 +5837,10 @@ body,
 	border: none;
 }
 
+.premiumRetentionNotice_a606ef,
+.upsell_ac65bb,
+.wrapper_dac110,
+.burstNotice_ea6e72,
 .tableRowGroup__19fd1 .content__19fd1,
 .deprivateTableBody_e6fa8e,
 .theme-dark .footer_be95d0,
@@ -5935,10 +5944,6 @@ body,
 .review_a9b452,
 .headerExpanded_d7a3d0,
 .reviewHeader_a9b452,
-.premiumRetentionNotice_a606ef,
-.upsell_ac65bb,
-.wrapper_dac110,
-.burstNotice_ea6e72,
 .header_d7a3d0 {
 	background-color: var(--backgroundDarker-alt);
 }
@@ -6080,11 +6085,6 @@ body,
 	margin-top: 38px;
 }
 
-.roleRow__5f97b:not(.containerDragBefore__5f97b):before,
-.roleRow__5f97b:not(.containerDragBefore__5f97b):last-child:after {
-	background-color: rgb(16, 18, 24);
-}
-
 .educationUpsellArrow__4a4f2 {
 	border-bottom-color: var(--backgroundDark);
 }
@@ -6207,10 +6207,6 @@ body,
 	color: #fff !important
 }
 
-.editWelcomeButton_d2b0e4,
-.activityActionButton__8a940 {
-	background-color: rgba(10, 12, 16) !important;
-}
 
 .activityItem__8a940:hover .activityActionButton__8a940,
 .editWelcomeButton_d2b0e4:hover,
@@ -7166,14 +7162,15 @@ body,
 .textArea_d19bc9,
 .defaultTextInputWrapper__7b848,
 .input__0ed4f[readonly],
-.input__0ed4f:not(.value__96f95, .nameInputInnerWithEmojiPicker__0511a, .inputWrapperWithEmojiPicker_ac72c6, .inputInnerWithEmojiPicker_ac72c6, .tagInput__69ef9, .multiInputField_b404ff, .textarea__9daae, .traitInput__4cbea, .note_fcb628 textarea, .inputField_d64f22, .fieldBackground_d48a51, .inputInner_a97616, .input_cedfaf, .input__72ba7, .descriptionInput__5579e, .clipTitleInput__1d12e, .defaultTextInput__7b848, .searchBox_d727b3 .searchBoxInput_d727b3, .input__72ba7, .title_d9be46, .messageInput_f2c0a8, .textarea_dde0a8):not(:focus):not(:focus-within) {
+.theme-dark .input__0ed4f.disabled__0ed4f,
+.input__0ed4f:not(.disabled__0ed4f, .value__96f95, .nameInputInnerWithEmojiPicker__0511a, .inputWrapperWithEmojiPicker_ac72c6, .inputInnerWithEmojiPicker_ac72c6, .tagInput__69ef9, .multiInputField_b404ff, .textarea__9daae, .traitInput__4cbea, .note_fcb628 textarea, .inputField_d64f22, .fieldBackground_d48a51, .inputInner_a97616, .input_cedfaf, .input__72ba7, .descriptionInput__5579e, .clipTitleInput__1d12e, .defaultTextInput__7b848, .searchBox_d727b3 .searchBoxInput_d727b3, .input__72ba7, .title_d9be46, .messageInput_f2c0a8, .textarea_dde0a8):not(:focus):not(:focus-within) {
 	border-color: rgba(0, 0, 0, 0);
 }
 
 .cardInput__8b579:hover:not(.cardInputFocused__8b579),
 .tagInputWrapper__69ef9:hover,
 .wrapper_a45028:hover:not(:focus):not(:focus-within),
-.input__0ed4f:not(.value__96f95, .nameInputInnerWithEmojiPicker__0511a, .inputWrapperWithEmojiPicker_ac72c6, .inputInnerWithEmojiPicker_ac72c6, .tagInput__69ef9, .multiInputField_b404ff, .textarea__9daae, .traitInput__4cbea, .note_fcb628 textarea, .inputField_d64f22, .fieldBackground_d48a51, .inputInner_a97616, .input_cedfaf, .input__72ba7, .descriptionInput__5579e, .clipTitleInput__1d12e, .defaultTextInput__7b848, .searchBox_d727b3 .searchBoxInput_d727b3, .input__72ba7, .title_d9be46, .messageInput_f2c0a8, .textarea_dde0a8):hover:not(:focus):not(:focus-within) {
+.input__0ed4f:not(.disabled__0ed4f, .value__96f95, .nameInputInnerWithEmojiPicker__0511a, .inputWrapperWithEmojiPicker_ac72c6, .inputInnerWithEmojiPicker_ac72c6, .tagInput__69ef9, .multiInputField_b404ff, .textarea__9daae, .traitInput__4cbea, .note_fcb628 textarea, .inputField_d64f22, .fieldBackground_d48a51, .inputInner_a97616, .input_cedfaf, .input__72ba7, .descriptionInput__5579e, .clipTitleInput__1d12e, .defaultTextInput__7b848, .searchBox_d727b3 .searchBoxInput_d727b3, .input__72ba7, .title_d9be46, .messageInput_f2c0a8, .textarea_dde0a8):hover:not(:focus):not(:focus-within) {
 	border-color: var(--deprecated-text-input-border);
 }
 
@@ -8769,7 +8766,8 @@ h3.improved__1689b:after,
 
 .inModal__0624f,
 .addAnswerButton_d97f89,
-.enableCard__74f90 {
+.enableCard__74f90,
+.avatarContainer__44492 {
 	background-color: var(--backgroundDarker);
 }
 
@@ -9455,7 +9453,7 @@ div.cardContainer__88e24,
 }
 
 :where(.outer_c0bea0).user-profile-popout {
-	box-shadow: var(--shadow-border),0 0 5px 1.53px var(--backgroundDark-50);
+	box-shadow: var(--shadow-border), 0 0 5px 1.53px var(--backgroundDark-50);
 }
 
 .subscribersPopout_a36dee {
@@ -9512,6 +9510,7 @@ div.cardContainer__88e24,
 }
 
 @media (min-width: 1129px) {
+
 	.scroller_a3a4ce,
 	.scroller_a39aa3 {
 		padding-right: 26px !important;
@@ -12616,7 +12615,7 @@ rect[fill="brand-200"] {
 }
 
 .role__5d7c9 {
-	background-color: var(--backgroundDarker);
+	background-color: var(--backgroundDark);
 	border-radius: 50px;
 }
 
@@ -13239,12 +13238,6 @@ svg.thumbnail__0f2e8 {
 .vc-backup-restore-card,
 .vc-warning-card {
 	--__card-accent-color: var(--background-feedback-warning);
-}
-
-.user-profile-popout.custom-user-profile-theme .avatar__75742:not(.withReactReply__75742), .user-profile-sidebar.custom-user-profile-theme .avatar__75742:not(.withReactReply__75742),
-.custom-user-profile-theme .avatar_bc9cc2:not(.withReactReply__75742), .custom-user-profile-theme .clickable_cc54d6:not(.withReactReply__75742), .custom-user-profile-theme .clickable_f26c88:not(.withReactReply__75742), .custom-user-profile-theme .avatar_d28e10:not(.withReactReply__75742), .custom-user-profile-theme .avatar__75742:not(.withReactReply__75742), .user-profile-modal-v2.custom-user-profile-theme .avatar__75742:not(.withReactReply__75742), .custom-user-profile-theme .profileAvatar__89307:not(.withReactReply__75742) {
-	background-color: rgba(0, 0, 0, 0) !important;
-	border: none !important;
 }
 
 .role__48c1c {
