@@ -231,7 +231,7 @@
 }
 
 .custom-user-profile-theme .overflowCount_e928f4 {
-	background-color: var(--profile-gradient-primary-color) !important;
+	background-color: var(--profile-gradient-primary-color);
 }
 
 .custom-user-profile-theme .vc-permviewer-role-button,
@@ -360,3 +360,4 @@
 	transition-property: box-shadow;
 	box-shadow: 0 0 0 2px rgb(var(--accent)), 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), 0.25);
 }
+
