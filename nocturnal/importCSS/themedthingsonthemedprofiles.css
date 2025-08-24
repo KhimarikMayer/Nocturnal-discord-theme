@@ -145,7 +145,7 @@
 }
 
 .custom-user-profile-theme .connectedAccountContainer_e6abe8,
-.custom-user-profile-theme .menu_ad5fac div[role=separator] {
+.custom-user-profile-theme .badge_separator {
 	border-color: var(--profile-gradient-secondary-color);
 }
 
