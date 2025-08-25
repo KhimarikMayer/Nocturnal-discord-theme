@@ -556,105 +556,105 @@
 }
 
 .theme-dark {
-	--backgroundLighter-alt: color-mix(in oklab, hsl(221, calc(var(--saturation-factor) * 21%), 18%) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
-	--backgroundLighter: color-mix(in oklab, hsl(220, calc(var(--saturation-factor) * 22%), 16%) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
-	--backgroundLight: color-mix(in oklab, hsl(221, calc(var(--saturation-factor) * 22%), 14%) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
-	--backgroundDark: color-mix(in oklab, hsl(222, calc(var(--saturation-factor) * 21%), 12%) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
-	--backgroundDarker: color-mix(in oklab, hsl(224, calc(var(--saturation-factor) * 22%), 10%) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
-	--backgroundDarker-alt: color-mix(in oklab, hsl(225, calc(var(--saturation-factor) * 20%), 8%) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
-	--backgroundDark-15: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.15);
-	--backgroundDark-20: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.2);
-	--backgroundDark-25: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.25);
-	--backgroundDark-26: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.26);
-	--backgroundDark-30: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.3);
-	--backgroundDark-35: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.35);
-	--backgroundDark-40: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.4);
-	--backgroundDark-45: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.45);
-	--backgroundDark-50: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.5);
-	--backgroundDark-52: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.52);
-	--backgroundDark-55: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.55);
-	--backgroundDark-60: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.6);
-	--backgroundDark-65: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.65);
-	--backgroundDark-70: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.7);
-	--backgroundDark-75: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.75);
-	--backgroundDark-80: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.8);
-	--backgroundDark-85: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.85);
-	--backgroundDark-90: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.9);
-	--backgroundDark-95: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.95);
-	--backgroundDark-100: hsl(0, calc(var(--saturation-factor) * 0%), 0%);
-	--primary: hsl(204, calc(var(--saturation-factor) * 100%), 45%);
-	--primary-hsl: 204 calc(var(--saturation-factor) * 100%) 45%;
-	--primaryGradient1: hsl(204, calc(var(--saturation-factor) * 100%), 45%);
-	--primaryGradient2: hsl(156, calc(var(--saturation-factor) * 100%), 45%);
-	--primary-1: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.0196078431372549);
-	--primary-4: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.0392156862745098);
-	--primary-05a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.05);
-	--primary-8: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.0784313725490196);
-	--primary-10a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.1);
-	--primary-12: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.12156862745098039);
-	--primary-15a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.15);
-	--primary-16: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.1607843137254902);
-	--primaryGradient1-16: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.1607843137254902);
-	--primaryGradient2-16: hsla(156, calc(var(--saturation-factor) * 100%), 45%, 0.1607843137254902);
-	--primary-20: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.2);
-	--primary-24: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.23921568627450981);
-	--primary-25a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.25);
-	--primary-28: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.2784313725490196);
-	--primary-30a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.3);
-	--primary-32: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.3215686274509804);
-	--primary-35a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.35);
-	--primary-36: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.3607843137254902);
-	--primary-40: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.4);
-	--primary-44: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.4392156862745098);
-	--primary-45a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.45);
-	--primary-48: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.47843137254901963);
-	--primary-50a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.5);
-	--primary-52: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.5215686274509804);
-	--primary-55a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.55);
-	--primary-56: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.5607843137254902);
-	--primary-60: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.6);
-	--primary-64: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.6392156862745098);
-	--primary-65a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.65);
-	--primary-68: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.6784313725490196);
-	--primary-70a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.7);
-	--primary-72: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.7215686274509804);
-	--primary-75a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.75);
-	--primary-76: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.76078431372549028);
-	--primary-80: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.8);
-	--primary-84: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.8392156862745098);
-	--primary-85a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.85);
-	--primary-88: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.8784313725490196);
-	--primary-90a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.9);
-	--primary-92: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.9215686274509803);
-	--primary-95a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.95);
-	--primary-96: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.9607843137254902);
-	--primaryformentions: color-mix(in oklab, hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.23921568627450981) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.23921568627450981) var(--custom-theme-base-color-amount, 0%));
-	--primaryforreplyingmessages: color-mix(in oklab, hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.1607843137254902) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%) / 0.1607843137254902) var(--custom-theme-base-color-amount, 0%));
-	--primaryforcodes: color-mix(in oklab, hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
-	--secondary: hsl(201, calc(var(--saturation-factor) * 91%), 48%);
-	--tertiary: hsl(201, calc(var(--saturation-factor) * 82%), 50%);
-	--quaternary: hsl(198, calc(var(--saturation-factor) * 84%), 52%);
-	--quinary: hsl(193, calc(var(--saturation-factor) * 86%), 57%);
-	--control-quinary-foreground: color-mix(in oklab, hsl(193, calc(var(--saturation-factor) * 86%), 57%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--senary: hsl(192, calc(var(--saturation-factor) * 87%), 59%);
-	--text-senary: color-mix(in oklab, hsl(192, calc(var(--saturation-factor) * 87%), 59%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--septenary: hsl(189, calc(var(--saturation-factor) * 87%), 62%);
-	--octonary: hsl(183, calc(var(--saturation-factor) * 86%), 67%);
-	--nonary: hsl(178, calc(var(--saturation-factor) * 89%), 70%);
-	--denaryformentions: color-mix(in oklab, hsl(176, calc(var(--saturation-factor) * 96%), 73%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--denary: hsl(175, calc(var(--saturation-factor) * 100%), 74%);
-	--undenaryforreactions: color-mix(in oklab, hsl(173, calc(var(--saturation-factor) * 100%), 78%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--undenary: hsl(174, calc(var(--saturation-factor) * 100%), 77%);
-	--duodenary: hsl(178, calc(var(--saturation-factor) * 100%), 81%);
-	--tredenary: hsl(178, calc(var(--saturation-factor) * 100%), 81%);
-	--quattuordenary: hsl(178, calc(var(--saturation-factor) * 100%), 81%);
-	--mentionedmessages: color-mix(in oklab, hsla(197, calc(var(--saturation-factor) * 100%), 48%, 0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessageshover: color-mix(in oklab, hsla(197, calc(var(--saturation-factor) * 100%), 48%, 0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessagesbefore: color-mix(in oklab, hsl(197, calc(var(--saturation-factor) * 100%), 48%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--highlight-messages: hsla(197, calc(var(--saturation-factor) * 100%), 48%, 0.3);
-	--buttons-active-primaryGradient1: hsl(194, calc(var(--saturation-factor) * 100%), 50%);
-	--buttons-active-primaryGradient2: hsl(166, calc(var(--saturation-factor) * 100%), 50%);
-	--accent: 164, calc(var(--saturation-factor) * 100%), 45%;
+	--backgroundLighter-alt: color-mix(in oklab, hsl(221 calc(var(--saturation-factor)*21%) 18% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+	--backgroundLighter: color-mix(in oklab, hsl(220 calc(var(--saturation-factor)*22%) 16% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+	--backgroundLight: color-mix(in oklab, hsl(221 calc(var(--saturation-factor)*22%) 14% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+	--backgroundDark: color-mix(in oklab, hsl(222 calc(var(--saturation-factor)*21%) 12% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+	--backgroundDarker: color-mix(in oklab, hsl(224 calc(var(--saturation-factor)*22%) 10% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+	--backgroundDarker-alt: color-mix(in oklab, hsl(225 calc(var(--saturation-factor)*20% /1) 8%) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+	--backgroundDark-15: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.15);
+	--backgroundDark-20: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.2);
+	--backgroundDark-25: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.25);
+	--backgroundDark-26: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.26);
+	--backgroundDark-30: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.3);
+	--backgroundDark-35: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.35);
+	--backgroundDark-40: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.4);
+	--backgroundDark-45: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.45);
+	--backgroundDark-50: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.5);
+	--backgroundDark-52: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.52);
+	--backgroundDark-55: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.55);
+	--backgroundDark-60: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.6);
+	--backgroundDark-65: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.65);
+	--backgroundDark-70: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.7);
+	--backgroundDark-75: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.75);
+	--backgroundDark-80: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.8);
+	--backgroundDark-85: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.85);
+	--backgroundDark-90: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.9);
+	--backgroundDark-95: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.95);
+	--backgroundDark-100: hsl(0 calc(var(--saturation-factor)*0%) 0%);
+	--primary: hsl(204 calc(var(--saturation-factor)*100%) 45% /1);
+	--primary-hsl: 204 calc(var(--saturation-factor)*100%) 45% /1;
+	--primaryGradient1: hsl(204 calc(var(--saturation-factor)*100%) 45% /1);
+	--primaryGradient2: hsl(156 calc(var(--saturation-factor)*100%) 45% /1);
+	--primary-1: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.0196078431372549);
+	--primary-4: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.0392156862745098);
+	--primary-05a: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.05);
+	--primary-8: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.0784313725490196);
+	--primary-10a: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.1);
+	--primary-12: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.12156862745098039);
+	--primary-15a: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.15);
+	--primary-16: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.1607843137254902);
+	--primaryGradient1-16: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.1607843137254902);
+	--primaryGradient2-16: hsl(156 calc(var(--saturation-factor)*100%) 45% /0.1607843137254902);
+	--primary-20: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.2);
+	--primary-24: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.23921568627450981);
+	--primary-25a: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.25);
+	--primary-28: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.2784313725490196);
+	--primary-30a: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.3);
+	--primary-32: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.3215686274509804);
+	--primary-35a: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.35);
+	--primary-36: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.3607843137254902);
+	--primary-40: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.4);
+	--primary-44: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.4392156862745098);
+	--primary-45a: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.45);
+	--primary-48: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.47843137254901963);
+	--primary-50a: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.5);
+	--primary-52: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.5215686274509804);
+	--primary-55a: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.55);
+	--primary-56: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.5607843137254902);
+	--primary-60: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.6);
+	--primary-64: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.6392156862745098);
+	--primary-65a: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.65);
+	--primary-68: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.6784313725490196);
+	--primary-70a: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.7);
+	--primary-72: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.7215686274509804);
+	--primary-75a: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.75);
+	--primary-76: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.76078431372549028);
+	--primary-80: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.8);
+	--primary-84: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.8392156862745098);
+	--primary-85a: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.85);
+	--primary-88: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.8784313725490196);
+	--primary-90a: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.9);
+	--primary-92: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.9215686274509803);
+	--primary-95a: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.95);
+	--primary-96: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.9607843137254902);
+	--primaryformentions: color-mix(in oklab, hsl(204 calc(var(--saturation-factor)*100%) 45% /0.23921568627450981) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.23921568627450981) var(--custom-theme-base-color-amount, 0%));
+	--primaryforreplyingmessages: color-mix(in oklab, hsl(204 calc(var(--saturation-factor)*100%) 45% /0.1607843137254902) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%) / 0.1607843137254902) var(--custom-theme-base-color-amount, 0%));
+	--primaryforcodes: color-mix(in oklab, hsl(204 calc(var(--saturation-factor)*100%) 45% /0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
+	--secondary: hsl(201 calc(var(--saturation-factor)*91%) 48% /1);
+	--tertiary: hsl(201 calc(var(--saturation-factor)*82%) 50% /1);
+	--quaternary: hsl(198 calc(var(--saturation-factor)*84%) 52% /1);
+	--quinary: hsl(193 calc(var(--saturation-factor)*86%) 57% /1);
+	--control-quinary-foreground: color-mix(in oklab, hsl(193 calc(var(--saturation-factor)*86%) 57% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--senary: hsl(192 calc(var(--saturation-factor)*87%) 59% /1);
+	--text-senary: color-mix(in oklab, hsl(192 calc(var(--saturation-factor)*87%) 59% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--septenary: hsl(189 calc(var(--saturation-factor)*87%) 62% /1);
+	--octonary: hsl(183 calc(var(--saturation-factor)*86%) 67% /1);
+	--nonary: hsl(178 calc(var(--saturation-factor)*89%) 70% /1);
+	--denaryformentions: color-mix(in oklab, hsl(176 calc(var(--saturation-factor)*96%) 73% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--denary: hsl(175 calc(var(--saturation-factor)*100%) 74% /1);
+	--undenaryforreactions: color-mix(in oklab, hsl(173 calc(var(--saturation-factor)*100%) 78% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--undenary: hsl(174 calc(var(--saturation-factor)*100%) 77% /1);
+	--duodenary: hsl(178 calc(var(--saturation-factor)*100%) 81% /1);
+	--tredenary: hsl(178 calc(var(--saturation-factor)*100%) 81% /1);
+	--quattuordenary: hsl(178 calc(var(--saturation-factor)*100%) 81% /1);
+	--mentionedmessages: color-mix(in oklab, hsl(197 calc(var(--saturation-factor)*100%) 48% /0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessageshover: color-mix(in oklab, hsl(197 calc(var(--saturation-factor)*100%) 48% /0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessagesbefore: color-mix(in oklab, hsl(197 calc(var(--saturation-factor)*100%) 48% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--highlight-messages: hsl(197 calc(var(--saturation-factor)*100%) 48% /0.3);
+	--buttons-active-primaryGradient1: hsl(194 calc(var(--saturation-factor)*100%) 50% /1);
+	--buttons-active-primaryGradient2: hsl(166 calc(var(--saturation-factor)*100%) 50% /1);
+	--accent: 164, calc(var(--saturation-factor)*100%), 45%;
 	--glow-intensity: 1;
 	--chat-glow-intensity: var(--glow-intensity);
 	--channel-glow-intensity: var(--glow-intensity);
@@ -671,68 +671,68 @@
 	--border: hsl(var(--hue) var(--saturation) calc(var(--lightness) / 2) / .6);
 	--elevation-high: 0 0 16px 8px var(--backgroundDark-50);
 	--shadow-high: 0 0 16px 8px var(--backgroundDark-50);
-	--chat-avatar-border-color: hsl(180, calc(var(--saturation-factor) * 100%), 27%);
+	--chat-avatar-border-color: darkcyan;
 	--roles-roundness: 0;
 	--__spoiler-background-color--hidden: var(--backgroundDark-20);
 	--__spoiler-background-color--hidden--hover: var(--backgroundDark-40);
 	--legacy-elevation-border: 0 0 0 1px hsl(var(--black-500-hsl)/0.6);
 	--github: var(--backgroundDark);
-	--backgroundDarker-hsl: 224 calc(var(--saturation-factor) * 22%) 10%;
-	--backgroundDarker-alt-hsl: 225 calc(var(--saturation-factor) * 20%) 8%;
+	--backgroundDarker-hsl: 224 calc(var(--saturation-factor)*22%) 10% /1;
+	--backgroundDarker-alt-hsl: 225 calc(var(--saturation-factor)*20%) 8% /1;
 	--shadow-border: 0 0 0 1px hsl(var(--black-500-hsl) / 0.15);
-	--background-message-hover: color-mix(in oklab, rgb(2, 2, 2, 0.06) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
+	--background-message-hover: color-mix(in oklab, hsl(0 calc(var(--saturation-factor)*0%) 1% /0.06) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
 }
 
 .theme-darker {
-	--secondary: hsl(202, calc(var(--saturation-factor) * 89%), 48%);
-	--tertiary: hsl(200, calc(var(--saturation-factor) * 86%), 49%);
-	--quaternary: hsl(199, calc(var(--saturation-factor) * 82%), 52%);
-	--quinary: hsl(197, calc(var(--saturation-factor) * 88%), 58%);
-	--control-quinary-foreground: color-mix(in oklab, hsl(197, calc(var(--saturation-factor) * 88%), 58%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--senary: hsl(194, calc(var(--saturation-factor) * 81%), 58%);
-	--text-senary: color-mix(in oklab, hsl(197, calc(var(--saturation-factor) * 85%), 53%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--septenary: hsl(189, calc(var(--saturation-factor) * 80%), 62%);
-	--octonary: hsl(183, calc(var(--saturation-factor) * 80%), 66%);
-	--nonary: hsl(179, calc(var(--saturation-factor) * 83%), 70%);
-	--denary: hsl(174, calc(var(--saturation-factor) * 96%), 74%);
-	--denaryformentions: color-mix(in oklab, hsl(187, calc(var(--saturation-factor) * 87%), 64%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--undenary: hsl(172, calc(var(--saturation-factor) * 100%), 77%);
-	--undenaryforreactions: color-mix(in oklab, hsl(183, calc(var(--saturation-factor) * 86%), 67%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--duodenary: hsl(173, calc(var(--saturation-factor) * 100%), 81%);
-	--tredenary: hsl(170, calc(var(--saturation-factor) * 100%), 85%);
-	--quattuordenary: hsl(168, calc(var(--saturation-factor) * 100%), 87%);
-	--mentionedmessages: color-mix(in oklab, hsla(203, calc(var(--saturation-factor) * 100%), 46%, 0.078) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessageshover: color-mix(in oklab, hsla(203, calc(var(--saturation-factor) * 100%), 46%, 0.039) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessagesbefore: color-mix(in oklab, hsl(203, calc(var(--saturation-factor) * 100%), 46%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--highlight-messages: hsla(203, calc(var(--saturation-factor) * 100%), 46%, 0.3);
-	--buttons-active-primaryGradient1: hsl(195, calc(var(--saturation-factor) * 100%), 50%);
-	--buttons-active-primaryGradient2: hsl(165, calc(var(--saturation-factor) * 100%), 50%);
+	--secondary: hsl(202 calc(var(--saturation-factor)*89%) 48% /1);
+	--tertiary: hsl(200 calc(var(--saturation-factor)*86%) 49% /1);
+	--quaternary: hsl(199 calc(var(--saturation-factor)*82%) 52% /1);
+	--quinary: hsl(197 calc(var(--saturation-factor)*88%) 58% /1);
+	--control-quinary-foreground: color-mix(in oklab, hsl(197 calc(var(--saturation-factor)*88%) 58% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--senary: hsl(194 calc(var(--saturation-factor)*81%) 58% /1);
+	--text-senary: color-mix(in oklab, hsl(197 calc(var(--saturation-factor)*85%) 53% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--septenary: hsl(189 calc(var(--saturation-factor)*80%) 62% /1);
+	--octonary: hsl(183 calc(var(--saturation-factor)*80%) 66% /1);
+	--nonary: hsl(179 calc(var(--saturation-factor)*83%) 70% /1);
+	--denary: hsl(174 calc(var(--saturation-factor)*96%) 74% /1);
+	--denaryformentions: color-mix(in oklab, hsl(187 calc(var(--saturation-factor)*87%) 64% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--undenary: hsl(172 calc(var(--saturation-factor)*100%) 77% /1);
+	--undenaryforreactions: color-mix(in oklab, hsl(183 calc(var(--saturation-factor)*86%) 67% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--duodenary: hsl(173 calc(var(--saturation-factor)*100%) 81% /1);
+	--tredenary: hsl(170 calc(var(--saturation-factor)*100%) 85% /1);
+	--quattuordenary: hsl(168 calc(var(--saturation-factor)*100%) 87% /1);
+	--mentionedmessages: color-mix(in oklab, hsl(203 calc(var(--saturation-factor)*100%) 46% /0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessageshover: color-mix(in oklab, hsl(203 calc(var(--saturation-factor)*100%) 46% /0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessagesbefore: color-mix(in oklab, hsl(203 calc(var(--saturation-factor)*100%) 46% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--highlight-messages: hsl(203 calc(var(--saturation-factor)*100%) 46% /0.3);
+	--buttons-active-primaryGradient1: hsl(195 calc(var(--saturation-factor)*100%) 50% /1);
+	--buttons-active-primaryGradient2: hsl(165 calc(var(--saturation-factor)*100%) 50% /1);
 }
 
 .theme-midnight {
-	--secondary: hsl(203, calc(var(--saturation-factor) * 91%), 48%);
-	--tertiary: hsl(202, calc(var(--saturation-factor) * 84%), 50%);
-	--quaternary: hsl(202, calc(var(--saturation-factor) * 85%), 52%);
-	--quinary: hsl(200, calc(var(--saturation-factor) * 89%), 58%);
-	--control-quinary-foreground: color-mix(in oklab, hsl(200, calc(var(--saturation-factor) * 89%), 58%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--senary: hsl(201, calc(var(--saturation-factor) * 85%), 58%);
-	--text-senary: color-mix(in oklab, hsl(200, calc(var(--saturation-factor) * 86%), 49%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--septenary: hsl(198, calc(var(--saturation-factor) * 93%), 62%);
-	--octonary: hsl(195, calc(var(--saturation-factor) * 97%), 66%);
-	--nonary: hsl(194, calc(var(--saturation-factor) * 100%), 69%);
-	--denary: hsl(191, calc(var(--saturation-factor) * 100%), 70%);
-	--denaryformentions: color-mix(in oklab, hsl(192, calc(var(--saturation-factor) * 85%), 58%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--undenary: hsl(188, calc(var(--saturation-factor) * 100%), 72%);
-	--undenaryforreactions: color-mix(in oklab, hsl(189, calc(var(--saturation-factor) * 87%), 62%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--duodenary: hsl(184, calc(var(--saturation-factor) * 100%), 74%);
-	--tredenary: hsl(180, calc(var(--saturation-factor) * 100%), 75%);
-	--quattuordenary: hsl(180, calc(var(--saturation-factor) * 100%), 77%);
-	--mentionedmessages: color-mix(in oklab, hsla(209, calc(var(--saturation-factor) * 100%), 45%, 0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessageshover: color-mix(in oklab, hsla(209, calc(var(--saturation-factor) * 100%), 45%, 0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessagesbefore: color-mix(in oklab, hsl(209, calc(var(--saturation-factor) * 100%), 45%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--highlight-messages: hsla(209, calc(var(--saturation-factor) * 100%), 45%, 0.3);
-	--buttons-active-primaryGradient1: hsl(196, calc(var(--saturation-factor) * 100%), 50%);
-	--buttons-active-primaryGradient2: hsl(164, calc(var(--saturation-factor) * 100%), 50%);
+	--secondary: hsl(203 calc(var(--saturation-factor)*91%) 48% /1);
+	--tertiary: hsl(202 calc(var(--saturation-factor)*84%) 50% /1);
+	--quaternary: hsl(202 calc(var(--saturation-factor)*85%) 52% /1);
+	--quinary: hsl(200 calc(var(--saturation-factor)*89%) 58% /1);
+	--control-quinary-foreground: color-mix(in oklab, hsl(200 calc(var(--saturation-factor)*89%) 58% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--senary: hsl(201 calc(var(--saturation-factor)*85%) 58% /1);
+	--text-senary: color-mix(in oklab, hsl(200 calc(var(--saturation-factor)*86%) 49% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--septenary: hsl(198 calc(var(--saturation-factor)*93%) 62% /1);
+	--octonary: hsl(195 calc(var(--saturation-factor)*97%) 66% /1);
+	--nonary: hsl(194 calc(var(--saturation-factor)*100%) 69% /1);
+	--denary: hsl(191 calc(var(--saturation-factor)*100%) 70% /1);
+	--denaryformentions: color-mix(in oklab, hsl(192 calc(var(--saturation-factor)*85%) 58% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--undenary: hsl(188 calc(var(--saturation-factor)*100%) 72% /1);
+	--undenaryforreactions: color-mix(in oklab, hsl(189 calc(var(--saturation-factor)*87%) 62% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--duodenary: hsl(184 calc(var(--saturation-factor)*100%) 74% /1);
+	--tredenary: hsl(180 calc(var(--saturation-factor)*100%) 75% /1);
+	--quattuordenary: hsl(180 calc(var(--saturation-factor)*100%) 77% /1);
+	--mentionedmessages: color-mix(in oklab, hsl(209 calc(var(--saturation-factor)*100%) 45% /0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessageshover: color-mix(in oklab, hsl(209 calc(var(--saturation-factor)*100%) 45% /0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessagesbefore: color-mix(in oklab, hsl(209 calc(var(--saturation-factor)*100%) 45% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--highlight-messages: hsl(209 calc(var(--saturation-factor)*100%) 45% /0.3);
+	--buttons-active-primaryGradient1: hsl(196 calc(var(--saturation-factor)*100%) 50% /1);
+	--buttons-active-primaryGradient2: hsl(164 calc(var(--saturation-factor)*100%) 50% /1);
 }
 
 #app-mount {
@@ -1079,7 +1079,7 @@ svg[name=Nova_Discord] * {
 }
 
 .theme-dark .bd-button-filled.bd-button-color-brand {
-	border: 2px solid hsl(201, calc(var(--saturation-factor) * 100%), 43%) !important;
+	border: 2px solid hsl(201 calc(var(--saturation-factor)*100%) 43% /1) !important;
 }
 
 #bd-settingspane-container .bd-pfbtn:hover,
@@ -1136,8 +1136,8 @@ svg[name=Nova_Discord] * {
 .bd-button-filled.bd-button-color-brand:hover:not(.bd-button-disabled) {
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
-	background-color: hsl(201, calc(var(--saturation-factor) * 100%), 43%);
-	background: linear-gradient(to right, hsl(201, calc(var(--saturation-factor) * 100%), 43%), hsl(159, calc(var(--saturation-factor) * 100%), 43%)) !important;
+	background-color: hsl(201 calc(var(--saturation-factor)*100%) 43% /1);
+	background: linear-gradient(to right, hsl(201 calc(var(--saturation-factor)*100%) 43% /1), hsl(159 calc(var(--saturation-factor)*100%) 43% /1)) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: 200% 200% !important;
@@ -1191,8 +1191,8 @@ svg[name=Nova_Discord] * {
 .theme-dark .bd-button-filled.bd-button-color-brand:active:not(.bd-button-disabled) {
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
-	background-color: hsl(201, calc(var(--saturation-factor) * 100%), 43%);
-	background: linear-gradient(to right, hsl(200, calc(var(--saturation-factor) * 100%), 47%), hsl(160, calc(var(--saturation-factor) * 100%), 47%)) !important;
+	background-color: hsl(201 calc(var(--saturation-factor)*100%) 43% /1);
+	background: linear-gradient(to right, hsl(200 calc(var(--saturation-factor)*100%) 47% /1), hsl(160 calc(var(--saturation-factor)*100%) 47% /1)) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: 200% 200% !important;
@@ -1226,12 +1226,12 @@ svg.contentImage__42bf5,
 .newMembersNotice_acdcc0:active,
 .theme-darker .newMembersNotice_acdcc0:active,
 .theme-darker .newMessagesBar__0f481:active {
-	background-color: hsl(209, calc(var(--saturation-factor) * 100%), 30%);
+	background-color: hsl(209 calc(var(--saturation-factor)*100%) 30% /1);
 }
 
 .theme-midnight .newMessagesBar__0f481:active,
 .theme-midnight .newMembersNotice_acdcc0:active {
-	background-color: hsl(218, calc(var(--saturation-factor) * 100%), 31%);
+	background-color: hsl(218 calc(var(--saturation-factor)*100%) 31% /1);
 }
 
 #pluginNotice {
@@ -1448,7 +1448,7 @@ svg.contentImage__42bf5,
 	border-color: var(--backgroundDark-30);
 }
 
-.cardPrimary__73069:not(.vc-warning-card, .vc-backup-restore-card,.container_d878e7),
+.cardPrimary__73069:not(.vc-warning-card, .vc-backup-restore-card, .container_d878e7),
 .cardPrimary__73069.editable__73069 {
 	--__card-accent-color: var(--backgroundDark-30);
 	background-color: var(--backgroundDark-30);
@@ -1875,7 +1875,7 @@ svg[name=Nitro] g path {
 
 .theme-dark .channelTextArea_f75fb0 {
 	margin-bottom: 0;
-	background: var(--background-gradient-chat, hsl(223, calc(var(--saturation-factor) * 20%), 7%));
+	background: var(--background-gradient-chat, hsl(223 calc(var(--saturation-factor)*20%) 7% /1));
 }
 
 .theme-dark .avatar_c19a55,
@@ -2699,14 +2699,14 @@ svg[name=Nitro] g path {
 .theme-darker .notice_c9e42f,
 .theme-darker .notice__30f28,
 .theme-darker .notice_c5cd6a {
-	background-color: hsl(209, calc(var(--saturation-factor) * 100%), 30%);
+	background-color: hsl(209 calc(var(--saturation-factor)*100%) 30% /1);
 	box-shadow: none;
 }
 
 .theme-midnight .notice_c9e42f,
 .theme-midnight .notice__30f28,
 .theme-midnight .notice_c5cd6a {
-	background-color: hsl(218, calc(var(--saturation-factor) * 100%), 31%);
+	background-color: hsl(218 calc(var(--saturation-factor)*100%) 31% /1);
 }
 
 .exampleContainer_b34334 {
@@ -3294,20 +3294,20 @@ span.button__67645.enabled__67645:hover,
 .button_c9e42f:hover,
 .button__30f28:hover,
 .button_c5cd6a:hover {
-	background-color: hsl(204, calc(var(--saturation-factor) * 100%), 41%);
+	background-color: hsl(204 calc(var(--saturation-factor)*100%) 41% /1);
 	border: none;
 }
 
 .theme-darker .button_c9e42f:hover,
 .theme-darker .button__30f28:hover,
 .theme-darker .button_c5cd6a:hover {
-	background-color: hsl(205, calc(var(--saturation-factor) * 100%), 41%);
+	background-color: hsl(205 calc(var(--saturation-factor)*100%) 41% /1);
 }
 
 .theme-midnight .button_c9e42f:hover,
 .theme-midnight .button__30f28:hover,
 .theme-midnight .button_c5cd6a:hover {
-	background-color: hsl(207, calc(var(--saturation-factor) * 100%), 41%);
+	background-color: hsl(207 calc(var(--saturation-factor)*100%) 41% /1);
 }
 
 .bd-toast.toast-success,
@@ -3324,17 +3324,17 @@ span.button__67645.enabled__67645:hover,
 
 .mediaBarInteraction_b26b79:hover .mediaBarGrabber_b26b79,
 .mediaBarInteractionDragging_b26b79 .mediaBarGrabber_b26b79 {
-	background-color: hsl(207, calc(var(--saturation-factor) * 100%), 36%);
+	background-color: hsl(207 calc(var(--saturation-factor)*100%) 36% /1);
 }
 
 .theme-darker .mediaBarInteraction_b26b79:hover .mediaBarGrabber_b26b79,
 .theme-darker .mediaBarInteractionDragging_b26b79 .mediaBarGrabber_b26b79 {
-	background-color: hsl(206, calc(var(--saturation-factor) * 100%), 35%);
+	background-color: hsl(206 calc(var(--saturation-factor)*100%) 35% /1);
 }
 
 .theme-midnight .mediaBarInteraction_b26b79:hover .mediaBarGrabber_b26b79,
 .theme-midnight .mediaBarInteractionDragging_b26b79 .mediaBarGrabber_b26b79 {
-	background-color: hsl(211, calc(var(--saturation-factor) * 100%), 37%);
+	background-color: hsl(211 calc(var(--saturation-factor)*100%) 37% /1);
 }
 
 .button_e131a9 .buttonColor_e131a9.buttonActive_e131a9:hover,
@@ -3442,16 +3442,16 @@ span.button__67645.enabled__67645:hover,
 .message_dae006 strong {
 	background-color: var(--primary-15a);
 	border-radius: 50px;
-	color: hsl(204, calc(var(--saturation-factor) * 100%), 41%);
+	color: hsl(204 calc(var(--saturation-factor)*100%) 41% /1);
 	padding: .5px 5px;
 }
 
 .theme-darker .message_dae006 strong {
-	color: hsl(205, calc(var(--saturation-factor) * 100%), 41%);
+	color: hsl(205 calc(var(--saturation-factor)*100%) 41% /1);
 }
 
 .theme-midnight .message_dae006 strong {
-	color: hsl(207, calc(var(--saturation-factor) * 100%), 41%);
+	color: hsl(207 calc(var(--saturation-factor)*100%) 41% /1);
 }
 
 .theme-dark .message_dae006 strong,
@@ -3612,10 +3612,6 @@ span.button__67645.enabled__67645:hover,
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
 }
 
-.roleCircle_dfa8b6 {
-	margin: 0;
-}
-
 .roleName__48c1c {
 	margin-right: 0;
 }
@@ -3739,15 +3735,15 @@ span.button__67645.enabled__67645:hover,
 }
 
 .newBadgeText__29021 {
-	color: hsl(207, calc(var(--saturation-factor) * 100%), 36%);
+	color: hsl(207 calc(var(--saturation-factor)*100%) 36% /1);
 }
 
 .theme-darker .newBadgeText__29021 {
-	color: hsl(206, calc(var(--saturation-factor) * 100%), 35%);
+	color: hsl(206 calc(var(--saturation-factor)*100%) 35% /1);
 }
 
 .theme-midnight .newBadgeText__29021 {
-	color: hsl(211, calc(var(--saturation-factor) * 100%), 37%);
+	color: hsl(211 calc(var(--saturation-factor)*100%) 37% /1);
 }
 
 .stepContainer_a68543.completed_a68543,
@@ -4027,7 +4023,9 @@ span.button__67645.enabled__67645:hover,
 }
 
 .button_f7ecac.selected_f7ecac,
+.button_f7ecac[aria-expanded=true],
 .hoverBarButton_f84418.selected_f7ecac,
+.hoverBarButton_f84418[aria-expanded=true],
 .loadingCard_f369db,
 .container_ca49a1,
 .container_a68543,
@@ -5562,7 +5560,7 @@ body,
 .placeholderItem__87dda,
 .bioTextAreaContainer__6a919,
 .traitContainer__4cbea {
-	background: var(--background-gradient-chat, hsl(223, calc(var(--saturation-factor) * 20%), 7%));
+	background: var(--background-gradient-chat, hsl(223 calc(var(--saturation-factor)*20%) 7% /1));
 	border: none;
 }
 
@@ -6919,27 +6917,27 @@ body,
 }
 
 .subscriberCountText__2485e {
-	background-color: hsl(204, calc(var(--saturation-factor) * 100%), 41%);
+	background-color: hsl(204 calc(var(--saturation-factor)*100%) 41% /1);
 }
 
 .theme-darker .subscriberCountText__2485e {
-	background-color: hsl(205, calc(var(--saturation-factor) * 100%), 41%);
+	background-color: hsl(205 calc(var(--saturation-factor)*100%) 41% /1);
 }
 
 .theme-midnight .subscriberCountText__2485e {
-	background-color: hsl(207, calc(var(--saturation-factor) * 100%), 41%);
+	background-color: hsl(207 calc(var(--saturation-factor)*100%) 41% /1);
 }
 
 .subscriberCountValue__2485e {
-	background-color: hsl(213, calc(var(--saturation-factor) * 100%), 25%);
+	background-color: hsl(213 calc(var(--saturation-factor)*100%) 25% /1);
 }
 
 .theme-darker .subscriberCountText__2485e {
-	background-color: hsl(214, calc(var(--saturation-factor) * 100%), 25%);
+	background-color: hsl(214 calc(var(--saturation-factor)*100%) 25% /1);
 }
 
 .theme-midnight .subscriberCountText__2485e {
-	background-color: hsl(216, calc(var(--saturation-factor) * 100%), 26%);
+	background-color: hsl(216 calc(var(--saturation-factor)*100%) 26% /1);
 }
 
 .createTierIcon__15926,
@@ -7219,15 +7217,15 @@ body,
 }
 
 .theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786 {
-	background: linear-gradient(151.11deg, var(--secondary) 16.55%, hsl(207, calc(var(--saturation-factor) * 100%), 36%) 104.36%);
+	background: linear-gradient(151.11deg, var(--secondary) 16.55%, hsl(207 calc(var(--saturation-factor)*100%) 36% /1) 104.36%);
 }
 
 .theme-darker .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786 {
-	background: linear-gradient(151.11deg, var(--secondary) 16.55%, hsl(206, calc(var(--saturation-factor) * 100%), 35%) 104.36%);
+	background: linear-gradient(151.11deg, var(--secondary) 16.55%, hsl(206 calc(var(--saturation-factor)*100%) 35% /1) 104.36%);
 }
 
 .theme-midnight .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786 {
-	background: linear-gradient(151.11deg, var(--secondary) 16.55%, hsl(211, calc(var(--saturation-factor) * 100%), 37%) 104.36%);
+	background: linear-gradient(151.11deg, var(--secondary) 16.55%, hsl(211 calc(var(--saturation-factor)*100%) 37% /1) 104.36%);
 }
 
 .theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:hover {
@@ -7243,15 +7241,15 @@ body,
 }
 
 .theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:active {
-	background: linear-gradient(0deg, var(--backgroundDark-20), var(--backgroundDark-20)), linear-gradient(151.11deg, var(--secondary) 16.55%, hsl(207, calc(var(--saturation-factor) * 100%), 36%) 104.36%)
+	background: linear-gradient(0deg, var(--backgroundDark-20), var(--backgroundDark-20)), linear-gradient(151.11deg, var(--secondary) 16.55%, hsl(207 calc(var(--saturation-factor)*100%) 36% /1) 104.36%)
 }
 
 .theme-darker .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:active {
-	background: linear-gradient(0deg, var(--backgroundDark-20), var(--backgroundDark-20)), linear-gradient(151.11deg, var(--secondary) 16.55%, hsl(206, calc(var(--saturation-factor) * 100%), 35%) 104.36%)
+	background: linear-gradient(0deg, var(--backgroundDark-20), var(--backgroundDark-20)), linear-gradient(151.11deg, var(--secondary) 16.55%, hsl(206 calc(var(--saturation-factor)*100%) 35% /1) 104.36%)
 }
 
 .theme-midnight .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:active {
-	background: linear-gradient(0deg, var(--backgroundDark-20), var(--backgroundDark-20)), linear-gradient(151.11deg, var(--secondary) 16.55%, hsl(211, calc(var(--saturation-factor) * 100%), 37%) 104.36%)
+	background: linear-gradient(0deg, var(--backgroundDark-20), var(--backgroundDark-20)), linear-gradient(151.11deg, var(--secondary) 16.55%, hsl(211 calc(var(--saturation-factor)*100%) 37% /1) 104.36%)
 }
 
 .playing_a8e786 .playButtonContainer_a8e786:active {
@@ -7886,15 +7884,15 @@ span.clanTag__07f91,
 }
 
 .ripple_a8e786 {
-	background-color: hsl(204, calc(var(--saturation-factor) * 100%), 41%);
+	background-color: hsl(204 calc(var(--saturation-factor)*100%) 41% /1);
 }
 
 .theme-darker .ripple_a8e786 {
-	background-color: hsl(205, calc(var(--saturation-factor) * 100%), 41%);
+	background-color: hsl(205 calc(var(--saturation-factor)*100%) 41% /1);
 }
 
 .theme-midnight .ripple_a8e786 {
-	background-color: hsl(207, calc(var(--saturation-factor) * 100%), 41%);
+	background-color: hsl(207 calc(var(--saturation-factor)*100%) 41% /1);
 }
 
 .actionItemEmojiWrapper_d2b0e4 svg {
@@ -8474,7 +8472,7 @@ h3.improved__1689b:after,
 
 .botTagOP__82f07 {
 	background-color: var(--nonary) !important;
-	color: hsl(207, calc(var(--saturation-factor) * 100%), 36%);
+	color: hsl(207 calc(var(--saturation-factor)*100%) 36% /1);
 }
 
 .newChannel__599fa,
@@ -8485,7 +8483,7 @@ h3.improved__1689b:after,
 .titleBadge_e4503a,
 .newBadge_faa96b,
 .newBadge__9a337 {
-	color: hsl(207, calc(var(--saturation-factor) * 100%), 36%);
+	color: hsl(207 calc(var(--saturation-factor)*100%) 36% /1);
 }
 
 .theme-darker .botTagOP__82f07,
@@ -8497,7 +8495,7 @@ h3.improved__1689b:after,
 .theme-darker .titleBadge_e4503a,
 .theme-darker .newBadge_faa96b,
 .theme-darker .newBadge__9a337 {
-	color: hsl(206, calc(var(--saturation-factor) * 100%), 35%);
+	color: hsl(206 calc(var(--saturation-factor)*100%) 35% /1);
 }
 
 .theme-midnight .botTagOP__82f07,
@@ -8509,7 +8507,7 @@ h3.improved__1689b:after,
 .theme-midnight .titleBadge_e4503a,
 .theme-midnight .newBadge_faa96b,
 .theme-midnight .newBadge__9a337 {
-	color: hsl(211, calc(var(--saturation-factor) * 100%), 37%);
+	color: hsl(211 calc(var(--saturation-factor)*100%) 37% /1);
 }
 
 .bd-modal-footer {
@@ -8843,7 +8841,8 @@ h3.improved__1689b:after,
 	padding: 10px;
 }
 
-.childContainer__3e3b0:not(.redesignIconChildContainer__3e3b0) svg {
+.childContainer__3e3b0 svg,
+.redesignIconChildContainer__3e3b0>svg {
 	width: 100% !important;
 	height: 100% !important;
 }
@@ -9155,7 +9154,7 @@ rect[fill="var(--control-brand-foreground)"] {
 
 .bd-controls-basic .bd-button:active,
 .bd-addon-controls .bd-button.selected {
-	background-color: hsl(201, calc(var(--saturation-factor) * 100%), 43%);
+	background-color: hsl(201 calc(var(--saturation-factor)*100%) 43% /1);
 }
 
 .iconPlaceholder__46773 {
@@ -9661,12 +9660,6 @@ div.cardContainer__88e24,
 	padding-right: 16px;
 }
 
-.childContainer__3e3b0 svg,
-.redesignIconChildContainer__3e3b0>svg {
-	width: 100% !important;
-	height: 100% !important;
-}
-
 .sessionIcon__803f2 {
 	background-color: #fff;
 	color: var(--backgroundDarker);
@@ -9881,13 +9874,13 @@ path[fill="#949cf7"],
 path[fill="#93a7fd"],
 path[fill="#7a8ef9"],
 path[fill="#6a7df6"],
-path[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"],
+path[fill="hsl(235 calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"],
 rect[fill="var(--text-brand)"],
 rect[fill="#949cf7"],
 rect[fill="#93a7fd"],
 rect[fill="#7a8ef9"],
 rect[fill="#6a7df6"],
-rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
+rect[fill="hsl(235 calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 	fill: var(--text-senary);
 }
 
@@ -10386,12 +10379,12 @@ rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 }
 
 rect[fill="#5865f2"],
-rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"],
+rect[fill="hsl(235 calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"],
 rect[fill="var(--brand-500)"],
 rect[fill="var(--badge-brand-text)"],
 rect[fill="var(--bg-brand)"],
 path[fill="#5865f2"],
-path[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"],
+path[fill="hsl(235 calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"],
 path[fill="var(--brand-500)"],
 path[fill="var(--badge-brand-text)"],
 path[fill="var(--bg-brand)"] {
@@ -10673,7 +10666,6 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .avatar__655fa,
 .buttonSection__1405b,
 .loadingMutualFriend__3b260>:first-child,
-.friendsLoadingItem__28fdc>:first-child,
 .pill_dfa8b6,
 .deleteButton__1df30,
 .deleteButton__1df30:after,
@@ -10699,6 +10691,11 @@ html:not(.chat-input) .inputInner_b1f01d,
 .vc-gp-owner-avatar,
 .avatar__76f04,
 .video__20ba8 {
+	border-radius: 5px;
+}
+
+.friendsLoadingItem__28fdc>:first-child {
+	margin-left: 4px;
 	border-radius: 5px;
 }
 
@@ -13324,14 +13321,14 @@ circle[fill="#C12A35"],
 
 .overlay_c0bea0:has([style*="/assets/f6833ce4dd20c1fb.svg"]),
 .clickableContainer__39ec2:hover>.card__39ec2:has([style*="/assets/f6833ce4dd20c1fb.svg"]) {
-	background-image: url(https://i.ibb.co/Jwc45cN9/unknown.png),linear-gradient(to top right, hsl(0, calc(var(--saturation-factor) * 0%), 9%), hsl(0, calc(var(--saturation-factor) * 0%), 25%)) !important;
+	background-image: url(https://i.ibb.co/Jwc45cN9/unknown.png), linear-gradient(to top right, hsl(0 calc(var(--saturation-factor)*0%) 9% /1), hsl(0 calc(var(--saturation-factor)*0%) 25% /1)) !important;
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-20) !important;
 	transition: none;
 }
 
 .overlay_c0bea0:has([style*="/assets/c4f09fda61827e19.svg"]):has(.tabularNumbers__4bd52),
 .clickableContainer__39ec2:hover>.card__39ec2:has([style*="/assets/c4f09fda61827e19.svg"]):has(.tabularNumbers__4bd52) {
-	background-image: linear-gradient(to top right, hsl(0, calc(var(--saturation-factor) * 0%), 9%), hsl(0, calc(var(--saturation-factor) * 0%), 25%)) !important;
+	background-image: linear-gradient(to top right, hsl(0 calc(var(--saturation-factor)*0%) 9% /1), hsl(0 calc(var(--saturation-factor)*0%) 25% /1)) !important;
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-20) !important;
 	transition: none;
 }
@@ -13362,7 +13359,7 @@ circle[fill="#C12A35"],
 
 .overlay_c0bea0:has([style*="/assets/487de5256b2ae540.svg"]),
 .clickableContainer__39ec2:hover>.card__39ec2:has([style*="/assets/487de5256b2ae540.svg"]) {
-	background-image: linear-gradient(to top right, hsl(252, calc(var(--saturation-factor) * 75%), 62%), hsl(249, calc(var(--saturation-factor) * 60%), 19%));
+	background-image: linear-gradient(to top right, hsl(252 calc(var(--saturation-factor)*75%) 62% /1), hsl(249 calc(var(--saturation-factor)*60%) 19% /1));
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-20) !important;
 	transition: none;
 }
@@ -13479,19 +13476,28 @@ svg.thumbnail__0f2e8 {
 
 .bd-slider-track {
 	background-color: rgb(10, 12, 16);
-	background-image: linear-gradient(hsl(201, calc(var(--saturation-factor) * 100%), 43%), hsl(201, calc(var(--saturation-factor) * 100%), 43%));
+	background-image: linear-gradient(hsl(201 calc(var(--saturation-factor)*100%) 43% /1), hsl(201 calc(var(--saturation-factor)*100%) 43% /1));
 }
 
 .bd-slider-marker::before {
 	background-color: rgb(10, 12, 16);
 }
 
-.bd-select:hover, .bd-select.menu-open {
+.bd-select:hover,
+.bd-select.menu-open {
 	border-color: #000;
 }
 
 .bd-controls>.bd-addon-button:first-of-type {
 	border-radius: 6px 0 0 6px !important;
+}
+
+.bd-controls>.bd-addon-button:last-of-type {
+	border-radius: 0 6px 6px 0;
+}
+
+.bd-button-filled.bd-button-color-red {
+	border: 2px solid rgba(0, 0, 0, 0);
 }
 
 .bd-controls>.bd-addon-button.bd-button-filled.bd-button-color-brand:not(:first-of-type):not(:last-of-type) {
