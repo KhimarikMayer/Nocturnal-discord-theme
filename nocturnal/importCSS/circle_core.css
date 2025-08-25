@@ -3382,7 +3382,7 @@ span.button__67645.enabled__67645:hover,
 .theme-dark .message_dae006 strong,
 .theme-darker .message_dae006 strong,
 .theme-midnight .message_dae006 strong {
-	background-color: rgba(0, 138, 230, 0.298);
+	background-color: rgba(0, 138, 230, 0.3);
 	color: var(--undenary);
 }
 
@@ -7140,7 +7140,8 @@ body,
 .slider_a562c8 .bar_a562c8,
 .bar_a562c8,
 .markDash_a562c8 {
-	background-color: rgb(10, 12, 16);
+	background-color: var(--backgroundDark);
+	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-50);
 }
 
 .quotes__3e7e2 {
