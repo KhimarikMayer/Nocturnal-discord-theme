@@ -69,7 +69,7 @@
 .theme-dark [role="img"][aria-label*="üzerinden çevrimiçi"]:before,
 .theme-dark [role="img"][aria-label*="透過行動裝置上線"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#43a25a"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([mask="url(#svg-mask-status-online)"])[role="img"]:before,
+.theme-dark .wrapper__44b0c:has([fill="#43a25a"][mask="url(#svg-mask-status-online)"])[role="img"]:before,
 .theme-dark .container__1ce5d:has([mask="url(#svg-mask-status-online)"]):before,
 .theme-dark .container__1ce5d:has([mask="url(#svg-mask-diagonal-facepile-typing-32)"]):before {
 	box-shadow: 0 0 0 2px #43b581 !important;
@@ -104,7 +104,7 @@
 .theme-dark [role="img"][aria-label*="請勿打擾"]:before,
 .theme-dark [role="img"][aria-label*="다른 용무 중"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#d83a42"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([mask="url(#svg-mask-status-dnd)"])[role="img"]:before {
+.theme-dark .wrapper__44b0c:has([fill="#d83a42"][mask="url(#svg-mask-status-dnd)"])[role="img"]:before {
 	box-shadow: 0 0 0 2px #f04747 !important;
 }
 
@@ -134,7 +134,7 @@
 .theme-dark [role="img"][aria-label*="閒置"]:before,
 .theme-dark [role="img"][aria-label*="자리비움"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#ca9654"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([mask="url(#svg-mask-status-idle)"])[role="img"]:before {
+.theme-dark .wrapper__44b0c:has([fill="#ca9654"][mask="url(#svg-mask-status-idle)"])[role="img"]:before {
 	box-shadow: 0 0 0 2px #faa61a !important;
 }
 
@@ -164,8 +164,7 @@
 .theme-dark [role="img"][aria-label*="配信"]:before,
 .theme-dark [role="img"][aria-label*="直播中"]:before,
 .theme-dark [role="img"][aria-label*="配信"]:before,
-.theme-dark .wrapper__44b0c:has([fill="#9147ff"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([mask="url(#svg-mask-status-streaming)"])[role="img"]:before {
+.theme-dark .wrapper__44b0c:has([fill="#9147ff"])[role="img"]:before {
 	box-shadow: 0 0 0 2px #6441a5 !important;
 }
 
@@ -217,8 +216,13 @@
 .theme-dark [role="img"][aria-label*="オンライン状態を隠す"]:before,
 .theme-dark [role="img"][aria-label*="隱形"]:before,
 .theme-dark [role="img"][aria-label*="오프라인 표시"]:before,
-.theme-dark .wrapper__44b0c:has([fill="#82838b"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([mask="url(#svg-mask-status-offline)"])[role="img"]:before {
+.theme-dark .wrapper__44b0c:has([fill="#868686"])[role="img"]:before,
+.theme-dark .wrapper__44b0c:has([fill="#868687"])[role="img"]:before,
+.theme-dark .wrapper__44b0c:has([fill="#858688"])[role="img"]:before,
+.theme-dark .wrapper__44b0c:has([fill="#858588"])[role="img"]:before,
+.theme-dark .wrapper__44b0c:has([fill="#848589"])[role="img"]:before,
+.theme-dark .wrapper__44b0c:has([fill="#848489"])[role="img"]:before,
+.theme-dark .wrapper__44b0c:has([fill="#82838b"])[role="img"]:before {
 	box-shadow: 0 0 0 2px #747f8d !important;
 }
 
@@ -12412,6 +12416,22 @@ rect[fill="brand-200"] {
 
 .theme-dark .wrapper__44b0c:has([fill="#706f74"])[role="img"]:before {
 	box-shadow: 0 0 0 2px rgb(112, 111, 116) !important;
+}
+
+.theme-dark .wrapper__44b0c:has([fill="#707073"])[role="img"]:before {
+	box-shadow: 0 0 0 2px rgb(112, 112, 115) !important;
+}
+
+.theme-dark .wrapper__44b0c:has([fill="#717073"])[role="img"]:before {
+	box-shadow: 0 0 0 2px rgb(113, 112, 115) !important;
+}
+
+.theme-dark .wrapper__44b0c:has([fill="#717172"])[role="img"]:before {
+	box-shadow: 0 0 0 2px rgb(113, 113, 114) !important;
+}
+
+.theme-dark .wrapper__44b0c:has([src="/assets/2ca6b6f4a73913ed.png"]):has([fill="#727272"])[role="img"]:before {
+	box-shadow: 0 0 0 2px rgb(114, 114, 114) !important;
 }
 
 .theme-dark .wrapper__44b0c:has([fill="var(--border-subtle)"])[role="img"]:before {
