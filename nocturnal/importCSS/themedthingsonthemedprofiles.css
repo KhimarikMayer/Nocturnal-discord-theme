@@ -262,7 +262,7 @@
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
-	background: linear-gradient(to right, rgb(0, 202, 255), rgb(0, 255, 202)) !important;
+	background: linear-gradient(to right, hsl(192, calc(var(--saturation-factor) * 100%), 50%), hsl(168, calc(var(--saturation-factor) * 100%), 50%)) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: 200% 200% !important;
@@ -273,7 +273,7 @@
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
-	background: linear-gradient(to right, rgb(0, 198, 255), rgb(0, 255, 198)) !important;
+	background: linear-gradient(to right, hsl(193, calc(var(--saturation-factor) * 100%), 50%), hsl(167, calc(var(--saturation-factor) * 100%), 50%)) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: 200% 200% !important;
@@ -284,7 +284,7 @@
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
-	background: linear-gradient(to right, rgb(0, 195, 255), rgb(0, 255, 195)) !important;
+	background: linear-gradient(to right, hsl(194, calc(var(--saturation-factor) * 100%), 50%), hsl(166, calc(var(--saturation-factor) * 100%), 50%)) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: 200% 200% !important;
@@ -327,5 +327,5 @@
 .custom-user-profile-theme .container_a99829.channelTextArea__74017:focus-within {
 	transition: var(--transition);
 	transition-property: box-shadow;
-	box-shadow: 0 0 0 2px rgb(var(--accent)), 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+	box-shadow: 0 0 0 2px hsl(var(--accent)), 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) hsl(var(--accent), 0.25);
 }
