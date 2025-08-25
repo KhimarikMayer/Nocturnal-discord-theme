@@ -1000,7 +1000,7 @@ svg[name=Nova_Discord] * {
 .wrapper .controls .caret,
 .ctaButton__4413f,
 .selected_d804ff,
-.bd-button-filled.bd-button-color-brand,
+.theme-dark .bd-button-filled.bd-button-color-brand,
 .bd-error-toggle,
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .giftButton__0988e,
 .theme-dark.outer_c0bea0:not(.custom-theme-background)[style*="background-base-lower"] .giftButton__0988e,
@@ -1008,7 +1008,6 @@ svg[name=Nova_Discord] * {
 .addFileButtonLook_f8a8fa,
 .lookFilled__201d5.colorTransparent__201d5,
 .selectGuildPseudoCta__39466,
-.colorable_f1ceac.join_f1ceac,
 .pill__6d851,
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .lookFilled__201d5.buttonColor_f00225,
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .lookFilled__201d5.actionColor_fc39e7,
@@ -1039,9 +1038,8 @@ svg[name=Nova_Discord] * {
 	color: #fff !important;
 }
 
-.colorable_f1ceac.join_f1ceac {
-	background-color: rgba(10, 12, 16) !important;
-	border-radius: 5px !important;
+.theme-dark .bd-button-filled.bd-button-color-brand {
+	border: 2px solid rgb(0, 141, 217) !important;
 }
 
 #bd-settingspane-container .bd-pfbtn:hover,
@@ -1066,8 +1064,6 @@ svg[name=Nova_Discord] * {
 .addFileButtonLook_f8a8fa:hover:not(:disabled),
 .lookFilled__201d5.colorTransparent__201d5:hover:not(:disabled),
 .selectGuild__39466:hover .selectGuildPseudoCta__39466:not(:disabled),
-.colorable_f1ceac.join_f1ceac:hover:not(:disabled),
-.colorable_f1ceac.join_f1ceac.contextMenuNub_f1ceac.active_f1ceac,
 .pill__6d851:hover,
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .lookFilled__201d5.buttonColor_f00225:hover:not(:disabled),
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .lookFilled__201d5.actionColor_fc39e7:hover:not(:disabled),
@@ -1097,6 +1093,17 @@ svg[name=Nova_Discord] * {
 	transform: none;
 }
 
+.bd-button-filled.bd-button-color-brand:hover:not(.bd-button-disabled) {
+	color: #fff !important;
+	border: 2px solid rgba(0, 0, 0, 0) !important;
+	background-color: rgb(0, 141, 217);
+	background: linear-gradient(to right, rgb(0, 141, 217), rgb(0, 217, 141)) !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: 200% 200% !important;
+	transform: none;
+}
+
 #bd-settingspane-container .bd-pfbtn:active,
 .vc-settings-quickActions-pill:active,
 .showMoreButton__84832:active:not(:disabled),
@@ -1107,15 +1114,13 @@ svg[name=Nova_Discord] * {
 .wrapper .controls .caret:active:not(.disabled),
 .ctaButton__4413f:active:not(:disabled),
 .selected_d804ff:active:not(:disabled),
-.bd-button-filled.bd-button-color-brand:active:not(.bd-button-disabled),
+.theme-dark .bd-button-filled.bd-button-color-brand:active:not(.bd-button-disabled),
 .bd-error-toggle:hover:not(.bd-button-disabled),
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .giftButton__0988e:active:not(:disabled),
 .theme-dark.outer_c0bea0:not(.custom-theme-background)[style*="background-base-lower"] .giftButton__0988e:active:not(:disabled),
 .addFileButtonLook_f8a8fa:active:not(:disabled),
 .lookFilled__201d5.colorTransparent__201d5:active:not(:disabled),
 .selectGuild__39466:active .selectGuildPseudoCta__39466:not(:disabled),
-.colorable_f1ceac.join_f1ceac:active:not(:disabled),
-.colorable_f1ceac.join_f1ceac.contextMenuNub_f1ceac.active_f1ceac,
 .pill__6d851:active,
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .lookFilled__201d5.buttonColor_f00225:active:not(:disabled),
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .lookFilled__201d5.actionColor_fc39e7:active:not(:disabled),
@@ -1137,6 +1142,17 @@ svg[name=Nova_Discord] * {
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
 	background: linear-gradient(to right, var(--buttons-active-primaryGradient1), var(--buttons-active-primaryGradient2)) !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	background-size: 200% 200% !important;
+	transform: none;
+}
+
+.theme-dark .bd-button-filled.bd-button-color-brand:active:not(.bd-button-disabled) {
+	color: #fff !important;
+	border: 2px solid rgba(0, 0, 0, 0) !important;
+	background-color: rgb(0, 141, 217);
+	background: linear-gradient(to right, rgb(0, 160, 240), rgb(0, 240, 160)) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: 200% 200% !important;
@@ -3441,7 +3457,8 @@ span.button__67645.enabled__67645:hover,
 	color: var(--backgroundDarker-alt);
 }
 
-.theme-dark .accountProfileCard__1fed1,
+.theme-dark .badgeList__1fed1,
+.theme-dark .background__1fed1,
 .wrapper__4d7bb,
 .avatarContainer__9e177,
 .popout_d5c2c4,
@@ -3470,6 +3487,7 @@ span.button__67645.enabled__67645:hover,
 	border-color: var(--backgroundDark-95);
 }
 
+.accountProfileCard__1fed1,
 .category__3b43f,
 .channelIcon__3b43f,
 .channelName__3b43f,
@@ -5277,7 +5295,7 @@ html.theme-light .app__160d8::after {
 }
 
 .guildPopout__51eb2 {
-	box-shadow: 0 0 5px 1.53px var(--backgroundDark-75) !important;
+	box-shadow: 0 0 5px 1.53px var(--backgroundDark-75);
 }
 
 .guildPopout__51eb2:has(.body__51eb2) {
@@ -5288,12 +5306,8 @@ html.theme-light .app__160d8::after {
 	background-color: var(--backgroundDarker);
 }
 
-.theme-dark .avatar__1fed1 {
+.avatar__1fed1 {
 	background-color: rgba(0, 0, 0, 0);
-	border-radius: 100%;
-	top: 0;
-	top: 10px;
-	margin-left: -7px;
 }
 
 .avatar__5017b rect {
@@ -5669,8 +5683,7 @@ body,
 .guildName__51eb2,
 .unavailableHeader__51eb2,
 .avatarName__9e177,
-.header_d5c2c4,
-.userTag__1fed1 {
+.header_d5c2c4 {
 	font-weight: 700;
 	letter-spacing: 1.2px;
 }
@@ -5738,12 +5751,10 @@ body,
 .graphContainer_effb26,
 .hoverButton__06ab4:hover:not(.removeAttachmentHoverButton_e5c1dc, .removeMosaicItemHoverButton__6c706),
 .keyboard-mode .hoverButton__06ab4:focus:not(.removeAttachmentHoverButton_e5c1dc, .removeMosaicItemHoverButton__6c706),
-.bumpBox_cacd02,
-.bd-addon-views .bd-view-button:hover {
+.bumpBox_cacd02 {
 	background-color: var(--backgroundDarker);
 }
 
-.bd-addon-views .bd-view-button:active,
 .label_df4aaf:hover {
 	background-color: var(--backgroundDarker-alt);
 }
@@ -6356,11 +6367,6 @@ body,
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 200% 200%
-}
-
-.bd-controls>.bd-addon-button,
-.bd-button.bd-button-danger {
-	margin-left: 6px;
 }
 
 .activeIcon_d40c56 circle[fill*="var(--brand-500)"],
@@ -7544,22 +7550,6 @@ path[stroke="rgb(123,162,255)"] {
 	background-color: var(--backgroundDarker) !important;
 }
 
-.theme-dark .accountProfileCard__1fed1 .mask__68edb {
-	contain: none;
-	display: none;
-}
-
-.theme-dark .userInfo__1fed1 {
-	height: 90px;
-	margin-top: 10px;
-	padding-left: 108px;
-}
-
-.theme-dark .profileBadge22_b64375 {
-	width: 24px;
-	height: 24px;
-}
-
 .image_bebc5b,
 .sparkles_bebc5b,
 .sparkles__5afba {
@@ -8642,11 +8632,6 @@ h3.improved__1689b:after,
 	background: linear-gradient(var(--backgroundDarker), rgba(0, 0, 0, 0) 84px, rgba(0, 0, 0, 0) 183px, var(--backgroundDarker));
 }
 
-.contextMenuNub_f1ceac.colorable_f1ceac.join_f1ceac {
-	right: 0;
-	bottom: -4px;
-}
-
 .roleColor_fa0751 {
 	border-radius: 2.5px;
 }
@@ -9182,6 +9167,7 @@ rect[fill="var(--control-brand-foreground)"] {
 	box-shadow: 0 0 0 2px var(--primary);
 }
 
+.bd-addon-controls .bd-button:active,
 .linkButton_b1585f:active,
 .container_a14595:active {
 	background-color: var(--backgroundDark-40);
@@ -9642,12 +9628,12 @@ div.cardContainer__88e24,
 .profile__9c3be,
 .popout_d5c2c4 {
 	background-color: var(--backgroundDark);
-	box-shadow: 0 0 5px 1.53px var(--backgroundDark-50);
+	box-shadow: 0 0 5px 1.53px var(--backgroundDark-75);
 	outline: none;
 }
 
 :where(.outer_c0bea0).user-profile-popout {
-	box-shadow: var(--shadow-border), 0 0 5px 1.53px var(--backgroundDark-50);
+	box-shadow: var(--shadow-border), 0 0 5px 1.53px var(--backgroundDark-75);
 }
 
 .subscribersPopout_a36dee {
@@ -9726,7 +9712,6 @@ div.cardContainer__88e24,
 .exampleRule_f152fa,
 .giftCard_a45ed3,
 .perkCard_b62c4e,
-.theme-dark .badgeList__1fed1,
 .container__6b668,
 .expandedProgressBarContainerSettingsPage_a61c56,
 .sectionContent_da32a8 .pillContainer__9e06a,
@@ -12327,7 +12312,6 @@ rect[fill="brand-200"] {
 .backButton_c3787a:hover,
 .keyboard-mode .backButton_c3787a:focus,
 .backButton_c3787a:active,
-.container__8061a:not(.badgeList__1fed1),
 .custom-user-profile-theme .container__8061a,
 .headerButton__57d3f,
 .headerButton__57d3f:hover,
@@ -13415,7 +13399,7 @@ circle[fill="#C12A35"],
 }
 
 .bd-scroller-thin {
-	scrollbar-width: auto;
+	scrollbar-width: 6px;
 	scrollbar-color: var(--backgroundDark-45) var(--scrollbar-thin-track);
 }
 
@@ -13458,4 +13442,22 @@ svg.thumbnail__0f2e8 {
 	background-color: rgba(0, 0, 0, 0);
 	border: 1px solid;
 	border-radius: 5px;
+}
+
+
+.bd-slider-track {
+	background-color: rgb(10, 12, 16);
+	background-image: linear-gradient(rgb(0, 141, 217), rgb(0, 141, 217));
+}
+
+.bd-slider-marker::before {
+	background-color: rgb(10, 12, 16);
+}
+
+.bd-select:hover, .bd-select.menu-open {
+	border-color: #000;
+}
+
+.bd-controls>.bd-addon-button:first-of-type {
+	border-radius: 6px 0 0 6px !important;
 }
