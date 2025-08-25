@@ -262,7 +262,7 @@
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
-	background: linear-gradient(to right, hsl(192, calc(var(--saturation-factor) * 100%), 50%), hsl(168, calc(var(--saturation-factor) * 100%), 50%)) !important;
+	background: linear-gradient(to right, hsl(192 calc(var(--saturation-factor)*100%) 50% /1), hsl(168 calc(var(--saturation-factor)*100%) 50% /1)) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: 200% 200% !important;
@@ -273,7 +273,7 @@
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
-	background: linear-gradient(to right, hsl(193, calc(var(--saturation-factor) * 100%), 50%), hsl(167, calc(var(--saturation-factor) * 100%), 50%)) !important;
+	background: linear-gradient(to right, hsl(193 calc(var(--saturation-factor)*100%) 50% /1), hsl(167 calc(var(--saturation-factor)*100%) 50% /1)) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: 200% 200% !important;
@@ -284,7 +284,7 @@
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: var(--primary);
-	background: linear-gradient(to right, hsl(194, calc(var(--saturation-factor) * 100%), 50%), hsl(166, calc(var(--saturation-factor) * 100%), 50%)) !important;
+	background: linear-gradient(to right, hsl(194 calc(var(--saturation-factor)*100%) 50% /1), hsl(166 calc(var(--saturation-factor)*100%) 50% /1)) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: 200% 200% !important;
