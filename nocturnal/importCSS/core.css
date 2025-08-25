@@ -8462,7 +8462,7 @@ h3.improved__1689b:after,
 .theme-darker .titleBadge_e4503a,
 .theme-darker .newBadge_faa96b,
 .theme-darker .newBadge__9a337 {
-	color: rgb(0, 103, 180);
+	color: hsl(206, calc(var(--saturation-factor) * 100%), 35%);
 }
 
 .theme-midnight .botTagOP__82f07,
@@ -8474,7 +8474,7 @@ h3.improved__1689b:after,
 .theme-midnight .titleBadge_e4503a,
 .theme-midnight .newBadge_faa96b,
 .theme-midnight .newBadge__9a337 {
-	color: rgb(0, 90, 189);
+	color: hsl(211, calc(var(--saturation-factor) * 100%), 37%);
 }
 
 .bd-modal-footer {
