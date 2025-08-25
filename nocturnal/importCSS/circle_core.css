@@ -515,114 +515,113 @@
 }
 
 .theme-dark {
-	--backgroundLighter-alt: color-mix(in oklab, rgb(36, 42, 55) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
-	--backgroundLighter: color-mix(in oklab, rgb(32, 38, 50) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
-	--backgroundLight: color-mix(in oklab, rgb(28, 33, 44) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
-	--backgroundDark: color-mix(in oklab, rgb(24, 28, 37) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
-	--backgroundDarker: color-mix(in oklab, rgb(20, 23, 31) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
-	--backgroundDarker-alt: color-mix(in oklab, rgb(16, 18, 24) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
-	--backgroundDark-15: rgba(0, 0, 0, .15);
-	--backgroundDark-20: rgba(0, 0, 0, .2);
-	--backgroundDark-25: rgba(0, 0, 0, .25);
-	--backgroundDark-26: rgba(0, 0, 0, .26);
-	--backgroundDark-30: rgba(0, 0, 0, .3);
-	--backgroundDark-35: rgba(0, 0, 0, .35);
-	--backgroundDark-40: rgba(0, 0, 0, .4);
-	--backgroundDark-45: rgba(0, 0, 0, .45);
-	--backgroundDark-50: rgba(0, 0, 0, .5);
-	--backgroundDark-52: rgba(0, 0, 0, .52);
-	--backgroundDark-55: rgba(0, 0, 0, .55);
-	--backgroundDark-60: rgba(0, 0, 0, .6);
-	--backgroundDark-65: rgba(0, 0, 0, .65);
-	--backgroundDark-70: rgba(0, 0, 0, .7);
-	--backgroundDark-75: rgba(0, 0, 0, .75);
-	--backgroundDark-80: rgba(0, 0, 0, .8);
-	--backgroundDark-85: rgba(0, 0, 0, .85);
-	--backgroundDark-90: rgba(0, 0, 0, .9);
-	--backgroundDark-95: rgba(0, 0, 0, .95);
-	--backgroundDark-100: rgba(0, 0, 0, 1);
-	--border-for-chats: rgba(1, 1, 1, 0.25);
-	--primary: rgb(0, 138, 230);
-	--primary-hsl: 204 100% 45%;
-	--primaryGradient1: rgb(0, 138, 230);
-	--primaryGradient2: rgb(0, 230, 138);
-	--primary-1: rgb(0, 138, 230, 0.0196078431372549);
-	--primary-4: rgb(0, 138, 230, 0.0392156862745098);
-	--primary-05a: rgb(0, 138, 230, 0.05);
-	--primary-8: rgb(0, 138, 230, 0.0784313725490196);
-	--primary-10a: rgb(0, 138, 230, 0.1);
-	--primary-12: rgb(0, 138, 230, 0.12156862745098039);
-	--primary-15a: rgb(0, 138, 230, 0.15);
-	--primary-16: rgb(0, 138, 230, 0.1607843137254902);
-	--primaryGradient1-16: rgb(0, 138, 230, 0.1607843137254902);
-	--primaryGradient2-16: rgb(0, 230, 138, 0.1607843137254902);
-	--primary-20: rgb(0, 138, 230, 0.2);
-	--primary-24: rgb(0, 138, 230, 0.23921568627450981);
-	--primary-25a: rgb(0, 138, 230, 0.25);
-	--primary-28: rgb(0, 138, 230, 0.2784313725490196);
-	--primary-30a: rgb(0, 138, 230, 0.3);
-	--primary-32: rgb(0, 138, 230, 0.3215686274509804);
-	--primary-35a: rgb(0, 138, 230, 0.35);
-	--primary-36: rgb(0, 138, 230, 0.3607843137254902);
-	--primary-40: rgb(0, 138, 230, 0.4);
-	--primary-44: rgb(0, 138, 230, 0.4392156862745098);
-	--primary-45a: rgb(0, 138, 230, 0.45);
-	--primary-48: rgb(0, 138, 230, 0.47843137254901963);
-	--primary-50a: rgb(0, 138, 230, 0.5);
-	--primary-52: rgb(0, 138, 230, 0.5215686274509804);
-	--primary-55a: rgb(0, 138, 230, 0.55);
-	--primary-56: rgb(0, 138, 230, 0.5607843137254902);
-	--primary-60: rgb(0, 138, 230, 0.6);
-	--primary-64: rgb(0, 138, 230, 0.6392156862745098);
-	--primary-65a: rgb(0, 138, 230, 0.65);
-	--primary-68: rgb(0, 138, 230, 0.6784313725490196);
-	--primary-70a: rgb(0, 138, 230, 0.7);
-	--primary-72: rgb(0, 138, 230, 0.7215686274509804);
-	--primary-75a: rgb(0, 138, 230, 0.75);
-	--primary-76: rgb(0, 138, 230, 0.76078431372549028);
-	--primary-80: rgb(0, 138, 230, 0.8);
-	--primary-84: rgb(0, 138, 230, 0.8392156862745098);
-	--primary-85a: rgb(0, 138, 230, 0.85);
-	--primary-88: rgb(0, 138, 230, 0.8784313725490196);
-	--primary-90a: rgb(0, 138, 230, 0.90);
-	--primary-92: rgb(0, 138, 230, 0.9215686274509803);
-	--primary-95a: rgb(0, 138, 230, 0.95);
-	--primary-96: rgb(0, 138, 230, 0.9607843137254902);
-	--primaryformentions: color-mix(in oklab, rgb(0, 138, 230, 0.23921568627450981) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.23921568627450981) var(--custom-theme-base-color-amount, 0%));
-	--primaryforreplyingmessages: color-mix(in oklab, rgb(0, 138, 230, 0.1607843137254902) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%) / 0.1607843137254902) var(--custom-theme-base-color-amount, 0%));
-	--primaryforcodes: color-mix(in oklab, rgb(0, 138, 230, 0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
-	--secondary: rgb(11, 153, 232);
-	--tertiary: rgb(24, 160, 232);
-	--quaternary: rgb(29, 173, 236);
-	--quinary: rgb(53, 198, 240);
-	--control-quinary-foreground: color-mix(in oklab, rgb(53, 198, 240) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--senary: rgb(59, 204, 241);
-	--text-senary: color-mix(in oklab, rgb(59, 204, 241) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--septenary: rgb(75, 217, 242);
-	--octonary: rgb(97, 236, 243);
-	--nonary: rgb(111, 247, 243);
-	--denaryformentions: color-mix(in oklab, rgb(118, 252, 243, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--denary: rgb(121, 255, 243);
-	--undenaryforreactions: color-mix(in oklab, rgb(145, 255, 243, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--undenary: rgb(140, 255, 243);
-	--duodenary: rgb(158, 255, 251);
-	--tredenary: rgb(158, 255, 251);
-	--quattuordenary: rgb(158, 255, 251);
-	--mentionedmessages: color-mix(in oklab, rgb(0, 176, 244, 0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessageshover: color-mix(in oklab, rgb(0, 176, 244, 0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessagesbefore: color-mix(in oklab, rgb(0, 176, 244, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--highlight-messages: rgb(0, 176, 244, 0.3);
-	--buttons-active-primaryGradient1: rgb(0, 195, 255);
-	--buttons-active-primaryGradient2: rgb(0, 255, 195);
-	--accent: 0, 231, 169;
+	--backgroundLighter-alt: color-mix(in oklab, hsl(221, calc(var(--saturation-factor) * 21%), 18%) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+	--backgroundLighter: color-mix(in oklab, hsl(220, calc(var(--saturation-factor) * 22%), 16%) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+	--backgroundLight: color-mix(in oklab, hsl(221, calc(var(--saturation-factor) * 22%), 14%) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+	--backgroundDark: color-mix(in oklab, hsl(222, calc(var(--saturation-factor) * 21%), 12%) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+	--backgroundDarker: color-mix(in oklab, hsl(224, calc(var(--saturation-factor) * 22%), 10%) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+	--backgroundDarker-alt: color-mix(in oklab, hsl(225, calc(var(--saturation-factor) * 20%), 8%) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+	--backgroundDark-15: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.15);
+	--backgroundDark-20: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.2);
+	--backgroundDark-25: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.25);
+	--backgroundDark-26: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.26);
+	--backgroundDark-30: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.3);
+	--backgroundDark-35: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.35);
+	--backgroundDark-40: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.4);
+	--backgroundDark-45: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.45);
+	--backgroundDark-50: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.5);
+	--backgroundDark-52: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.52);
+	--backgroundDark-55: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.55);
+	--backgroundDark-60: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.6);
+	--backgroundDark-65: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.65);
+	--backgroundDark-70: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.7);
+	--backgroundDark-75: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.75);
+	--backgroundDark-80: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.8);
+	--backgroundDark-85: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.85);
+	--backgroundDark-90: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.9);
+	--backgroundDark-95: hsla(0, calc(var(--saturation-factor) * 0%), 0%, 0.95);
+	--backgroundDark-100: hsl(0, calc(var(--saturation-factor) * 0%), 0%);
+	--primary: hsl(204, calc(var(--saturation-factor) * 100%), 45%);
+	--primary-hsl: 204 calc(var(--saturation-factor) * 100%) 45%;
+	--primaryGradient1: hsl(204, calc(var(--saturation-factor) * 100%), 45%);
+	--primaryGradient2: hsl(156, calc(var(--saturation-factor) * 100%), 45%);
+	--primary-1: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.0196078431372549);
+	--primary-4: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.0392156862745098);
+	--primary-05a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.05);
+	--primary-8: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.0784313725490196);
+	--primary-10a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.1);
+	--primary-12: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.12156862745098039);
+	--primary-15a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.15);
+	--primary-16: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.1607843137254902);
+	--primaryGradient1-16: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.1607843137254902);
+	--primaryGradient2-16: hsla(156, calc(var(--saturation-factor) * 100%), 45%, 0.1607843137254902);
+	--primary-20: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.2);
+	--primary-24: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.23921568627450981);
+	--primary-25a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.25);
+	--primary-28: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.2784313725490196);
+	--primary-30a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.3);
+	--primary-32: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.3215686274509804);
+	--primary-35a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.35);
+	--primary-36: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.3607843137254902);
+	--primary-40: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.4);
+	--primary-44: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.4392156862745098);
+	--primary-45a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.45);
+	--primary-48: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.47843137254901963);
+	--primary-50a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.5);
+	--primary-52: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.5215686274509804);
+	--primary-55a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.55);
+	--primary-56: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.5607843137254902);
+	--primary-60: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.6);
+	--primary-64: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.6392156862745098);
+	--primary-65a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.65);
+	--primary-68: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.6784313725490196);
+	--primary-70a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.7);
+	--primary-72: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.7215686274509804);
+	--primary-75a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.75);
+	--primary-76: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.76078431372549028);
+	--primary-80: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.8);
+	--primary-84: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.8392156862745098);
+	--primary-85a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.85);
+	--primary-88: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.8784313725490196);
+	--primary-90a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.9);
+	--primary-92: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.9215686274509803);
+	--primary-95a: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.95);
+	--primary-96: hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.9607843137254902);
+	--primaryformentions: color-mix(in oklab, hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.23921568627450981) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.23921568627450981) var(--custom-theme-base-color-amount, 0%));
+	--primaryforreplyingmessages: color-mix(in oklab, hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.1607843137254902) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%) / 0.1607843137254902) var(--custom-theme-base-color-amount, 0%));
+	--primaryforcodes: color-mix(in oklab, hsla(204, calc(var(--saturation-factor) * 100%), 45%, 0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
+	--secondary: hsl(201, calc(var(--saturation-factor) * 91%), 48%);
+	--tertiary: hsl(201, calc(var(--saturation-factor) * 82%), 50%);
+	--quaternary: hsl(198, calc(var(--saturation-factor) * 84%), 52%);
+	--quinary: hsl(193, calc(var(--saturation-factor) * 86%), 57%);
+	--control-quinary-foreground: color-mix(in oklab, hsl(193, calc(var(--saturation-factor) * 86%), 57%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--senary: hsl(192, calc(var(--saturation-factor) * 87%), 59%);
+	--text-senary: color-mix(in oklab, hsl(192, calc(var(--saturation-factor) * 87%), 59%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--septenary: hsl(189, calc(var(--saturation-factor) * 87%), 62%);
+	--octonary: hsl(183, calc(var(--saturation-factor) * 86%), 67%);
+	--nonary: hsl(178, calc(var(--saturation-factor) * 89%), 70%);
+	--denaryformentions: color-mix(in oklab, hsl(176, calc(var(--saturation-factor) * 96%), 73%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--denary: hsl(175, calc(var(--saturation-factor) * 100%), 74%);
+	--undenaryforreactions: color-mix(in oklab, hsl(173, calc(var(--saturation-factor) * 100%), 78%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--undenary: hsl(174, calc(var(--saturation-factor) * 100%), 77%);
+	--duodenary: hsl(178, calc(var(--saturation-factor) * 100%), 81%);
+	--tredenary: hsl(178, calc(var(--saturation-factor) * 100%), 81%);
+	--quattuordenary: hsl(178, calc(var(--saturation-factor) * 100%), 81%);
+	--mentionedmessages: color-mix(in oklab, hsla(197, calc(var(--saturation-factor) * 100%), 48%, 0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessageshover: color-mix(in oklab, hsla(197, calc(var(--saturation-factor) * 100%), 48%, 0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessagesbefore: color-mix(in oklab, hsl(197, calc(var(--saturation-factor) * 100%), 48%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--highlight-messages: hsla(197, calc(var(--saturation-factor) * 100%), 48%, 0.3);
+	--buttons-active-primaryGradient1: hsl(194, calc(var(--saturation-factor) * 100%), 50%);
+	--buttons-active-primaryGradient2: hsl(166, calc(var(--saturation-factor) * 100%), 50%);
+	--accent: 164, calc(var(--saturation-factor) * 100%), 45%;
 	--glow-intensity: 1;
 	--chat-glow-intensity: var(--glow-intensity);
 	--channel-glow-intensity: var(--glow-intensity);
 	--members-glow-intensity: var(--glow-intensity);
 	--input-glow-intensity: var(--glow-intensity);
 	--server-glow-intensity: var(--glow-intensity);
-	--talking-bar: rgb(var(--accent));
-	--talking-glow: rgb(var(--accent));
+	--talking-bar: hsl(var(--accent));
+	--talking-glow: hsl(var(--accent));
 	--transition: 0.15s ease;
 	--hue: 0deg;
 	--saturation: 0%;
@@ -631,68 +630,68 @@
 	--border: hsl(var(--hue) var(--saturation) calc(var(--lightness) / 2) / .6);
 	--elevation-high: 0 0 16px 8px var(--backgroundDark-50);
 	--shadow-high: 0 0 16px 8px var(--backgroundDark-50);
-	--chat-avatar-border-color: darkcyan;
+	--chat-avatar-border-color: hsl(180, calc(var(--saturation-factor) * 100%), 27%);
 	--roles-roundness: 0;
 	--__spoiler-background-color--hidden: var(--backgroundDark-20);
 	--__spoiler-background-color--hidden--hover: var(--backgroundDark-40);
 	--legacy-elevation-border: 0 0 0 1px hsl(var(--black-500-hsl)/0.6);
 	--github: var(--backgroundDark);
-	--backgroundDarker-hsl: 224 22% 10%;
-	--backgroundDarker-alt-hsl: 225 20% 8%;
+	--backgroundDarker-hsl: 224 calc(var(--saturation-factor) * 22%) 10%;
+	--backgroundDarker-alt-hsl: 225 calc(var(--saturation-factor) * 20%) 8%;
 	--shadow-border: 0 0 0 1px hsl(var(--black-500-hsl) / 0.15);
 	--background-message-hover: color-mix(in oklab, rgb(2, 2, 2, 0.06) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
 }
 
 .theme-darker {
-	--secondary: rgb(13, 150, 231);
-	--tertiary: rgb(18, 162, 234);
-	--quaternary: rgb(33, 169, 233);
-	--quinary: rgb(52, 189, 242);
-	--control-quinary-foreground: color-mix(in oklab, rgb(52, 189, 242) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--senary: rgb(60, 193, 235);
-	--text-senary: color-mix(in oklab, rgb(34, 179, 237) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--septenary: rgb(80, 212, 236);
-	--octonary: rgb(100, 230, 238);
-	--nonary: rgb(113, 242, 239);
-	--denary: rgb(124, 252, 240);
-	--denaryformentions: color-mix(in oklab, rgb(81, 223, 243, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--undenary: rgb(138, 255, 240);
-	--undenaryforreactions: color-mix(in oklab, rgb(97, 236, 243, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--duodenary: rgb(159, 255, 243);
-	--tredenary: rgb(177, 255, 242);
-	--quattuordenary: rgb(189, 255, 242);
-	--mentionedmessages: color-mix(in oklab, rgb(0, 146, 235, 0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessageshover: color-mix(in oklab, rgb(0, 146, 235, 0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessagesbefore: color-mix(in oklab, rgb(0, 146, 235, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--highlight-messages: rgb(0, 146, 235, 0.3);
-	--buttons-active-primaryGradient1: rgb(0, 191, 255);
-	--buttons-active-primaryGradient2: rgb(0, 255, 191);
+	--secondary: hsl(202, calc(var(--saturation-factor) * 89%), 48%);
+	--tertiary: hsl(200, calc(var(--saturation-factor) * 86%), 49%);
+	--quaternary: hsl(199, calc(var(--saturation-factor) * 82%), 52%);
+	--quinary: hsl(197, calc(var(--saturation-factor) * 88%), 58%);
+	--control-quinary-foreground: color-mix(in oklab, hsl(197, calc(var(--saturation-factor) * 88%), 58%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--senary: hsl(194, calc(var(--saturation-factor) * 81%), 58%);
+	--text-senary: color-mix(in oklab, hsl(197, calc(var(--saturation-factor) * 85%), 53%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--septenary: hsl(189, calc(var(--saturation-factor) * 80%), 62%);
+	--octonary: hsl(183, calc(var(--saturation-factor) * 80%), 66%);
+	--nonary: hsl(179, calc(var(--saturation-factor) * 83%), 70%);
+	--denary: hsl(174, calc(var(--saturation-factor) * 96%), 74%);
+	--denaryformentions: color-mix(in oklab, hsl(187, calc(var(--saturation-factor) * 87%), 64%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--undenary: hsl(172, calc(var(--saturation-factor) * 100%), 77%);
+	--undenaryforreactions: color-mix(in oklab, hsl(183, calc(var(--saturation-factor) * 86%), 67%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--duodenary: hsl(173, calc(var(--saturation-factor) * 100%), 81%);
+	--tredenary: hsl(170, calc(var(--saturation-factor) * 100%), 85%);
+	--quattuordenary: hsl(168, calc(var(--saturation-factor) * 100%), 87%);
+	--mentionedmessages: color-mix(in oklab, hsla(203, calc(var(--saturation-factor) * 100%), 46%, 0.078) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessageshover: color-mix(in oklab, hsla(203, calc(var(--saturation-factor) * 100%), 46%, 0.039) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessagesbefore: color-mix(in oklab, hsl(203, calc(var(--saturation-factor) * 100%), 46%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--highlight-messages: hsla(203, calc(var(--saturation-factor) * 100%), 46%, 0.3);
+	--buttons-active-primaryGradient1: hsl(195, calc(var(--saturation-factor) * 100%), 50%);
+	--buttons-active-primaryGradient2: hsl(165, calc(var(--saturation-factor) * 100%), 50%);
 }
 
 .theme-midnight {
-	--secondary: rgb(11, 147, 233);
-	--tertiary: rgb(20, 155, 235);
-	--quaternary: rgb(28, 162, 237);
-	--quinary: rgb(51, 180, 243);
-	--control-quinary-foreground: color-mix(in oklab, rgb(51, 180, 243) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--senary: rgb(57, 176, 239);
-	--text-senary: color-mix(in oklab, rgb(18, 162, 234) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--septenary: rgb(67, 194, 248);
-	--octonary: rgb(85, 209, 252);
-	--nonary: rgb(95, 218, 255);
-	--denary: rgb(104, 227, 255);
-	--denaryformentions: color-mix(in oklab, rgb(57, 202, 239, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--undenary: rgb(113, 237, 255);
-	--undenaryforreactions: color-mix(in oklab, rgb(75, 217, 242, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--duodenary: rgb(121, 246, 255);
-	--tredenary: rgb(128, 254, 255);
-	--quattuordenary: rgb(139, 255, 255);
-	--mentionedmessages: color-mix(in oklab, rgb(0, 116, 227, 0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessageshover: color-mix(in oklab, rgb(0, 116, 227, 0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
-	--mentionedmessagesbefore: color-mix(in oklab, rgb(0, 116, 227, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--highlight-messages: rgb(0, 116, 227, 0.3);
-	--buttons-active-primaryGradient1: rgb(0, 188, 255);
-	--buttons-active-primaryGradient2: rgb(0, 255, 188);
+	--secondary: hsl(203, calc(var(--saturation-factor) * 91%), 48%);
+	--tertiary: hsl(202, calc(var(--saturation-factor) * 84%), 50%);
+	--quaternary: hsl(202, calc(var(--saturation-factor) * 85%), 52%);
+	--quinary: hsl(200, calc(var(--saturation-factor) * 89%), 58%);
+	--control-quinary-foreground: color-mix(in oklab, hsl(200, calc(var(--saturation-factor) * 89%), 58%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--senary: hsl(201, calc(var(--saturation-factor) * 85%), 58%);
+	--text-senary: color-mix(in oklab, hsl(200, calc(var(--saturation-factor) * 86%), 49%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--septenary: hsl(198, calc(var(--saturation-factor) * 93%), 62%);
+	--octonary: hsl(195, calc(var(--saturation-factor) * 97%), 66%);
+	--nonary: hsl(194, calc(var(--saturation-factor) * 100%), 69%);
+	--denary: hsl(191, calc(var(--saturation-factor) * 100%), 70%);
+	--denaryformentions: color-mix(in oklab, hsl(192, calc(var(--saturation-factor) * 85%), 58%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--undenary: hsl(188, calc(var(--saturation-factor) * 100%), 72%);
+	--undenaryforreactions: color-mix(in oklab, hsl(189, calc(var(--saturation-factor) * 87%), 62%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--duodenary: hsl(184, calc(var(--saturation-factor) * 100%), 74%);
+	--tredenary: hsl(180, calc(var(--saturation-factor) * 100%), 75%);
+	--quattuordenary: hsl(180, calc(var(--saturation-factor) * 100%), 77%);
+	--mentionedmessages: color-mix(in oklab, hsla(209, calc(var(--saturation-factor) * 100%), 45%, 0.0784313725490196) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessageshover: color-mix(in oklab, hsla(209, calc(var(--saturation-factor) * 100%), 45%, 0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
+	--mentionedmessagesbefore: color-mix(in oklab, hsl(209, calc(var(--saturation-factor) * 100%), 45%) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--highlight-messages: hsla(209, calc(var(--saturation-factor) * 100%), 45%, 0.3);
+	--buttons-active-primaryGradient1: hsl(196, calc(var(--saturation-factor) * 100%), 50%);
+	--buttons-active-primaryGradient2: hsl(164, calc(var(--saturation-factor) * 100%), 50%);
 }
 
 #app-mount {
@@ -751,7 +750,7 @@
 }
 
 .divider__908e2:not(.isUnread__908e2) {
-	border-top-color: var(--border-for-chats);
+	border-top-color: var(--backgroundDark-25);
 }
 
 .actionButton_f8fa06.highlight_f8fa06,
@@ -916,7 +915,7 @@ div[data-contents="true"] {
 }
 
 .pageWrapper_a3a4ce {
-	border-left: 1px solid var(--border-for-chats);
+	border-left: 1px solid var(--backgroundDark-25);
 }
 
 .theme-dark .wrapper_f61d60 {
@@ -1039,7 +1038,7 @@ svg[name=Nova_Discord] * {
 }
 
 .theme-dark .bd-button-filled.bd-button-color-brand {
-	border: 2px solid rgb(0, 141, 217) !important;
+	border: 2px solid hsl(201, calc(var(--saturation-factor) * 100%), 43%) !important;
 }
 
 #bd-settingspane-container .bd-pfbtn:hover,
@@ -1096,8 +1095,8 @@ svg[name=Nova_Discord] * {
 .bd-button-filled.bd-button-color-brand:hover:not(.bd-button-disabled) {
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
-	background-color: rgb(0, 141, 217);
-	background: linear-gradient(to right, rgb(0, 141, 217), rgb(0, 217, 141)) !important;
+	background-color: hsl(201, calc(var(--saturation-factor) * 100%), 43%);
+	background: linear-gradient(to right, hsl(201, calc(var(--saturation-factor) * 100%), 43%), hsl(159, calc(var(--saturation-factor) * 100%), 43%)) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: 200% 200% !important;
@@ -1151,8 +1150,8 @@ svg[name=Nova_Discord] * {
 .theme-dark .bd-button-filled.bd-button-color-brand:active:not(.bd-button-disabled) {
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
-	background-color: rgb(0, 141, 217);
-	background: linear-gradient(to right, rgb(0, 160, 240), rgb(0, 240, 160)) !important;
+	background-color: hsl(201, calc(var(--saturation-factor) * 100%), 43%);
+	background: linear-gradient(to right, hsl(200, calc(var(--saturation-factor) * 100%), 47%), hsl(160, calc(var(--saturation-factor) * 100%), 47%)) !important;
 	background-position: center !important;
 	background-repeat: no-repeat !important;
 	background-size: 200% 200% !important;
@@ -1170,26 +1169,30 @@ svg.contentImage__42bf5,
 	background-size: 100%;
 }
 
+.newMembersNotice_acdcc0,
 .newMessagesBar__0f481 {
 	background-color: var(--primary);
 	box-shadow: none;
 	height: 0;
 }
 
-.newMessagesBar__0f481:hover {
+.newMessagesBar__0f481:hover,
+.newMembersNotice_acdcc0:hover {
 	background-color: var(--quaternary);
 }
 
-.newMessagesBar__0f481:active {
+.newMessagesBar__0f481:active,
+.newMembersNotice_acdcc0:active {
 	background-color: rgb(0, 78, 153);
-	padding-top: 0;
 }
 
+.theme-darker .newMembersNotice_acdcc0:active,
 .theme-darker .newMessagesBar__0f481:active {
 	background-color: rgb(0, 79, 151);
 }
 
-.theme-midnight .newMessagesBar__0f481:active {
+.theme-midnight .newMessagesBar__0f481:active,
+.theme-midnight .newMembersNotice_acdcc0:active {
 	background-color: rgb(0, 58, 160);
 }
 
@@ -1365,7 +1368,7 @@ svg.contentImage__42bf5,
 .theme-dark .contentRegion__23e6b {
 	flex: 1 1 100%;
 	background-color: var(--backgroundDark);
-	border-left: solid 1px var(--border-for-chats);
+	border-left: solid 1px var(--backgroundDark-25);
 }
 
 .theme-dark .customColumn__23e6b,
@@ -1834,7 +1837,7 @@ svg[name=Nitro] g path {
 
 .theme-dark .channelTextArea_f75fb0 {
 	margin-bottom: 0;
-	background: var(--background-gradient-chat, rgb(14, 16, 21));
+	background: var(--background-gradient-chat, hsl(223, calc(var(--saturation-factor) * 20%), 7%));
 }
 
 .theme-dark .avatar_c19a55,
@@ -1849,7 +1852,7 @@ svg[name=Nitro] g path {
 
 .content_f75fb0:not(.container_c791b2, .emptyPage__5d7c9),
 .container_c8ffbb {
-	border-left: 1px solid var(--border-for-chats) !important;
+	border-left: 1px solid var(--backgroundDark-25) !important;
 }
 
 .message__5126c.selected__5126c:not(.automodMessage__5126c, .mentioned__5126c, .replying__5126c, .ephemeral__5126c, .highlighted_d5deea),
@@ -1905,7 +1908,7 @@ svg[name=Nitro] g path {
 }
 
 .tabBody__133bf {
-	border-left: solid 1px var(--border-for-chats) !important;
+	border-left: solid 1px var(--backgroundDark-25) !important;
 }
 
 .theme-dark .button_f563df {
@@ -1927,7 +1930,7 @@ svg[name=Nitro] g path {
 
 .scroller__4a84a,
 .scroller__244e5 {
-	border-left: solid 1px var(--border-for-chats);
+	border-left: solid 1px var(--backgroundDark-25);
 }
 
 .listeningAlong_e0cf27 {
@@ -3060,7 +3063,7 @@ span.button__67645.enabled__67645:hover,
 }
 
 .scroller__7d20c {
-	border-left: 1px solid var(--border-for-chats);
+	border-left: 1px solid var(--backgroundDark-25);
 }
 
 .circleIconButton__5bc7e.selected__5bc7e,
@@ -3221,20 +3224,20 @@ span.button__67645.enabled__67645:hover,
 .button_c9e42f:hover,
 .button__30f28:hover,
 .button_c5cd6a:hover {
-	background-color: rgb(0, 123, 207);
+	background-color: hsl(204, calc(var(--saturation-factor) * 100%), 41%);
 	border: none;
 }
 
 .theme-darker .button_c9e42f:hover,
 .theme-darker .button__30f28:hover,
 .theme-darker .button_c5cd6a:hover {
-	background-color: rgb(0, 121, 208);
+	background-color: hsl(205, calc(var(--saturation-factor) * 100%), 41%);
 }
 
 .theme-midnight .button_c9e42f:hover,
 .theme-midnight .button__30f28:hover,
 .theme-midnight .button_c5cd6a:hover {
-	background-color: rgb(0, 116, 210);
+	background-color: hsl(207, calc(var(--saturation-factor) * 100%), 41%);
 }
 
 .bd-toast.toast-success,
@@ -3251,17 +3254,17 @@ span.button__67645.enabled__67645:hover,
 
 .mediaBarInteraction_b26b79:hover .mediaBarGrabber_b26b79,
 .mediaBarInteractionDragging_b26b79 .mediaBarGrabber_b26b79 {
-	background-color: rgb(0, 102, 184);
+	background-color: hsl(207, calc(var(--saturation-factor) * 100%), 36%);
 }
 
 .theme-darker .mediaBarInteraction_b26b79:hover .mediaBarGrabber_b26b79,
 .theme-darker .mediaBarInteractionDragging_b26b79 .mediaBarGrabber_b26b79 {
-	background-color: rgb(0, 103, 180);
+	background-color: hsl(206, calc(var(--saturation-factor) * 100%), 35%);
 }
 
 .theme-midnight .mediaBarInteraction_b26b79:hover .mediaBarGrabber_b26b79,
 .theme-midnight .mediaBarInteractionDragging_b26b79 .mediaBarGrabber_b26b79 {
-	background-color: rgb(0, 90, 189);
+	background-color: hsl(211, calc(var(--saturation-factor) * 100%), 37%);
 }
 
 .button_e131a9 .buttonColor_e131a9.buttonActive_e131a9:hover,
@@ -3367,16 +3370,16 @@ span.button__67645.enabled__67645:hover,
 .message_dae006 strong {
 	background-color: var(--primary-15a);
 	border-radius: 50px;
-	color: rgb(0, 123, 207);
+	color: hsl(204, calc(var(--saturation-factor) * 100%), 41%);
 	padding: .5px 5px;
 }
 
 .theme-darker .message_dae006 strong {
-	color: rgb(0, 121, 208);
+	color: hsl(205, calc(var(--saturation-factor) * 100%), 41%);
 }
 
 .theme-midnight .message_dae006 strong {
-	color: rgb(0, 116, 210);
+	color: hsl(207, calc(var(--saturation-factor) * 100%), 41%);
 }
 
 .theme-dark .message_dae006 strong,
@@ -3633,7 +3636,7 @@ span.button__67645.enabled__67645:hover,
 }
 
 .scroller_a39aa3 {
-	border-left: 1px solid var(--border-for-chats);
+	border-left: 1px solid var(--backgroundDark-25);
 }
 
 .roleRow__5f97b:before,
@@ -3663,15 +3666,15 @@ span.button__67645.enabled__67645:hover,
 }
 
 .newBadgeText__29021 {
-	color: rgb(0, 102, 184);
+	color: hsl(207, calc(var(--saturation-factor) * 100%), 36%);
 }
 
 .theme-darker .newBadgeText__29021 {
-	color: rgb(0, 103, 180);
+	color: hsl(206, calc(var(--saturation-factor) * 100%), 35%);
 }
 
 .theme-midnight .newBadgeText__29021 {
-	color: rgb(0, 90, 189);
+	color: hsl(211, calc(var(--saturation-factor) * 100%), 37%);
 }
 
 .stepContainer_a68543.completed_a68543,
@@ -4417,7 +4420,7 @@ span.button__67645.enabled__67645:hover,
 }
 
 .sidebar_e29cd7 {
-	border-right: 1px solid var(--border-for-chats);
+	border-right: 1px solid var(--backgroundDark-25);
 }
 
 .bd-settings-title::before {
@@ -4793,11 +4796,11 @@ span.button__67645.enabled__67645:hover,
 
 .headerBar__808a1,
 .scroller__7dda4 {
-	border-left: 1px solid var(--border-for-chats);
+	border-left: 1px solid var(--backgroundDark-25);
 }
 
 .header__94b08 {
-	border-bottom: 1px solid var(--border-for-chats);
+	border-bottom: 1px solid var(--backgroundDark-25);
 }
 
 .markdown_d285a6 code {
@@ -5026,7 +5029,7 @@ span.button__67645.enabled__67645:hover,
 }
 
 .channelTextArea_fb64c9:focus-within {
-	box-shadow: 0 0 0 2px rgb(var(--accent)), 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+	box-shadow: 0 0 0 2px hsl(var(--accent)), 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) hsl(var(--accent), 0.25);
 }
 
 .popoutLoadingForeground__0f481 {
@@ -5310,7 +5313,7 @@ svg.contentImage__42bf5 path {
 
 .divider__0c76f,
 .container__34c2c {
-	border-top: 1px solid var(--border-for-chats);
+	border-top: 1px solid var(--backgroundDark-25);
 }
 
 .footer_cba592,
@@ -5426,7 +5429,7 @@ body,
 .placeholderItem__87dda,
 .bioTextAreaContainer__6a919,
 .traitContainer__4cbea {
-	background: var(--background-gradient-chat, rgb(14, 16, 21));
+	background: var(--background-gradient-chat, hsl(223, calc(var(--saturation-factor) * 20%), 7%));
 	border: none;
 }
 
@@ -6578,7 +6581,7 @@ body,
 .content__808a1,
 .channels_adcef2,
 .container_a592e1 {
-	border-left: 1px solid var(--border-for-chats) !important;
+	border-left: 1px solid var(--backgroundDark-25) !important;
 }
 
 .qwert-toast-bar {
@@ -6627,7 +6630,7 @@ body,
 }
 
 #app-mount .input_ac6cb0:focus-within {
-	box-shadow: inset 0 0 100000px var(--backgroundDark-50), 0 0 0 2px rgb(var(--accent)), 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), 0.25) !important
+	box-shadow: inset 0 0 100000px var(--backgroundDark-50), 0 0 0 2px hsl(var(--accent)), 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) hsl(var(--accent), 0.25) !important
 }
 
 .theme-dark .addFriendInputWrapper__72ba7 {
@@ -6651,7 +6654,7 @@ body,
 
 .theme-dark .addFriendInputWrapper__72ba7:focus-within,
 .theme-dark .addFriendInputWrapper__72ba7.success__72ba7 {
-	box-shadow: 0 0 0 2px rgb(var(--accent)), 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.25);
+	box-shadow: 0 0 0 2px hsl(var(--accent)), 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) hsl(var(--accent), 0.25);
 }
 
 .wrapper_c0e32c {
@@ -6742,27 +6745,27 @@ body,
 }
 
 .subscriberCountText__2485e {
-	background-color: rgb(0, 123, 207);
+	background-color: hsl(204, calc(var(--saturation-factor) * 100%), 41%);
 }
 
 .theme-darker .subscriberCountText__2485e {
-	background-color: rgb(0, 121, 208);
+	background-color: hsl(205, calc(var(--saturation-factor) * 100%), 41%);
 }
 
 .theme-midnight .subscriberCountText__2485e {
-	background-color: rgb(0, 116, 210);
+	background-color: hsl(207, calc(var(--saturation-factor) * 100%), 41%);
 }
 
 .subscriberCountValue__2485e {
-	background-color: rgb(0, 59, 129);
+	background-color: hsl(213, calc(var(--saturation-factor) * 100%), 25%);
 }
 
 .theme-darker .subscriberCountText__2485e {
-	background-color: rgb(0, 57, 130);
+	background-color: hsl(214, calc(var(--saturation-factor) * 100%), 25%);
 }
 
 .theme-midnight .subscriberCountText__2485e {
-	background-color: rgb(0, 52, 132);
+	background-color: hsl(216, calc(var(--saturation-factor) * 100%), 26%);
 }
 
 .createTierIcon__15926,
@@ -7033,15 +7036,15 @@ body,
 }
 
 .theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786 {
-	background: linear-gradient(151.11deg, var(--secondary) 16.55%, rgb(0, 102, 184) 104.36%);
+	background: linear-gradient(151.11deg, var(--secondary) 16.55%, hsl(207, calc(var(--saturation-factor) * 100%), 36%) 104.36%);
 }
 
 .theme-darker .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786 {
-	background: linear-gradient(151.11deg, var(--secondary) 16.55%, rgb(0, 103, 180) 104.36%);
+	background: linear-gradient(151.11deg, var(--secondary) 16.55%, hsl(206, calc(var(--saturation-factor) * 100%), 35%) 104.36%);
 }
 
 .theme-midnight .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786 {
-	background: linear-gradient(151.11deg, var(--secondary) 16.55%, rgb(0, 90, 189) 104.36%);
+	background: linear-gradient(151.11deg, var(--secondary) 16.55%, hsl(211, calc(var(--saturation-factor) * 100%), 37%) 104.36%);
 }
 
 .theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:hover {
@@ -7057,15 +7060,15 @@ body,
 }
 
 .theme-dark .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:active {
-	background: linear-gradient(0deg, var(--backgroundDark-20), var(--backgroundDark-20)), linear-gradient(151.11deg, var(--secondary) 16.55%, rgb(0, 102, 184) 104.36%)
+	background: linear-gradient(0deg, var(--backgroundDark-20), var(--backgroundDark-20)), linear-gradient(151.11deg, var(--secondary) 16.55%, hsl(207, calc(var(--saturation-factor) * 100%), 36%) 104.36%)
 }
 
 .theme-darker .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:active {
-	background: linear-gradient(0deg, var(--backgroundDark-20), var(--backgroundDark-20)), linear-gradient(151.11deg, var(--secondary) 16.55%, rgb(0, 103, 180) 104.36%)
+	background: linear-gradient(0deg, var(--backgroundDark-20), var(--backgroundDark-20)), linear-gradient(151.11deg, var(--secondary) 16.55%, hsl(206, calc(var(--saturation-factor) * 100%), 35%) 104.36%)
 }
 
 .theme-midnight .container_a8e786:not(.playing_a8e786) .playButtonContainer_a8e786:active {
-	background: linear-gradient(0deg, var(--backgroundDark-20), var(--backgroundDark-20)), linear-gradient(151.11deg, var(--secondary) 16.55%, rgb(0, 90, 189) 104.36%)
+	background: linear-gradient(0deg, var(--backgroundDark-20), var(--backgroundDark-20)), linear-gradient(151.11deg, var(--secondary) 16.55%, hsl(211, calc(var(--saturation-factor) * 100%), 37%) 104.36%)
 }
 
 .playing_a8e786 .playButtonContainer_a8e786:active {
@@ -7120,7 +7123,7 @@ body,
 .messageInput__62280:focus-within {
 	transition: var(--transition);
 	transition-property: box-shadow;
-	box-shadow: 0 0 0 2px rgb(var(--accent)), 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+	box-shadow: 0 0 0 2px hsl(var(--accent)), 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) hsl(var(--accent), 0.25);
 }
 
 .channelTextArea_f75fb0.channelTextArea__74017.highlighted__74017 {
@@ -7128,7 +7131,7 @@ body,
 }
 
 #app-mount .attachButton__74017[aria-expanded=true] path {
-	fill: rgb(var(--accent)) !important;
+	fill: hsl(var(--accent)) !important;
 }
 
 #app-mount .stackedBars__74017 {
@@ -7603,7 +7606,7 @@ path[stroke="rgb(123,162,255)"] {
 
 .searchBox_d727b3:focus,
 .searchBox_d727b3:focus-within {
-	box-shadow: inset 0 0 100000px var(--backgroundDark-50), 0 0 0 2px rgb(var(--accent)), 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.25) !important;
+	box-shadow: inset 0 0 100000px var(--backgroundDark-50), 0 0 0 2px hsl(var(--accent)), 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) hsl(var(--accent), 0.25) !important;
 }
 
 .icon_d2d51d,
@@ -7697,15 +7700,15 @@ span.clanTag__07f91,
 }
 
 .ripple_a8e786 {
-	background-color: rgb(0, 123, 207);
+	background-color: hsl(204, calc(var(--saturation-factor) * 100%), 41%);
 }
 
 .theme-darker .ripple_a8e786 {
-	background-color: rgb(0, 121, 208);
+	background-color: hsl(205, calc(var(--saturation-factor) * 100%), 41%);
 }
 
 .theme-midnight .ripple_a8e786 {
-	background-color: rgb(0, 116, 210);
+	background-color: hsl(207, calc(var(--saturation-factor) * 100%), 41%);
 }
 
 .actionItemEmojiWrapper_d2b0e4 svg {
@@ -7812,12 +7815,12 @@ span.clanTag__07f91,
 .sidebarContainer__89463,
 .contentContainer__89463 {
 	background-color: var(--backgroundDark);
-	border-left: solid 1px var(--border-for-chats);
+	border-left: solid 1px var(--backgroundDark-25);
 }
 
 .containerSidenav_dc2e0e {
 	background: var(--background-gradient-app-frame, var(--backgroundDark));
-	border-top: solid 1px var(--border-for-chats);
+	border-top: solid 1px var(--backgroundDark-25);
 }
 
 .scroller__23746 .container__9293f,
@@ -8286,7 +8289,7 @@ h3.improved__1689b:after,
 
 .botTagOP__82f07 {
 	background-color: var(--nonary) !important;
-	color: rgb(0, 102, 184);
+	color: hsl(207, calc(var(--saturation-factor) * 100%), 36%);
 }
 
 .newChannel__599fa,
@@ -8297,7 +8300,7 @@ h3.improved__1689b:after,
 .titleBadge_e4503a,
 .newBadge_faa96b,
 .newBadge__9a337 {
-	color: rgb(0, 102, 184);
+	color: hsl(207, calc(var(--saturation-factor) * 100%), 36%);
 }
 
 .theme-darker .botTagOP__82f07,
@@ -8309,7 +8312,7 @@ h3.improved__1689b:after,
 .theme-darker .titleBadge_e4503a,
 .theme-darker .newBadge_faa96b,
 .theme-darker .newBadge__9a337 {
-	color: rgb(0, 103, 180);
+	color: hsl(206, calc(var(--saturation-factor) * 100%), 35%);
 }
 
 .theme-midnight .botTagOP__82f07,
@@ -8321,7 +8324,7 @@ h3.improved__1689b:after,
 .theme-midnight .titleBadge_e4503a,
 .theme-midnight .newBadge_faa96b,
 .theme-midnight .newBadge__9a337 {
-	color: rgb(0, 90, 189);
+	color: hsl(211, calc(var(--saturation-factor) * 100%), 37%);
 }
 
 .bd-modal-footer {
@@ -8619,7 +8622,7 @@ h3.improved__1689b:after,
 }
 
 .protip_ac6cb0.hasContent_ac6cb0 {
-	border-top: 1px solid var(--border-for-chats);
+	border-top: 1px solid var(--backgroundDark-25);
 }
 
 .guildContainer__5dba5,
@@ -8824,25 +8827,8 @@ rect[fill="var(--control-brand-foreground)"] {
 .newBadge_edf232,
 .clipPill_d762d7,
 .timePillBackground__10841,
-.dragHandle__10841,
-.newMembersNotice_acdcc0 {
+.dragHandle__10841 {
 	background-color: var(--primary);
-}
-
-.newMembersNotice_acdcc0:hover {
-	background-color: var(--quaternary);
-}
-
-.newMembersNotice_acdcc0:active {
-	background-color: rgb(0, 78, 153);
-}
-
-.theme-darker .newMembersNotice_acdcc0:active {
-	background-color: rgb(0, 79, 151);
-}
-
-.theme-darker .newMembersNotice_acdcc0:active {
-	background-color: rgb(0, 58, 160);
 }
 
 .acronym__67dba,
@@ -8990,7 +8976,7 @@ rect[fill="var(--control-brand-foreground)"] {
 
 .bd-controls-basic .bd-button:active,
 .bd-addon-controls .bd-button.selected {
-	background-color: rgb(0, 141, 217);
+	background-color: hsl(201, calc(var(--saturation-factor) * 100%), 43%);
 }
 
 .addAnswerButtonDefault_d97f89:hover,
@@ -9160,7 +9146,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .applicationStore_f07d62,
 .container__49668,
 .container_cbd375 {
-	border-left: solid 1px var(--border-for-chats) !important;
+	border-left: solid 1px var(--backgroundDark-25) !important;
 }
 
 .roleTag__9cd44,
@@ -9610,7 +9596,7 @@ input[type=checkbox]:focus-visible+.label__0d242 {
 
 .shopScrollBackgroundPrimary__28f1d,
 .toolbar__89463 {
-	border-top: solid 1px var(--border-for-chats);
+	border-top: solid 1px var(--backgroundDark-25);
 }
 
 .shopCard_c3d04b[style*="background-floating"],
@@ -9787,7 +9773,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 
 .page_c791b2 {
 	background-color: var(--backgroundDark) !important;
-	border-left: 1px solid var(--border-for-chats) !important;
+	border-left: 1px solid var(--backgroundDark-25) !important;
 }
 
 :root.giftButton_ff61dc:before,
@@ -10623,6 +10609,8 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .icon_d8f25b,
 .container__34940,
 .guildIcon__35a7e,
+.barButtonAlt__0f481,
+.barButtonAlt__0f481:hover,
 .upload_aa605f {
 	background-color: rgba(0, 0, 0, 0);
 	border: none;
@@ -10834,9 +10822,9 @@ div.cardContainer__88e24,
 
 .channels__8683b {
 	border: 1px solid;
-	border-left-color: var(--border-for-chats);
-	border-top-color: var(--border-for-chats);
-	border-right-color: var(--border-for-chats);
+	border-left-color: var(--backgroundDark-25);
+	border-top-color: var(--backgroundDark-25);
+	border-right-color: var(--backgroundDark-25);
 }
 
 .trait_d452e4,
@@ -11108,7 +11096,7 @@ rect[fill="brand-200"] {
 
 .page__6db1d {
 	background-color: var(--backgroundDark);
-	border-top: solid 1px var(--border-for-chats);
+	border-top: solid 1px var(--backgroundDark-25);
 	max-width: none;
 }
 
@@ -11318,7 +11306,7 @@ rect[fill="brand-200"] {
 }
 
 .inner_a99829:not(.channelTextAreaInner_d9be46):focus-within {
-	box-shadow: 0 0 0 2px rgb(var(--accent)), 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) rgb(var(--accent), 0.25);
+	box-shadow: 0 0 0 2px hsl(var(--accent)), 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) hsl(var(--accent), 0.25);
 }
 
 .sendWithMessage__62280 {
@@ -11392,6 +11380,10 @@ rect[fill="brand-200"] {
 .inlineButton__5cc6a:hover {
 	background-color: var(--backgroundLighter);
 	border: none;
+}
+
+.barFill_a562c8 {
+	background-color: var(--control-quinary-foreground);
 }
 
 .searchSuggestion__2dc39.searchSuggestion__2dc39:hover,
@@ -11556,14 +11548,14 @@ rect[fill="brand-200"] {
 .high-contrast-mode .container__9293f:not(.headerBar__80679),
 .header__551b0,
 .clickable_f37cb1:not(.hasBanner_f37cb1):not(.communityInfoVisible_f37cb1) .header_f37cb1 {
-	border-bottom: solid 1px var(--border-for-chats) !important;
+	border-bottom: solid 1px var(--backgroundDark-25) !important;
 }
 
 .callContainer_cb9592,
 .high-contrast-mode .callContainer_cb9592,
 .theme-midnight .callContainer_cb9592 {
-	border-bottom: solid 1px var(--border-for-chats);
-	border-left: solid 1px var(--border-for-chats);
+	border-bottom: solid 1px var(--backgroundDark-25);
+	border-left: solid 1px var(--backgroundDark-25);
 	border-top: none;
 	border-right: none;
 }
@@ -11571,15 +11563,15 @@ rect[fill="brand-200"] {
 .sidebarList_c48ade,
 .searchBar__35e86,
 .client-theme-color-picker .searchBar__35e86 {
-	border-color: var(--border-for-chats);
+	border-color: var(--backgroundDark-25);
 	border-width: 1px;
 }
 
 .container__9293f,
 .high-contrast-mode .container__9293f,
 .theme-midnight .container__9293f {
-	border-left: solid 1px var(--border-for-chats);
-	border-bottom: solid 1px var(--border-for-chats);
+	border-left: solid 1px var(--backgroundDark-25);
+	border-bottom: solid 1px var(--backgroundDark-25);
 }
 
 .searchBar__35e86 {
@@ -11592,18 +11584,18 @@ rect[fill="brand-200"] {
 .container_f391e3,
 .header__0b563,
 .homeWrapper__0920e {
-	border-top: solid 1px var(--border-for-chats) !important;
+	border-top: solid 1px var(--backgroundDark-25) !important;
 }
 
 .shop__6db1d {
 	background-color: var(--backgroundDark);
-	border-top: solid 1px var(--border-for-chats);
-	border-left: solid 1px var(--border-for-chats);
+	border-top: solid 1px var(--backgroundDark-25);
+	border-left: solid 1px var(--backgroundDark-25);
 }
 
 .winButtonsWithDivider_c38106:before,
 .container_a592e1 {
-	border-color: var(--border-for-chats);
+	border-color: var(--backgroundDark-25);
 }
 
 .outer__4f074:hover .input__4f074 {
@@ -11626,7 +11618,7 @@ rect[fill="brand-200"] {
 }
 
 .sidebarTabBar_dc2e0e {
-	border-top-color: var(--border-for-chats);
+	border-top-color: var(--backgroundDark-25);
 }
 
 .entryPointAppCommandButton_a83188 {
@@ -11877,7 +11869,7 @@ rect[fill="brand-200"] {
 }
 
 .overlay__8a7fc:after {
-	background-color: var(--border-for-chats);
+	background-color: var(--backgroundDark-25);
 }
 
 .innerContainer__39de8 li>div,
@@ -12098,7 +12090,7 @@ rect[fill="brand-200"] {
 
 .container__7641b {
 	background-color: var(--backgroundDark);
-	border-left: solid 1px var(--border-for-chats);
+	border-left: solid 1px var(--backgroundDark-25);
 }
 
 .bottomBar__0f481 {
@@ -12123,7 +12115,7 @@ rect[fill="brand-200"] {
 
 .page_c48ade:has(.main_c08b38),
 .user-profile-sidebar.outer_c0bea0:not(.custom-theme-background) {
-	border-left: solid 1px var(--border-for-chats) !important;
+	border-left: solid 1px var(--backgroundDark-25) !important;
 }
 
 .avatar_b2d72f.avatarSize_b2d72f:not([style*='24px;']) {
@@ -12224,7 +12216,7 @@ rect[fill="brand-200"] {
 
 .callContainer_cb9592 .container__9293f.transparent__9293f {
 	border-left: none !important;
-	border-bottom: solid 1px var(--border-for-chats) !important;
+	border-bottom: solid 1px var(--backgroundDark-25) !important;
 }
 
 .subtitleContainer__49508 .container__9293f.transparent__9293f {
@@ -12232,7 +12224,7 @@ rect[fill="brand-200"] {
 }
 
 .sectionDivider__35e86 {
-	background-color: var(--border-for-chats);
+	background-color: var(--backgroundDark-25);
 	margin-left: 6px;
 }
 
@@ -12298,7 +12290,7 @@ rect[fill="brand-200"] {
 .replyInput__5ba62:focus-within,
 .traitContainerFocused__4cbea:not(:has(.input__0ed4f.disabled__0ed4f)),
 .traitContainerFocused__4cbea:focus-within:not(:has(.input__0ed4f.disabled__0ed4f)) {
-	box-shadow: 0 0 0 2px rgb(var(--accent)), 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), 0.25);
+	box-shadow: 0 0 0 2px hsl(var(--accent)), 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) hsl(var(--accent), 0.25);
 }
 
 .showMoreButton__84832 {
@@ -12343,14 +12335,6 @@ rect[fill="brand-200"] {
 .linkIcon_ebf183[style='margin: 1.5px;'],
 .linkIcon_ebf183[style='margin: 1.75px;'] {
 	margin: 1.75px !important;
-}
-
-.bar_a562c8[style*="background-mod-strong"] {
-	background-color: rgb(10, 12, 16) !important;
-}
-
-.barFill_a562c8[style*="bg-brand"] {
-	background-color: var(--primary) !important;
 }
 
 .bd-error-toggle-wrapper,
@@ -12575,7 +12559,7 @@ rect[fill="brand-200"] {
 }
 
 .bioTextArea__6a919:focus-within {
-	box-shadow: 0 0 0 2px rgb(var(--accent)), 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) rgb(var(--accent), 0.25) !important;
+	box-shadow: 0 0 0 2px hsl(var(--accent)), 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) hsl(var(--accent), 0.25) !important;
 }
 
 .streamerModeEnabledBtn_aa3ffd {
@@ -12613,7 +12597,7 @@ rect[fill="brand-200"] {
 .relative__8a7fc {
 	background: var(--background-gradient-app-frame, var(--backgroundDark));
 	box-shadow: none;
-	border-bottom: solid 1px var(--border-for-chats);
+	border-bottom: solid 1px var(--backgroundDark-25);
 }
 
 .icon_ea1e0b,
@@ -12823,15 +12807,15 @@ rect[fill="#D3D6ED"] {
 .background__7449f:not(.title__7449f),
 .container__01ae2,
 .page_c48ade div[style*="position: absolute; width: 100%; height: 100%; background-color: transparent;"] {
-	border-top: solid 1px var(--border-for-chats);
-	border-left: solid 1px var(--border-for-chats);
+	border-top: solid 1px var(--backgroundDark-25);
+	border-left: solid 1px var(--backgroundDark-25);
 	border-top-left-radius: 0;
 }
 
 .containerSidenav_dc2e0e .contentPanel_dc2e0e,
 .emptyState__7641b,
 .floating__01ae2 {
-	border-left: solid 1px var(--border-for-chats);
+	border-left: solid 1px var(--backgroundDark-25);
 }
 
 .sidebar__6b102 {
@@ -12842,7 +12826,7 @@ rect[fill="#D3D6ED"] {
 
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .footer__7f9c0,
 .title__7449f {
-	border-top: solid 1px var(--border-for-chats);
+	border-top: solid 1px var(--backgroundDark-25);
 }
 
 .avatar__89401 {
@@ -12859,11 +12843,11 @@ rect[fill="#D3D6ED"] {
 .sectionDivider__629e4,
 .divider__04d5b,
 .divider__1feb0 {
-	background-color: var(--border-for-chats);
+	background-color: var(--backgroundDark-25);
 }
 
 .container__0d0f9 {
-	border-color: var(--border-for-chats);
+	border-color: var(--backgroundDark-25);
 }
 
 .circleToggled__11877 {
@@ -13232,7 +13216,7 @@ svg.thumbnail__0f2e8 {
 
 .bd-slider-track {
 	background-color: rgb(10, 12, 16);
-	background-image: linear-gradient(rgb(0, 141, 217), rgb(0, 141, 217));
+	background-image: linear-gradient(hsl(201, calc(var(--saturation-factor) * 100%), 43%), hsl(201, calc(var(--saturation-factor) * 100%), 43%));
 }
 
 .bd-slider-marker::before {
