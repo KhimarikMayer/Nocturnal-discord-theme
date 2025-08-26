@@ -7922,7 +7922,6 @@ span.clanTag__07f91,
 .termsFieldBody_fe70ca,
 #lazyLoader>.channel,
 #lazyLoader .stats,
-.pill__33d66,
 .default_e18686:hover,
 .iconContainer__03273,
 .clickable__761e5 {
@@ -7996,7 +7995,6 @@ span.clanTag__07f91,
 .textPlaceholder_ccbbbb,
 .loadingHeader__32c75,
 .textPlaceholder__1729d,
-.pill__33d66:hover,
 .listItemContainer__7c901:hover,
 .playbackRate_a8e786 {
 	background-color: var(--backgroundDark-30);
@@ -9228,6 +9226,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .note_fcb628 textarea:focus,
 .header__000a3,
 .iconMask_c59071,
+.pill__33d66,
 .container_d5ae15 {
 	background-color: var(--backgroundDarker);
 	border: none;
@@ -9253,6 +9252,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .shopAll__08415:hover,
 .bannerImage_cb32c7,
 .bd-addon-store-card-tag,
+.pill_f7c056,
 .hexInputContainer_b29565 {
 	background-color: var(--backgroundDarker-alt);
 	border: none;
@@ -9379,6 +9379,7 @@ rect[fill="var(--control-brand-foreground)"] {
 	border-color: var(--backgroundDarker);
 }
 
+.pill__33d66:hover,
 .sidebarResizeHandle_c48ade:active,
 .sidebarResizeHandle_c48ade:hover {
 	background-color: var(--backgroundDark-35);
@@ -10658,8 +10659,6 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .contentBackground__3d3b0,
 .bd-install-modal-items,
 .bd-install-modal-clickable:hover,
-.pill_f7c056,
-.pill_f7c056:hover,
 .earnedBadge_a92dc5,
 .option__54675,
 .nameplate__5a2c6,
