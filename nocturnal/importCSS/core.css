@@ -10659,7 +10659,6 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .appIcon_f37514,
 .avatar__655fa,
 .buttonSection__1405b,
-.loadingMutualFriend__3b260>:first-child,
 .pill_dfa8b6,
 .deleteButton__1df30,
 .deleteButton__1df30:after,
@@ -10688,6 +10687,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 	border-radius: 5px;
 }
 
+.loadingMutualFriend__3b260>:first-child,
 .friendsLoadingItem__28fdc>:first-child {
 	margin-left: 4px;
 	border-radius: 5px;
