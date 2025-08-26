@@ -3012,7 +3012,10 @@ span.button__67645.enabled__67645:hover,
 .gameSuggestionRadioItem__50a6f:hover,
 .itemFilled__001a7:hover:not([aria-checked=true]):not(.disabled__001a7),
 .radioItemStyles__837b7:hover:not([aria-checked=true]):not(.disabled__001a7),
+.option__3f413.focused__3f413,
+.option__3f413:focus-visible,
 .option__3f413:hover,
+.option__3f413[aria-selected=true]:hover,
 .css-1yoocth-option {
 	background-color: var(--backgroundDark-15);
 	border: none;
@@ -3020,9 +3023,7 @@ span.button__67645.enabled__67645:hover,
 
 .itemFilled__001a7:active:not([aria-checked=true]):not(.disabled__001a7),
 .radioItemStyles__837b7:active:not([aria-checked=true]):not(.disabled__001a7),
-.option__3f413.focused__3f413,
-.option__3f413:focus-visible,
-.option__3f413[aria-selected=true]:hover,
+.option__3f413[aria-selected=true]:not(.option__3f413.multi__3f413),
 .css-1yoocth-option:active,
 .css-bvzh9g-option:active {
 	background-color: var(--backgroundDark-25);
@@ -3031,8 +3032,6 @@ span.button__67645.enabled__67645:hover,
 .accountButtonInner_c7f964:hover,
 .itemFilled__001a7[aria-checked=true],
 .radioItemStyles__837b7[aria-checked=true],
-.option__3f413[aria-selected=true]:not(.option__3f413.multi__3f413),
-.option__3f413[aria-selected=true]:not(.option__3f413.multi__3f413):hover,
 .css-12hzpgx-option,
 .css-12hzpgx-option:active {
 	background-color: var(--backgroundDark-35);
@@ -10574,9 +10573,6 @@ div.profileThemedContainer__656be .inner_c0bea0,
 	left: 8px;
 }
 
-.overlay_f26c88:after,
-.overlay__75742:after,
-.overlay_d28e10::after,
 .headerImage__000a3,
 .headerImage__000a3>img,
 .appIcon__24654,
@@ -10692,7 +10688,6 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .container_e928f4:before,
 .sidebarCard_b962dc,
 .folderIconContent__93fc9,
-.avatarWithBackground__183c2,
 .actionMenuButton_d84e0f,
 .actionMenuButton_d84e0f:hover,
 .actionMenuButton_d84e0f:active,
