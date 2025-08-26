@@ -9606,7 +9606,6 @@ rect[fill="var(--control-brand-foreground)"] {
 .header_a8217b,
 .button__4bf3d,
 .container_f9d8eb,
-.errorContainer__03498,
 .line_d878e7,
 .marker_d878e7,
 .marker_d878e7 .empty_d878e7,
@@ -9636,6 +9635,7 @@ rect[fill="var(--control-brand-foreground)"] {
 	border-right: 6px solid var(--backgroundDark);
 }
 
+.errorContainer__03498,
 .wrapper__3564f,
 .shopScroll__08415,
 .container_a8217b,
