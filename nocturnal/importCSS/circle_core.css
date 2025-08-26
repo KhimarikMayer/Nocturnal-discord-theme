@@ -5096,7 +5096,7 @@ span.button__67645.enabled__67645:hover,
 
 .role_b4b2c3 {
 	padding: 4px;
-	border-radius: 11px;
+	border-radius: 50px;
 	background-color: color-mix(in oklch, var(--custom-role-label-color, rgba(0, 0, 0, 0)) 15.3%, rgba(0, 0, 0, 0));
 	border: 1px solid color-mix(in oklch, var(--custom-role-label-color, rgba(0, 0, 0, 0)) 60%, rgba(0, 0, 0, 0));
 	font-size: 12px;
