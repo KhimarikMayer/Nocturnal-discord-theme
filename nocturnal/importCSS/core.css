@@ -11305,6 +11305,7 @@ rect[fill="brand-200"] {
 .theme-dark .avatarDecoration__44b0c img,
 .theme-dark .avatar__20a53 g svg {
 	overflow: visible;
+	mask: none;
 }
 
 .theme-light .tooltipPrimary__382e7 {
