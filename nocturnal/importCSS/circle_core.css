@@ -4025,7 +4025,6 @@ span.button__67645.enabled__67645:hover,
 
 .linkContainer_ca49a1,
 .navRow__86e92,
-.navButtons_fe70ca,
 .stepperContainer_ed9c90,
 .tag__0e476:hover {
 	background-color: var(--backgroundDark);
@@ -4058,6 +4057,8 @@ span.button__67645.enabled__67645:hover,
 	background-color: var(--backgroundDarker-alt);
 }
 
+.navButtons_fe70ca,
+.termsFieldBody_fe70ca,
 .connectContainer_c7f964,
 .checkboxContainer__16db0,
 .analyticsCard__5931c {
@@ -7912,7 +7913,6 @@ span.clanTag__07f91,
 .freeWrapper_fd28b8,
 .createSticker_c6367b,
 .boostContainer_ceb06a,
-.termsFieldBody_fe70ca,
 #lazyLoader>.channel,
 #lazyLoader .stats,
 .default_e18686:hover,
@@ -10504,11 +10504,15 @@ path[fill="var(--bg-brand)"] {
 svg.gameIcon_b52e4f,
 .category_ed45d7,
 .searchSuggestion__2dc39,
-.outerWrapping_cd1bf7,
 div.profileThemedContainer__656be,
 div.profileThemedContainer__656be .inner_c0bea0,
 .discordIcon__56dee {
 	border-radius: 0;
+}
+
+.outerWrapping_cd1bf7 {
+	border-radius: 0;
+	margin: 0;
 }
 
 .inner__02fc8,
@@ -11581,7 +11585,6 @@ rect[fill="brand-200"] {
 	outline: none;
 }
 
-.main_c08b38,
 .sidebarListRounded_c48ade,
 .bannerVisible_f37cb1 .header_f37cb1 {
 	border-top-left-radius: 0;
@@ -12060,6 +12063,7 @@ rect[fill="brand-200"] {
 	border-color: var(--border-subtle) !important;
 }
 
+.fullBorderWithGradient_c08b38,
 .hoverBarButton_f84418 {
 	border-radius: 0;
 }
@@ -12208,7 +12212,6 @@ rect[fill="brand-200"] {
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, var(--backgroundDarker-alt) 100%)
 }
 
-.page_c48ade:has(.main_c08b38),
 .user-profile-sidebar.outer_c0bea0:not(.custom-theme-background) {
 	border-left: solid 1px var(--backgroundDark-25) !important;
 }
