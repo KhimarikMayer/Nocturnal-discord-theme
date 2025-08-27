@@ -1827,13 +1827,13 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDark-45);
 }
 
-.theme-dark .wrapper__2ea32:active .link__2ea32:active:not(:has(.selectedBackground_e681d1)):after,
+.theme-dark .wrapper__2ea32:active .link__2ea32:active:after,
 .theme-dark .side_b3f026 .themed_b3f026.item_b3f026:not(.serverBoostTabItem_cbe0b4.selected_b3f026, .premiumTab__581ea.selected_b3f026:has(.selectedBackground_e681d1)):active::after,
 .theme-dark .side_b3f026 .themed_b3f026.item_b3f026:not(.serverBoostTabItem_cbe0b4.selected_b3f026, .premiumTab__581ea.selected_b3f026:has(.selectedBackground_e681d1)):hover::after,
 .theme-dark .side_b3f026 .themed_b3f026.selected_b3f026.item_b3f026:not(.serverBoostTabItem_cbe0b4, .premiumTab__581ea:has(.selectedBackground_e681d1))::after,
-.theme-dark .modeSelected__2ea32 .link__2ea32:not(:has(.selectedBackground_e681d1))::after,
-.theme-dark .modeSelected__2ea32:hover .link__2ea32:not(:has(.selectedBackground_e681d1)):after,
-.theme-dark .wrapper__2ea32:hover .link__2ea32:not(:has(.selectedBackground_e681d1))::after {
+.theme-dark .modeSelected__2ea32 .link__2ea32::after,
+.theme-dark .modeSelected__2ea32:hover .link__2ea32:after,
+.theme-dark .wrapper__2ea32:hover .link__2ea32::after {
 	transform: translateX(0);
 }
 
@@ -3353,6 +3353,7 @@ span.button__67645.enabled__67645:hover,
 }
 
 .serverBoostTabItem_cbe0b4[aria-selected=true],
+.selectedBackground_e681d1,
 .item__97e86.selectedBrand__97e86,
 .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8,
 .wrapper__6e9f8:hover .childWrapper__6e9f8,
@@ -3365,6 +3366,18 @@ span.button__67645.enabled__67645:hover,
 .container__87bf1.checked__87bf1 {
 	background-color: var(--primary) !important;
 	border: none;
+}
+
+.theme-dark .selectedBackground_e681d1:before {
+	content: "";
+	width: 20px;
+	height: 20px;
+	background-size: cover !important;
+	background: url(https://khimarikmayer.github.io/Nocturnal-discord-theme/icons/nitro.png) center;
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .highlight {
@@ -6254,7 +6267,6 @@ body,
 .container_db811b[style*="brand-500"],
 .icon__6b38f[style*="brand-500"],
 .avatarUploaderInnerEmpty_cd0bbe,
-.selectedBackground_e681d1,
 .guildIconNoIcon_b962dc {
 	background-color: var(--primary) !important;
 }
@@ -7614,18 +7626,6 @@ path[stroke="rgb(123,162,255)"] {
 	.theme-dark .homeContainer__73533 {
 		padding-right: 26px !important;
 	}
-}
-
-.theme-dark .selectedBackground_e681d1:before {
-	content: "";
-	width: 20px;
-	height: 20px;
-	background-size: cover !important;
-	background: url(https://khimarikmayer.github.io/Nocturnal-discord-theme/icons/nitro.png) center;
-	position: absolute;
-	left: 10px;
-	top: 50%;
-	transform: translateY(-50%);
 }
 
 .theme-dark .headerBar__0920e,
@@ -10850,7 +10850,8 @@ div.cardContainer__88e24,
 }
 
 .closeButtonIcon__4ad81:hover {
-	color: hsl(225 calc(var(--saturation-factor)*20%) 4% /1);;
+	color: hsl(225 calc(var(--saturation-factor)*20%) 4% /1);
+	;
 }
 
 .moreUsers__4d3fa,
@@ -13778,15 +13779,15 @@ svg.thumbnail__0f2e8 {
 	}
 
 	20% {
-    	border-color: var(--primary);
+		border-color: var(--primary);
 	}
 
 	80% {
-    	border-color: var(--primary);
+		border-color: var(--primary);
 	}
 
 	100% {
-    	border-color: rgba(0, 0, 0, 0);
+		border-color: rgba(0, 0, 0, 0);
 	}
 }
 
