@@ -1,1 +1,3 @@
-<svg class="mask__68edb" viewBox="0 0 100% 100%" style="min-width: 100%; min-height: 100%;"><mask id="uid_79"><rect fill="white" x="0" y="0" width="100%" height="100%"></rect><circle fill="black" cx="62" cy="122" r="46"></circle></mask></svg>
+<mask id="squareavatars">
+    <rect x="24" y="72" width="136" height="136" fill="black"/>
+</mask>
