@@ -10723,7 +10723,7 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .guildIcon__3a5a1,
 .appIcon__24654,
 .mosaicItemMediaMosaic_d0395d,
-.imageWrapper_af017a,
+.imageWrapper_af017a:not(.media_a22bfd),
 .avatar_fa0751,
 .imageContainer_db811b,
 .avatar__49094,
@@ -13437,6 +13437,7 @@ rect[fill="brand-200"] {
 .vc-permviewer-modal-perms-item-icon,
 .vc-settings-modal-link-icon,
 .icon_bd6d20,
+.avatar_c19a55.avatar_e9c564 .avatar_c19a55,
 .buttons__2d021 {
 	border: none;
 }
@@ -14038,39 +14039,51 @@ svg.thumbnail__0f2e8 {
 	paint-order: stroke;
 }
 
-.accountProfileCard__1fed1 {
-	max-width: 660px;
-}
-
-.mask__68edb[viewBox="0 0 660 100"] rect {
+.mask__68edb[viewBox="0 0 600 210"] rect {
 	x: 16px;
-	y: 76px;
-	width: 92px;
-	height: 92px;
-	stroke-width: 250%;
+	y: 137px;
 }
 
 .mask__68edb[viewBox="0 0 400 140"] rect {
 	x: 24px;
 	y: 72px;
+}
+
+.mask__68edb[viewBox="0 0 600 210"] rect,
+.mask__68edb[viewBox="0 0 400 140"] rect {
 	width: 136px;
 	height: 136px;
+}
+
+.mask__68edb[viewBox="0 0 660 100"] rect,
+.mask__68edb[viewBox="0 0 300 105"] rect,
+.mask__68edb[viewBox="0 0 340 120"] rect {
+	width: 92px;
+	height: 92px;
 }
 
 .mask__68edb[viewBox="0 0 300 105"] rect,
 .mask__68edb[viewBox="0 0 340 120"] rect {
 	x: 10px;
 	y: 55px;
-	width: 92px;
-	height: 92px;
 }
 
 .mask__68edb[viewBox="0 0 340 120"] rect {
 	y: 66px;
 }
 
+.mask__68edb[viewBox="0 0 660 100"] rect {
+	x: 16px;
+	y: 76px;
+	stroke-width: 250%;
+}
+
 .mask__68edb circle {
 	display: none;
+}
+
+.accountProfileCard__1fed1 {
+	max-width: 660px;
 }
 
 .modalContent_c50f62 {
