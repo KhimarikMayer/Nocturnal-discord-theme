@@ -4366,7 +4366,7 @@ span.button__67645.enabled__67645:hover,
 }
 
 .messagePreviewContainer_f96002 {
-	border-color: var(--backgroundDark-95);
+	border-color: var(--backgroundDark-20);
 	padding-right: 10px !important;
 }
 
@@ -5019,6 +5019,7 @@ span.button__67645.enabled__67645:hover,
 .minimap-decorations-layer,
 .monaco-scrollable-element>.invisible,
 .videoWrapper__2f4f7,
+.textarea__9daae:focus,
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .profileNote__9c3be textarea:focus {
 	background-color: var(--backgroundDarker);
 }
@@ -9150,7 +9151,8 @@ rect[fill="var(--control-brand-foreground)"] {
 .timestamp_edf232,
 .featuredPack__04523,
 .userCountPill_f90ef0,
-.theme-dark.outer_c0bea0:not(.custom-theme-background),
+:where(.outer_c0bea0).user-profile-modal-v2,
+:where(.outer_c0bea0),
 .ctaContainer__95bd7,
 .cardSummary__72fa0,
 .cardDescription__72fa0,
@@ -10892,6 +10894,7 @@ div.cardContainer__88e24,
 .hoverableContainer__754bd:hover,
 .menuItem__8683b.active__8683b,
 .platform__4a98c,
+.avatar__44b0c:before,
 .winButtonMinMax_c38106:hover {
 	background-color: var(--backgroundDark-20);
 	border-color: rgba(0, 0, 0, 0);
@@ -13808,4 +13811,8 @@ svg.thumbnail__0f2e8 {
 
 .header__38524 {
 	border-color: var(--backgroundDark-15);
+}
+
+.accountProfileCard__1fed1 {
+	max-width: 660px;
 }
