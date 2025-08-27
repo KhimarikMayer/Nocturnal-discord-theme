@@ -5633,6 +5633,14 @@ body,
 	background: var(--input-background) !important;
 }
 
+.theme-light .wrapper_a45028 {
+	background-color: var(--input-background);
+}
+
+.theme-light .tooltip__382e7 {
+	box-shadow: var(--shadow-high);
+}
+
 .theme-dark .searchBar__97492 {
 	background: var(--background-gradient-app-frame, var(--backgroundDark));
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-50);
