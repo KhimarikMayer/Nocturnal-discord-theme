@@ -14023,3 +14023,19 @@ svg.thumbnail__0f2e8 {
 	overflow: hidden scroll !important;
 	margin-right: -8px;
 }
+
+[style="border-radius: 50%; background-color: var(--background-base-lower); display: inline-flex; justify-content: center; align-items: center; width: 4em; height: 4em; cursor: pointer; filter: none;"],
+[style="border-radius: 50%; background-color: var(--background-base-lower); display: inline-flex; justify-content: center; align-items: center; width: 4em; height: 4em; cursor: not-allowed; filter: brightness(50%);"] {
+	border-radius: 12px !important;
+	background-color: var(--backgroundDark-50) !important;
+}
+
+[style="border-radius: 50%; background-color: var(--background-base-lower); display: inline-flex; justify-content: center; align-items: center; width: 4em; height: 4em; cursor: pointer; filter: none;"] img,
+[style="border-radius: 50%; background-color: var(--background-base-lower); display: inline-flex; justify-content: center; align-items: center; width: 4em; height: 4em; cursor: not-allowed; filter: brightness(50%);"] img {
+	border-radius: 12px !important;
+}
+
+[style="border-radius: 50%; background-color: var(--background-base-lower); display: inline-flex; justify-content: center; align-items: center; width: 4em; height: 4em; cursor: pointer; filter: none;"]:has(img),
+[style="border-radius: 50%; background-color: var(--background-base-lower); display: inline-flex; justify-content: center; align-items: center; width: 4em; height: 4em; cursor: not-allowed; filter: brightness(50%);"]:has(img) {
+	background-color: rgba(0, 0, 0, 0) !important;
+}
