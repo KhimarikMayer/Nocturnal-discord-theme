@@ -1191,9 +1191,13 @@ svg[name=Nova_Discord] * {
 	background-color: var(--backgroundDark-15);
 }
 
-.messagesPopoutWrap__45690,
+.messagesPopoutWrap__45690 {
+	background-color: var(--backgroundDark);
+}
+
 .header__45690 {
 	background-color: var(--backgroundDark);
+	border-color: var(--backgroundDark-20);
 }
 
 .button__201d5 {
@@ -3722,7 +3726,7 @@ span.button__67645.enabled__67645:hover,
 
 .header_d9c882 {
 	background-color: var(--backgroundDarker);
-	border-color: var(--backgroundDark-95);
+	border-color: var(--backgroundDark-20);
 }
 
 .accountProfileCard__1fed1,
@@ -3863,6 +3867,7 @@ span.button__67645.enabled__67645:hover,
 	background-color: rgba(0, 0, 0, 0);
 }
 
+.listAvatar__60626,
 .entryPointAppCommandButtonContainer_a83188,
 .header__65338 {
 	margin-left: 10px;
@@ -7665,6 +7670,10 @@ path[stroke="rgb(123,162,255)"] {
 	border: none;
 }
 
+.top_b3f026,
+.divider_d6f9e9, 
+.tabBar_d6f9e9,
+.container__4efb4,
 .divider__46c3b,
 .separator_c1e9c4,
 .session__803f2,
@@ -8050,6 +8059,7 @@ span.clanTag__07f91,
 	border: none;
 }
 
+.rowIcon__95bea,
 .soundButtonWrapper__9be63,
 .circle__60626,
 .listRowCircle__60626,
@@ -8127,7 +8137,6 @@ span.clanTag__07f91,
 .circle__8cc9a,
 .bd-settings-group.collapsible .bd-settings-title::before,
 .iconBackground__33980,
-.rowIcon__95bea,
 .iconBackground__33efa,
 .floating-window-buttons .maximize-button:hover,
 .iconContainer__8a472,
@@ -8240,7 +8249,6 @@ span.clanTag__07f91,
 .separator_a1eac2,
 .separator_aa63ab:before,
 .divider__8b90f,
-.tabBar_d6f9e9,
 .channelNotice_e2d7b8,
 .container_eff079:after,
 .container_eff079,
@@ -8281,7 +8289,6 @@ span.clanTag__07f91,
 .separator__920b8,
 .divider_fa0751,
 .rulesScreeningItems_c21410>div,
-.container__4efb4,
 .content__03b47,
 .staticDivider_bba883,
 .modalFooter_e6fa8e,
@@ -8321,7 +8328,6 @@ span.clanTag__07f91,
 .theme-dark .hr__70151,
 .row__19fd1,
 .primaryActionPopoutDivider_af3b89,
-.header__45690,
 .forwardPreviewWrapper__62280,
 .benefits__000a3,
 .sidebar__8e830,
@@ -8332,7 +8338,6 @@ span.clanTag__07f91,
 .appContainer_f37514,
 .accessoryBar__74017,
 .unicodeShortcut_b9ee0c,
-.top_b3f026,
 .cell_f70307,
 .cardFooter__5bdf8,
 .characterCount__795fb,
@@ -8402,8 +8407,6 @@ span.clanTag__07f91,
 .subtitleSeparator_e4503a,
 .divider__4591d,
 .dotSpacer_f005b2,
-.divider__88264,
-.divider_d9c882,
 .separator__1ea09,
 .divider__75906,
 .divider__0651b,
@@ -8679,7 +8682,6 @@ h3.improved__1689b:after,
 }
 
 .bullet_ec1920,
-.divider_d0b769,
 .bullet_faa96b,
 .bullet_ee8e87,
 .bullet_a97e58,
@@ -8690,6 +8692,10 @@ h3.improved__1689b:after,
 .dividierIcon__1abf5,
 .bullet__9a337 {
 	color: var(--backgroundDark-95);
+}
+
+.divider_d0b769 {
+	color: var(--backgroundDark-20);
 }
 
 .voiceChannelAdditionalParticipants_af3b89,
@@ -10994,9 +11000,7 @@ div.cardContainer__88e24,
 }
 
 .list__3b260 .row__0a95c,
-.list__3b260 .row__89036,
-.listScroller__9d78f .row__0a95c,
-.listScroller__9d78f .row__89036 {
+.list__3b260 .row__89036 {
 	margin-right: 4px;
 }
 
@@ -11112,6 +11116,8 @@ div.cardContainer__88e24,
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
 }
 
+.divider_d9c882,
+.divider__88264,
 .vc-vmsg-preview-indicator,
 .vc-permviewer-modal-list-item:hover,
 .footerContainer__122e4:hover,
