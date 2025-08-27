@@ -9824,7 +9824,7 @@ rect[fill="hsl(235 calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 .headerArtWrapper__553a5,
 .note_fcb628 textarea,
 .mosaicItemMediaMosaic_d0395d,
-.imageWrapper_af017a,
+.imageWrapper_af017a:not(.media_a22bfd),
 .container_b15955,
 .menuItem__8683b,
 .category_fe77d6,
@@ -13216,6 +13216,7 @@ rect[fill="brand-200"] {
 .vc-permviewer-modal-perms-item-icon,
 .vc-settings-modal-link-icon,
 .icon_bd6d20,
+.avatar_c19a55.avatar_e9c564 .avatar_c19a55,
 .buttons__2d021 {
 	border: none;
 }
