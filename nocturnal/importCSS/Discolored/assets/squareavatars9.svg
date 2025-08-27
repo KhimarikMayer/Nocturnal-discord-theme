@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-  <mask id="squareMask">
-    <rect fill="white" x="0" y="0" width="100%" height="100%"></rect>
-    <rect fill="black" x="24" y="72" width="136" height="136" rx="12" ry="12"></rect>
-  </mask>
-</svg>
