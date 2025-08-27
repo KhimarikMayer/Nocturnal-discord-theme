@@ -14036,33 +14036,45 @@ svg.thumbnail__0f2e8 {
 }
 
 .mask__68edb rect {
-    rx: 12px;
-    ry: 12px;
-    fill: black;
-    stroke: white;
-    stroke-width: 200%;
-    paint-order: stroke;
+	rx: 12px;
+	ry: 12px;
+	fill: black;
+	stroke: white;
+	stroke-width: 200%;
+	paint-order: stroke;
+}
+
+.accountProfileCard__1fed1 {
+	max-width: 660px;
+}
+
+.mask__68edb[viewBox="0 0 660 100"] rect {
+	x: 16px;
+	y: 76px;
+	width: 92px;
+	height: 92px;
+	stroke-width: 250%;
 }
 
 .mask__68edb[viewBox="0 0 400 140"] rect {
-    x: 24px;
-    y: 72px;
-    width: 136px;
-    height: 136px;
+	x: 24px;
+	y: 72px;
+	width: 136px;
+	height: 136px;
 }
 
 .mask__68edb[viewBox="0 0 300 105"] rect,
 .mask__68edb[viewBox="0 0 340 120"] rect {
-    x: 10px;
-    y: 55px;
-    width: 92px;
-    height: 92px;
+	x: 10px;
+	y: 55px;
+	width: 92px;
+	height: 92px;
 }
 
 .mask__68edb[viewBox="0 0 340 120"] rect {
-    y: 66px;
+	y: 66px;
 }
 
 .mask__68edb circle {
-    display: none;
+	display: none;
 }
