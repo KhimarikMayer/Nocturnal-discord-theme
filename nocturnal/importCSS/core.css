@@ -12032,6 +12032,7 @@ rect[fill="brand-200"] {
 .message__89466,
 .page__1feb0,
 .filterBar__11877,
+.feedblockInteractiveBackground__08415,
 .sidebar_c48ade:after {
 	background-color: var(--backgroundDark);
 }
@@ -14099,8 +14100,7 @@ svg.thumbnail__0f2e8 {
 	stroke-width: 250%;
 }
 
-.custom-user-profile-theme.user-profile-popout .mask__68edb[viewBox="0 0 300 105"] rect,
-.premiumFeatureBorder__65c15 .mask__68edb[viewBox="0 0 300 105"] rect {
+.custom-user-profile-theme.user-profile-popout .mask__68edb[viewBox="0 0 300 105"] rect {
 	x: 6px;
 	y: 51px;
 }
