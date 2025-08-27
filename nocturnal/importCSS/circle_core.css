@@ -6513,10 +6513,15 @@ body,
 	border-color: rgba(0, 0, 0, 0);
 }
 
-.bar__7aaec,
 .toast__3fde7 {
 	background-color: var(--backgroundDark);
 	border: none;
+}
+
+.bar__7aaec {
+	background-color: var(--backgroundDark);
+	border: none;
+	box-shadow: 0 12px 24px 0 hsl(none 0% 0%/0.5);
 }
 
 .voiceBar__7aaec,
@@ -8371,6 +8376,7 @@ span.clanTag__07f91,
 .container_cd2100:not(.emojiWrapper__4cbea),
 .notDetected_cc46f0,
 .cameraWrapper_d41d5f,
+.cameraWrapper__11e1f,
 .iconUpload_e45886 {
 	background-color: var(--backgroundDark-30);
 	border: none;
