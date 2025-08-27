@@ -1789,7 +1789,7 @@ svg[name=Nitro] g path {
 	background-color: color-mix(in srgb, var(--primary), rgba(0, 0, 0, 0) 20%);
 }
 
-.theme-dark .side_b3f026 .themed_b3f026.item_b3f026::after,
+.theme-dark .side_b3f026 .themed_b3f026.item_b3f026:not(.premiumTab__581ea:has(.selectedBackground_e681d1))::after,
 .theme-dark .modeSelected__2ea32 .link__2ea32::after,
 .theme-dark .link__2ea32::after {
 	content: "";
@@ -1828,8 +1828,8 @@ svg[name=Nitro] g path {
 }
 
 .theme-dark .wrapper__2ea32:active .link__2ea32:active:after,
-.theme-dark .side_b3f026 .themed_b3f026.item_b3f026:not(.serverBoostTabItem_cbe0b4.selected_b3f026, .premiumTab__581ea.selected_b3f026:has(.selectedBackground_e681d1)):active::after,
-.theme-dark .side_b3f026 .themed_b3f026.item_b3f026:not(.serverBoostTabItem_cbe0b4.selected_b3f026, .premiumTab__581ea.selected_b3f026:has(.selectedBackground_e681d1)):hover::after,
+.theme-dark .side_b3f026 .themed_b3f026.item_b3f026:not(.serverBoostTabItem_cbe0b4.selected_b3f026, .premiumTab__581ea:has(.selectedBackground_e681d1)):active::after,
+.theme-dark .side_b3f026 .themed_b3f026.item_b3f026:not(.serverBoostTabItem_cbe0b4.selected_b3f026, .premiumTab__581ea:has(.selectedBackground_e681d1)):hover::after,
 .theme-dark .side_b3f026 .themed_b3f026.selected_b3f026.item_b3f026:not(.serverBoostTabItem_cbe0b4, .premiumTab__581ea:has(.selectedBackground_e681d1))::after,
 .theme-dark .modeSelected__2ea32 .link__2ea32::after,
 .theme-dark .modeSelected__2ea32:hover .link__2ea32:after,
@@ -11711,13 +11711,13 @@ rect[fill="brand-200"] {
 	border: none;
 }
 
-.theme-dark .side_b3f026 .item_b3f026::after,
-.theme-dark .side_b3f026 .themed_b3f026.item_b3f026::after {
+.theme-dark .side_b3f026 .item_b3f026:not(.premiumTab__581ea:has(.selectedBackground_e681d1))::after,
+.theme-dark .side_b3f026 .themed_b3f026.item_b3f026:not(.premiumTab__581ea:has(.selectedBackground_e681d1))::after {
 	transform: translateX(-260px);
 }
 
-.theme-dark .side_b3f026 .themed_b3f026.item_b3f026:not(.serverBoostTabItem_cbe0b4.selected_b3f026, .premiumTab__581ea.selected_b3f026:has(.selectedBackground_e681d1)):active::after,
-.theme-dark .side_b3f026 .themed_b3f026.item_b3f026:not(.serverBoostTabItem_cbe0b4.selected_b3f026, .premiumTab__581ea.selected_b3f026:has(.selectedBackground_e681d1)):hover::after,
+.theme-dark .side_b3f026 .themed_b3f026.item_b3f026:not(.serverBoostTabItem_cbe0b4.selected_b3f026, .premiumTab__581ea:has(.selectedBackground_e681d1)):active::after,
+.theme-dark .side_b3f026 .themed_b3f026.item_b3f026:not(.serverBoostTabItem_cbe0b4.selected_b3f026, .premiumTab__581ea:has(.selectedBackground_e681d1)):hover::after,
 .theme-dark .side_b3f026 .themed_b3f026.selected_b3f026.item_b3f026:not(.serverBoostTabItem_cbe0b4, .premiumTab__581ea:has(.selectedBackground_e681d1))::after {
 	transform: translateX(0);
 }
