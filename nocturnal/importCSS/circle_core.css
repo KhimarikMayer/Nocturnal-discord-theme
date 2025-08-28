@@ -827,7 +827,7 @@
 	--highlight-messages: hsl(197 calc(var(--saturation-factor)*100%) 48% /0.3);
 	--buttons-active-primaryGradient1: hsl(194 calc(var(--saturation-factor)*100%) 50% /1);
 	--buttons-active-primaryGradient2: hsl(166 calc(var(--saturation-factor)*100%) 50% /1);
-	--accent: 164 calc(var(--saturation-factor)*100%) 45%;
+	--accent: 164, calc(var(--saturation-factor)*100%), 45%;
 	--glow-intensity: 1;
 	--chat-glow-intensity: var(--glow-intensity);
 	--channel-glow-intensity: var(--glow-intensity);
