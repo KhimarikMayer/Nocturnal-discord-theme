@@ -15621,8 +15621,8 @@ svg.thumbnail__0f2e8 {
 	border-color: var(--backgroundDark-15);
 }
 
-.accountProfileCard__1fed1 {
-	max-width: 660px;
+.accountProfileCard__1fed1 .mask__68edb {
+    max-height: 100px !important;
 }
 
 .modalContent_c50f62 {
