@@ -15901,8 +15901,8 @@ svg.thumbnail__0f2e8 {
 	display: none;
 }
 
-.accountProfileCard__1fed1 {
-	max-width: 660px;
+.accountProfileCard__1fed1 .mask__68edb {
+    max-height: 100px !important;
 }
 
 .modalContent_c50f62 {
