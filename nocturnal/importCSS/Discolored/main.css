@@ -796,3 +796,11 @@
 .gifTag_f60819 {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/9811b405dc8e999f.svg");
 }
+
+[src*='/assets/bc9100f5e54f39a8.svg'] {
+	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/bc9100f5e54f39a8.svg") !important;
+}
+
+[src*='/assets/7af394f8519f888f.svg'] {
+	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/7af394f8519f888f.svg") !important;
+}
