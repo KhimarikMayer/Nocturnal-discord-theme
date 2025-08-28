@@ -1205,6 +1205,8 @@ svg[name=Nova_Discord] * {
 }
 
 #bd-settingspane-container .bd-pfbtn,
+.colorable_f1ceac.join_f1ceac,
+.colorable_f1ceac.green_f1ceac,
 .vc-settings-quickActions-pill,
 .datePicker__56fec .datePickerHint__56fec .hintValue__56fec,
 .reactionEmojiDetailsClickable_d5cd2d,
@@ -1260,6 +1262,10 @@ svg[name=Nova_Discord] * {
 }
 
 #bd-settingspane-container .bd-pfbtn:hover,
+.attachedCaretButtonContainer_f1ceac:not(.fauxDisabled__666fa) .colorable_f1ceac.green_f1ceac.active_f1ceac,
+.attachedCaretButtonContainer_f1ceac:not(.fauxDisabled__666fa) .colorable_f1ceac.green_f1ceac:hover,
+.attachedCaretButtonContainer_f1ceac:not(.fauxDisabled__666fa) .colorable_f1ceac.join_f1ceac.active_f1ceac,
+.attachedCaretButtonContainer_f1ceac:not(.fauxDisabled__666fa) .colorable_f1ceac.join_f1ceac:hover,
 .vc-settings-quickActions-pill:hover,
 .datePicker__56fec .datePickerHint__56fec .hintValue__56fec:hover,
 .reactionEmojiDetailsClickable_d5cd2d:hover,
@@ -7671,7 +7677,7 @@ path[stroke="rgb(123,162,255)"] {
 .top_b3f026,
 .tabBar__81b3e,
 .tabBar_d1d9f3,
-.divider_d6f9e9, 
+.divider_d6f9e9,
 .tabBar_d6f9e9,
 .container__4efb4,
 .divider__46c3b,
@@ -10716,8 +10722,6 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .avatar__655fa,
 .buttonSection__1405b,
 .pill_dfa8b6,
-.deleteButton__1df30,
-.deleteButton__1df30:after,
 .avatar__7dffe,
 .avatarContainer__7dffe,
 .placeholderAvatar_ce03f4,
@@ -12454,8 +12458,8 @@ rect[fill="brand-200"] {
 	display: none;
 }
 
-.overlay__57752 {
-	box-shadow: 0 0 0 9999px var(--backgroundLighter)99;
+.theme-dark .overlay__57752 {
+	box-shadow: 0 0 0 9999px color-mix(in oklab, hsl(221 calc(var(--saturation-factor)*21%) 18% /.6) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
 }
 
 #app-mount .unread__6fddf {
@@ -12677,6 +12681,8 @@ rect[fill="brand-200"] {
 	background-color: var(--backgroundDark-50);
 }
 
+.centerButton_f1ceac.colorable_f1ceac.green_f1ceac,
+.centerButton_f1ceac.colorable_f1ceac.join_f1ceac,
 .streamOptionsButton__388f8 {
 	padding: 8px;
 }
@@ -15859,7 +15865,7 @@ svg.thumbnail__0f2e8 {
 }
 
 .accountProfileCard__1fed1 .mask__68edb {
-    max-height: 100px !important;
+	max-height: 100px !important;
 }
 
 .modalContent_c50f62 {
