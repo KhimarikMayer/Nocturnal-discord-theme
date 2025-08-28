@@ -10097,11 +10097,11 @@ html:not(.chat-input) .inputInner_b1f01d,
 }
 
 .theme-dark .iconWidget__669b5[style*="100, 102, 145, 0.3"] {
-	background-color: hsl(177, calc(var(--saturation-factor)*84%), 30%, 0.3) !important;
+	background-color: hsl(177 calc(var(--saturation-factor)*84%) 30% /.3) !important;
 }
 
 .theme-dark .selectedWidget__669b5[style*="113, 116, 183, 0.7"] {
-	background-color: hsl(187, calc(var(--saturation-factor)*74%), 38%, 0.7) !important;
+	background-color: hsl(187 calc(var(--saturation-factor)*74%) 38% /.7) !important;
 }
 
 .popoutWrapper__7fe3a {
