@@ -1393,7 +1393,7 @@ svg.contentImage__42bf5,
 	background-size: 100%;
 }
 
-.newMessagesBar__0f481
+.newMessagesBar__0f481,
 .newMembersNotice_acdcc0 {
 	background-color: var(--primary);
 	box-shadow: none;
@@ -10257,12 +10257,12 @@ rect[fill="hsl(235 calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 	box-shadow: none;
 }
 
-.iconWidget__669b5[style*="100, 102, 145, 0.3"] {
-	background-color: rgb(12, 139, 133, 0.3) !important;
+.theme-dark .iconWidget__669b5[style*="100, 102, 145, 0.3"] {
+	background-color: hsl(177 calc(var(--saturation-factor)*84%) 30% /.3) !important;
 }
 
-.selectedWidget__669b5[style*="113, 116, 183, 0.7"] {
-	background-color: rgb(25, 153, 171, 0.7) !important;
+.theme-dark .selectedWidget__669b5[style*="113, 116, 183, 0.7"] {
+	background-color: hsl(187 calc(var(--saturation-factor)*74%) 38% /.7) !important;
 }
 
 .popoutWrapper__7fe3a {
