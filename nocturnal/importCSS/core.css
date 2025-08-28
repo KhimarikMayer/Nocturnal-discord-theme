@@ -847,7 +847,7 @@
 	--chat-avatar-border-color: darkcyan;
 	--roles-roundness: 0;
 	--__spoiler-background-color--hidden: var(--backgroundDark-20);
-	--__spoiler-background-color--hidden--hover: var(--backgroundDark-40);
+	--__spoiler-background-color--hidden--hover: var(--backgroundDark-30);
 	--legacy-elevation-border: 0 0 0 1px hsl(var(--black-500-hsl)/0.6);
 	--github: var(--backgroundDark);
 	--backgroundDarker-hsl: 224, calc(var(--saturation-factor)*22%), 10%;
@@ -8879,7 +8879,6 @@ h3.improved__1689b:after,
 	background: color-mix(in oklab, var(--primaryforcodes) 95%, #fff);
 }
 
-.timestamp__75297,
 .embed__623de code,
 .autocompleteQuerySymbol_ac6cb0,
 .inviteContainer__23437,
@@ -12435,10 +12434,6 @@ rect[fill="brand-200"] {
 	margin-right: 10px;
 }
 
-.spoilerContent__54ab5 {
-	--__current--spoiler-background-color: rgba(0, 0, 0, 0);
-}
-
 .formWithLoadedChatInput_f75fb0:before,
 .theme-midnight.messageWrapper__981c8,
 .theme-darker.messageWrapper__981c8,
@@ -15870,4 +15865,14 @@ svg.thumbnail__0f2e8 {
 .row__19fd1,
 .cell_f70307 {
 	border-color: var(--backgroundDark-40);
+}
+
+.spoilerContent__54ab5 {
+	--__current--spoiler-background-color: var(--primary-8);
+}
+
+.timestamp__75297 {
+	background-color: var(--primary-16);
+	border-radius: 50px;
+	padding: .5px 5px;
 }
