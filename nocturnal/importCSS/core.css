@@ -15848,14 +15848,13 @@ svg.thumbnail__0f2e8 {
 	ry: 12px;
 	fill: black;
 	stroke: white;
-	stroke-width: 200%;
+	stroke-width: 250%;
 	paint-order: stroke;
 }
 
 .mask__68edb[viewBox="0 0 600 210"] rect {
 	x: 16px;
 	y: 137px;
-	stroke-width: 225%;
 }
 
 .mask__68edb[viewBox="0 0 400 140"] rect {
@@ -15889,7 +15888,6 @@ svg.thumbnail__0f2e8 {
 .mask__68edb[viewBox="0 0 660 100"] rect {
 	x: 16px;
 	y: 76px;
-	stroke-width: 250%;
 }
 
 .custom-user-profile-theme.user-profile-popout .mask__68edb[viewBox="0 0 300 105"] rect {
