@@ -1393,8 +1393,8 @@ svg.contentImage__42bf5,
 	background-size: 100%;
 }
 
-.newMembersNotice_acdcc0,
-.newMessagesBar__0f481 {
+.newMessagesBar__0f481
+.newMembersNotice_acdcc0 {
 	background-color: var(--primary);
 	box-shadow: none;
 	height: 0;
@@ -2096,7 +2096,7 @@ svg[name=Nitro] g path {
 .mouse-mode.full-motion .message__5126c.ephemeral__5126c:not(.automodMessage__5126c):hover,
 .message__5126c.replying__5126c.selected__5126c:not(.automodMessage__5126c),
 .mouse-mode.full-motion .message__5126c.replying__5126c:not(.automodMessage__5126c):hover {
-	background-color: rgba(0, 138, 230, 0.1);
+	background-color: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.1);
 }
 
 .card__11580,
@@ -2863,9 +2863,9 @@ svg[name=Nitro] g path {
 	--custom-notice-button-hover: var(--primary);
 }
 
-.notice_c9e42f,
-.notice__30f28,
-.notice_c5cd6a,
+.theme-dark .notice_c9e42f,
+.theme-dark .notice__30f28,
+.theme-dark .notice_c5cd6a,
 .theme-darker .notice_c9e42f,
 .theme-darker .notice__30f28,
 .theme-darker .notice_c5cd6a {
@@ -3424,8 +3424,8 @@ span.button__67645.enabled__67645:hover,
 	transform: translateY(-50%);
 }
 
-.item__97e86.selectedBrand__97e86.focused__97e86,
-.item__97e86.selectedBrand__97e86:hover,
+.theme-dark .item__97e86.selectedBrand__97e86.focused__97e86,
+.theme-dark .item__97e86.selectedBrand__97e86:hover,
 .theme-darker .item__97e86.selectedBrand__97e86.focused__97e86,
 .theme-darker .item__97e86.selectedBrand__97e86:hover {
 	background-color: hsl(209 calc(var(--saturation-factor)*100%) 30% /1) !important;
@@ -3667,7 +3667,7 @@ span.button__67645.enabled__67645:hover,
 .theme-dark .message_dae006 strong,
 .theme-darker .message_dae006 strong,
 .theme-midnight .message_dae006 strong {
-	background-color: rgba(0, 138, 230, 0.3);
+	background-color: hsl(204 calc(var(--saturation-factor)*100%) 45% /0.3);
 	color: var(--undenary);
 }
 
@@ -10128,23 +10128,21 @@ rect[fill="hsl(235 calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 	outline: 1px solid var(--control-quinary-foreground);
 }
 
-.votedStyles_a1443c {
-	--custom-poll-style-vote-percentage: color-mix(in oklab, rgba(53, 198, 240, 0.2) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.2) var(--custom-theme-base-color-amount, 0%));
-	--custom-poll-style-border: color-mix(in oklab, rgb(53, 198, 240, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+.theme-dark .votedStyles_a1443c {
+	--custom-poll-style-vote-percentage: color-mix(in oklab, hsl(193 calc(var(--saturation-factor)*86%) 57% /.2) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.2) var(--custom-theme-base-color-amount, 0%));
+	--custom-poll-style-border: color-mix(in oklab, var(--quinary) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 }
 
 .theme-darker .votedStyles_a1443c {
-	--custom-poll-style-vote-percentage: color-mix(in oklab, rgba(52, 189, 242, 0.2) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.2) var(--custom-theme-base-color-amount, 0%));
-	--custom-poll-style-border: color-mix(in oklab, rgb(52, 189, 242, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--custom-poll-style-vote-percentage: color-mix(in oklab, hsl(197 calc(var(--saturation-factor)*88%) 58% /.2) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.2) var(--custom-theme-base-color-amount, 0%));
 }
 
 .theme-midnight .votedStyles_a1443c {
-	--custom-poll-style-vote-percentage: color-mix(in oklab, rgba(51, 180, 243, 0.2) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.2) var(--custom-theme-base-color-amount, 0%));
-	--custom-poll-style-border: color-mix(in oklab, rgb(51, 180, 243, 1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--custom-poll-style-vote-percentage: color-mix(in oklab, hsl(200 calc(var(--saturation-factor)*89%) 58% /.2) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.2) var(--custom-theme-base-color-amount, 0%));
 }
 
-.victorStyles_a1443c {
-	--custom-poll-style-vote-percentage: color-mix(in oklab, rgb(0, 138, 230, 0.2) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.2) var(--custom-theme-base-color-amount, 0%));
+.theme-dark .victorStyles_a1443c {
+	--custom-poll-style-vote-percentage: color-mix(in oklab, hsl(204 calc(var(--saturation-factor)*100%) 45% /.2) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.2) var(--custom-theme-base-color-amount, 0%));
 	--custom-poll-style-border: var(--primary);
 }
 
@@ -12349,7 +12347,7 @@ rect[fill="brand-200"] {
 }
 
 [style*='85, 98, 238'] {
-	background-color: rgba(0, 132, 226) !important;
+	background-color: hsl(205 calc(var(--saturation-factor)*100%) 44% /1) !important;
 }
 
 .appDetailsContainer__50a54 .appDetailsSection__50a54 {
@@ -15380,11 +15378,11 @@ rect[fill="#D3D6ED"] {
 }
 
 .newlyAddedHighlightContainer_fc7141:hover .newlyAddedHighlight_fc7141 {
-	border-color: rgb(0, 138, 230, 0.5);
+	border-color: hsl(204 calc(var(--saturation-factor)*100%) 45% /.5);
 }
 
 .newlyAddedHighlightContainer_fc7141:hover .newlyAddedBadge_fc7141 {
-	background-color: rgb(0, 138, 230, 0.5);
+	background-color: hsl(204 calc(var(--saturation-factor)*100%) 45% /.5);
 }
 
 .chatHeaderBar_dc83f5 {
