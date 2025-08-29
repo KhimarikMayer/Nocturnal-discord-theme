@@ -7619,6 +7619,7 @@ path[stroke="rgb(123,162,255)"] {
 	border: none;
 }
 
+.commandContainer_c94584 .command_c94584:not(:last-child),
 .botPermissions__41924:not(:last-child),
 .scopes__29337:not(:last-child),
 .row_b1c9f2:not(:last-child) .rowInner_b1c9f2,
@@ -8274,7 +8275,6 @@ span.clanTag__07f91,
 .optionals__920ab,
 .reasonContainer__958c7,
 .container_d71b96,
-.commandContainer_c94584 .command_c94584:not(:last-child),
 .container__960ef,
 .separator__4126d,
 .shareToChannelButton_af3b89,
@@ -8367,7 +8367,6 @@ span.clanTag__07f91,
 .divider__8683b,
 .tipLine__8683b,
 .controlPlaceholder__8683b,
-.rowDivider_cb32c7,
 .rowDivider_ccbbbb,
 .presetSeparator__9c019,
 .checkboxContainer_db81c6:before,
@@ -10663,6 +10662,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 .role__5c799,
 .css-kabh0-menu,
 .vc-author-modal-avatar,
+.message__89466,
 .video__20ba8 {
 	border-radius: 5px;
 }
@@ -10837,12 +10837,17 @@ div.cardContainer__88e24,
 .channels_adcef2,
 .channels__8683b,
 .contentWrapper__9c62c,
+.appIcon__7bdb0,
 .container__7bdb0,
 .commandContainer_c94584,
 .mockMessage__9c019,
 .channeList__9c019,
 .scroller__28a87 {
 	background-color: var(--backgroundDark);
+}
+
+.appIcon__7bdb0 {
+	border: 4px solid var(--backgroundDark);
 }
 
 .popoutCaret_aa1bff,
@@ -11012,6 +11017,7 @@ div.cardContainer__88e24,
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
 }
 
+.rowDivider_cb32c7,
 .dot_b99f57,
 .clickableRow__9ecf6.selectedRow__9ecf6,
 .bd-settings-group.collapsible .bd-settings-title::before,
@@ -11242,11 +11248,6 @@ rect[fill="brand-200"] {
 
 .theme-light .tooltipNested__382e7 .tooltipPointer__382e7 {
 	border-top-color: var(--background-surface-high);
-}
-
-.appIcon__7bdb0 {
-	background-color: var(--backgroundDark);
-	border: 4px solid var(--backgroundDark);
 }
 
 .loadingAnimation_ccbbbb:after {
@@ -14247,7 +14248,7 @@ rect[fill="brand-200"] {
 .avatar__03630,
 .vc-permviewer-modal-perms-item-icon,
 .vc-settings-modal-link-icon,
-.icon_bd6d20,
+.icon_bd6d20:not(.appIcon__7bdb0),
 .avatar_c19a55.avatar_e9c564 .avatar_c19a55,
 .buttons__2d021 {
 	border: none;
