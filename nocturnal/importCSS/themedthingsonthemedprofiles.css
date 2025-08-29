@@ -329,3 +329,7 @@
 	transition-property: box-shadow;
 	box-shadow: 0 0 0 2px hsl(var(--accent)), 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) hsl(var(--accent), 0.25);
 }
+
+.full-motion .custom-user-profile-theme .wrapper_f7ecac:hover {
+	box-shadow: var(--shadow-border), var(--shadow-medium) !important;
+}
