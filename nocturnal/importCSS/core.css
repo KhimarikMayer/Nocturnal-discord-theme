@@ -12719,7 +12719,7 @@ rect[fill="brand-200"] {
 	border-radius: 5px 5px 0 0;
 }
 
-.theme-dark .wrapper__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile]:after,
 .theme-dark .wrapper__44b0c:has([rx*="4."][ry*="4."])[role="img"] foreignObject:after,
 .theme-dark .wrapper__44b0c:has([rx*="5."][ry*="5."])[role="img"] foreignObject:after,
 .theme-dark .wrapper__44b0c:has([rx*="6."][ry*="6."])[role="img"] foreignObject:after,
@@ -12727,13 +12727,15 @@ rect[fill="brand-200"] {
 .theme-dark .wrapper__44b0c:has([rx*="8."][ry*="8."])[role="img"] foreignObject:after,
 .theme-dark .wrapper__44b0c:has([rx*="9."][ry*="9."])[role="img"] foreignObject:after {
 	content: "";
+	display: block;
 	mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>') center no-repeat;
 	position: absolute;
 	right: 0;
 	bottom: 2px;
+	z-index: 1;
 }
 
-.theme-dark .wrapper__44b0c:has([fill="#43a25a"]) foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c:has([fill="#43a25a"]) .mask__44b0c foreignObject[mask*=mobile]:after,
 .theme-dark .wrapper__44b0c:has([rx*="4."][ry*="4."]):has([fill="#727272"])[role="img"] foreignObject:after,
 .theme-dark .wrapper__44b0c:has([rx*="4."][ry*="4."]):has([fill="#727372"])[role="img"] foreignObject:after,
 .theme-dark .wrapper__44b0c:has([rx*="4."][ry*="4."]):has([fill="#717472"])[role="img"] foreignObject:after,
@@ -13121,7 +13123,7 @@ rect[fill="brand-200"] {
 	background-color: #43b581;
 }
 
-.theme-dark .wrapper__44b0c:has([fill="#d83a42"]) foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c:has([fill="#d83a42"]) .mask__44b0c foreignObject[mask*=mobile]:after,
 .theme-dark .wrapper__44b0c:has([rx*="4."][ry*="4."]):has([fill*="rgba(216"])[role="img"] foreignObject:after,
 .theme-dark .wrapper__44b0c:has([rx*="4."][ry*="4."]):has([fill*="rgba(215"])[role="img"] foreignObject:after,
 .theme-dark .wrapper__44b0c:has([rx*="4."][ry*="4."]):has([fill*="rgba(214"])[role="img"] foreignObject:after,
@@ -13533,7 +13535,7 @@ rect[fill="brand-200"] {
 	background-color: #f04747;
 }
 
-.theme-dark .wrapper__44b0c:has([fill="#ca9654"]) foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c:has([fill="#ca9654"]) .mask__44b0c foreignObject[mask*=mobile]:after,
 .theme-dark .wrapper__44b0c:has([rx*="4."][ry*="4."]):has([fill*="rgba(202, 15"])[role="img"] foreignObject:after,
 .theme-dark .wrapper__44b0c:has([rx*="4."][ry*="4."]):has([fill*="rgba(201, 15"])[role="img"] foreignObject:after,
 .theme-dark .wrapper__44b0c:has([rx*="4."][ry*="4."]):has([fill*="rgba(200, 15"])[role="img"] foreignObject:after,
@@ -14032,13 +14034,13 @@ rect[fill="brand-200"] {
 	background-color: rgba(0, 0, 0, 0) !important;
 }
 
-.theme-dark .wrapper__44b0c foreignObject[mask*=mobile][width="20"]:after {
+.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="20"]:after {
 	width: 8px;
 	height: 8px;
 	right: 1px;
 }
 
-.theme-dark .wrapper__44b0c foreignObject[mask*=mobile][width="32"]:after,
+.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="32"]:after,
 .theme-dark .wrapper__44b0c:has([rx*="4."][ry*="4."])[role="img"] foreignObject[width="32"]:after,
 .theme-dark .wrapper__44b0c:has([rx*="5."][ry*="5."])[role="img"] foreignObject[width="32"]:after {
 	width: 16px;
@@ -14046,7 +14048,15 @@ rect[fill="brand-200"] {
 	right: -1px;
 }
 
-.theme-dark .wrapper__44b0c foreignObject[mask*=mobile][width="80"]:after,
+.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="40"]:after,
+.theme-dark .wrapper__44b0c:has([rx*="4."][ry*="4."])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has([rx*="5."][ry*="5."])[role="img"] foreignObject[width="40"]:after {
+	width: 20px;
+	height: 20px;
+	right: -1px;
+}
+
+.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="80"]:after,
 .theme-dark .wrapper__44b0c:has([rx*="4."][ry*="4."])[role="img"] foreignObject[width="80"]:after,
 .theme-dark .wrapper__44b0c:has([rx*="5."][ry*="5."])[role="img"] foreignObject[width="80"]:after,
 .theme-dark .wrapper__44b0c:has([rx*="6."][ry*="6."])[role="img"] foreignObject[width="80"]:after,
@@ -14058,14 +14068,14 @@ rect[fill="brand-200"] {
 	right: -4px;
 }
 
-.theme-dark .wrapper__44b0c foreignObject[mask*=mobile][width="120"]:after,
+.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="120"]:after,
 .theme-dark .wrapper__44b0c:has([rx*="4."][ry*="4."])[role="img"] foreignObject[width="120"]:after,
 .theme-dark .wrapper__44b0c:has([rx*="5."][ry*="5."])[role="img"] foreignObject[width="120"]:after,
 .theme-dark .wrapper__44b0c:has([rx*="6."][ry*="6."])[role="img"] foreignObject[width="120"]:after,
 .theme-dark .wrapper__44b0c:has([rx*="7."][ry*="7."])[role="img"] foreignObject[width="120"]:after {
-	width: 48px;
-	height: 48px;
-	right: -7px;
+	width: 50px;
+	height: 50px;
+	right: -8px;
 }
 
 .refreshIconStroke__001a7 {
