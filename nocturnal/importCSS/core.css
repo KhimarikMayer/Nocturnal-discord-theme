@@ -4,7 +4,9 @@
 @import url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/main.css");
 
 .theme-dark .wrapper__44b0c[role="img"]:before,
+.theme-dark .wrapper__44b0c[aria-label]:before,
 .theme-dark .wrapper__44b0c:has([mask="url(#svg-mask-avatar-default)"])[role="img"][aria-label]:before,
+.theme-dark .wrapper__44b0c:has([mask="url(#svg-mask-avatar-default)"])[aria-label]:before,
 .theme-dark .container__1ce5d:before {
 	content: "";
 	position: absolute;
@@ -19,7 +21,10 @@
 
 .theme-dark [role="img"] .avatar__44b0c,
 .theme-dark [role="img"] .avatar__44b0c:before,
-.theme-dark [role="img"] .avatarSpeaking__44b0c {
+.theme-dark [role="img"] .avatarSpeaking__44b0c,
+.theme-dark .wrapper__44b0c[aria-label] .avatar__44b0c,
+.theme-dark .wrapper__44b0c[aria-label] .avatar__44b0c:before,
+.theme-dark .wrapper__44b0c[aria-label] .avatarSpeaking__44b0c {
 	margin: 2px 0 0 2px;
 	width: calc(100% - 4px);
 	height: calc(100% - 4px);
@@ -29,44 +34,46 @@
 	mask: none;
 }
 
-.theme-dark [role="img"] foreignObject img {
+.theme-dark [role="img"] foreignObject img,
+.theme-dark .wrapper__44b0c[aria-label] foreignObject img {
 	border-radius: 4px;
 }
 
 .theme-dark [role="img"] .mask__44b0c rect,
+.theme-dark .wrapper__44b0c[aria-label] .mask__44b0c rect,
 .theme-dark .container__1ce5d svg rect {
 	display: none;
 }
 
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Online"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="online"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Conectado"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="En línea"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="En ligne"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Na mreži"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Prisijungęs"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Elérhető"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Pålogget"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Dostępny"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Disponível"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Paikalla"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Trực tuyến"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Çevrimiçi"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Συνδεδεμένος"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="μέσω κινητού"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="На линия"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Онлайн"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="В сети"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="В мережі"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="ऑनलाइन"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="ออนไลน์"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="在线"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="オンライン"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="線上"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="온라인"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Çevrim içi"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="üzerinden çevrimiçi"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="透過行動裝置上線"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Online"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="online"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Conectado"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="En línea"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="En ligne"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Na mreži"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Prisijungęs"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Elérhető"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Pålogget"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Dostępny"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Disponível"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Paikalla"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Trực tuyến"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Çevrimiçi"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Συνδεδεμένος"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="μέσω κινητού"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="На линия"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Онлайн"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="В сети"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="В мережі"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="ऑनलाइन"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="ออนไลน์"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="在线"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="オンライン"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="線上"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="온라인"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Çevrim içi"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="üzerinden çevrimiçi"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="透過行動裝置上線"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#727272"])[role="img"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#727372"])[role="img"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#717472"])[role="img"]:before,
@@ -135,34 +142,34 @@
 	box-shadow: 0 0 0 2px #43b581;
 }
 
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Do Not Disturb"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Vil ikke forstyrres"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Bitte nicht stören"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="No molestar"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ne pas déranger"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ne uznemiravaj"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Non disturbare"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Netrukdyti"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Niet storen"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ikke forstyrr"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nie przeszkadzać"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Elfoglalt"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Não perturbar"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nu deranja"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Älä häiritse"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Stör ej"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Vui Lòng Không Làm Phiền"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Rahatsız Etmeyin"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nerušit"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Μην ενοχλείτε"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не ме безпокой"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не беспокоить"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не турбувати"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="ห้ามรบกวน"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="请勿打扰"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="取り込み中"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="請勿打擾"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="다른 용무 중"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Do Not Disturb"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Vil ikke forstyrres"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Bitte nicht stören"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="No molestar"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Ne pas déranger"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Ne uznemiravaj"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Non disturbare"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Netrukdyti"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Niet storen"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Ikke forstyrr"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Nie przeszkadzać"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Elfoglalt"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Não perturbar"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Nu deranja"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Älä häiritse"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Stör ej"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Vui Lòng Không Làm Phiền"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Rahatsız Etmeyin"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Nerušit"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Μην ενοχλείτε"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Не ме безпокой"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Не беспокоить"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Не турбувати"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="ห้ามรบกวน"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="请勿打扰"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="取り込み中"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="請勿打擾"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="다른 용무 중"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#898989"])[role="img"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#8a8888"])[role="img"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#8c8686"])[role="img"]:before,
@@ -234,31 +241,31 @@
 	box-shadow: 0 0 0 2px #f04747;
 }
 
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Idle"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Inaktiv"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Abwesend"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ausente"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Inactif"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="U mirovanju"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Inattivo"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Pasitraukęs"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Tétlen"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Inactief"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Zaraz wracam"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Inactiv"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Toimeton"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Chờ"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Boşta"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nečinný"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Αδρανής"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не се използва"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Неактивен"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Відійшов"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="ไม่อยู่"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="闲置"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="退席中"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="閒置"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="자리비움"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Idle"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Inaktiv"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Abwesend"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Ausente"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Inactif"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="U mirovanju"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Inattivo"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Pasitraukęs"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Tétlen"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Inactief"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Zaraz wracam"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Inactiv"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Toimeton"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Chờ"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Boşta"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Nečinný"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Αδρανής"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Не се използва"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Неактивен"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Відійшов"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="ไม่อยู่"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="闲置"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="退席中"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="閒置"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="자리비움"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#8f8f8f"])[role="img"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#908f8e"])[role="img"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#918f8d"])[role="img"]:before,
@@ -339,32 +346,32 @@
 	box-shadow: 0 0 0 2px #faa61a;
 }
 
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Streaming"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Streamer"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Transmitiendo"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="En direct"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="In diretta"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Transliuojama"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Közvetítés"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Streamt"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Strømmer"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Streamowanie"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Transmitindo"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Transmite live"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Striimaa"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Streamar"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Đang stream"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Yayın Yapıyor"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Streamuje"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ζωντανά"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Стрийминг"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Стримит"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Трансляція"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="ถ่ายทอดสด"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="正在直播"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="配信"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="直播中"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="配信"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Streaming"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Streamer"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Transmitiendo"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="En direct"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="In diretta"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Transliuojama"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Közvetítés"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Streamt"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Strømmer"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Streamowanie"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Transmitindo"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Transmite live"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Striimaa"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Streamar"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Đang stream"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Yayın Yapıyor"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Streamuje"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Ζωντανά"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Стрийминг"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Стримит"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Трансляція"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="ถ่ายทอดสด"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="正在直播"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="配信"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="直播中"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="配信"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#a3a3a3"])[role="img"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#a3a2a4"])[role="img"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#a29fa7"])[role="img"]:before,
@@ -379,54 +386,54 @@
 	box-shadow: 0 0 0 2px #6441a5;
 }
 
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Offline"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Hors ligne"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nem elérhető"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Neprisijungęs"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Niedostępny"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Izvan mreže"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="오프라인"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="離線"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="オフライン"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="离线"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="ออฟไลน์"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не в мережі"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не в сети"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Извън линия"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Αποσυνδεδεμένος"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Çevrimdışı"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ngoại tuyến"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ei paikalla"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Frakoblet"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Desconectado"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Invisible"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Usynlig"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Unsichtbar"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nevidljiv/a"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nematomas"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Izvan mreže"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nevidljiv/a"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nematomas"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Láthatatlan"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Onzichtbaar"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Usynlig"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Niewidoczny"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Invisível"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Invizibil"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Näkymätön"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Osynlig"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Vô hình"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Görünmez"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Neviditelný"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Αόρατος"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Невидим"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Невидимый"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Невидимий"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="ไม่ระบุ"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="隐身"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="オンライン状態を隠す"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="隱形"]:before,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="오프라인 표시"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Offline"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Hors ligne"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Nem elérhető"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Neprisijungęs"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Niedostępny"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Izvan mreže"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="오프라인"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="離線"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="オフライン"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="离线"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="ออฟไลน์"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Не в мережі"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Не в сети"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Извън линия"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Αποσυνδεδεμένος"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Çevrimdışı"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Ngoại tuyến"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Ei paikalla"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Frakoblet"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Desconectado"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Invisible"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Usynlig"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Unsichtbar"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Nevidljiv/a"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Nematomas"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Izvan mreže"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Nevidljiv/a"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Nematomas"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Láthatatlan"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Onzichtbaar"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Usynlig"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Niewidoczny"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Invisível"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Invizibil"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Näkymätön"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Osynlig"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Vô hình"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Görünmez"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Neviditelný"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Αόρατος"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Невидим"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Невидимый"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="Невидимий"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="ไม่ระบุ"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="隐身"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="オンライン状態を隠す"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="隱形"]:before,
+.theme-dark .wrapper__44b0c[aria-label*="오프라인 표시"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#868686"])[role="img"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#868687"])[role="img"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#858688"])[role="img"]:before,
@@ -2018,7 +2025,6 @@ svg[name=Nitro] g path {
 .theme-dark .navItem__551b0:focus-within:after,
 .theme-dark .navItem__551b0:active:after,
 .theme-dark .navItem__551b0.selected__551b0:after,
-.theme-dark .container__0f2e8:hover:after,
 .theme-dark .selected__0f2e8:after,
 .theme-dark .selected__0f2e8:hover:after {
 	transform: translateX(0);
@@ -3749,7 +3755,7 @@ span.button__67645.enabled__67645:hover,
 .editCard_a25a68.toggled_a25a68.active_cd99d3,
 .compactButton__7ff28,
 .compactButtonDisabled__7ff28,
-.collapseable__217b7:not(.appDetailsSection__50a54).groupContainer_b6a9f9::before,
+.collapseable__217b7:not(.appDetailsSection__50a54, .groupContainer_b6a9f9).groupContainer_b6a9f9::before,
 .icon__1b24f,
 .experimentUpsellError__9b0f4,
 .akaBadge__488b1 {
@@ -3826,7 +3832,7 @@ span.button__67645.enabled__67645:hover,
 	background-color: #fff;
 }
 
-.collapseable__217b7:not(.appDetailsSection__50a54),
+.collapseable__217b7:not(.appDetailsSection__50a54, .groupContainer_b6a9f9),
 .wrapper__83b1d,
 .tileContainer__71eb2:hover,
 .tileContainer__71eb2[aria-expanded=true] {
@@ -3847,7 +3853,7 @@ span.button__67645.enabled__67645:hover,
 }
 
 .upsellContainer_c0eeaa {
-	background: url(https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/e392b6b2f35db628.svg),linear-gradient(to top right, var(--primaryGradient1), var(--primaryGradient2));
+	background: url(https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/e392b6b2f35db628.svg), linear-gradient(to top right, var(--primaryGradient1), var(--primaryGradient2));
 	background-size: 100%;
 }
 
@@ -4209,10 +4215,14 @@ span.button__67645.enabled__67645:hover,
 .increasedActivityMainCard_e53744,
 .post_ee8e87,
 .tag_ee8e87,
-.groupContainer_b6a9f9,
 .noAvatarIcon__6764b {
 	background-color: var(--backgroundLight);
 	border: none;
+}
+
+.groupContainer_b6a9f9,
+.collapseable__217b7:active {
+	background-color: var(--backgroundDark-30);
 }
 
 .mainCard_f369db:not(.header_f369db) {
@@ -4330,6 +4340,7 @@ span.button__67645.enabled__67645:hover,
 	border-radius: 5px;
 }
 
+.collapseable__217b7.toggled__217b7:active,
 .formSection_fc200b,
 .placeholder__2dc39,
 .usagePill__74f72,
@@ -4479,23 +4490,28 @@ span.button__67645.enabled__67645:hover,
 }
 
 .backgroundModifierContainer__6cd3a {
-	background-color: var(--backgroundDarker);
-	border-color: rgba(0, 0, 0, 0);
+	background-color: var(--backgroundLight);
+	border: 1px solid rgba(0, 0, 0, 0);
+	border-left: 3px solid var(--backgroundDarker);
 }
 
 .backgroundModifierContainer__6cd3a:hover:not(.disabled__6cd3a):not(.noAction__6cd3a) {
-	background-color: var(--backgroundDarker-alt);
+	background-color: var(--backgroundLighter);
 }
 
-.editCard_a25a68 .richTag__0e476,
 .backgroundModifierContainer__6cd3a:active:not(.disabled__6cd3a):not(.noAction__6cd3a) {
-	background-color: hsl(220 calc(var(--saturation-factor)*20%) 6% /1);
+	background-color: var(--backgroundLighter-alt);
 }
 
 .backgroundModifierContainer__6cd3a.selected__6cd3a {
-	background-color: hsl(225 calc(var(--saturation-factor)*20%) 4% /1);
+	background-color: #282e3c;
 }
 
+.editCard_a25a68 .richTag__0e476 {
+	background-color: hsl(220 calc(var(--saturation-factor)*20%) 6% /1);
+}
+
+.accent__6cd3a,
 .accent__6cd3a.disabled__6cd3a,
 .statusYellow__6cd3a.disabled__6cd3a {
 	border-left: 3px solid #747f8d;
@@ -4537,7 +4553,6 @@ span.button__67645.enabled__67645:hover,
 	background-color: #747f8d !important;
 }
 
-.clickableContainer__6cd3a,
 .options__5b002,
 .container__0800c,
 .containerBackground_d4ced7 {
@@ -4554,14 +4569,15 @@ span.button__67645.enabled__67645:hover,
 	border-bottom: 1px solid var(--backgroundDark-95);
 }
 
-.collapseable__217b7:not(.appDetailsSection__50a54):active {
-	background-color: var(--backgroundDark-35);
+.collapseable__217b7:not(.appDetailsSection__50a54, .groupContainer_b6a9f9):active {
+	background-color: var(--backgroundDark-40);
 }
 
 .containerBackground_d4ced7 {
 	border: none;
 }
 
+.clickableContainer__6cd3a,
 .option__8e5b0:hover,
 .container_c02108,
 .editCard_a25a68 .tag__0e476:hover,
@@ -4774,7 +4790,7 @@ span.button__67645.enabled__67645:hover,
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
 }
 
-.collapseable__217b7:not(.appDetailsSection__50a54).toggled__217b7:active,
+.collapseable__217b7:not(.appDetailsSection__50a54, .groupContainer_b6a9f9).toggled__217b7:active,
 .dropCard_e8af36,
 .tierInfoContainer__3efc4,
 #bd-editor-controls,
@@ -6595,16 +6611,17 @@ body,
 	border-color: rgba(0, 0, 0, 0);
 }
 
-.container__53cea,
-.bar__7aaec {
+.container__53cea {
 	background-color: var(--backgroundDark);
 	border: none;
 	box-shadow: 0 12px 24px 0 hsl(none 0% 0%/0.5);
 }
 
 .voiceBar__7aaec,
-.mentionsBar__7aaec {
+.mentionsBar__7aaec,
+.bar__7aaec {
 	background-color: var(--primary);
+	box-shadow: 0 12px 24px 0 hsl(none 0% 0%/0.24);
 }
 
 .popoutRoot__79cbe.right__79cbe.arrowAlignmentMiddle__79cbe:before,
@@ -6612,6 +6629,7 @@ body,
 	border-right-color: var(--backgroundDark);
 }
 
+.unreadIcon__7aaec,
 .bd-server-description,
 .bd-server-count-text {
 	color: #fff;
@@ -7616,6 +7634,7 @@ path[stroke="rgb(123,162,255)"] {
 	border: none;
 }
 
+.itemBodyInner__5dac8,
 .unicodeShortcut_b9ee0c,
 .divider__5a4b6,
 .sidebar__8e830,
@@ -9501,7 +9520,8 @@ rect[fill="var(--control-brand-foreground)"] {
 .avatar_f24497,
 .folderButtonInner__48112,
 .loadingItem__764cd>:first-child,
-.circular__1df30 {
+.circular__1df30,
+.groupContainer_b6a9f9 {
 	border-radius: 8px;
 }
 
@@ -12748,147 +12768,147 @@ rect[fill="brand-200"] {
 }
 
 .theme-dark .wrapper__44b0c:has([fill="#43a25a"]) .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Online"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="online"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Conectado"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="En línea"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="En ligne"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Na mreži"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Prisijungęs"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Elérhető"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Pålogget"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Dostępny"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Disponível"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Paikalla"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Trực tuyến"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Çevrimiçi"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Συνδεδεμένος"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="μέσω κινητού"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="На линия"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Онлайн"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="В сети"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="В мережі"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="ऑनलाइन"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="ออนไลน์"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="在线"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="オンライン"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="線上"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="온라인"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Çevrim içi"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="üzerinden çevrimiçi"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="透過行動裝置上線"] foreignObject:after {
+.theme-dark .wrapper__44b0c[aria-label*="Online"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="online"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Conectado"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="En línea"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="En ligne"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Na mreži"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Prisijungęs"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Elérhető"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Pålogget"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Dostępny"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Disponível"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Paikalla"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Trực tuyến"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Çevrimiçi"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Συνδεδεμένος"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="μέσω κινητού"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="На линия"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Онлайн"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="В сети"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="В мережі"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="ऑनलाइन"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="ออนไลน์"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="在线"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="オンライン"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="線上"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="온라인"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Çevrim içi"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="üzerinden çevrimiçi"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="透過行動裝置上線"] foreignObject:after {
 	background-color: #43b581;
 }
 
 .theme-dark .wrapper__44b0c:has([fill="#d83a42"]) .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Do Not Disturb"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Vil ikke forstyrres"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Bitte nicht stören"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="No molestar"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ne pas déranger"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ne uznemiravaj"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Non disturbare"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Netrukdyti"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Niet storen"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ikke forstyrr"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nie przeszkadzać"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Elfoglalt"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Não perturbar"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nu deranja"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Älä häiritse"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Stör ej"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Vui Lòng Không Làm Phiền"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Rahatsız Etmeyin"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nerušit"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Μην ενοχλείτε"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не ме безпокой"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не беспокоить"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не турбувати"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="ห้ามรบกวน"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="请勿打扰"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="取り込み中"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="請勿打擾"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="다른 용무 중"] foreignObject:after {
+.theme-dark .wrapper__44b0c[aria-label*="Do Not Disturb"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Vil ikke forstyrres"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Bitte nicht stören"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="No molestar"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Ne pas déranger"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Ne uznemiravaj"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Non disturbare"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Netrukdyti"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Niet storen"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Ikke forstyrr"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Nie przeszkadzać"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Elfoglalt"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Não perturbar"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Nu deranja"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Älä häiritse"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Stör ej"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Vui Lòng Không Làm Phiền"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Rahatsız Etmeyin"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Nerušit"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Μην ενοχλείτε"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Не ме безпокой"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Не беспокоить"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Не турбувати"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="ห้ามรบกวน"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="请勿打扰"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="取り込み中"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="請勿打擾"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="다른 용무 중"] foreignObject:after {
 	background-color: #f04747;
 }
 
 .theme-dark .wrapper__44b0c:has([fill="#ca9654"]) .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Idle"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Inaktiv"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Abwesend"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ausente"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Inactif"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="U mirovanju"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Inattivo"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Pasitraukęs"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Tétlen"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Inactief"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Zaraz wracam"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Inactiv"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Toimeton"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Chờ"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Boşta"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nečinný"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Αδρανής"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не се използва"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Неактивен"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Відійшов"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="ไม่อยู่"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="闲置"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="退席中"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="閒置"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="자리비움"] foreignObject:after {
+.theme-dark .wrapper__44b0c[aria-label*="Idle"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Inaktiv"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Abwesend"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Ausente"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Inactif"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="U mirovanju"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Inattivo"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Pasitraukęs"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Tétlen"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Inactief"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Zaraz wracam"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Inactiv"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Toimeton"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Chờ"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Boşta"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Nečinný"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Αδρανής"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Не се използва"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Неактивен"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="Відійшов"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="ไม่อยู่"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="闲置"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="退席中"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="閒置"] foreignObject:after,
+.theme-dark .wrapper__44b0c[aria-label*="자리비움"] foreignObject:after {
 	background-color: #faa61a;
 }
 
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Offline"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Hors ligne"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nem elérhető"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Neprisijungęs"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Niedostępny"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Izvan mreže"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="오프라인"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="離線"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="オフライン"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="离线"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="ออฟไลน์"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не в мережі"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не в сети"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Извън линия"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Αποσυνδεδεμένος"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Çevrimdışı"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ngoại tuyến"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ei paikalla"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Frakoblet"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Desconectado"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Invisible"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Usynlig"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Unsichtbar"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nevidljiv/a"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nematomas"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Izvan mreže"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nevidljiv/a"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nematomas"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Láthatatlan"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Onzichtbaar"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Usynlig"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Niewidoczny"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Invisível"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Invizibil"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Näkymätön"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Osynlig"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Vô hình"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Görünmez"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Neviditelný"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Αόρατος"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Невидим"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Невидимый"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Невидимий"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="ไม่ระบุ"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="隐身"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="オンライン状態を隠す"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="隱形"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="오프라인 표시"] .mask__44b0c foreignObject[mask*=mobile]:after {
+.theme-dark .wrapper__44b0c[aria-label*="Offline"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Hors ligne"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Nem elérhető"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Neprisijungęs"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Niedostępny"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Izvan mreže"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="오프라인"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="離線"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="オフライン"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="离线"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="ออฟไลน์"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Не в мережі"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Не в сети"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Извън линия"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Αποσυνδεδεμένος"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Çevrimdışı"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Ngoại tuyến"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Ei paikalla"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Frakoblet"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Desconectado"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Invisible"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Usynlig"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Unsichtbar"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Nevidljiv/a"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Nematomas"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Izvan mreže"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Nevidljiv/a"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Nematomas"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Láthatatlan"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Onzichtbaar"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Usynlig"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Niewidoczny"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Invisível"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Invizibil"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Näkymätön"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Osynlig"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Vô hình"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Görünmez"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Neviditelný"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Αόρατος"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Невидим"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Невидимый"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="Невидимий"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="ไม่ระบุ"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="隐身"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="オンライン状態を隠す"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="隱形"] .mask__44b0c foreignObject[mask*=mobile]:after,
+.theme-dark .wrapper__44b0c[aria-label*="오프라인 표시"] .mask__44b0c foreignObject[mask*=mobile]:after {
 	background-color: #747f8d;
 }
 
@@ -13814,4 +13834,8 @@ svg.thumbnail__0f2e8 {
 
 .addMembersContainer_ac72c6 {
 	overflow: hidden !important;
+}
+
+[id=vc-friendcount] {
+	padding-left: 3px;
 }
