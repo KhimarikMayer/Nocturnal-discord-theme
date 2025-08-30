@@ -7616,6 +7616,7 @@ path[stroke="rgb(123,162,255)"] {
 	border: none;
 }
 
+.divider__5a4b6,
 .sidebar__8e830,
 .paginationContainer_e8f197,
 .table_b4ec0b,
@@ -8283,7 +8284,6 @@ span.clanTag__07f91,
 .forwardPreviewWrapper__62280,
 .benefits__000a3,
 .targetItem__3297f:not(:last-child),
-.divider__5a4b6,
 .intentsList__8f46b,
 .bd-install-modal-items>.bd-install-modal-item:not(:last-child),
 .appContainer_f37514,
@@ -8376,7 +8376,6 @@ span.clanTag__07f91,
 .underline__761e5,
 .voiceChannelDivider__39ec2,
 .tabs__50387:after,
-.divider_c4b47c,
 .divider__17efa,
 .separator__2dc49,
 .divider__864b0,
@@ -9327,8 +9326,7 @@ rect[fill="var(--control-brand-foreground)"] {
 
 .container_cd1bf7,
 .applicationStore_f07d62,
-.container__49668,
-.container_cbd375 {
+.container__49668 {
 	border-left: solid 1px var(--backgroundDark-25) !important;
 }
 
@@ -11012,6 +11010,7 @@ div.cardContainer__88e24,
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
 }
 
+.divider_c4b47c,
 .memberRowContainer__71c22 td:after,
 .divider_dbba93,
 .divider_f83afb,
