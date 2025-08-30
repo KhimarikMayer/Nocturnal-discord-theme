@@ -8132,6 +8132,8 @@ rect[fill="rgb(123,162,255)"] {
 	border: none;
 }
 
+.activity__7ba6e+.activity__7ba6e,
+.separator__5808f,
 .bottomDivider__01014,
 .customizationSection__42179.opened__42179,
 .itemBodyInner__5dac8,
@@ -8712,7 +8714,6 @@ span.clanTag__07f91,
 .leaveActionWrapper__964b4,
 .optionContainer__47458,
 .optionContainer__7e1d8,
-.guildCategorySeparator__3ad28,
 .list__5b98e,
 .termsRow_fe70ca,
 .tabContainer__49668,
@@ -8761,7 +8762,6 @@ span.clanTag__07f91,
 .sectionAccountCredit_e70817,
 .rowBottomBorder_e4ef5c,
 .profilePanel_b433b4 .theme-dark.outer_c0bea0:not(.custom-theme-background) .mutualFriendsDivider_b433b4,
-.activity__7ba6e+.activity__7ba6e,
 .resultsGroup__56fec:before,
 .divider_b962dc,
 .guildCategorySeparator_b9ee0c,
@@ -8774,7 +8774,6 @@ span.clanTag__07f91,
 .modalFooter_e6fa8e,
 .divider__5c799,
 .separator__5e7b0,
-.separator__5808f,
 .clipFormFooter__54978,
 .container__34c2c,
 .messageRequestItem_abb9ad:not(.firstItem_abb9ad),
@@ -8865,7 +8864,6 @@ span.clanTag__07f91,
 .divider__0651b,
 .separator__812a7,
 .separator_e4503a,
-.headerDivider__4e30a,
 .divider__9293f,
 .bullet_f0dcaf,
 .divider_a39aa3,
@@ -11529,6 +11527,7 @@ div.cardContainer__88e24,
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
 }
 
+.headerDivider__4e30a,
 .divider_c4b47c,
 .memberRowContainer__71c22 td:after,
 .divider_dbba93,
@@ -14298,6 +14297,7 @@ svg.thumbnail__0f2e8 {
 	padding-right: 0 !important;
 }
 
+.guildCategorySeparator__3ad28,
 .row__19fd1,
 .cell_f70307 {
 	border-color: var(--backgroundDark-40);
@@ -14346,4 +14346,14 @@ svg.thumbnail__0f2e8 {
 .folderGroup__48112[data-drop-hovering=true].isExpanded__48112 .folderGroupBackground__48112 {
 	background-color: var(--primary-28);
 	border-color: var(--primary);
+}
+
+.wrapper__44b0c.avatarSize_b2d72f[style="width: 16px; height: 16px;"][aria-label]:before {
+	width: calc(100% - 8px) !important;
+	height: calc(100% - 8px) !important;
+}
+
+.wrapper__44b0c.avatarSize_b2d72f[style="width: 24px; height: 24px;"][aria-label]:before {
+	width: calc(100%) !important;
+	height: calc(100%) !important;
 }
