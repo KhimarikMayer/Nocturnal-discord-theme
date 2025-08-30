@@ -2645,14 +2645,14 @@ svg[name=Nitro] g path {
 	padding: 10px 0;
 }
 
-.lookOutlined__201d5.colorGreen__201d5 {
+.theme-dark .lookOutlined__201d5.colorGreen__201d5 {
 	color: hsl(225 calc(var(--saturation-factor)*38%) 30% /1);
 	border-width: 2px;
 	border-color: hsl(225 calc(var(--saturation-factor)*38%) 30% /1);
 	border-radius: 6px;
 }
 
-.lookOutlined__201d5.colorGreen__201d5:active {
+.theme-dark .lookOutlined__201d5.colorGreen__201d5:active {
 	background-color: hsl(225 calc(var(--saturation-factor)*38%) 30% /.3);
 	border-color: hsl(225 calc(var(--saturation-factor)*38%) 30% /1);
 	color: hsl(225 calc(var(--saturation-factor)*38%) 30% /1);
