@@ -14354,6 +14354,6 @@ svg.thumbnail__0f2e8 {
 }
 
 .wrapper__44b0c.avatarSize_b2d72f[style="width: 24px; height: 24px;"][aria-label]:before {
-	width: calc(100%) !important;
-	height: calc(100%) !important;
+	width: 100% !important;
+	height: 100% !important;
 }
