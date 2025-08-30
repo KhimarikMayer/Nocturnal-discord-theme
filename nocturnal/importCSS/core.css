@@ -7616,6 +7616,7 @@ path[stroke="rgb(123,162,255)"] {
 	border: none;
 }
 
+.unicodeShortcut_b9ee0c,
 .divider__5a4b6,
 .sidebar__8e830,
 .paginationContainer_e8f197,
@@ -8106,6 +8107,7 @@ span.clanTag__07f91,
 .memberRowContainer__71c22.selected__71c22 td,
 .chipletContainerInner__10651.noTooltip__10651:hover,
 .chipletContainerInner__10651.clickable__10651:not(.guildTag__63ed3):hover,
+.compact_c19a55 .clanTagChiplet_c19a55>span:hover,
 .row_b1c9f2:hover,
 .iconContainer_eaaeee,
 .modInfoAction__96c0b:hover,
@@ -8288,7 +8290,6 @@ span.clanTag__07f91,
 .bd-install-modal-items>.bd-install-modal-item:not(:last-child),
 .appContainer_f37514,
 .accessoryBar__74017,
-.unicodeShortcut_b9ee0c,
 .cardFooter__5bdf8,
 .characterCount__795fb,
 .stackedBars__74017:not(:last-child),
@@ -8577,21 +8578,22 @@ h3.improved__1689b:after,
 	background-color: #0082c8;
 }
 
-.firstPartyCategory__3ad28:hover,
-.categoryItemDefaultCategory_b9ee0c:hover,
 .VoiceActivity-guildimage-defaultIcon {
 	background-color: var(--backgroundDark-50);
-	border: none;
 }
 
-.compact_c19a55 .clanTagChiplet_c19a55>span:hover,
+.firstPartyCategory__3ad28:hover,
+.categoryItemDefaultCategory_b9ee0c:hover {
+	background-color: var(--backgroundDark-25);
+}
+
 .categoryItemDefaultCategorySelected_b9ee0c,
 .categoryItemDefaultCategorySelected_b9ee0c:hover,
 .firstPartyCategorySelected__3ad28,
 .firstPartyCategorySelected__3ad28:hover,
 .stickerCategoryGenericSelected__3ad28,
 .stickerCategoryGenericSelected__3ad28:hover {
-	background-color: var(--backgroundDark-100);
+	background-color: var(--backgroundDark-45);
 }
 
 .VoiceActivity-voiceprofilesection-button:hover {
@@ -8776,7 +8778,8 @@ h3.improved__1689b:after,
 
 .addReactButton_c67c5a,
 .loadMoreBar__38524,
-.tableOptions__98d1c .button__51120:hover {
+.tableOptions__98d1c .button__51120:hover,
+.category_fe77d6.selected_fe77d6 {
 	background-color: var(--backgroundDark-25);
 }
 
@@ -9719,8 +9722,7 @@ div.cardContainer__88e24,
 .expandedProgressBarContainerSettingsPage_a61c56,
 .sectionContent_da32a8 .pillContainer__9e06a,
 .channels__4126d,
-.filter_b02222:active,
-.selected_fe77d6 {
+.filter_b02222:active {
 	background-color: var(--backgroundDark-30);
 	border: none;
 }
@@ -10625,7 +10627,6 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .avatar__49094,
 .container_b15955,
 .menuItem__8683b,
-.category_fe77d6,
 .smallImageContainer_ef9ae7,
 .placeholderItem__87dda,
 .appIcon_f37514,
