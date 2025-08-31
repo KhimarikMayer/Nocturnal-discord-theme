@@ -234,7 +234,8 @@
 }
 
 /* ⛏️ Wumpus Mining */
-[style*='background-image: url("/assets/5800882047a89a6a.svg");'] {
+[style*='background-image: url("/assets/5800882047a89a6a.svg");'],
+[style*='background-image: url("/assets/99ad5845cf7de1c326e2.svg");'] {
     background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/wumpus_mining.svg") !important;
 }
 
