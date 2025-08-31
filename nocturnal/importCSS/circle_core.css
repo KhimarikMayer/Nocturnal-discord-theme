@@ -1,4 +1,4 @@
-@import url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/old-whitney-font.css");
+=@import url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/old-whitney-font.css");
 @import url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/miscellaneous.css");
 @import url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/themedthingsonthemedprofiles.css");
 @import url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/main.css");
@@ -45,6 +45,35 @@
 	display: none;
 }
 
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Online"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="online"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Conectado"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="En línea"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="En ligne"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Na mreži"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Prisijungęs"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Elérhető"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Pålogget"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Dostępny"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Disponível"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Paikalla"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Trực tuyến"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Çevrimiçi"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Συνδεδεμένος"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="μέσω κινητού"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="На линия"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Онлайн"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="В сети"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="В мережі"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="ऑनलाइन"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="ออนไลน์"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="在线"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="オンライン"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="線上"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="온라인"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Çevrim içi"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="üzerinden çevrimiçi"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="透過行動裝置上線"]:before,
 .theme-dark .wrapper__44b0c[aria-label*="Online"]:before,
 .theme-dark .wrapper__44b0c[aria-label*="online"]:before,
 .theme-dark .wrapper__44b0c[aria-label*="Conectado"]:before,
@@ -142,6 +171,34 @@
 	box-shadow: 0 0 0 2px #43b581;
 }
 
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Do Not Disturb"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Vil ikke forstyrres"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Bitte nicht stören"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="No molestar"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ne pas déranger"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ne uznemiravaj"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Non disturbare"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Netrukdyti"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Niet storen"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ikke forstyrr"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nie przeszkadzać"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Elfoglalt"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Não perturbar"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nu deranja"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Älä häiritse"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Stör ej"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Vui Lòng Không Làm Phiền"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Rahatsız Etmeyin"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nerušit"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Μην ενοχλείτε"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не ме безпокой"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не беспокоить"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не турбувати"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="ห้ามรบกวน"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="请勿打扰"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="取り込み中"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="請勿打擾"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="다른 용무 중"]:before,
 .theme-dark .wrapper__44b0c[aria-label*="Do Not Disturb"]:before,
 .theme-dark .wrapper__44b0c[aria-label*="Vil ikke forstyrres"]:before,
 .theme-dark .wrapper__44b0c[aria-label*="Bitte nicht stören"]:before,
@@ -241,6 +298,31 @@
 	box-shadow: 0 0 0 2px #f04747;
 }
 
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Idle"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Inaktiv"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Abwesend"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ausente"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Inactif"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="U mirovanju"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Inattivo"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Pasitraukęs"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Tétlen"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Inactief"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Zaraz wracam"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Inactiv"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Toimeton"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Chờ"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Boşta"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nečinný"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Αδρανής"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не се използва"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Неактивен"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Відійшов"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="ไม่อยู่"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="闲置"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="退席中"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="閒置"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="자리비움"]:before,
 .theme-dark .wrapper__44b0c[aria-label*="Idle"]:before,
 .theme-dark .wrapper__44b0c[aria-label*="Inaktiv"]:before,
 .theme-dark .wrapper__44b0c[aria-label*="Abwesend"]:before,
@@ -346,46 +428,83 @@
 	box-shadow: 0 0 0 2px #faa61a;
 }
 
-.theme-dark .wrapper__44b0c[aria-label*="Streaming"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="Streamer"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="Transmitiendo"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="En direct"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="In diretta"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="Transliuojama"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="Közvetítés"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="Streamt"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="Strømmer"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="Streamowanie"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="Transmitindo"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="Transmite live"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="Striimaa"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="Streamar"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="Đang stream"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="Yayın Yapıyor"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="Streamuje"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="Ζωντανά"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="Стрийминг"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="Стримит"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="Трансляція"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="ถ่ายทอดสด"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="正在直播"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="配信"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="直播中"]:before,
-.theme-dark .wrapper__44b0c[aria-label*="配信"]:before,
-.theme-dark .wrapper__44b0c:has([fill="#a3a3a3"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([fill="#a3a2a4"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([fill="#a29fa7"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([fill="#a29bab"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([fill="#a094b2"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([fill="#9e8cba"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([fill="#9c82c4"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([fill="#9a76d0"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([fill="#9868de"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([fill="#9558ee"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([fill="#9147ff"])[role="img"]:before {
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Streaming"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Streamer"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Transmitiendo"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="En direct"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="In diretta"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Transliuojama"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Közvetítés"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Streamt"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Strømmer"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Streamowanie"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Transmitindo"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Transmite live"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Striimaa"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Streamar"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Đang stream"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Yayın Yapıyor"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Streamuje"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ζωντανά"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Стрийминг"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Стримит"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Трансляція"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="ถ่ายทอดสด"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="正在直播"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="配信"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="直播中"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="配信"]:before {
 	box-shadow: 0 0 0 2px #6441a5;
 }
 
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Offline"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Hors ligne"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nem elérhető"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Neprisijungęs"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Niedostępny"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Izvan mreže"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="오프라인"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="離線"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="オフライン"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="离线"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="ออฟไลน์"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не в мережі"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не в сети"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Извън линия"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Αποσυνδεδεμένος"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Çevrimdışı"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ngoại tuyến"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ei paikalla"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Frakoblet"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Desconectado"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Invisible"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Usynlig"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Unsichtbar"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nevidljiv/a"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nematomas"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Izvan mreže"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nevidljiv/a"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nematomas"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Láthatatlan"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Onzichtbaar"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Usynlig"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Niewidoczny"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Invisível"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Invizibil"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Näkymätön"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Osynlig"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Vô hình"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Görünmez"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Neviditelný"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Αόρατος"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Невидим"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Невидимый"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="Невидимий"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="ไม่ระบุ"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="隐身"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="オンライン状態を隠す"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="隱形"]:before,
+.theme-dark .wrapper__44b0c[role="img"][aria-label*="오프라인 표시"]:before,
 .theme-dark .wrapper__44b0c[aria-label*="Offline"]:before,
 .theme-dark .wrapper__44b0c[aria-label*="Hors ligne"]:before,
 .theme-dark .wrapper__44b0c[aria-label*="Nem elérhető"]:before,
@@ -434,6 +553,14 @@
 .theme-dark .wrapper__44b0c[aria-label*="オンライン状態を隠す"]:before,
 .theme-dark .wrapper__44b0c[aria-label*="隱形"]:before,
 .theme-dark .wrapper__44b0c[aria-label*="오프라인 표시"]:before,
+.theme-dark .wrapper__44b0c:has([fill="#868686"])[role="img"]:before,
+.theme-dark .wrapper__44b0c:has([fill="#868687"])[role="img"]:before,
+.theme-dark .wrapper__44b0c:has([fill="#858688"])[role="img"]:before,
+.theme-dark .wrapper__44b0c:has([fill="#858588"])[role="img"]:before,
+.theme-dark .wrapper__44b0c:has([fill="#848589"])[role="img"]:before,
+.theme-dark .wrapper__44b0c:has([fill="#848489"])[role="img"]:before,
+.theme-dark .wrapper__44b0c:has([fill="#82838b"])[role="img"]:before,
+.theme-dark .wrapper__44b0c:has([fill*="rgba(130"])[role="img"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#868686"])[role="img"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#868687"])[role="img"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#858688"])[role="img"]:before,
@@ -2383,7 +2510,8 @@ svg[name=Nitro] g path {
 }
 
 .noIcon_f34534,
-.childWrapperNoHoverBg__6e9f8 {
+.childWrapperNoHoverBg__6e9f8,
+.VoiceActivity-guildimage-defaultIcon {
 	background-color: var(--backgroundDark-50);
 }
 
@@ -4006,6 +4134,7 @@ span.button__67645.enabled__67645:hover,
 	background-color: hsl(207 calc(var(--saturation-factor)*100%) 41% /1);
 }
 
+.VoiceActivity-voiceicon-iconLive,
 .bd-toast.toast-success,
 .toast.toast-success,
 .bd-toast.toast-info,
@@ -6895,7 +7024,7 @@ body,
 	background-size: 200% 200%
 }
 
-.activeIcon_d40c56 circle[fill*="var(--brand-500)"],
+circle[fill="var(--brand-500)"],
 .animationContainer_a2241a path[fill="rgb(241,90,82)"] {
 	fill: var(--primary);
 }
@@ -7996,6 +8125,8 @@ rect[fill="rgb(123,162,255)"] {
 	border: none;
 }
 
+.selectorGroup_c248b6:not(:last-child),
+.separator__920b8,
 .activity__7ba6e+.activity__7ba6e,
 .separator__5808f,
 .bottomDivider__01014,
@@ -8330,8 +8461,6 @@ rect[fill="rgb(123,162,255)"] {
 .circle__8cc9a,
 .iconContainer__0624f,
 .playbackRate_a8e786,
-.chipletContainerInner__10651:not(.guildTag__63ed3),
-span.clanTag__07f91,
 .bumpBox_cacd02,
 .memberRowContainer__71c22:hover td,
 .row_fec266,
@@ -8488,9 +8617,6 @@ span.clanTag__07f91,
 }
 
 .memberRowContainer__71c22.selected__71c22 td,
-.chipletContainerInner__10651.noTooltip__10651:hover,
-.chipletContainerInner__10651.clickable__10651:not(.guildTag__63ed3):hover,
-.compact_c19a55 .clanTagChiplet_c19a55>span:hover,
 .row_b1c9f2:hover,
 .iconContainer_eaaeee,
 .modInfoAction__96c0b:hover,
@@ -8502,7 +8628,6 @@ span.clanTag__07f91,
 .clickable__761e5:hover,
 .contentContainer_c55cae,
 .autocompletePlaceholder__13533,
-.clickable__10651:hover,
 .iconPlaceholder_ccbbbb,
 .bannerImage_ccbbbb,
 .textPlaceholder_ccbbbb,
@@ -8513,10 +8638,22 @@ span.clanTag__07f91,
 	border: none;
 }
 
+.chipletContainerInner__10651:not(.guildTag__63ed3),
+span.clanTag__07f91:not(.guildTag__63ed3) {
+	background-color: var(--backgroundDark-20);
+}
+
+.chipletContainerInner__10651.noTooltip__10651:not(.guildTag__63ed3):hover,
+.clickable__10651:not(.guildTag__63ed3):hover,
+.compact_c19a55 .clanTagChiplet_c19a55>span:hover,
 .listItemContainer__7c901:active,
 .floating-window-buttons .maximize-button:active,
 .clickable__761e5:active {
 	background-color: var(--backgroundDark-40);
+}
+
+.listDefault__07f91 .clickable__07f91:hover .clanTag__07f91:not(.guildTag__63ed3) {
+	background-color: hsl(220 calc(var(--saturation-factor)*20%) 6% /1);
 }
 
 .hoverActiveBackground__9be63:hover,
@@ -8593,7 +8730,6 @@ span.clanTag__07f91,
 .container__0d706,
 .container__41445,
 .settingsTabBar_f62afd,
-.selectorGroup_c248b6:not(:last-child),
 .header__03630,
 .separator_a1eac2,
 .separator_aa63ab:before,
@@ -8629,7 +8765,6 @@ span.clanTag__07f91,
 .guildCategorySeparator_b9ee0c,
 .feedItemHeader_ec3bdb,
 .separator_e825f6,
-.separator__920b8,
 .divider_fa0751,
 .rulesScreeningItems_c21410>div,
 .staticDivider_bba883,
@@ -8936,18 +9071,6 @@ h3.improved__1689b:after,
 	background-image: url('https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/wumpus_tea_party.svg');
 }
 
-.theme-dark .VoiceActivity-voiceicon-iconLive {
-	background-color: var(--primary);
-}
-
-.theme-dark .VoiceActivity-voiceicon-iconLive:hover {
-	background-color: hsl(201 calc(var(--saturation-factor)*100%) 39% /1);
-}
-
-.VoiceActivity-guildimage-defaultIcon {
-	background-color: var(--backgroundDark-50);
-}
-
 .firstPartyCategory__3ad28:hover,
 .categoryItemDefaultCategory_b9ee0c:hover {
 	background-color: var(--backgroundDark-25);
@@ -9087,7 +9210,6 @@ h3.improved__1689b:after,
 	bottom: -8px;
 }
 
-.listDefault__07f91 .clickable__07f91:hover .clanTag__07f91,
 .selected_afa88e,
 .filter_b02222 {
 	background-color: var(--backgroundDark-45);
@@ -9701,6 +9823,7 @@ rect[fill="var(--control-brand-foreground)"] {
 	background-color: var(--backgroundLight);
 }
 
+.clipBadgeText__8c88a,
 .clipBadgeText_f5874d,
 .activityNewBadge__44107 {
 	background-color: var(--primary) !important;
@@ -13077,7 +13200,12 @@ rect[fill="brand-200"] {
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4."][ry*="4."])[role="img"] foreignObject[width="32"],
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="32"],
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="32"],
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="32"] {
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="32"],
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="40"],
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="40"],
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="40"],
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject[width="40"],
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."])[role="img"] foreignObject[width="40"] {
 	width: calc(100% + 4px);
 }
 
@@ -13093,7 +13221,12 @@ rect[fill="brand-200"] {
 	width: 28px;
 }
 
-.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*="mobile"][width="40"] img {
+.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*="mobile"][width="40"] img,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="40"] img,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="40"] img,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="40"] img,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject[width="40"] img,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."])[role="img"] foreignObject[width="40"] img {
 	width: 36px;
 }
 
@@ -13103,7 +13236,12 @@ rect[fill="brand-200"] {
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."]):has(foreignObject[width="32"])[role="img"] .mask__44b0c:not(:root),
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."]):has(foreignObject[width="32"])[role="img"] .mask__44b0c:not(:root),
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."]):has(foreignObject[width="32"])[role="img"] .mask__44b0c:not(:root),
-.theme-dark .wrapper__44b0c:has(.mask__44b0c foreignObject[mask*="mobile"][width="40"]) svg:not(:root) {
+.theme-dark .wrapper__44b0c:has(.mask__44b0c foreignObject[mask*="mobile"][width="40"]) svg:not(:root),
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."]):has(foreignObject[width="40"])[role="img"] .mask__44b0c:not(:root),
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."]):has(foreignObject[width="40"])[role="img"] .mask__44b0c:not(:root),
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."]):has(foreignObject[width="40"])[role="img"] .mask__44b0c:not(:root),
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."]):has(foreignObject[width="40"])[role="img"] .mask__44b0c:not(:root),
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."]):has(foreignObject[width="40"])[role="img"] .mask__44b0c:not(:root) {
 	overflow: visible;
 }
 
@@ -13273,7 +13411,12 @@ rect[fill="brand-200"] {
 	transform: translateY(-50%);
 }
 
-.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="40"]:after {
+.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."])[role="img"] foreignObject[width="40"]:after {
 	width: 14px;
 	height: 14px;
 	right: 1px;
@@ -13869,10 +14012,10 @@ svg[color="var(--brand-500)"] {
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-30) !important;
 }
 
-.overlay_c0bea0:has([style*="/assets/f6833ce4dd20c1fb.svg"]) .lookFilled__201d5.colorPrimary__201d5:not(.color_f9d37d.banner_fb7f94, :disabled),
-.custom-user-profile-theme .overlay_c0bea0:has([style*="/assets/f6833ce4dd20c1fb.svg"]) .lookFilled__201d5.colorPrimary__201d5:not(.color_f9d37d.banner_fb7f94, :disabled),
-.overlay_c0bea0:has([style*="/assets/c4f09fda61827e19.svg"]):has(.tabularNumbers__4bd52) .lookFilled__201d5.colorPrimary__201d5:not(.color_f9d37d.banner_fb7f94, :disabled),
-.custom-user-profile-theme .overlay_c0bea0:has([style*="/assets/c4f09fda61827e19.svg"]):has(.tabularNumbers__4bd52) .lookFilled__201d5.colorPrimary__201d5:not(.color_f9d37d.banner_fb7f94, :disabled) {
+.overlay_c0bea0:has([style*="/assets/f6833ce4dd20c1fb.svg"]) .lookFilled__201d5.colorPrimary__201d5:not(.color_f9d37d.banner_fb7f94),
+.custom-user-profile-theme .overlay_c0bea0:has([style*="/assets/f6833ce4dd20c1fb.svg"]) .lookFilled__201d5.colorPrimary__201d5:not(.color_f9d37d.banner_fb7f94),
+.overlay_c0bea0:has([style*="/assets/c4f09fda61827e19.svg"]):has(.tabularNumbers__4bd52) .lookFilled__201d5.colorPrimary__201d5:not(.color_f9d37d.banner_fb7f94),
+.custom-user-profile-theme .overlay_c0bea0:has([style*="/assets/c4f09fda61827e19.svg"]):has(.tabularNumbers__4bd52) .lookFilled__201d5.colorPrimary__201d5:not(.color_f9d37d.banner_fb7f94) {
 	border: 2px solid #949494 !important;
 }
 
@@ -13899,8 +14042,8 @@ svg[color="var(--brand-500)"] {
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-30) !important;
 }
 
-.overlay_c0bea0:has([style*="/assets/487de5256b2ae540.svg"]) .lookFilled__201d5.colorPrimary__201d5:not(.color_f9d37d.banner_fb7f94, :disabled),
-.custom-user-profile-theme .overlay_c0bea0:has([style*="/assets/487de5256b2ae540.svg"]) .lookFilled__201d5.colorPrimary__201d5:not(.color_f9d37d.banner_fb7f94, :disabled) {
+.overlay_c0bea0:has([style*="/assets/487de5256b2ae540.svg"]) .lookFilled__201d5.colorPrimary__201d5:not(.color_f9d37d.banner_fb7f94),
+.custom-user-profile-theme .overlay_c0bea0:has([style*="/assets/487de5256b2ae540.svg"]) .lookFilled__201d5.colorPrimary__201d5:not(.color_f9d37d.banner_fb7f94) {
 	border: 2px solid #593695 !important;
 }
 
