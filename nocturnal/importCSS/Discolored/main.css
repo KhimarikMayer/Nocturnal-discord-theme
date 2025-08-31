@@ -193,7 +193,8 @@
 }
 
 .theme-dark .imageError_af017a,
-[src*="/assets/cdccee83bde523baf3d5.svg"] {
+[src*="/assets/cdccee83bde523baf3d5.svg"],
+[src*="/assets/e4a502bfc6589d65.svg"] {
     content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/poop.svg")
 }
 
