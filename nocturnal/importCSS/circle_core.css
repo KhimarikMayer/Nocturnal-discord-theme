@@ -1,4 +1,4 @@
-=@import url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/old-whitney-font.css");
+@import url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/old-whitney-font.css");
 @import url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/miscellaneous.css");
 @import url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/themedthingsonthemedprofiles.css");
 @import url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/main.css");
@@ -553,14 +553,6 @@
 .theme-dark .wrapper__44b0c[aria-label*="オンライン状態を隠す"]:before,
 .theme-dark .wrapper__44b0c[aria-label*="隱形"]:before,
 .theme-dark .wrapper__44b0c[aria-label*="오프라인 표시"]:before,
-.theme-dark .wrapper__44b0c:has([fill="#868686"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([fill="#868687"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([fill="#858688"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([fill="#858588"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([fill="#848589"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([fill="#848489"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([fill="#82838b"])[role="img"]:before,
-.theme-dark .wrapper__44b0c:has([fill*="rgba(130"])[role="img"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#868686"])[role="img"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#868687"])[role="img"]:before,
 .theme-dark .wrapper__44b0c:has([fill="#858688"])[role="img"]:before,
