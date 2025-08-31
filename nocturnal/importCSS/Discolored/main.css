@@ -846,3 +846,19 @@
 [src*='https://cdn.discordapp.com/embed/avatars/0.png'] {
     content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/c4f145e0a8c65a7f2ddca9777a2b758f.webp");
 }
+
+.images-dark .krispLogo_e131a9 {
+	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/e9ed313dde26d91b.svg");
+}
+
+[src*='/assets/f9951f6f63451f68.svg'] {
+    content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/f9951f6f63451f68.svg");
+}
+
+.headerSuccess_b76614 {
+    background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/6410595f71273140.svg");
+}
+
+[src*='/assets/6410595f71273140.svg'] {
+    content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/6410595f71273140.svg");
+}
