@@ -8783,12 +8783,12 @@ rect[fill="rgb(123,162,255)"] {
 }
 
 .chipletContainerInner__10651:not(.guildTag__63ed3),
+.chipletContainerInner__10651.noTooltip__10651:not(.guildTag__63ed3):hover,
 span.clanTag__07f91:not(.guildTag__63ed3) {
 	background-color: var(--backgroundDark-20);
 }
 
-.chipletContainerInner__10651.noTooltip__10651:not(.guildTag__63ed3):hover,
-.clickable__10651:not(.guildTag__63ed3):hover,
+.clickable__10651:hover,
 .compact_c19a55 .clanTagChiplet_c19a55>span:hover,
 .listItemContainer__7c901:active,
 .floating-window-buttons .maximize-button:active,
@@ -8796,7 +8796,7 @@ span.clanTag__07f91:not(.guildTag__63ed3) {
 	background-color: var(--backgroundDark-40);
 }
 
-.listDefault__07f91 .clickable__07f91:hover .clanTag__07f91:not(.guildTag__63ed3) {
+.theme-dark .listDefault__07f91 .clickable__07f91:hover .clanTag__07f91:not(.guildTag__63ed3) {
 	background-color: hsl(220 calc(var(--saturation-factor)*20%) 6% /1);
 }
 
