@@ -2536,8 +2536,11 @@ svg[name=Nitro] g path {
 .theme-dark .navItem__551b0:focus-within:after,
 .theme-dark .navItem__551b0:active:after,
 .theme-dark .navItem__551b0.selected__551b0:after,
+.theme-dark.custom-theme-background .container__0f2e8:hover:after,
 .theme-dark .selected__0f2e8:after,
-.theme-dark .selected__0f2e8:hover:after {
+.theme-dark .selected__0f2e8:hover:after,
+.theme-dark.custom-theme-background .selected__0f2e8:after,
+.theme-dark.custom-theme-background .selected__0f2e8:hover:after {
 	transform: translateX(0);
 }
 
