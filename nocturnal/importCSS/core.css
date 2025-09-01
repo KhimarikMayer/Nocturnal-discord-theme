@@ -6272,7 +6272,6 @@ svg.contentImage__42bf5 path {
 	border-top: 1px solid var(--backgroundDark-25);
 }
 
-.footer_cba592,
 .formNotice_f43ba5,
 .attendeeCTA_ca5ce6,
 .card_f62afd {
@@ -8288,6 +8287,7 @@ rect[fill="rgb(123,162,255)"] {
 	border: none;
 }
 
+.footer_cba592,
 .selectItemRow_d81ffd,
 .tab_f8303a.vertical_f8303a,
 .tabBar_eb3aa4,
@@ -8985,7 +8985,6 @@ span.clanTag__07f91:not(.guildTag__63ed3) {
 .emojiRow_e7d73e,
 .scrollSeparator__01dab,
 .darkCardBackground_c3d04b,
-.footer_cba592,
 .disabledForm__69ef9 .pickerItemSelected__69ef9,
 .uploadItem_ec9088,
 .featureBorder__4626b,
@@ -14456,13 +14455,13 @@ svg.thumbnail__0f2e8 {
 	y: 51px;
 }
 
-svg[viewBox="0 0 600 210"] mask circle,
+.bd-gp-modal svg[viewBox="0 0 600 210"] mask circle,
 .mask__68edb circle,
 .accountProfileCard__1fed1 .mask__68edb {
 	display: none;
 }
 
-svg[viewBox="0 0 600 210"] mask rect {
+.bd-gp-modal svg[viewBox="0 0 600 210"] mask rect {
 	width: 136px;
 	height: 136px;
 	rx: 12px;
@@ -14470,7 +14469,7 @@ svg[viewBox="0 0 600 210"] mask rect {
 	fill: black;
 	x: 16px;
 	y: 137px;
-	stroke: var(--interactive-normal);
+	stroke: white;
 	stroke-width: 950px;
 	paint-order: stroke;
 }
