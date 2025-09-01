@@ -13406,22 +13406,32 @@ rect[fill="brand-200"] {
 }
 
 .theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4."][ry*="4."])[role="img"] foreignObject:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."])[role="img"] foreignObject:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10."][ry*="10."])[role="img"] foreignObject:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="11."][ry*="11."])[role="img"] foreignObject:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="12."][ry*="12."])[role="img"] foreignObject:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="13."][ry*="13."])[role="img"] foreignObject:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="14."][ry*="14."])[role="img"] foreignObject:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="15."][ry*="15."])[role="img"] foreignObject:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="16."][ry*="16."])[role="img"] foreignObject:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="17."][ry*="17."])[role="img"] foreignObject:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="18."][ry*="18."])[role="img"] foreignObject:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="19."][ry*="19."])[role="img"] foreignObject:after {
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4."][ry*="4."])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10."][ry*="10."])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="11."][ry*="11."])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="12."][ry*="12."])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="13."][ry*="13."])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10."][ry*="10."])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="11."][ry*="11."])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="12."][ry*="12."])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="13."][ry*="13."])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="14."][ry*="14."])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="15."][ry*="15."])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="16."][ry*="16."])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="17."][ry*="17."])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="18."][ry*="18."])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="19."][ry*="19."])[role="img"] foreignObject[width="120"]:after {
 	content: "";
 	display: block;
 	mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>') center no-repeat;
@@ -13525,54 +13535,7 @@ rect[fill="brand-200"] {
 	background-color: #faa61a;
 }
 
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Offline"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Hors ligne"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nem elérhető"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Neprisijungęs"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Niedostępny"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Izvan mreže"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="오프라인"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="離線"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="オフライン"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="离线"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="ออฟไลน์"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не в мережі"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не в сети"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Извън линия"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Αποσυνδεδεμένος"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Çevrimdışı"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ngoại tuyến"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ei paikalla"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Frakoblet"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Desconectado"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Invisible"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Usynlig"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Unsichtbar"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nevidljiv/a"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nematomas"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Izvan mreže"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nevidljiv/a"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nematomas"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Láthatatlan"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Onzichtbaar"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Usynlig"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Niewidoczny"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Invisível"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Invizibil"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Näkymätön"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Osynlig"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Vô hình"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Görünmez"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Neviditelný"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Αόρατος"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Невидим"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Невидимый"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Невидимий"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="ไม่ระบุ"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="隐身"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="オンライン状態を隠す"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="隱形"] .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="오프라인 표시"] .mask__44b0c foreignObject[mask*=mobile]:after {
+.theme-dark .wrapper__44b0c:has([fill="#82838b"]) .mask__44b0c foreignObject[mask*=mobile]:after {
 	background-color: #747f8d;
 }
 
@@ -13586,8 +13549,7 @@ rect[fill="brand-200"] {
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4."][ry*="4."])[role="img"] foreignObject[width="32"]:after,
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="32"]:after,
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="32"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="32"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject[width="32"]:after {
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="32"]:after {
 	width: 16px;
 	height: 16px;
 	right: -1px;
