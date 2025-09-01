@@ -3569,6 +3569,11 @@ span.button__67645.enabled__67645:hover,
 	border-radius: 50px;
 }
 
+.background__1fed1,
+.badgeList__1fed1 {
+	background-color: var(--backgroundDark-30);
+}
+
 .fieldList__1fed1 {
 	background-color: rgb(0, 0, 0, 0);
 }
@@ -4313,8 +4318,7 @@ span.button__67645.enabled__67645:hover,
 	color: var(--backgroundDarker);
 }
 
-.theme-dark .badgeList__1fed1,
-.theme-dark .background__1fed1,
+.theme-dark .accountProfileCard__1fed1,
 .wrapper__4d7bb,
 .avatarContainer__9e177,
 .popout_d5c2c4,
@@ -5112,11 +5116,11 @@ span.button__67645.enabled__67645:hover,
 	border-left: 3px solid var(--backgroundDarker);
 }
 
-.backgroundModifierContainer__6cd3a:hover:not(.disabled__6cd3a):not(.noAction__6cd3a) {
+.backgroundModifierContainer__6cd3a:hover:not(.disabled__6cd3a):not(.noAction__6cd3a):not(.selected__6cd3a) {
 	background-color: var(--backgroundLighter);
 }
 
-.backgroundModifierContainer__6cd3a:active:not(.disabled__6cd3a):not(.noAction__6cd3a) {
+.backgroundModifierContainer__6cd3a:active:not(.disabled__6cd3a):not(.noAction__6cd3a):not(.selected__6cd3a) {
 	background-color: var(--backgroundLighter-alt);
 }
 
@@ -5848,9 +5852,7 @@ span.button__67645.enabled__67645:hover,
 }
 
 .member-perms .member-perm .perm-circle {
-	margin-left: 0;
-	padding: 0;
-	flex-shrink: 0
+	margin-left: 1px;
 }
 
 .channelTextArea_fb64c9 {
@@ -5975,7 +5977,10 @@ span.button__67645.enabled__67645:hover,
 	border-radius: 100%;
 }
 
-.role__5d7c9,
+.role__5d7c9 {
+	background-color: rgba(0, 0, 0, 0);
+}
+
 &.theme-dark .cardPlaceholder__84e3e,
 &.theme-dark .card__84e3e,
 &.theme-dark .iconMask__4cb8a,
@@ -6071,14 +6076,21 @@ html.theme-light .app__160d8::after {
 
 .avatar__1fed1 {
 	background-color: rgba(0, 0, 0, 0);
+	top: 16px;
+	left: 16px;
+}
+
+.userInfo__1fed1 {
+	padding-left: 112px;
+	padding-top: 40px;
+}
+
+.background__1fed1 {
+	margin: 16px;
 }
 
 .avatar__5017b rect {
 	display: none;
-}
-
-.bannerSVGWrapper_b32cc2 foreignObject {
-	mask: none;
 }
 
 .premiumIconWrapper_c3e427 .textBadge__2b1f5 svg {
@@ -6512,7 +6524,7 @@ body,
 }
 
 .nonMediaMosaicItem__06ab4:hover {
-	outline: 1px solid var(--backgroundDark-95);
+	outline: 1px solid var(--backgroundDark-50);
 }
 
 .guildIcon__4591d {
@@ -7938,7 +7950,7 @@ circle[fill="var(--brand-500)"],
 .cardInput__8b579:hover:not(.cardInputFocused__8b579),
 .tagInputWrapper__69ef9:hover,
 .wrapper_a45028:hover:not(:focus):not(:focus-within),
-.wrapper__3412a:hover:not(:focus):not(:focus-within),
+.wrapper__3412a:hover:not(:focus):not(:focus-within):not([data-disabled=true]),
 .input__0ed4f:not(.disabled__0ed4f, .nameInputInnerWithEmojiPicker__0511a, .inputWrapperWithEmojiPicker_ac72c6, .inputInnerWithEmojiPicker_ac72c6, .tagInput__69ef9, .multiInputField_b404ff, .textarea__9daae, .traitInput__4cbea, .note_fcb628 textarea, .inputField_d64f22, .fieldBackground_d48a51, .inputInner_a97616, .input_cedfaf, .input__72ba7, .descriptionInput__5579e, .clipTitleInput__1d12e, .defaultTextInput__7b848, .searchBox_d727b3 .searchBoxInput_d727b3, .input__72ba7, .title_d9be46, .messageInput_f2c0a8, .textarea_dde0a8):hover:not(:focus):not(:focus-within) {
 	border-color: var(--deprecated-text-input-border);
 }
@@ -8050,7 +8062,6 @@ rect[fill="rgb(123,162,255)"] {
 .theme-dark .svg__44b0c,
 .theme-dark .svg_d48241,
 .theme-dark .svg_cc5dd2,
-.theme-dark .bannerSVGWrapper_b32cc2,
 .theme-dark .mask__68edb,
 .theme-dark .avatarDecoration__44b0c {
 	contain: none;
@@ -8230,7 +8241,6 @@ rect[fill="rgb(123,162,255)"] {
 
 .roleDot__9e177 {
 	margin-right: 4px;
-	margin-top: 0;
 }
 
 .profileCard__9e177 {
@@ -11033,7 +11043,8 @@ path[fill="var(--bg-brand)"] {
 .attachmentPreviewOverflow__68334 foreignObject,
 .guildPrefixIcon_e7c728 foreignObject,
 .newGdmIcon__754bd foreignObject,
-.caret__5bc6a g {
+.caret__5bc6a g,
+.accountProfileCard__1fed1 foreignObject {
 	mask: none;
 }
 
@@ -14230,7 +14241,7 @@ svg.thumbnail__0f2e8 {
 }
 
 .accountProfileCard__1fed1 .mask__68edb {
-	max-height: 100px !important;
+	display: none;
 }
 
 .modalContent_c50f62 {
@@ -14404,4 +14415,73 @@ svg.thumbnail__0f2e8 {
 
 .wrapper__49094 .container__9293f.transparent__9293f {
 	border-bottom: solid 1px var(--backgroundDark-25) !important;
+}
+
+.role_dfa8b6,
+.role__5d7c9,
+.roleTag__9e177 {
+	transform: translate(0);
+	border: 0 !important;
+}
+
+.roleRemoveIcon_dfa8b6 {
+	margin: 0;
+	left: 1px;
+	transform: translate(50%, -50%);
+}
+
+.roleRemoveButton_dfa8b6 {
+	position: static;
+	cursor: unset;
+}
+
+.roleCircle_dfa8b6 {
+	margin: 0 4px 0px 1px;
+}
+
+.role_dfa8b6>div:first-child {
+	margin: 0;
+}
+
+.roleCircle_dfa8b6:before,
+.roleDot__5d7c9:before,
+.roleDot__9e177:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	background: inherit;
+	border-radius: 11px;
+	border: 1px solid transparent;
+	-webkit-mask: linear-gradient(#000, #000) padding-box, linear-gradient(#000, #000);
+	-webkit-mask-composite: xor;
+	opacity: 0.6;
+	content: "";
+	z-index: -1;
+	pointer-events: none;
+}
+
+.roleDot__5d7c9:before {
+	border-radius: 24px;
+}
+
+.roleDot__9e177:before {
+	border-radius: 50px;
+}
+
+.role__5d7c9 {
+	padding: 4px;
+}
+
+.roleDot__5d7c9,
+.roleDot__9e177 {
+	margin-left: 1px;
+}
+
+.roleTag__9e177 {
+	background-color: var(--backgroundDark);
+	border-radius: 50px;
+	padding: 4px;
 }
