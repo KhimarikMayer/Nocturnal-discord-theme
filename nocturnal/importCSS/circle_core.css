@@ -8566,6 +8566,7 @@ rect[fill="rgb(123,162,255)"] {
 	border: none;
 }
 
+.divider_b50d96,
 .rowIcon__95bea,
 .soundButtonWrapper__9be63,
 .circle__60626,
@@ -8853,7 +8854,6 @@ span.clanTag__07f91:not(.guildTag__63ed3) {
 .divider_baf530,
 .divider_d28fa1,
 .row__23488+.row__23488:before,
-.divider_b50d96,
 .posterDivider_b572de,
 .posterDivider_f09e45,
 .posterDivider__9fa5a,
@@ -12374,6 +12374,7 @@ rect[fill="brand-200"] {
 .page__1feb0,
 .filterBar__11877,
 .feedblockInteractiveBackground__08415,
+.authBox__921c5,
 .sidebar_c48ade:after {
 	background-color: var(--backgroundDark);
 }
@@ -12451,7 +12452,6 @@ rect[fill="brand-200"] {
 .option_edf440,
 .wrapper__260e1,
 .vc-vmsg-preview,
-.authBox__921c5,
 .vc-author-modal-name,
 .modal__49777 .benefits__62119,
 .requiredPermissionsBanner__9c74b,
