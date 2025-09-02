@@ -2679,7 +2679,7 @@ svg[name=Nitro] g path {
 .attachPopout__5c634,
 .scroller__4a84a,
 .scroller__244e5 {
-	background-color: var(--backgroundDark) !important
+	background-color: var(--backgroundDark) !important;
 }
 
 .theme-dark .channelTextArea_f75fb0 {
@@ -4385,6 +4385,7 @@ span.button__67645.enabled__67645:hover,
 	background-color: rgba(0, 0, 0, 0);
 }
 
+.wrapper_cb9592,
 .icon_d8f25b,
 .chatTarget__01ae2,
 .container_d9c882,
@@ -4495,10 +4496,6 @@ span.button__67645.enabled__67645:hover,
 
 .channelChatWrapper_cb9592,
 .wrapper_cb9592 {
-	background: var(--background-gradient-high, var(--backgroundDarker));
-}
-
-.wrapper_cb9592.normal_cb9592 {
 	background: var(--background-gradient-app-frame, var(--backgroundDark));
 }
 
@@ -6221,6 +6218,7 @@ svg.contentImage__42bf5 path {
 .appMount__51fd7,
 body,
 .scroller__6fd0e,
+.wrapper_cb9592.minimum_cb9592,
 .container__2692d {
 	background-color: var(--backgroundDark);
 }
@@ -6248,7 +6246,6 @@ body,
 .pageWrapper_a3a4ce,
 .scroller_a39aa3,
 .container__34c2c,
-.wrapper_cb9592.minimum_cb9592,
 .searchResult__02a39,
 .container__09ccc,
 .container__23c08,
@@ -8640,9 +8637,11 @@ rect[fill="rgb(123,162,255)"] {
 	border-top: solid 1px var(--backgroundDark-25);
 }
 
+.floating__01ae2,
+.container__01ae2,
 .scroller__23746 .container__9293f,
 .applicationStore_f07d62 .container__9293f {
-	border-left: none;
+	border-left: none !important;
 }
 
 .memberRowContainer__71c22.selected__71c22 td,
@@ -10798,8 +10797,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 .custom-theme-background .button_e131a9.buttonColor_e131a9,
 .learnMoreButton_a92dc5,
 .upsellButton__0b69f,
-.wrapper__49094,
-.wrapper_cb9592.normal_cb9592 .callContainer_cb9592 {
+.wrapper__49094 {
 	background: none;
 }
 
@@ -12248,6 +12246,7 @@ rect[fill="brand-200"] {
 .callContainer_cb9592,
 .high-contrast-mode .callContainer_cb9592,
 .theme-midnight .callContainer_cb9592 {
+	background: none;
 	border-bottom: solid 1px var(--backgroundDark-25);
 	border-left: solid 1px var(--backgroundDark-25);
 	border-top: none;
@@ -13804,8 +13803,7 @@ rect[fill="#D3D6ED"] {
 
 .contentContainer__91dc3,
 .containerSidenav_dc2e0e .contentPanel_dc2e0e,
-.emptyState__7641b,
-.floating__01ae2 {
+.emptyState__7641b {
 	border-left: solid 1px var(--backgroundDark-25);
 }
 
