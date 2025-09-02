@@ -5481,11 +5481,6 @@ span.button__67645.enabled__67645:hover,
 
 .verifiedRole_e59759,
 .connectionsChecksGroup_a470b4 {
-	transition: all .2s ease;
-}
-
-.verifiedRole_e59759,
-.connectionsChecksGroup_a470b4 {
 	background-color: var(--backgroundDark-15);
 	border-color: rgba(0, 0, 0, 0);
 }
@@ -5497,13 +5492,14 @@ span.button__67645.enabled__67645:hover,
 	border-color: rgba(0, 0, 0, 0);
 }
 
-.roleGranted_a470b,
-.verifiedRoleHasRole_e59759,
-.connectionsChecksGroupPassed_a470b4,
-.verifiedRoleHasRole_e59759:hover,
-.connectionsChecksGroupPassed_a470b4:hover {
-	background-color: var(--backgroundDark-35);
-	border-color: rgba(0, 0, 0, 0);
+.channelsGranted_a470b4 {
+	background-color: var(--backgroundDarker);
+}
+
+.verifiedRole_e59759.verifiedRoleHasRole_e59759,
+.connectionsChecksGroup_a470b4.connectionsChecksGroupPassed_a470b4,
+.roleGranted_a470b4 {
+	background-color: var(--backgroundDarker-alt);
 }
 
 .verifiedIcon_a470b4 {
@@ -5527,9 +5523,8 @@ span.button__67645.enabled__67645:hover,
 	border-radius: 0;
 }
 
-.channelsGranted_a470b4,
 .badge__86331 {
-	background-color: var(--backgroundDark-25);
+	background-color: rgba(0, 0, 0, 0);
 }
 
 .badgeVerifiedIcon__86331 {
@@ -12208,11 +12203,7 @@ rect[fill="brand-200"] {
 	background: linear-gradient(0deg, var(--backgroundDarker) 0, hsl(224 22% 10% /.5) 50%, hsl(224 22% 10% /0));
 }
 
-.roleFlowerStar_dfa8b6 {
-	margin: 0;
-	border-radius: 2.5px !important;
-}
-
+.roleFlowerStar_dfa8b6,
 .roleFlowerStar__48c1c {
 	margin-left: 0;
 	border-radius: 2.5px !important;
@@ -13406,23 +13397,49 @@ rect[fill="brand-200"] {
 }
 
 .theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4."][ry*="4."])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4.2"][ry*="4.2"])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4.3"][ry*="4.3"])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4.4"][ry*="4.4"])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4.5"][ry*="4.5"])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4.6"][ry*="4.6"])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4.7"][ry*="4.7"])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4.8"][ry*="4.8"])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4.9"][ry*="4.9"])[role="img"] foreignObject[width="32"]:after,
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="32"]:after,
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="32"]:after,
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="32"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5.2"][ry*="5.2"])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5.3"][ry*="5.3"])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5.4"][ry*="5.4"])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5.5"][ry*="5.5"])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5.6"][ry*="5.6"])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5.7"][ry*="5.7"])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5.8"][ry*="5.8"])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5.9"][ry*="5.9"])[role="img"] foreignObject[width="40"]:after,
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="40"]:after,
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="40"]:after,
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject[width="40"]:after,
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."])[role="img"] foreignObject[width="40"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7.2"][ry*="7.2"])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7.3"][ry*="7.3"])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7.4"][ry*="7.4"])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7.5"][ry*="7.5"])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7.6"][ry*="7.6"])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7.7"][ry*="7.7"])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7.8"][ry*="7.8"])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7.9"][ry*="7.9"])[role="img"] foreignObject[width="80"]:after,
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject[width="80"]:after,
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."])[role="img"] foreignObject[width="80"]:after,
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10."][ry*="10."])[role="img"] foreignObject[width="80"]:after,
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="11."][ry*="11."])[role="img"] foreignObject[width="80"]:after,
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="12."][ry*="12."])[role="img"] foreignObject[width="80"]:after,
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="13."][ry*="13."])[role="img"] foreignObject[width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10."][ry*="10."])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10.4"][ry*="10.4"])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10.5"][ry*="10.5"])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10.6"][ry*="10.6"])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10.7"][ry*="10.7"])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10.8"][ry*="10.8"])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10.9"][ry*="10.9"])[role="img"] foreignObject[width="120"]:after,
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="11."][ry*="11."])[role="img"] foreignObject[width="120"]:after,
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="12."][ry*="12."])[role="img"] foreignObject[width="120"]:after,
 .theme-dark .wrapper__44b0c:has(rect[color=black][rx*="13."][ry*="13."])[role="img"] foreignObject[width="120"]:after,
@@ -13439,6 +13456,88 @@ rect[fill="brand-200"] {
 	right: 0;
 	bottom: 2px;
 	z-index: 1;
+}
+
+.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="20"]:after {
+	width: 8px;
+	height: 8px;
+	right: 1px;
+}
+
+.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4.2"][ry*="4.2"])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4.3"][ry*="4.3"])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4.4"][ry*="4.4"])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4.5"][ry*="4.5"])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4.6"][ry*="4.6"])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4.7"][ry*="4.7"])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4.8"][ry*="4.8"])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4.9"][ry*="4.9"])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="32"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="32"]:after {
+	width: 16px;
+	height: 16px;
+	right: -1px;
+}
+
+.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5.2"][ry*="5.2"])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5.3"][ry*="5.3"])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5.4"][ry*="5.4"])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5.5"][ry*="5.5"])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5.6"][ry*="5.6"])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5.7"][ry*="5.7"])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5.8"][ry*="5.8"])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5.9"][ry*="5.9"])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject[width="40"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."])[role="img"] foreignObject[width="40"]:after {
+	width: 20px;
+	height: 20px;
+	right: -1px;
+}
+
+.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7.2"][ry*="7.2"])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7.3"][ry*="7.3"])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7.4"][ry*="7.4"])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7.5"][ry*="7.5"])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7.6"][ry*="7.6"])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7.7"][ry*="7.7"])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7.8"][ry*="7.8"])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7.9"][ry*="7.9"])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10."][ry*="10."])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="11."][ry*="11."])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="12."][ry*="12."])[role="img"] foreignObject[width="80"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="13."][ry*="13."])[role="img"] foreignObject[width="80"]:after {
+	width: 32px;
+	height: 32px;
+	right: -4px;
+}
+
+.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10.4"][ry*="10.4"])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10.5"][ry*="10.5"])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10.6"][ry*="10.6"])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10.7"][ry*="10.7"])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10.8"][ry*="10.8"])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10.9"][ry*="10.9"])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="11."][ry*="11."])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="12."][ry*="12."])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="13."][ry*="13."])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="14."][ry*="14."])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="15."][ry*="15."])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="16."][ry*="16."])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="17."][ry*="17."])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="18."][ry*="18."])[role="img"] foreignObject[width="120"]:after,
+.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="19."][ry*="19."])[role="img"] foreignObject[width="120"]:after {
+	width: 50px;
+	height: 50px;
+	right: -8px;
 }
 
 .theme-dark .wrapper__44b0c:has([fill="#43a25a"]) .mask__44b0c foreignObject[mask*=mobile]:after,
@@ -13537,62 +13636,6 @@ rect[fill="brand-200"] {
 
 .theme-dark .wrapper__44b0c:has([fill="#82838b"]) .mask__44b0c foreignObject[mask*=mobile]:after {
 	background-color: #747f8d;
-}
-
-.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="20"]:after {
-	width: 8px;
-	height: 8px;
-	right: 1px;
-}
-
-.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="32"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4."][ry*="4."])[role="img"] foreignObject[width="32"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="32"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="32"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="32"]:after {
-	width: 16px;
-	height: 16px;
-	right: -1px;
-}
-
-.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="40"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="40"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="40"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="40"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject[width="40"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."])[role="img"] foreignObject[width="40"]:after {
-	width: 20px;
-	height: 20px;
-	right: -1px;
-}
-
-.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject[width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."])[role="img"] foreignObject[width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10."][ry*="10."])[role="img"] foreignObject[width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="11."][ry*="11."])[role="img"] foreignObject[width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="12."][ry*="12."])[role="img"] foreignObject[width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="13."][ry*="13."])[role="img"] foreignObject[width="80"]:after {
-	width: 32px;
-	height: 32px;
-	right: -4px;
-}
-
-.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10."][ry*="10."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="11."][ry*="11."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="12."][ry*="12."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="13."][ry*="13."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="14."][ry*="14."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="15."][ry*="15."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="16."][ry*="16."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="17."][ry*="17."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="18."][ry*="18."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="19."][ry*="19."])[role="img"] foreignObject[width="120"]:after {
-	width: 50px;
-	height: 50px;
-	right: -8px;
 }
 
 .refreshIconStroke__001a7 {
@@ -14537,7 +14580,8 @@ svg.thumbnail__0f2e8 {
 	padding-right: 12px !important;
 }
 
-.bd-modal-content {
+.bd-modal-content,
+.badge__86331 {
 	padding-right: 4px;
 }
 
@@ -14614,7 +14658,8 @@ svg.thumbnail__0f2e8 {
 
 .role_dfa8b6,
 .role__5d7c9,
-.roleTag__9e177 {
+.roleTag__9e177,
+.badge__86331 {
 	transform: translate(0);
 	border: 0 !important;
 }
@@ -14640,7 +14685,9 @@ svg.thumbnail__0f2e8 {
 
 .roleCircle_dfa8b6:before,
 .roleDot__5d7c9:before,
-.roleDot__9e177:before {
+.roleDot__9e177:before,
+.badgeVerifiedIcon__86331:before,
+.roleFlowerStar_dfa8b6:before {
 	position: absolute;
 	top: 0;
 	left: 0;
