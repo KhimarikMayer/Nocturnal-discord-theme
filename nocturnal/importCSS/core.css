@@ -2924,7 +2924,7 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDark-26);
 }
 
-.avatarContainerMasked__183c2 foreignObject {
+.theme-dark .avatarContainerMasked__183c2 foreignObject {
 	mask: none;
 }
 
@@ -2936,14 +2936,12 @@ svg[name=Nitro] g path {
 	background-color: rgba(0, 0, 0, 0);
 }
 
-.callAvatarMask_f910d0 foreignObject {
+.theme-dark .callAvatarMask_f910d0 foreignObject {
 	mask: none;
 }
 
-.theme-dark .border_f910d0,
-.theme-dark .voiceAvatar_f910d0,
-.theme-dark .voiceAvatar_f910d0 .border_f910d0,
-.theme-dark .avatar__44b0c {
+.voiceAvatar_f910d0,
+.border_f910d0 {
 	border-radius: 8px;
 }
 
@@ -12375,19 +12373,19 @@ rect[fill="brand-200"] {
 	border: none;
 }
 
-.theme-dark .folderPreviewGuildIcon__48112:first-child {
+.folderPreviewGuildIcon__48112:first-child {
 	border-radius: 8px 30% 30%;
 }
 
-.theme-dark .folderPreviewGuildIcon__48112:nth-child(2) {
+.folderPreviewGuildIcon__48112:nth-child(2) {
 	border-radius: 30% 8px 30% 30%;
 }
 
-.theme-dark .folderPreviewGuildIcon__48112:nth-child(3) {
+.folderPreviewGuildIcon__48112:nth-child(3) {
 	border-radius: 30% 30% 30% 8px;
 }
 
-.theme-dark .folderPreviewGuildIcon__48112:nth-child(4) {
+.folderPreviewGuildIcon__48112:nth-child(4) {
 	border-radius: 30% 30% 8px;
 }
 
