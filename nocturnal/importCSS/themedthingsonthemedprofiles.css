@@ -30,10 +30,6 @@
 	background-color: var(--profile-gradient-secondary-color) !important;
 }
 
-.visual-refresh .custom-user-profile-theme .inlineContainer__74017 .themedBackground__74017 {
-	background: var(--bg-overlay-5, var(--profile-gradient-secondary-color)) !important;
-}
-
 .theme-dark.custom-user-profile-theme .showMoreButton__84832,
 .theme-light.custom-user-profile-theme .showMoreButton__84832,
 .theme-dark.custom-user-profile-theme .lookFilled__201d5.actionColor_fc39e7,
