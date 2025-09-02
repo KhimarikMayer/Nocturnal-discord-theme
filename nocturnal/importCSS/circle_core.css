@@ -12323,6 +12323,7 @@ rect[fill="brand-200"] {
 }
 
 .inlineContainer__74017 .themedBackground__74017 {
+	background: none !important;
 	box-shadow: none !important;
 	transition: none !important;
 }
