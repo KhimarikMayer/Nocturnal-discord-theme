@@ -774,3 +774,15 @@
 .theme-dark .item_b3f026:has(path[d="M2.75 3.02A3 3 0 0 1 5 2h10a3 3 0 0 1 3 3v7.64c0 .44-.55.7-.95.55a3 3 0 0 0-3.17 4.93l.02.03a.5.5 0 0 1-.35.85h-.05a.5.5 0 0 0-.5.5 2.5 2.5 0 0 1-3.68 2.2l-5.8-3.09A3 3 0 0 1 2 16V5a3 3 0 0 1 .76-1.98Zm1.3 1.95A.04.04 0 0 0 4 5v11c0 .36.2.68.49.86l5.77 3.08a.5.5 0 0 0 .74-.44V8.02a.5.5 0 0 0-.32-.46l-6.63-2.6Z"])::before {
 	background: url(https://khimarikmayer.github.io/Nocturnal-discord-theme/icons/logout.png) center;
 }
+
+.theme-dark .selectedBackground_e681d1:before {
+	content: "";
+	width: 20px;
+	height: 20px;
+	background-size: cover !important;
+	background: url(https://khimarikmayer.github.io/Nocturnal-discord-theme/icons/nitro.png) center;
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+}
