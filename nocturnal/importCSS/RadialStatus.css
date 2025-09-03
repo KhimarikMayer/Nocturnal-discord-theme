@@ -640,33 +640,33 @@
 	left: 7px !important;
 }
 
-.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4."][ry*="4."])[role="img"] foreignObject[width="32"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="32"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="32"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="32"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="40"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="40"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="40"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject[width="40"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."])[role="img"] foreignObject[width="40"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject[width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."])[role="img"] foreignObject[width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10."][ry*="10."])[role="img"] foreignObject[width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="11."][ry*="11."])[role="img"] foreignObject[width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="12."][ry*="12."])[role="img"] foreignObject[width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="13."][ry*="13."])[role="img"] foreignObject[width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10."][ry*="10."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="11."][ry*="11."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="12."][ry*="12."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="13."][ry*="13."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="14."][ry*="14."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="15."][ry*="15."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="16."][ry*="16."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="17."][ry*="17."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="18."][ry*="18."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="19."][ry*="19."])[role="img"] foreignObject[width="120"]:after {
+.wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="4."][ry*="4."])[role="img"] foreignObject[width="32"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="32"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="32"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="32"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="40"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="40"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="40"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject[width="40"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."])[role="img"] foreignObject[width="40"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="80"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject[width="80"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."])[role="img"] foreignObject[width="80"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="10."][ry*="10."])[role="img"] foreignObject[width="80"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="11."][ry*="11."])[role="img"] foreignObject[width="80"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="12."][ry*="12."])[role="img"] foreignObject[width="80"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="13."][ry*="13."])[role="img"] foreignObject[width="80"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="10."][ry*="10."])[role="img"] foreignObject[width="120"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="11."][ry*="11."])[role="img"] foreignObject[width="120"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="12."][ry*="12."])[role="img"] foreignObject[width="120"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="13."][ry*="13."])[role="img"] foreignObject[width="120"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="14."][ry*="14."])[role="img"] foreignObject[width="120"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="15."][ry*="15."])[role="img"] foreignObject[width="120"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="16."][ry*="16."])[role="img"] foreignObject[width="120"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="17."][ry*="17."])[role="img"] foreignObject[width="120"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="18."][ry*="18."])[role="img"] foreignObject[width="120"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="19."][ry*="19."])[role="img"] foreignObject[width="120"]:after {
 	content: "";
 	display: block;
 	mask: url('data:image/svg+xml; utf-8,<svg aria-hidden="true" focusable="false" data-prefix="fas" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M272 0H48C21.5 0 0 21.5 0 48v416c0 26.5 21.5 48 48 48h224c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zM160 480c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm112-108c0 6.6-5.4 12-12 12H60c-6.6 0-12-5.4-12-12V60c0-6.6 5.4-12 12-12h200c6.6 0 12 5.4 12 12v312z"></path></svg>') center no-repeat;
@@ -676,158 +676,158 @@
 	z-index: 1;
 }
 
-.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="20"]:after {
+.wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="20"]:after {
 	width: 8px;
 	height: 8px;
 	right: 1px;
 }
 
-.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="32"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="4."][ry*="4."])[role="img"] foreignObject[width="32"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="32"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="32"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="32"]:after {
+.wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="32"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="4."][ry*="4."])[role="img"] foreignObject[width="32"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="32"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="32"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="32"]:after {
 	width: 16px;
 	height: 16px;
 	right: -1px;
 }
 
-.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="40"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="40"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="40"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="40"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject[width="40"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."])[role="img"] foreignObject[width="40"]:after {
+.wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="40"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="40"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="6."][ry*="6."])[role="img"] foreignObject[width="40"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="40"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject[width="40"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."])[role="img"] foreignObject[width="40"]:after {
 	width: 20px;
 	height: 20px;
 	right: -1px;
 }
 
-.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject[width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."])[role="img"] foreignObject[width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10."][ry*="10."])[role="img"] foreignObject[width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="11."][ry*="11."])[role="img"] foreignObject[width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="12."][ry*="12."])[role="img"] foreignObject[width="80"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="13."][ry*="13."])[role="img"] foreignObject[width="80"]:after {
+.wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="80"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="7."][ry*="7."])[role="img"] foreignObject[width="80"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="8."][ry*="8."])[role="img"] foreignObject[width="80"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="9."][ry*="9."])[role="img"] foreignObject[width="80"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="10."][ry*="10."])[role="img"] foreignObject[width="80"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="11."][ry*="11."])[role="img"] foreignObject[width="80"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="12."][ry*="12."])[role="img"] foreignObject[width="80"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="13."][ry*="13."])[role="img"] foreignObject[width="80"]:after {
 	width: 32px;
 	height: 32px;
 	right: -4px;
 }
 
-.theme-dark .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="10."][ry*="10."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="11."][ry*="11."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="12."][ry*="12."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="13."][ry*="13."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="14."][ry*="14."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="15."][ry*="15."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="16."][ry*="16."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="17."][ry*="17."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="18."][ry*="18."])[role="img"] foreignObject[width="120"]:after,
-.theme-dark .wrapper__44b0c:has(rect[color=black][rx*="19."][ry*="19."])[role="img"] foreignObject[width="120"]:after {
+.wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="120"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="10."][ry*="10."])[role="img"] foreignObject[width="120"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="11."][ry*="11."])[role="img"] foreignObject[width="120"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="12."][ry*="12."])[role="img"] foreignObject[width="120"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="13."][ry*="13."])[role="img"] foreignObject[width="120"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="14."][ry*="14."])[role="img"] foreignObject[width="120"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="15."][ry*="15."])[role="img"] foreignObject[width="120"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="16."][ry*="16."])[role="img"] foreignObject[width="120"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="17."][ry*="17."])[role="img"] foreignObject[width="120"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="18."][ry*="18."])[role="img"] foreignObject[width="120"]:after,
+.wrapper__44b0c:has(rect[color=black][rx*="19."][ry*="19."])[role="img"] foreignObject[width="120"]:after {
 	width: 50px;
 	height: 50px;
 	right: -8px;
 }
 
-.theme-dark .wrapper__44b0c:has([fill="#43a25a"]) .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="В сети (моб. устройство)"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Online via mobil"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Online via mobile"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Via Mobilgerät online"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Online via Mobile"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="En línea con móvil"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="En línea en un dispositivo móvil"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="En ligne sur mobile"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Online na mobilnom uređaju"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Online su dispositivo mobile"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Prisijungęs per mobilųjį įrenginį"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Online mobillal"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Online via mobiel"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Pålogget via mobil"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Dostępny mobilnie"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Online via dispositivo móvel"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Online prin mobil"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Paikalla mobiilissa"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Trực tuyến trên điện thoại"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Mobil üzerinden çevrimiçi"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Online přes mobil"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Σύνδεση μέσω κινητού"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Онлайн чрез мобилно приложение"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="В мережі з мобільного"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="मोबाइल से ऑनलाइन आएं"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="ออนไลน์ผ่านโทรศัพท์มือถือ"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="移动端在线"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="モバイル経由のオンライン"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="透過行動裝置上線"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="ออนไลน์ผ่านโทรศัพท์มือถือ"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="모바일에서 온라인 접속 중"] foreignObject:after {
+.wrapper__44b0c:has([fill="#43a25a"]) .mask__44b0c foreignObject[mask*=mobile]:after,
+.wrapper__44b0c[role="img"][aria-label*="В сети (моб. устройство)"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Online via mobil"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Online via mobile"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Via Mobilgerät online"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Online via Mobile"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="En línea con móvil"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="En línea en un dispositivo móvil"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="En ligne sur mobile"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Online na mobilnom uređaju"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Online su dispositivo mobile"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Prisijungęs per mobilųjį įrenginį"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Online mobillal"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Online via mobiel"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Pålogget via mobil"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Dostępny mobilnie"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Online via dispositivo móvel"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Online prin mobil"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Paikalla mobiilissa"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Trực tuyến trên điện thoại"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Mobil üzerinden çevrimiçi"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Online přes mobil"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Σύνδεση μέσω κινητού"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Онлайн чрез мобилно приложение"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="В мережі з мобільного"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="मोबाइल से ऑनलाइन आएं"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="ออนไลน์ผ่านโทรศัพท์มือถือ"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="移动端在线"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="モバイル経由のオンライン"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="透過行動裝置上線"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="ออนไลน์ผ่านโทรศัพท์มือถือ"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="모바일에서 온라인 접속 중"] foreignObject:after {
 	background-color: var(--rs-online-color);
 }
 
-.theme-dark .wrapper__44b0c:has([fill="#d83a42"]) .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Do Not Disturb"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Vil ikke forstyrres"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Bitte nicht stören"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="No molestar"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ne pas déranger"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ne uznemiravaj"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Non disturbare"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Netrukdyti"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Niet storen"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ikke forstyrr"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nie przeszkadzać"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Elfoglalt"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Não perturbar"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nu deranja"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Älä häiritse"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Stör ej"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Vui Lòng Không Làm Phiền"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Rahatsız Etmeyin"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nerušit"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Μην ενοχλείτε"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не ме безпокой"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не беспокоить"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не турбувати"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="ห้ามรบกวน"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="请勿打扰"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="取り込み中"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="請勿打擾"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="다른 용무 중"] foreignObject:after {
+.wrapper__44b0c:has([fill="#d83a42"]) .mask__44b0c foreignObject[mask*=mobile]:after,
+.wrapper__44b0c[role="img"][aria-label*="Do Not Disturb"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Vil ikke forstyrres"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Bitte nicht stören"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="No molestar"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Ne pas déranger"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Ne uznemiravaj"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Non disturbare"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Netrukdyti"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Niet storen"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Ikke forstyrr"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Nie przeszkadzać"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Elfoglalt"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Não perturbar"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Nu deranja"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Älä häiritse"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Stör ej"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Vui Lòng Không Làm Phiền"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Rahatsız Etmeyin"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Nerušit"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Μην ενοχλείτε"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Не ме безпокой"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Не беспокоить"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Не турбувати"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="ห้ามรบกวน"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="请勿打扰"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="取り込み中"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="請勿打擾"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="다른 용무 중"] foreignObject:after {
 	background-color: var(--rs-dnd-color);
 }
 
-.theme-dark .wrapper__44b0c:has([fill="#ca9654"]) .mask__44b0c foreignObject[mask*=mobile]:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Idle"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Inaktiv"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Abwesend"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Ausente"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Inactif"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="U mirovanju"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Inattivo"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Pasitraukęs"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Tétlen"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Inactief"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Zaraz wracam"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Inactiv"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Toimeton"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Chờ"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Boşta"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Nečinný"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Αδρανής"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Не се използва"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Неактивен"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="Відійшов"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="ไม่อยู่"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="闲置"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="退席中"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="閒置"] foreignObject:after,
-.theme-dark .wrapper__44b0c[role="img"][aria-label*="자리비움"] foreignObject:after {
+.wrapper__44b0c:has([fill="#ca9654"]) .mask__44b0c foreignObject[mask*=mobile]:after,
+.wrapper__44b0c[role="img"][aria-label*="Idle"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Inaktiv"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Abwesend"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Ausente"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Inactif"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="U mirovanju"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Inattivo"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Pasitraukęs"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Tétlen"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Inactief"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Zaraz wracam"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Inactiv"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Toimeton"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Chờ"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Boşta"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Nečinný"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Αδρανής"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Не се използва"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Неактивен"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Відійшов"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="ไม่อยู่"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="闲置"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="退席中"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="閒置"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="자리비움"] foreignObject:after {
 	background-color: var(--rs-idle-color);
 }
 
-.theme-dark .wrapper__44b0c:has([fill="#82838b"]) .mask__44b0c foreignObject[mask*=mobile]:after {
+.wrapper__44b0c:has([fill="#82838b"]) .mask__44b0c foreignObject[mask*=mobile]:after {
 	background-color: var(--rs-offline-color);
 }
