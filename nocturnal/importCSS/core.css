@@ -5890,7 +5890,6 @@ circle[fill="var(--brand-500)"],
 
 .voiceBar__7aaec {
 	background-color: color-mix(in oklab, hsl(236 calc(var(--saturation-factor)*100%) 19% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	;
 	box-shadow: 0 12px 24px 0 hsl(none 0% 0%/0.24);
 }
 
