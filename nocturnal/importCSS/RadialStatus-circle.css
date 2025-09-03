@@ -831,7 +831,7 @@
 .wrapper__44b0c[role="img"][aria-label*="透過行動裝置上線"] foreignObject:after,
 .wrapper__44b0c[role="img"][aria-label*="ออนไลน์ผ่านโทรศัพท์มือถือ"] foreignObject:after,
 .wrapper__44b0c[role="img"][aria-label*="모바일에서 온라인 접속 중"] foreignObject:after {
-	background-color: #43b581;
+	background-color: var(--rs-online-color);
 }
 
 .wrapper__44b0c:has([fill="#d83a42"]) .mask__44b0c foreignObject[mask*=mobile]:after,
@@ -863,7 +863,7 @@
 .wrapper__44b0c[role="img"][aria-label*="取り込み中"] foreignObject:after,
 .wrapper__44b0c[role="img"][aria-label*="請勿打擾"] foreignObject:after,
 .wrapper__44b0c[role="img"][aria-label*="다른 용무 중"] foreignObject:after {
-	background-color: #f04747;
+	background-color: var(--rs-dnd-color);
 }
 
 .wrapper__44b0c:has([fill="#ca9654"]) .mask__44b0c foreignObject[mask*=mobile]:after,
@@ -892,9 +892,9 @@
 .wrapper__44b0c[role="img"][aria-label*="退席中"] foreignObject:after,
 .wrapper__44b0c[role="img"][aria-label*="閒置"] foreignObject:after,
 .wrapper__44b0c[role="img"][aria-label*="자리비움"] foreignObject:after {
-	background-color: #faa61a;
+	background-color: var(--rs-idle-color);
 }
 
 .wrapper__44b0c:has([fill="#82838b"]) .mask__44b0c foreignObject[mask*=mobile]:after {
-	background-color: #747f8d;
+	background-color: var(--rs-offline-color);
 }
