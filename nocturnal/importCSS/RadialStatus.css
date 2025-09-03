@@ -1,10 +1,10 @@
 .theme-dark {
-    --rs-default-color: #666;
-    --rs-online-color: #43b581;
-    --rs-idle-color: #faa61a;
-    --rs-dnd-color: #f04747;
-    --rs-streaming-color: #6441a5;
-    --rs-offline-color: #747f8d;
+	--rs-default-color: #666;
+	--rs-online-color: #43b581;
+	--rs-idle-color: #faa61a;
+	--rs-dnd-color: #f04747;
+	--rs-streaming-color: #6441a5;
+	--rs-offline-color: #747f8d;
 }
 
 .wrapper__44b0c[role="img"]:before,
