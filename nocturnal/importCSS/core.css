@@ -7519,7 +7519,6 @@ span.clanTag__07f91:not(.guildTag__63ed3) {
 
 .leaveActionWrapper__964b4,
 .optionContainer__47458,
-.optionContainer__7e1d8,
 .list__5b98e,
 .termsRow_fe70ca,
 .tabContainer__49668,
@@ -8520,7 +8519,6 @@ rect[fill="var(--control-brand-foreground)"] {
 .wrapper__14403,
 .classificationPolicyCard_a48d6b,
 .effectGridItem_b4019a,
-.pauseContainer_c38e9f,
 .dropdown_edf232,
 .featuredPackFooter_fbeabf,
 .metricCard_c0544c,
@@ -9144,13 +9142,13 @@ path[fill="#949cf7"],
 path[fill="#93a7fd"],
 path[fill="#7a8ef9"],
 path[fill="#6a7df6"],
-path[fill="hsl(235 calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"],
+path[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"],
 rect[fill="var(--text-brand)"],
 rect[fill="#949cf7"],
 rect[fill="#93a7fd"],
 rect[fill="#7a8ef9"],
 rect[fill="#6a7df6"],
-rect[fill="hsl(235 calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
+rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 	fill: var(--text-senary);
 }
 
@@ -9624,12 +9622,12 @@ rect[fill="hsl(235 calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 }
 
 rect[fill="#5865f2"],
-rect[fill="hsl(235 calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"],
+rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"],
 rect[fill="var(--brand-500)"],
 rect[fill="var(--badge-brand-text)"],
 rect[fill="var(--bg-brand)"],
 path[fill="#5865f2"],
-path[fill="hsl(235 calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"],
+path[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"],
 path[fill="var(--brand-500)"],
 path[fill="var(--badge-brand-text)"],
 path[fill="var(--bg-brand)"] {
@@ -10339,7 +10337,9 @@ div.cardContainer__88e24,
 .menuItem__8683b.active__8683b,
 .platform__4a98c,
 .avatar__44b0c:before,
-.winButtonMinMax_c38106:hover {
+.winButtonMinMax_c38106:hover,
+.optionContainer__7e1d8,
+.pauseContainer_c38e9f {
 	background-color: var(--backgroundDark-20);
 	border-color: rgba(0, 0, 0, 0);
 }
