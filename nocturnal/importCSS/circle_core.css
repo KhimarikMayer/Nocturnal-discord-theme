@@ -7483,7 +7483,6 @@ span.clanTag__07f91:not(.guildTag__63ed3) {
 .separator__841c8,
 .profilePanel_b433b4 .theme-dark.outer_c0bea0:not(.custom-theme-background) .divider_e6f9ab,
 .dot__44492,
-.divider__4591d,
 .dotSpacer_f005b2,
 .divider__0651b,
 .divider__9293f,
@@ -7963,11 +7962,21 @@ h3.improved__1689b:after,
 	height: 14px;
 }
 
+.listItemTooltip__90d72 .childContainer__3e3b0:not(.redesignIconChildContainer__3e3b0)>svg[width="12"][height="12"] {
+	width: 16px;
+	height: 16px;
+}
+
 .childContainer__3e3b0:not(.redesignIconChildContainer__3e3b0) svg[width="13"][height="13"],
 .bd-flower-star-checkmark svg,
 :where(.redesignIconChildContainer__3e3b0)>svg {
 	width: 18px !important;
 	height: 18px !important;
+}
+
+.childContainer__3e3b0:not(.redesignIconChildContainer__3e3b0) svg[width="18"][height="18"] {
+	width: 24px;
+	height: 24px;
 }
 
 .containerCompact__7ff28 {
@@ -10077,6 +10086,7 @@ div.cardContainer__88e24,
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
 }
 
+.divider__4591d,
 .divider__67dba,
 .divider_a5b35c,
 .separator__2dc49,
@@ -10207,8 +10217,6 @@ div.cardContainer__88e24,
 .vc-permviewer-modal-list-item-active,
 .vc-permviewer-modal-list-item-active:hover,
 .actionButton__6b102:hover,
-.trait_d452e4:hover,
-.trait_a2b4d3:hover,
 .container__04119.active__04119,
 .container__04119:hover.active__04119,
 .theme-dark :where(.bd-paginator-back, .bd-paginator-next):hover,
@@ -10948,7 +10956,8 @@ rect[fill="brand-200"] {
 }
 
 .colorVariant__6f029,
-.row__6fddf {
+.row__6fddf,
+.card__88264 .recurrences__4fb8c {
 	padding-right: 6px;
 }
 
