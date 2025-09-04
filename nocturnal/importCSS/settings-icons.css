@@ -711,7 +711,8 @@
 	background: url(https://khimarikmayer.github.io/Nocturnal-discord-theme/icons/overlay.png) center;
 }
 
-.bd-settings-tab::before {
+.bd-settings-tab::before,
+.vc-settings::before {
 	background: url(https://khimarikmayer.github.io/Nocturnal-discord-theme/icons/core.png) center;
 }
 
@@ -720,7 +721,8 @@
 	background: url(https://khimarikmayer.github.io/Nocturnal-discord-theme/icons/BDUpdates.svg) center;
 }
 
-.bd-customcss-tab::before {
+.bd-customcss-tab::before,
+.vc-backup-restore::before {
 	background: url(https://khimarikmayer.github.io/Nocturnal-discord-theme/icons/css.png) center;
 }
 
@@ -732,6 +734,10 @@
 .bd-themes-tab::before,
 .vc-themes::before {
 	background: url(https://khimarikmayer.github.io/Nocturnal-discord-theme/icons/theme.png) center;
+}
+
+.vc-cloud::before {
+	background: url(https://xcruxiex.github.io/themes/core/Settings-Icons/Cloud.svg) center;
 }
 
 .theme-dark .item_b3f026[data-tab-id="changelog"]::before {
