@@ -2953,6 +2953,12 @@ span.button__67645.enabled__67645:hover,
 	animation: gradient 15s ease infinite;
 }
 
+.vc-gp-tab-bar:hover {
+	background: linear-gradient(45deg, #ee775280, #e73c7e80, #23a6d580, #23d5ab80);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -12885,10 +12891,6 @@ svg.thumbnail__0f2e8 {
 	border-top: 1px solid hsla(0,0%,100%,.1);
 	border-bottom: none !important;
 	transition: 250ms background-color ease-in-out;
-}
-
-.vc-gp-tab-bar:hover {
-	background-color: var(--backgroundDark-50);
 }
 
 .theme-dark .vc-gp-icon {
