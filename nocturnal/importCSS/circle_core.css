@@ -365,7 +365,8 @@
 .nameTag_afed89,
 .nickname__63ed3,
 .userTag_c9ccf6,
-.profileNameTag__89307 {
+.profileNameTag__89307,
+.vc-gp-name {
 	color: #fff !important;
 	font-weight: 800;
 	letter-spacing: 1.2px;
@@ -12875,7 +12876,8 @@ svg.thumbnail__0f2e8 {
 
 .vc-gp-header {
 	border-radius: 12px 12px 0 0;
-	padding: .5em;
+	padding: 24px;
+	gap: 24px;
 	margin: 0;
 }
 
@@ -12904,4 +12906,17 @@ svg.thumbnail__0f2e8 {
 .theme-dark .vc-gp-owner-avatar {
 	height: 16px;
 	box-shadow: 0 0 0 2px #666;
+}
+
+.vc-gp-name {
+	font-size: 20px;
+}
+
+.theme-light .tooltip__4e35b {
+	background-color: var(--background-surface-high);
+	box-shadow: inset 0 0 0 1px var(--border-subtle), var(--shadow-high);
+}
+
+.top_b3f026 .item_b3f026.brand_b3f026.vc-gp-tab {
+	--selected-tab-item-color: #fff;
 }
