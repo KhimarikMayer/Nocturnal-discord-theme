@@ -13191,8 +13191,8 @@ svg.thumbnail__0f2e8 {
 }
 
 .theme-dark .vc-gp-icon {
-	width: 44px;
-	height: 44px;
+	width: 96px;
+	height: 96px;
 	margin: 0 2px 2px 0;
 	border-radius: 4px;
 	box-shadow: 0 0 0 2px #666;
@@ -13214,4 +13214,8 @@ svg.thumbnail__0f2e8 {
 
 .top_b3f026 .item_b3f026.brand_b3f026.vc-gp-tab {
 	--selected-tab-item-color: #fff;
+}
+
+.theme-dark .hljs-section {
+	color: #005bdf;
 }
