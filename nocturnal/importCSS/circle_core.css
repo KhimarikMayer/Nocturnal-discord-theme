@@ -12924,3 +12924,7 @@ svg.thumbnail__0f2e8 {
 .theme-dark .hljs-section {
 	color: #005bdf;
 }
+
+.theme-light .caretIcon__4e35b .caretFill__4e35b {
+	fill: var(--background-surface-high);
+}
