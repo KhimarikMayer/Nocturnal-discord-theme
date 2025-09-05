@@ -13168,7 +13168,15 @@ svg.thumbnail__0f2e8 {
 	margin: 0;
 }
 
+.vc-gp-banner+.vc-gp-header {
+	margin-top: -4px;
+	border-radius: 0;
+}
+
 .vc-gp-tab-bar {
+	margin: 0;
+	padding: 20px 12px 0;
+	padding-bottom: 2px;
 	border-top: 1px solid hsla(0,0%,100%,.1);
 	border-bottom: none !important;
 	transition: 250ms background-color ease-in-out;
@@ -13182,6 +13190,7 @@ svg.thumbnail__0f2e8 {
 	width: 44px;
 	height: 44px;
 	margin: 0 2px 2px 0;
+	border-radius: 4px;
 	box-shadow: 0 0 0 2px #666;
 }
 
