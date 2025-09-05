@@ -2945,10 +2945,22 @@ span.button__67645.enabled__67645:hover,
 .wrapper__4d7bb,
 .avatarContainer__9e177,
 .popout_d5c2c4,
-.body__51eb2:not(.hasSplash__51eb2) {
+.body__51eb2:not(.hasSplash__51eb2),
+.vc-gp-header,
+.vc-gp-header .top_b3f026 {
 	background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
+}
+
+.vc-gp-header .top_b3f026 {
+	border-top: 1px solid hsla(0,0%,100%,.1);
+	border-bottom: none !important;
+	transition: 250ms background-color ease-in-out;
+}
+
+.vc-gp-header .top_b3f026:hover {
+	background-color: rgba(0, 0, 0, .5);
 }
 
 @keyframes gradient {
@@ -10018,7 +10030,15 @@ div.cardContainer__88e24,
 }
 
 .defaultThemeSelection__36dee {
-	box-shadow: inset 0 0 0 1px var(--backgroundDark-95);
+	box-shadow: inset 0 0 0 1px #000;
+}
+
+.borderOverlay__8fea4 {
+	box-shadow: inset 0 0 0 1px var(--backgroundDark-45);
+}
+
+.darkerIcon__36dee {
+	background-color: var(--backgroundDarker);
 }
 
 .closeWrapper_da3f59 {
@@ -10509,7 +10529,6 @@ rect[fill="brand-200"] {
 .container__1729d,
 .theme-dark.outer_c0bea0.panel_c0bea0:not(.custom-theme-background),
 .container__956c6,
-.darkerIcon__36dee,
 .button__14992,
 .floatingUpsell__9d295,
 .fractionalPremiumAccountCredit__94f72,
