@@ -366,7 +366,8 @@
 .nickname__63ed3,
 .userTag_c9ccf6,
 .profileNameTag__89307,
-.vc-gp-name {
+.vc-gp-name,
+.userTag__1fed1 {
 	color: #fff !important;
 	font-weight: 800;
 	letter-spacing: 1.2px;
@@ -12097,7 +12098,8 @@ rect[fill="brand-200"] {
 .lookFilled__201d5.colorGreen__201d5 .defaultColor__4bd52,
 .primary__6af3a .defaultColor__4bd52,
 .secondary__6af3a .defaultColor__4bd52,
-.active__6af3a .defaultColor__4bd52 {
+.active__6af3a .defaultColor__4bd52,
+.overflowMenuIcon__1fed1 {
 	color: #fff;
 }
 
