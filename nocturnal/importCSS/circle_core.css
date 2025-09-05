@@ -12876,8 +12876,8 @@ svg.thumbnail__0f2e8 {
 
 .vc-gp-header {
 	border-radius: 12px 12px 0 0;
-	padding: 24px;
-	gap: 24px;
+	padding: 20px;
+	gap: 20px;
 	margin: 0;
 }
 
@@ -12888,7 +12888,7 @@ svg.thumbnail__0f2e8 {
 
 .vc-gp-tab-bar {
 	margin: 0;
-	padding: 20px 12px 0;
+	padding: 20px 20px 0;
 	padding-bottom: 2px;
 	border-top: 1px solid hsla(0,0%,100%,.1);
 	border-bottom: none !important;
@@ -12896,11 +12896,11 @@ svg.thumbnail__0f2e8 {
 }
 
 .theme-dark .vc-gp-icon {
-	width: 96px;
-	height: 96px;
+	width: 76px;
+	height: 76px;
 	margin: 0 2px 2px 0;
-	box-shadow: 0 0 0 2px #666;
 	border-radius: 50px;
+	box-shadow: 0 0 0 2px #666;
 }
 
 .theme-dark .vc-gp-owner-avatar {
@@ -12909,7 +12909,7 @@ svg.thumbnail__0f2e8 {
 }
 
 .vc-gp-name {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .theme-light .tooltip__4e35b {
@@ -12923,6 +12923,7 @@ svg.thumbnail__0f2e8 {
 
 .top_b3f026 .item_b3f026.brand_b3f026.vc-gp-tab {
 	--selected-tab-item-color: #fff;
+	padding-bottom: 20px;
 }
 
 .theme-dark .hljs-section {
