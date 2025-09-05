@@ -1,4 +1,4 @@
-# Nocturnal v2.0 discord theme
+# Nocturnal v3.0 discord theme
 
 # Installation
 1. Install BetterDiscord
