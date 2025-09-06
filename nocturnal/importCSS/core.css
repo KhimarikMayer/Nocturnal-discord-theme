@@ -13235,6 +13235,7 @@ svg.thumbnail__0f2e8 {
 	margin: 2px 0 0 2px;
 	box-shadow: 0 0 0 2px #666;
 	border-radius: 4px;
+	overflow: hidden;
 }
 
 .vc-gp-tab-content {
