@@ -727,7 +727,7 @@ svg.contentImage__42bf5,
 }
 
 .theme-dark ::-webkit-scrollbar-thumb {
-	background-color: hsl(220 calc(var(--saturation-factor)*20%) 6% /1) !important;
+	background-color: hsl(230 calc(var(--saturation-factor)*19%) 6%) !important;
 	border-radius: 20px !important;
 	border: none !important;
 }
@@ -1335,7 +1335,7 @@ svg[name=Nitro] g path {
 
 .channelTextArea_f75fb0 {
 	margin-bottom: 0;
-	background: var(--background-gradient-lower, hsl(223 calc(var(--saturation-factor)*20%) 7% /1));
+	background: var(--background-gradient-lower, hsl(223 calc(var(--saturation-factor)*23%) 6% /1));
 }
 
 .channelTextArea_f75fb0:not(:focus-within):not(:hover) {
@@ -5032,7 +5032,7 @@ body,
 .placeholderItem__87dda,
 .bioTextAreaContainer__6a919,
 .traitContainer__4cbea {
-	background: var(--background-gradient-lower, hsl(223 calc(var(--saturation-factor)*20%) 7% /1));
+	background: var(--background-gradient-lower, hsl(223 calc(var(--saturation-factor)*23%) 6% /1));
 	border: none;
 }
 
@@ -8369,6 +8369,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .modalContent_bdbb1b,
 .body__527b1,
 .footer__7c901,
+.powerupHorizontalPadding__89463,
 .scroller_cba592 {
 	padding-right: 18px !important;
 }
@@ -8831,8 +8832,12 @@ rect[fill="var(--control-brand-foreground)"] {
 .loadingItem__764cd>:first-child,
 .circular__1df30,
 .groupContainer_b6a9f9,
+.applicationLargeImage__16b66,
+.spotifyLargeImage__16b66,
+.assetsLargeImage__16b66,
 .bd-gp-icon,
-.bd-gp-user-avatar {
+.bd-gp-user-avatar,
+.media__41ea0:not(.imageSmall__41ea0) {
 	border-radius: 8px;
 }
 
@@ -9989,7 +9994,11 @@ html:not(.chat-input) .inputInner_b1f01d,
 .video__20ba8,
 .button_aa90f4,
 .vc-uvs-guild-icon,
-.xenoLib-multiInput {
+.xenoLib-multiInput,
+.grabber_a562c8,
+.bar_c8b06d,
+.spoilerContainer__54ab5.attachmentContainer__54ab5,
+.upload_aa605f {
 	border-radius: 5px;
 }
 
@@ -10402,7 +10411,9 @@ div.cardContainer__88e24,
 .optionContainer__7e1d8,
 .pauseContainer_c38e9f,
 .hexInputContainer__247cf,
-.separator__841c8 {
+.separator__841c8,
+.progress__823e1.none__823e1,
+.progress__823e1 {
 	background-color: var(--backgroundDark-20);
 	border-color: rgba(0, 0, 0, 0);
 }
@@ -13236,4 +13247,17 @@ svg.thumbnail__0f2e8 {
 
 .vc-gp-tab-content:has(.vc-gp-info) {
 	margin: 20px;
+}
+
+.boostProgressBackground__5573a {
+	border: 4px solid var(--interactive-muted);
+}
+
+.parentContainer__5573a:hover .boostProgressBackground__5573a {
+	border: 4px solid var(--backgroundDark-20);
+}
+
+.uploadModal_dbca3c .inner_dbca3c .file_dbca3c .icon_dbca3c {
+	border-radius: 12px;
+	border: 7px solid var(--backgroundDark);
 }
