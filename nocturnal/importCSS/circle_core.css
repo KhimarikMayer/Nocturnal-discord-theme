@@ -3095,7 +3095,6 @@ span.button__67645.enabled__67645:hover,
 	background-color: rgba(0, 0, 0, 0);
 }
 
-.listAvatar__60626,
 .entryPointAppCommandButtonContainer_a83188,
 .header__65338 {
 	margin-left: 10px;
@@ -9145,7 +9144,6 @@ html:not(.chat-input) .inputInner_b1f01d,
 .list_f369db>div:first-child,
 .grid_f369db>div:first-child,
 .headerRow_f369db,
-.list_f369db>div:first-child,
 .headerBar__8a7fc,
 .sideFilterContainer__1eae0,
 .headerBar__1a9ce {
@@ -12900,7 +12898,6 @@ svg.thumbnail__0f2e8 {
 .theme-dark .vc-gp-icon {
 	width: 76px;
 	height: 76px;
-	margin: 0 2px 2px 0;
 	border-radius: 50px;
 	box-shadow: 0 0 0 2px #666;
 }
@@ -12937,12 +12934,10 @@ svg.thumbnail__0f2e8 {
 	background-color: var(--backgroundDark-50);
 	width: 76px;
 	height: 76px;
-	margin: 2px 0 0 2px;
 	box-shadow: 0 0 0 2px #666;
 	overflow: hidden;
 }
 
-.vc-gp-tab-content {
+.vc-gp-tab-content:has(.vc-gp-info) {
 	margin: 20px;
-	margin-right: 14px;
 }
