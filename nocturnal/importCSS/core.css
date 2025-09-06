@@ -549,8 +549,8 @@ svg[name=Nova_Discord] * {
 	color: #fff !important;
 }
 
-.bd-button-filled.bd-button-color-brand:hover:not(.bd-button-disabled),
-.bd-error-toggle:hover:not(.bd-button-disabled) {
+.bd-button-filled.bd-button-color-brand:hover:not(.bd-button:disabled),
+.bd-error-toggle:hover:not(.bd-button:disabled) {
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: hsl(201 calc(var(--saturation-factor)*100%) 43% /1);
@@ -660,11 +660,11 @@ svg[name=Nova_Discord] * {
 	transform: none;
 }
 
-.bd-button-filled.bd-button-color-brand:active:not(.bd-button-disabled),
-.bd-error-toggle:active:not(.bd-button-disabled),
-.bd-error-toggle.expanded:not(.bd-button-disabled),
-.bd-error-toggle:active:hover:not(.bd-button-disabled),
-.bd-error-toggle.expanded:hover:not(.bd-button-disabled) {
+.bd-button-filled.bd-button-color-brand:active:not(.bd-button:disabled),
+.bd-error-toggle:active:not(.bd-button:disabled),
+.bd-error-toggle.expanded:not(.bd-button:disabled),
+.bd-error-toggle:active:hover:not(.bd-button:disabled),
+.bd-error-toggle.expanded:hover:not(.bd-button:disabled) {
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
 	background-color: hsl(201 calc(var(--saturation-factor)*100%) 43% /1);
