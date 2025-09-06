@@ -13226,3 +13226,18 @@ svg.thumbnail__0f2e8 {
 .theme-dark .hljs-section {
 	color: #005bdf;
 }
+
+.vc-gp-header .childWrapper__6e9f8, 
+.vc-gp-header .wrapper__6e9f8 {
+	background-color: var(--backgroundDark-50);
+	width: 76px;
+	height: 76px;
+	margin: 2px 0 0 2px;
+	box-shadow: 0 0 0 2px #666;
+	border-radius: 4px;
+}
+
+.vc-gp-tab-content {
+	margin: 20px;
+	margin-right: 14px;
+}
