@@ -880,3 +880,7 @@
 .theme-dark [src*='/assets/2431801debe6535e.svg'] {
     content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/2431801debe6535e.svg");
 }
+
+.theme-dark [src*='/assets/12ee06c12c73e78e.svg'] {
+    content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/12ee06c12c73e78e.svg");
+}
