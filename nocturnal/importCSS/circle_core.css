@@ -9563,6 +9563,7 @@ path[fill="var(--bg-brand)"] {
 	margin-right: 0;
 }
 
+.vc-error-card,
 .textAreaForUserProfile__74017,
 .blockedPaymentsWarning_b7b2cf,
 .codeRedemptionRedirect_a706ba {
@@ -12189,6 +12190,7 @@ circle[fill="#C12A35"],
 	background-color: var(--primary-12);
 }
 
+.lookLink__201d5.colorBrand__201d5,
 .colorable_f1ceac.greenGlow_f1ceac,
 .colorable_f1ceac.greenGlow_f1ceac .centerIcon_f1ceac,
 svg[color="var(--brand-500)"] {
@@ -12953,12 +12955,9 @@ svg.thumbnail__0f2e8 {
 	margin: 20px;
 }
 
-.boostProgressBackground__5573a {
-	border: 4px solid var(--interactive-muted);
-}
-
+.boostProgressBackground__5573a,
 .parentContainer__5573a:hover .boostProgressBackground__5573a {
-	border: 4px solid var(--backgroundDark-20);
+	border: 4px solid var(--interactive-muted);
 }
 
 .uploadModal_dbca3c .inner_dbca3c .file_dbca3c .icon_dbca3c {
