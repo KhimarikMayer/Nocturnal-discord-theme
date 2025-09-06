@@ -645,7 +645,9 @@ svg[name=Nova_Discord] * {
 .lookFilled__201d5.colorPrimary__201d5:active:not(.color_f9d37d.banner_fb7f94, :disabled),
 .lookOutlined__201d5.colorBrand__201d5:active:not(:disabled),
 .primary__6af3a[aria-expanded=true],
+.primary__6af3a[aria-expanded=true]:hover,
 .lookFilled__201d5.colorBrand__201d5[aria-expanded=true],
+.lookFilled__201d5.colorBrand__201d5[aria-expanded=true]:hover,
 .plugin-settings button:active,
 .standardSidebarView__23e6b #bd-customcss-attach-controls button:active,
 .primary__6af3a:active:not(:disabled, .optionPillBtn__3f413, [aria-disabled=true]),
@@ -1147,8 +1149,8 @@ svg[name=Nitro] g path {
 	border-radius: 5px;
 }
 
-.noIcon_f34534,
 .childWrapperNoHoverBg__6e9f8,
+.noIcon_f34534,
 .custom-theme-background .childWrapperNoHoverBg__6e9f8,
 .VoiceActivity-guildimage-defaultIcon {
 	background-color: var(--backgroundDark-50);
@@ -5015,6 +5017,7 @@ body,
 	border: none;
 }
 
+html:not(.chat-input) .inputInner_b1f01d,
 .themedBackground__74017:not(.channelTextAreaInner_d9be46, .rulesTextAreaInput_f7c056),
 .inputInner_b1f01d:not(.channelTextAreaInner_d9be46, .rulesTextAreaInput_f7c056),
 .mockInput_c50f62,
@@ -6942,6 +6945,7 @@ rect[fill="rgb(123,162,255)"] {
 	border: none;
 }
 
+.applicationSearch__50a6f,
 .infoRow__6b102:not(:last-child),
 .footerContainer__5a2df,
 .preview__4e29d,
@@ -7634,7 +7638,6 @@ span.clanTag__07f91:not(.guildTag__63ed3) {
 .characterCount__795fb,
 .termsRow__523ab,
 .failedDestinations_c3ef83,
-.applicationSearch__50a6f,
 .emojiRow_e7d73e,
 .scrollSeparator__01dab,
 .darkCardBackground_c3d04b,
