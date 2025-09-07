@@ -248,6 +248,7 @@
 }
 
 .actionButton_f8fa06.highlight_f8fa06,
+.actionButton_f8fa06:active,
 .friendRequestsButton__523aa:hover,
 .primary__06eda:hover:not(.disabled__06eda),
 .secondary__06eda:hover:not(.disabled__06eda),
@@ -763,11 +764,12 @@ svg.contentImage__42bf5,
 	background-color: var(--backgroundDark-25);
 }
 
-.key_fcddc1 {
+.key_fcddc1,
+.key_fcddc1:active {
 	background: linear-gradient(to right, var(--primaryGradient1), var(--primaryGradient2));
-	border: none !important;
-	color: var(--backgroundDark) !important;
-	box-shadow: inset 0 -4px 0 var(--backgroundDark-50) !important;
+	border: none;
+	color: var(--backgroundDark);
+	box-shadow: inset 0 -4px 0 var(--backgroundDark-50);
 }
 
 .keyboardShortcutsModal_f061f6 {
@@ -7645,7 +7647,6 @@ span.clanTag__07f91:not(.guildTag__63ed3) {
 .checkboxContainer_db81c6:before,
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .divider_ae36e5,
 .menuDivider_ce8328,
-.summarySeparator__143a4,
 .underline__1729d,
 .underline__761e5,
 .divider__17efa,
@@ -7801,12 +7802,12 @@ h3.improved__1689b:after,
 	box-shadow: 0 1px 0 0 var(--backgroundDark-95);
 }
 
+.theme-dark .channelNotice__4c43d,
 .inviteSettingsInviteRow__1de14 {
 	box-shadow: 0 1px 0 0 var(--backgroundDark-20);
 }
 
 .theme-dark .reactorDefault_cc2dff,
-.theme-dark .channelNotice__4c43d,
 .theme-dark .voterDefault__01c8c,
 .theme-dark .row__740f2 {
 	box-shadow: inset 0 -1px 0 var(--backgroundDark-95);
@@ -8978,6 +8979,8 @@ div.cardContainer__88e24,
 .bd-vmsg-modal,
 .vc-author-modal-root,
 .innerContainer__3a5a1,
+.bd-trans-modal-content,
+.vc-trans-modal-content,
 .content_d7fb2d {
 	padding-right: 10px !important;
 }
@@ -10355,6 +10358,7 @@ div.cardContainer__88e24,
 .pauseContainer_c38e9f,
 .hexInputContainer__247cf,
 .separator__841c8,
+.summarySeparator__143a4,
 .progress__823e1.none__823e1,
 .progress__823e1 {
 	background-color: var(--backgroundDark-20);
@@ -13223,4 +13227,18 @@ svg.thumbnail__0f2e8 {
 .bd-gp-tab:hover {
 	color: var(--interactive-hover);
 	border-bottom-color: var(--interactive-hover);
+}
+
+.key_e88f3f,
+.key_e88f3f:active {
+	color: #fff;
+	border: 1px solid #c4c9ce;
+	border-width: 1px 0;
+	border-radius: 0;
+	background: rgba(0, 0, 0, 0);
+	box-shadow: none;
+}
+
+.key_e88f3f:active {
+	border-color: #fff;
 }
