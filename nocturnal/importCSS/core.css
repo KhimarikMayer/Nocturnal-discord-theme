@@ -10953,7 +10953,7 @@ rect[fill="brand-200"] {
 }
 
 .theme-dark:not(.custom-user-profile-theme) .outer_ab8609 {
-	box-shadow: 0 0 5px 1.53px var(--backgroundDark-75);
+	box-shadow: 0 1px 4px 0 var(--backgroundDark-75);
 }
 
 .avatar_efaad4 {
