@@ -3228,7 +3228,6 @@ span.button__67645.enabled__67645:hover,
 	color: hsl(211 calc(var(--saturation-factor)*100%) 37% /1);
 }
 
-.stepContainer_a68543.completed_a68543,
 .container_f04ae9 .card_f04ae9 {
 	background-color: var(--backgroundDark);
 	border: none;
@@ -3370,6 +3369,7 @@ span.button__67645.enabled__67645:hover,
 	background-color: var(--backgroundDark-25);
 }
 
+.post_ee8e87,
 .linkContainer_ca49a1,
 .navRow__86e92,
 .tag__0e476:hover {
@@ -3427,11 +3427,15 @@ span.button__67645.enabled__67645:hover,
 	box-shadow: none;
 }
 
+.stepContainer_a68543,
 .container__6b38f:hover {
 	background-color: var(--backgroundDarker-alt);
 }
 
-.stepContainer_a68543,
+.stepContainer_a68543:hover {
+	background-color: hsl(220 calc(var(--saturation-factor)*20%) 6% /1);
+}
+
 .multiSelectCheckbox__3f413 {
 	background-color: var(--backgroundDark);
 	border: none;
@@ -3444,11 +3448,12 @@ span.button__67645.enabled__67645:hover,
 	border-radius: 5px;
 }
 
+.container_ca49a1,
+.container_a68543,
 .container__93db4,
 .loadingCard_f369db,
 .forumPost__7d15e,
 .tagsButton_f369db,
-.stepContainer_a68543:hover,
 .category_d7acc7 {
 	background-color: var(--backgroundDarker);
 	border: none;
@@ -3479,6 +3484,7 @@ span.button__67645.enabled__67645:hover,
 	color: #fff;
 }
 
+.tag_ee8e87,
 .tag_c993da,
 .container_eb2cd2,
 .rowContainer__991a0,
@@ -3515,11 +3521,7 @@ span.button__67645.enabled__67645:hover,
 .button_f7ecac[aria-expanded=true],
 .hoverBarButton_f84418.selected_f7ecac,
 .hoverBarButton_f84418[aria-expanded=true],
-.container_ca49a1,
-.container_a68543,
 .increasedActivityMainCard_e53744,
-.post_ee8e87,
-.tag_ee8e87,
 .noAvatarIcon__6764b {
 	background-color: var(--backgroundLight);
 	border: none;
@@ -3611,7 +3613,6 @@ span.button__67645.enabled__67645:hover,
 	background-color: rgba(0, 0, 0, 0);
 }
 
-.inlineTag_ee8e87,
 .ctaSection_fc200b,
 .channelsWrapper__5c799,
 .rolesWrapper__5c799,
@@ -3635,6 +3636,7 @@ span.button__67645.enabled__67645:hover,
 	border-radius: 5px;
 }
 
+.inlineTag_ee8e87,
 .formSection_fc200b,
 .placeholder__2dc39,
 .usagePill__74f72,
@@ -3865,7 +3867,7 @@ span.button__67645.enabled__67645:hover,
 
 .header_c0e32c {
 	background-color: var(--backgroundDark);
-	border-bottom: 1px solid var(--backgroundDark-95);
+	border-bottom: 1px solid var(--backgroundDark-20);
 }
 
 .collapseable__217b7:not(.appDetailsSection__50a54, .groupContainer_b6a9f9):active {
@@ -6282,11 +6284,14 @@ circle[fill="var(--brand-500)"],
 	margin: 0 4px 4px 0;
 }
 
+.descriptionContainer_ca49a1 {
+	background-color: var(--backgroundDark-15);
+}
+
 #permissions-modal-wrapper .role-item:hover {
 	background-color: var(--backgroundDark-20);
 }
 
-.descriptionContainer_ca49a1,
 #permissions-modal-wrapper .role-item.selected,
 .card__4d7bb {
 	background-color: var(--backgroundDark-30);
@@ -10940,12 +10945,15 @@ rect[fill="brand-200"] {
 }
 
 .container_ab8609 {
-	--custom-status-bubble-background-color: var(--backgroundLight);
-	--custom-status-bubble-background: var(--backgroundLight);
+	--custom-status-bubble-background-color: var(--backgroundDark);
 }
 
 .container_ab8609.editable_ab8609:hover {
-	--custom-status-bubble-background: var(--backgroundLighter);
+	--custom-status-bubble-background: var(--backgroundDarker);
+}
+
+.theme-dark:not(.custom-user-profile-theme) .outer_ab8609 {
+	box-shadow: 0 0 5px 1.53px var(--backgroundDark-75);
 }
 
 .avatar_efaad4 {
@@ -11264,6 +11272,8 @@ rect[fill="brand-200"] {
 	border: none;
 }
 
+.optionPillItem__3f413 button,
+.optionPill__3f413,
 .gameActivityLevel__4e338,
 .bd-gp-modal,
 .colorDefault_67c5da .bg_67c5da,
@@ -11364,8 +11374,6 @@ rect[fill="brand-200"] {
 	background-color: var(--backgroundDarker);
 }
 
-.optionPillItem__3f413 button,
-.optionPill__3f413,
 .vc-settings-theme-links,
 .vc-settings-theme-links:focus,
 .container__5573a.active__5573a,
@@ -13246,4 +13254,9 @@ svg.thumbnail__0f2e8 {
 .uploadModal_dbca3c .inner_dbca3c .file_dbca3c .icon_dbca3c {
 	border-radius: 12px;
 	border: 7px solid var(--backgroundDark);
+}
+
+.roleSelector_f0aa37 {
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
 }
