@@ -27,7 +27,6 @@
 .wrapper__44b0c[role="img"] .avatar__44b0c:before,
 .wrapper__44b0c[role="img"] .avatarSpeaking__44b0c,
 .pointer__44b0c[role="button"] .avatar__44b0c,
-.pointer__44b0c[role="button"] .avatar__44b0c:before,
 .pointer__44b0c[role="button"] .avatarSpeaking__44b0c {
 	margin: 2px 0 0 2px;
 	width: calc(100% - 4px);
