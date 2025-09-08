@@ -3857,11 +3857,11 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	border: 1px solid rgba(0, 0, 0, 0);
 }
 
-.backgroundModifierContainer__6cd3a:hover:not(.disabled__6cd3a):not(.noAction__6cd3a):not(.selected__6cd3a) {
+.backgroundModifierContainer__6cd3a:hover:not(.disabled__6cd3a):not(.noAction__6cd3a) {
 	background-color: hsl(220 calc(var(--saturation-factor)*20%) 9% /1);
 }
 
-.backgroundModifierContainer__6cd3a:active:not(.disabled__6cd3a):not(.noAction__6cd3a):not(.selected__6cd3a) {
+.backgroundModifierContainer__6cd3a:active:not(.disabled__6cd3a):not(.noAction__6cd3a) {
 	background-color: var(--backgroundDarker-alt);
 }
 
@@ -3964,7 +3964,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 }
 
 .checkboxWrapper_f525d3.row_f525d3.checked_f525d3 {
-	background-color: var(--backgroundDarker-alt);
+	background-color: hsl(220 calc(var(--saturation-factor)*20%) 6%);
 }
 
 .container__3c265.background__4cf17,
@@ -6096,8 +6096,6 @@ circle[fill="var(--brand-500)"],
 .subheaderContainer__6f7ce,
 .missingReadHistoryPermission_f369db,
 .deprecationNotice__6b6ed,
-.adminUpsell_bc0d35.container_bc0d35,
-.container_bc0d35,
 .monaco-editor,
 .monaco-editor-background,
 .monaco-editor .inputarea.ime-input,
@@ -6515,6 +6513,8 @@ circle[fill="var(--brand-500)"],
 	transition: none;
 }
 
+.adminUpsell_bc0d35.container_bc0d35,
+.container_bc0d35,
 .theme-dark .headerArtPlaceholder__553a5,
 .appContainer__5a4b6:focus,
 .appContainer__5a4b6:hover,
@@ -6965,10 +6965,8 @@ rect[fill="rgb(123,162,255)"] {
 .headerIcon__553a5,
 #permissions-modal-wrapper .modal-body,
 .clickableAction_c66e86:hover,
-.action_c66e86:hover,
 .root__4ad81,
 .wrapper__97f37,
-.upsellPreview_d9161f .action_c66e86,
 .root__6943c,
 .picker__09f65,
 .picker__09f65.refresh__09f65,
@@ -7433,6 +7431,8 @@ rect[fill="rgb(123,162,255)"] {
 .previewRoot__2dbe1,
 .mediaMosaicAltTextPopout__0f481,
 .aboutMeGuildIconTooltip_d6668b,
+.header__45314,
+.header_f0dcaf,
 .default_e18686 {
 	background-color: var(--backgroundDark);
 }
@@ -7443,8 +7443,6 @@ rect[fill="rgb(123,162,255)"] {
 	border: none;
 }
 
-.header__45314,
-.header_f0dcaf,
 .divider_b50d96,
 .rowIcon__95bea,
 .soundButtonWrapper__9be63,
@@ -7483,6 +7481,8 @@ rect[fill="rgb(123,162,255)"] {
 	border: none;
 }
 
+.bullet_ef2eb4,
+.bullet_f0dcaf,
 .wrapper_ac2cfb,
 .counter__90981,
 .cardFooter_b99f57,
@@ -7730,7 +7730,6 @@ span.clanTag__07f91:not(.guildTag__63ed3) {
 .dotSpacer_f005b2,
 .divider__0651b,
 .divider__9293f,
-.bullet_f0dcaf,
 .divider_a39aa3,
 .divider__669b5,
 .divider__1048e,
@@ -11283,8 +11282,8 @@ rect[fill="brand-200"] {
 }
 
 .noIcon_f34534.headerIcon__553a5 {
-	background-color: var(--backgroundDarker-alt);
-	border-color: var(--backgroundDarker-alt);
+	background-color: hsl(220 calc(var(--saturation-factor)*20%) 6%);
+	border-color: hsl(220 calc(var(--saturation-factor)*20%) 6%);
 }
 
 .sidebarTabBar_dc2e0e {
@@ -12853,10 +12852,6 @@ svg.thumbnail__0f2e8 {
 	border-radius: 0 6px 6px 0;
 }
 
-.bd-button-filled.bd-button-color-red {
-	border: 2px solid rgba(0, 0, 0, 0);
-}
-
 .bd-controls>.bd-addon-button.bd-button-filled.bd-button-color-brand:not(:first-of-type):not(:last-of-type) {
 	border-radius: 0 !important;
 }
@@ -13408,6 +13403,7 @@ svg.thumbnail__0f2e8 {
 	border-radius: 30% 30% 8px !important;
 }
 
+.overlayGuildIcon__57752,
 .platform-win .sidebar_c48ade {
 	border-radius: 0;
 }
