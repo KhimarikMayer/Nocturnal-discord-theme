@@ -571,7 +571,20 @@
 .wrapper__44b0c:has([fill="#848589"])[role="img"]:before,
 .wrapper__44b0c:has([fill="#848489"])[role="img"]:before,
 .wrapper__44b0c:has([fill="#82838b"])[role="img"]:before,
-.wrapper__44b0c:has([fill*="rgba(130"])[role="img"]:before {
+.wrapper__44b0c:has([fill*="rgba(130, 12"])[role="img"]:before,
+.wrapper__44b0c:has([fill*="rgba(131, 12"])[role="img"]:before,
+.wrapper__44b0c:has([fill*="rgba(132, 12"])[role="img"]:before,
+.wrapper__44b0c:has([fill*="rgba(133, 12"])[role="img"]:before,
+.wrapper__44b0c:has([fill*="rgba(134, 12"])[role="img"]:before,
+.wrapper__44b0c:has([fill*="rgba(135, 12"])[role="img"]:before,
+.wrapper__44b0c:has([fill*="rgba(136, 12"])[role="img"]:before,
+.wrapper__44b0c:has([fill*="rgba(130, 13"])[role="img"]:before,
+.wrapper__44b0c:has([fill*="rgba(131, 13"])[role="img"]:before,
+.wrapper__44b0c:has([fill*="rgba(132, 13"])[role="img"]:before,
+.wrapper__44b0c:has([fill*="rgba(133, 13"])[role="img"]:before,
+.wrapper__44b0c:has([fill*="rgba(134, 13"])[role="img"]:before,
+.wrapper__44b0c:has([fill*="rgba(135, 13"])[role="img"]:before,
+.wrapper__44b0c:has([fill*="rgba(136, 13"])[role="img"]:before {
 	box-shadow: 0 0 0 2px var(--rs-offline-color);
 }
 
