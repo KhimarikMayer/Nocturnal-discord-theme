@@ -2244,18 +2244,18 @@ svg[name=Nitro] g path {
 .withTagless_b2ca13:hover,
 .avatarWrapper__37e49:hover,
 .avatarWrapper__37e49[aria-expanded=true],
-button.button__67645.enabled__67645:hover,
-span.button__67645.enabled__67645:hover,
-.micButtonParent__37e49:hover>button:hover,
+button.button__67645.enabled__67645:not(.redGlow__67645):hover,
+span.button__67645.enabled__67645:not(.redGlow__67645):hover,
+.micButtonParent__37e49:hover>button:not(.redGlow__67645):hover,
 .visual-refresh .withTagAsButton_b2ca13[aria-expanded=true],
 .visual-refresh .withTagless_b2ca13[aria-expanded=true],
 .visual-refresh .withTagAsButton_b2ca13:hover,
 .visual-refresh .withTagless_b2ca13:hover,
 .visual-refresh .avatarWrapper__37e49:hover,
 .visual-refresh .avatarWrapper__37e49[aria-expanded=true],
-.visual-refresh button.button__67645.enabled__67645:hover,
-.visual-refresh span.button__67645.enabled__67645:hover,
-.visual-refresh .micButtonParent__37e49:hover>button:hover {
+.visual-refresh button.button__67645.enabled__67645:not(.redGlow__67645):hover,
+.visual-refresh span.button__67645.enabled__67645:not(.redGlow__67645):hover,
+.visual-refresh .micButtonParent__37e49:hover>button:not(.redGlow__67645):hover {
 	background-color: var(--backgroundDark-25);
 }
 
