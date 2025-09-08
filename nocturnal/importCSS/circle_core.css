@@ -769,9 +769,9 @@ svg.contentImage__42bf5,
 .key_fcddc1,
 .key_fcddc1:active {
 	background: linear-gradient(to right, var(--primaryGradient1), var(--primaryGradient2));
-	border: none;
-	color: var(--backgroundDark);
-	box-shadow: inset 0 -4px 0 var(--backgroundDark-50);
+	border: none !important;
+	color: var(--backgroundDark) !important;
+	box-shadow: inset 0 -4px 0 var(--backgroundDark-50) !important;
 }
 
 .keyboardShortcutsModal_f061f6 {
@@ -2156,7 +2156,7 @@ svg[name=Nitro] g path {
 
 .notice__6e2b9 {
 	border-radius: 0;
-	border: none;
+	border-color: var(--backgroundDark-25);
 }
 
 .colorBrand__6e2b9 {
@@ -2171,7 +2171,6 @@ svg[name=Nitro] g path {
 .theme-darker .notice__30f28,
 .theme-darker .notice_c5cd6a {
 	background-color: hsl(209 calc(var(--saturation-factor)*100%) 30% /1);
-	box-shadow: none;
 }
 
 .theme-midnight .notice_c9e42f,
@@ -6344,6 +6343,7 @@ circle[fill="var(--brand-500)"],
 	border: none;
 }
 
+.container_bc0d35,
 .decorationPreview__51743,
 .smallDecorationPreviewsContainer__51743,
 .decorationGridItem_dfa67d,
@@ -6373,7 +6373,6 @@ circle[fill="var(--brand-500)"],
 }
 
 .adminUpsell_bc0d35.container_bc0d35,
-.container_bc0d35,
 .theme-dark .headerArtPlaceholder__553a5,
 .appContainer__5a4b6:focus,
 .appContainer__5a4b6:hover,
@@ -6851,6 +6850,7 @@ rect[fill="rgb(123,162,255)"] {
 	border: none;
 }
 
+.footer__3564f,
 .applicationSearch__50a6f,
 .infoRow__6b102:not(:last-child),
 .footerContainer__5a2df,
@@ -7529,7 +7529,6 @@ span.clanTag__07f91:not(.guildTag__63ed3) {
 .promotionLegalese_d4883c,
 .confirmedUserContainer_daaad8,
 .guildContainer__631c2,
-.footer__3564f,
 .optionals__920ab,
 .reasonContainer__958c7,
 .container_d71b96,
@@ -11122,7 +11121,8 @@ rect[fill="brand-200"] {
 .filterBar__11877,
 .authBox__921c5,
 .sidebar_c48ade:after,
-.visual-refresh .sidebar_c48ade:after {
+.visual-refresh .sidebar_c48ade:after,
+.mediaMosaicAltText__0f481:active {
 	background-color: var(--backgroundDark);
 }
 
@@ -11310,6 +11310,7 @@ rect[fill="brand-200"] {
 	background: linear-gradient(180deg, var(--backgroundDarker), rgba(0, 0, 0, 0) 70%);
 }
 
+.tooltipRight__382e7 .tooltipPointer__382e7:not(.tooltipPointerBg__382e7),
 .clickableRow__9ecf6,
 .scroller__629e4,
 .visual-refresh .scroller__629e4,
@@ -12211,11 +12212,16 @@ rect[fill="#D3D6ED"] {
 	box-shadow: 0 0 0 2px var(--primary);
 }
 
+.pauseBackground_d70e0d,
 .newBadge__8e830,
 .redDot_cbe0b4,
 .theme__11877.themeToggled__11877,
 .newlyAddedBadge_fc7141 {
 	background-color: var(--primary);
+}
+
+.colorNeutral__6e2b9 {
+	--custom-notice-background: var(--backgroundDark);
 }
 
 .recentMentionsPopout__95796.messagesPopoutWrap__45690,
@@ -12795,6 +12801,7 @@ svg.thumbnail__0f2e8 {
 	background-color: var(--backgroundDarker) !important;
 }
 
+.iconBadge__03991,
 [style="display: flex; align-items: center; padding: 12px; background-color: var(--background-secondary-alt); border-radius: 8px; cursor: pointer; transition: background-color 0.2s;"] {
 	background-color: var(--backgroundDarker-alt) !important;
 }
@@ -13061,16 +13068,16 @@ svg.thumbnail__0f2e8 {
 
 .key_e88f3f,
 .key_e88f3f:active {
-	color: #fff;
-	border: 1px solid #c4c9ce;
+	color: #fff !important;
+	border: 1px solid #c4c9ce !important;
 	border-width: 1px 0;
 	border-radius: 0;
 	background: rgba(0, 0, 0, 0);
-	box-shadow: none;
+	box-shadow: none !important;
 }
 
 .key_e88f3f:active {
-	border-color: #fff;
+	border-color: #fff !important;
 }
 
 .boostProgressBackground__5573a {
