@@ -7567,8 +7567,6 @@ span.clanTag__07f91:not(.guildTag__63ed3) {
 .textDivider_d4ced7,
 .sectionSeparator__5d7c9,
 .profileBadge_b64375:before,
-.avatar_c19a55:before,
-.icon__6e9f8:before,
 .divider-2bkesd,
 .divider_baf530,
 .divider_d28fa1,
@@ -9362,7 +9360,6 @@ html:not(.chat-input) .inputInner_b1f01d,
 .detailsTooltip_78f589 div.icon_78f589,
 .icon_hSL42R,
 .iconActiveLarger_f34534,
-.avatar__44b0c:before,
 .nameplatePlaceholderAvatar_c3d04b,
 .guildIconImage_d28ae0,
 .guildIcon__32fe1 {
@@ -10250,6 +10247,8 @@ div.cardContainer__88e24,
 .hoverableContainer__754bd:hover,
 .menuItem__8683b.active__8683b,
 .platform__4a98c,
+.icon__6e9f8:before,
+.avatar_c19a55:before,
 .avatar__44b0c:before,
 .winButtonMinMax_c38106:hover,
 .optionContainer__7e1d8,
@@ -12902,6 +12901,7 @@ svg.thumbnail__0f2e8 {
 	border-radius: 24px;
 }
 
+.avatar_c19a55:before,
 .roleDot__9e177:before,
 .roleIcon__1e6f1 {
 	border-radius: 50px;
@@ -13099,7 +13099,10 @@ svg.thumbnail__0f2e8 {
 	border-radius: 50px;
 }
 
-.visual-refresh .guildIcon__48112[style*="border-radius: 4px 4px 4px 13px;"] {
+.visual-refresh .guildIcon__48112[style*="border-radius: 13px 4px 4px 4px;"],
+.visual-refresh .guildIcon__48112[style*="border-radius: 4px 13px 4px 4px;"],
+.visual-refresh .guildIcon__48112[style*="border-radius: 4px 4px 4px 13px;"],
+.visual-refresh .guildIcon__48112[style*="border-radius: 4px 4px 13px;"] {
 	border-radius: 50% !important;
 }
 
