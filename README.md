@@ -11,6 +11,8 @@
 
 # Preview square version
 ![nocturnal-preview](https://i.imgur.com/emBMm8I.png)
+Also, for preview you can join to [this link](https://discord-preview.vercel.app/?file=https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/core.css)
 
 # Preview circle version
 ![nocturnal-circle-preview](https://i.imgur.com/C7GzoEr.png)
+Also, for preview you can join to [this link](https://gibbu.github.io/ThemePreview/?file=https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/circle_core.css)
