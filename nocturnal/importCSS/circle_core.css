@@ -1648,8 +1648,8 @@ svg[name=Nitro] g path {
 
 .wrapper_cc5dd2[style="width: 48px; height: 48px;"] .upperBadge_cc5dd2,
 .wrapper_cc5dd2[style="width: 48px; height: 48px;"] .lowerBadge_cc5dd2,
-.wrapper_cc5dd2:has(foreignObject[mask*="width: 48px; height: 48px;"]) .upperBadge_cc5dd2,
-.wrapper_cc5dd2:has(foreignObject[mask*="width: 48px; height: 48px;"]) .lowerBadge_cc5dd2 {
+.blobContainer_e5445c:has(.wrapper_cc5dd2 foreignObject[mask*="width: 48px; height: 48px;"]) .upperBadge_cc5dd2,
+.blobContainer_e5445c:has(.wrapper_cc5dd2 foreignObject[mask*="width: 48px; height: 48px;"]) .lowerBadge_cc5dd2 {
 	margin: 34px -2px;
 }
 
@@ -10903,8 +10903,8 @@ rect[fill="brand-200"] {
 
 .wrapper_cc5dd2[style="width: 40px; height: 40px;"] .upperBadge_cc5dd2,
 .wrapper_cc5dd2[style="width: 40px; height: 40px;"] .lowerBadge_cc5dd2,
-.wrapper_cc5dd2:has(foreignObject[mask="width: 40px; height: 40px;"]) .upperBadge_cc5dd2,
-.wrapper_cc5dd2:has(foreignObject[mask="width: 40px; height: 40px;"]) .lowerBadge_cc5dd2 {
+.blobContainer_e5445c:has(.wrapper_cc5dd2 foreignObject[mask*="width: 40px; height: 40px;"]) .upperBadge_cc5dd2,
+.blobContainer_e5445c:has(.wrapper_cc5dd2 foreignObject[mask*="width: 40px; height: 40px;"]) .lowerBadge_cc5dd2 {
 	margin: 26px -2px;
 }
 
@@ -10923,7 +10923,7 @@ rect[fill="brand-200"] {
 	outline: none;
 }
 
-.sidebarListRounded_c48ade,
+.visual-refresh .sidebarListRounded_c48ade,
 .bannerVisible_f37cb1 .header_f37cb1 {
 	border-top-left-radius: 0;
 }
@@ -11826,6 +11826,7 @@ rect[fill="brand-200"] {
 	height: 40px;
 }
 
+.visual-refresh .container__2637a,
 .bd-gp-user,
 .roleCircle__4f569,
 .sidebarContainer__656be {
