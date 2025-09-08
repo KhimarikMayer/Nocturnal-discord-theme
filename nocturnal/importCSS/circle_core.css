@@ -126,8 +126,8 @@
 	--__spoiler-background-color--hidden: var(--backgroundDark-20);
 	--__spoiler-background-color--hidden--hover: var(--backgroundDark-30);
 	--legacy-elevation-border: 0 0 0 1px hsl(var(--black-500-hsl)/0.3);
-	--backgroundDarker-hsl: 224, calc(var(--saturation-factor)*22%), 10%;
-	--backgroundDarker-alt-hsl: 225, calc(var(--saturation-factor)*20%), 8%;
+	--backgroundDarker-hsl: 224 calc(var(--saturation-factor)*22%) 10%;
+	--backgroundDarker-alt-hsl: 225 calc(var(--saturation-factor)*20%) 8%;
 	--shadow-border: 0 0 0 1px hsl(var(--black-500-hsl) / 0.15);
 	--background-message-hover: color-mix(in oklab, hsl(0 calc(var(--saturation-factor)*0%) 1% /0.06) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
 }
@@ -2455,12 +2455,12 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 }
 
 .outer_bf1984,
-#app-mount :where(.bd-paginator-back,.bd-paginator-next):hover,
+#app-mount :where(.bd-paginator-back, .bd-paginator-next):hover,
 .pageButton_c15210:hover {
 	background-color: var(--backgroundDark-25);
 }
 
-.bd-paginator-bubble:where([data-selected=true],:hover),
+.bd-paginator-bubble:where([data-selected=true], :hover),
 .activeButton_c15210,
 .activeButton_c15210:hover {
 	background-color: var(--primary);
@@ -5532,8 +5532,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 .theme-dark.container_de50c1.messageContainer_b4d1aa,
 .container__99486,
 .uploadDropModal_dbca3c .bgScale_dbca3c,
-.contentWrapper__0d616
-.checkbox_d9161f,
+.contentWrapper__0d616 .checkbox_d9161f,
 .checkbox_d9161f.selected_d9161f,
 .checkbox_f4f0eb {
 	background-color: var(--backgroundDark) !important;
@@ -6605,9 +6604,10 @@ circle[fill="var(--brand-500)"],
 	background-color: var(--backgroundDarker-alt);
 }
 
-.floatingBars__74017:empty+.stackedBars__74017:nth-child(2), .stackedBars__74017:first-child {
+.floatingBars__74017:empty+.stackedBars__74017:nth-child(2),
+.stackedBars__74017:first-child {
 	border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+	border-top-right-radius: 5px;
 }
 
 .stackedBars__74017:not(:last-child) {
@@ -9460,11 +9460,11 @@ html:not(.chat-input) .inputInner_b1f01d,
 }
 
 .cardDescription__1f069 {
-	background-image: linear-gradient(to bottom, var(--backgroundDarker)50%, hsl(var(--backgroundDarker-hsl)/.75)80%);
+	background-image: linear-gradient(to bottom, var(--backgroundDarker) 50%, hsl(var(--backgroundDarker-hsl) / .75) 80%);
 }
 
 .textContainer_da4aee {
-	background-image: linear-gradient(to right, var(--backgroundDarker), hsl(var(--backgroundDarker-hsl)/.4)90%, rgba(0, 0, 0, 0));
+	background-image: linear-gradient(to right, var(--backgroundDarker), hsl(var(--backgroundDarker-hsl) / .4) 90%, rgba(0, 0, 0, 0));
 }
 
 .leftArrow__3cf14,
@@ -10074,6 +10074,10 @@ div.cardContainer__88e24,
 	--custom-overlay-color: hsl(var(--backgroundDarker-alt-hsl) / 0.9);
 }
 
+.header__000a3 {
+	border-radius: 5px;
+}
+
 .avatar__20a53 path[fill="var(--interactive-normal)"] {
 	fill: var(--primary);
 }
@@ -10253,8 +10257,7 @@ div.cardContainer__88e24,
 .pauseContainer_c38e9f,
 .hexInputContainer__247cf,
 .separator__841c8,
-.summarySeparator__143a4
-.progress__823e1.none__823e1,
+.summarySeparator__143a4 .progress__823e1.none__823e1,
 .progress__823e1 {
 	background-color: var(--backgroundDark-20);
 	border-color: rgba(0, 0, 0, 0);
@@ -12983,7 +12986,7 @@ svg.thumbnail__0f2e8 {
 	margin: 0;
 	padding: 20px 20px 0;
 	padding-bottom: 2px;
-	border-top: 1px solid hsla(0,0%,100%,.1);
+	border-top: 1px solid hsla(0, 0%, 100%, .1);
 	border-bottom: none !important;
 	transition: 250ms background-color ease-in-out;
 }
@@ -13022,7 +13025,7 @@ svg.thumbnail__0f2e8 {
 	color: #005bdf;
 }
 
-.vc-gp-header .childWrapper__6e9f8, 
+.vc-gp-header .childWrapper__6e9f8,
 .vc-gp-header .wrapper__6e9f8 {
 	background-color: var(--backgroundDark-50);
 	width: 76px;
@@ -13088,7 +13091,7 @@ svg.thumbnail__0f2e8 {
 	border: 4px solid var(--backgroundDarker);
 }
 
-#app-mount :where(.bd-paginator-back:disabled,.bd-paginator-next:disabled) {
+#app-mount :where(.bd-paginator-back:disabled, .bd-paginator-next:disabled) {
 	background-color: rgba(0, 0, 0, 0) !important;
 	cursor: not-allowed;
 }
