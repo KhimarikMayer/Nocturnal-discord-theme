@@ -1648,9 +1648,11 @@ svg[name=Nitro] g path {
 
 .wrapper_cc5dd2[style="width: 48px; height: 48px;"] .upperBadge_cc5dd2,
 .wrapper_cc5dd2[style="width: 48px; height: 48px;"] .lowerBadge_cc5dd2,
-.blobContainer_e5445c:has(.wrapper_cc5dd2 foreignObject[mask*="width: 48px; height: 48px;"]) .upperBadge_cc5dd2,
-.blobContainer_e5445c:has(.wrapper_cc5dd2 foreignObject[mask*="width: 48px; height: 48px;"]) .lowerBadge_cc5dd2 {
-	margin: 34px -2px;
+.folder__48112 .upperBadge_cc5dd2,
+.folder__48112 .lowerBadge_cc5dd2,
+.folderIconWrapper__48112 .upperBadge_cc5dd2,
+.folderIconWrapper__48112 .upperBadge_cc5dd2 {
+	margin: 36px -4px;
 }
 
 .numberBadge__2b1f5,
@@ -4501,7 +4503,7 @@ span.button__67645.enabled__67645:hover,
 	background-color: var(--backgroundDark-20);
 }
 
-.role_b4b2c3 {
+.visual-refresh .role_b4b2c3 {
 	padding: 4px;
 	border-radius: 50px;
 	background-color: color-mix(in oklch, var(--custom-role-label-color, rgba(0, 0, 0, 0)) 15.3%, rgba(0, 0, 0, 0));
@@ -4510,7 +4512,7 @@ span.button__67645.enabled__67645:hover,
 	font-weight: 500;
 }
 
-.role_fa0dd2:hover {
+.visual-refresh .role_fa0dd2:hover {
 	background-color: color-mix(in oklch, var(--custom-role-label-color, rgba(0, 0, 0, 0)) 35.3%, rgba(0, 0, 0, 0));
 }
 
@@ -10903,8 +10905,8 @@ rect[fill="brand-200"] {
 
 .wrapper_cc5dd2[style="width: 40px; height: 40px;"] .upperBadge_cc5dd2,
 .wrapper_cc5dd2[style="width: 40px; height: 40px;"] .lowerBadge_cc5dd2,
-.blobContainer_e5445c:has(.wrapper_cc5dd2 foreignObject[mask*="width: 40px; height: 40px;"]) .upperBadge_cc5dd2,
-.blobContainer_e5445c:has(.wrapper_cc5dd2 foreignObject[mask*="width: 40px; height: 40px;"]) .lowerBadge_cc5dd2 {
+.upperBadge_cc5dd2,
+.lowerBadge_cc5dd2 {
 	margin: 26px -2px;
 }
 
@@ -13097,4 +13099,8 @@ svg.thumbnail__0f2e8 {
 
 .visual-refresh .guildIcon__48112[style*="border-radius: 4px 4px 4px 13px;"] {
 	border-radius: 30% 30% 30% 8px !important;
+}
+
+.platform-win .sidebar_c48ade {
+	border-radius: 0;
 }
