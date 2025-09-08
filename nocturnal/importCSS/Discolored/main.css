@@ -893,3 +893,7 @@
 .images-dark .emptyPreviewImage__04666 {
     content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/6b1a461f35c05c7a.svg");
 }
+
+.theme-dark [src*='/assets/f59ed15bef9f5c18.svg'] {
+    content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/friend.svg");
+}
