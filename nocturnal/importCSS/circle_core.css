@@ -12034,7 +12034,7 @@ rect[fill="brand-200"] {
 .font-size-14 .cozy__235ca .iconContainer__235ca,
 .font-size-15 .cozy__235ca .iconContainer__235ca,
 .font-size-16 .cozy__235ca .iconContainer__235ca {
-	width: var(--avatar-widthes-for-automod-messages);
+	width: var(--avatar-widthes-for-automod-messages) !important;
 }
 
 .iconContainer__44492 {
