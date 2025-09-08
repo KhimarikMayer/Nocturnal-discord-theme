@@ -11134,8 +11134,8 @@ rect[fill="brand-200"] {
 
 .wrapper_cc5dd2[style="width: 40px; height: 40px;"] .upperBadge_cc5dd2,
 .wrapper_cc5dd2[style="width: 40px; height: 40px;"] .lowerBadge_cc5dd2,
-.wrapper_cc5dd2:has(foreignObject[mask*="width: 48px; height: 48px;"]) .upperBadge_cc5dd2,
-.wrapper_cc5dd2:has(foreignObject[mask*="width: 48px; height: 48px;"]) .lowerBadge_cc5dd2 {
+.wrapper_cc5dd2:has(foreignObject[mask*="width: 40px; height: 40px;"]) .upperBadge_cc5dd2,
+.wrapper_cc5dd2:has(foreignObject[mask*="width: 40px; height: 40px;"]) .lowerBadge_cc5dd2 {
 	margin: 28px -4px;
 }
 
