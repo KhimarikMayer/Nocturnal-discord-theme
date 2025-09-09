@@ -1,7 +1,7 @@
 # Nocturnal v3.0 discord theme
 
 # Installation
-1. Install BetterDiscord
+1. Install [BetterDiscord](https://betterdiscord.app) or [Vencord](https://vencord.dev/download)
 2. Download Nocturnal theme or the Circle version of the theme
 3. Move the theme here: %APPDATA%\BetterDiscord\themes or open discord >settings >themes >open theme folder and move theme file there
 4. For support and bug reports go to tab "Issues" or go to [discord server](https://discord.gg/x5NGh4Bagk)
