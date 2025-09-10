@@ -11776,7 +11776,7 @@ rect[fill="brand-200"] {
 }
 
 .bottomBar__0f481 {
-	bottom: -8px;
+	bottom: -8px !important;
 	border: none;
 }
 
