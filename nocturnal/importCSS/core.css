@@ -2259,8 +2259,9 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	box-shadow: 0 1.5px 0 0 var(--backgroundDarker-alt);
 }
 
-.info__2debe .line__2debe:last-child:after {
-	content: "Nocturnal 2.9 AutoUpdate";
+.info__2debe .bd-text-muted:last-child:after,
+.info__2debe .text-xxs\/normal_cf4812:last-child:after {
+	content: "Nocturnal 3.1 AutoUpdate";
 	display: block;
 }
 
@@ -4866,7 +4867,7 @@ html.theme-light .app__160d8::after {
 
 .userInfo__1fed1 {
 	padding-left: 112px;
-	padding-top: 40px;
+	padding-top: 44px;
 }
 
 .background__1fed1 {
