@@ -853,8 +853,7 @@ svg.contentImage__42bf5,
 
 .bd-checkbox-box,
 .checkbox_f525d3,
-.checkbox_f525d3[style*="brand-500"],
-.checkbox_f525d3[style*="bg-brand"] {
+.checkbox_c4538f {
 	background-color: var(--backgroundLight) !important;
 	border: none !important;
 }
