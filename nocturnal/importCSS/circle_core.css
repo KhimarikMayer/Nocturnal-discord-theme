@@ -13129,6 +13129,7 @@ svg.thumbnail__0f2e8 {
 
 .chatTypingGradientAtBottom__36d07 {
 	background: linear-gradient(to bottom,rgba(0, 0, 0, 0),var(--backgroundDark) 8px,var(--backgroundDark) 100%);
+	height: 16px;
 }
 
 .chatGradient__36d07 {
