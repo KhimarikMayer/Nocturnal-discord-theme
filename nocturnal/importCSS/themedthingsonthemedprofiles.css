@@ -331,3 +331,7 @@
 .full-motion .custom-user-profile-theme .wrapper_f7ecac:hover {
 	box-shadow: var(--shadow-border), var(--shadow-medium) !important;
 }
+
+.custom-user-profile-theme .outer_ab8609 {
+	box-shadow: 0 1px 4px 0 hsl(none 0% 0%/0.14);
+}
