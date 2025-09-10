@@ -3,7 +3,9 @@
 # Installation
 1. Install [BetterDiscord](https://betterdiscord.app) or [Vencord](https://vencord.dev/download)
 
-   **P.S. You CAN'T install BetterDiscord and Vencord two in one at once!!!**
+   **1.1. P.S. You CAN'T install BetterDiscord and Vencord two in one at once!!!**
+   
+   1.2. Vencord can also be installing and for web (browser) Discord version - [download extension for browsers](https://chromewebstore.google.com/detail/vencord-web/cbghhgpcnddeihccjmnadmkaejncjndb)
    
 3. Download [Nocturnal theme (Square version)](https://github.com/KhimarikMayer/Nocturnal-discord-theme/releases/download/3.1/nocturnal.theme.css) or the [Circle version](https://github.com/KhimarikMayer/Nocturnal-discord-theme/releases/download/3.1/nocturnal_circle.theme.css) of the theme
 4. Move the theme here:
