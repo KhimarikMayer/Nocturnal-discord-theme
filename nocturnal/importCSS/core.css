@@ -13460,3 +13460,7 @@ svg.thumbnail__0f2e8 {
 	border: none;
 	box-shadow: inset 0 0 100000px var(--backgroundDark-50) !important;
 }
+
+.scrollableContainer__74017 .popover_f84418:hover {
+	box-shadow: none !important;
+}
