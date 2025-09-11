@@ -4414,7 +4414,6 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .card_c59071,
 .iconMask__51eb2,
 .container_a76561,
-.applicationStreamingPreviewWrapper__00943,
 .minimap-decorations-layer,
 .monaco-scrollable-element>.invisible,
 .videoWrapper__2f4f7,
@@ -4423,6 +4422,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	background-color: var(--backgroundDarker);
 }
 
+.applicationStreamingPreviewWrapper__00943,
 .card_c59071:hover {
 	background-color: var(--backgroundDarker-alt);
 }
@@ -8627,14 +8627,16 @@ rect[fill="var(--control-brand-foreground)"] {
 }
 
 .effectDescriptionContainer__92e52 {
-	background-color: var(--backgroundDark)padding-box;
+	background: var(--backgroundDarker) padding-box;
+	border-radius: 5px;
 }
 
 .modalContent__81f73 {
 	padding-right: 0px !important;
 }
 
-.emojiAliasInput_e7d73e .emojiInput_e7d73e {
+.emojiAliasInput_e7d73e .emojiInput_e7d73e,
+.voiceSectionNoGuildImageWrapper__00943 {
 	background-color: var(--backgroundDarker-alt);
 }
 
@@ -8746,8 +8748,7 @@ div.cardContainer__88e24,
 .content__79cbe,
 .container_d829e7,
 .benefits__62119,
-.ctaContainer_d829e7,
-.voiceSectionNoGuildImageWrapper__00943 {
+.ctaContainer_d829e7 {
 	background-color: var(--backgroundDark);
 }
 
@@ -11628,6 +11629,7 @@ rect[fill="brand-200"] {
 	fill: #fff;
 }
 
+.ping__06d62.largePing__06d62,
 .actionContainer__6b102,
 .userInfoContainer__6b102,
 .cardContainer__6b102 {
