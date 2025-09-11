@@ -13108,11 +13108,13 @@ svg.thumbnail__0f2e8 {
 	border-color: #fff !important;
 }
 
-.boostProgressBackground__5573a {
+.boostProgressBackground__5573a,
+.parentContainer__5573a:hover .boostProgressBackground__5573a {
 	border: 4px solid var(--backgroundDark);
 }
 
-.parentContainer__5573a:hover .boostProgressBackground__5573a {
+.boostProgressBackground__5573a.active__5573a,
+.parentContainer__5573a:hover .boostProgressBackground__5573a.active__5573a {
 	border: 4px solid var(--backgroundDarker);
 }
 
