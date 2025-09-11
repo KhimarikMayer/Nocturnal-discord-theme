@@ -6627,8 +6627,8 @@ circle[fill="var(--brand-500)"],
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-50);
 }
 
-.mini_a562c8 .barFill_a562c8,
-.slider_a562c8 .barFill_a562c8 {
+.mini_a562c8 .barFill_a562c8:not([style*="yellow-300"]),
+.slider_a562c8 .barFill_a562c8:not([style*="yellow-300"]) {
 	background-color: var(--primary) !important;
 	border: none;
 }
