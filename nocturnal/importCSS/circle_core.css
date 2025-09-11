@@ -6619,9 +6619,9 @@ circle[fill="var(--brand-500)"],
 	padding-top: 0;
 }
 
-.mini_a562c8 .bar_a562c8,
-.slider_a562c8 .bar_a562c8,
-.bar_a562c8,
+.mini_a562c8 .bar_a562c8:not(.sliderBar_ac7648):not([style*="green-360"]):not(.inputSensitivityToggle_ac7648.manual_ac7648 .microphone_ac7648),
+.slider_a562c8 .bar_a562c8:not(.sliderBar_ac7648):not([style*="green-360"]):not(.inputSensitivityToggle_ac7648.manual_ac7648 .microphone_ac7648),
+.bar_a562c8:not(.sliderBar_ac7648):not([style*="green-360"]):not(.inputSensitivityToggle_ac7648.manual_ac7648 .microphone_ac7648),
 .markDash_a562c8 {
 	background-color: var(--backgroundDark) !important;
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-50);
