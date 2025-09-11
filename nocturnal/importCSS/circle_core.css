@@ -9254,7 +9254,11 @@ html:not(.chat-input) .inputInner_b1f01d,
 	--custom-poll-style-vote-percentage: var(--backgroundDark-26);
 }
 
-.answer__4c520:hover .answerInner__4c520.currentlyVoting__4c520,
+.answer__4c520:hover .answerInner__4c520.currentlyVoting__4c520:not(.selected__4c520) {
+	background-color: var(--backgroundDark-40);
+	outline-color: rgba(0, 0, 0, 0);
+}
+
 .secondaryButtonPresentation__0be77:hover,
 .clickable_da5e8d:hover {
 	background-color: var(--backgroundDark-52);
