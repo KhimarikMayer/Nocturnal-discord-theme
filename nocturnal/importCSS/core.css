@@ -9414,7 +9414,11 @@ rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 	--custom-poll-style-vote-percentage: var(--backgroundDark-26);
 }
 
-.answer__4c520:hover .answerInner__4c520.currentlyVoting__4c520,
+.answer__4c520:hover .answerInner__4c520.currentlyVoting__4c520:not(.selected__4c520) {
+	background-color: var(--backgroundDark-40);
+	outline-color: rgba(0, 0, 0, 0);
+}
+
 .secondaryButtonPresentation__0be77:hover,
 .clickable_da5e8d:hover {
 	background-color: var(--backgroundDark-52);
