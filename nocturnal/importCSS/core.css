@@ -11864,6 +11864,7 @@ rect[fill="brand-200"] {
 .cardContainer__6b102 {
 	background-color: var(--backgroundDark-20);
 	border: none;
+	box-shadow: none;
 }
 
 .playing_a8e786 .playbackRateContainer_a8e786 .playbackRate_a8e786 {
