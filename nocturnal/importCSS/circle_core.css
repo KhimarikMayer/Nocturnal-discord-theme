@@ -340,7 +340,7 @@
 	opacity: 1
 }
 
-.wanderingCubes__0b5bb .item__0b5bb,
+.wanderingCubes__46696 .item__46696,
 .bd-spinner-wandering-cubes .bd-spinner-path {
 	background-color: var(--quaternary);
 }
@@ -508,18 +508,12 @@ svg[name=Nova_Discord] * {
 .bd-modal-wrapper .footer button,
 .bda-slist .bda-footer button,
 .headerButtonColor__619f1,
-.primary__6af3a:not(.optionPillBtn__3f413),
-.primary__6af3a:disabled,
-.primary__6af3a[aria-disabled=true],
 .primary_a22cb0:not(.optionPillBtn__3f413),
 .primary_a22cb0:disabled,
 .primary_a22cb0[aria-disabled=true],
 .lookFilled__201d5.colorBrand__201d5:not(.optionPillBtn__3f413, .vc-plugins-restart-button),
 .lookFilled__201d5.colorBrand__201d5:disabled,
 .lookFilled__201d5.colorBrand__201d5[aria-disabled=true],
-.secondary__6af3a:not(.color_f9d37d.banner_fb7f94),
-.secondary__6af3a:disabled,
-.secondary__6af3a[aria-disabled=true],
 .secondary_a22cb0:not(.color_f9d37d.banner_fb7f94),
 .secondary_a22cb0:disabled,
 .secondary_a22cb0[aria-disabled=true],
@@ -592,10 +586,8 @@ svg[name=Nova_Discord] * {
 .bd-modal-wrapper .footer button:hover,
 .bda-slist .bda-footer button:hover,
 .headerButtonColor__619f1:hover,
-.primary__6af3a:hover:not(:disabled, .optionPillBtn__3f413, [aria-disabled=true]),
 .primary_a22cb0:hover:not(:disabled, .optionPillBtn__3f413, [aria-disabled=true]),
 .lookFilled__201d5.colorBrand__201d5:hover:not(.fauxDisabled_e131a9, :disabled, .optionPillBtn__3f413, [aria-disabled=true], .vc-plugins-restart-button),
-.secondary__6af3a:hover:not(.color_f9d37d.banner_fb7f94, :disabled),
 .secondary_a22cb0:hover:not(.color_f9d37d.banner_fb7f94, :disabled),
 .lookFilled__201d5.colorPrimary__201d5:hover:not(.color_f9d37d.banner_fb7f94, :disabled),
 .lookOutlined__201d5.colorBrand__201d5:hover:not(:disabled),
@@ -640,16 +632,12 @@ svg[name=Nova_Discord] * {
 .lookFilled__201d5.colorBrand__201d5:active:not(.fauxDisabled_e131a9, :disabled, .optionPillBtn__3f413, [aria-disabled=true], .vc-plugins-restart-button),
 .lookFilled__201d5.colorPrimary__201d5:active:not(.color_f9d37d.banner_fb7f94, :disabled),
 .lookOutlined__201d5.colorBrand__201d5:active:not(:disabled),
-.primary__6af3a[aria-expanded=true],
-.primary__6af3a[aria-expanded=true]:hover,
 .primary_a22cb0[aria-expanded=true],
 .primary_a22cb0[aria-expanded=true]:hover,
 .lookFilled__201d5.colorBrand__201d5[aria-expanded=true],
 .lookFilled__201d5.colorBrand__201d5[aria-expanded=true]:hover,
 .plugin-settings button:active,
 .standardSidebarView__23e6b #bd-customcss-attach-controls button:active,
-.primary__6af3a:active:not(:disabled, .optionPillBtn__3f413, [aria-disabled=true]),
-.secondary__6af3a:active:not(.color_f9d37d.banner_fb7f94, :disabled),
 .primary_a22cb0:active:not(:disabled, .optionPillBtn__3f413, [aria-disabled=true]),
 .secondary_a22cb0:active:not(.color_f9d37d.banner_fb7f94, :disabled) {
 	color: #fff !important;
@@ -1735,11 +1723,9 @@ svg[name=Nitro] g path {
 	background-color: hsl(220 calc(var(--saturation-factor)*21%) 8% /1);
 }
 
-.expressive__6af3a .expressiveFill__6af3a,
 .expressive_a22cb0 .expressiveFill_a22cb0,
 .buttonSize__7d567,
 .colorWhite__201d5,
-.overlay-primary__6af3a,
 .overlay-primary_a22cb0,
 .button__7ba6e,
 .watchButton__6da2d,
@@ -1870,9 +1856,6 @@ svg[name=Nitro] g path {
 .lookFilled__201d5.colorGreen__201d5,
 .lookFilled__201d5.colorGreen__201d5:disabled,
 .lookFilled__201d5.colorGreen__201d5[aria-disabled=true],
-.active__6af3a,
-.active__6af3a:disabled,
-.active__6af3a[aria-disabled=true],
 .active_a22cb0,
 .active_a22cb0:disabled,
 .active_a22cb0[aria-disabled=true],
@@ -1904,7 +1887,6 @@ svg[name=Nitro] g path {
 }
 
 .lookFilled__201d5.colorGreen__201d5:hover:not(:disabled),
-.active__6af3a:hover:not(:disabled),
 .active_a22cb0:hover:not(:disabled),
 .guildBoostCta_f9f04c.lookOutlined__201d5.colorWhite__201d5:hover:not(:disabled),
 .lookOutlined__201d5.colorWhite__201d5.managePlanButton_a45ed3:hover:not(:disabled) {
@@ -1920,7 +1902,6 @@ svg[name=Nitro] g path {
 .lookFilled__201d5.colorGreen__201d5:active:not(:disabled),
 .guildBoostCta_f9f04c.lookOutlined__201d5.colorWhite__201d5:active:not(:disabled),
 .lookOutlined__201d5.colorWhite__201d5.managePlanButton_a45ed3:active:not(:disabled),
-.active__6af3a:active:not(:disabled),
 .active_a22cb0:active:not(:disabled) {
 	color: #fff !important;
 	border: 2px solid rgba(0, 0, 0, 0) !important;
@@ -2006,12 +1987,12 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDark-25);
 }
 
-.path__0b5bb:not(.spinnerPath_f3b986) {
+.path__46696:not(.spinnerPath_f3b986) {
 	stroke: var(--primary);
 }
 
-.path2__0b5bb:not(.spinnerPath_f3b986),
-.path3__0b5bb:not(.spinnerPath_f3b986) {
+.path2__46696:not(.spinnerPath_f3b986),
+.path3__46696:not(.spinnerPath_f3b986) {
 	stroke: var(--text-senary);
 }
 
@@ -2461,7 +2442,6 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 }
 
 .lookFilled__201d5.colorWhite__201d5:disabled,
-.overlay-primary__6af3a:disabled,
 .overlay-primary_a22cb0:disabled {
 	background-color: rgba(0, 0, 0, 0);
 	color: white;
@@ -2530,13 +2510,11 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	color: #4f5660;
 }
 
-.expressive__6af3a .expressiveFill__6af3a,
 .expressive_a22cb0 .expressiveFill_a22cb0,
 .lookFilled__201d5.colorWhite__201d5,
 .lookInverted_a299dc.colorPrimary__201d5,
 .category_ed45d7,
 .searchSuggestion__2dc39,
-.overlay-primary__6af3a,
 .overlay-primary_a22cb0 {
 	color: #fff;
 	border-width: 1px 0;
@@ -2545,8 +2523,6 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	background-color: rgba(0, 0, 0, 0);
 }
 
-.expressive__6af3a:hover:not(:disabled) .expressiveFill__6af3a,
-.expressive__6af3a:active:not(:disabled) .expressiveFill__6af3a,
 .expressive_a22cb0:hover:not(:disabled) .expressiveFill_a22cb0,
 .expressive_a22cb0:active:not(:disabled) .expressiveFill_a22cb0,
 .lookFilled__201d5.colorWhite__201d5:hover:not(:disabled),
@@ -2557,8 +2533,6 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .category_ed45d7:active:not(:disabled),
 .searchSuggestion__2dc39:hover:not(:disabled),
 .searchSuggestion__2dc39:active:not(:disabled),
-.overlay-primary__6af3a:hover:not(:disabled),
-.overlay-primary__6af3a:active:not(:disabled),
 .overlay-primary_a22cb0:hover:not(:disabled),
 .overlay-primary_a22cb0:active:not(:disabled) {
 	border-width: 1px 0;
@@ -3646,7 +3620,6 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 
 .iconWrapper__83361,
 .lookFilled__201d5.colorBrand__201d5.optionPillBtn__3f413,
-.primary__6af3a.optionPillBtn__3f413,
 .primary_a22cb0.optionPillBtn__3f413 {
 	background-color: rgba(0, 0, 0, 0);
 }
@@ -8973,7 +8946,6 @@ div.cardContainer__88e24,
 .sizeLarge__201d5,
 .enableButton__5afba .text-md\/medium_cf4812,
 .button_c50183 .text-md\/medium_cf4812,
-.buttonChildrenWrapper__6af3a .text-md\/medium_cf4812,
 .buttonChildrenWrapper_a22cb0 .text-md\/medium_cf4812,
 .sendWithMessage__62280 {
 	font-size: 14px;
@@ -9730,7 +9702,6 @@ path[fill="var(--bg-brand)"] {
 	margin-right: 0;
 }
 
-.secondary__6af3a:hover:not(:disabled),
 .secondary_a22cb0:hover:not(:disabled),
 .lookFilled__201d5.colorPrimary__201d5:hover:not(:disabled) {
 	opacity: unset !important;
@@ -10211,8 +10182,6 @@ div.cardContainer__88e24,
 }
 
 .boostIndicator_d2b0e4,
-.overlay-primary__6af3a:hover,
-.overlay-primary__6af3a:active,
 .overlay-primary_a22cb0:hover,
 .overlay-primary_a22cb0:active {
 	color: #fff;
@@ -10765,8 +10734,6 @@ rect[fill="brand-200"] {
 .colorBrand__201d5 .text-md\/semibold_cf4812,
 .colorPrimary__201d5 .text-md\/semibold_cf4812,
 .colorGreen__201d5 .text-md\/semibold_cf4812,
-.primary__6af3a .text-md\/semibold_cf4812,
-.secondary__6af3a .text-md\/semibold_cf4812,
 .primary_a22cb0 .text-md\/semibold_cf4812,
 .secondary_a22cb0 .text-md\/semibold_cf4812,
 .secondaryButton_af3b89 .text-sm\/semibold_cf4812,
@@ -10775,8 +10742,6 @@ rect[fill="brand-200"] {
 .colorBrand__201d5 .text-sm\/semibold_cf4812,
 .colorPrimary__201d5 .text-sm\/semibold_cf4812,
 .colorGreen__201d5 .text-sm\/semibold_cf4812,
-.primary__6af3a .text-sm\/semibold_cf4812,
-.secondary__6af3a .text-sm\/semibold_cf4812,
 .primary_a22cb0 .text-sm\/semibold_cf4812,
 .secondary_a22cb0 .text-sm\/semibold_cf4812,
 .addButton_a76561 {
@@ -12018,9 +11983,6 @@ rect[fill="brand-200"] {
 .lookFilled__201d5.colorBrand__201d5 .defaultColor__4bd52,
 .lookFilled__201d5.colorPrimary__201d5 .defaultColor__4bd52,
 .lookFilled__201d5.colorGreen__201d5 .defaultColor__4bd52,
-.primary__6af3a .defaultColor__4bd52,
-.secondary__6af3a .defaultColor__4bd52,
-.active__6af3a .defaultColor__4bd52,
 .primary_a22cb0 .defaultColor__4bd52,
 .secondary_a22cb0 .defaultColor__4bd52,
 .active_a22cb0 .defaultColor__4bd52,
@@ -12441,32 +12403,25 @@ svg[color="var(--brand-500)"] {
 	height: 21.333333333333332px;
 }
 
-.sm__6af3a .buttonChildrenWrapper__6af3a,
-.md__6af3a .buttonChildrenWrapper__6af3a,
 .sm_a22cb0 .buttonChildrenWrapper_a22cb0,
 .md_a22cb0 .buttonChildrenWrapper_a22cb0 {
 	min-height: 28px;
 	min-width: 28px;
 }
 
-.md__6af3a.hasText__6af3a .buttonChildrenWrapper__6af3a,
 .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0 {
 	padding: calc(var(--space-4) - 1px) calc(var(--space-12) - 1px);
 }
 
-.container_d9be46 .md__6af3a.hasText__6af3a .buttonChildrenWrapper__6af3a,
-.header__41ed7 .md__6af3a.hasText__6af3a .buttonChildrenWrapper__6af3a,
 .container_d9be46 .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0,
 .header__41ed7 .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0 {
 	padding: calc(var(--space-8) - 1px) calc(var(--space-12) - 1px);
 }
 
-.controls__1feb0:has(.wrapper__3412a) .md__6af3a.hasText__6af3a .buttonChildrenWrapper__6af3a,
 .controls__1feb0:has(.wrapper__3412a) .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0 {
 	padding: calc(var(--space-10) - 1px) calc(var(--space-12) - 1px);
 }
 
-.blockHeader__08415:has(.wrapper__3412a) .md__6af3a.hasText__6af3a .buttonChildrenWrapper__6af3a,
 .blockHeader__08415:has(.wrapper__3412a) .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0 {
 	padding: calc(var(--space-12) - 1px) calc(var(--space-12) - 1px);
 }
@@ -12722,8 +12677,6 @@ svg[color="var(--brand-500)"] {
 	background-image: linear-gradient(to right,var(--buttons-active-primaryGradient1),var(--buttons-active-primaryGradient2)) !important;
 }
 
-.icon-only__6af3a:hover,
-.icon-only__6af3a:active,
 .icon-only_a22cb0:hover,
 .icon-only_a22cb0:active,
 .icon-only__0f084:hover,
@@ -12809,7 +12762,6 @@ svg.thumbnail__0f2e8 {
 	margin-left: 4px;
 }
 
-.md__6af3a.hasText__6af3a,
 .md_a22cb0.hasText_a22cb0 {
 	min-width: 60px;
 }
@@ -13064,8 +13016,7 @@ svg.thumbnail__0f2e8 {
 	box-shadow: inset 0 0 5px 2px #43b581;
 }
 
-.entryPointAppCommandButtonContainer_a83188 .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0,
-.entryPointAppCommandButtonContainer_a83188 .md__6af3a.hasText__6af3a .buttonChildrenWrapper__6af3a {
+.entryPointAppCommandButtonContainer_a83188 .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0 {
 	padding: calc(var(--space-16) - 1px) calc(var(--space-24) - 1px);
 }
 
