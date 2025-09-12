@@ -12739,7 +12739,7 @@ svg[color="var(--brand-500)"] {
 }
 
 .clickableContainer__39ec2:hover>.card__39ec2:has(.voiceIcon__39ec2) {
-	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-30) !important;
+	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-15) !important;
 }
 
 @keyframes gradient {
