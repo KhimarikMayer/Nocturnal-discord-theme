@@ -10351,6 +10351,9 @@ div.cardContainer__88e24,
 .custom-user-profile-theme .overflowCount_e928f4,
 .theme-dark.custom-user-profile-theme .overflowCount_e928f4 {
 	background-color: var(--backgroundDark-20);
+	width: calc(100% - 4px);
+	height: calc(100% - 4px);
+	margin: 2px 0 0 2px;
 }
 
 .avatar_e928f4 {
