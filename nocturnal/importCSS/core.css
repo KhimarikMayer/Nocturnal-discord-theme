@@ -9303,8 +9303,7 @@ rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 .otherDatesContainer__786f4,
 .nagivateBackContainer__786f4,
 .pngImage__31fc2,
-.activitySectionAssets__00943 .borderRadius0__00943,
-.activitySectionAssets__00943 .largeImage__00943 {
+.activitySectionAssets__00943 .borderRadius0__00943 {
 	border-radius: 5px;
 }
 
@@ -13630,4 +13629,9 @@ svg.thumbnail__0f2e8 {
 
 .card__84832 .divider__23eb0 {
 	background-color: hsla(0, 0%, 100%, .1) !important; 
+}
+
+.redesignIconChildContainer__3e3b0 {
+	width: 100%;
+	height: 100%;
 }
