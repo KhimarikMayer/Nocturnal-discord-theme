@@ -2796,7 +2796,8 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	border-color: rgba(0, 0, 0, 0);
 }
 
-.reaction__23977.reactionMe__23977 {
+.reaction__23977.reactionMe__23977,
+.visual-refresh .reaction__23977.reactionMe__23977 {
 	background-color: var(--primaryformentions);
 	border-color: var(--primary);
 }
@@ -2806,7 +2807,8 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	border-color: var(--primary);
 }
 
-.custom-theme-background .reaction__23977.reactionMe__23977 {
+.custom-theme-background .reaction__23977.reactionMe__23977,
+.visual-refresh.custom-theme-background .reaction__23977.reactionMe__23977 {
 	background-color: var(--primary-15a);
 	border-color: var(--primary);
 }
