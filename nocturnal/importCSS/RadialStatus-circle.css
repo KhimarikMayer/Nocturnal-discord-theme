@@ -757,6 +757,14 @@
 	transform: translateY(-50%);
 }
 
+.iconContainer__71961 .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="20"]:after {
+	width: 10px;
+	height: 8px;
+	right: 2px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
 .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="32"]:after,
 .wrapper__44b0c:has(rect[color=black][rx*="4."][ry*="4."])[role="img"] foreignObject[width="32"]:after,
 .wrapper__44b0c:has(rect[color=black][rx*="5."][ry*="5."])[role="img"] foreignObject[width="32"]:after,
