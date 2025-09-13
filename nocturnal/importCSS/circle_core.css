@@ -9898,7 +9898,6 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .guildIcon__85643,
 .guildSelectOptionIcon__999b5,
 .guildIcon__39ec2,
-.avatar_d5c2c4,
 .dmIcon__35a7e,
 .icon__1a58a img,
 .iconContainer__0ecc4,
@@ -13227,15 +13226,10 @@ svg.thumbnail__0f2e8 {
 	box-shadow: 0 0 0 2px #666;
 }
 
-.theme-dark .bd-gp-icon img {
-	margin: 2px 0 0 2px;
-}
-
 .theme-dark .bd-gp-user-avatar {
 	width: 36px;
 	height: 36px;
 	box-shadow: 0 0 0 2px #666;
-	margin: 2px 10px 0 2px;
 }
 
 .bd-gp-tab:hover {
@@ -13332,4 +13326,12 @@ svg.thumbnail__0f2e8 {
 .redesignIconChildContainer__3e3b0 {
 	width: 100%;
 	height: 100%;
+}
+
+.avatar_d5c2c4 {
+	width: 96px;
+	height: 96px;
+	margin: 2px 0 0 2px;
+	border-radius: 100%;
+	box-shadow: 0 0 0 2px #666;
 }
