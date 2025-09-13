@@ -10273,8 +10273,12 @@ div.cardContainer__88e24,
 .iconContainer__0ecc4,
 .image__62119,
 .image__62119 img,
-.guildsLoadingItem__28fdc>:first-child,
 .icon__14403 {
+	border-radius: 12px;
+}
+
+.guildsLoadingItem__28fdc>:first-child {
+	margin-left: 4px;
 	border-radius: 12px;
 }
 
