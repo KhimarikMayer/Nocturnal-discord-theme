@@ -100,6 +100,7 @@
 	--mentionedmessageshover: color-mix(in oklab, hsl(197 calc(var(--saturation-factor)*100%) 48% /0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
 	--mentionedmessagesbefore: color-mix(in oklab, hsl(197 calc(var(--saturation-factor)*100%) 48% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--highlight-messages: hsl(197 calc(var(--saturation-factor)*100%) 48% /0.3);
+	--mentioned-messages: hsl(197 calc(var(--saturation-factor)*100%) 48% /0.15);
 	--buttons-active-primaryGradient1: hsl(194 calc(var(--saturation-factor)*100%) 50% /1);
 	--buttons-active-primaryGradient2: hsl(166 calc(var(--saturation-factor)*100%) 50% /1);
 	--accent: 164, calc(var(--saturation-factor)*100%), 45%;
@@ -152,6 +153,7 @@
 	--mentionedmessageshover: color-mix(in oklab, hsl(203 calc(var(--saturation-factor)*100%) 46% /0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
 	--mentionedmessagesbefore: color-mix(in oklab, hsl(203 calc(var(--saturation-factor)*100%) 46% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--highlight-messages: hsl(203 calc(var(--saturation-factor)*100%) 46% /0.3);
+	--mentioned-messages: hsl(203 calc(var(--saturation-factor)*100%) 46% /0.15);
 	--buttons-active-primaryGradient1: hsl(195 calc(var(--saturation-factor)*100%) 50% /1);
 	--buttons-active-primaryGradient2: hsl(165 calc(var(--saturation-factor)*100%) 50% /1);
 }
@@ -178,6 +180,7 @@
 	--mentionedmessageshover: color-mix(in oklab, hsl(209 calc(var(--saturation-factor)*100%) 45% /0.0392156862745098) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0392156862745098) var(--custom-theme-base-color-amount, 0%));
 	--mentionedmessagesbefore: color-mix(in oklab, hsl(209 calc(var(--saturation-factor)*100%) 45% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--highlight-messages: hsl(209 calc(var(--saturation-factor)*100%) 45% /0.3);
+	--mentioned-messages: hsl(209 calc(var(--saturation-factor)*100%) 45% /0.15);
 	--buttons-active-primaryGradient1: hsl(196 calc(var(--saturation-factor)*100%) 50% /1);
 	--buttons-active-primaryGradient2: hsl(164 calc(var(--saturation-factor)*100%) 50% /1);
 }
@@ -1662,8 +1665,10 @@ svg[name=Nitro] g path {
 .voiceSectionIconWrapper__00943,
 .icon__71eb2.invited__71eb2,
 .VoiceActivity-voiceicon-icon,
-.VoiceActivity-voiceicon-iconCurrentCall {
+.VoiceActivity-voiceicon-iconCurrentCall,
+.iconWithGuildIcon__2894c:has(path[d="M12 3a1 1 0 0 0-1-1h-.06a1 1 0 0 0-.74.32L5.92 7H3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h2.92l4.28 4.68a1 1 0 0 0 .74.32H11a1 1 0 0 0 1-1V3ZM15.1 20.75c-.58.14-1.1-.33-1.1-.92v-.03c0-.5.37-.92.85-1.05a7 7 0 0 0 0-13.5A1.11 1.11 0 0 1 14 4.2v-.03c0-.6.52-1.06 1.1-.92a9 9 0 0 1 0 17.5Z"]) {
 	background: linear-gradient(to top left, var(--primaryGradient1), var(--primaryGradient2)) !important;
+	color: #fff;
 }
 
 .voiceSectionGuildImage__00943,
@@ -4590,7 +4595,8 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 }
 
 .iconWithGuildIcon__2894c {
-	background-color: var(--backgroundDarker-alt);
+	background-color: var(--primary);
+	color: #fff;
 }
 
 .channelTextArea_fb64c9 {
@@ -5392,6 +5398,11 @@ html:not(.chat-input) .inputInner_b1f01d,
 .root__6c5a1 {
 	background-color: var(--backgroundDarker);
 	border: none;
+}
+
+.messageContentWrapper_d3c698.mentioned_d3c698:before {
+	background-color: var(--mentioned-messages);
+	box-shadow: inset 0 0 0 2px var(--highlight-messages);
 }
 
 .example_d2b0e4,
@@ -10359,6 +10370,10 @@ div.cardContainer__88e24,
 	margin: 2px 0 0 2px;
 }
 
+.overflowCount_e928f4 {
+	padding: 0;
+}
+
 .avatar_e928f4 {
 	width: calc(100% - 4px);
 	height: calc(100% - 4px);
@@ -11083,7 +11098,10 @@ rect[fill="brand-200"] {
 }
 
 .optionsActive__07f91,
-.optionsButton__07f91:hover,
+.optionsButton__07f91:hover {
+	background-color: var(--backgroundDark-45);
+}
+
 .input__4f074:focus,
 .outer__4f074:hover .input__4f074:focus,
 .joinOptionContent__959cb.active__959cb {
@@ -11875,6 +11893,7 @@ rect[fill="brand-200"] {
 	height: 40px;
 }
 
+.align-chat-input .wrapper_e131a9,
 .visual-refresh .container__2637a,
 .bd-gp-user,
 .roleCircle__4f569,
@@ -13342,4 +13361,9 @@ svg.thumbnail__0f2e8 {
 	margin: 2px 0 0 2px;
 	border-radius: 100%;
 	box-shadow: 0 0 0 2px #666;
+}
+
+.iconWithGuildIcon__2894c {
+	width: 14px;
+	height: 14px;
 }
