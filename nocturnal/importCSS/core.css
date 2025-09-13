@@ -8856,13 +8856,16 @@ rect[fill="var(--control-brand-foreground)"] {
 	contain: none;
 }
 
+.guildIconContainer__71961 .guildIcon__71961,
+.dmIconContainer__71961 .guildIcon__71961 {
+	border-radius: 30%;
+}
+
 .avatar_f52a16,
 .image_db811b,
 .avatar_e825f6,
 .listingImage__9076a,
 .icon_a97e58,
-.guildIconContainer__71961 .guildIcon__71961,
-.dmIconContainer__71961 .guildIcon__71961,
 [mask="url(#svg-mask-diagonal-facepile-32)"] img,
 [mask="url(#svg-mask-diagonal-facepile-64)"] img,
 [mask="url(#svg-mask-diagonal-facepile-80)"] img,
@@ -13518,16 +13521,11 @@ svg.thumbnail__0f2e8 {
 	box-shadow: 0 0 0 2px #666;
 }
 
-.theme-dark .bd-gp-icon img {
-	margin: 2px 0 0 2px;
-}
-
 .theme-dark .bd-gp-user-avatar {
 	width: 36px;
 	height: 36px;
 	border-radius: 4px;
 	box-shadow: 0 0 0 2px #666;
-	margin: 2px 10px 0 2px;
 }
 
 .bd-gp-tab:hover {
@@ -13634,4 +13632,12 @@ svg.thumbnail__0f2e8 {
 .redesignIconChildContainer__3e3b0 {
 	width: 100%;
 	height: 100%;
+}
+
+.avatar_d5c2c4 {
+	width: 96px;
+	height: 96px;
+	margin: 2px 0 0 2px;
+	border-radius: 5px;
+	box-shadow: 0 0 0 2px #666;
 }
