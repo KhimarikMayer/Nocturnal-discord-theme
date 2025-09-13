@@ -9892,7 +9892,6 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .guildImage__2f300,
 .avatarWrapper_dca174,
 .guildIcon_c4eb81,
-.guildsLoadingItem__28fdc>:first-child,
 .overlay_dca174,
 .newGdmIcon__754bd img,
 .guildIcon__85643,
@@ -9904,6 +9903,11 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .avatar__76f04,
 .vc-notification-icon,
 .guildIcon__29497 {
+	border-radius: 100%;
+}
+
+.guildsLoadingItem__28fdc>:first-child {
+	margin-left: 4px;
 	border-radius: 100%;
 }
 
@@ -12844,6 +12848,10 @@ svg.thumbnail__0f2e8 {
 
 .accountProfileCard__1fed1 .mask__68edb {
 	display: none;
+}
+
+.bd-gp-modal svg[viewBox="0 0 600 210"] mask circle {
+	fill: black;
 }
 
 .modalContent_c50f62 {
