@@ -5992,14 +5992,14 @@ circle[fill="var(--brand-500)"],
 	border: none;
 }
 
-.inviteSplash_d5f3cd {
+.inviteSplash_d5f3cd:has(img),
+.inviteSplash_d5f3cd:has(.inviteSplashImageLoaded_d5f3cd) {
 	background-color: rgba(0, 0, 0, 0);
 }
 
 .visual-refresh .textContainer__4d95d,
 .textContainer__4d95d,
-.inviteSplash_d5f3cd:has(img),
-.inviteSplash_d5f3cd:has(.inviteSplashImageLoaded_d5f3cd) {
+.inviteSplash_d5f3cd {
 	background-color: var(--backgroundDark-20);
 	border: none;
 }
