@@ -4794,23 +4794,16 @@ html.theme-light .app__160d8::after {
 
 .userInfo__1fed1 {
 	padding-left: 112px;
-	padding-top: 44px;
+	padding-top: 40px;
+	padding-bottom: 12px;
 }
 
 .background__1fed1 {
-	margin: 16px;
+	margin: 0 16px 16px;
 }
 
 .avatar__5017b rect {
 	display: none;
-}
-
-.premiumIconWrapper_c3e427 .textBadge__2b1f5 svg {
-	color: #fff !important;
-}
-
-.theme-light .premiumIconWrapper_c3e427 .textBadge__2b1f5 svg {
-	color: #060607 !important;
 }
 
 .icon__6b38f[style*="background-color: var(--brand-500)"],
@@ -10388,10 +10381,6 @@ div.cardContainer__88e24,
 	width: calc(100% - 4px);
 	height: calc(100% - 4px);
 	margin: 2px 0 0 2px;
-}
-
-.overflowCount_e928f4 {
-	padding: 0;
 }
 
 .avatar_e928f4 {
