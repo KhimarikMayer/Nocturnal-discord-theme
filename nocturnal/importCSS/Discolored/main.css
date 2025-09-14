@@ -150,7 +150,8 @@
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/pictures.svg") !important;
 }
 
-.theme-dark [src="/assets/1772d54cb566d95b.svg"] {
+.theme-dark [src="/assets/1772d54cb566d95b.svg"],
+.theme-dark .image__45690[style='background-image: url("/assets/1772d54cb566d95b.svg");'] {
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/pinned.svg");
 }
 
@@ -181,7 +182,7 @@
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/spotify_error.svg");
 }
 
-.theme-dark .image__33d12[style*='background-image: url("/assets/af915c9500af51c7.svg");'] {
+.theme-dark .sadImage__29ebd[style='background-image: url("/assets/af915c9500af51c7.svg");'] {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/sticker_not_found.svg") !important;
 }
 
