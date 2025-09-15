@@ -838,6 +838,34 @@
 	background-color: var(--rs-idle-color);
 }
 
-.wrapper__44b0c:has([fill="#82838b"]) .mask__44b0c foreignObject[mask*=mobile]:after {
+.wrapper__44b0c:has([fill="#82838b"]) .mask__44b0c foreignObject[mask*=mobile]:after,
+.wrapper__44b0c[role="img"][aria-label*="Invisible"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Usynlig"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Unsichtbar"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Nevidljiv/a"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Nematomas"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Izvan mreže"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Nevidljiv/a"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Nematomas"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Láthatatlan"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Onzichtbaar"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Usynlig"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Niewidoczny"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Invisível"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Invizibil"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Näkymätön"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Osynlig"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Vô hình"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Görünmez"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Neviditelný"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Αόρατος"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Невидим"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Невидимый"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="Невидимий"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="ไม่ระบุ"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="隐身"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="オンライン状態を隠す"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="隱形"] foreignObject:after,
+.wrapper__44b0c[role="img"][aria-label*="오프라인 표시"] foreignObject:after {
 	background-color: var(--rs-offline-color);
 }
