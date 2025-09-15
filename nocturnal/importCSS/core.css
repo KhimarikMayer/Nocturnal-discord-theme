@@ -3180,7 +3180,8 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	background-color: var(--backgroundDarker-alt);
 }
 
-.popout__76f04 {
+.popout__76f04,
+.custom-theme-background .popout__76f04 {
 	background-color: var(--backgroundDark);
 	border: 1px solid var(--backgroundDark-50);
 	box-sizing: border-box;
@@ -4567,8 +4568,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 
 .moreContainer__55bab {
 	border: none;
-	padding: 3px 5px;
-	margin-left: -12px;
+	padding: 3px 0;
 }
 
 .moreGuilds_c5JVlC {
