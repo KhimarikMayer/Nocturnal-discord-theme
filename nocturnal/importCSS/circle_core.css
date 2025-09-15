@@ -6575,7 +6575,7 @@ circle[fill="var(--brand-500)"],
 
 .channelTextArea__5126c,
 .inputInner_b1f01d,
-.channelTextArea_f75fb0.channelTextArea__74017:not(.channelTextAreaDisabled__74017),
+.channelTextArea_f75fb0.channelTextArea__74017:not(.flushContainer__74017):not(.channelTextAreaDisabled__74017),
 .messageInput__62280 {
 	transition: var(--transition);
 	transition-property: box-shadow;
@@ -6583,14 +6583,14 @@ circle[fill="var(--brand-500)"],
 
 .channelTextArea__5126c:hover,
 .inputInner_b1f01d:hover,
-.channelTextArea_f75fb0.channelTextArea__74017:hover:not(.channelTextAreaDisabled__74017, .highlighted__74017),
+.channelTextArea_f75fb0.channelTextArea__74017:not(.flushContainer__74017):hover:not(.channelTextAreaDisabled__74017, .highlighted__74017),
 .messageInput__62280:hover {
 	box-shadow: 0 0 0 2px var(--deprecated-text-input-border-hover);
 	transition: var(--transition);
 	transition-property: box-shadow;
 }
 
-.custom-theme-background .channelTextArea_f75fb0.channelTextArea__74017:hover:not(.channelTextAreaDisabled__74017, .highlighted__74017) {
+.custom-theme-background .channelTextArea_f75fb0.channelTextArea__74017:not(.flushContainer__74017):hover:not(.channelTextAreaDisabled__74017, .highlighted__74017) {
 	box-shadow: 0 0 0 2px var(--backgroundDark-65);
 	transition: var(--transition);
 	transition-property: box-shadow;
@@ -6598,16 +6598,16 @@ circle[fill="var(--brand-500)"],
 
 .channelTextArea__5126c:focus-within,
 .inputInner_b1f01d:focus-within,
-.channelTextArea_f75fb0.channelTextArea__74017:focus-within:not(.channelTextAreaDisabled__74017, .highlighted__74017),
+.channelTextArea_f75fb0.channelTextArea__74017:not(.flushContainer__74017):focus-within:not(.channelTextAreaDisabled__74017, .highlighted__74017),
 .messageInput__62280:focus-within,
-.custom-theme-background .channelTextArea_f75fb0.channelTextArea__74017:focus-within:not(.channelTextAreaDisabled__74017, .highlighted__74017) {
+.custom-theme-background .channelTextArea_f75fb0.channelTextArea__74017:not(.flushContainer__74017):focus-within:not(.channelTextAreaDisabled__74017, .highlighted__74017) {
 	transition: var(--transition);
 	transition-property: box-shadow;
 	box-shadow: 0 0 0 2px hsl(var(--accent)), 0 0 calc(var(--input-glow-intensity) * 20px) calc(var(--input-glow-intensity) * 5px) hsl(var(--accent), 0.25);
 }
 
-.channelTextArea_f75fb0.channelTextArea__74017.highlighted__74017,
-.custom-theme-background .channelTextArea_f75fb0.channelTextArea__74017.highlighted__74017 {
+.channelTextArea_f75fb0.channelTextArea__74017:not(.flushContainer__74017).highlighted__74017,
+.custom-theme-background .channelTextArea_f75fb0.channelTextArea__74017:not(.flushContainer__74017).highlighted__74017 {
 	box-shadow: 0 0 0 4px var(--blue-345);
 }
 
@@ -9844,8 +9844,8 @@ div.profileThemedContainer__656be .inner_c0bea0,
 .inlineContainer__74017:not(.flushContainer__74017),
 .optionPillItem__3f413 button .optionPill__3f413,
 .header_f369db,
-.channelTextArea__74017,
-.channelTextArea__74017.highlighted__74017,
+.channelTextArea__74017:not(.flushContainer__74017),
+.channelTextArea__74017:not(.flushContainer__74017).highlighted__74017,
 .tierHeader_a36dee,
 .enableCard__74f90,
 .phoneField_a0c54f,
