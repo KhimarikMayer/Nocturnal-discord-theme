@@ -1861,12 +1861,8 @@ svg[name=Nitro] g path {
 }
 
 .content__49fc1 {
-	padding-right: 10px !important;
-	border-radius: 0 0 5px 5px;
-}
-
-.content__49fc1 {
 	padding-right: 18px !important;
+	border-radius: 0 0 5px 5px;
 }
 
 .status__2f4f7 {
@@ -8411,25 +8407,6 @@ rect[fill="var(--control-brand-foreground)"] {
 	border: none;
 }
 
-.container_c791b2,
-.content__735fb,
-.content__7c901,
-.clipGrid__578ba,
-.productPreview__7fffd,
-.content__75b62,
-.list_f391e3,
-.modalContent__2d5a9,
-.list_dcc822,
-.modalContent__3297f,
-.content__50a6f,
-.modalContent_bdbb1b,
-.body__527b1,
-.footer__7c901,
-.powerupHorizontalPadding__89463,
-.scroller_cba592 {
-	padding-right: 18px !important;
-}
-
 .theme-dark .avatarContainer__44492 .wrapper__44b0c .avatar__44b0c[src="/assets/32336875baac6ac1.png"],
 .theme-dark .wrapper__44b0c .avatar__44b0c[src="/assets/d9bd8932f55dc4ba.gif"],
 .theme-dark .avatarContainer__44492 .wrapper__44b0c .avatar__44b0c[src="/assets/32336875baac6ac1.png"]:before,
@@ -11197,7 +11174,10 @@ rect[fill="brand-200"] {
 	margin: 28px -4px;
 }
 
-.bottomBar__0f481:not(.messagesErrorBar__0f481),
+.bottomBar__0f481:not(.messagesErrorBar__0f481) {
+	background-color: color-mix(in oklab, hsl(221 calc(var(--saturation-factor)*21%) 15% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+}
+
 .container__5808f,
 .container__11014,
 .container_dca174,
@@ -13663,4 +13643,8 @@ svg.thumbnail__0f2e8 {
 
 .gradientRight_a1cc72 {
 	background: linear-gradient(270deg, var(--backgroundDarker-alt) 0, hsl(var(--backgroundDarker-alt-hsl)/0) 100%);
+}
+
+.root__49fc1 div[style*="width: 440px;"] {
+	width: 100% !important;
 }
