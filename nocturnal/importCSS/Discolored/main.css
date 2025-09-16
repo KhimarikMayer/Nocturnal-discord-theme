@@ -532,8 +532,8 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/community_banner.svg");
 }
 
-.theme-dark .headerArtPlaceholder__553a5[style*='background-image: url("/assets/36eaea47ad7cb391.svg");'],
-.theme-dark .headerArtPlaceholder__553a5[style*='background-image: url("/assets/3655f5d8659277b4.svg");'] {
+.theme-dark [style='background-image: url("/assets/36eaea47ad7cb391.svg");'],
+.theme-dark [style='background-image: url("/assets/3655f5d8659277b4.svg");'] {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/c8234fe5675a618e7891b634d32d1c0f.svg") !important;
 }
 
