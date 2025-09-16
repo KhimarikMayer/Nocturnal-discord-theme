@@ -3299,8 +3299,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 }
 
 .actionContainer__6446f,
-.interactiveRow__60626:hover,
-.theme-dark .previewCard_f70348 {
+.interactiveRow__60626:hover {
 	background-color: var(--backgroundDark-20);
 }
 
@@ -3434,6 +3433,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	background-color: var(--backgroundDarker-alt);
 }
 
+.theme-dark .card__88264.previewCard_f70348:hover,
 .stepContainer_a68543,
 .container__6b38f,
 .navButtons_fe70ca,
@@ -11303,7 +11303,6 @@ rect[fill="brand-200"] {
 	background-color: var(--backgroundDark-15);
 }
 
-.rsvpCount_b5010b,
 .pillItemSelected__9e06a,
 .playButton__76084:hover,
 .playButton_cf0b5e:hover,
@@ -11665,6 +11664,7 @@ rect[fill="brand-200"] {
 	color: var(--undenary);
 }
 
+.rsvpCount_b5010b,
 .separator_b3f026,
 .guildSeparator__252b6,
 .visual-refresh .guildSeparator__252b6,
