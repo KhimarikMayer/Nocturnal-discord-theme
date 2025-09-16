@@ -13657,3 +13657,11 @@ svg.thumbnail__0f2e8 {
 	background-color: var(--primary);
 	color: #fff;
 }
+
+.popover__2d0ab div:not(:last-child) .button__2d0ab {
+	border-radius: 100px 6px 6px 100px;
+}
+
+.popover__2d0ab div:not(:first-child) .button__2d0ab {
+	border-radius: 6px 100px 100px 6px;
+}
