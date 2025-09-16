@@ -1375,11 +1375,11 @@ svg[name=Nitro] g path {
 }
 
 :where(.custom-theme-background) .channelTextArea__74017:not(.flushContainer__74017) {
-	background: var(--background-gradient-lower, hsl(223 calc(var(--saturation-factor)*23%) 6% /1));
+	background: var(--background-gradient-lower, color-mix(in oklab, hsl(223 calc(var(--saturation-factor)*23%) 6% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%)));
 }
 
 .channelTextArea_f75fb0 {
-	background: var(--background-gradient-lower, hsl(223 calc(var(--saturation-factor)*23%) 6% /1));
+	background: var(--background-gradient-lower, color-mix(in oklab, hsl(223 calc(var(--saturation-factor)*23%) 6% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%)));
 	margin-bottom: 0;
 }
 
@@ -1620,7 +1620,7 @@ svg[name=Nitro] g path {
 
 .wrapperAudio_cf09d8,
 .visual-refresh .wrapperAudio_cf09d8 {
-	border-color: rgb(10, 12, 16);
+	border: 1px solid hsl(220 calc(var(--saturation-factor)*23%) 5%);
 	background-color: var(--backgroundDark-26);
 }
 
@@ -4686,14 +4686,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 }
 
 .theme-dark .optionPillKey__1464f {
-	background-color: hsl(223 calc(var(--saturation-factor)*23%) 6% /1);
-}
-
-.iconWithGuildIcon__2894c {
-	width: 14px;
-	height: 14px;
-	background-color: var(--primary);
-	color: #fff;
+	background-color: color-mix(in oklab, hsl(223 calc(var(--saturation-factor)*23%) 6% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
 }
 
 .channelTextArea_fb64c9 {
@@ -5091,7 +5084,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 .placeholderItem__87dda,
 .bioTextAreaContainer__6a919,
 .traitContainer__4cbea {
-	background: var(--background-gradient-lower, hsl(223 calc(var(--saturation-factor)*23%) 6% /1));
+	background: var(--background-gradient-lower, color-mix(in oklab, hsl(223 calc(var(--saturation-factor)*23%) 6% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%)));
 	border: none;
 }
 
@@ -5164,7 +5157,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 
 .upload_aa605f:not(.attachmentItemSmall__41ea0) {
 	background: var(--background-gradient-low, var(--backgroundDarker-alt));
-	background-color: hsl(223 calc(var(--saturation-factor)*23%) 6% /1);
+	background-color: color-mix(in oklab, hsl(223 calc(var(--saturation-factor)*23%) 6% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
 	border-color: var(--backgroundDark-35);
 }
 
@@ -5330,11 +5323,11 @@ html:not(.chat-input) .inputInner_b1f01d,
 }
 
 .nonMediaMosaicItem__06ab4 {
-	outline: none;
+	outline: 1px solid rgba(0, 0, 0, 0);
 }
 
 .nonMediaMosaicItem__06ab4:hover {
-	outline: 1px solid var(--backgroundDark-50);
+	outline: 1px solid color-mix(in oklab, hsl(223 calc(var(--saturation-factor)*23%) 6% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
 }
 
 .guildIcon__4591d {
@@ -6352,11 +6345,6 @@ circle[fill="var(--brand-500)"],
 	background-color: var(--backgroundDark-15);
 }
 
-#permissions-modal-wrapper .role-item:hover {
-	background-color: var(--backgroundDark-20);
-}
-
-#permissions-modal-wrapper .role-item.selected,
 .card__4d7bb {
 	background-color: var(--backgroundDark-30);
 }
@@ -13010,12 +12998,12 @@ svg.thumbnail__0f2e8 {
 }
 
 .bd-slider-track {
-	background-color: rgb(10, 12, 16);
+	background-color: color-mix(in oklab, hsl(223 calc(var(--saturation-factor)*23%) 6% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
 	background-image: linear-gradient(hsl(201 calc(var(--saturation-factor)*100%) 43% /1), hsl(201 calc(var(--saturation-factor)*100%) 43% /1));
 }
 
 .bd-slider-marker::before {
-	background-color: rgb(10, 12, 16);
+	background-color: color-mix(in oklab, hsl(223 calc(var(--saturation-factor)*23%) 6% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
 }
 
 .bd-select:hover,
@@ -13514,7 +13502,7 @@ svg.thumbnail__0f2e8 {
 }
 
 .dotSeparator_d5cd2d {
-	background-color: hsl(223 calc(var(--saturation-factor)*23%) 6% /1);
+	background-color: color-mix(in oklab, hsl(223 calc(var(--saturation-factor)*23%) 6% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
 }
 
 .theme-dark .bd-gp-icon {
@@ -13655,4 +13643,17 @@ svg.thumbnail__0f2e8 {
 
 .root__49fc1 div[style*="width: 440px;"] {
 	width: 100% !important;
+}
+
+.fakeEdges_b26b79:before {
+	border-radius: 5px 0 0 5px;
+}
+
+.fakeEdges_b26b79:after {
+	border-radius: 0 5px 5px 0;
+}
+
+.iconWithGuildIcon__2894c {
+	background-color: var(--primary);
+	color: #fff;
 }
