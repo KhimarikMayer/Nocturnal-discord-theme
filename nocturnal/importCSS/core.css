@@ -474,6 +474,8 @@ svg[name=Nova_Discord] * {
 }
 
 #bd-settingspane-container .bd-pfbtn,
+.boostButton__25ea7,
+.boostButton__58c46,
 .colorable_f1ceac.join_f1ceac,
 .colorable_f1ceac.green_f1ceac,
 .vc-settings-quickActions-pill,
@@ -550,6 +552,8 @@ svg[name=Nova_Discord] * {
 }
 
 #bd-settingspane-container .bd-pfbtn:hover,
+.boostButton__25ea7:hover,
+.boostButton__58c46:hover,
 .attachedCaretButtonContainer_f1ceac:not(.fauxDisabled__666fa) .colorable_f1ceac.green_f1ceac.active_f1ceac,
 .attachedCaretButtonContainer_f1ceac:not(.fauxDisabled__666fa) .colorable_f1ceac.green_f1ceac:hover,
 .attachedCaretButtonContainer_f1ceac:not(.fauxDisabled__666fa) .colorable_f1ceac.join_f1ceac.active_f1ceac,
@@ -598,6 +602,8 @@ svg[name=Nova_Discord] * {
 }
 
 #bd-settingspane-container .bd-pfbtn:active,
+.boostButton__25ea7:active,
+.boostButton__58c46:active,
 .vc-settings-quickActions-pill:active,
 .showMoreButton__84832:active:not(:disabled),
 .roleStyleUpsellButton__981c8:active:not(:disabled),
@@ -10423,7 +10429,8 @@ div.cardContainer__88e24,
 .theme-dark .contentContainer_e38f8a,
 .container__62dd3,
 .theme-dark.custom-user-profile-theme .container__62dd3,
-.theme-light.custom-user-profile-theme .container__62dd3 {
+.theme-light.custom-user-profile-theme .container__62dd3,
+.container__3f864 {
 	background-color: var(--backgroundDark-15);
 	border: none;
 }
@@ -11334,13 +11341,6 @@ rect[fill="brand-200"] {
 .uploadImage_e45886,
 .profilePreviewContainer_dbba93 .avatarWrapper_dca174,
 .enableSwitchContainer__69ef9,
-.container__3f864,
-.boostButton__25ea7,
-.boostButton__25ea7:hover,
-.boostButton__25ea7:active,
-.boostButton__58c46,
-.boostButton__58c46:hover,
-.boostButton__58c46:active,
 .progressContainer__0d0f9,
 .gradient__864b0+.container_dca174,
 .container__6c253,
