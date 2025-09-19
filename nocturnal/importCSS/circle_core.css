@@ -13399,6 +13399,10 @@ svg.thumbnail__0f2e8 {
 	mask: linear-gradient(180deg,#000,rgba(0, 0, 0, 0) 100px,rgba(0, 0, 0, 0)) bottom /100% 96px no-repeat,linear-gradient(#000,#000) top /100% calc(100% - 95px) no-repeat;
 }
 
+.typingGradientAtBottom__36d07 {
+	mask: linear-gradient(180deg,#000,rgba(0, 0, 0, 0) 48px,rgba(0, 0, 0, 0)) bottom /100% 32px no-repeat,linear-gradient(#000,#000) top /100% calc(100% - 31px) no-repeat;
+}
+
 .custom-theme-background .sidebar_c48ade:before {
 	content: "";
 	position: absolute;
