@@ -20,16 +20,9 @@
 	--backgroundDark-45: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.45);
 	--backgroundDark-50: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.5);
 	--backgroundDark-52: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.52);
-	--backgroundDark-55: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.55);
-	--backgroundDark-60: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.6);
 	--backgroundDark-65: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.65);
 	--backgroundDark-70: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.7);
 	--backgroundDark-75: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.75);
-	--backgroundDark-80: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.8);
-	--backgroundDark-85: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.85);
-	--backgroundDark-90: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.9);
-	--backgroundDark-95: hsl(0 calc(var(--saturation-factor)*0%) 0% /0.95);
-	--backgroundDark-100: hsl(0 calc(var(--saturation-factor)*0%) 0%);
 	--primary: hsl(204 calc(var(--saturation-factor)*100%) 45% /1);
 	--primary-hsl: 204 calc(var(--saturation-factor)*100%) 45%;
 	--primaryGradient1: hsl(204 calc(var(--saturation-factor)*100%) 45% /1);
@@ -5593,7 +5586,6 @@ html:not(.chat-input) .inputInner_b1f01d,
 .channelRowLabel__9c6c0,
 .row__23488.checked__23488,
 .row__23488.checked__23488:hover,
-.guildIconWithoutImage__0fa6d,
 .iconWrapper_e2461d {
 	background-color: var(--backgroundDark-50);
 }
@@ -5997,8 +5989,12 @@ circle[fill="var(--brand-500)"],
 }
 
 .guildIcon__0fa6d {
-	border-radius: 5px;
+	border-radius: 8px;
 	background-color: rgba(0, 0, 0, 0);
+}
+
+.mask__0fa6d[width="16"][height="16"] .guildIcon__0fa6d {
+	border-radius: 5px;
 }
 
 .searchSuggestion_e94b8c,
@@ -6718,7 +6714,7 @@ circle[fill="var(--brand-500)"],
 	transition-property: box-shadow;
 }
 
-.custom-theme-background .channelTextArea_f75fb0.channelTextArea__74017:not(.flushContainer__74017):not(.flushContainer__74017):hover:not(.channelTextAreaDisabled__74017, .highlighted__74017) {
+.custom-theme-background .channelTextArea_f75fb0.channelTextArea__74017:not(.flushContainer__74017):hover:not(.channelTextAreaDisabled__74017, .highlighted__74017) {
 	box-shadow: 0 0 0 2px var(--backgroundDark-65);
 	transition: var(--transition);
 	transition-property: box-shadow;
@@ -10720,6 +10716,7 @@ rect[fill="brand-200"] {
 	background-color: rgba(14, 34, 43, .8);
 }
 
+.theme-dark .override__856b5:hover,
 .override_db81c6:hover {
 	background-color: var(--backgroundDark-40);
 }
@@ -13689,4 +13686,13 @@ svg.thumbnail__0f2e8 {
 	bottom: -4px;
 	right: -4px;
 	padding: 2px;
+}
+
+.segmentedControlsContainer__9c019 {
+	padding: 0 0 16px 0;
+}
+
+.sectionContentPadding_da32a8 {
+	padding: 0 0 16px 0;
+	margin-top: 24px;
 }
