@@ -13696,3 +13696,18 @@ svg.thumbnail__0f2e8 {
 	padding: 0 0 16px 0;
 	margin-top: 24px;
 }
+
+.typingGradientNotAtBottom__36d07 {
+	mask: linear-gradient(180deg,#000,rgba(0, 0, 0, 0) 100px,rgba(0, 0, 0, 0)) bottom /100% 96px no-repeat,linear-gradient(#000,#000) top /100% calc(100% - 95px) no-repeat;
+}
+
+.custom-theme-background .sidebar_c48ade:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 1px;
+	height: 8px;
+	background: var(--background-gradient-app-frame);
+	z-index: 1;
+}
