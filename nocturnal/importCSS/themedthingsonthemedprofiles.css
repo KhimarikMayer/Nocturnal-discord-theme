@@ -157,7 +157,8 @@
 .custom-user-profile-theme .menuOverlay_af7fb7 .menuItemColor_af7fb7:hover,
 .custom-user-profile-theme .menuDivider_af7fb7
 .custom-user-profile-theme .voiceChannelDivider__39ec2,
-.custom-user-profile-theme .menuItemColor_ce8328:hover {
+.custom-user-profile-theme .menuItemInner_ce8328:hover,
+.custom-user-profile-theme .menuItem_ce8328:after {
 	background: var(--profile-gradient-secondary-color);
 }
 
