@@ -1553,7 +1553,7 @@ svg[name=Nitro] g path {
 .customLabelContainer_c2c6a6:hover,
 .nagivateBackContainer__786f4:hover,
 .otherDatesContainer__786f4.focused__786f4,
-.menuItemColor_ce8328:hover {
+.menuItemInner_ce8328:hover {
 	background-color: var(--backgroundDark-20);
 }
 
@@ -3034,7 +3034,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 
 .box_ee23ac {
 	background-color: var(--backgroundDark-15);
-	margin: 10px 0 10px 10px;
+	margin: 10px 0 14px 10px;
 	border-radius: 8px;
 }
 
@@ -3405,8 +3405,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 }
 
 .cardHeader_a11d84,
-.priceAndButtonContainer_a11d84,
-.cardHeader_b44011 {
+.priceAndButtonContainer_a11d84 {
 	background-color: var(--backgroundDarker-alt);
 }
 
@@ -3499,10 +3498,13 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .tag_c993da:hover,
 .tagsButton_f369db:hover,
 .tagsButton_f369db[aria-expanded=true],
-.pill_a2c9e8.clickable_a2c9e8:not(.disabled_a2c9e8):hover {
+.pill_a2c9e8.clickable_a2c9e8:not(.disabled_a2c9e8):hover,
+.cardHeader_b44011,
+.item_f5fff4 {
 	background-color: var(--backgroundDark-30);
 }
 
+.group_f5fff4:not(.disabled_f5fff4) .item_f5fff4:not(.selected_f5fff4):hover,
 .container_eb2cd2:active,
 .pill_a2c9e8.clickable_a2c9e8:not(.disabled_a2c9e8):active {
 	background-color: var(--backgroundDark-40);
@@ -5487,8 +5489,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 	border-color: rgba(0, 0, 0, 0) !important;
 }
 
-.row_d13feb:hover,
-.item_f5fff4 {
+.row_d13feb:hover {
 	background-color: var(--backgroundDarker-alt);
 	box-shadow: none;
 }
@@ -5911,7 +5912,6 @@ circle[fill="var(--brand-500)"],
 	margin-left: 0;
 }
 
-.group_f5fff4:not(.disabled_f5fff4) .item_f5fff4:not(.selected_f5fff4):hover,
 .application__750de,
 .optionBox_edf440,
 .confirmChannelItemContainer_cba592:hover,
@@ -7576,7 +7576,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .rowDivider_ccbbbb,
 .checkboxContainer_db81c6:before,
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .divider_ae36e5,
-.menuDivider_ce8328,
+.menuDivider__8683b,
 .underline__1729d,
 .underline__761e5,
 .divider__17efa,
@@ -9346,7 +9346,6 @@ html:not(.chat-input) .inputInner_b1f01d,
 .statusBubbleOuter_af9888,
 .statusBubbleOuter_af9888:before,
 .statusBubbleOuter_af9888:after,
-.custom-user-profile-theme .container__8061a,
 .gameImageContainer_fda254,
 .custom-user-profile-theme.statusBubbleOuter_af9888,
 .custom-user-profile-theme.statusBubbleOuter_af9888:before,
@@ -9659,8 +9658,6 @@ path[fill="var(--bg-brand)"] {
 	opacity: unset !important;
 }
 
-.inner_c0bea0.user-profile-popout .container__8061a,
-.inner_c0bea0.user-profile-modal .container__8061a,
 .theme-dark.custom-user-profile-theme .biteSizeOverlayBackground_c69a7b,
 .theme-dark.custom-user-profile-theme .fullSizeOverlayBackground_c69a7b,
 :where(.overlay_c0bea0),
@@ -10253,7 +10250,6 @@ div.cardContainer__88e24,
 .bd-gp-user:hover,
 .headerV2__50a54,
 .theme-dark .listItem__2bb83:hover,
-.joinOptionContent__959cb:hover,
 .notifTabs__8683b,
 .controls__8683b,
 .filter_b02222:hover,
@@ -10273,6 +10269,7 @@ div.cardContainer__88e24,
 	border: none;
 }
 
+.joinOptionContent__959cb:hover,
 .payment_e9cb00:hover,
 .payment_e9cb00[data-expanded=true],
 .summaryInfo_e9cb00:hover {
@@ -11410,7 +11407,7 @@ rect[fill="brand-200"] {
 .theme-light .customLabelContainer_c2c6a6:hover,
 .theme-light .nagivateBackContainer__786f4:hover,
 .theme-light .otherDatesContainer__786f4.focused__786f4,
-.theme-light .menuItemColor_ce8328:hover,
+.theme-light .menuItemInner_ce8328:hover,
 .theme-light .colorDefault_c1e9c4:active:not(.colorDanger_c1e9c4):not(.hideInteraction_c1e9c4),
 .theme-light .customLabelContainer_c2c6a6:active,
 .theme-light .nagivateBackContainer__786f4:active,
@@ -11521,7 +11518,6 @@ rect[fill="brand-200"] {
 .backButton_c3787a:hover,
 .keyboard-mode .backButton_c3787a:focus,
 .backButton_c3787a:active,
-.custom-user-profile-theme .container__8061a,
 .headerButton__57d3f,
 .headerButton__57d3f:hover,
 .keyboard-mode .headerButton__57d3f:focus,
@@ -11614,11 +11610,13 @@ rect[fill="brand-200"] {
 	fill: #fff;
 }
 
+.tag_ae0825,
 .topSeparator_ee8e87,
 .ping__06d62.largePing__06d62,
 .actionContainer__6b102,
 .userInfoContainer__6b102,
-.cardContainer__6b102 {
+.cardContainer__6b102,
+.menuItem_ce8328:after {
 	background-color: var(--backgroundDark-20);
 	border: none;
 	box-shadow: none;
