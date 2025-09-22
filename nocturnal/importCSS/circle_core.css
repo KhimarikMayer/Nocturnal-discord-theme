@@ -294,7 +294,7 @@
 .theme-dark .embedFull__623de,
 .custom-theme-background .embedFull__623de {
 	border: none;
-	border-left: 2.5px solid var(--backgroundDark-20);
+	border-left: 2.5px solid var(--primary);
 	background-color: rgba(1, 1, 1, 0.1);
 }
 
