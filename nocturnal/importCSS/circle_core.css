@@ -7498,7 +7498,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .messageRequestItem_abb9ad:not(.firstItem_abb9ad),
 .legalText_bfa0f5,
 .modalHeaderCustomGift_b54a5b,
-.details__000a3,
+.details__90b74,
 .scrollerInner_b70be6.bottomSeparator_b70be6,
 .markdown_d285a6 td,
 .markdown_d285a6 tr,
@@ -8079,14 +8079,13 @@ h3.improved__1689b:after,
 .blockedPaymentsModalContent_b7b2cf,
 .userCardInput_a76279,
 .spinner_ca0af2,
-.container__62119,
+.container_f18f64,
 .modalInner__78e61,
 .effectDescriptionNoGradient__92e52,
 .backButton_b9abc5,
 .backButton_b9abc5:hover,
 .circularButton__49094,
 .body__89307,
-.container__000a3,
 .wrapper__4106a,
 .popoutContainer__0f481.emojiDetailsLoader_cf58b5,
 .modalContent__6f8c0,
@@ -8412,7 +8411,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .vc-author-modal-name:before,
 .container_cd2100,
 .sidebarContainer__1d6c7,
-.wrapper__14403,
+.wrapper__90b74,
 .classificationPolicyCard_a48d6b,
 .effectGridItem_b4019a,
 .dropdown_edf232,
@@ -8428,7 +8427,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .tableContainer_c3fe25,
 .skeletonBody__08415,
 .note_fcb628 textarea:focus,
-.header__000a3,
+.header__90b74,
 .iconMask_c59071,
 .pill__33d66,
 .bd-addon-store-card-tag,
@@ -8637,7 +8636,7 @@ rect[fill="var(--control-brand-foreground)"] {
 
 .scroller__01c8c,
 .container__4216d,
-.card__62119,
+.card_f18f64,
 .permissionItemContainer__3f11f,
 .calloutContainer__6fddf,
 .header_a8217b,
@@ -8657,6 +8656,10 @@ rect[fill="var(--control-brand-foreground)"] {
 .markdown_d285a6 tr:nth-child(2n) {
 	background-color: var(--backgroundDarker);
 	border: none;
+}
+
+.container__53cea .card_f18f64 {
+	background-color: var(--backgroundDarker-alt);
 }
 
 .statusBubble_af9888,
@@ -8695,7 +8698,6 @@ div.cardContainer__88e24,
 &.content__79cbe,
 .content__79cbe,
 .container_d829e7,
-.benefits__62119,
 .ctaContainer_d829e7 {
 	background-color: var(--backgroundDark);
 }
@@ -9463,8 +9465,8 @@ html:not(.chat-input) .inputInner_b1f01d,
 	border-top-color: var(--backgroundLight);
 }
 
-.containerScrollGradient_a54921 {
-	background: linear-gradient(0deg, var(--backgroundDarker) 0, rgba(0, 0, 0, 0) 100%);
+.containerScrollGradient__28775 {
+	background: linear-gradient(0deg, var(--backgroundDarker-alt) 0, rgba(0, 0, 0, 0) 100%);
 }
 
 .backButton__91fb9,
@@ -9556,8 +9558,8 @@ path[fill="var(--bg-brand)"] {
 	border-top-color: var(--backgroundDark-20);
 }
 
-.theme-dark .background__14403 {
-	--custom-overlay-color: hsl(220 20% 6% / 0.8);
+.theme-dark .background__32812 {
+	--custom-overlay-color: hsl(224 22% 10% /0.8);
 }
 
 .markdown_d285a6 th {
@@ -9816,8 +9818,8 @@ div.profileThemedContainer__656be .inner_c0bea0,
 	left: 8px;
 }
 
-.headerImage__000a3,
-.headerImage__000a3>img,
+.headerImage__90b74,
+.headerImage__90b74>img,
 .appIcon__24654,
 .avatarBackground__6f212,
 .avatar_fa0751,
@@ -10015,11 +10017,11 @@ div.cardContainer__88e24,
 	box-shadow: 0 0 15px 1px var(--backgroundDark-75);
 }
 
-.headerBackground__000a3 {
+.headerBackground__90b74 {
 	--custom-overlay-color: hsl(var(--backgroundDarker-alt-hsl) / 0.9);
 }
 
-.header__000a3 {
+.header__90b74 {
 	border-radius: 5px;
 }
 
@@ -11108,6 +11110,7 @@ rect[fill="brand-200"] {
 .authBox__921c5,
 .sidebar_c48ade:after,
 .visual-refresh .sidebar_c48ade:after,
+.scroller__23746 .benefits_f18f64,
 .mediaMosaicAltText__0f481:active {
 	background-color: var(--backgroundDark);
 }
@@ -11179,7 +11182,7 @@ rect[fill="brand-200"] {
 .bd-vmsg-preview,
 .vc-vmsg-preview,
 .vc-author-modal-name,
-.modal__49777 .benefits__62119,
+.benefits_f18f64,
 .requiredPermissionsBanner__9c74b,
 .PIsettingsSmartDisable .body .item,
 .akaBadge__910e1,
@@ -11247,7 +11250,6 @@ rect[fill="brand-200"] {
 .playButton_cf0b5e,
 .tagContainer__95856,
 .topPerksCardLabelContainer__3add8,
-.modal__49777 .card__62119,
 .theme-dark .option_a19535,
 .PIsettingsSmartDisable .body .item:hover {
 	border: none;
@@ -11774,6 +11776,7 @@ rect[fill="brand-200"] {
 	border-radius: 0;
 }
 
+.container__5acc9,
 .bd-error-toggle-wrapper,
 .expandedContainer__9d98d,
 .groupHeader__9d98d {
@@ -12830,7 +12833,7 @@ svg.thumbnail__0f2e8 {
 	padding-right: 0 !important;
 }
 
-.benefits__000a3,
+.benefits__90b74,
 .guildCategorySeparator__3ad28,
 .row__19fd1,
 .cell_f70307 {
@@ -13404,4 +13407,9 @@ svg.thumbnail__0f2e8 {
 
 .scroller_ef3116 {
 	padding-top: 4px;
+}
+
+.container__90b74 {
+	background-color: var(--backgroundDarker);
+	border-radius: 5px;
 }
