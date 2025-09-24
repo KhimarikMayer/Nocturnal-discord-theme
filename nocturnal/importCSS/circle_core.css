@@ -1370,8 +1370,7 @@ svg[name=Nitro] g path {
 
 .theme-dark .avatar_c19a55,
 .theme-dark .mockMessageAvatar__9c019,
-.theme-dark .avatar__11014,
-.theme-dark .avatar_d3c698 {
+.theme-dark .avatar__11014 {
 	margin-top: auto;
 	left: var(--custom-message-margin-horizontal-for-chat-avatars);
 	border-color: var(--chat-avatar-border-color);
@@ -1624,7 +1623,7 @@ svg[name=Nitro] g path {
 .folder__48112 .lowerBadge_cc5dd2,
 .folderIconWrapper__48112 .upperBadge_cc5dd2,
 .folderIconWrapper__48112 .upperBadge_cc5dd2 {
-	margin: 34px -2px;
+	margin: 32px 0px;
 }
 
 .numberBadge__2b1f5,
@@ -5036,7 +5035,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 .upload_aa605f:not(.attachmentItemSmall__41ea0) {
 	background: var(--background-gradient-low, var(--backgroundDarker-alt));
 	background-color: color-mix(in oklab, hsl(223 calc(var(--saturation-factor)*23%) 6% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
-	border-color: var(--backgroundDark-35);
+	border: 1px solid var(--backgroundDark-25) !important;
 }
 
 .termsRow_d48a51 {
@@ -5118,6 +5117,11 @@ html:not(.chat-input) .inputInner_b1f01d,
 
 .size56__183c2 .avatarContainerMasked__183c2 {
 	margin-right: 8px;
+}
+
+.maskBackground_db811b {
+	margin-right: -2px;
+	margin-bottom: -2px;
 }
 
 .contentContainer__0907c .textArea__7aff3 {
@@ -5420,11 +5424,10 @@ html:not(.chat-input) .inputInner_b1f01d,
 }
 
 .row__23488:not(.disabled__23488):hover,
-.header_d7a3d0,
 .active__05fbc,
 .hover_d0ebf2:hover,
 .button_bba883[aria-pressed=true] {
-	background-color: var(--backgroundDark-35);
+	background-color: var(--backgroundDark-30);
 }
 
 .theme-dark .invalidPoop__857bf,
@@ -8705,7 +8708,6 @@ div.cardContainer__88e24,
 .avatarBackground_eb2508,
 .guildIcon_d5cd2d,
 .guildIconNotClickable_d5cd2d,
-.image_db811b,
 .icon_a97e58,
 .circularImage__1ce5d,
 .childWrapperHoverScale__6e9f8 .avatar__44b0c {
@@ -9304,7 +9306,6 @@ html:not(.chat-input) .inputInner_b1f01d,
 .iconActiveMedium_f34534,
 .guildCardHeaderAvatar__2485e,
 .icon_ca5f52,
-.image_db811b,
 .iconActiveLarge_f34534,
 .headerImage_d7a3d0,
 .avatar_f52a16,
@@ -10411,7 +10412,8 @@ rect[fill="brand-200"] {
 .theme-dark .avatarDecoration__44b0c img,
 .theme-dark .avatar__20a53 g svg,
 .theme-dark .gameActivityLevel__4e338 foreignObject,
-.theme-dark .clickable_c99c29 foreignObject {
+.theme-dark .clickable_c99c29 foreignObject,
+.theme-dark .mask_db811b {
 	overflow: visible;
 	mask: none;
 }
@@ -12567,7 +12569,7 @@ svg[color="var(--brand-500)"] {
 	background-color: #6a40b3 !important;
 }
 
-.overlay_c0bea0:has(.secondary_a22cb0):not(:has([style*="/assets/f6833ce4dd20c1fb.svg"], [style*="/assets/c4f09fda61827e19.svg"], [style*="/assets/487de5256b2ae540.svg"], [src="https://media.discordapp.net/external/4TsMfRvpZjLCRZY-ACo0gJni6s-kLOZ41Y80QCDmpeE/https/m.media-amazon.com/images/I/31B2Nyzd8XL.png"])),
+.overlay_c0bea0:has(.secondary_a22cb0):not(:has(.container__43a4b), :has([style*="/assets/f6833ce4dd20c1fb.svg"], [style*="/assets/c4f09fda61827e19.svg"], [style*="/assets/487de5256b2ae540.svg"], [src="https://media.discordapp.net/external/4TsMfRvpZjLCRZY-ACo0gJni6s-kLOZ41Y80QCDmpeE/https/m.media-amazon.com/images/I/31B2Nyzd8XL.png"])),
 .card__84832:not(:has([style*="/assets/f6833ce4dd20c1fb.svg"], [style*="/assets/c4f09fda61827e19.svg"], [style*="/assets/487de5256b2ae540.svg"], [src="https://media.discordapp.net/external/4TsMfRvpZjLCRZY-ACo0gJni6s-kLOZ41Y80QCDmpeE/https/m.media-amazon.com/images/I/31B2Nyzd8XL.png"])),
 .clickableContainer__39ec2:hover>.card__84832:not(:has([style*="/assets/f6833ce4dd20c1fb.svg"], [style*="/assets/c4f09fda61827e19.svg"], [style*="/assets/487de5256b2ae540.svg"], [src="https://media.discordapp.net/external/4TsMfRvpZjLCRZY-ACo0gJni6s-kLOZ41Y80QCDmpeE/https/m.media-amazon.com/images/I/31B2Nyzd8XL.png"])),
 .overlay_c0bea0:has(.progress__8e51c):not(:has([style*="/assets/f6833ce4dd20c1fb.svg"], [style*="/assets/c4f09fda61827e19.svg"], [style*="/assets/487de5256b2ae540.svg"], [src="https://media.discordapp.net/external/4TsMfRvpZjLCRZY-ACo0gJni6s-kLOZ41Y80QCDmpeE/https/m.media-amazon.com/images/I/31B2Nyzd8XL.png"])),
@@ -13408,4 +13410,16 @@ svg.thumbnail__0f2e8 {
 .container__90b74 {
 	background-color: var(--backgroundDarker);
 	border-radius: 5px;
+}
+
+.theme-dark .avatar_d3c698,
+.theme-dark .image_db811b,
+.theme-dark .imageContainer_db811b[style] {
+	border: 2px solid var(--chat-avatar-border-color);
+	border-radius: 50px;
+}
+
+.image_db811b {
+	margin-left: 4px;
+	margin-top: 4px;
 }
