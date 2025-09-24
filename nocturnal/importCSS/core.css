@@ -13722,3 +13722,9 @@ svg.thumbnail__0f2e8 {
 .visual-refresh .container__9293f {
 	padding-left: calc(var(--custom-message-margin-horizontal));
 }
+
+.visual-refresh .iconWrapper__9293f {
+	margin-left: -1px;
+	margin-right: calc(var(--custom-message-margin-horizontal)/2 + 1px);
+	width: auto;
+}
