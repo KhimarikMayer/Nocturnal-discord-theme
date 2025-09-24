@@ -5962,11 +5962,6 @@ circle[fill="var(--brand-500)"],
 	border: none;
 }
 
-.inviteSplash_d5f3cd:has(img),
-.inviteSplash_d5f3cd:has(.inviteSplashImageLoaded_d5f3cd) {
-	background-color: rgba(0, 0, 0, 0);
-}
-
 .visual-refresh .textContainer__4d95d,
 .textContainer__4d95d,
 .inviteSplash_d5f3cd {
@@ -7351,10 +7346,6 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .max-width__5b321,
 .content__6fd0e {
 	max-width: none;
-}
-
-.selectGuild__39466 {
-	margin-right: 2px;
 }
 
 .background__506d9,
@@ -12729,6 +12720,7 @@ svg.thumbnail__0f2e8 {
 	margin-right: 0;
 }
 
+.align-chat-input .inTextChannel_b88801 .text_b88801,
 .roleColor__9cd44,
 .loadingMutualFriend__3b260>:first-child,
 .friendsLoadingItem__28fdc>:first-child,
@@ -13414,7 +13406,7 @@ svg.thumbnail__0f2e8 {
 
 .theme-dark .avatar_d3c698,
 .theme-dark .image_db811b,
-.theme-dark .imageContainer_db811b[style] {
+.theme-dark .imageContainer_db811b:not(:has(.image_db811b)) {
 	border: 2px solid var(--chat-avatar-border-color);
 	border-radius: 50px;
 }
