@@ -4911,7 +4911,7 @@ body,
 .custom-theme-background .panels_c48ade,
 .visual-refresh .panels_c48ade,
 .container__133bf,
-.container_c8ffbb {
+.visual-refresh .container_c8ffbb {
 	background: var(--background-gradient-app-frame, var(--backgroundDark));
 	border-color: var(--backgroundDark-25);
 }
@@ -13414,4 +13414,8 @@ svg.thumbnail__0f2e8 {
 .image_db811b {
 	margin-left: 4px;
 	margin-top: 4px;
+}
+
+.visual-refresh .container__9293f {
+	padding-left: calc(var(--custom-message-margin-horizontal));
 }
