@@ -2697,7 +2697,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .iconBadge__9293f,
 .noIcon_f34534.guildAvatarWithoutIcon_aafe31,
 .bd-switch:not(.bd-switch-checked) .bd-switch-body,
-.container__6f89e.checked__6f89e {
+.container__3f21e.checked__3f21e {
 	background-color: var(--primary) !important;
 	border: none;
 }
@@ -2978,7 +2978,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 }
 
 .bd-switch:not(.bd-switch-checked) .bd-switch-body,
-.container__6f89e:not(.checked__6f89e) {
+.container__3f21e:not(.checked__3f21e) {
 	background-color: #434257 !important;
 	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.4) !important;
 }
@@ -2987,7 +2987,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	--switch-color: #434257 !important;
 }
 
-.container__6f89e.checked__6f89e>.slider__6f89e path {
+.container__3f21e.checked__3f21e>.slider__3f21e path {
 	fill: var(--primary);
 }
 
@@ -2995,7 +2995,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	--switch-color: var(--primary) !important;
 }
 
-.container__6f89e>.slider__6f89e path {
+.container__3f21e>.slider__3f21e path {
 	fill: #434257;
 }
 
@@ -4964,6 +4964,7 @@ svg.contentImage__42bf5 path {
 	color: var(--backgroundDark);
 }
 
+.scroller__53543,
 .button__02a39,
 .noiseCancellationPopout_e131a9,
 .debugPanelStandalone__50387,
@@ -5018,7 +5019,6 @@ body,
 }
 
 .sidebarContainer_a3a4ce,
-.scroller__53543,
 .container_e131a9,
 .wrapper_d852db,
 .wrapper_fc8177,
@@ -8101,7 +8101,7 @@ h3.improved__1689b:after,
 }
 
 .overlay_fe70ca {
-	background: linear-gradient(to top, rgb(24, 28, 37), rgba(24, 28, 37, 0)) !important;
+	background: linear-gradient(to top, var(--backgroundDark), rgba(0, 0, 0, 0));
 }
 
 .markup__75297 code,
