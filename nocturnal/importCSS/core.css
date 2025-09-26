@@ -2477,11 +2477,6 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	margin-right: 8px;
 }
 
-.emojiCounter__51eb2 {
-	background-color: rgba(0, 0, 0, 0);
-	padding: 0;
-}
-
 .tierHeaderUnlocked_a36dee,
 .subscription_d970da,
 .cardFolder__1a4ef,
@@ -3015,7 +3010,6 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .wrapper__4d7bb,
 .avatarContainer__9e177,
 .popout_d5c2c4,
-.body__51eb2:not(.hasSplash__51eb2),
 .vc-gp-header,
 .vc-gp-tab-bar {
 	background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -3659,8 +3653,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 
 .ctaSection_fc200b,
 .channelsWrapper__5c799,
-.rolesWrapper__5c799,
-.footer__51eb2 {
+.rolesWrapper__5c799 {
 	background-color: var(--backgroundDark);
 }
 
@@ -4454,7 +4447,6 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 }
 
 .card_c59071,
-.iconMask__51eb2,
 .container_a76561,
 .minimap-decorations-layer,
 .monaco-scrollable-element>.invisible,
@@ -4814,19 +4806,7 @@ html.theme-light .app__160d8::after {
 	mask: none
 }
 
-.guildPopout__51eb2 {
-	box-shadow: 0 0 5px 1.53px var(--backgroundDark-75);
-}
-
-.guildPopout__51eb2:has(.body__51eb2) {
-	background-color: rgba(0, 0, 0, 0);
-}
-
-.guildPopout__51eb2:has(.hasSplash__51eb2) {
-	background-color: var(--backgroundDarker);
-}
-
-.avatar__1fed1 {
+.accountProfileCard__1fed1 .avatar__1fed1 {
 	background-color: rgba(0, 0, 0, 0);
 	top: 16px;
 	left: 16px;
@@ -5200,17 +5180,6 @@ html:not(.chat-input) .inputInner_b1f01d,
 	left: 8px;
 }
 
-.iconMask__51eb2 foreignObject,
-.body__51eb2 foreignObject {
-	mask: none;
-}
-
-.iconMask__51eb2 {
-	border-radius: 24px;
-}
-
-.guildName__51eb2,
-.unavailableHeader__51eb2,
 .avatarName__9e177,
 .header_d5c2c4 {
 	font-weight: 700;
@@ -6052,7 +6021,6 @@ circle[fill="var(--brand-500)"],
 
 .application__750de:hover,
 .optionBox_edf440:hover,
-.placeholderSkeleton__51eb2,
 .messageRequestItem_abb9ad.selected_dcc822,
 .messageRequestItem_abb9ad.selected_dcc822:hover {
 	background-color: var(--backgroundDark-35);
@@ -6381,10 +6349,6 @@ circle[fill="var(--brand-500)"],
 	font-weight: 500;
 }
 
-.iconPlaceholder__51eb2 {
-	background-color: rgba(0, 0, 0, 0);
-}
-
 .iconMask_e90879,
 &.theme-dark .iconMask__4cb8a {
 	border-radius: 16px;
@@ -6394,7 +6358,6 @@ circle[fill="var(--brand-500)"],
 	left: var(--custom-message-margin-horizontal-for-threads);
 }
 
-.body__51eb2:not(.hasSplash__51eb2) .iconMask__51eb2,
 .jump__5126c,
 .textInput__97cfe,
 .multipleIconWrapper__00943,
@@ -7899,6 +7862,7 @@ h3.improved__1689b:after,
 	background-image: url('https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/wumpus_tea_party.svg');
 }
 
+.stickerCategoryGeneric__3ad28:hover,
 .selectable__1a58a:hover,
 .firstPartyCategory__3ad28:hover,
 .categoryItemDefaultCategory_b9ee0c:hover {
@@ -9068,10 +9032,6 @@ div.cardContainer__88e24,
 	fill: var(--primary);
 }
 
-.avatar__51eb2 {
-	border-radius: 20px;
-}
-
 .loaderBar__09a38 {
 	background-color: var(--primary);
 }
@@ -9643,7 +9603,7 @@ rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 }
 
 .pageBody__41ed7 {
-	background-color: var(--backgroundDark);
+	background: var(--background-gradient-app-frame, var(--backgroundDark));
 	padding: 16px 0 16px 0;
 }
 
@@ -11801,7 +11761,8 @@ rect[fill="brand-200"] {
 .theme-dark .children__9293f:after,
 .presetSeparator__9c019,
 .container__60fa3.withAccentColor__60fa3:before,
-.themeSelector_c85552 {
+.themeSelector_c85552,
+.theme-dark .gradient_e9ef78.clientThemes_e9ef78:after {
 	display: none;
 }
 
@@ -13740,4 +13701,8 @@ svg.thumbnail__0f2e8 {
 
 .has-webkit-scrollbar .bodyInner__53cea:has(.rowContainer__4dfe0) {
 	padding-right: calc(var(--custom-modal-padding) - var(--space-12)) !important;
+}
+
+.answerSelectionIcon__4c520 path[fill="var(--brand-500)"] {
+	fill: var(--quinary);
 }
