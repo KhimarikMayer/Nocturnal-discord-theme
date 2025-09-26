@@ -10252,7 +10252,7 @@ div.cardContainer__88e24,
 }
 
 .avatar_e928f4 {
-	outline: 2px solid rgba(0, 0, 0, 0) !important;
+	outline: 2px solid var(--chat-avatar-border-color) !important;
 }
 
 .channel__8683b.selected__8683b {
