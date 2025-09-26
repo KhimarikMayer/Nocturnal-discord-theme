@@ -652,8 +652,8 @@ svg[name=Nova_Discord] * {
 	transform: none;
 }
 
-.linkButtonIcon__972a0 path[fill="currentColor"] {
-	fill: var(--primary);
+.linkButtonIcon__972a0 {
+	color: var(--primary) !important;
 }
 
 svg.gameIcon_b52e4f,
@@ -3366,7 +3366,10 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	background-color: var(--backgroundDark-15);
 }
 
-#permissions-modal-wrapper .role-side,
+#permissions-modal-wrapper .role-side {
+	background-color: #14171F;
+}
+
 .popoutHeaderContainer__86331,
 .container_d9c848 {
 	background-color: var(--backgroundDarker);
@@ -3424,7 +3427,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 }
 
 #permissions-modal-wrapper .perm-side {
-	background-color: var(--backgroundDark);
+	background-color: #181c25;
 }
 
 .role-side,
@@ -10453,17 +10456,10 @@ div.cardContainer__88e24,
 .custom-user-profile-theme .overflowCount_e928f4,
 .theme-dark.custom-user-profile-theme .overflowCount_e928f4 {
 	background-color: var(--backgroundDark-20);
-	width: calc(100% - 4px);
-	height: calc(100% - 4px);
-	margin: 2px 0 0 2px;
 }
 
 .avatar_e928f4 {
-	width: calc(100% - 4px);
-	height: calc(100% - 4px);
-	box-shadow: 0 0 0 2px #666;
-	margin: 2px 0 0 2px;
-	outline: none;
+	outline: 2px solid var(--chat-avatar-border-color) !important;
 }
 
 .channel__8683b.selected__8683b {
