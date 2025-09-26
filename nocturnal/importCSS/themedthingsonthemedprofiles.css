@@ -93,6 +93,8 @@
 .theme-light.custom-user-profile-theme .primary_a22cb0:hover:not(:disabled),
 .theme-dark.custom-user-profile-theme .primary_a22cb0:active:not(:disabled),
 .theme-light.custom-user-profile-theme .primary_a22cb0:active:not(:disabled),
+.theme-dark.custom-user-profile-theme .primary_a22cb0[aria-expanded=true],
+.theme-light.custom-user-profile-theme .primary_a22cb0[aria-expanded=true],
 .theme-dark.custom-user-profile-theme .secondary_a22cb0:hover:not(:disabled),
 .theme-light.custom-user-profile-theme .secondary_a22cb0:hover:not(:disabled),
 .theme-dark.custom-user-profile-theme .secondary_a22cb0:active:not(:disabled),
@@ -335,4 +337,3 @@
 .custom-user-profile-theme .outer_ab8609 {
 	box-shadow: 0 1px 4px 0 hsl(none 0% 0%/0.14);
 }
-
