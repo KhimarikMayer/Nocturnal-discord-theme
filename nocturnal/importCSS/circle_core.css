@@ -5014,7 +5014,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 }
 
 .upload_aa605f:not(.attachmentItemSmall__41ea0) {
-	background: var(--background-gradient-low, var(--backgroundDarker-alt));
+	background: var(--background-gradient-high, var(--backgroundDarker-alt));
 	background-color: color-mix(in oklab, hsl(223 calc(var(--saturation-factor)*23%) 6% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
 	border: 1px solid var(--backgroundDark-25) !important;
 }
