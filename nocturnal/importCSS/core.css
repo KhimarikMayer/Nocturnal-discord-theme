@@ -9951,9 +9951,9 @@ html:not(.chat-input) .inputInner_b1f01d,
 .spoilerContainer__54ab5.attachmentContainer__54ab5,
 .upload_aa605f,
 .avatar_c19a55:before,
-.align-chat-input .attachButtonInner__0923f,
+.attachButtonInner__0923f,
 .membershipDialog__2d899,
-.align-chat-input .button__24af7:not(.noHover__24af7),
+.button__24af7:not(.noHover__24af7),
 .bodyMediaFrame__9a337,
 .sourceIcon_febe19 {
 	border-radius: 5px;
@@ -10369,11 +10369,11 @@ div.cardContainer__88e24,
 .hexInputContainer__247cf,
 .separator__841c8,
 .summarySeparator__143a4,
-.align-chat-input .button__24af7:not(.noHover__24af7):hover,
+.button__24af7:not(.noHover__24af7):hover,
 .placeholderBar_c3d04b,
 .nameplatePlaceholderAvatar_c3d04b,
-.align-chat-input .emojiButton__74017:hover,
-.align-chat-input .buttonContainer_e6e74f:hover,
+.emojiButton__74017:hover,
+.buttonContainer_e6e74f:hover,
 .progress__823e1.none__823e1,
 .progress__823e1 {
 	background-color: var(--backgroundDark-20);
@@ -11998,7 +11998,7 @@ rect[fill="brand-200"] {
 	height: 40px;
 }
 
-.align-chat-input .wrapper_e131a9,
+.wrapper_e131a9,
 .visual-refresh .container__2637a,
 .bd-gp-user,
 .roleCircle__4f569,
@@ -12360,7 +12360,7 @@ rect[fill="#D3D6ED"] {
 .noChannel__01d5c,
 .background__7449f:not(.title__7449f),
 .container__01ae2,
-.align-chat-input .container__01ae2,
+.container__01ae2,
 .page_c48ade div[style*="position: absolute; width: 100%; height: 100%; background-color: transparent;"] {
 	border-top: solid 1px var(--backgroundDark-25);
 	border-left: solid 1px var(--backgroundDark-25);
@@ -12917,7 +12917,7 @@ svg.thumbnail__0f2e8 {
 	margin-right: 0;
 }
 
-.align-chat-input .inTextChannel_b88801 .text_b88801,
+.inTextChannel_b88801 .text_b88801,
 .roleColor__9cd44,
 .vc-mentionAvatars-role-icon {
 	margin-left: 4px;
@@ -13433,7 +13433,7 @@ svg.thumbnail__0f2e8 {
 	background-color: var(--backgroundDark);
 }
 
-.align-chat-input .attachButtonInner__0923f:hover {
+.attachButtonInner__0923f:hover {
 	background-color: rgba(0, 0, 0, 0);
 	border: none;
 }
@@ -13501,7 +13501,7 @@ svg.thumbnail__0f2e8 {
 }
 
 .guildIconImage_d28ae0,
-.align-chat-input .bottomBar__0f481 {
+.bottomBar__0f481 {
 	border-radius: 12px;
 }
 
@@ -13540,7 +13540,7 @@ svg.thumbnail__0f2e8 {
 	background: linear-gradient(to bottom, rgba(0, 0, 0, 0), var(--backgroundDark));
 }
 
-.align-chat-input .inTextChannel_b88801.base_b88801 {
+.inTextChannel_b88801.base_b88801 {
 	top: -20px;
 	padding-left: 14.5px;
 }
