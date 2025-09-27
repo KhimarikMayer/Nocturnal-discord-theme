@@ -570,7 +570,7 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/43548a6c2d71932b98dd4c24f8813300.svg");
 }
 
-.theme-dark [src="/assets/18e336a74a159cfd.png"],
+.theme-dark img[src*="/assets/18e336a74a159cfd.png"],
 .theme-dark [src='https://cdn.discordapp.com/embed/avatars/0.png'] {
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/1f0bfc0865d324c2587920a7d80c609b.png");
 }
