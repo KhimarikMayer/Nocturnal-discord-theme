@@ -13427,3 +13427,16 @@ svg.thumbnail__0f2e8 {
 .lockedPreviewContainer__5b8f4::after {
 	background: linear-gradient(to bottom,rgba(0, 0, 0, 0) 10%,var(--backgroundDark) 90%);
 }
+
+.root__49fc1:has(.vc-gp-root) {
+	min-height: 440px;
+}
+
+.vc-gp-info {
+	gap: 20px;
+	row-gap: 46px;
+}
+
+.vc-gp-tab {
+	font-weight: 500;
+}
