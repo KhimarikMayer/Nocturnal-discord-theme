@@ -13442,3 +13442,11 @@ svg.thumbnail__0f2e8 {
 .rtcConnectionQualityFine__06d62 .ping__06d62.largePing__06d62 path[fill="var(--status-positive)"] {
 	fill: var(--primary);
 }
+
+.md_a22cb0.hasText_a22cb0 {
+	min-width: 60px;
+}
+
+.footerContainer__5a2df .primary_a22cb0.md_a22cb0.hasText_a22cb0 {
+	min-width: 100px;
+}
