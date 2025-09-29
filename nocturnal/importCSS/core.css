@@ -9803,8 +9803,7 @@ path[fill="var(--bg-brand)"] {
 .discoverHeader_b992d4,
 .rows_c3787a,
 .appLauncherPlaceholder__87dda,
-.chatTextAreaPlaceholder__87dda,
-.destinationRow__62280 {
+.chatTextAreaPlaceholder__87dda {
 	margin-right: 10px;
 }
 
@@ -9992,7 +9991,8 @@ html:not(.chat-input) .inputInner_b1f01d,
 }
 
 .quote__122e4,
-.quote__68334 {
+.quote__68334,
+.forwardPreview__68334:before {
 	background-color: var(--primary);
 	border-radius: 5px;
 }
@@ -12573,6 +12573,7 @@ svg[color="var(--brand-500)"] {
 	padding: calc(var(--space-4) - 1px) calc(var(--space-12) - 1px);
 }
 
+.actionBarLeading__53cea:has(.messageInput__62280)+.actionBarTrailing__53cea .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0,
 .container_d9be46 .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0 {
 	padding: calc(var(--space-8) - 1px) calc(var(--space-12) - 1px);
 }
@@ -13709,7 +13710,7 @@ svg.thumbnail__0f2e8 {
 	width: auto;
 }
 
-.has-webkit-scrollbar .bodyInner__53cea:has(.rowContainer__4dfe0) {
+.has-webkit-scrollbar .bodyInner__53cea:has(.rowContainer__4dfe0,.destinationRow__62280) {
 	padding-right: calc(var(--custom-modal-padding) - var(--space-12)) !important;
 }
 
