@@ -3985,7 +3985,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	background-color: var(--backgroundDark-30);
 }
 
-.guildIcon_d5f3cd:not(.icon_f34534),
+.guildIcon_d5f3cd,
 .guildIconExpired_d5f3cd,
 .guildIconImage_d5f3cd,
 .visual-refresh .guildIconExpired_d5f3cd,
@@ -7647,6 +7647,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .uploadItem_ec9088,
 .footerContainer__68a18,
 .actionRow__6b102,
+.footer__5dcc0,
 .seperator__6fa2e {
 	border-color: var(--backgroundDark-20);
 }
@@ -11389,6 +11390,7 @@ rect[fill="brand-200"] {
 .container_a1d343,
 .bd-radio-option,
 .collapseable__9d98d:not(.appDetailsSection__50a54),
+.wrapper__5dcc0,
 .header_d43202 {
 	border: none;
 	box-shadow: none;
@@ -13753,4 +13755,8 @@ svg.thumbnail__0f2e8 {
 
 .scroller_cba592 {
 	padding-right: 18px !important;
+}
+
+.cardHeaderImg__5dcc0 {
+	background-color: var(--quaternary);
 }
