@@ -4487,13 +4487,13 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	background-color: color-mix(in oklch, var(--custom-role-label-color, rgba(0, 0, 0, 0)) 35.3%, rgba(0, 0, 0, 0));
 }
 
-.theme-dark .to__910e1 {
+.theme-dark .to__5149c {
 	background-color: rgba(0, 0, 0, 0);
 	box-shadow: 0 0 0 4px rgba(0, 0, 0, 0);
 }
 
 .from__1b38b,
-.from__910e1 {
+.from__5149c {
 	margin-right: 16px;
 }
 
@@ -11151,7 +11151,7 @@ rect[fill="brand-200"] {
 .benefits_f18f64,
 .requiredPermissionsBanner__9c74b,
 .PIsettingsSmartDisable .body .item,
-.akaBadge__910e1,
+.akaBadge__5149c,
 .container_cc53de,
 .bd-error-container,
 .theme-dark .separator__2e257,
