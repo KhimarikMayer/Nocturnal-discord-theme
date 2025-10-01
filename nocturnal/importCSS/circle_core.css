@@ -2082,7 +2082,7 @@ svg[name=Nitro] g path {
 .guildSection_d5cd2d,
 .connection_c7f964,
 .upsellContainer__73000,
-.developerPortalCtaWrapper_bf485f,
+.developerPortalCtaWrapper__540ed,
 .container__812a7,
 .previewContainer__5579e,
 .guildSubscriptionSlots__5823d {
@@ -5099,11 +5099,6 @@ html:not(.chat-input) .inputInner_b1f01d,
 
 .size56__183c2 .avatarContainerMasked__183c2 {
 	margin-right: 8px;
-}
-
-.maskBackground_db811b {
-	margin-right: -2px;
-	margin-bottom: -2px;
 }
 
 .contentContainer__0907c .textArea__7aff3 {
@@ -13381,6 +13376,8 @@ svg.thumbnail__0f2e8 {
 	padding-top: 4px;
 }
 
+.imageContainer_db811b,
+.image_db811b,
 .spoilerMarkdownContent__54ab5 {
 	border-radius: 50px;
 }
@@ -13394,16 +13391,9 @@ svg.thumbnail__0f2e8 {
 	border-radius: 5px;
 }
 
-.theme-dark .avatar_d3c698,
-.theme-dark .image_db811b,
-.theme-dark .imageContainer_db811b:not(:has(.image_db811b)) {
+.theme-dark .avatar_d3c698 {
 	border: 2px solid var(--chat-avatar-border-color);
 	border-radius: 50px;
-}
-
-.image_db811b {
-	margin-left: 4px;
-	margin-top: 4px;
 }
 
 .visual-refresh .container__9293f:has(.iconWrapper__9293f path[d="M12.5 8c.28 0 .5.22.5.5V9c0 .1 0 .2.02.31.03.34-.21.69-.56.69H9.85l-.67 4h4.97l.28-1.68c.06-.34.44-.52.77-.43a3 3 0 0 0 .8.11c.27 0 .47.24.43.5l-.25 1.5H20a1 1 0 1 1 0 2h-4.15l-.86 5.16a1 1 0 0 1-1.98-.32l.8-4.84H8.86l-.86 5.16A1 1 0 0 1 6 20.84L6.82 16H3a1 1 0 1 1 0-2h4.15l.67-4H4a1 1 0 1 1 0-2h4.15l.86-5.16a1 1 0 1 1 1.98.32L10.19 8h2.31Z"]) {
