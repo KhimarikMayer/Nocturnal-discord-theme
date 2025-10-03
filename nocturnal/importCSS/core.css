@@ -8518,6 +8518,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .cardTitle__72fa0,
 .shopPreviewBanner__51743 {
 	background-color: var(--backgroundDark);
+	outline: none;
 }
 
 .avatarUploaderInner_ab876d::before {
@@ -9839,7 +9840,6 @@ path[fill="var(--bg-brand)"] {
 .imageContainer_ef9ae7 foreignObject,
 .appIconMask_f37514 foreignObject,
 .attachmentPreviewOverflow__68334 foreignObject,
-.guildPrefixIcon_e7c728 foreignObject,
 .newGdmIcon__754bd foreignObject,
 .caret__5bc6a g,
 .accountProfileCard__1fed1 foreignObject {
@@ -13525,7 +13525,6 @@ svg.thumbnail__0f2e8 {
 	background-color: var(--backgroundDark-35) !important;
 }
 
-.guildIconImage_d28ae0,
 .bottomBar__0f481 {
 	border-radius: 12px;
 }
