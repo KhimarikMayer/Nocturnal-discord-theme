@@ -8362,6 +8362,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .cardAvatar__72fa0,
 .shopPreviewBanner__51743 {
 	background-color: var(--backgroundDark);
+	outline: none;
 }
 
 .avatarUploaderInner_ab876d::before {
