@@ -8169,6 +8169,7 @@ h3.improved__1689b:after,
 	height: 18px !important;
 }
 
+.vc-platform-indicator svg,
 .childContainer__3e3b0:not(.redesignIconChildContainer__3e3b0) svg[width="18"][height="18"] {
 	width: 24px;
 	height: 24px;
@@ -10299,6 +10300,9 @@ div.cardContainer__88e24,
 	padding-left: 0;
 }
 
+.vc-shc-topic-container,
+.vc-shc-default-emoji-container,
+.vc-shc-tags-container,
 .vc-shc-allowed-users-and-roles-container,
 .theme-dark.custom-theme-background .replyBar__841c8,
 .theme-dark.custom-theme-background .threadSuggestionBar__841c8,
@@ -11335,8 +11339,7 @@ rect[fill="brand-200"] {
 .gameImageBackground_a3ec8a,
 .levelContainer__3dcc3,
 .themeOption__81345,
-.themeOption__81345[data-selected=true],
-.option__81345,
+.themeOption__81345:hover,
 .full-motion .shuffleOutro__08415,
 .themeResponsiveContainer__83f66,
 .nameplate__5a2c6,
@@ -11435,10 +11438,8 @@ rect[fill="brand-200"] {
 	border: 2px solid var(--quaternary);
 }
 
-.postEnrollmentBackground__636a2,
-.themeOption__81345,
 .themeOption__81345[data-selected=true],
-.option__81345:hover,
+.postEnrollmentBackground__636a2,
 .roleStyleLabel__981c8,
 .selected__981c8 .roleStyleLabel__981c8,
 .uploadImage_e45886:hover,
@@ -11466,6 +11467,11 @@ rect[fill="brand-200"] {
 	background-color: var(--backgroundDarker-alt);
 }
 
+.gradient__81345 {
+	background: radial-gradient(123.96% 100% at 50% 100%, var(--backgroundDark) 52.07%, rgba(36, 36, 41, 0) 100%), linear-gradient(270deg, rgba(160, 86, 242, .3), rgba(62, 22, 137, .3));
+}
+
+.option__81345,
 .uploadInput__94439 {
 	border: none;
 	background-color: var(--backgroundDark-15);
@@ -11474,9 +11480,6 @@ rect[fill="brand-200"] {
 .pillItemSelected__9e06a,
 .playButton__76084:hover,
 .playButton_cf0b5e:hover,
-.themeOption__81345,
-.themeOption__81345[data-selected=true],
-.option__81345[data-selected=true],
 .guildIconImage__79e3e.acronym__79e3e {
 	border: none;
 	background-color: color-mix(in oklab, hsl(220 calc(var(--saturation-factor)*20%) 6% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
@@ -11495,11 +11498,12 @@ rect[fill="brand-200"] {
 	flex: 0 0 70%;
 }
 
-.gradient__81345 {
-	background: radial-gradient(123.96% 100% at 50% 100%, var(--backgroundDark) 52.07%, rgba(36, 36, 41, 0) 100%), linear-gradient(270deg, rgba(160, 86, 242, .3), rgba(62, 22, 137, .3));
+.option__81345:hover {
+	background-color: var(--backgroundDark-25);
 }
 
 .option__81345[data-selected=true] {
+	background-color: var(--backgroundDark-35);
 	outline-color: var(--primary);
 	outline-offset: 0;
 }
