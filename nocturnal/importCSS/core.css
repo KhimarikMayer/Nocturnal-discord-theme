@@ -2239,6 +2239,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	display: block;
 }
 
+.connectionHeader_c7f964,
 .scroller__7dda4 {
 	background-color: rgba(0, 0, 0, 0);
 }
@@ -10372,7 +10373,6 @@ div.cardContainer__88e24,
 .dot_e34850,
 .divider_e34850,
 .separator__5d7c9,
-.divider__23eb0,
 .divider_d9c882,
 .divider__88264,
 .bd-vmsg-preview-indicator,
@@ -13589,8 +13589,8 @@ svg.thumbnail__0f2e8 {
 	box-shadow: none !important;
 }
 
-.card__84832 .divider__23eb0 {
-	background-color: hsla(0, 0%, 100%, .1) !important;
+.divider__23eb0 {
+	background-color: hsla(0, 0%, 100%, .1);
 }
 
 .redesignIconChildContainer__3e3b0 {
