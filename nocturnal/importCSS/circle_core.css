@@ -2217,6 +2217,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	display: block;
 }
 
+.connectionHeader_c7f964,
 .scroller__7dda4 {
 	background-color: rgba(0, 0, 0, 0);
 }
@@ -2246,6 +2247,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 
 .menu_c8834f,
 .colorHeaderSecondary__16b66,
+[style="color: var(--text-tertiary);"],
 [style="color: var(--text-secondary);"],
 [style="color: var(--text-muted-on-default);"],
 [style="color: var(--header-secondary);"],
@@ -2253,6 +2255,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	color: #fff !important;
 }
 
+.theme-light [style="color: var(--text-tertiary);"],
 .theme-light [style="color: var(--text-secondary);"],
 .theme-light [style="color: var(--text-muted-on-default);"],
 .theme-light [style="color: var(--header-secondary);"],
@@ -3415,7 +3418,6 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .container__6b38f,
 .navButtons_fe70ca,
 .termsFieldBody_fe70ca,
-.connectContainer_c7f964,
 .checkboxContainer__16db0,
 .analyticsCard__5931c {
 	background-color: var(--backgroundDarker);
@@ -8720,6 +8722,7 @@ div.cardContainer__88e24,
 .leftContent_a84c50,
 .inventory__6db1d,
 .tabBar_f8303a,
+.description__28dfe,
 .wrapper__33d12 {
 	max-width: none;
 }
@@ -10150,7 +10153,6 @@ div.cardContainer__88e24,
 .dot_e34850,
 .divider_e34850,
 .separator__5d7c9,
-.divider__23eb0,
 .divider_d9c882,
 .divider__88264,
 .bd-vmsg-preview-indicator,
@@ -13287,8 +13289,8 @@ svg.thumbnail__0f2e8 {
 	box-shadow: none !important;
 }
 
-.card__84832 .divider__23eb0 {
-	background-color: hsla(0, 0%, 100%, .1) !important;
+.divider__23eb0 {
+	background-color: hsla(0, 0%, 100%, .1);
 }
 
 .redesignIconChildContainer__3e3b0 {
@@ -13474,4 +13476,15 @@ svg.thumbnail__0f2e8 {
 
 .limitedFeatureBorder__65c15 {
 	background: linear-gradient(var(--backgroundDark), var(--backgroundDark)) padding-box, linear-gradient(var(--blue-345), var(--blue-345), var(--premium-perk-light-blue)) border-box;
+}
+
+.inner__02fc8,
+.accountAddInner_c7f964 {
+	width: 44px;
+	height: 44px;
+}
+
+.connectContainer_c7f964 {
+	background-color: rgba(0, 0, 0, 0);
+	padding: 0;
 }
