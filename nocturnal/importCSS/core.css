@@ -10706,7 +10706,6 @@ rect[fill="brand-200"] {
 .legibilityGradient__636a2,
 .heroAssetDarken__636a2,
 .scroller_c880e8,
-.outer_c0bea0:not(.custom-user-profile-theme) .upsellContent__5997d,
 .theme-dark .bd-addon-store-card,
 .theme-dark .bd-addon-store-card:hover,
 .gifFavoriteButton__43deb,
@@ -10746,6 +10745,7 @@ rect[fill="brand-200"] {
 	background: linear-gradient(180deg, rgba(52, 52, 52, 0)0%, rgba(35, 35, 35, .9)50%, var(--backgroundDarker) 100%);
 }
 
+.upsellContent__5997d,
 .buttonSection__49094,
 .iconBackground_f08fc1,
 .upsellsContainer__8f3cb,
