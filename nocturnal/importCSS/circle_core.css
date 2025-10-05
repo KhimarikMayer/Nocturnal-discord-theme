@@ -13484,3 +13484,7 @@ svg.thumbnail__0f2e8 {
 .limitedFeatureBorder__65c15 {
 	background: linear-gradient(var(--backgroundDark), var(--backgroundDark)) padding-box, linear-gradient(var(--blue-345), var(--blue-345), var(--premium-perk-light-blue)) border-box;
 }
+
+.selectionGroup_cf6da1 div {
+	gap: 24px !important;
+}
