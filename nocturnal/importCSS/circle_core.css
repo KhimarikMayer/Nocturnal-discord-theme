@@ -843,7 +843,7 @@ svg.contentImage__42bf5,
 }
 
 .bd-checkbox-box,
-.checkbox_f525d3,
+.checkbox__09aca,
 .checkbox_c4538f,
 .checkbox__09aca {
 	background-color: var(--backgroundLight) !important;
@@ -941,12 +941,12 @@ svg.contentImage__42bf5,
 	background-color: var(--backgroundDark-35);
 }
 
-.checked_f525d3,
+.checked__09aca,
 .overlappingBorder_cf6769 {
 	border-color: var(--primary) !important;
 }
 
-.checked_f525d3 svg[name=Checkmark] g polyline {
+.checked__09aca svg[name=Checkmark] g polyline {
 	stroke: var(--primary) !important;
 }
 
@@ -1923,8 +1923,8 @@ svg[name=Nitro] g path {
 
 .scroller_cc2dff,
 .item__344e6,
-.featureCard_bebc5b,
-.guildDetails_bebc5b,
+.featureCard__7dd5e,
+.guildDetails__7dd5e,
 .tile__90dc5 {
 	background-color: var(--backgroundDarker);
 	border: none;
@@ -1975,7 +1975,7 @@ svg[name=Nitro] g path {
 	background-color: rgba(0, 0, 0, 0);
 }
 
-.featureIcon_bebc5b,
+.featureIcon__7dd5e,
 .overflowRolesPopoutArrow__48c1c {
 	background-color: var(--backgroundDark);
 	box-shadow: none;
@@ -3886,20 +3886,20 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	background-color: var(--backgroundDarker);
 }
 
-.checkboxWrapper_f525d3.row_f525d3 {
+.checkboxWrapper__09aca.row__09aca {
 	background-color: var(--backgroundDarker);
 	border-radius: 5px;
 }
 
-.checkboxWrapper_f525d3.row_f525d3:hover:not(.checked_f525d3) {
+.checkboxWrapper__09aca.row__09aca:hover:not(.checked__09aca) {
 	background-color: var(--backgroundDark-25);
 }
 
-.checkboxWrapper_f525d3.row_f525d3:active:not(.checked_f525d3) {
+.checkboxWrapper__09aca.row__09aca:active:not(.checked__09aca) {
 	background-color: var(--backgroundDark-35);
 }
 
-.checkboxWrapper_f525d3.row_f525d3.checked_f525d3 {
+.checkboxWrapper__09aca.row__09aca.checked__09aca {
 	background-color: color-mix(in oklab, hsl(220 calc(var(--saturation-factor)*20%) 6% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
 }
 
@@ -6828,8 +6828,8 @@ rect[fill="rgb(123,162,255)"] {
 	background-color: var(--backgroundDarker) !important;
 }
 
-.image_bebc5b,
-.sparkles_bebc5b,
+.image__7dd5e,
+.sparkles__7dd5e,
 .sparkles__5afba {
 	z-index: 0;
 }
