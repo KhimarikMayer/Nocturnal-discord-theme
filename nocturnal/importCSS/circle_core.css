@@ -11168,6 +11168,7 @@ rect[fill="brand-200"] {
 .bd-radio-option,
 .collapseable__9d98d:not(.appDetailsSection__50a54),
 .wrapper__5dcc0,
+.embedContainer__03498,
 .header_d43202 {
 	border: none;
 	box-shadow: none;
@@ -13497,4 +13498,8 @@ svg.thumbnail__0f2e8 {
 
 .user-profile-sidebar.outer_c0bea0.custom-theme-background {
 	border-left: solid 1px currentColor !important;
+}
+
+.scroller__6b0e0 {
+	overflow: hidden scroll !important;
 }
