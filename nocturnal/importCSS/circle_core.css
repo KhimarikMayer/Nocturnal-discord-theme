@@ -5082,14 +5082,6 @@ html:not(.chat-input) .inputInner_b1f01d,
 	border-radius: 5px;
 }
 
-.profileAvatar__89307 {
-	background-color: var(--backgroundDark);
-	border: 4px solid var(--backgroundDark) !important;
-	border-radius: 100%;
-	top: 26px;
-	left: 8px;
-}
-
 .avatarName__9e177,
 .header_d5c2c4 {
 	font-weight: 700;
@@ -11233,6 +11225,7 @@ rect[fill="brand-200"] {
 	background: radial-gradient(123.96% 100% at 50% 100%, var(--backgroundDark) 52.07%, rgba(36, 36, 41, 0) 100%), linear-gradient(270deg, rgba(160, 86, 242, .3), rgba(62, 22, 137, .3));
 }
 
+.whatYouLoseItem__89307.premiumRebrand__89307,
 .option__81345,
 .uploadInput__94439 {
 	border: none;
@@ -11749,6 +11742,7 @@ rect[fill="brand-200"] {
 	border-radius: 0;
 }
 
+.badgeGradientWrapper__89307,
 .container__5acc9,
 .bd-error-toggle-wrapper,
 .expandedContainer__9d98d,
