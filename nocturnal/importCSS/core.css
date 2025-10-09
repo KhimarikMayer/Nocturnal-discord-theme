@@ -11755,8 +11755,8 @@ rect[fill="brand-200"] {
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, var(--backgroundDarker-alt) 100%)
 }
 
-.user-profile-sidebar.outer_c0bea0:not(.custom-theme-background) {
-	border-left: solid 1px var(--backgroundDark-25) !important;
+.user-profile-sidebar:not(.custom-theme-background) .inner_c0bea0 {
+	border-left: solid 1px var(--backgroundDark-25);
 }
 
 .avatar_b2d72f.avatarSize_b2d72f:not([style*='24px;']) {
@@ -13797,12 +13797,13 @@ svg.thumbnail__0f2e8 {
 	background: linear-gradient(var(--backgroundDark), var(--backgroundDark)) padding-box, linear-gradient(var(--blue-345), var(--blue-345), var(--premium-perk-light-blue)) border-box;
 }
 
-.selectionGroup_cf6da1 div {
+.selectionGroup_cf6da1 .stack_dbd263 {
 	gap: 24px !important;
 }
 
-.user-profile-sidebar.outer_c0bea0.custom-theme-background {
-	border-left: solid 1px currentColor !important;
+.user-profile-sidebar.custom-theme-background .inner_c0bea0 {
+	border-left: 1px solid;
+	border-color: linear-gradient(var(--profile-gradient-start),var(--profile-gradient-start) var(--custom-user-profile-banner-height),var(--profile-gradient-end)) !important;
 }
 
 .scroller__6b0e0 {
