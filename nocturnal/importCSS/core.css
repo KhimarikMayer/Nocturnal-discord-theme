@@ -5841,7 +5841,7 @@ circle[fill="var(--brand-500)"],
 	border-radius: 8px;
 }
 
-.modeConnected__2ea32:has(.unread__2ea32) .unread__2ea32 .name__2ea32,
+.modeConnected__2ea32:has(.unread__2ea32) .name__2ea32,
 .modeConnected__2ea32:hover:has(.unread__2ea32) .name__2ea32,
 .modeSelected__2ea32:has(.unread__2ea32) .name__2ea32,
 .modeSelected__2ea32:hover:has(.unread__2ea32) .name__2ea32,
