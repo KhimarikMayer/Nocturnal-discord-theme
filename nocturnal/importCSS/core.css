@@ -755,8 +755,8 @@ svg.contentImage__42bf5,
 	background-color: var(--backgroundDark-25);
 }
 
-.key_fcddc1,
-.key_fcddc1:active {
+.key__61c93,
+.key__61c93:active {
 	background: linear-gradient(to right, var(--primaryGradient1), var(--primaryGradient2));
 	border: none !important;
 	color: var(--backgroundDark) !important;
@@ -5670,7 +5670,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 }
 
 .inputCheckmark__3c9fa path[fill="var(--brand-500)"],
-.combo_fcddc1 .key_fcddc1 .bindArrow_fcddc1 g {
+.combo__61c93 .key__61c93 .bindArrow__61c93 g {
 	fill: var(--backgroundDark);
 }
 
@@ -11406,6 +11406,7 @@ rect[fill="brand-200"] {
 .collapseable__9d98d:not(.appDetailsSection__50a54),
 .wrapper__5dcc0,
 .embedContainer__03498,
+.defaultKeybindGroup__740f2,
 .header_d43202 {
 	border: none;
 	box-shadow: none;
@@ -12447,7 +12448,7 @@ rect[fill="#D3D6ED"] {
 	border-radius: 5px;
 }
 
-.dim_fcddc1 span {
+.dim__61c93 span {
 	background-color: rgba(0, 0, 0, 0);
 	color: var(--backgroundDark);
 }
