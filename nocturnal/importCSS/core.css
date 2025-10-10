@@ -5841,6 +5841,10 @@ circle[fill="var(--brand-500)"],
 	border-radius: 8px;
 }
 
+.modeConnected__2ea32:has(.unread__2ea32) .unread__2ea32 .name__2ea32,
+.modeConnected__2ea32:hover:has(.unread__2ea32) .name__2ea32,
+.modeSelected__2ea32:has(.unread__2ea32) .name__2ea32,
+.modeSelected__2ea32:hover:has(.unread__2ea32) .name__2ea32,
 .modeUnreadImportant__2ea32 .name__2ea32,
 .modeUnreadImportant__2ea32:hover .name__2ea32 {
 	color: var(--primary);
@@ -10670,6 +10674,8 @@ rect[fill="brand-200"] {
 	background-color: rgba(14, 34, 43, .8);
 }
 
+.theme-dark .overrideHighlight__856b5,
+.theme-dark .overrideHighlight__856b5:hover,
 .theme-dark .override__856b5:hover,
 .override_db81c6:hover {
 	background-color: var(--backgroundDark-40);
@@ -12292,6 +12298,7 @@ rect[fill="brand-200"] {
 .avatar_c19a55.avatar_e9c564 .avatar_c19a55,
 .buttons__2d021,
 .custom-theme-background .wrapper_ef3116,
+.theme-dark .overridePlaceholder__856b5,
 .joinOptionContent__959cb {
 	border: none;
 }
