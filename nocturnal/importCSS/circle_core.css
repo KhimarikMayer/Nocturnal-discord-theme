@@ -11271,6 +11271,7 @@ rect[fill="brand-200"] {
 	flex: 0 0 70%;
 }
 
+.uploadInput__94439:hover,
 .option__81345:hover {
 	background-color: var(--backgroundDark-25);
 }
@@ -13504,7 +13505,7 @@ svg.thumbnail__0f2e8 {
 }
 
 .coverContainer__1a3d6::before {
-	box-shadow: inset 0 0 13px 0 hsla(0, 0%, 100%, .06), inset 0 0 0 1px var(--backgroundDark-20);
+	box-shadow: inset 0 0 13px 0 hsla(0, 0%, 100%, .1);
 }
 
 .limitedFeatureBorder__65c15 {
