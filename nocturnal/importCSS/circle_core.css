@@ -5131,7 +5131,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 	border: 1px solid var(--backgroundDark-20);
 }
 
-.soundEdit__15634,
+.soundEdit__93d4a,
 .container__49668 {
 	background-color: var(--backgroundDark);
 	border: none;
@@ -7425,7 +7425,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .threadSuggestionBar__841c8,
 .divider_cd0bbe,
 .listItem__5b98e,
-.row__15634,
+.row__93d4a,
 .hasSeparator_f6d180,
 .divider_a1eac2,
 .guildSubscriptionSlot_b76fc6,
@@ -7482,7 +7482,8 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .footer__5dcc0,
 .seperator__6fa2e,
 .divider__1de9c,
-.vc-form-divider {
+.vc-form-divider,
+.table_e7d73e {
 	border-color: var(--backgroundDark-20);
 }
 
@@ -8069,7 +8070,6 @@ h3.improved__1689b:after,
 .bd-addon-store-card-author-img,
 .bd-install-modal-author-img,
 .bd-install-modal-author-mask,
-.appIcon_f37514,
 .avatar__5a4b6,
 .folderButtonInner__48112 {
 	border-radius: 50px;
@@ -9681,7 +9681,6 @@ path[fill="var(--bg-brand)"] {
 .iconWrapper__62280 foreignObject,
 .iconWrapper__62280 .wrapper__44b0c foreignObject,
 .imageContainer_ef9ae7 foreignObject,
-.appIconMask_f37514 foreignObject,
 .attachmentPreviewOverflow__68334 foreignObject,
 .guildPrefixIcon_e7c728 foreignObject,
 .newGdmIcon__754bd foreignObject,
@@ -11058,6 +11057,7 @@ rect[fill="brand-200"] {
 	border: none;
 }
 
+.sectionContainer__61424,
 .mediaIcon__9a337,
 .moreImagesPill__9a337,
 .optionPill__3f413,
@@ -11192,6 +11192,12 @@ rect[fill="brand-200"] {
 	border: 2px solid var(--quaternary);
 }
 
+.thumbnailImage__5e616 {
+	background-color: color-mix(in oklab, hsl(222 calc(var(--saturation-factor)*22%) 9% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+	border: none;
+	box-shadow: none !important;
+}
+
 .themeOption__81345[data-selected=true],
 .postEnrollmentBackground__636a2,
 .roleStyleLabel__981c8,
@@ -11216,9 +11222,15 @@ rect[fill="brand-200"] {
 .tagContainer__95856,
 .topPerksCardLabelContainer__3add8,
 .theme-dark .option_a19535,
+.thumbnailImage__5e616:hover,
 .PIsettingsSmartDisable .body .item:hover {
 	border: none;
 	background-color: var(--backgroundDarker-alt);
+}
+
+.thumbnailImage__5e616.selected__5e616 {
+	background-color: color-mix(in oklab, hsl(223 calc(var(--saturation-factor)*20%) 7% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
+	box-shadow: none;
 }
 
 .gradient__81345 {
@@ -11575,6 +11587,7 @@ rect[fill="brand-200"] {
 	fill: #fff;
 }
 
+.tableHeader_e7d73e,
 .sampleLink__991a0,
 .tag_cfee8f,
 .topSeparator_ee8e87,
