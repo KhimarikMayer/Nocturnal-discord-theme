@@ -3073,7 +3073,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 @media (min-width: 1010px) {
 	.action__83b1d {
 		background-color: var(--backgroundDark);
-		box-shadow: none;
+		box-shadow: var(--elevation-stroke), var(--elevation-low);
 		border: solid 1px var(--backgroundDark-20);
 	}
 }
@@ -10356,6 +10356,7 @@ rect[fill="brand-200"] {
 	background-color: var(--backgroundDark-35);
 }
 
+.unappliedBoostSlots__99020,
 .paymentBanner_e335a7,
 .command_c94584:active:has(.commandSentCTAButton_c94584:first-of-type:hover),
 .container_cb32c7:hover,
@@ -11026,6 +11027,7 @@ rect[fill="brand-200"] {
 	margin-right: 18px;
 }
 
+.header__99020,
 .premiumDisabledRefresh__9be63.focused__9be63,
 .premiumDisabledRefresh__9be63:hover,
 .premiumDisabledRefresh__9be63:active:not(:focus-within),
