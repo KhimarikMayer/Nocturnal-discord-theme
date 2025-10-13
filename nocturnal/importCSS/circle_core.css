@@ -7461,6 +7461,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .seperator__6fa2e,
 .divider__1de9c,
 .vc-form-divider,
+.filterOptionGroup__61c5c+.filterOptionGroup__61c5c,
 .table_e7d73e {
 	border-color: var(--backgroundDark-20);
 }
@@ -10479,6 +10480,7 @@ rect[fill="brand-200"] {
 .previewBar__9c3be,
 .messageContainer__93e55,
 .filterOverlay__1feb0,
+.popout__9047f,
 .noResults__3f413 {
 	background-color: var(--backgroundDark);
 	border: none !important;
@@ -13177,6 +13179,7 @@ svg.thumbnail__0f2e8 {
 	background-color: var(--backgroundDark);
 }
 
+.filterSortOption__57454:hover,
 .attachButtonInner__0923f:hover {
 	background-color: rgba(0, 0, 0, 0);
 	border: none;
