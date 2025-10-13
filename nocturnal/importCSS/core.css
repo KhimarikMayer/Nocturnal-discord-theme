@@ -844,8 +844,7 @@ svg.contentImage__42bf5,
 
 .bd-checkbox-box,
 .checkbox__09aca,
-.checkbox_c4538f,
-.checkbox__09aca {
+.checkbox_c4538f {
 	background-color: var(--backgroundLight) !important;
 	border: none !important;
 }
@@ -939,15 +938,6 @@ svg.contentImage__42bf5,
 .divider_c87e85,
 .option_e03935 {
 	background-color: var(--backgroundDark-35);
-}
-
-.checked__09aca,
-.overlappingBorder_cf6769 {
-	border-color: var(--primary) !important;
-}
-
-.checked__09aca svg[name=Checkmark] g polyline {
-	stroke: var(--primary) !important;
 }
 
 #bd-settingspane-container .ui-switch-item .style-description {
@@ -2093,7 +2083,7 @@ svg[name=Nitro] g path {
 	transform: scale(1, -1);
 }
 
-.header__812a7,
+.header__99871,
 .enableContainer__5ea8c,
 .guildHeader__30707 {
 	background-color: var(--backgroundDarker-alt);
@@ -2105,7 +2095,7 @@ svg[name=Nitro] g path {
 .connection_c7f964,
 .upsellContainer__73000,
 .developerPortalCtaWrapper__540ed,
-.container__812a7,
+.container__99871,
 .previewContainer__5579e,
 .guildSubscriptionSlots__5823d {
 	background-color: var(--backgroundDarker);
@@ -2122,7 +2112,7 @@ svg[name=Nitro] g path {
 .backgroundAccent__4cd16,
 .descriptionInput__5579e,
 .editCircle__5ea8c,
-.separator__812a7 {
+.separator__99871 {
 	background-color: var(--backgroundDark-35);
 	border: none;
 }
@@ -2494,6 +2484,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .settingCard__1a4ef,
 .bd-addon-list .bd-addon-header {
 	background-color: var(--backgroundDark-35);
+	border: none;
 }
 
 .settingCard__1a4ef.active__1a4ef,
@@ -3931,23 +3922,6 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .guildCard__2485e,
 .container_bd9e38 {
 	background-color: var(--backgroundDarker);
-}
-
-.checkboxWrapper__09aca.row__09aca {
-	background-color: var(--backgroundDarker);
-	border-radius: 5px;
-}
-
-.checkboxWrapper__09aca.row__09aca:hover:not(.checked__09aca) {
-	background-color: var(--backgroundDark-25);
-}
-
-.checkboxWrapper__09aca.row__09aca:active:not(.checked__09aca) {
-	background-color: var(--backgroundDark-35);
-}
-
-.checkboxWrapper__09aca.row__09aca.checked__09aca {
-	background-color: color-mix(in oklab, hsl(220 calc(var(--saturation-factor)*20%) 6% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
 }
 
 .container__3c265.background__4cf17,
@@ -12529,6 +12503,7 @@ circle[fill="#C12A35"],
 	background-color: var(--primary-12);
 }
 
+.logoutLink__03630,
 .lookLink__201d5.colorBrand__201d5,
 .colorable_f1ceac.greenGlow_f1ceac,
 .colorable_f1ceac.greenGlow_f1ceac .centerIcon_f1ceac,
@@ -13844,4 +13819,10 @@ svg.thumbnail__0f2e8 {
 	height: 12px;
 	border-radius: 4px;
 	box-shadow: 0 0 0 2px #666;
+}
+
+@media (max-width: 485px) {
+	.authBox__921c5 {
+		background: var(--backgroundDark) !important;
+	}
 }
