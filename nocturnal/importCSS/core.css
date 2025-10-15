@@ -10000,6 +10000,8 @@ html:not(.chat-input) .inputInner_b1f01d,
 .accountConnectedPrivacyOptionsContainer_a470b4,
 .accountConnectedPreviewConnectedUserAccount_a470b4,
 .skeleton__89401,
+.card_e1364f:has(.removeGameButton_e1364f):hover:before,
+.keyboard-mode .card_e1364f:has(.removeGameButton_e1364f):has(.removeGameButton_e1364f:focus):before,
 .separator_f84418 {
 	background-color: var(--backgroundDark-20);
 	border: none;
