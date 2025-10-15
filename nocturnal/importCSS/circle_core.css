@@ -1652,14 +1652,14 @@ svg[name=Nitro] g path {
 .previewContainer__6da2d,
 .root_d529e9,
 .emptyHintCard__2dc39,
-.tooltipGrey__382e7,
+.tooltipGrey_c36707,
 .popout_c6d10c,
 .bd-select .bd-select-option:hover,
 .bd-select .bd-select-option.selected {
 	background-color: var(--backgroundDarker);
 }
 
-.tooltipGrey__382e7 .tooltipPointer__382e7 {
+.tooltipGrey_c36707 .tooltipPointer_c36707 {
 	border-top-color: var(--backgroundDarker);
 }
 
@@ -2407,7 +2407,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	color: white;
 }
 
-.tooltipPrimary__382e7 {
+.tooltipPrimary_c36707 {
 	--tooltip-pointer-bg: var(--backgroundDark);
 	background-color: var(--backgroundDark);
 }
@@ -4214,9 +4214,9 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	border: none;
 }
 
-.tooltipPrimary__382e7 .tooltipPointer__382e7,
-.tooltipPointer__382e7.tooltipPointerBg__382e7:after,
-.tooltipPointer__382e7.tooltipPointerBg__382e7:before {
+.tooltipPrimary_c36707 .tooltipPointer_c36707,
+.tooltipPointer_c36707.tooltipPointerBg_c36707:after,
+.tooltipPointer_c36707.tooltipPointerBg_c36707:before {
 	border-top-color: var(--backgroundDark);
 }
 
@@ -4931,7 +4931,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 	background: var(--input-background) !important;
 }
 
-.theme-light .tooltip__382e7 {
+.theme-light .tooltip_c36707 {
 	box-shadow: var(--shadow-high);
 }
 
@@ -6050,7 +6050,6 @@ circle[fill="var(--brand-500)"],
 
 .wrapper_c0e32c .emojiPicker_c0e32c,
 .contentWrapper__08434 .wrapper_c0e32c,
-.tooltip__382e7.tooltipBlack__382e7,
 .contentWrapper_d507dd .wrapper_c0e32c,
 .container__0800c .wrapper_c0e32c,
 .tooltip_b34334,
@@ -6693,8 +6692,7 @@ rect[fill="rgb(123,162,255)"] {
 	max-width: 100%;
 }
 
-.editButton__553a5,
-.tooltip__382e7.tooltipRed__382e7 {
+.editButton__553a5 {
 	box-shadow: none;
 }
 
@@ -7007,24 +7005,24 @@ rect[fill="rgb(123,162,255)"] {
 	background-color: var(--backgroundDark-50) !important;
 }
 
-.tooltip__382e7,
-.custom-theme-background .tooltip__382e7 {
+.tooltip_c36707,
+.custom-theme-background .tooltip_c36707 {
 	border: none;
 }
 
-.tooltipGreen__382e7,
-.tooltipBrand__382e7 {
+.tooltipGreen_c36707,
+.tooltipBrand_c36707 {
 	background-color: var(--backgroundDark);
 	border: 2px solid var(--primary);
 	border-radius: 6px;
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-50);
 }
 
-.tooltipGreen__382e7 .tooltipPointer__382e7 {
+.tooltipGreen_c36707 .tooltipPointer_c36707 {
 	border-top-color: var(--primary);
 }
 
-.tooltipBrand__382e7 .tooltipPointer__382e7 {
+.tooltipBrand_c36707 .tooltipPointer_c36707 {
 	border-top-color: var(--primary);
 }
 
@@ -9373,11 +9371,11 @@ html:not(.chat-input) .inputInner_b1f01d,
 	background-color: rgba(0, 0, 0, 0);
 }
 
-.tooltipNested__382e7 {
+.tooltipNested_c36707 {
 	background-color: var(--backgroundLight);
 }
 
-.tooltipNested__382e7 .tooltipPointer__382e7 {
+.tooltipNested_c36707 .tooltipPointer_c36707 {
 	border-top-color: var(--backgroundLight);
 }
 
@@ -10328,7 +10326,7 @@ rect[fill="brand-200"] {
 	mask: none;
 }
 
-.theme-light .tooltipPrimary__382e7 {
+.theme-light .tooltipPrimary_c36707 {
 	background-color: var(--background-surface-high) !important;
 }
 
@@ -10342,11 +10340,11 @@ rect[fill="brand-200"] {
 	background-color: var(--background-modifier-hover);
 }
 
-.theme-light .tooltipPrimary__382e7 .tooltipPointer__382e7 {
+.theme-light .tooltipPrimary_c36707 .tooltipPointer_c36707 {
 	border-top-color: var(--background-surface-high);
 }
 
-.theme-light .tooltipNested__382e7,
+.theme-light .tooltipNested_c36707,
 .theme-light.content__79cbe,
 .theme-light .content__79cbe,
 .theme-light .contentWrapper__08434,
@@ -10362,7 +10360,7 @@ rect[fill="brand-200"] {
 	background-color: var(--background-base-lowest);
 }
 
-.theme-light .tooltipNested__382e7 .tooltipPointer__382e7 {
+.theme-light .tooltipNested_c36707 .tooltipPointer_c36707 {
 	border-top-color: var(--background-surface-high);
 }
 
@@ -10983,7 +10981,7 @@ rect[fill="brand-200"] {
 	border: none;
 }
 
-.tooltipTop__382e7 .tooltipPointer__382e7:not(.tooltipPointerBg__382e7),
+.tooltipTop_c36707 .tooltipPointer_c36707:not(.tooltipPointerBg_c36707),
 &.platform-win .contentRegionScroller__23e6b {
 	margin-top: 0;
 }
@@ -11243,7 +11241,7 @@ rect[fill="brand-200"] {
 	background: linear-gradient(180deg, var(--backgroundDarker), rgba(0, 0, 0, 0) 70%);
 }
 
-.tooltipRight__382e7 .tooltipPointer__382e7:not(.tooltipPointerBg__382e7),
+.tooltipRight_c36707 .tooltipPointer_c36707:not(.tooltipPointerBg_c36707),
 .clickableRow__9ecf6,
 .scroller__629e4,
 .visual-refresh .scroller__629e4,
@@ -11331,8 +11329,8 @@ rect[fill="brand-200"] {
 	background: linear-gradient(45deg, var(--backgroundDark-15), var(--backgroundDark-15)) !important;
 }
 
-.theme-light .tooltipPointer__382e7.tooltipPointerBg__382e7:after,
-.theme-light .tooltipPointer__382e7.tooltipPointerBg__382e7:before {
+.theme-light .tooltipPointer_c36707.tooltipPointerBg_c36707:after,
+.theme-light .tooltipPointer_c36707.tooltipPointerBg_c36707:before {
 	border-top-color: var(--background-surface-high);
 }
 
@@ -12330,28 +12328,28 @@ svg[color="var(--brand-500)"] {
 	padding: calc(var(--space-12) - 1px) calc(var(--space-12) - 1px);
 }
 
-.tooltipCenter__382e7.tooltipBrand__382e7 .tooltipPointer__382e7,
-.tooltipCenter__382e7.tooltipGreen__382e7 .tooltipPointer__382e7 {
+.tooltipCenter_c36707.tooltipBrand_c36707 .tooltipPointer_c36707,
+.tooltipCenter_c36707.tooltipGreen_c36707 .tooltipPointer_c36707 {
 	bottom: calc(100% + 2px);
 }
 
-.tooltipBottom__382e7.tooltipBrand__382e7 .tooltipPointer__382e7,
-.tooltipBottom__382e7.tooltipGreen__382e7 .tooltipPointer__382e7 {
+.tooltipBottom_c36707.tooltipBrand_c36707 .tooltipPointer_c36707,
+.tooltipBottom_c36707.tooltipGreen_c36707 .tooltipPointer_c36707 {
 	bottom: calc(100% + 4px);
 }
 
-.tooltipTop__382e7.tooltipBrand__382e7 .tooltipPointer__382e7,
-.tooltipTop__382e7.tooltipGreen__382e7 .tooltipPointer__382e7 {
+.tooltipTop_c36707.tooltipBrand_c36707 .tooltipPointer_c36707,
+.tooltipTop_c36707.tooltipGreen_c36707 .tooltipPointer_c36707 {
 	top: calc(100% + 2px);
 }
 
-.tooltipRight__382e7.tooltipBrand__382e7 .tooltipPointer__382e7,
-.tooltipRight__382e7.tooltipGreen__382e7 .tooltipPointer__382e7 {
+.tooltipRight_c36707.tooltipBrand_c36707 .tooltipPointer_c36707,
+.tooltipRight_c36707.tooltipGreen_c36707 .tooltipPointer_c36707 {
 	right: calc(100% + 2px);
 }
 
-.tooltipLeft__382e7.tooltipBrand__382e7 .tooltipPointer__382e7,
-.tooltipLeft__382e7.tooltipGreen__382e7 .tooltipPointer__382e7 {
+.tooltipLeft_c36707.tooltipBrand_c36707 .tooltipPointer_c36707,
+.tooltipLeft_c36707.tooltipGreen_c36707 .tooltipPointer_c36707 {
 	left: calc(100% + 2px);
 }
 
