@@ -10430,8 +10430,10 @@ div.cardContainer__88e24,
 .container_e928f4,
 .custom-user-profile-theme .avatarIconContainer__7970d,
 .theme-dark.custom-user-profile-theme .container_e928f4,
+.theme-light.custom-user-profile-theme .container_e928f4,
 .winButtonMinMax_c38106:active {
 	background-color: var(--backgroundDark-30);
+	border: none;
 }
 
 .tag__25a50:not(.addButton__25a50),
