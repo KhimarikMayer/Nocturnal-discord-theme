@@ -10433,6 +10433,8 @@ div.cardContainer__88e24,
 	background-color: var(--backgroundDark-30);
 }
 
+.tag__25a50:not(.addButton__25a50),
+.button__25a50:hover,
 .overflowCount_e928f4,
 .custom-user-profile-theme .overflowCount_e928f4,
 .theme-dark.custom-user-profile-theme .overflowCount_e928f4,
@@ -13845,6 +13847,7 @@ svg.thumbnail__0f2e8 {
 	box-shadow: 0 0 0 2px hsl(164, calc(1*100%), 45%), 0 0 calc(var(--glow-intensity)* 20px) calc(var(--glow-intensity)* 5px) hsl(164, calc(1*100%), 45%, 0.25);
 }
 
+.tag__25a50,
 .addButton__25a50,
 .container__203bc {
 	border-color: hsla(0, 0%, 100%, .1);
