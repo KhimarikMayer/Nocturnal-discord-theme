@@ -347,7 +347,8 @@
 .userTag_c9ccf6,
 .profileNameTag__89307,
 .vc-gp-name,
-.userTag__1fed1 {
+.userTag__1fed1,
+.userTag__63ed3 {
 	font-weight: 800;
 	letter-spacing: 1.2px;
 }
@@ -364,14 +365,6 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"] {
 	box-shadow: inset 0 0 100000px var(--backgroundDark-50) !important;
 	border: 1px solid var(--backgroundDark-25) !important;
 	border-radius: 50px !important;
-}
-
-div[data-contents="true"] {
-	padding-left: 2px
-}
-
-.plugin-settings input[type=text] {
-	color: #fff;
 }
 
 .libraryFilter__3fb48 {
@@ -422,10 +415,6 @@ div[data-contents="true"] {
 .theme-dark .executedCommand_c19a55 .appLauncherOnboardingCommandName_c19a55:hover {
 	background-color: var(--primary);
 	color: #fff;
-}
-
-svg[name=Nova_Discord] * {
-	display: none;
 }
 
 .wrapper_d5f3cd,
