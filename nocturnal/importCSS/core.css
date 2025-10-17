@@ -10154,6 +10154,7 @@ div.cardContainer__88e24,
 	fill: var(--primary);
 }
 
+.hoverRoll__0263c .iconInactive_f34534,
 .row__89036,
 .row__0a95c,
 .popout__669b5 .divider__669b5 {
@@ -10163,6 +10164,10 @@ div.cardContainer__88e24,
 .list__3b260 .row__0a95c,
 .list__3b260 .row__89036 {
 	margin-right: 4px;
+}
+
+.hoverRoll__0263c .mutualGuilds_b8dbac {
+	margin-left: -6px;
 }
 
 .defaultThemeSelection__36dee {
