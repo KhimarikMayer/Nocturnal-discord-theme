@@ -8373,6 +8373,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .content_d5ee5c,
 .tooltip_ad198f,
 .container_a14595,
+.wishlistButton__80679,
 .container_a3e8db.default_a3e8db {
 	background-color: var(--backgroundDark-20);
 	border: none;
@@ -8384,6 +8385,8 @@ rect[fill="var(--control-brand-foreground)"] {
 	border-radius: 16px;
 }
 
+.wishlistButton__80679:active,
+.wishlistButton__80679:hover,
 .addAnswerButtonDefault_d97f89:hover,
 .bd-addon-controls .bd-button:hover,
 .tipNumber_a193aa,
@@ -9539,6 +9542,7 @@ rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 .custom-theme-background .button_e131a9 .buttonColor_e131a9,
 .custom-theme-background .button_e131a9.buttonColor_e131a9,
 .learnMoreButton_a92dc5,
+.tier2Gradient_e00877,
 .upsellButton__0b69f {
 	background: none;
 }
@@ -10671,9 +10675,15 @@ rect[fill="brand-200"] {
 .filterOverlay__1feb0,
 .popout__9047f,
 .removeGameButton_a62a28,
+.removeItemButton__39b32,
 .noResults__3f413 {
 	background-color: var(--backgroundDark);
 	border: none !important;
+}
+
+.removeGameButton_a62a28,
+.removeItemButton__39b32 {
+	border: 1px solid var(--backgroundDark-30) !important;
 }
 
 .page__6db1d {
