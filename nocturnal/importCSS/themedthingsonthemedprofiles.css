@@ -311,7 +311,9 @@
 }
 
 .custom-user-profile-theme .card__39b32,
-.custom-user-profile-theme .container_a99829.inlineContainer__74017:not(.flushContainer__74017) {
+.custom-user-profile-theme .container_a99829.inlineContainer__74017:not(.flushContainer__74017),
+.custom-user-profile-theme .removeGameButton_a62a28,
+.custom-user-profile-theme .removeItemButton__39b32 {
 	background-color: var(--profile-gradient-secondary-color);
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-50);
 }
