@@ -1475,8 +1475,8 @@ svg[name=Nitro] g path {
 }
 
 .emptyCard__7e549,
-.container_cc2dff,
-.reactors_cc2dff,
+.container_b7f4b4,
+.reactors_b7f4b4,
 .wrapper__14245,
 .emojiPicker_c0e32c,
 .channelHeader__35a7e {
@@ -1550,7 +1550,7 @@ svg[name=Nitro] g path {
 }
 
 .scroller_c1e9c4,
-.scroller_cc2dff,
+.scroller_b7f4b4,
 .scroller__01c8c {
 	padding-right: 2px !important;
 }
@@ -1922,7 +1922,7 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDark-20);
 }
 
-.scroller_cc2dff,
+.scroller_b7f4b4,
 .item__344e6,
 .featureCard__7dd5e,
 .guildDetails__7dd5e,
@@ -1992,7 +1992,7 @@ svg[name=Nitro] g path {
 	padding-right: 10px !important;
 }
 
-.reactor_cc2dff {
+.reactor_b7f4b4 {
 	margin-right: 4px;
 }
 
@@ -2596,8 +2596,8 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 
 .outer_bf1984.interactive_bf1984:hover,
 .outer_bf1984.active_bf1984,
-.reactionSelected_cc2dff,
-.reactionSelected_cc2dff:hover,
+.reactionSelected_b7f4b4,
+.reactionSelected_b7f4b4:hover,
 .voteSelected__01c8c,
 .voteSelected__01c8c:hover {
 	background-color: var(--backgroundDark-35);
@@ -5348,7 +5348,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 	box-shadow: none;
 }
 
-.reactionDefault_cc2dff:hover,
+.reactionDefault_b7f4b4:hover,
 .voteDefault__01c8c:hover {
 	background-color: var(--backgroundDark-25);
 }
@@ -7094,7 +7094,7 @@ rect[fill="rgb(123,162,255)"] {
 }
 
 .footer__3d3b0,
-.theme-dark .remove_cc2dff:hover {
+.theme-dark .remove_b7f4b4:hover {
 	background-color: rgba(0, 0, 0, 0);
 }
 
@@ -7780,7 +7780,7 @@ h3.improved__1689b:after,
 	box-shadow: 0 1px 0 0 var(--backgroundDark-20);
 }
 
-.theme-dark .reactorDefault_cc2dff,
+.theme-dark .reactorDefault_b7f4b4,
 .theme-dark .voterDefault__01c8c,
 .theme-dark .row__740f2 {
 	box-shadow: inset 0 -1px 0 var(--backgroundDark-20);
