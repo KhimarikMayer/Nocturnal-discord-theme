@@ -2100,7 +2100,6 @@ svg[name=Nitro] g path {
 }
 
 .divider__9293f,
-.backgroundAccent__4cd16,
 .descriptionInput__5579e,
 .editCircle__5ea8c,
 .separator__99871 {
@@ -11279,6 +11278,8 @@ rect[fill="brand-200"] {
 .sidebar_c48ade:after,
 .visual-refresh .sidebar_c48ade:after,
 .scroller__23746 .benefits_bb8774,
+.container__3782a,
+.footer__3782a,
 .mediaMosaicAltText__0f481:active {
 	background-color: var(--backgroundDark);
 }
@@ -12131,6 +12132,7 @@ rect[fill="brand-200"] {
 	border-radius: 5px;
 }
 
+.expressive_a22cb0:disabled,
 .lookFilled__201d5.colorWhite__201d5 .spinnerItem__201d5,
 .lookFilled__201d5.colorBrand__201d5 .defaultColor__4bd52,
 .lookFilled__201d5.colorPrimary__201d5 .defaultColor__4bd52,
