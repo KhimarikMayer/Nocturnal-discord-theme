@@ -2633,6 +2633,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .iconBadge__9293f,
 .noIcon_f34534.guildAvatarWithoutIcon_aafe31,
 .bd-switch:not(.bd-switch-checked) .bd-switch-body,
+.vc-switch-checked,
 .container__3f21e.checked__3f21e {
 	background-color: var(--primary) !important;
 	border: none;
@@ -2912,6 +2913,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	color: var(--undenary);
 }
 
+.vc-switch-container:not(.vc-switch-checked),
 .bd-switch:not(.bd-switch-checked) .bd-switch-body,
 .container__3f21e:not(.checked__3f21e) {
 	background-color: #434257 !important;
@@ -2930,7 +2932,8 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	--switch-color: var(--primary) !important;
 }
 
-.container__3f21e>.slider__3f21e path {
+.container__3f21e>.slider__3f21e path,
+.vc-switch-container>.vc-switch-slider path {
 	fill: #434257;
 }
 
