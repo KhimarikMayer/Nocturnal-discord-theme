@@ -13517,7 +13517,7 @@ svg.thumbnail__0f2e8 {
 	overflow: hidden scroll !important;
 }
 
-.avatar__76f04 {
+.avatar__76f04:not(.wrapper__44b0c) {
 	width: 12px;
 	height: 12px;
 	border-radius: 50px;
