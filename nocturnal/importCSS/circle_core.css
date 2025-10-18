@@ -253,6 +253,7 @@
 }
 
 .wrapper_f7ecac,
+.popover_f84418,
 .popoverReactionHoverBar_f84418,
 .popoverReactionHoverBar_f84418:hover {
 	background-color: var(--backgroundDark);
@@ -11379,11 +11380,11 @@ rect[fill="brand-200"] {
 	border-radius: 0;
 }
 
-.hoverBarButton_f84418:first-of-type {
+.popover_f84418 span:has(.hoverBarButton_f84418):not(:last-child) .hoverBarButton_f84418 {
 	border-radius: 6px 0 0 6px;
 }
 
-.hoverBarButton_f84418:last-of-type {
+.popover_f84418 span:has(.hoverBarButton_f84418):not(:first-child) .hoverBarButton_f84418 {
 	border-radius: 0 6px 6px 0;
 }
 
