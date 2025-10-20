@@ -2968,7 +2968,8 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	--switch-color: #434257 !important;
 }
 
-.container__3f21e.checked__3f21e>.slider__3f21e path {
+.container__3f21e.checked__3f21e>.slider__3f21e path,
+.vc-switch-container.vc-switch-checked>.vc-switch-slider path {
 	fill: var(--primary);
 }
 
