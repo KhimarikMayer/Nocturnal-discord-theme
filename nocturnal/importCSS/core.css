@@ -3115,6 +3115,11 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	box-shadow: 0 0 5px 1.53px var(--backgroundDark-75);
 }
 
+.theme-light .loadingPopout__58f1c {
+	background-color: var(--background-base-lower);
+	box-shadow: none;
+}
+
 .roleName__48c1c {
 	margin-right: 0;
 }
