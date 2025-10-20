@@ -7462,7 +7462,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .activity__7ba6e+.activity__7ba6e,
 .separator__5808f,
 .bottomDivider__01014,
-.customizationSection__42179.opened__42179,
+.customizationSection__7bf69.opened__7bf69,
 .itemBodyInner__5dac8,
 .unicodeShortcut_b9ee0c,
 .divider__5a4b6,
@@ -9794,7 +9794,7 @@ path[fill="var(--bg-brand)"] {
 }
 
 .gameArtwork_a1cc72,
-.editProfileContainer__42179,
+.editProfileContainer__7bf69,
 .footer__67dba,
 .container__8cc9a,
 .label_df4aaf,
@@ -10053,7 +10053,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 .actionMenuButton_d84e0f:active,
 .guildTagContainer__63ed3,
 .guildTagContainer__63ed3:hover,
-.headerIconWrapper__42179,
+.headerIconWrapper__7bf69,
 .bottomRowActionDisabled__34940 .innerBottomRowAction__34940,
 .bottomRowActionDisabled__34940 .innerBottomRowAction__34940:hover,
 .emojiPickerHasTabWrapper_c0e32c .emojiPicker_c0e32c,
@@ -11290,6 +11290,7 @@ rect[fill="brand-200"] {
 .scroller__23746 .benefits_bb8774,
 .container__3782a,
 .footer__3782a,
+.deepLinkContainer__3d3b0,
 .mediaMosaicAltText__0f481:active {
 	background-color: var(--backgroundDark);
 }
