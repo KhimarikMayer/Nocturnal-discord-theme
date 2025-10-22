@@ -6088,10 +6088,6 @@ circle[fill="var(--brand-500)"],
 
 .divider__56198 {
 	background-color: var(--backgroundDark-20);
-	background-color: rgb(88, 101, 242);
-	background-color: rgb(0, 94, 228);
-	background-color: rgb(0, 138, 230);
-	background-color: #002bd8;
 }
 
 .background__4f569 {
@@ -8884,6 +8880,7 @@ div.cardContainer__88e24,
 .inventory__6db1d,
 .tabBar_f8303a,
 .description__28dfe,
+.planComparisonTable__94da4,
 .wrapper__33d12 {
 	max-width: none;
 }
@@ -8991,7 +8988,6 @@ div.cardContainer__88e24,
 .icon_f744f,
 .exampleRule_f152fa,
 .giftCard_a45ed3,
-.perkCard_b62c4e,
 .container__6b668,
 .expandedProgressBarContainerSettingsPage_a61c56,
 .channels__4126d,
@@ -10006,6 +10002,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 .skeleton__89401,
 .card_e1364f:has(.removeGameButton_e1364f):hover:before,
 .keyboard-mode .card_e1364f:has(.removeGameButton_e1364f):has(.removeGameButton_e1364f:focus):before,
+.tag_cdb3b1,
 .separator_f84418 {
 	background-color: var(--backgroundDark-20);
 	border: none;
@@ -11079,6 +11076,7 @@ rect[fill="brand-200"] {
 	background-color: color-mix(in oklab, hsl(221 calc(var(--saturation-factor)*21%) 15% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
 }
 
+.buttonContainer_d38e00,
 .container__5808f,
 .container_b08af5,
 .container_dca174,
@@ -11154,6 +11152,9 @@ rect[fill="brand-200"] {
 	border-bottom: solid 1px var(--backgroundDark-25) !important;
 }
 
+.headerRow_cbfae2,
+.planComparisonItem_cbfae2,
+.hints_b5b7aa,
 .row__5cea9,
 .vc-permviewer-modal-perms-item,
 .customizationSection_ace4f5 {
@@ -11297,6 +11298,8 @@ rect[fill="brand-200"] {
 .container__3782a,
 .footer__3782a,
 .deepLinkContainer__3d3b0,
+.scroller_f48ee4,
+.containerBackground_f48ee4,
 .mediaMosaicAltText__0f481:active {
 	background-color: var(--backgroundDark);
 }
@@ -11381,6 +11384,7 @@ rect[fill="brand-200"] {
 .embedContainer__03498,
 .defaultKeybindGroup__740f2,
 .card__39b32,
+.card__6df1a,
 .header_d43202 {
 	border: none;
 	box-shadow: none;
@@ -11395,6 +11399,11 @@ rect[fill="brand-200"] {
 	background-color: var(--backgroundDark-35);
 }
 
+.perkCard_b62c4e,
+.backgroundColor_b0db00,
+.inModalOverlay_a3e8db.container_a3e8db.default_a3e8db,
+.inModalOverlay_a3e8db.container_a3e8db.highlighted_a3e8db,
+.inModalOverlay_a3e8db.container_a3e8db.selected_a3e8db,
 .theme-dark .opaqueBackground__79d38,
 .vc-settings-theme-links,
 .vc-settings-theme-links:focus,
@@ -11980,6 +11989,8 @@ rect[fill="brand-200"] {
 	border-radius: 0;
 }
 
+.placeholderElement__6e847,
+.heroAssetCont_c93f8c,
 .container__96554,
 .badgeGradientWrapper__89307,
 .container__5acc9,
@@ -12157,6 +12168,7 @@ rect[fill="brand-200"] {
 .primary_a22cb0 .defaultColor__4bd52,
 .secondary_a22cb0 .defaultColor__4bd52,
 .active_a22cb0 .defaultColor__4bd52,
+.subButtonText_ac86f6,
 .overflowMenuIcon__1fed1 {
 	color: #fff;
 }
@@ -13231,6 +13243,7 @@ svg.thumbnail__0f2e8 {
 	color: var(--text-default);
 }
 
+.premiumBrandRefreshContainer__61733,
 .addButtonContainer__4a011:has(.addButtonContent__4a011:hover),
 .bd-gp-search-input:focus {
 	background-color: var(--backgroundDark-30);
@@ -13875,4 +13888,37 @@ svg.thumbnail__0f2e8 {
 .addButton__25a50,
 .container__203bc {
 	border-color: hsla(0, 0%, 100%, .1);
+}
+
+.endScreenPanel_de2fa0 {
+	background: var(--backgroundDark);
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 30px 0px;
+	border: none;
+}
+
+.verticalDivider_de2fa0 path {
+	stroke: var(--backgroundDark-20);
+}
+
+.sectionsContainer_f48ee4 {
+	padding-right: 34px;
+}
+
+.navBar__88ef1.container__9293f.transparent__9293f {
+	border-bottom: solid 1px var(--backgroundDark-25) !important;
+}
+
+.premiumTab__581ea.selected_aa8da2 .premiumTrialAcknowledgedBadge_e4ef22 {
+	background-color: #fff;
+}
+
+.premiumTab__581ea.selected_aa8da2 .premiumTrialAcknowledgedBadge_e4ef22 .eyebrow_cf4812 {
+	color: var(--primary) !important;
+}
+
+.listItem__650eb:has(.wrapper__6e9f8.selected__6e9f8:not([aria-owns="guild-list-unread-dms"]) .childWrapper__6e9f8) .numberBadge__2b1f5,
+.listItem__650eb:has(.wrapper__6e9f8:hover:not([aria-owns="guild-list-unread-dms"]) .childWrapper__6e9f8) .numberBadge__2b1f5 {
+	background-color: #fff !important;
+	color: var(--primary);
+	transition: scale .15s ease-out, background-color .15s ease-out, color .15s ease-out;
 }
