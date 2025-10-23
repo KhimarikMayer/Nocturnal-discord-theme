@@ -10044,7 +10044,6 @@ html:not(.chat-input) .inputInner_b1f01d,
 .channelAttachmentArea_b77158,
 .rows_b1c9f2,
 .modalContent_de2fa0,
-.wrapper__960df,
 .container_e928f4:before,
 .sidebarCard_b962dc,
 .folderIconContent__93fc9,
@@ -11197,6 +11196,7 @@ rect[fill="brand-200"] {
 	outline: none;
 }
 
+.wrapper__960df,
 .optionsActive__07f91,
 .optionsButton__07f91:hover {
 	background-color: var(--backgroundDark-45);
