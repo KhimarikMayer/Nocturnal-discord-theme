@@ -6748,10 +6748,6 @@ circle[fill="var(--brand-500)"],
 	box-shadow: 0 0 5px 5px rgba(0, 0, .4);
 }
 
-.cardInput__8b579 {
-	transition: border-color .2s ease-in-out;
-}
-
 .progressBar_db0972.bar_eff079,
 .progressBar_eff079 {
 	background: linear-gradient(90deg, var(--primaryGradient1), var(--primaryGradient2)) !important
@@ -11408,6 +11404,7 @@ rect[fill="brand-200"] {
 .theme-dark .opaqueBackground__79d38,
 .vc-settings-theme-links,
 .vc-settings-theme-links:focus,
+.selectedPlan_b13085,
 .container__5573a.active__5573a,
 .container__5573a.warning__5573a,
 .parentContainer__5573a:hover .container__5573a.active__5573a {
@@ -13522,6 +13519,7 @@ svg.thumbnail__0f2e8 {
 	background-color: var(--backgroundDark);
 }
 
+.headerTextWrapper_d5200e,
 .filterSortOption__57454:hover,
 .attachButtonInner__0923f:hover {
 	background-color: rgba(0, 0, 0, 0);
@@ -13933,4 +13931,9 @@ svg.thumbnail__0f2e8 {
 .theme-light .removeGameButton_a62a28 {
 	background: var(--background-surface-high);
     border: 1px solid var(--border-faint, hsla(240, 4%, 61%, .04)) !important;
+}
+
+.skuSelectModalContent_e50a4d.premiumBrandRefreshContent_e50a4d.premiumBrandRefreshContent_e50a4d {
+	background-color: rgba(0, 0, 0, 0);
+	padding-right: 10px !important;
 }
