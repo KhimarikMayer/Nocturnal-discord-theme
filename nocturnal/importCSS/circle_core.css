@@ -11145,6 +11145,7 @@ rect[fill="brand-200"] {
 .defaultKeybindGroup__740f2,
 .card__39b32,
 .card__6df1a,
+.fortniteUpsellModalButton__49094,
 .header_d43202 {
 	border: none;
 	box-shadow: none;
@@ -11582,6 +11583,11 @@ rect[fill="brand-200"] {
 	fill: #fff;
 }
 
+.color-mix_a22cb0:before {
+	mix-blend-mode: unset;
+	border: none;
+}
+
 .placeholderElement__6e847,
 .number__19fd1,
 .addButtonContainer__4a011,
@@ -11595,10 +11601,12 @@ rect[fill="brand-200"] {
 .cardContainer__6b102,
 .menuItem_ce8328:after,
 .divider_a5fa1d,
+.color-mix_a22cb0:hover:before,
 .overlay_c0bea0 .divider__23eb0 {
 	background-color: var(--backgroundDark-20);
 	border: none;
 	box-shadow: none;
+	mix-blend-mode: unset;
 }
 
 .playing_a8e786 .playbackRateContainer_a8e786 .playbackRate_a8e786 {
