@@ -10866,7 +10866,7 @@ rect[fill="brand-200"] {
 }
 
 .darkThemeGradient__9192b {
-	background: linear-gradient(0deg, var(--backgroundDarker) 0, hsl(224 22% 10% /.5) 50%, hsl(224 22% 10% /0));
+	background: linear-gradient(to top, var(--backgroundDarker) 0, hsl(224 22% 10% /.5) 50%, hsl(224 22% 10% /0) 100%);
 }
 
 .roleFlowerStar_dfa8b6,
