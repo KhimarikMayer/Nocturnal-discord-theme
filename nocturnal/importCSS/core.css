@@ -458,6 +458,8 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"] {
 }
 
 #bd-settingspane-container .bd-pfbtn,
+.container__231eb.refresh__231eb,
+.container__8564e.refresh__8564e,
 .boostButton__25ea7,
 .boostButton__58c46,
 .colorable_f1ceac.join_f1ceac,
@@ -9544,6 +9546,7 @@ rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 .custom-theme-background .button_e131a9.buttonColor_e131a9,
 .learnMoreButton_a92dc5,
 .tier2Gradient_e00877,
+.headerContainerGift__57a87,
 .upsellButton__0b69f {
 	background: none;
 }
@@ -11406,6 +11409,7 @@ rect[fill="brand-200"] {
 .vc-settings-theme-links,
 .vc-settings-theme-links:focus,
 .selectedPlan_b13085,
+.customGiftMessage_bf1b4a,
 .container__5573a.active__5573a,
 .container__5573a.warning__5573a,
 .parentContainer__5573a:hover .container__5573a.active__5573a {
@@ -11825,6 +11829,8 @@ rect[fill="brand-200"] {
 	border: none;
 }
 
+.planSelectSeparatorLower__7ec3a,
+.planSelectSeparatorUpper__7ec3a,
 .placeholderElement__6e847,
 .number__19fd1,
 .addButtonContainer__4a011,
@@ -13807,6 +13813,8 @@ svg.thumbnail__0f2e8 {
 	row-gap: 46px;
 }
 
+.text__8564e.refresh__8564e,
+.text__231eb.refresh__231eb,
 .top_aa8da2 .vc-gp-tab.item_aa8da2 {
 	font-weight: 500;
 }
@@ -13946,4 +13954,9 @@ svg.thumbnail__0f2e8 {
 .skuSelectModalContent_e50a4d.premiumBrandRefreshContent_e50a4d.premiumBrandRefreshContent_e50a4d {
 	background-color: rgba(0, 0, 0, 0);
 	padding-right: 10px !important;
+}
+
+.previewContainerSelected__50f14 {
+	background-color: var(--primary-8);
+	border-color: color-mix(in oklab, hsl(204 calc(var(--saturation-factor)*100%) 45% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 }
