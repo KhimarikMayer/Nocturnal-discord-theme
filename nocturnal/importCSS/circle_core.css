@@ -11592,6 +11592,7 @@ rect[fill="brand-200"] {
 	border: none;
 }
 
+.divider__636a2,
 .planSelectSeparatorLower__7ec3a,
 .planSelectSeparatorUpper__7ec3a,
 .placeholderElement__6e847,
@@ -12059,6 +12060,7 @@ rect[fill="brand-200"] {
 .buttons__2d021,
 .custom-theme-background .wrapper_ef3116,
 .theme-dark .overridePlaceholder__856b5,
+.wishlistButton__979b1,
 .joinOptionContent__959cb {
 	border: none;
 }
@@ -13618,7 +13620,10 @@ svg.thumbnail__0f2e8 {
 	padding-right: 34px;
 }
 
-.navBar__88ef1.container__9293f.transparent__9293f {
+.navBar__88ef1.container__9293f.transparent__9293f,
+.theme-midnight .navBar__88ef1.container__9293f.transparent__9293f,
+.visual-refresh .navBar__88ef1.container__9293f.transparent__9293f,
+.visual-refresh.theme-midnight .navBar__88ef1.container__9293f.transparent__9293f {
 	border-bottom: solid 1px var(--backgroundDark-25) !important;
 }
 
