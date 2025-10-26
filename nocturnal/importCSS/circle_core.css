@@ -1047,6 +1047,11 @@ svg[name=Nitro] g path {
 	background-color: color-mix(in srgb, var(--primary), rgba(0, 0, 0, 0) 20%);
 }
 
+.theme-dark .item_caf372 {
+	position: relative;
+}
+
+.theme-dark .item_caf372::after,
 .theme-dark .side_aa8da2 .themed_aa8da2.item_aa8da2:not(.premiumTab__581ea:has(.selectedBackground_e681d1))::after,
 .theme-dark .modeSelected__2ea32 .link__2ea32::after,
 .theme-dark .link__2ea32::after {
@@ -1063,6 +1068,11 @@ svg[name=Nitro] g path {
 	transition: all .2s ease;
 }
 
+.theme-dark .item_caf372::after {
+	transform: translateX(-270px);
+}
+
+.item_caf372:hover,
 .side_aa8da2 .themed_aa8da2.item_aa8da2:hover:not(.disabled_aa8da2):not(.destructive_aa8da2),
 .listDefault__07f91 .clickable__07f91:hover .content__07f91,
 .wrapper__2ea32:hover .link__2ea32 {
@@ -1075,6 +1085,7 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDark-35);
 }
 
+.item_caf372.active_caf372, 
 .side_aa8da2 .themed_aa8da2.selected_aa8da2.item_aa8da2:not(.destructive_aa8da2),
 .side_aa8da2 .themed_aa8da2.selected_aa8da2:hover:not(.disabled_aa8da2):not(.destructive_aa8da2),
 .side_aa8da2 .themed_aa8da2.selected_aa8da2:active:not(.disabled_aa8da2):not(.destructive_aa8da2),
@@ -1085,6 +1096,8 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDark-45);
 }
 
+.theme-dark .item_caf372:hover:after,
+.theme-dark .item_caf372.active_caf372:after,
 .theme-dark .wrapper__2ea32:active .link__2ea32:active:after,
 .theme-dark .side_aa8da2 .themed_aa8da2.item_aa8da2:not(.serverBoostTabItem_cbe0b4.selected_aa8da2, .premiumTab__581ea:has(.selectedBackground_e681d1)):active::after,
 .theme-dark .side_aa8da2 .themed_aa8da2.item_aa8da2:not(.serverBoostTabItem_cbe0b4.selected_aa8da2, .premiumTab__581ea:has(.selectedBackground_e681d1)):hover::after,
@@ -8677,6 +8690,7 @@ div.cardContainer__88e24,
 .tabBar_f8303a,
 .description__28dfe,
 .planComparisonTable__94da4,
+.panel__6131a,
 .wrapper__33d12 {
 	max-width: none;
 }
@@ -10470,6 +10484,8 @@ rect[fill="brand-200"] {
 .popout__9047f,
 .removeGameButton_a62a28,
 .removeItemButton__39b32,
+.contentHeader_e9e3ed,
+.content_e9e3ed,
 .noResults__3f413 {
 	background-color: var(--backgroundDark);
 	border: none !important;
@@ -10922,6 +10938,8 @@ rect[fill="brand-200"] {
 	border-color: var(--backgroundDark-30);
 }
 
+.section__409aa,
+.sidebar__409aa,
 .channelNotice_e2d7b8,
 .visual-refresh .sidebarList_c48ade,
 .searchBar__35e86,
@@ -11063,6 +11081,7 @@ rect[fill="brand-200"] {
 .scroller_f48ee4,
 .containerBackground_f48ee4,
 .headerContainer_b0ba57,
+.modal_e44912,
 .mediaMosaicAltText__0f481:active {
 	background-color: var(--backgroundDark);
 }
@@ -13137,6 +13156,7 @@ svg.thumbnail__0f2e8 {
 	border-bottom: 1px solid var(--backgroundDark) !important;
 }
 
+.contentHeader_e9e3ed,
 .container_e131a9 {
 	border-bottom: 1px solid var(--backgroundDark-25) !important;
 }
@@ -13657,4 +13677,8 @@ svg.thumbnail__0f2e8 {
 .previewContainerSelected__50f14 {
 	background-color: var(--primary-8);
 	border-color: color-mix(in oklab, hsl(204 calc(var(--saturation-factor)*100%) 45% /1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+}
+
+.fixedContent__409aa:after {
+	background: linear-gradient(to bottom, var(--backgroundDark), rgba(0, 0, 0, 0));
 }
