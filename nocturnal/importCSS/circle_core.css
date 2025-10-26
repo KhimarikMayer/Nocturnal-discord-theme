@@ -2208,7 +2208,8 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 
 .info__2debe .line__2debe:last-child:after,
 .info__2debe .bd-text-muted:last-child:after,
-.info__2debe .text-xxs\/normal_cf4812:last-child:after {
+.info__2debe .text-xxs\/normal_cf4812:last-child:after,
+.compactInfo__2debe .text-xxs\/normal_cf4812:last-child:after {
 	content: "Nocturnal 3.1 AutoUpdate";
 	display: block;
 }
@@ -7456,6 +7457,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .divider__1de9c,
 .vc-form-divider,
 .filterOptionGroup__61c5c+.filterOptionGroup__61c5c,
+.vc-divider,
 .table_e7d73e {
 	border-color: var(--backgroundDark-20);
 }
@@ -8690,7 +8692,6 @@ div.cardContainer__88e24,
 .tabBar_f8303a,
 .description__28dfe,
 .planComparisonTable__94da4,
-.panel__6131a,
 .wrapper__33d12 {
 	max-width: none;
 }
@@ -9179,6 +9180,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 	color: var(--text-senary);
 }
 
+.section_d9914b .scrollerBase_d125d2,
 .bottomDivider__01014,
 .guildCategorySeparator_b9ee0c,
 .guildCategorySeparator__3ad28,
@@ -13681,4 +13683,14 @@ svg.thumbnail__0f2e8 {
 
 .fixedContent__409aa:after {
 	background: linear-gradient(to bottom, var(--backgroundDark), rgba(0, 0, 0, 0));
+}
+
+.container_c50183 {
+	background-position: 0% 0%;
+	background-size: 100%;
+}
+
+.panel__6131a {
+	margin: 16px auto 16px auto;
+	max-width: none;
 }
