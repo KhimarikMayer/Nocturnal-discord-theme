@@ -11259,7 +11259,8 @@ rect[fill="brand-200"] {
 
 .whatYouLoseItem__89307.premiumRebrand__89307,
 .option__81345,
-.uploadInput__94439 {
+.uploadInput__94439,
+.clickable__19fd1 {
 	border: none;
 	background-color: var(--backgroundDark-15);
 }
@@ -11286,7 +11287,8 @@ rect[fill="brand-200"] {
 }
 
 .uploadInput__94439:hover,
-.option__81345:hover {
+.option__81345:hover,
+.clickable__19fd1:hover {
 	background-color: var(--backgroundDark-25);
 }
 
