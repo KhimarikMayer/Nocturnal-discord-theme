@@ -6035,6 +6035,7 @@ circle[fill="var(--brand-500)"],
 	box-shadow: 0 0 0 1px var(--deprecated-text-input-border);
 }
 
+.paymentSourceItem__83734,
 .theme-dark .addFriendInputWrapper__72ba7:not(.error__72ba7) {
 	border-color: rgba(0, 0, 0, 0) !important;
 }
@@ -11613,6 +11614,9 @@ rect[fill="brand-200"] {
 	border: none;
 }
 
+.planSelectSeparator_d947e6,
+.SeparatorLower__92b20,
+.SeparatorUpper__92b20,
 .divider__636a2,
 .planSelectSeparatorLower__7ec3a,
 .planSelectSeparatorUpper__7ec3a,
@@ -13693,4 +13697,9 @@ svg.thumbnail__0f2e8 {
 .panel__6131a {
 	margin: 16px auto 16px auto;
 	max-width: none;
+}
+
+.optionTag__28e94 {
+	background-color: var(--backgroundDark-20);
+	border-radius: 5px;
 }
