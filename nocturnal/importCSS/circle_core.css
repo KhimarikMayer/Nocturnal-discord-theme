@@ -433,21 +433,21 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"] {
 	box-shadow: 0 0 10px 3px var(--backgroundDark-50);
 }
 
-.messageGroupWrapper__45690 {
+.messageGroupWrapper_e8b59c {
 	background-color: var(--backgroundDarker);
 	border: none;
 	margin: 0 0 8px 0;
 }
 
-.footer__45690 {
+.footer_e8b59c {
 	background-color: var(--backgroundDark-15);
 }
 
-.messagesPopoutWrap__45690 {
+.messagesPopoutWrap_e8b59c {
 	background-color: var(--backgroundDark);
 }
 
-.header__45690 {
+.header_e8b59c {
 	background-color: var(--backgroundDark);
 	border-color: var(--backgroundDark-20);
 }
@@ -1785,7 +1785,7 @@ svg[name=Nitro] g path {
 	margin-top: 2px;
 }
 
-.messagesPopout__45690[style*="overflow: hidden scroll;"]:not(.scroller__95796) {
+.messagesPopout_e8b59c[style*="overflow: hidden scroll;"]:not(.scroller__95796) {
 	padding-right: 2px !important;
 }
 
@@ -11130,7 +11130,7 @@ rect[fill="brand-200"] {
 .iconContainer_a2844c,
 .right__58ae6,
 .rightContent__58ae6,
-.jumpButton__45690,
+.jumpButton_e8b59c,
 .jumpButton_ed0c8c,
 .jumpButton_ed0c8c:hover,
 .overviewContainerWithVideo__95856,
@@ -11218,10 +11218,10 @@ rect[fill="brand-200"] {
 .uploadImage_e45886:hover,
 .buttonSection_fcb27c,
 .modalRoot_fc200b .modalFooter_fc200b,
-.messageGroupWrapper__45690 .guildInviteContainer__083ae,
-.messageGroupWrapper__45690 .footerContent__083ae,
-.messageGroupWrapper__45690 .avatarWrapper_dca174,
-.messageGroupWrapper__45690 .gameActivityLevel__4e338,
+.messageGroupWrapper_e8b59c .guildInviteContainer__083ae,
+.messageGroupWrapper_e8b59c .footerContent__083ae,
+.messageGroupWrapper_e8b59c .avatarWrapper_dca174,
+.messageGroupWrapper_e8b59c .gameActivityLevel__4e338,
 .messageContainer__95796 .guildInviteContainer__083ae,
 .messageContainer__95796 .footerContent__083ae,
 .messageContainer__95796 .avatarWrapper_dca174,
@@ -11542,7 +11542,7 @@ rect[fill="brand-200"] {
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, var(--backgroundDarker) 100%)
 }
 
-.messageGroupWrapper__45690 .gradient__083ae,
+.messageGroupWrapper_e8b59c .gradient__083ae,
 .messageContainer__95796 .gradient__083ae,
 .messages__1ccd1 .gradient__083ae {
 	background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0, var(--backgroundDarker-alt) 100%)
@@ -12259,7 +12259,7 @@ rect[fill="#D3D6ED"] {
 	--custom-notice-background: var(--backgroundDark);
 }
 
-.recentMentionsPopout__95796.messagesPopoutWrap__45690,
+.recentMentionsPopout__95796.messagesPopoutWrap_e8b59c,
 .shopBanner__7f856,
 .chat_ee72fa:before,
 .chat_a44415:before,
