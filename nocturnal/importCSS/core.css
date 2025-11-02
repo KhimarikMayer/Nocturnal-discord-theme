@@ -12477,7 +12477,8 @@ rect[fill="#D3D6ED"] {
 	border-radius: 5px;
 }
 
-.dim__61c93 span {
+.dim__61c93 span,
+.dim__61c93 span:active {
 	background-color: rgba(0, 0, 0, 0);
 	color: var(--backgroundDark);
 }
