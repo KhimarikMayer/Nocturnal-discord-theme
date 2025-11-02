@@ -304,6 +304,9 @@
 	background: url(/assets/5071d09daafd2d99.svg);
 }
 
+.theme-light .showMoreButton__84832,
+.theme-light .showMoreButton__84832:hover:not(:disabled),
+.theme-light .showMoreButton__84832:active:not(:disabled),
 .theme-light.custom-user-profile-theme .showMoreButton__84832,
 .theme-light.custom-user-profile-theme .showMoreButton__84832:hover:not(:disabled),
 .theme-light.custom-user-profile-theme .showMoreButton__84832:active:not(:disabled) {
