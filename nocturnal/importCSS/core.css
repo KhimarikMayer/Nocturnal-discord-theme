@@ -1960,19 +1960,6 @@ svg[name=Nitro] g path {
 	padding: 10px 0;
 }
 
-.theme-dark .lookOutlined__201d5.colorGreen__201d5 {
-	color: hsl(225 calc(var(--saturation-factor)*38%) 30% /1);
-	border-width: 2px;
-	border-color: hsl(225 calc(var(--saturation-factor)*38%) 30% /1);
-	border-radius: 6px;
-}
-
-.theme-dark .lookOutlined__201d5.colorGreen__201d5:active {
-	background-color: hsl(180 calc(var(--saturation-factor)*100%) 54% /1) !important;
-	border-color: hsl(180 calc(var(--saturation-factor)*100%) 54% /1);
-	color: #fff;
-}
-
 .card_aae012:hover,
 .row_d5ae15:focus .rowInner_d5ae15,
 .row_d5ae15:hover .rowInner_d5ae15 {
@@ -2805,10 +2792,6 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 
 .bd-settings-title.bd-settings-group-title {
 	color: #fff;
-}
-
-.theme-dark .lookOutlined__201d5.colorGreen__201d5 .spinnerItem__201d5 {
-	background-color: hsl(225 calc(var(--saturation-factor)*38%) 30% /1);
 }
 
 .button_c9e42f:hover,
@@ -11313,6 +11296,7 @@ rect[fill="brand-200"] {
 .containerBackground_f48ee4,
 .headerContainer_b0ba57,
 .modal_e44912,
+.scroller__3b295,
 .mediaMosaicAltText__0f481:active {
 	background-color: var(--backgroundDark);
 }
