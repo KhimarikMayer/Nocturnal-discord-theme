@@ -915,7 +915,7 @@ svg.contentImage__42bf5,
 }
 
 .content_a58267,
-.container_fcf29c {
+.container__9a9f9 {
 	background-color: var(--backgroundDark);
 	border: none;
 	box-shadow: 0 0 3.5px 1.5px var(--backgroundDark-50);
@@ -2277,16 +2277,9 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
 }
 
-.accountButtonInner_c7f964,
-.item__97e86.role-member:hover,
-.focused__97e86:not(.disabled__97e86),
-.item__97e86:hover:not(.disabled__97e86) {
+.accountButtonInner_c7f964 {
 	background-color: var(--backgroundDark-20);
 	border: none;
-}
-
-.item__97e86.selected__97e86:not(.disabled__97e86) {
-	background-color: var(--backgroundDark-30);
 }
 
 .mentionButton__841c8,
@@ -2629,7 +2622,6 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 
 .serverBoostTabItem_cbe0b4[aria-selected=true],
 .selectedBackground_e681d1,
-.item__97e86.selectedBrand__97e86,
 .wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8,
 .wrapper__6e9f8:hover .childWrapper__6e9f8,
 .mention__3b95d,
@@ -2651,18 +2643,6 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .wrapper__8b9fc {
 	background-color: var(--primary);
 	border-radius: 5px;
-}
-
-.theme-dark .item__97e86.selectedBrand__97e86.focused__97e86,
-.theme-dark .item__97e86.selectedBrand__97e86:hover,
-.theme-darker .item__97e86.selectedBrand__97e86.focused__97e86,
-.theme-darker .item__97e86.selectedBrand__97e86:hover {
-	background-color: hsl(209 calc(var(--saturation-factor)*100%) 30% /1) !important;
-}
-
-.theme-midnight .item__97e86.selectedBrand__97e86.focused__97e86,
-.theme-midnight .item__97e86.selectedBrand__97e86:hover {
-	background-color: hsl(218 calc(var(--saturation-factor)*100%) 31% /1) !important;
 }
 
 .highlight {
@@ -2843,13 +2823,8 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	margin-left: 0;
 }
 
-.list__3dde2,
-.list__97e86 {
+.list__3dde2 {
 	margin-right: -6px;
-}
-
-.combobox__97e86 {
-	overflow: visible;
 }
 
 .sidebar__23e6b {
@@ -4801,6 +4776,7 @@ svg.contentImage__42bf5 path {
 	color: var(--backgroundDark);
 }
 
+.container__09ccc,
 .scroller__53543,
 .button__02a39,
 .noiseCancellationPopout_e131a9,
@@ -4865,7 +4841,6 @@ body,
 .pageWrapper_a3a4ce,
 .scroller_a39aa3,
 .container__34c2c,
-.container__09ccc,
 .container__23c08,
 .scroller__244e5,
 .content__908e2,
@@ -9225,10 +9200,6 @@ html:not(.chat-input) .inputInner_b1f01d,
 	border-radius: 11px;
 }
 
-.list__97e86.scroller__97e86 {
-	margin-right: 2px;
-}
-
 .theme-light .overlayBackground_c69a7b:not(.profileInner_f4a859) {
 	background-color: rgb(var(--bg-overlay-color)/.4);
 }
@@ -9789,7 +9760,8 @@ div.profileThemedContainer__656be .inner_c0bea0 {
 .option__54675,
 .nameplate__5a2c6,
 .channelResult__32fe1:hover,
-.nameplatePreview__39749,
+.nameplatePreviewPlaceholder__39749,
+.nameplatePreviewPlaceholder__14af9,
 .accountConnectedPrivacyOptionsContainer_a470b4,
 .accountConnectedPreviewConnectedUserAccount_a470b4,
 .skeleton__89401,
@@ -10345,11 +10317,6 @@ rect[fill="brand-200"] {
 	background-color: var(--modal-background) !important;
 }
 
-.theme-light .item__97e86:hover:not(.disabled__97e86),
-.theme-light .focused__97e86 {
-	background-color: var(--background-modifier-hover);
-}
-
 .theme-light .tooltipPrimary_c36707 .tooltipPointer_c36707 {
 	border-top-color: var(--background-surface-high);
 }
@@ -10838,6 +10805,7 @@ rect[fill="brand-200"] {
 .container__935ef,
 .baseCardOutline__1ab14,
 .vc-notification-root,
+.selectDropdown__5fa2f,
 .messageContainer__53b23 {
 	background-color: var(--backgroundDark);
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
@@ -11615,6 +11583,8 @@ rect[fill="brand-200"] {
 .menuItem_ce8328:after,
 .divider_a5fa1d,
 .color-mix_a22cb0:hover:before,
+.listBoxItem__2e223:focus:not([aria-disabled]),
+.mouse-mode .listBoxItem__2e223:hover:not([aria-disabled]),
 .overlay_c0bea0 .divider__23eb0 {
 	background-color: var(--backgroundDark-20);
 	border: none;
@@ -12136,8 +12106,7 @@ rect[fill="brand-200"] {
 	height: calc(100% + 16px) !important;
 }
 
-.theme-dark .avatar_a36dee:before,
-.theme-dark .avatar__5906b:before {
+.theme-dark .avatar_a36dee:before {
 	width: calc(100% - 2px) !important;
 	height: calc(100% - 2px) !important;
 }
@@ -13738,4 +13707,9 @@ svg.thumbnail__0f2e8 {
 .modalContent__39813.modalContent__39813 {
 	background-color: rgba(0, 0, 0, 0);
 	padding-right: 0 !important;
+}
+
+.listBox__2e223 {
+	padding-right: 0;
+	margin-right: -2px;
 }
