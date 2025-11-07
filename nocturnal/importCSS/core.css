@@ -649,7 +649,8 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"] {
 	transform: none;
 }
 
-.linkButtonIcon__972a0 {
+.linkButtonIcon__972a0,
+.withGradientAndBadge_ebee1d svg {
 	color: var(--primary) !important;
 }
 
@@ -8141,6 +8142,7 @@ h3.improved__1689b:after,
 
 .iconContainer_fec266 {
 	background-color: var(--backgroundDark-35);
+	border: none;
 	color: var(--text-senary);
 }
 
@@ -8837,6 +8839,9 @@ div.cardContainer__88e24,
 .tabBar_f8303a,
 .description__28dfe,
 .planComparisonTable__94da4,
+.container__9c880,
+.container__38524,
+.containerV2__38524,
 .wrapper__33d12 {
 	max-width: none;
 }
@@ -11376,6 +11381,7 @@ rect[fill="brand-200"] {
 .customGiftMessage_bf1b4a,
 .previewSection__4671c,
 .nonLatinDisclaimer_fc7677,
+.container__7700a,
 .container__5573a.active__5573a,
 .container__5573a.warning__5573a,
 .parentContainer__5573a:hover .container__5573a.active__5573a {
