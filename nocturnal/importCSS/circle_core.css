@@ -10488,6 +10488,7 @@ rect[fill="brand-200"] {
 .greyedOut__83ef9,
 .container__0c185,
 .badge__91f7b,
+.recipientError__50f14,
 .warningContainer_bc32e9 {
 	background-color: var(--backgroundDarker);
 	border: none;
@@ -13718,4 +13719,26 @@ svg.thumbnail__0f2e8 {
 .listBox__2e223 {
 	padding-right: 0;
 	margin-right: -2px;
+}
+
+.theme-light:not(.custom-user-profile-theme) .container_ab8609 {
+	--custom-status-bubble-background-color: var(--background-surface-highest);
+}
+
+.theme-light:not(.custom-user-profile-theme) .container_ab8609.editable_ab8609:hover {
+	--custom-status-bubble-background: linear-gradient(rgb(var(--custom-status-bubble-overlay-color) / 0.04), rgb(var(--custom-status-bubble-overlay-color) / 0.04)), var(--custom-status-bubble-background-color);
+}
+
+.theme-light:not(.custom-user-profile-theme) .wrapper_f7ecac {
+    background-color: var(--user-profile-toolbar-background);
+	border: 1px solid var(--user-profile-toolbar-border);
+    box-shadow: var(--shadow-low) !important;
+}
+
+.theme-light:not(.custom-user-profile-theme) .button_f7ecac:hover {
+	background-color: var(--background-modifier-hover);
+}
+
+.theme-light:not(.custom-user-profile-theme) .button__2d0ab:hover {
+	background-color: var(--background-mod-normal);
 }
