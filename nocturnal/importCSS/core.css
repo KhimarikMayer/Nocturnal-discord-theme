@@ -7515,6 +7515,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .vc-divider,
 .footer__57c71,
 .divider__1fcac,
+.toolbarGroup_ab2592:not(:first-child),
 .table_e7d73e {
 	border-color: var(--backgroundDark-20);
 }
@@ -10615,6 +10616,9 @@ rect[fill="brand-200"] {
 .removeItemButton__39b32,
 .contentHeader_e9e3ed,
 .content_e9e3ed,
+.aside__4d307,
+.animatedInfoContainer_ab2592,
+.toolbar_ab2592,
 .noResults__3f413 {
 	background-color: var(--backgroundDark);
 	border: none !important;
@@ -11320,6 +11324,7 @@ rect[fill="brand-200"] {
 .card__39b32,
 .card__6df1a,
 .fortniteUpsellModalButton__49094,
+.previews__4d307 li,
 .header_d43202 {
 	border: none;
 	box-shadow: none;
@@ -11793,6 +11798,7 @@ rect[fill="brand-200"] {
 .color-mix_a22cb0:hover:before,
 .listBoxItem__2e223:focus:not([aria-disabled]),
 .mouse-mode .listBoxItem__2e223:hover:not([aria-disabled]),
+.previews__4d307 .reactions__4d307,
 .overlay_c0bea0 .divider__23eb0 {
 	background-color: var(--backgroundDark-20);
 	border: none;
@@ -12581,6 +12587,7 @@ svg[color="var(--brand-500)"] {
 	padding: calc(var(--space-10) - 1px) calc(var(--space-12) - 1px);
 }
 
+.header_c0e32c:has(.container__5a838) .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0,
 .blockHeader__08415:has(.wrapper__3412a) .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0,
 .actionBarLeading__8a031:has(.messageInput__8ff3e)+.actionBarTrailing__8a031 .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0,
 .searchButton__4b8d8 .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0 {
@@ -13153,6 +13160,7 @@ svg.thumbnail__0f2e8 {
 	paint-order: stroke;
 }
 
+.modalContent_a13acd,
 .modalContent_c50f62 {
 	overflow: hidden !important;
 	padding-right: 0 !important;
@@ -14013,4 +14021,16 @@ svg.thumbnail__0f2e8 {
 
 .theme-light:not(.custom-user-profile-theme) .button__2d0ab:hover {
 	background-color: var(--background-mod-normal);
+}
+
+.checkerboard__4d307:after {
+	background: linear-gradient(180deg,var(--backgroundDarker),rgba(0, 0, 0, 0) 80px),linear-gradient(0deg,var(--backgroundDarker),rgba(0, 0, 0, 0) 88px);
+}
+
+.overlay_ab2592 {
+	box-shadow: color-mix(in srgb,var(--backgroundDarker-alt) 70%,rgba(0, 0, 0, 0)) 0 0 0 9999px;
+}
+
+.isDragging_ab2592 .overlay_ab2592 {
+	box-shadow: color-mix(in srgb,var(--backgroundDarker-alt) 40%,rgba(0, 0, 0, 0)) 0 0 0 9999px;
 }
