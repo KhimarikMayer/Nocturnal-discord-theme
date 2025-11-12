@@ -7364,6 +7364,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .filterOptionGroup__61c5c+.filterOptionGroup__61c5c,
 .vc-divider,
 .footer__57c71,
+.divider__1fcac,
 .table_e7d73e {
 	border-color: var(--backgroundDark-20);
 }
@@ -8936,7 +8937,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 .xenoLib-multiInput,
 .grabber_a562c8,
 .bar_c8b06d,
-.spoilerContainer__54ab5.attachmentContainer__54ab5,
+.spoilerContainer__299eb.attachmentContainer__299eb,
 .upload_aa605f,
 .attachButtonInner__0923f,
 .membershipDialog__2d899,
@@ -9766,7 +9767,7 @@ div.profileThemedContainer__656be .inner_c0bea0 {
 .guildIcon__84aed,
 .checkmark__84aed,
 .container_cb32c7.iconCard_cb32c7,
-.spoilerContainer__54ab5,
+.spoilerContainer__299eb,
 .richImageContainer_ae1fa2,
 .progressTextOverlay_bb1069,
 .gameActivityLevel_fda254,
@@ -13442,11 +13443,11 @@ svg.thumbnail__0f2e8 {
 
 .imageContainer_db811b,
 .image_db811b,
-.spoilerMarkdownContent__54ab5 {
+.spoilerMarkdownContent__299eb {
 	border-radius: 50px;
 }
 
-.spoilerMarkdownContent__54ab5:not(:has(.wrapper_f61d60)) {
+.spoilerMarkdownContent__299eb:not(:has(.wrapper_f61d60)) {
 	padding: .5px 5px;
 }
 
