@@ -458,6 +458,7 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"] {
 }
 
 #bd-settingspane-container .bd-pfbtn,
+.vc-btn-primary,
 .container__231eb.refresh__231eb,
 .container__8564e.refresh__8564e,
 .boostButton__25ea7,
@@ -538,6 +539,7 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"] {
 }
 
 #bd-settingspane-container .bd-pfbtn:hover,
+.vc-btn-primary:hover:not(:disabled),
 .boostButton__25ea7:hover,
 .boostButton__58c46:hover,
 .attachedCaretButtonContainer_f1ceac:not(.fauxDisabled__666fa) .colorable_f1ceac.green_f1ceac.active_f1ceac,
@@ -588,6 +590,7 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"] {
 }
 
 #bd-settingspane-container .bd-pfbtn:active,
+.vc-btn-primary:active:not(:disabled),
 .boostButton__25ea7:active,
 .boostButton__58c46:active,
 .vc-settings-quickActions-pill:active,
@@ -1984,7 +1987,8 @@ svg[name=Nitro] g path {
 .button__6fddf,
 .ctaButton_b4f99f,
 .iconButton_adfd31,
-.bd-button-medium {
+.bd-button-medium,
+.vc-btn-medium {
 	height: 32px;
 	min-width: 60px;
 	min-height: 32px;
@@ -2459,7 +2463,8 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .lookInverted_a299dc.colorPrimary__201d5,
 .category_ed45d7,
 .searchSuggestion__2dc39,
-.overlay-primary_a22cb0 {
+.overlay-primary_a22cb0,
+.vc-btn-overlayPrimary {
 	color: #fff;
 	border-width: 1px 0;
 	border-style: solid;
@@ -2478,7 +2483,9 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .searchSuggestion__2dc39:hover:not(:disabled),
 .searchSuggestion__2dc39:active:not(:disabled),
 .overlay-primary_a22cb0:hover:not(:disabled),
-.overlay-primary_a22cb0:active:not(:disabled) {
+.overlay-primary_a22cb0:active:not(:disabled),
+.vc-btn-overlayPrimary:hover:not(:disabled),
+.vc-btn-overlayPrimary:active:not(:disabled) {
 	border-width: 1px 0;
 	border-style: solid;
 	border-color: #fff;
@@ -11633,6 +11640,7 @@ rect[fill="brand-200"] {
 	border-top-left-radius: 0 !important;
 }
 
+.vc-btn-medium,
 .streamButton__70ee5 {
 	padding: 2px 16px;
 }
