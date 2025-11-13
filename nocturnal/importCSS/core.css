@@ -3416,9 +3416,10 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .navButtons_fe70ca,
 .termsFieldBody_fe70ca,
 .checkboxContainer__16db0,
-.analyticsCard__5931c {
+.analyticsCard__0dfec {
 	background-color: var(--backgroundDarker);
 	box-shadow: none;
+	border: none;
 }
 
 .container__6b38f:hover {
@@ -10212,6 +10213,7 @@ div.cardContainer__88e24,
 	color: #fff;
 }
 
+.mainContent_bbb935,
 .mainContent_b2b948 {
 	flex-basis: 100%;
 }
@@ -13623,6 +13625,7 @@ svg.thumbnail__0f2e8 {
 	border-radius: 30% 30% 12px !important;
 }
 
+.vc-btn-overlayPrimary,
 .overlayGuildIcon__57752,
 .platform-win .sidebar__5e434 {
 	border-radius: 0;
