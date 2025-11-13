@@ -6954,7 +6954,6 @@ rect[fill="rgb(123,162,255)"] {
 .playbackRate_a8e786,
 .bumpBox_cacd02,
 .memberRowContainer__71c22:hover td,
-.row_fec266,
 .infoIcon_a76279,
 .benefit__97ba0,
 .templateNameRow__6f8c0,
@@ -7040,6 +7039,7 @@ rect[fill="rgb(123,162,255)"] {
 	border: none;
 }
 
+.row_fec266,
 .divider_b50d96,
 .rowIcon__95bea,
 .soundButtonWrapper__9be63,
@@ -7959,7 +7959,7 @@ h3.improved__1689b:after,
 }
 
 .iconContainer_fec266 {
-	background-color: var(--backgroundDark-35);
+	background-color: var(--backgroundDark-20);
 	border: none;
 	color: var(--text-senary);
 }
