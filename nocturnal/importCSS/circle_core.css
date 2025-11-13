@@ -1703,6 +1703,7 @@ svg[name=Nitro] g path {
 	background-color: hsl(220 calc(var(--saturation-factor)*21%) 8% /1);
 }
 
+.vc-btn-overlayPrimary,
 .expressive_a22cb0 .expressiveFill_a22cb0,
 .buttonSize__7d567,
 .colorWhite__201d5,
@@ -2394,7 +2395,8 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 }
 
 .lookFilled__201d5.colorWhite__201d5:disabled,
-.overlay-primary_a22cb0:disabled {
+.overlay-primary_a22cb0:disabled,
+.vc-btn-overlayPrimary:disabled {
 	background-color: rgba(0, 0, 0, 0);
 	color: white;
 }
@@ -13318,7 +13320,6 @@ svg.thumbnail__0f2e8 {
 	border-radius: 50% !important;
 }
 
-.vc-btn-overlayPrimary,
 .overlayGuildIcon__57752,
 .platform-win .sidebar__5e434 {
 	border-radius: 0;
@@ -13746,4 +13747,10 @@ svg.thumbnail__0f2e8 {
 
 .isDragging_ab2592 .overlay_ab2592 {
 	box-shadow: color-mix(in srgb,var(--backgroundDarker-alt) 40%,rgba(0, 0, 0, 0)) 0 0 0 9999px;
+}
+
+.vc-btn-overlayPrimary {
+    &:hover {
+		color: #fff;
+	}
 }
