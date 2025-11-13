@@ -4810,6 +4810,7 @@ body,
 .panels__5e434,
 .custom-theme-background .panels__5e434,
 .visual-refresh .panels__5e434,
+.visual-refresh .panels_c48ade,
 .container__133bf,
 .visual-refresh .container_c8ffbb {
 	background: var(--background-gradient-app-frame, var(--backgroundDark));
@@ -10799,6 +10800,7 @@ rect[fill="brand-200"] {
 }
 
 .visual-refresh .sidebarListRounded__5e434,
+.visual-refresh .sidebarListRounded_c48ade,
 .bannerVisible_f37cb1 .header_f37cb1 {
 	border-top-left-radius: 0;
 }
@@ -10872,6 +10874,7 @@ rect[fill="brand-200"] {
 .sidebar__409aa,
 .channelNotice_e2d7b8,
 .visual-refresh .sidebarList__5e434,
+.visual-refresh .sidebarList_c48ade,
 .searchBar_e6b769,
 .client-theme-color-picker .searchBar_e6b769,
 .container__0d0f9,
@@ -11005,6 +11008,7 @@ rect[fill="brand-200"] {
 .authBox__921c5,
 .sidebar__5e434:after,
 .visual-refresh .sidebar__5e434:after,
+.visual-refresh .sidebar_c48ade:after,
 .scroller__23746 .benefits_bb8774,
 .container__3782a,
 .footer__3782a,
