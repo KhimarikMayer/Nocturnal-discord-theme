@@ -11549,7 +11549,6 @@ rect[fill="brand-200"] {
 .planSelectSeparatorUpper__7ec3a,
 .placeholderElement__6e847,
 .number__19fd1,
-.addButtonContainer__4a011,
 .tableHeader_e7d73e,
 .sampleLink__991a0,
 .tag_cfee8f,
@@ -12394,6 +12393,8 @@ svg[color="var(--brand-500)"] {
 	}
 }
 
+.addButtonContainer__4a011,
+.addButtonContainer__4a011:has(.addButtonContent__4a011:hover),
 .breadcrumb_c2a763 .innerContainer_c2a763,
 .breadcrumb_c2a763:hover .innerContainer_c2a763,
 .container__62dd3,
@@ -12408,11 +12409,13 @@ svg[color="var(--brand-500)"] {
 	color: var(--header-primary) !important;
 }
 
+.addButtonContainer__4a011,
 .breadcrumb_c2a763 .innerContainer_c2a763 {
 	box-shadow: none !important;
 	color: var(--header-primary) !important;
 }
 
+.addButtonContainer__4a011:has(.addButtonContent__4a011:hover),
 .breadcrumb_c2a763:hover .innerContainer_c2a763 {
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-15) !important;
 	color: var(--header-primary) !important;
@@ -12939,7 +12942,6 @@ svg.thumbnail__0f2e8 {
 }
 
 .premiumBrandRefreshContainer__61733,
-.addButtonContainer__4a011:has(.addButtonContent__4a011:hover),
 .bd-gp-search-input:focus {
 	background-color: var(--backgroundDark-30);
 }
