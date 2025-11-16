@@ -4944,6 +4944,10 @@ body,
 .container_f369db,
 .container__5682d,
 .container_a2f514,
+.vc-shc-topic-container,
+.vc-shc-default-emoji-container,
+.vc-shc-tags-container,
+.vc-shc-allowed-users-and-roles-container,
 .visual-refresh .content__908e2 {
 	background: var(--background-gradient-app-frame, var(--backgroundDark));
 	border: none;
@@ -6634,7 +6638,7 @@ circle[fill="var(--brand-500)"],
 
 .nameInput_ac72c6,
 .wrapper_a45028:not(:focus-within),
-.wrapper__3412a:not(:focus-within),
+.wrapper__72c38:not(:focus-within),
 .nameInput__0511a,
 .tagInputWrapper_a84c50:not(:focus):not(:focus-within):not(:hover),
 .disabledForm_a84c50 .tagInputWrapper_a84c50:focus-within,
@@ -6653,7 +6657,7 @@ circle[fill="var(--brand-500)"],
 .cardInput__8b579:hover:not(.cardInputFocused__8b579),
 .tagInputWrapper_a84c50:hover,
 .wrapper_a45028:hover:not(:focus):not(:focus-within),
-.wrapper__3412a:hover:not(:focus):not(:focus-within):not([data-disabled=true]),
+.wrapper__72c38:hover:not(:focus):not(:focus-within):not([data-disabled=true]),
 .input__0ed4f:not(.disabled__0ed4f, .nameInputInnerWithEmojiPicker__0511a, .inputWrapperWithEmojiPicker_ac72c6, .inputInnerWithEmojiPicker_ac72c6, .tagInput_a84c50, .multiInputField_b404ff, .textarea__9daae, .traitInput__4cbea, .note_fcb628 textarea, .inputField_d64f22, .fieldBackground_d48a51, .inputInner_a97616, .input_cedfaf, .input__72ba7, .descriptionInput__5579e, .clipTitleInput__1d12e, .defaultTextInput__7b848, .searchBox_d727b3 .searchBoxInput_d727b3, .input__72ba7, .title_d9be46, .messageInput_f2c0a8, .textarea_dde0a8):hover:not(:focus):not(:focus-within) {
 	border-color: var(--deprecated-text-input-border);
 }
@@ -10184,10 +10188,6 @@ div.cardContainer__88e24,
 	padding-left: 0;
 }
 
-.vc-shc-topic-container,
-.vc-shc-default-emoji-container,
-.vc-shc-tags-container,
-.vc-shc-allowed-users-and-roles-container,
 .theme-dark.custom-theme-background .replyBar__841c8,
 .theme-dark.custom-theme-background .threadSuggestionBar__841c8,
 .theme-dark.custom-theme-background .stackedBars__74017 {
@@ -11340,6 +11340,7 @@ rect[fill="brand-200"] {
 .card__6df1a,
 .fortniteUpsellModalButton__49094,
 .previews__4d307 li,
+.productCardContainer_fcbddd,
 .header_d43202 {
 	border: none;
 	box-shadow: none;
@@ -12597,13 +12598,13 @@ svg[color="var(--brand-500)"] {
 	padding: calc(var(--space-8) - 1px) calc(var(--space-12) - 1px);
 }
 
-.controls__1feb0:has(.wrapper__3412a) .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0,
+.controls__1feb0:has(.wrapper__72c38) .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0,
 .header__41ed7 .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0 {
 	padding: calc(var(--space-10) - 1px) calc(var(--space-12) - 1px);
 }
 
 .header_c0e32c:has(.container__5a838) .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0,
-.blockHeader__08415:has(.wrapper__3412a) .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0,
+.blockHeader__08415:has(.wrapper__72c38) .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0,
 .actionBarLeading__8a031:has(.messageInput__8ff3e)+.actionBarTrailing__8a031 .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0,
 .searchButton__4b8d8 .md_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0 {
 	padding: calc(var(--space-12) - 1px) calc(var(--space-12) - 1px);
@@ -13329,7 +13330,7 @@ svg.thumbnail__0f2e8 {
 	border-color: var(--backgroundDark-20) !important;
 }
 
-.xenoLib-multiInput .wrapper__3412a,
+.xenoLib-multiInput .wrapper__72c38,
 [style="position: relative; display: flex; align-items: center; background-color: var(--background-base-low); border-radius: 10px; padding: 2px 6px; overflow: visible;"],
 [style="position: absolute; top: 12px; right: 12px; width: 20px; height: 20px; display: flex; align-items: center; justify-content: center; border-radius: 50%; opacity: 0.8; background-color: var(--background-base-low); color: var(--text-default); cursor: pointer; transition: 0.2s;"] {
 	background-color: rgba(0, 0, 0, 0) !important;
@@ -13952,13 +13953,17 @@ svg.thumbnail__0f2e8 {
 	color: var(--primary) !important;
 }
 
+.listItem__650eb:has(.childWrapper__6e9f8.acronym__6e9f8) .numberBadge__2b1f5,
+.listItem__650eb:has(.childWrapper__6e9f8 .container__1ce5d) .numberBadge__2b1f5 {
+	transition: scale .15s ease-out, background-color .15s ease-out, color .15s ease-out;
+}
+
 .listItem__650eb:has(.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8.acronym__6e9f8) .numberBadge__2b1f5,
 .listItem__650eb:has(.wrapper__6e9f8:hover .childWrapper__6e9f8.acronym__6e9f8) .numberBadge__2b1f5,
 .listItem__650eb:has(.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 .container__1ce5d) .numberBadge__2b1f5,
 .listItem__650eb:has(.wrapper__6e9f8:hover .childWrapper__6e9f8 .container__1ce5d) .numberBadge__2b1f5 {
 	background-color: #fff !important;
 	color: var(--primary);
-	transition: scale .15s ease-out, background-color .15s ease-out, color .15s ease-out;
 }
 
 .theme-light .removeGameButton_a62a28 {
