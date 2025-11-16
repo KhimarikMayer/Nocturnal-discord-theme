@@ -13763,3 +13763,25 @@ svg.thumbnail__0f2e8 {
 		color: #fff;
 	}
 }
+
+.theme-dark .footerGradient_fcbddd {
+	background: linear-gradient(to top,var(--backgroundDarker-alt),color-mix(in oklab,var(--backgroundDarker-alt) 80%,rgba(0, 0, 0, 0)) 30%,color-mix(in oklab,var(--backgroundDarker-alt) 0%,rgba(0, 0, 0, 0)) 100%);
+}
+
+@keyframes pulse_e4f643 {
+	0% {
+		background-color: var(--backgroundDarker-alt);
+	}
+
+	30% {
+		background-color: var(--backgroundDarker);
+	}
+
+	70% {
+		background-color: var(--backgroundDarker);
+	}
+
+	100% {
+		background-color: var(--backgroundDarker-alt);
+	}
+}
