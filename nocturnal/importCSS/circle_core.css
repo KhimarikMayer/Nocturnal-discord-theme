@@ -96,6 +96,9 @@
 	--mentioned-messages: hsl(197 calc(var(--saturation-factor)*100%) 48% /0.15);
 	--buttons-active-primaryGradient1: hsl(194 calc(var(--saturation-factor)*100%) 50% /1);
 	--buttons-active-primaryGradient2: hsl(166 calc(var(--saturation-factor)*100%) 50% /1);
+	--bd-brand: #008dd9;
+	--bd-brand-hover: #007dc2;
+    --bd-brand-active: #006aab;
 	--__spoiler-background-color--hidden: var(--backgroundDark-20);
 	--__spoiler-background-color--hidden--hover: var(--backgroundDark-30);
 	--__spoiler-background-color--revealed: var(--primary-8);
@@ -219,6 +222,7 @@
 .button__71c22,
 .otherRoles__71c22 {
 	background-color: var(--backgroundDark-45);
+	border: none;
 }
 
 .modal__7f8f5,
@@ -2154,6 +2158,9 @@ svg[name=Nitro] g path {
 	transition: border-color .17s ease;
 }
 
+.lookOutlined__201d5.colorWhite__201d5:hover:not([disabled]),
+.button__7ba6e:hover:not([disabled]),
+.lookOutlined__201d5.colorPrimary__201d5:hover:not([disabled]),
 .lookOutlined__201d5.hoverBrand__252e8.hasHover_dfa15e:hover,
 .button__7ba6e:not([disabled]):hover {
 	border-color: #fff !important;
@@ -11082,7 +11089,6 @@ rect[fill="brand-200"] {
 .iconContainer_a2844c,
 .right__58ae6,
 .rightContent__58ae6,
-.jumpButton_e8b59c,
 .jumpButton_ed0c8c,
 .jumpButton_ed0c8c:hover,
 .overviewContainerWithVideo__95856,
@@ -11591,6 +11597,12 @@ rect[fill="brand-200"] {
 .listBoxItem__2e223:focus:not([aria-disabled]),
 .mouse-mode .listBoxItem__2e223:hover:not([aria-disabled]),
 .previews__4d307 .reactions__4d307,
+.itemContainer__1bb32:active,
+.itemContainer__1bb32:hover,
+.itemContainer__1bb32[aria-selected=true],
+.answerPill__1bb32,
+.filterPill__1bb32,
+.divider__1bb32,
 .overlay_c0bea0 .divider__23eb0 {
 	background-color: var(--backgroundDark-20);
 	border: none;
@@ -13788,4 +13800,14 @@ svg.thumbnail__0f2e8 {
 	100% {
 		background-color: var(--backgroundDarker-alt);
 	}
+}
+
+.container_f1c5c9 {
+	background-color: var(--backgroundDark);
+	border: none;
+	padding-right: 2px !important;
+}
+
+.item__1bb32 {
+	mask-image: linear-gradient(to right,var(--backgroundDark) 90%,rgba(0, 0, 0, 0) 100%);
 }
