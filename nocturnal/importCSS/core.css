@@ -9964,6 +9964,8 @@ html:not(.chat-input) .inputInner_b1f01d,
 .card_e1364f:has(.removeGameButton_e1364f):hover:before,
 .keyboard-mode .card_e1364f:has(.removeGameButton_e1364f):has(.removeGameButton_e1364f:focus):before,
 .tag_cdb3b1,
+.focused__97e86,
+.item__97e86:hover:not(.disabled__97e86),
 .separator_f84418 {
 	background-color: var(--backgroundDark-20);
 	border: none;
@@ -12233,6 +12235,8 @@ rect[fill="brand-200"] {
 	--custom-message-margin-horizontal-for-threads: 24px;
 	--custom-message-margin-horizontal-for-chat-avatars: 22px;
 	--custom-message-margin-horizontal-for-decorations: 20px;
+	--custom-message-margin-horizontal-for-decorations-on-previews: 18px;
+	--custom-message-margin-horizontal-for-decorations-on-previews2: 0px;
 	--custom-message-margin-horizontal-for-reply-spines: 16px;
 	--avatar-widthes-for-automod-messages: 68px;
 }
@@ -12242,6 +12246,8 @@ rect[fill="brand-200"] {
 	--custom-message-margin-horizontal-for-threads: 20px;
 	--custom-message-margin-horizontal-for-chat-avatars: 18px;
 	--custom-message-margin-horizontal-for-decorations: 16px;
+	--custom-message-margin-horizontal-for-decorations-on-previews: 14px;
+	--custom-message-margin-horizontal-for-decorations-on-previews2: -4px;
 	--custom-message-margin-horizontal-for-reply-spines: 12px;
 	--avatar-widthes-for-automod-messages: 64px;
 }
@@ -12251,6 +12257,8 @@ rect[fill="brand-200"] {
 	--custom-message-margin-horizontal-for-threads: 16px;
 	--custom-message-margin-horizontal-for-chat-avatars: 14px;
 	--custom-message-margin-horizontal-for-decorations: 12px;
+	--custom-message-margin-horizontal-for-decorations-on-previews: 10px;
+	--custom-message-margin-horizontal-for-decorations-on-previews2: -8px;
 	--custom-message-margin-horizontal-for-reply-spines: 8px;
 	--avatar-widthes-for-automod-messages: 60px;
 }
@@ -14110,4 +14118,10 @@ svg.thumbnail__0f2e8 {
 
 .item__1bb32 {
 	mask-image: linear-gradient(to right,var(--backgroundDark) 90%,rgba(0, 0, 0, 0) 100%);
+}
+
+.theme-dark .preview__3e443 .avatarDecoration_c19a55,
+.theme-dark .preview__5d148 .avatarDecoration_c19a55 {
+	left: var(--custom-message-margin-horizontal-for-decorations-on-previews);
+	margin-top: var(--custom-message-margin-horizontal-for-decorations-on-previews2);
 }
