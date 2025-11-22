@@ -11987,7 +11987,6 @@ rect[fill="brand-200"] {
 	--custom-message-margin-horizontal-for-threads: 24px;
 	--custom-message-margin-horizontal-for-chat-avatars: 22px;
 	--custom-message-margin-horizontal-for-decorations: 20px;
-	--custom-message-margin-horizontal-for-decorations-on-previews: 18px;
 	--custom-message-margin-horizontal-for-reply-spines: 16px;
 	--avatar-widthes-for-automod-messages: 68px;
 }
@@ -11997,7 +11996,6 @@ rect[fill="brand-200"] {
 	--custom-message-margin-horizontal-for-threads: 20px;
 	--custom-message-margin-horizontal-for-chat-avatars: 18px;
 	--custom-message-margin-horizontal-for-decorations: 16px;
-	--custom-message-margin-horizontal-for-decorations-on-previews: 14px;
 	--custom-message-margin-horizontal-for-reply-spines: 12px;
 	--avatar-widthes-for-automod-messages: 64px;
 }
@@ -12007,7 +12005,6 @@ rect[fill="brand-200"] {
 	--custom-message-margin-horizontal-for-threads: 16px;
 	--custom-message-margin-horizontal-for-chat-avatars: 14px;
 	--custom-message-margin-horizontal-for-decorations: 12px;
-	--custom-message-margin-horizontal-for-decorations-on-previews: 10px;
 	--custom-message-margin-horizontal-for-reply-spines: 8px;
 	--avatar-widthes-for-automod-messages: 60px;
 }
@@ -12084,11 +12081,6 @@ rect[fill="brand-200"] {
 
 .theme-dark .avatarDecoration_c19a55 {
 	left: var(--custom-message-margin-horizontal-for-decorations);
-}
-
-.theme-dark .preview__3e443 .avatarDecoration_c19a55,
-.theme-dark .preview__5d148 .avatarDecoration_c19a55 {
-	left: var(--custom-message-margin-horizontal-for-decorations-on-previews);
 }
 
 .theme-dark .image__509fe,
