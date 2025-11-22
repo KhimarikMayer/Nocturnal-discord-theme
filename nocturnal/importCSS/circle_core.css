@@ -11035,6 +11035,7 @@ rect[fill="brand-200"] {
 .headerContainer_b0ba57,
 .modal_e44912,
 .scroller__3b295,
+.footer__7f727,
 .mediaMosaicAltText__0f481:active {
 	background-color: var(--backgroundDark);
 }
@@ -11248,6 +11249,10 @@ rect[fill="brand-200"] {
 .option__81345:hover,
 .clickable__19fd1:hover {
 	background-color: var(--backgroundDark-25);
+}
+
+.addButtonContainer__4a011:has(.addButtonContent__4a011:active) {
+	background-color: var(--backgroundDark-35);
 }
 
 .option__81345[data-selected=true] {
