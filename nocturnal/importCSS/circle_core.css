@@ -2938,6 +2938,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 
 .moreSubscribers_a36dee {
 	background-color: rgba(0, 0, 0, 0);
+	margin-left: -6px;
 }
 
 .progressBar_c44edb mask {
@@ -8563,11 +8564,11 @@ rect[fill="var(--control-brand-foreground)"] {
 .popout__7fe3a,
 .mainPageScroller_ca1a02,
 .allPerksScroller_ca1a02,
-.leftArrow__3cf14,
-.rightArrow__3cf14,
-.inactiveArrow__3cf14,
-.leftArrow__3cf14:hover,
-.rightArrow__3cf14:hover,
+.theme-dark .leftArrow__3cf14,
+.theme-dark .rightArrow__3cf14,
+.theme-dark .inactiveArrow__3cf14,
+.theme-dark .leftArrow__3cf14:hover,
+.theme-dark .rightArrow__3cf14:hover,
 .colorDefault_XdNdIp .bg_8df5St,
 .wrapper_e9b191,
 .user-profile-popout:not(.custom-user-profile-theme) .inner_c0bea0,
@@ -9290,9 +9291,9 @@ html:not(.chat-input) .inputInner_b1f01d,
 	background-image: linear-gradient(to right, var(--backgroundDarker), hsl(var(--backgroundDarker-hsl) / .4) 90%, rgba(0, 0, 0, 0));
 }
 
-.leftArrow__3cf14,
-.rightArrow__3cf14,
-.inactiveArrow__3cf14 {
+.theme-dark .leftArrow__3cf14,
+.theme-dark .rightArrow__3cf14,
+.theme-dark .inactiveArrow__3cf14 {
 	background-color: var(--backgroundDarker);
 }
 
@@ -9304,10 +9305,6 @@ html:not(.chat-input) .inputInner_b1f01d,
 	.card__3cf14 {
 		padding-right: 4px !important;
 	}
-}
-
-.inactiveArrow__3cf14 .arrowIcon__3cf14 {
-	fill: var(--backgroundDarker);
 }
 
 .colorDefault_c1e9c4:not(.colorDanger_c1e9c4).focused_c1e9c4 .check_c1e9c4,
@@ -10496,8 +10493,6 @@ rect[fill="brand-200"] {
 .container__956c6,
 .button__14992,
 .floatingUpsell__9d295,
-.fractionalPremiumAccountCredit__94f72,
-.premiumSubscriptionAccountCredit__94f72,
 .joinOptions__959cb,
 .rules__92677,
 .greyedOut__83ef9,
@@ -11125,6 +11120,7 @@ rect[fill="brand-200"] {
 .fortniteUpsellModalButton__49094,
 .previews__4d307 li,
 .productCardContainer_fcbddd,
+.premiumBrandRefreshContainer__0687d,
 .header_d43202 {
 	border: none;
 	box-shadow: none;
@@ -11153,6 +11149,8 @@ rect[fill="brand-200"] {
 .nonLatinDisclaimer_fc7677,
 .container__7700a,
 .upsellsContainer__2c3b4,
+.container__99d5f,
+.fractionalTimeRemainingRow__94f72,
 .container__5573a.active__5573a,
 .container__5573a.warning__5573a,
 .parentContainer__5573a:hover .container__5573a.active__5573a {
@@ -11770,6 +11768,8 @@ rect[fill="brand-200"] {
 	border-radius: 0;
 }
 
+.fractionalPremiumAccountCredit__94f72,
+.premiumSubscriptionAccountCredit__94f72,
 .heroAssetCont_c93f8c,
 .container__96554,
 .badgeGradientWrapper__89307,
@@ -13226,12 +13226,16 @@ svg.thumbnail__0f2e8 {
 	font-size: 18px;
 }
 
-.theme-light .tooltip__4e35b {
+.theme-light .tooltip__4e35b,
+.theme-light .popover_d6f39b,
+.theme-light .popoverGradientWrapper_d6f39b {
 	background-color: var(--background-surface-high);
 	box-shadow: inset 0 0 0 1px var(--border-subtle), var(--shadow-high);
 }
 
-.theme-light .caretIcon__4e35b .caretFill__4e35b {
+.theme-light .caretIcon__4e35b .caretFill__4e35b,
+.theme-light .caretIcon_d6f39b .caretFill_d6f39b,
+.theme-light .keyboard-mode .focusFill_cc5dd2 {
 	fill: var(--background-surface-high);
 }
 
