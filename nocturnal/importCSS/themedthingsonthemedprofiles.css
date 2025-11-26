@@ -338,3 +338,8 @@
 .custom-user-profile-theme .outer_ab8609 {
 	box-shadow: 0 1px 4px 0 hsl(none 0% 0%/0.14);
 }
+
+.custom-user-profile-theme .removeGameButton_a62a28,
+.custom-user-profile-theme .removeItemButton__39b32 {
+	border: none !important;
+}
