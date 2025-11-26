@@ -6722,10 +6722,8 @@ rect[fill="rgb(123,162,255)"] {
 	padding: 10px;
 }
 
-.acronym__45314,
-.toast.toast-success {
-	background-color: var(--primary) !important;
-	border-color: var(--primary);
+.acronym__45314 {
+	background-color: var(--primary);
 }
 
 .conversationMessage__3c425.viewMoreReplies_f4e3ab {
@@ -7315,6 +7313,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .clipFormSection__54978:not(:first-child),
 .userContainer__7bd4e,
 .paginationContainer__6db1d,
+.paginationContainer__70c55,
 .emptyPagination__812fd,
 .container__41445,
 .settingsTabBar_f62afd,
@@ -7395,6 +7394,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .footer__57c71,
 .divider__1fcac,
 .toolbarGroup_ab2592:not(:first-child),
+.content__7e354.opened__7e354,
 .table_e7d73e {
 	border-color: var(--backgroundDark-20);
 }
@@ -9619,6 +9619,7 @@ path[fill="var(--bg-brand)"] {
 .contentContainer_f8758b,
 .modal__49777:not(.root__9c3be),
 .container_cec934,
+.accordionContainer__7e354,
 .overflowCount__68334 {
 	background-color: var(--backgroundDarker);
 	border: none;
@@ -11775,6 +11776,7 @@ rect[fill="brand-200"] {
 .badgeGradientWrapper__89307,
 .container__5acc9,
 .bd-error-toggle-wrapper,
+.headerIconWrapper__7e354,
 .expandedContainer__9d98d,
 .groupHeader__9d98d {
 	background-color: var(--backgroundDarker-alt);
@@ -13675,15 +13677,26 @@ svg.thumbnail__0f2e8 {
 }
 
 .listItem__650eb:has(.childWrapper__6e9f8.acronym__6e9f8) .numberBadge__2b1f5,
-.listItem__650eb:has(.childWrapper__6e9f8 .container__1ce5d) .numberBadge__2b1f5 {
+.listItem__650eb:has(.childWrapper__6e9f8 .container__1ce5d) .numberBadge__2b1f5,
+.listItem__650eb:has(.childWrapper__6e9f8.acronym__6e9f8) .pauseBackground_d70e0d,
+.listItem__650eb:has(.childWrapper__6e9f8 .container__1ce5d) .pauseBackground_d70e0d,
+.listItem__650eb:has(.childWrapper__6e9f8.acronym__6e9f8) .pause_d70e0d,
+.listItem__650eb:has(.childWrapper__6e9f8 .container__1ce5d) .pause_d70e0d {
 	transition: scale .15s ease-out, background-color .15s ease-out, color .15s ease-out;
 }
 
 .listItem__650eb:has(.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8.acronym__6e9f8) .numberBadge__2b1f5,
 .listItem__650eb:has(.wrapper__6e9f8:hover .childWrapper__6e9f8.acronym__6e9f8) .numberBadge__2b1f5,
 .listItem__650eb:has(.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8 .container__1ce5d) .numberBadge__2b1f5,
-.listItem__650eb:has(.wrapper__6e9f8:hover .childWrapper__6e9f8 .container__1ce5d) .numberBadge__2b1f5 {
+.listItem__650eb:has(.wrapper__6e9f8:hover .childWrapper__6e9f8 .container__1ce5d) .numberBadge__2b1f5,
+.listItem__650eb:has(.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8.acronym__6e9f8) .pauseBackground_d70e0d,
+.listItem__650eb:has(.wrapper__6e9f8:hover .childWrapper__6e9f8.acronym__6e9f8) .pauseBackground_d70e0d {
 	background-color: #fff !important;
+	color: var(--primary);
+}
+
+.listItem__650eb:has(.wrapper__6e9f8.selected__6e9f8 .childWrapper__6e9f8.acronym__6e9f8) .pause_d70e0d,
+.listItem__650eb:has(.wrapper__6e9f8:hover .childWrapper__6e9f8.acronym__6e9f8) .pause_d70e0d {
 	color: var(--primary);
 }
 
