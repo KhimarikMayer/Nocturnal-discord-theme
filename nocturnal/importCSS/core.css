@@ -2580,6 +2580,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 }
 
 .bd-toast {
+	background-color: var(--backgroundDark);
 	--toast-bg: var(--backgroundDark);
 }
 
@@ -8494,7 +8495,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .skeleton__08415,
 .editCard_a25a68 .backgroundContainer_eaaeee,
 .shopCardDark_c3d04b,
-.container_b5b7aa,
+.theme-dark .container_b5b7aa,
 .shopAll__08415:hover,
 .bannerImage_cb32c7,
 .pill_f7c056,
@@ -12481,6 +12482,7 @@ rect[fill="#D3D6ED"] {
 .redDot_cbe0b4,
 .theme__11877.themeToggled__11877,
 .freeTrialPill_ac86f6.greyBackgroundPill_ac86f6,
+.bd-toast.toast-success,
 .newlyAddedBadge_fc7141 {
 	background-color: var(--primary);
 }
