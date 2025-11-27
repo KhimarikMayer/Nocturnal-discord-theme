@@ -2580,7 +2580,6 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 }
 
 .bd-toast {
-	background-color: var(--backgroundDark);
 	--toast-bg: var(--backgroundDark);
 }
 
@@ -4625,7 +4624,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 }
 
 .vs-dark .monaco-scrollable-element>.scrollbar>.slider {
-	background-color: rgba(0, 0, 0, 0)
+	background: rgba(0, 0, 0, 0)
 }
 
 .tag_fe5e5d {
@@ -7546,6 +7545,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .divider__1fcac,
 .toolbarGroup_ab2592:not(:first-child),
 .content__7e354.opened__7e354,
+.bd-editor-footer,
 .table_e7d73e {
 	border-color: var(--backgroundDark-20);
 }
@@ -8990,8 +8990,7 @@ div.cardContainer__88e24,
 
 .giftButton_f3c9fa,
 .resolvingFakeButton_d5f3cd,
-.placeholderItem__87dda.entryPointAppCommandPlaceholder__87dda,
-.bd-button {
+.placeholderItem__87dda.entryPointAppCommandPlaceholder__87dda {
 	border-radius: 6px;
 }
 
@@ -11350,7 +11349,6 @@ rect[fill="brand-200"] {
 .bd-error-container,
 .theme-dark .separator__2e257,
 .container_a1d343,
-.bd-radio-option,
 .collapseable__9d98d:not(.appDetailsSection__50a54),
 .wrapper__5c108,
 .embedContainer__03498,
@@ -11368,11 +11366,11 @@ rect[fill="brand-200"] {
 }
 
 .bd-radio-option:hover {
-	background-color: var(--backgroundDark-25);
+	background-color: var(--backgroundDark-15);
 }
 
 .bd-radio-option.bd-radio-selected {
-	background-color: var(--backgroundDark-35);
+	background-color: var(--backgroundDark-25);
 }
 
 .perkCard_b62c4e,
@@ -11671,6 +11669,7 @@ rect[fill="brand-200"] {
 	margin-left: -4px;
 }
 
+.bd-container,
 .roleStylePreviewContainer__981c8.selected__981c8,
 .roleStyleMessageContainer__981c8 {
 	background-color: var(--backgroundDarker);
@@ -11848,6 +11847,7 @@ rect[fill="brand-200"] {
 .answerPill__1bb32,
 .filterPill__1bb32,
 .divider__1bb32,
+#bd-editor-controls button:hover,
 .overlay_c0bea0 .divider__23eb0 {
 	background-color: var(--backgroundDark-20);
 	border: none;
@@ -12482,7 +12482,7 @@ rect[fill="#D3D6ED"] {
 .redDot_cbe0b4,
 .theme__11877.themeToggled__11877,
 .freeTrialPill_ac86f6.greyBackgroundPill_ac86f6,
-.bd-toast.toast-success,
+.bd-box.selected,
 .newlyAddedBadge_fc7141 {
 	background-color: var(--primary);
 }
@@ -12894,6 +12894,7 @@ svg[color="var(--brand-500)"] {
 
 .ukTeenDisclaimer__3b923,
 .card__39ec2:not(.container__43a4b, :has([style*="/assets/f6833ce4dd20c1fb.svg"], [style*="/assets/c4f09fda61827e19.svg"], [style*="/assets/487de5256b2ae540.svg"], [src="https://media.discordapp.net/external/4TsMfRvpZjLCRZY-ACo0gJni6s-kLOZ41Y80QCDmpeE/https/m.media-amazon.com/images/I/31B2Nyzd8XL.png"])),
+.clickableContainer__39ec2:hover>.card__39ec2:not(.container__43a4b, :has([style*="/assets/f6833ce4dd20c1fb.svg"], [style*="/assets/c4f09fda61827e19.svg"], [style*="/assets/487de5256b2ae540.svg"], [src="https://media.discordapp.net/external/4TsMfRvpZjLCRZY-ACo0gJni6s-kLOZ41Y80QCDmpeE/https/m.media-amazon.com/images/I/31B2Nyzd8XL.png"])),
 .card__84832:not(:has([style*="/assets/f6833ce4dd20c1fb.svg"], [style*="/assets/c4f09fda61827e19.svg"], [style*="/assets/487de5256b2ae540.svg"], [src="https://media.discordapp.net/external/4TsMfRvpZjLCRZY-ACo0gJni6s-kLOZ41Y80QCDmpeE/https/m.media-amazon.com/images/I/31B2Nyzd8XL.png"])),
 .clickableContainer__39ec2:hover>.card__84832:not(:has([style*="/assets/f6833ce4dd20c1fb.svg"], [style*="/assets/c4f09fda61827e19.svg"], [style*="/assets/487de5256b2ae540.svg"], [src="https://media.discordapp.net/external/4TsMfRvpZjLCRZY-ACo0gJni6s-kLOZ41Y80QCDmpeE/https/m.media-amazon.com/images/I/31B2Nyzd8XL.png"])),
 .overlay_c0bea0:has(.progress__8e51c):not(:has([style*="/assets/f6833ce4dd20c1fb.svg"], [style*="/assets/c4f09fda61827e19.svg"], [style*="/assets/487de5256b2ae540.svg"], [src="https://media.discordapp.net/external/4TsMfRvpZjLCRZY-ACo0gJni6s-kLOZ41Y80QCDmpeE/https/m.media-amazon.com/images/I/31B2Nyzd8XL.png"])),
@@ -12910,6 +12911,7 @@ svg[color="var(--brand-500)"] {
 	color: var(--header-primary) !important;
 }
 
+.clickableContainer__39ec2:hover>.card__39ec2:not(.container__43a4b, :has([style*="/assets/f6833ce4dd20c1fb.svg"], [style*="/assets/c4f09fda61827e19.svg"], [style*="/assets/487de5256b2ae540.svg"], [src="https://media.discordapp.net/external/4TsMfRvpZjLCRZY-ACo0gJni6s-kLOZ41Y80QCDmpeE/https/m.media-amazon.com/images/I/31B2Nyzd8XL.png"])),
 .clickableContainer__39ec2:hover>.card__39ec2:has(.secondary_a22cb0):not(:has([style*="/assets/f6833ce4dd20c1fb.svg"], [style*="/assets/c4f09fda61827e19.svg"], [style*="/assets/487de5256b2ae540.svg"], [src="https://media.discordapp.net/external/4TsMfRvpZjLCRZY-ACo0gJni6s-kLOZ41Y80QCDmpeE/https/m.media-amazon.com/images/I/31B2Nyzd8XL.png"])),
 .clickableContainer__39ec2:hover>.card__84832:not(:has([style*="/assets/f6833ce4dd20c1fb.svg"], [style*="/assets/c4f09fda61827e19.svg"], [style*="/assets/487de5256b2ae540.svg"], [src="https://media.discordapp.net/external/4TsMfRvpZjLCRZY-ACo0gJni6s-kLOZ41Y80QCDmpeE/https/m.media-amazon.com/images/I/31B2Nyzd8XL.png"])),
 .clickableContainer__39ec2:hover>.card__39ec2:has(.progress__8e51c):not(:has([style*="/assets/f6833ce4dd20c1fb.svg"], [style*="/assets/c4f09fda61827e19.svg"], [style*="/assets/487de5256b2ae540.svg"], [src="https://media.discordapp.net/external/4TsMfRvpZjLCRZY-ACo0gJni6s-kLOZ41Y80QCDmpeE/https/m.media-amazon.com/images/I/31B2Nyzd8XL.png"])),
@@ -13963,6 +13965,7 @@ svg.thumbnail__0f2e8 {
 	border: none;
 }
 
+.bd-radio-icon,
 .verticalDivider__45776 path {
 	stroke: var(--backgroundDark-20);
 }
@@ -14144,4 +14147,32 @@ svg.thumbnail__0f2e8 {
 .theme-dark .preview__5d148 .avatarDecoration_c19a55 {
 	left: var(--custom-message-margin-horizontal-for-decorations-on-previews);
 	margin-top: var(--custom-message-margin-horizontal-for-decorations-on-previews2);
+}
+
+.bd-box {
+	background-color: var(--backgroundDarker-alt);
+	border-radius: 5px;
+}
+
+.bd-box:hover {
+	background-color: var(--primary);
+}
+
+.bd-container {
+	border-radius: 10px;
+}
+
+.bd-select .bd-select-options,
+.bd-select,
+.bd-text-input,
+.bd-keybind-wrap {
+	border-color: rgba(0, 0, 0, 0);
+}
+
+.bd-text-input:hover:not(:focus-within) {
+	border-color: var(--deprecated-text-input-border-hover);
+}
+
+#bd-editor-panel {
+	background: var(--backgroundDarker-alt);
 }
