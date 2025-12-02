@@ -2264,8 +2264,6 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	border: none;
 }
 
-.clickable_f37cb1:not(.communityInfoVisible_f37cb1):not(.hasBanner_f37cb1) .header_f37cb1:hover,
-.selected_f37cb1:not(.communityInfoVisible_f37cb1):not(.hasBanner_f37cb1) .header_f37cb1,
 .popoutHeaderContainer__260e1 .users__260e1,
 .total__260e1,
 .visual-refresh .total__260e1 {
@@ -7395,6 +7393,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .toolbarGroup_ab2592:not(:first-child),
 .content__7e354.opened__7e354,
 .bd-editor-footer,
+.statsGrid_c7a70f,
 .table_e7d73e {
 	border-color: var(--backgroundDark-20);
 }
@@ -9806,9 +9805,6 @@ div.profileThemedContainer__656be .inner_c0bea0 {
 .modalBg__45776,
 .bd-store-card-icon,
 .theme-dark :where(.bd-paginator-back, .bd-paginator-next):disabled:hover,
-.clickable_f37cb1 .header_f37cb1:hover,
-.communityInfoVisible_f37cb1 .header_f37cb1,
-.hasBanner_f37cb1 .header_f37cb1,
 .channelAttachmentArea_b77158,
 .rows_b1c9f2,
 .modalContent__45776,
@@ -10895,6 +10891,9 @@ rect[fill="brand-200"] {
 .container__0d0f9,
 .winButtonsWithDivider_c38106:before,
 .container_a592e1,
+.header_f37cb1,
+.bannerVisible_f37cb1 .header_f37cb1,
+.bannerVisible_f37cb1 .headerGlass_f37cb1,
 .coachmarkFooterContainer__5a2df {
 	border-color: var(--backgroundDark-25);
 }
@@ -11121,6 +11120,7 @@ rect[fill="brand-200"] {
 .previews__4d307 li,
 .productCardContainer_fcbddd,
 .premiumBrandRefreshContainer__0687d,
+.container_c7a70f,
 .header_d43202 {
 	border: none;
 	box-shadow: none;
@@ -11151,6 +11151,7 @@ rect[fill="brand-200"] {
 .upsellsContainer__2c3b4,
 .container__99d5f,
 .fractionalTimeRemainingRow__94f72,
+.gameIconLoading_b52e4f,
 .container__5573a.active__5573a,
 .container__5573a.warning__5573a,
 .parentContainer__5573a:hover .container__5573a.active__5573a {
@@ -11339,7 +11340,6 @@ rect[fill="brand-200"] {
 .modalFooter__08bd2,
 .bar__7aaec,
 .rippleContainer_a8e786,
-.bannerVisible_f37cb1 .headerGlass_f37cb1,
 :where(.banner__68edb):before,
 .gameIconImage__4e338,
 .bannerBlockContainer__08415,
@@ -11610,6 +11610,8 @@ rect[fill="brand-200"] {
 .filterPill__1bb32,
 .divider__1bb32,
 #bd-editor-controls button:hover,
+.game_f74169:hover,
+.divider_c7a70f,
 .overlay_c0bea0 .divider__23eb0 {
 	background-color: var(--backgroundDark-20);
 	border: none;
@@ -11632,13 +11634,10 @@ rect[fill="brand-200"] {
 .divider__1feb0,
 .playing_a8e786 .playbackRateContainer_a8e786:hover .playbackRate_a8e786,
 .vc-permviewer-modal-divider,
+.invitesRefresh_f37cb1 .inviteButton_f37cb1:hover,
+.invitesRefresh_f37cb1 .guildDropdown_f37cb1:hover,
 .messageRequestItem_abb9ad.selected_f391e3 {
 	background-color: var(--backgroundDark-25);
-}
-
-.bannerVisible_f37cb1:hover .headerGlass_f37cb1,
-.bannerVisible_f37cb1 .headerGlass_f37cb1 {
-	opacity: 0 !important;
 }
 
 .memberRowContainer__71c22.memberSelected__71c22 td {
