@@ -10002,7 +10002,6 @@ html:not(.chat-input) .inputInner_b1f01d,
 .theme-dark :where(.bd-paginator-back, .bd-paginator-next):disabled:hover,
 .channelAttachmentArea_b77158,
 .rows_b1c9f2,
-.modalContent__45776,
 .container_e928f4:before,
 .sidebarCard_b962dc,
 .folderIconContent__93fc9,
@@ -11850,6 +11849,8 @@ rect[fill="brand-200"] {
 #bd-editor-controls button:hover,
 .game_f74169:hover,
 .divider_c7a70f,
+.contentHeaderGameInfoHoverable__45776:hover,
+.dotSpacer__45776,
 .overlay_c0bea0 .divider__23eb0 {
 	background-color: var(--backgroundDark-20);
 	border: none;
@@ -12294,6 +12295,7 @@ rect[fill="brand-200"] {
 .wishlistButton__979b1,
 .queryContainer__55c99,
 .partnerGameTile__7eb2b,
+.modalBodyWithBorder__45776,
 .joinOptionContent__959cb {
 	border: none;
 }
@@ -14032,6 +14034,7 @@ svg.thumbnail__0f2e8 {
 	margin-right: 16px;
 }
 
+.modalContent__45776,
 .previewCards__4671c .chatMessage__4671c {
 	background-color: var(--backgroundDark) !important;
 	border: none;
