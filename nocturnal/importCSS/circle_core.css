@@ -244,9 +244,6 @@
 .actionButton_f8fa06.highlight_f8fa06,
 .actionButton_f8fa06:active,
 .friendRequestsButton__523aa:hover,
-.primary__06eda:hover:not(.disabled__06eda),
-.secondary__06eda:hover:not(.disabled__06eda),
-.tertiary__06eda:hover:not(.disabled__06eda),
 .rowItem_a0365b.active_a0365b .actionButton_d9752c,
 .rowItem_a0365b:hover .actionButton_d9752c,
 .actionButton_d9752c:active,
@@ -3218,21 +3215,21 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 }
 
 .liveQualityIndicator__30845,
-.base__2b1f5[style*="brand-500"],
 .newBadge__29021,
 .clipBadgeIcon__8c88a,
 .newBadge__8fea4,
-.textBadge__2b1f5[style*="background-color: rgb(218, 55, 60);"],
-.textBadge__2b1f5[style*="background-color: rgb(88, 101, 242);"],
-.textBadge__2b1f5[style*="background-color: var(--background-accent);"],
-.textBadge__2b1f5[style*="background-color: var(--status-danger-background);"],
-[style*="background-color: var(--bg-brand);"],
-.textBadge__2b1f5[style*="background-color: var(--red-400);"],
-.textBadge__2b1f5[style*="background-color: var(--status-danger);"],
-[style*="background-color: var(--brand-500);"],
-.textBadge__2b1f5[style*="background-color: var(--button-danger-background);"],
-[style*="background-color: var(--badge-brand-text);"],
-.maskBackground_db811b[style*="background-color: var(--background-accent);"] {
+.textBadge__2b1f5[style="background-color: rgb(218, 55, 60);"],
+.textBadge__2b1f5[style="background-color: rgb(88, 101, 242);"],
+.textBadge__2b1f5[style="background-color: var(--background-accent);"],
+.textBadge__2b1f5[style="background-color: var(--status-danger-background);"],
+.textBadge__2b1f5[style="background-color: var(--bg-brand);"],
+.textBadge__2b1f5[style="background-color: var(--red-400);"],
+.textBadge__2b1f5[style="background-color: var(--status-danger);"],
+.textBadge__2b1f5[style="background-color: var(--brand-500);"],
+.textBadge__2b1f5[style="background-color: var(--button-danger-background);"],
+.textBadge__2b1f5[style="background-color: var(--control-background-critical-primary-default);"],
+.textBadge__2b1f5[style="background-color: var(--badge-brand-text);"],
+.maskBackground_db811b[style="background-color: var(--background-accent);"] {
 	background-color: var(--primary) !important;
 }
 
@@ -4658,9 +4655,9 @@ html.theme-light .app__160d8::after {
 	display: none;
 }
 
-.icon__6b38f[style*="background-color: var(--brand-500)"],
+.icon__6b38f[style="background-color: var(--brand-500)"],
 .raisedHandCount__15cd2,
-.iconBadge_ab6641[style*="background-color: var(--status-danger);"] {
+.iconBadge_ab6641[style="background-color: var(--status-danger);"] {
 	background-color: var(--primary) !important;
 }
 
@@ -4920,7 +4917,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 
 .boostCard__89307,
 .profileCard__89307,
-.background_fb62e2[style*="background-color: var(--primary-800);"] {
+.background_fb62e2[style="background-color: var(--primary-800);"] {
 	background-color: var(--backgroundDark) !important;
 }
 
@@ -4978,6 +4975,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 .categories_f69601,
 .planComparisonTable_c880e8,
 .page__91dc3,
+.contentWidth_c6bf1b,
 .homeContainer__73533,
 .wrapper_f21046,
 .banner__62eb1,
@@ -5880,8 +5878,6 @@ circle[fill="var(--brand-500)"],
 .viewWrapper_a39aa3,
 .content_da3f59,
 .closeContentNotMobile_dcb2cf,
-.page__91dc3,
-.contentWidth_c6bf1b,
 .homeContent_b6949a,
 .widgets__07407,
 .item_ed6d69,
@@ -7521,16 +7517,16 @@ h3.improved__1689b:after,
 	background-color: var(--text-senary);
 }
 
-[style*="background-color: var(--brand-260);"] {
+[style="background-color: var(--brand-260);"] {
 	background-color: var(--nonary) !important;
 }
 
-[style*="background-color: var(--mention-foreground);"] {
+[style="background-color: var(--mention-foreground);"] {
 	background-color: var(--denaryformentions) !important;
 }
 
-[style*="background-color: rgba(201, 205, 251);"],
-[style*="background-color: var(--badge-brand-bg);"] {
+[style="background-color: rgba(201, 205, 251);"],
+[style="background-color: var(--badge-brand-bg);"] {
 	background-color: var(--denary) !important;
 }
 
@@ -8014,7 +8010,7 @@ h3.improved__1689b:after,
 	padding: 10px;
 }
 
-[style*="background-color: var(--redesign-button-primary-background);"] {
+[style="background-color: var(--redesign-button-primary-background);"] {
 	background-color: var(--primary) !important;
 }
 
@@ -9022,7 +9018,6 @@ html:not(.chat-input) .inputInner_b1f01d,
 	mask: none;
 }
 
-.bd-modal-content,
 .scrollSection__35455,
 .contentContainer_c94584,
 .divider_d37396,
@@ -10249,21 +10244,21 @@ rect[fill="brand-230"] {
 	fill: var(--denary);
 }
 
-[style*="background-color: var(--control-brand-foreground);"] {
+[style="background-color: var(--control-brand-foreground);"] {
 	background-color: var(--control-quinary-foreground) !important;
 }
 
-[style*="background-color: #949cf7;"],
-[style*="background-color: #93a7fd;"],
-[style*="background-color: rgba(148, 156, 247);"],
-[style*="background-color: rgba(147, 167, 253);"],
-[style*="background-color: var(--text-brand);"],
-[style*="background-color: #7a8ef9;"],
-[style*="background-color: #6a7df6;"] {
+[style="background-color: #949cf7;"],
+[style="background-color: #93a7fd;"],
+[style="background-color: rgba(148, 156, 247);"],
+[style="background-color: rgba(147, 167, 253);"],
+[style="background-color: var(--text-brand);"],
+[style="background-color: #7a8ef9;"],
+[style="background-color: #6a7df6;"] {
 	background-color: var(--text-senary) !important;
 }
 
-[style*="background-color: var(--brand-230);"] {
+[style="background-color: var(--brand-230);"] {
 	background-color: var(--denary) !important;
 }
 
@@ -10274,8 +10269,8 @@ rect[fill="brand-200"] {
 	fill: var(--undenary);
 }
 
-[style*="background-color: rgba(222, 224, 252);"],
-[style*="background-color: var(--brand-200);"] {
+[style="background-color: rgba(222, 224, 252);"],
+[style="background-color: var(--brand-200);"] {
 	background-color: var(--undenary) !important;
 }
 
@@ -12980,7 +12975,7 @@ svg.thumbnail__0f2e8 {
 }
 
 .bd-modal-content {
-	padding-right: 4px;
+	padding-right: 0;
 }
 
 .chatCounter_c47c43 {
@@ -13038,7 +13033,7 @@ svg.thumbnail__0f2e8 {
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
 }
 
-.sizeSmall__201d5[style*="background-color: rgb(74, 144, 226);"] {
+.sizeSmall__201d5[style="background-color: rgb(74, 144, 226);"] {
 	background-color: rgb(0, 167, 214) !important;
 }
 
