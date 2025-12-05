@@ -2268,7 +2268,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 [style="color: var(--text-tertiary);"],
 [style="color: var(--text-secondary);"],
 [style="color: var(--text-muted-on-default);"],
-[style="color: var(--header-secondary);"],
+[style="color: var(--text-subtle);"],
 [style="color: var(--interactive-normal);"] {
 	color: var(--header-primary) !important;
 }
