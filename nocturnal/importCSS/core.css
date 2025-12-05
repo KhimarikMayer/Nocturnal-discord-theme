@@ -2288,6 +2288,8 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	border: none;
 }
 
+.clickable_f37cb1:not(.communityInfoVisible_f37cb1):not(.hasBanner_f37cb1) .header_f37cb1:hover,
+.selected_f37cb1:not(.communityInfoVisible_f37cb1):not(.hasBanner_f37cb1) .header_f37cb1,
 .popoutHeaderContainer__260e1 .users__260e1,
 .total__260e1,
 .visual-refresh .total__260e1 {
@@ -9995,6 +9997,9 @@ html:not(.chat-input) .inputInner_b1f01d,
 .modalBg__45776,
 .bd-store-card-icon,
 .theme-dark :where(.bd-paginator-back, .bd-paginator-next):disabled:hover,
+.clickable_f37cb1 .header_f37cb1:hover,
+.communityInfoVisible_f37cb1 .header_f37cb1,
+.hasBanner_f37cb1 .header_f37cb1,
 .channelAttachmentArea_b77158,
 .rows_b1c9f2,
 .container_e928f4:before,
@@ -11578,6 +11583,7 @@ rect[fill="brand-200"] {
 .modalFooter__08bd2,
 .bar__7aaec,
 .rippleContainer_a8e786,
+.bannerVisible_f37cb1 .headerGlass_f37cb1,
 :where(.banner__68edb):before,
 .gameIconImage__4e338,
 .bannerBlockContainer__08415,
@@ -11873,6 +11879,11 @@ rect[fill="brand-200"] {
 .invitesRefresh_f37cb1 .guildDropdown_f37cb1:hover,
 .messageRequestItem_abb9ad.selected_f391e3 {
 	background-color: var(--backgroundDark-25);
+}
+
+.bannerVisible_f37cb1:hover .headerGlass_f37cb1,
+.bannerVisible_f37cb1 .headerGlass_f37cb1 {
+	opacity: 0 !important;
 }
 
 .memberRowContainer__71c22.memberSelected__71c22 td {
