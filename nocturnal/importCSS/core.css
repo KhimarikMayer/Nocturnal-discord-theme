@@ -14398,7 +14398,7 @@ svg.thumbnail__0f2e8 {
 .outer_c0bea0.custom-user-profile-theme .topSectionXbox .profileButtons,
 .outer_c0bea0 .topSectionSpotify .profileButtons,
 .outer_c0bea0 .topSectionXbox .profileButtons {
-	.themeColor_fb7f94.secondary_fb7f94,
+	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled),
 	.sm_a22cb0:hover:not(:disabled):not(.hasText_a22cb0),
 	.sm_a22cb0:hover:not(:disabled) {
 		border: 2px solid rgba(0, 0, 0, 0) !important;
@@ -14412,7 +14412,7 @@ svg.thumbnail__0f2e8 {
 .outer_c0bea0.custom-user-profile-theme .topSectionXbox .profileButtons,
 .outer_c0bea0 .topSectionSpotify .profileButtons,
 .outer_c0bea0 .topSectionXbox .profileButtons {
-	.themeColor_fb7f94.secondary_fb7f94,
+	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled),
 	.sm_a22cb0:active:not(:disabled):not(.hasText_a22cb0),
 	.sm_a22cb0:active:not(:disabled) {
 		border: 2px solid rgba(0, 0, 0, 0) !important;
