@@ -940,3 +940,15 @@
 .theme-dark [src='/assets/bd6751720573fb38.svg'] {
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/bd6751720573fb38.svg");
 }
+
+.emptyIconFriends {
+	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/no_mutuals.svg") !important;
+}
+
+.emptyIconGuilds {
+	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/houses.svg") !important;
+}
+
+.streamPreviewPlaceholder {
+	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/6b1a461f35c05c7a.svg");
+}
