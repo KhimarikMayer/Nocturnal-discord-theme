@@ -14611,6 +14611,10 @@ svg.thumbnail__0f2e8 {
 .activityIcon_b1f768,
 .reactionBtn__23977 .icon__23977,
 .reactionBtn_f8896c .icon_f8896c,
+.categoryIcon_b9ee0c,
+.categoryItemDefaultCategorySelected_b9ee0c .categoryIcon_b9ee0c,
+.categoryItemDefaultCategorySelected_b9ee0c:hover .categoryIcon_b9ee0c,
+.unicodeShortcut_b9ee0c,
 .clickable_c99c29 {
 	color: var(--primary) !important;
 }
