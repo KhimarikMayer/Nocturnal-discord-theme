@@ -14132,6 +14132,19 @@ svg.thumbnail__0f2e8 {
 	}
 }
 
+.outer_c0bea0.custom-user-profile-theme .topSectionStreaming .profileButtons,
+.outer_c0bea0 .topSectionStreaming .profileButtons {
+	.themeColor_fb7f94.secondary_fb7f94,
+	.sm_a22cb0:not(.hasText_a22cb0),
+	.sm_a22cb0 {
+		background-color: var(--backgroundDark-50) !important;
+		border: 2px solid #593695 !important;
+		border-radius: 6px !important;
+		color: var(--header-primary) !important;
+		backdrop-filter: 1px;
+	}
+}
+
 .outer_c0bea0.custom-user-profile-theme .topSectionPlaying .profileButtons,
 .outer_c0bea0 .topSectionPlaying .profileButtons {
 	.themeColor_fb7f94.secondary_fb7f94,
