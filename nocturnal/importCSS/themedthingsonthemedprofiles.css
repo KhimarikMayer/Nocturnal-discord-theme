@@ -343,3 +343,7 @@
 .custom-user-profile-theme .removeItemButton__39b32 {
 	border: none !important;
 }
+
+.custom-user-profile-theme .userInfoSection[style] {
+	border-top: 1px solid var(--profile-gradient-secondary-color) !important;
+}
