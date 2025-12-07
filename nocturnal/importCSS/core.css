@@ -661,6 +661,7 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"] {
 	color: var(--primary) !important;
 }
 
+svg.gameIcon,
 svg.gameIcon_b52e4f,
 svg.contentImage__42bf5,
 .gameUnknownImage_a3ec8a svg {
@@ -4795,6 +4796,10 @@ html.theme-light .app__160d8::after {
 	background: linear-gradient(to top right, var(--primaryGradient1), var(--primaryGradient2))
 }
 
+svg.gameIcon circle,
+svg.gameIcon path,
+svg.gameIcon g,
+svg.gameIcon rect,
 svg.gameIcon_b52e4f circle,
 svg.gameIcon_b52e4f path,
 svg.gameIcon_b52e4f g,
