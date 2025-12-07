@@ -14344,10 +14344,13 @@ svg.thumbnail__0f2e8 {
 .bannerButton_de8008,
 .staticIcon_bba883,
 .cardIcon__1a4ef path,
+.button_bba883,
 .clickable_c99c29 {
 	color: var(--primary) !important;
 }
 
+.icon__4a3a5,
+.circleIconButton__5bc7e,
 .icon__07f91,
 .caret_c1e9c4,
 .iconLayout__0c4c4:hover .clear__0c4c4,
@@ -14359,6 +14362,9 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	color: var(--primary);
 }
 
+.rowContainer__0e124 path,
+.icon__8cc9a path,
+.iconContainer__0624f path,
 .channelIcon__3ddc0 path,
 .editProfilesRow__99464 path,
 .icon_caf372 path,
