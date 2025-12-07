@@ -14029,7 +14029,7 @@ svg.thumbnail__0f2e8 {
 }
 
 .outer_c0bea0:not(.custom-user-profile-theme) .topSectionNormal .profileButtons {
-	.themeColor_fb7f94.secondary_fb7f94,
+	.themeColor_fb7f94.secondary_fb7f94:not(.color_f9d37d.banner_fb7f94),
 	.sm_a22cb0:not(.hasText_a22cb0),
 	.sm_a22cb0 {
 		background-color: var(--backgroundDark-50) !important;
@@ -14040,7 +14040,7 @@ svg.thumbnail__0f2e8 {
 }
 
 .outer_c0bea0:not(.custom-user-profile-theme) .topSectionNormal .profileButtons {
-	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled),
+	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled):not(.color_f9d37d.banner_fb7f94),
 	.sm_a22cb0:hover:not(:disabled):not(.hasText_a22cb0),
 	.sm_a22cb0:hover:not(:disabled) {
 		color: var(--header-primary) !important;
@@ -14055,7 +14055,7 @@ svg.thumbnail__0f2e8 {
 }
 
 .outer_c0bea0:not(.custom-user-profile-theme) .topSectionNormal .profileButtons {
-	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled),
+	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled):not(.color_f9d37d.banner_fb7f94),
 	.sm_a22cb0:active:not(:disabled):not(.hasText_a22cb0),
 	.sm_a22cb0:active:not(:disabled) {
 		color: var(--header-primary) !important;
@@ -14109,7 +14109,7 @@ svg.thumbnail__0f2e8 {
 .outer_c0bea0.custom-user-profile-theme .topSectionXbox .profileButtons,
 .outer_c0bea0 .topSectionSpotify .profileButtons,
 .outer_c0bea0 .topSectionXbox .profileButtons {
-	.themeColor_fb7f94.secondary_fb7f94,
+	.themeColor_fb7f94.secondary_fb7f94:not(.color_f9d37d.banner_fb7f94),
 	.sm_a22cb0:not(.hasText_a22cb0),
 	.sm_a22cb0 {
 		background-color: var(--backgroundDark-50) !important;
@@ -14124,7 +14124,7 @@ svg.thumbnail__0f2e8 {
 .outer_c0bea0.custom-user-profile-theme .topSectionXbox .profileButtons,
 .outer_c0bea0 .topSectionSpotify .profileButtons,
 .outer_c0bea0 .topSectionXbox .profileButtons {
-	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled),
+	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled):not(.color_f9d37d.banner_fb7f94),
 	.sm_a22cb0:hover:not(:disabled):not(.hasText_a22cb0),
 	.sm_a22cb0:hover:not(:disabled) {
 		border: 2px solid rgba(0, 0, 0, 0) !important;
@@ -14138,7 +14138,7 @@ svg.thumbnail__0f2e8 {
 .outer_c0bea0.custom-user-profile-theme .topSectionXbox .profileButtons,
 .outer_c0bea0 .topSectionSpotify .profileButtons,
 .outer_c0bea0 .topSectionXbox .profileButtons {
-	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled),
+	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled):not(.color_f9d37d.banner_fb7f94),
 	.sm_a22cb0:active:not(:disabled):not(.hasText_a22cb0),
 	.sm_a22cb0:active:not(:disabled) {
 		border: 2px solid rgba(0, 0, 0, 0) !important;
@@ -14150,7 +14150,7 @@ svg.thumbnail__0f2e8 {
 
 .outer_c0bea0.custom-user-profile-theme .topSectionStreaming .profileButtons,
 .outer_c0bea0 .topSectionStreaming .profileButtons {
-	.themeColor_fb7f94.secondary_fb7f94,
+	.themeColor_fb7f94.secondary_fb7f94:not(.color_f9d37d.banner_fb7f94),
 	.sm_a22cb0:not(.hasText_a22cb0),
 	.sm_a22cb0 {
 		background-color: var(--backgroundDark-50) !important;
@@ -14163,7 +14163,7 @@ svg.thumbnail__0f2e8 {
 
 .outer_c0bea0.custom-user-profile-theme .topSectionPlaying .profileButtons,
 .outer_c0bea0 .topSectionPlaying .profileButtons {
-	.themeColor_fb7f94.secondary_fb7f94,
+	.themeColor_fb7f94.secondary_fb7f94:not(.color_f9d37d.banner_fb7f94),
 	.sm_a22cb0:not(.hasText_a22cb0),
 	.sm_a22cb0 {
 		background-color: var(--backgroundDark-50) !important;
@@ -14176,7 +14176,7 @@ svg.thumbnail__0f2e8 {
 
 .outer_c0bea0.custom-user-profile-theme .topSectionPlaying .profileButtons,
 .outer_c0bea0 .topSectionPlaying .profileButtons {
-	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled),
+	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled):not(.color_f9d37d.banner_fb7f94),
 	.sm_a22cb0:hover:not(:disabled):not(.hasText_a22cb0),
 	.sm_a22cb0:hover:not(:disabled) {
 		border: 2px solid rgba(0, 0, 0, 0) !important;
@@ -14188,7 +14188,7 @@ svg.thumbnail__0f2e8 {
 
 .outer_c0bea0.custom-user-profile-theme .topSectionPlaying .profileButtons,
 .outer_c0bea0 .topSectionPlaying .profileButtons {
-	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled),
+	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled):not(.color_f9d37d.banner_fb7f94),
 	.sm_a22cb0:active:not(:disabled):not(.hasText_a22cb0),
 	.sm_a22cb0:active:not(:disabled) {
 		border: 2px solid rgba(0, 0, 0, 0) !important;
@@ -14200,9 +14200,9 @@ svg.thumbnail__0f2e8 {
 
 .outer_c0bea0.custom-user-profile-theme .topSectionPlaying .profileButtons,
 .outer_c0bea0 .topSectionPlaying .profileButtons {
-	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled),
+	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled):not(.color_f9d37d.banner_fb7f94),
 	.sm_a22cb0:hover:not(:disabled):not(.hasText_a22cb0),
-	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled),
+	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled):not(.color_f9d37d.banner_fb7f94),
 	.sm_a22cb0:active:not(:disabled):not(.hasText_a22cb0) {
 		color: var(--header-primary) !important;
 	}
@@ -14210,7 +14210,7 @@ svg.thumbnail__0f2e8 {
 
 .outer_c0bea0.custom-user-profile-theme .topSectionStreaming .profileButtons,
 .outer_c0bea0 .topSectionStreaming .profileButtons {
-	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled),
+	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled):not(.color_f9d37d.banner_fb7f94),
 	.sm_a22cb0:hover:not(:disabled):not(.hasText_a22cb0),
 	.sm_a22cb0:hover:not(:disabled) {
 		border: 2px solid rgba(0, 0, 0, 0) !important;
@@ -14222,7 +14222,7 @@ svg.thumbnail__0f2e8 {
 
 .outer_c0bea0.custom-user-profile-theme .topSectionStreaming .profileButtons,
 .outer_c0bea0 .topSectionStreaming .profileButtons {
-	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled),
+	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled):not(.color_f9d37d.banner_fb7f94),
 	.sm_a22cb0:active:not(:disabled):not(.hasText_a22cb0),
 	.sm_a22cb0:active:not(:disabled) {
 		border: 2px solid rgba(0, 0, 0, 0) !important;
@@ -14234,9 +14234,9 @@ svg.thumbnail__0f2e8 {
 
 .outer_c0bea0.custom-user-profile-theme .topSectionStreaming .profileButtons,
 .outer_c0bea0 .topSectionStreaming .profileButtons {
-	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled),
+	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled):not(.color_f9d37d.banner_fb7f94),
 	.sm_a22cb0:hover:not(:disabled):not(.hasText_a22cb0),
-	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled),
+	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled):not(.color_f9d37d.banner_fb7f94),
 	.sm_a22cb0:active:not(:disabled):not(.hasText_a22cb0) {
 		color: var(--header-primary) !important;
 	}
@@ -14255,7 +14255,7 @@ svg.thumbnail__0f2e8 {
 
 .outer_c0bea0.theme-light :is(.topSectionPlaying, .topSectionSpotify, .topSectionStreaming, .topSectionXbox) {
     & .profileButtons {
-        & .themeColor_fb7f94.secondary_fb7f94, & .sm_a22cb0:not(.hasText_a22cb0) {
+        & .themeColor_fb7f94.secondary_fb7f94:not(.color_f9d37d.banner_fb7f94), & .sm_a22cb0:not(.hasText_a22cb0) {
             svg {
                 stroke: var(--header-primary) !important;
             }
