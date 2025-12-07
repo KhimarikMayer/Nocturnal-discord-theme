@@ -14652,6 +14652,9 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	color: var(--primary);
 }
 
+.clickable_faf576 path,
+.icon_c97e55,
+.editPencilIcon__2d060 path,
 .rowContainer__0e124 path,
 .icon__8cc9a path,
 .iconContainer__0624f path,
@@ -14673,7 +14676,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 .title_edbb22 path,
 .raisedHandIcon__15cd2 rect,
 .raisedHandIcon__15cd2 path {
-	fill: var(--primary);
+	fill: var(--primary) !important;
 }
 
 .raisedHandCount__15cd2,
