@@ -2937,6 +2937,15 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	color: var(--backgroundDarker);
 }
 
+.vc-gp-tab-bar {
+	margin: 0;
+	padding: 20px 20px 0;
+	padding-bottom: 2px;
+	border-top: 1px solid hsla(0, 0%, 100%, .1);
+	border-bottom: none !important;
+	transition: 250ms background ease-in-out;
+}
+
 .theme-dark .accountProfileCard__1fed1,
 .wrapper__4d7bb,
 .avatarContainer__9e177,
@@ -13236,15 +13245,6 @@ svg.thumbnail__0f2e8 {
 	border-radius: 0;
 }
 
-.vc-gp-tab-bar {
-	margin: 0;
-	padding: 20px 20px 0;
-	padding-bottom: 2px;
-	border-top: 1px solid hsla(0, 0%, 100%, .1);
-	border-bottom: none !important;
-	transition: 250ms background ease-in-out;
-}
-
 .theme-dark .vc-gp-icon {
 	width: 76px;
 	height: 76px;
@@ -14357,6 +14357,8 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	color: var(--primary);
 }
 
+.editProfilesRow__99464 path,
+.icon_caf372 path,
 .wishlistButton__80679 path,
 .tabWithChevron__80679 path,
 .colorDefault_c1e9c4:not(.colorDanger_c1e9c4) .icon_c1e9c4 path,
