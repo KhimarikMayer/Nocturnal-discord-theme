@@ -9607,6 +9607,7 @@ path[fill="var(--bg-brand)"] {
 .guildPrefixIcon_e7c728 foreignObject,
 .newGdmIcon__754bd foreignObject,
 .caret__5bc6a g,
+.theme-dark .activityProfile .assets:has(.assetsSmallImage) .assetsLargeImage,
 .accountProfileCard__1fed1 foreignObject {
 	mask: none;
 }
@@ -10332,7 +10333,6 @@ rect[fill="brand-200"] {
 .theme-dark .avatar__20a53 g svg,
 .theme-dark .gameActivityLevel__4e338 foreignObject,
 .theme-dark .clickable_c99c29 foreignObject,
-.theme-dark .activityProfile .assets:has(.assetsSmallImage) .assetsLargeImage,
 .theme-dark .mask_db811b {
 	overflow: visible;
 	mask: none;
@@ -14368,6 +14368,8 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	color: var(--primary);
 }
 
+.addStatusIcon_ab8609 path,
+.icon__2d0ab path,
 .editIcon__754bd path,
 .editableGdmIconIndicator_ec5bef path,
 .frequentFriendsInfoIcon__1fc18 path,
