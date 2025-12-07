@@ -14345,6 +14345,8 @@ svg.thumbnail__0f2e8 {
 .staticIcon_bba883,
 .cardIcon__1a4ef path,
 .button_bba883,
+.actionButton_f8fa06,
+.voiceIcon_adebba,
 .clickable_c99c29 {
 	color: var(--primary) !important;
 }
@@ -14362,6 +14364,8 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	color: var(--primary);
 }
 
+.icons_a16aea path,
+.groupCollapsedAction__9d98d path,
 .clickable_faf576 path,
 .icon_c97e55,
 .editPencilIcon__2d060 path,
