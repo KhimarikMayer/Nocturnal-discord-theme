@@ -221,7 +221,7 @@
 .actionButton_d9752c,
 .button__71c22,
 .otherRoles__71c22 {
-	background-color: var(--backgroundDark-45);
+	background-color: var(--backgroundDark-45) !important;
 	border: none;
 }
 
@@ -248,7 +248,7 @@
 .rowItem_a0365b:hover .actionButton_d9752c,
 .actionButton_d9752c:active,
 .button__71c22:hover {
-	background: linear-gradient(to top left, var(--primaryGradient1), var(--primaryGradient2));
+	background: linear-gradient(to top left, var(--primaryGradient1), var(--primaryGradient2)) !important;
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-50);
 	border: none;
 }
@@ -1632,7 +1632,7 @@ svg[name=Nitro] g path {
 	border-radius: 12px;
 }
 
-.iconInactive_f34534:not(.statImage__74acd),
+.iconInactive_f34534:not(.statImage__74acd,.statIcon_dc06fd),
 .theme-dark .avatar_b50d96,
 .guildIcon img {
 	border-radius: 30%;
@@ -2985,9 +2985,9 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	margin: 0;
 	padding: 20px 20px 0;
 	padding-bottom: 2px;
-	border-top: 1px solid hsla(0, 0%, 100%, .1);
+	border-top: 1px solid hsla(0, 0%, 100%, .1) !important;
 	border-bottom: none !important;
-	transition: 250ms background ease-in-out;
+	transition: 250ms background ease-in-out, gradient ease-in-out;
 }
 
 .theme-dark .accountProfileCard__1fed1,
@@ -11287,6 +11287,7 @@ rect[fill="brand-200"] {
 .scroller__3b295,
 .scroller_f35c3c,
 .footer__7f727,
+.createOverwritePopout__0ab2c,
 .mediaMosaicAltText__0f481:active {
 	background-color: var(--backgroundDark);
 }
@@ -13537,7 +13538,7 @@ svg.thumbnail__0f2e8 {
 }
 
 .vc-gp-header {
-	border-radius: 12px 12px 0 0;
+	border-radius: 8px 8px 0 0;
 	padding: 20px;
 	gap: 20px;
 	margin: 0;
@@ -14637,16 +14638,18 @@ svg.thumbnail__0f2e8 {
 .button_bba883,
 .actionButton_f8fa06,
 .voiceIcon_adebba,
+.icon_d0b769,
 .clickable_c99c29 {
 	color: var(--primary) !important;
 }
 
+.rsvpIcon_b5010b,
+.autocompleteQuerySymbol_ac6cb0,
 .icon__4a3a5,
 .circleIconButton__5bc7e,
 .icon__07f91,
 .caret_c1e9c4,
 .iconLayout__0c4c4:hover .clear__0c4c4,
-.icon_d0b769,
 .icon__0c4c4,
 .raisedHandCount__15cd2,
 button.button__67645, span.button__67645,
@@ -14654,6 +14657,13 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	color: var(--primary);
 }
 
+.button__71c22 path,
+.titleCaret__4914c path,
+.emptyChannelIcon__00de6 path,
+.slowModeIcon_b21699 path,
+.header__095fe path,
+.toggleExpandIcon__095fe path,
+.closeIcon__972a0 path,
 .clickable__1f6ca path,
 .button__0f074 path,
 .icons_a16aea path,
@@ -14755,4 +14765,8 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 
 .progressBar__5a6ab[style*="brand-500"] {
 	background-color: var(--primary) !important;
+}
+
+.outer_c0bea0.user-profile-modal-v2, .outer_c0bea0.user-profile-modal {
+	border-radius: 8px;
 }
