@@ -14775,3 +14775,9 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 .outer_c0bea0.user-profile-modal-v2, .outer_c0bea0.user-profile-modal {
 	border-radius: 8px;
 }
+
+.theme-light :is(.topSectionPlaying, .topSectionSpotify, .topSectionStreaming, .topSectionXbox) {
+    .tabBarItem:hover {
+        border-bottom-color: #fff;
+    }
+}
