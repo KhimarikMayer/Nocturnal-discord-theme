@@ -5388,7 +5388,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 	border-color: rgba(0, 0, 0, 0) !important;
 }
 
-.uploadDropModal_dbca3c .inner_dbca3c {
+.uploadDropModal_b78547 .inner_b78547 {
 	border-color: var(--backgroundDark-20);
 }
 
@@ -5418,7 +5418,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 .educationUpsell__4a4f2,
 .theme-dark.container_de50c1.messageContainer_b4d1aa,
 .container__99486,
-.uploadDropModal_dbca3c .bgScale_dbca3c,
+.uploadDropModal_b78547 .bgScale_b78547,
 .contentWrapper__0d616 .checkbox_d9161f,
 .checkbox_d9161f.selected_d9161f,
 .checkbox_f4f0eb {
@@ -7194,7 +7194,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .badgeList_ab525a,
 .container_c44293,
 .activity_f00225,
-.uploadModal_dbca3c .footer_dbca3c,
+.uploadModal_b78547 .footer_b78547,
 .category_fe77d6:hover,
 .category__97499:hover {
 	background-color: var(--backgroundDark-15);
@@ -13301,12 +13301,6 @@ svg.thumbnail__0f2e8 {
 
 .vc-gp-tab-content:has(.vc-gp-info) {
 	margin: 20px;
-}
-
-.uploadModal_dbca3c .inner_dbca3c .file_dbca3c .icon_dbca3c {
-	border-radius: 12px;
-	border: 7px solid var(--backgroundDark);
-	background-color: var(--backgroundDark);
 }
 
 .image_bb8774,
