@@ -2981,6 +2981,15 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	color: var(--backgroundDarker);
 }
 
+.vc-gp-tab-bar {
+	margin: 0;
+	padding: 20px 20px 0;
+	padding-bottom: 2px;
+	border-top: 1px solid hsla(0, 0%, 100%, .1);
+	border-bottom: none !important;
+	transition: 250ms background ease-in-out;
+}
+
 .theme-dark .accountProfileCard__1fed1,
 .wrapper__4d7bb,
 .avatarContainer__9e177,
@@ -13537,15 +13546,6 @@ svg.thumbnail__0f2e8 {
 .vc-gp-banner+.vc-gp-header {
 	margin-top: -4px;
 	border-radius: 0;
-}
-
-.vc-gp-tab-bar {
-	margin: 0;
-	padding: 20px 20px 0;
-	padding-bottom: 2px;
-	border-top: 1px solid hsla(0, 0%, 100%, .1);
-	border-bottom: none !important;
-	transition: 250ms background ease-in-out;
 }
 
 .theme-dark .vc-gp-icon {
