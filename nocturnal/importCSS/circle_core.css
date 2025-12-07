@@ -11055,6 +11055,7 @@ rect[fill="brand-200"] {
 .scroller_f35c3c,
 .footer__7f727,
 .createOverwritePopout__0ab2c,
+.galleryItem_d75751,
 .mediaMosaicAltText__0f481:active {
 	background-color: var(--backgroundDark);
 }
@@ -11243,7 +11244,8 @@ rect[fill="brand-200"] {
 .option__81345,
 .uploadInput__94439,
 .card__6d190,
-.clickable__19fd1 {
+.clickable__19fd1,
+.headerFill {
 	border: none;
 	background-color: var(--backgroundDark-15);
 }
@@ -13956,8 +13958,7 @@ svg.thumbnail__0f2e8 {
 	background-image: linear-gradient(to top right, #7255e7, #1c134c);
 }
 
-.separator__7bf69,
-.headerFill {
+.separator__7bf69 {
 	background-color: var(--backgroundDark-20);
 }
 
@@ -14367,6 +14368,11 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	color: var(--primary);
 }
 
+.editIcon__754bd path,
+.editableGdmIconIndicator_ec5bef path,
+.frequentFriendsInfoIcon__1fc18 path,
+.itemIcon__1bb32 path,
+.buttonInner_aec7ab path,
 .button__71c22 path,
 .titleCaret__4914c path,
 .emptyChannelIcon__00de6 path,
@@ -14485,4 +14491,15 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
     .tabBarItem:hover {
         border-bottom-color: #fff;
     }
+}
+
+.topSectionXbox .headerFill,
+.topSectionStreaming .headerFill,
+.topSectionSpotify .headerFill,
+.topSectionPlaying .headerFill {
+	box-shadow: 0 4px 2px -2px var(--backgroundDark-50);
+}
+
+.activityProfile .assets:has(.gameIcon):not(:empty) {
+    margin-right: 10px;
 }
