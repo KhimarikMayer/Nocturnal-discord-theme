@@ -14613,6 +14613,7 @@ svg.thumbnail__0f2e8 {
 .icon__71961,
 .closeButton_c2b141,
 .icon_fea832,
+.tutorialIcon__2692d,
 .clickable_c99c29 {
 	color: var(--primary) !important;
 }
@@ -14639,6 +14640,7 @@ svg.thumbnail__0f2e8 {
 .icon__0c4c4,
 .raisedHandCount__15cd2,
 .bd-addon-title svg,
+.collapseButton__427f0,
 .visual-refresh button.button__67645, .visual-refresh span.button__67645,
 .visual-refresh button.button__67645.enabled__67645:hover, .visual-refresh span.button__67645.enabled__67645:hover {
 	color: var(--primary);
@@ -14648,6 +14650,7 @@ svg.thumbnail__0f2e8 {
 	fill: white;
 }
 
+.channelName__35a7e path,
 .openFullPreviewSection__4d95d path,
 .toggleExpandSection__4d95d path,
 .downloadButton__4d95d path,
