@@ -11304,6 +11304,7 @@ rect[fill="brand-200"] {
 .footer__7f727,
 .createOverwritePopout__0ab2c,
 .galleryItem_d75751,
+.buttonContainer_e8b59c,
 .mediaMosaicAltText__0f481:active {
 	background-color: var(--backgroundDark);
 }
@@ -14556,6 +14557,8 @@ svg.thumbnail__0f2e8 {
 	border-radius: 0 !important;
 }
 
+.hoverButton__06ab4,
+.controlIcon_cf09d8 path,
 .bd-search-wrapper>svg,
 .bd-select-arrow,
 .platformUrlIcon__9bfb9,
@@ -14644,6 +14647,10 @@ svg.thumbnail__0f2e8 {
 	fill: white;
 }
 
+.openFullPreviewSection__4d95d path,
+.toggleExpandSection__4d95d path,
+.downloadButton__4d95d path,
+.codeIcon__4d95d path,
 .flowerStar__3e3b0 path[fill="var(--white-400)"],
 .friendRequestsButton__523aa path,
 .showAllBadges__5b8f4 path,
