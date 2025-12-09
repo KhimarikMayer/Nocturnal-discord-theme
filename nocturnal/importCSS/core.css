@@ -14801,3 +14801,11 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 .activityProfileContainerVoice .bodyNormal > div:nth-child(1):before {
 	background-color: rgba(0, 0, 0, 0) !important;
 }
+
+.infoScroller .tag__25a50 {
+	border-color: rgba(0, 0, 0, 0);
+}
+
+.widgetTitle {
+    color: var(--text-default) !important;
+}
