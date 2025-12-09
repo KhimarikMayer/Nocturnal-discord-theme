@@ -14627,8 +14627,8 @@ svg.thumbnail__0f2e8 {
 .iconLayout__0c4c4:hover .clear__0c4c4,
 .icon__0c4c4,
 .raisedHandCount__15cd2,
-button.button__67645, span.button__67645,
-button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hover {
+.visual-refresh button.button__67645, .visual-refresh span.button__67645,
+.visual-refresh button.button__67645.enabled__67645:hover, .visual-refresh span.button__67645.enabled__67645:hover {
 	color: var(--primary);
 }
 
