@@ -13917,6 +13917,7 @@ svg.thumbnail__0f2e8 {
 	background-image: linear-gradient(to top right, hsl(252 calc(var(--saturation-factor)*75%) 62%), hsl(249 calc(var(--saturation-factor)*60%) 19%));
 }
 
+.spacer__74017,
 .separator__7bf69 {
 	background-color: var(--backgroundDark-20);
 }
@@ -14345,6 +14346,7 @@ svg.thumbnail__0f2e8 {
 .icon__0c4c4,
 .raisedHandCount__15cd2,
 .bd-addon-title svg,
+.collapseButton__427f0,
 .visual-refresh button.button__67645, .visual-refresh span.button__67645,
 .visual-refresh button.button__67645.enabled__67645:hover, .visual-refresh span.button__67645.enabled__67645:hover {
 	color: var(--primary);
@@ -14354,6 +14356,7 @@ svg.thumbnail__0f2e8 {
 	fill: white;
 }
 
+.channelName__35a7e path,
 .openFullPreviewSection__4d95d path,
 .toggleExpandSection__4d95d path,
 .downloadButton__4d95d path,
