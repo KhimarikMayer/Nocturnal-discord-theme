@@ -9639,7 +9639,6 @@ path[fill="var(--bg-brand)"] {
 .contentContainer_f8758b,
 .modal__49777:not(.root__9c3be),
 .container_cec934,
-.accordionContainer__7e354,
 .overflowCount__68334 {
 	background-color: var(--backgroundDarker);
 	border: none;
@@ -11253,6 +11252,8 @@ rect[fill="brand-200"] {
 .option__81345,
 .uploadInput__94439,
 .card__6d190,
+.header__7e354,
+.content__7e354,
 .clickable__19fd1 {
 	border: none;
 	background-color: var(--backgroundDark-15);
@@ -11804,7 +11805,6 @@ rect[fill="brand-200"] {
 .badgeGradientWrapper__89307,
 .container__5acc9,
 .bd-error-toggle-wrapper,
-.headerIconWrapper__7e354,
 .expandedContainer__9d98d,
 .groupHeader__9d98d {
 	background-color: var(--backgroundDarker-alt);
@@ -13259,6 +13259,7 @@ svg.thumbnail__0f2e8 {
 	margin: 20px;
 }
 
+.headerIconWrapper__7e354,
 .image_bb8774,
 .modalContent__4d95d .codeView__4d95d,
 .headerTextWrapper_d5200e,
@@ -14336,6 +14337,11 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	color: var(--primary);
 }
 
+.childContainer__3e3b0 path[fill="var(--primary-500)"] {
+	fill: white;
+}
+
+.flowerStar__3e3b0 path[fill="var(--white-400)"],
 .friendRequestsButton__523aa path,
 .showAllBadges__5b8f4 path,
 .icon__9ee73 path,
@@ -14400,6 +14406,7 @@ button.button__67645.enabled__67645:hover, span.button__67645.enabled__67645:hov
 	fill: var(--primary) !important;
 }
 
+.bd-button-content svg,
 .lucide.icon_caf372,
 .spinnerWrapper_f3b986,
 .spinnerPath_f3b986 {
