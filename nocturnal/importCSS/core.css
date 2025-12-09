@@ -14224,6 +14224,7 @@ svg.thumbnail__0f2e8 {
 	background-image: linear-gradient(to top right, hsl(252 calc(var(--saturation-factor)*75%) 62%), hsl(249 calc(var(--saturation-factor)*60%) 19%));
 }
 
+.spacer__74017,
 .separator__7bf69 {
 	background-color: var(--backgroundDark-20);
 }
