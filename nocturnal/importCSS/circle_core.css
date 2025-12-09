@@ -14263,6 +14263,8 @@ svg.thumbnail__0f2e8 {
 	border-radius: 0 !important;
 }
 
+.bd-search-wrapper>svg,
+.bd-select-arrow,
 .platformUrlIcon__9bfb9,
 .winButtons_c38106,
 .winButtonMinMax_c38106:hover,
@@ -14318,6 +14320,10 @@ svg.thumbnail__0f2e8 {
 	color: var(--primary) !important;
 }
 
+.bd-store-card-caret,
+.bd-store-card-icon,
+.bd-addon-list .bd-footer .bd-link svg,
+.bd-addon-header .bd-icon,
 .caret_dc2e44,
 .detailsIcon__4a3a5,
 .iconAccessory_ec77f2,
@@ -14335,6 +14341,7 @@ svg.thumbnail__0f2e8 {
 .iconLayout__0c4c4:hover .clear__0c4c4,
 .icon__0c4c4,
 .raisedHandCount__15cd2,
+.bd-addon-title svg,
 .visual-refresh button.button__67645, .visual-refresh span.button__67645,
 .visual-refresh button.button__67645.enabled__67645:hover, .visual-refresh span.button__67645.enabled__67645:hover {
 	color: var(--primary);
@@ -14525,4 +14532,22 @@ svg.thumbnail__0f2e8 {
 
 .widgetTitle {
     color: var(--text-default) !important;
+}
+
+.bd-addon-controls .bd-button svg {
+	color: white;
+}
+
+.bd-addon-controls .bd-button:active .bd-button-content svg,
+.bd-addon-controls .bd-button.selected .bd-button-content svg {
+	stroke: white;
+}
+
+.bd-select .bd-select-options {
+	border: none;
+	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
+}
+
+.bd-settings-group.collapsible .bd-settings-title:after {
+	background-color: var(--primary);
 }
