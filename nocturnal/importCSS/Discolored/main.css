@@ -956,3 +956,7 @@
 .theme-dark [src='https://cdn.discordapp.com/assets/content/b099f8b8ffaa4811bd561c478085dff21e3e9997bbf27fa5a9ccf3d80ba51870.svg'] {
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/b099f8b8ffaa4811bd561c478085dff21e3e9997bbf27fa5a9ccf3d80ba51870.svg");
 }
+
+.theme-dark [src='/assets/271f10f75e0892e1.svg'] {
+	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/271f10f75e0892e1.svg");
+}
