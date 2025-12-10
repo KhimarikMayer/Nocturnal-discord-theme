@@ -2202,7 +2202,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .info__2debe .line__2debe:last-child:after,
 .info__2debe .bd-text-muted:last-child:after,
 .info__2debe .text-xxs\/normal_cf4812:last-child:after,
-.compactInfo__2debe .text-xxs\/normal_cf4812:last-child:after,
+.versionHash__2debe .text-xxs\/normal_cf4812:last-child:after,
 .bd-version-info .bd-text-muted:last-child:after {
 	content: "Nocturnal 3.1 AutoUpdate";
 	display: block;
@@ -14394,7 +14394,7 @@ svg.thumbnail__0f2e8 {
 }
 
 .submenuIconWrapper_ce8328 path[fill="currentColor"],
-.menuItemLabel_ce8328 path,
+.menuItemLabel_ce8328 path[fill="var(--interactive-normal)"],
 .menuItemIcon_ce8328 path[fill="currentColor"],
 .favoriteIcon__972a0 path[fill="currentColor"],
 .icon__38524 path[fill="currentColor"],
@@ -14600,7 +14600,7 @@ svg.thumbnail__0f2e8 {
 	color: white;
 }
 
-.bd-addon-controls .bd-button:active .bd-button-content svg,
+.bd-controls-basic .bd-button:active .bd-button-content svg,
 .bd-addon-controls .bd-button.selected .bd-button-content svg {
 	stroke: white;
 }
