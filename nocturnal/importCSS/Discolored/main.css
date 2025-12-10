@@ -961,6 +961,6 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/271f10f75e0892e1.svg");
 }
 
-.root_fdf9c0 .background_fdf9c0 {
+.root_fdf9c0:not(:has(.outer_c0bea0)) .background_fdf9c0 {
 	background: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/DiscordProfileModalSkeleton_2020_Darker.svg");
 }
