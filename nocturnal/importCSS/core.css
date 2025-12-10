@@ -14894,7 +14894,7 @@ svg.thumbnail__0f2e8 {
 	color: white;
 }
 
-.bd-addon-controls .bd-button:active .bd-button-content svg,
+.bd-controls-basic .bd-button:active .bd-button-content svg,
 .bd-addon-controls .bd-button.selected .bd-button-content svg {
 	stroke: white;
 }
