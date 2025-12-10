@@ -10434,9 +10434,16 @@ div.cardContainer__88e24,
 .custom-user-profile-theme .avatarIconContainer__7970d,
 .theme-dark.custom-user-profile-theme .container_e928f4,
 .theme-light.custom-user-profile-theme .container_e928f4,
+.vc-card-base,
 .winButtonMinMax_c38106:active {
 	background-color: var(--backgroundDark-30);
 	border: none;
+}
+
+.vc-plugin-ui-elements-button {
+    &:hover {
+        background-color: var(--backgroundDark-45);
+    }
 }
 
 .perkCardImage_a1e8da.active_a1e8da,
@@ -12952,7 +12959,7 @@ svg[color="var(--brand-500)"] {
 
 .overlay_c0bea0:has([style*="/assets/487de5256b2ae540.svg"]),
 .clickableContainer__39ec2:hover>.card__39ec2:has([style*="/assets/487de5256b2ae540.svg"]) {
-	background-image: url(https://images2.imgbox.com/98/ca/YNIxgunQ_o.png), linear-gradient(to top right, hsl(252 calc(var(--saturation-factor)*75%) 62% /1), hsl(249 calc(var(--saturation-factor)*60%) 19% /1));
+	background-image: url(https://images2.imgbox.com/33/e5/8FI7nFe1_o.png), linear-gradient(to top right, hsl(252 calc(var(--saturation-factor)*75%) 62% /1), hsl(249 calc(var(--saturation-factor)*60%) 19% /1));
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-15) !important;
 	transition: none;
 	color: var(--header-primary) !important;
@@ -14221,7 +14228,7 @@ svg.thumbnail__0f2e8 {
 .topSectionStreaming {
 	z-index: 1;
 	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .2), 0 0 0 1px rgba(32, 34, 37, .6);
-	background-image: url(https://images2.imgbox.com/98/ca/YNIxgunQ_o.png), linear-gradient(to top right, hsl(252 calc(var(--saturation-factor)*75%) 62%), hsl(249 calc(var(--saturation-factor)*60%) 19%));
+	background-image: url(https://images2.imgbox.com/33/e5/8FI7nFe1_o.png), linear-gradient(to top right, hsl(252 calc(var(--saturation-factor)*75%) 62%), hsl(249 calc(var(--saturation-factor)*60%) 19%));
 }
 
 .spacer__74017,
@@ -14272,7 +14279,7 @@ svg.thumbnail__0f2e8 {
 .topSectionSpotify {
 	z-index: 1;
 	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .2), 0 0 0 1px rgba(32, 34, 37, .6);
-	background-image: url(https://images2.imgbox.com/bd/d9/Qf0aHc6n_o.png), linear-gradient(to top right, hsl(0 calc(var(--saturation-factor)*0%) 9%), hsl(0 calc(var(--saturation-factor)*0%) 25%));
+	background-image: url(https://images2.imgbox.com/38/e6/mymmwxO3_o.png), linear-gradient(to top right, hsl(0 calc(var(--saturation-factor)*0%) 9%), hsl(0 calc(var(--saturation-factor)*0%) 25%));
 }
 
 .topSectionXbox {
@@ -14679,6 +14686,7 @@ svg.thumbnail__0f2e8 {
 	fill: white;
 }
 
+.vc-icon path[fill="currentColor"],
 .checkbox__09aca path[fill="var(--white)"],
 .repliedTextContentTrailingIcon_c19a55 path,
 .channelName__35a7e path,
