@@ -14688,7 +14688,7 @@ svg.thumbnail__0f2e8 {
 }
 
 .submenuIconWrapper_ce8328 path[fill="currentColor"],
-.menuItemLabel_ce8328 path,
+.menuItemLabel_ce8328 path[fill="var(--interactive-normal)"],
 .menuItemIcon_ce8328 path[fill="currentColor"],
 .favoriteIcon__972a0 path[fill="currentColor"],
 .icon__38524 path[fill="currentColor"],
