@@ -2204,7 +2204,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .info__2debe .line__2debe:last-child:after,
 .info__2debe .bd-text-muted:last-child:after,
 .info__2debe .text-xxs\/normal_cf4812:last-child:after,
-.text-xxs\/normal_cf4812:has(.versionHash__2debe):last-child:after,
+.compact__2debe:not(:has(.compactInfo__2debe)) .text-xxs\/normal_cf4812:has(.versionHash__2debe):last-child:after,
 .bd-version-info .bd-text-muted:last-child:after {
 	content: "Nocturnal 3.1 AutoUpdate";
 	display: block;
@@ -14010,7 +14010,6 @@ svg.thumbnail__0f2e8 {
 		}
 	}
 }
-
 
 .topSectionSpotify {
 	z-index: 1;
