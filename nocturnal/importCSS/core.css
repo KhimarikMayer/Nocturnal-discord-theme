@@ -14650,6 +14650,7 @@ svg.thumbnail__0f2e8 {
 .closeButton_c2b141,
 .icon_fea832,
 .tutorialIcon__2692d,
+.copyButton__252af,
 .clickable_c99c29 {
 	color: var(--primary) !important;
 }
@@ -14686,7 +14687,19 @@ svg.thumbnail__0f2e8 {
 	fill: white;
 }
 
-.vc-icon path[fill="currentColor"],
+.submenuIconWrapper_ce8328 path[fill="currentColor"],
+.menuItemLabel_ce8328 path,
+.menuItemIcon_ce8328 path[fill="currentColor"],
+.favoriteIcon__972a0 path[fill="currentColor"],
+.icon__38524 path[fill="currentColor"],
+.accountButtonInner_c7f964 path[fill="currentColor"],
+.connectionDelete_c7f964 path[fill="currentColor"],
+.sessionMoreButton__803f2 path[fill="currentColor"],
+.actionMenuButton_d84e0f path,
+.appDetailsSectionHeader__50a54 path,
+.iconContainer__5cea9 path,
+.icon_d9752c path[fill="currentColor"],
+.vc-icon:not(.vc-delete-icon,.vc-settings-quickActions-img) path[fill="currentColor"],
 .checkbox__09aca path[fill="var(--white)"],
 .repliedTextContentTrailingIcon_c19a55 path,
 .channelName__35a7e path,
@@ -14893,4 +14906,8 @@ svg.thumbnail__0f2e8 {
 
 .bd-settings-group.collapsible .bd-settings-title:after {
 	background-color: var(--primary);
+}
+
+.appDetailsContainer__50a54 .appDetailsSection__50a54:active {
+	background-color: rgba(0, 0, 0, 0) !important;
 }
