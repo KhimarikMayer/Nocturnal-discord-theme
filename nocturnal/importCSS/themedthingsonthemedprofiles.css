@@ -29,8 +29,8 @@
 	background-color: var(--profile-gradient-secondary-color) !important;
 }
 
-.theme-dark.custom-user-profile-theme .showMoreButton__84832,
-.theme-light.custom-user-profile-theme .showMoreButton__84832,
+.theme-dark.custom-user-profile-theme .backgroundCard__9d597,
+.theme-light.custom-user-profile-theme .backgroundCard__9d597,
 .theme-dark.custom-user-profile-theme .lookFilled__201d5.actionColor_fc39e7,
 .theme-light.custom-user-profile-theme .lookFilled__201d5.actionColor_fc39e7,
 .theme-dark.custom-user-profile-theme .lookFilled__201d5.colorPrimary__201d5:not(.color_f9d37d.banner_fb7f94),
@@ -61,8 +61,8 @@
 	color: #fff !important;
 }
 
-.theme-dark.custom-user-profile-theme .showMoreButton__84832:hover:not(:disabled),
-.theme-light.custom-user-profile-theme .showMoreButton__84832:hover:not(:disabled),
+.theme-dark.custom-user-profile-theme .backgroundCard__9d597:hover:not(:disabled),
+.theme-light.custom-user-profile-theme .backgroundCard__9d597:hover:not(:disabled),
 .theme-dark.custom-user-profile-theme .lookFilled__201d5.actionColor_fc39e7:hover:not(:disabled),
 .theme-light.custom-user-profile-theme .lookFilled__201d5.actionColor_fc39e7:hover:not(:disabled),
 .theme-dark.custom-user-profile-theme .lookFilled__201d5.colorPrimary__201d5:hover:not(:disabled,.color_f9d37d.banner_fb7f94),
@@ -75,8 +75,8 @@
 .theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225:hover:not(:disabled),
 .theme-dark.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225:hover:not(:disabled),
 .theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225:hover:not(:disabled),
-.theme-dark.custom-user-profile-theme .showMoreButton__84832:active:not(:disabled),
-.theme-light.custom-user-profile-theme .showMoreButton__84832:active:not(:disabled),
+.theme-dark.custom-user-profile-theme .backgroundCard__9d597:active:not(:disabled),
+.theme-light.custom-user-profile-theme .backgroundCard__9d597:active:not(:disabled),
 .theme-dark.custom-user-profile-theme .lookFilled__201d5.actionColor_fc39e7:active:not(:disabled),
 .theme-light.custom-user-profile-theme .lookFilled__201d5.actionColor_fc39e7:active:not(:disabled),
 .theme-dark.custom-user-profile-theme .lookFilled__201d5.colorPrimary__201d5:active:not(:disabled,.color_f9d37d.banner_fb7f94),
@@ -231,8 +231,8 @@
 	background: var(--profile-gradient-secondary-color);
 }
 
-.theme-dark.custom-user-profile-theme .showMoreButton__84832,
-.theme-light.custom-user-profile-theme .showMoreButton__84832 {
+.theme-dark.custom-user-profile-theme .backgroundCard__9d597,
+.theme-light.custom-user-profile-theme .backgroundCard__9d597 {
 	border-radius: 0 0 6px 6px !important;
 }
 
@@ -304,12 +304,12 @@
 	background: url(/assets/5071d09daafd2d99.svg);
 }
 
-.theme-light .showMoreButton__84832,
-.theme-light .showMoreButton__84832:hover:not(:disabled),
-.theme-light .showMoreButton__84832:active:not(:disabled),
-.theme-light.custom-user-profile-theme .showMoreButton__84832,
-.theme-light.custom-user-profile-theme .showMoreButton__84832:hover:not(:disabled),
-.theme-light.custom-user-profile-theme .showMoreButton__84832:active:not(:disabled) {
+.theme-light .backgroundCard__9d597,
+.theme-light .backgroundCard__9d597:hover:not(:disabled),
+.theme-light .backgroundCard__9d597:active:not(:disabled),
+.theme-light.custom-user-profile-theme .backgroundCard__9d597,
+.theme-light.custom-user-profile-theme .backgroundCard__9d597:hover:not(:disabled),
+.theme-light.custom-user-profile-theme .backgroundCard__9d597:active:not(:disabled) {
 	color: #060607 !important;
 }
 
