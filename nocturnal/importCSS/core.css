@@ -14924,7 +14924,7 @@ svg.thumbnail__0f2e8 {
 
 :is(.topSectionPlaying, .topSectionSpotify, .topSectionStreaming, .topSectionXbox) {
     .customStatusText {
-        font-weight: 500;
+        font-weight: 400;
     }
 }
 
