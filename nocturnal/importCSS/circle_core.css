@@ -14776,3 +14776,7 @@ svg.thumbnail__0f2e8 {
 .theme-light .topSectionNormal .customStatusContent .customStatusText {
 	color: #000;
 }
+
+.topSectionNormal .customStatusText {
+	font-weight: 400;
+}
