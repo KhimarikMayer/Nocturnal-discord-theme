@@ -477,7 +477,6 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"] {
 .secondaryButton_af3b89,
 .linkButton__24654,
 .wrapper .controls .caret,
-.ctaButton_f528aa,
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .giftButton__0988e,
 .theme-dark.outer_c0bea0:not(.custom-theme-background)[style*="background-base-lower"] .giftButton__0988e,
 .disabledPublishButton_b6a3c4,
@@ -558,7 +557,6 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"] {
 .secondaryButton_af3b89:hover:not(:disabled),
 .linkButton__24654:hover:not(:disabled),
 .wrapper .controls .caret:hover:not(.disabled),
-.ctaButton_f528aa:hover:not(:disabled),
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .giftButton__0988e:hover:not(:disabled),
 .theme-dark.outer_c0bea0:not(.custom-theme-background)[style*="background-base-lower"] .giftButton__0988e:hover:not(:disabled),
 .addFileButtonLook_f8a8fa:hover:not(:disabled),
@@ -604,7 +602,6 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"] {
 .secondaryButton_af3b89:active:not(:disabled),
 .linkButton__24654:active:not(:disabled),
 .wrapper .controls .caret:active:not(.disabled),
-.ctaButton_f528aa:active:not(:disabled),
 .theme-dark.outer_c0bea0:not(.custom-theme-background) .giftButton__0988e:active:not(:disabled),
 .theme-dark.outer_c0bea0:not(.custom-theme-background)[style*="background-base-lower"] .giftButton__0988e:active:not(:disabled),
 .addFileButtonLook_f8a8fa:active:not(:disabled),
@@ -14341,6 +14338,12 @@ svg.thumbnail__0f2e8 {
 	z-index: 1;
 	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .2), 0 0 0 1px rgba(32, 34, 37, .6);
 	background-image: url(https://images2.imgbox.com/84/fc/rr6eIHqQ_o.png), linear-gradient(to top right, hsl(0 calc(var(--saturation-factor)*0%) 4%), hsl(0 calc(var(--saturation-factor)*0%) 20%));
+}
+
+.outer_c0bea0:not(.custom-user-profile-theme) .activityProfile .actionsProfile .sm_a22cb0:not(.hasText_a22cb0),
+.outer_c0bea0 .activityProfile .actionsProfile .sm_a22cb0:not(.hasText_a22cb0) {
+	padding: 0 !important;
+	width: calc(var(--custom-button-button-sm-height) + 4px) !important;
 }
 
 .outer_c0bea0:not(.custom-user-profile-theme) .topSectionNormal .profileButtons {
