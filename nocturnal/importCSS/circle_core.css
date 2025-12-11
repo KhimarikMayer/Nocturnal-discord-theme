@@ -14624,7 +14624,7 @@ svg.thumbnail__0f2e8 {
 
 :is(.topSectionPlaying, .topSectionSpotify, .topSectionStreaming, .topSectionXbox) {
     .customStatusText {
-        font-weight: 500;
+        font-weight: 400;
     }
 }
 
@@ -14765,4 +14765,14 @@ svg.thumbnail__0f2e8 {
 
 .emptyText {
 	color: var(--text-default);
+}
+
+.inner .topSectionNormal .activityHeader,
+.topSectionNormal .customStatusContent .customStatusText {
+	color: #fff;
+}
+
+.theme-light .inner .topSectionNormal .activityHeader,
+.theme-light .topSectionNormal .customStatusContent .customStatusText {
+	color: #000;
 }
