@@ -8964,7 +8964,7 @@ rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 77.5%)"] {
 .headerArtWrapper__553a5,
 .note_fcb628 textarea,
 .mosaicItemMediaMosaic_d0395d,
-.imageWrapper_af017a:not(.media_a22bfd),
+.imageWrapper_af017a:not(.media_a22bfd,.galleryItem_d75751 *),
 .container_b15955,
 .menuItem__8683b,
 .placeholderItem__87dda,
@@ -14856,4 +14856,8 @@ svg.thumbnail__0f2e8 {
 
 .visual-refresh .plateMuted__67645 {
 	background-color: var(--opacity-red-12) !important;
+}
+
+.plated__37e49[aria-expanded=true] {
+    background-color: var(--custom-nameplate) !important;
 }
