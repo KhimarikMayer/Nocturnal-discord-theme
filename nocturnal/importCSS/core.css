@@ -9844,7 +9844,7 @@ div.profileThemedContainer__656be .inner_c0bea0 {
 .guildIcon__3a5a1,
 .appIcon__24654,
 .mosaicItemMediaMosaic_d0395d,
-.imageWrapper_af017a:not(.media_a22bfd),
+.imageWrapper_af017a:not(.media_a22bfd,.galleryItem_d75751 *),
 .avatar_fa0751,
 .imageContainer_db811b,
 .avatar__49094,
@@ -15164,4 +15164,8 @@ svg.thumbnail__0f2e8 {
 
 .visual-refresh .plateMuted__67645 {
 	background-color: var(--opacity-red-12) !important;
+}
+
+.plated__37e49[aria-expanded=true] {
+    background-color: var(--custom-nameplate) !important;
 }
