@@ -14773,6 +14773,19 @@ svg.thumbnail__0f2e8 {
 	color: #fff;
 }
 
+.profileButtons {
+    & .themeColor.secondary, & .sm_a22cb0:not(.hasText_a22cb0) {
+        svg {
+            stroke: #fff;
+        }
+    }
+}
+
+.theme-light .inner .topSectionNormal .activityHeader,
+.theme-light .topSectionNormal .customStatusContent .customStatusText {
+	color: #000;
+}
+
 .topSectionNormal .customStatusText {
 	font-weight: 400;
 }
@@ -14796,7 +14809,15 @@ svg.thumbnail__0f2e8 {
 .theme-light.custom-user-profile-theme .topSectionSpotify .secondary_a22cb0:active:not(:disabled),
 .theme-light.custom-user-profile-theme .topSectionStreaming .secondary_a22cb0:active:not(:disabled),
 .theme-light.custom-user-profile-theme .topSectionPlaying .secondary_a22cb0:active:not(:disabled) {
-	color: #fff !important;
+	color: #000 !important;
+}
+
+.theme-light .profileButtons {
+    & .themeColor.secondary, & .sm_a22cb0:not(.hasText_a22cb0) {
+        svg {
+            stroke: #000;
+        }
+    }
 }
 
 .customStatusContent {
