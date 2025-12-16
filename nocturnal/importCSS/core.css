@@ -15140,12 +15140,12 @@ svg.thumbnail__0f2e8 {
 
 .theme-dark .avatarBorder__44b0c[style*="yellow-360"] {
 	box-shadow: inset 0 0 5px 4px var(--yellow-360) !important;
-	border-radius: 8px;
+	border-radius: 4px;
 }
 
 .theme-dark .avatarBorder__44b0c[style*="status-speaking"] {
 	box-shadow: inset 0 0 5px 4px #43b581 !important;
-	border-radius: 8px;
+	border-radius: 4px;
 }
 
 .theme-dark .border_f910d0[style*="yellow-360"],
