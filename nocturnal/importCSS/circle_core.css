@@ -9414,11 +9414,13 @@ html:not(.chat-input) .inputInner_b1f01d,
 	background-color: var(--primary);
 }
 
+rect[fill="rgb(88,101,242)"],
 rect[fill="#5865f2"],
 rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"],
 rect[fill="var(--brand-500)"],
 rect[fill="var(--badge-brand-text)"],
 rect[fill="var(--bg-brand)"],
+path[fill="rgb(88,101,242)"],
 path[fill="#5865f2"],
 path[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"],
 path[fill="var(--brand-500)"],
@@ -14492,8 +14494,9 @@ svg.thumbnail__0f2e8 {
 .raisedHandCount__15cd2,
 .bd-addon-title svg,
 .collapseButton__427f0,
-.visual-refresh button.button__67645, .visual-refresh span.button__67645,
-.visual-refresh button.button__67645.enabled__67645:hover, .visual-refresh span.button__67645.enabled__67645:hover {
+.theme-dark .iconForeground__37e49,
+.visual-refresh button.button__67645:not(.redGlow__67645), .visual-refresh span.button__67645:not(.redGlow__67645),
+.visual-refresh button.button__67645.enabled__67645:not(.redGlow__67645):hover, .visual-refresh span.button__67645.enabled__67645:not(.redGlow__67645):hover {
 	color: var(--primary);
 }
 
@@ -14501,6 +14504,11 @@ svg.thumbnail__0f2e8 {
 	fill: white;
 }
 
+.uploadIcon__8bb30 path,
+.uploadIcon__94439 path,
+.menuIcon__62974 path,
+.sortDropdownInner_f369db path,
+.badgeContainer__635ed path,
 .icon__13533 path,
 .submenuIconWrapper_ce8328 path[fill="currentColor"],
 .menuItemLabel_ce8328 path[fill="var(--interactive-icon-default)"],
@@ -14844,4 +14852,8 @@ svg.thumbnail__0f2e8 {
 
 .divider {
 	background-color: var(--text-subtle);
+}
+
+.visual-refresh .plateMuted__67645 {
+	background-color: var(--opacity-red-12) !important;
 }
