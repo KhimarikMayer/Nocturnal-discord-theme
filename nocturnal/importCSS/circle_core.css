@@ -6121,7 +6121,7 @@ circle[fill="var(--brand-500)"],
 	color: var(--primary);
 }
 
-._201d5e8a3c09670a-sizeMedium .text-md\/medium_cf4812 {
+._201d5e8a3c09670a-sizeMedium .cf48127484dbde85-text-md\/medium {
 	font-size: 14px;
 }
 
@@ -6130,8 +6130,8 @@ circle[fill="var(--brand-500)"],
 }
 
 .enableButton__5afba,
-.secondaryButton_af3b89 .text-sm\/semibold_cf4812,
-.primaryButton_af3b89 .text-md\/semibold_cf4812 {
+.secondaryButton_af3b89 .cf48127484dbde85-text-sm\/semibold,
+.primaryButton_af3b89 .cf48127484dbde85-text-md\/semibold {
 	font-weight: 500;
 }
 
@@ -8378,10 +8378,6 @@ rect[fill="var(--control-brand-foreground)"] {
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
 }
 
-._6fddf2ee3574a18a-body .text-md\/normal_cf4812[style*="text-normal"] {
-	color: #fff !important;
-}
-
 ._834f55a43c168c27-wrapper {
 	background-color: var(--backgroundDark-30);
 	padding: 16px;
@@ -8784,9 +8780,9 @@ div.cardContainer__88e24,
 ._201d5e8a3c09670a-sizeMax,
 .button_dc6abe,
 ._201d5e8a3c09670a-sizeLarge,
-.enableButton__5afba .text-md\/medium_cf4812,
-.button_c50183 .text-md\/medium_cf4812,
-.a22cb0c66246f5d3-buttonChildrenWrapper .text-md\/medium_cf4812,
+.enableButton__5afba .cf48127484dbde85-text-md\/medium,
+.button_c50183 .cf48127484dbde85-text-md\/medium,
+.a22cb0c66246f5d3-buttonChildrenWrapper .cf48127484dbde85-text-md\/medium,
 .sendWithMessage__62280 {
 	font-size: 14px;
 }
@@ -10613,23 +10609,23 @@ rect[fill="brand-200"] {
 	border-image: linear-gradient(to right, var(--primaryGradient1), var(--primaryGradient2)) 1 !important;
 }
 
-.secondaryButton_af3b89 .text-md\/semibold_cf4812,
-.primaryButton_af3b89 .text-md\/semibold_cf4812,
-.button__075ec .text-sm\/semibold_cf4812,
-.postButton_d97f89 .text-md\/semibold_cf4812,
-._201d5e8a3c09670a-colorBrand .text-md\/semibold_cf4812,
-._201d5e8a3c09670a-colorPrimary .text-md\/semibold_cf4812,
-._201d5e8a3c09670a-colorGreen .text-md\/semibold_cf4812,
-.a22cb0c66246f5d3-primary .text-md\/semibold_cf4812,
-.a22cb0c66246f5d3-secondary .text-md\/semibold_cf4812,
-.secondaryButton_af3b89 .text-sm\/semibold_cf4812,
-.primaryButton_af3b89 .text-sm\/semibold_cf4812,
-.postButton_d97f89 .text-sm\/semibold_cf4812,
-._201d5e8a3c09670a-colorBrand .text-sm\/semibold_cf4812,
-._201d5e8a3c09670a-colorPrimary .text-sm\/semibold_cf4812,
-._201d5e8a3c09670a-colorGreen .text-sm\/semibold_cf4812,
-.a22cb0c66246f5d3-primary .text-sm\/semibold_cf4812,
-.a22cb0c66246f5d3-secondary .text-sm\/semibold_cf4812,
+.secondaryButton_af3b89 .cf48127484dbde85-text-md\/semibold,
+.primaryButton_af3b89 .cf48127484dbde85-text-md\/semibold,
+.button__075ec .cf48127484dbde85-text-sm\/semibold,
+.postButton_d97f89 .cf48127484dbde85-text-md\/semibold,
+._201d5e8a3c09670a-colorBrand .cf48127484dbde85-text-md\/semibold,
+._201d5e8a3c09670a-colorPrimary .cf48127484dbde85-text-md\/semibold,
+._201d5e8a3c09670a-colorGreen .cf48127484dbde85-text-md\/semibold,
+.a22cb0c66246f5d3-primary .cf48127484dbde85-text-md\/semibold,
+.a22cb0c66246f5d3-secondary .cf48127484dbde85-text-md\/semibold,
+.secondaryButton_af3b89 .cf48127484dbde85-text-sm\/semibold,
+.primaryButton_af3b89 .cf48127484dbde85-text-sm\/semibold,
+.postButton_d97f89 .cf48127484dbde85-text-sm\/semibold,
+._201d5e8a3c09670a-colorBrand .cf48127484dbde85-text-sm\/semibold,
+._201d5e8a3c09670a-colorPrimary .cf48127484dbde85-text-sm\/semibold,
+._201d5e8a3c09670a-colorGreen .cf48127484dbde85-text-sm\/semibold,
+.a22cb0c66246f5d3-primary .cf48127484dbde85-text-sm\/semibold,
+.a22cb0c66246f5d3-secondary .cf48127484dbde85-text-sm\/semibold,
 .addButton_a76561 {
 	font-size: 14px;
 	font-weight: 500;
