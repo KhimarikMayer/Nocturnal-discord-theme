@@ -118,7 +118,7 @@
 	--backgroundDarker-alt-hsl: 225 calc(var(--saturation-factor)*20%) 8%;
 	--message-background-hover: color-mix(in oklab, hsl(0 calc(var(--saturation-factor)*0%) 1% /0.06) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/0.0784313725490196) var(--custom-theme-base-color-amount, 0%));
 	--header-primary: color-mix(in oklab, var(--neutral-1) 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
-	--deprecated-text-input-border: color-mix(in oklab, #111111 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
+	--deprecated-text-input-border: color-mix(in oklab, #000 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 	--deprecated-text-input-border-hover: color-mix(in oklab, #000 100%, var(--custom-theme-text-color, #000) var(--custom-theme-text-color-amount, 0%));
 }
 
@@ -3269,7 +3269,7 @@ span._67645e1530f1195d-button._67645e1530f1195d-enabled:not(._67645e1530f1195d-r
 ._2b1f52e43a8f1c02-textBadge[style="background-color: rgb(88, 101, 242);"],
 ._2b1f52e43a8f1c02-textBadge[style="background-color: var(--background-accent);"],
 ._2b1f52e43a8f1c02-textBadge[style="background-color: var(--status-danger-background);"],
-._2b1f52e43a8f1c02-textBadge[style="background-color: var(--bg-brand);"],
+._2b1f52e43a8f1c02-textBadge[style="background-color: var(--background-brand);"],
 ._2b1f52e43a8f1c02-textBadge[style="background-color: var(--red-400);"],
 ._2b1f52e43a8f1c02-textBadge[style="background-color: var(--status-danger);"],
 ._2b1f52e43a8f1c02-textBadge[style="background-color: var(--brand-500);"],
@@ -6464,7 +6464,7 @@ circle[fill="var(--brand-500)"],
 	color: var(--text-senary);
 }
 
-[style="color: var(--bg-brand);"],
+[style="color: var(--background-brand);"],
 [style="color: var(--badge-brand-text);"],
 [style="color: var(--brand-500);"] {
 	color: var(--primary) !important;
@@ -7424,8 +7424,8 @@ span._07f9193042954787-clanTag:not(._63ed30c16c7151f2-guildTag),
 ._8e830531d896108a-sidebar,
 .e8f197ff80df8bf4-paginationContainer,
 .b4ec0b0549a3448a-table,
-.container__912a0,
-.container__912a0:hover,
+.fb189666081d2294-container,
+.fb189666081d2294-container:hover,
 .c94584907f9d5a22-commandContainer .c94584907f9d5a22-command:not(:last-child),
 ._41924a9691a7ac81-botPermissions:not(:last-child),
 ._29337a0286b843ab-scopes:not(:last-child),
@@ -7546,7 +7546,6 @@ span._07f9193042954787-clanTag:not(._63ed30c16c7151f2-guildTag),
 ._6b10264bda9ba40e-actionRow,
 ._5c108c2ec643ddc2-footer,
 ._6fa2e1d9d0f82713-seperator,
-._44f7f7e71cbca2e4-divider,
 .vc-form-divider,
 .filterOptionGroup__61c5c+.filterOptionGroup__61c5c,
 .vc-divider,
@@ -7562,6 +7561,7 @@ span._07f9193042954787-clanTag:not(._63ed30c16c7151f2-guildTag),
 	border-color: var(--backgroundDark-20);
 }
 
+._44f7f7e71cbca2e4-divider,
 ._1de9cda3548b962f-divider,
 .dotSeparator_e825f6,
 .divider__979dc,
@@ -9567,13 +9567,13 @@ rect[fill="#5865f2"],
 rect[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"],
 rect[fill="var(--brand-500)"],
 rect[fill="var(--badge-brand-text)"],
-rect[fill="var(--bg-brand)"],
+rect[fill="var(--background-brand)"],
 path[fill="rgb(88,101,242)"],
 path[fill="#5865f2"],
 path[fill="hsl(235, calc(var(--saturation-factor, 1) * 85.6%), 64.7%)"],
 path[fill="var(--brand-500)"],
 path[fill="var(--badge-brand-text)"],
-path[fill="var(--bg-brand)"] {
+path[fill="var(--background-brand)"] {
 	fill: var(--primary);
 }
 
@@ -11201,7 +11201,7 @@ rect[fill="brand-200"] {
 
 ._4f07413b2d47139a-input:focus,
 ._4f07413b2d47139a-outer:hover ._4f07413b2d47139a-input:focus,
-._959cbfbb20fb39e8-joinOptionContent._959cbfbb20fb39e8-uninteractive {
+._959cbfbb20fb39e8-joinOptionContent._959cbfbb20fb39e8-active {
 	background-color: var(--backgroundDark-35);
 	outline: none;
 	border: none;
@@ -11396,6 +11396,7 @@ rect[fill="brand-200"] {
 ._72fa0ca74f14c1ea-bannerSkeleton,
 ._611f64ab320721b6-card,
 ._2ff9f10a29f93cb2-serverIpInput,
+.cec93441fbd47328-container,
 .d4320211765954c6-header {
 	border: none;
 	box-shadow: none;
@@ -14769,6 +14770,7 @@ svg._0f2e83213c878a13-thumbnail {
 ._1a58aeaaf7cc4963-selected ._1a58aeaaf7cc4963-icon,
 ._1a58aeaaf7cc4963-selected:hover ._1a58aeaaf7cc4963-icon,
 ._1a58aeaaf7cc4963-icon,
+._1a4ef2934d882343-removeIcon,
 .c99c29809d200a61-clickable {
 	color: var(--primary) !important;
 }
@@ -14806,6 +14808,7 @@ svg._0f2e83213c878a13-thumbnail {
 	fill: white;
 }
 
+.cfee8f19fcd7f4a6-tag path,
 ._8bb30d6117b46cf5-uploadIcon path,
 ._9443936bd3681b09-uploadIcon path,
 ._62974be3d630b642-menuIcon path,
