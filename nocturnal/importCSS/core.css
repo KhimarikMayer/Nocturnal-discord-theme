@@ -941,7 +941,7 @@ svg._42bf58529787eb7a-contentImage,
 	color: var(--backgroundDark-35) !important;
 }
 
-._1de9cda3548b962f-divider,
+.c87e85f78d02027d-divider,
 .e03935f4f4b2af0c-option {
 	background-color: var(--backgroundDark-35);
 }
@@ -2056,7 +2056,7 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDarker);
 }
 
-._1de9cda3548b962f-divider {
+.c87e85f78d02027d-divider {
 	border-color: var(--backgroundDarker)
 }
 
@@ -2484,7 +2484,7 @@ span._67645e1530f1195d-button._67645e1530f1195d-enabled:not(._67645e1530f1195d-r
 	background-color: var(--backgroundDarker-alt);
 }
 
-.d125d22cdfd32cfe-content ._1de9cda3548b962f-divider {
+.d125d22cdfd32cfe-content .c87e85f78d02027d-divider {
 	background-color: rgba(0, 0, 0, 0) !important;
 }
 
@@ -7448,7 +7448,6 @@ span._07f9193042954787-clanTag:not(._63ed30c16c7151f2-guildTag),
 .divider_d6f9e9,
 .d6f9e90c3456ac40-tabBar,
 ._4efb4560fd616a25-container,
-._1de9cda3548b962f-divider,
 .c1e9c47c23f12ca3-separator,
 ._803f2f55621144fb-session,
 .z-select:hover,
@@ -7546,6 +7545,7 @@ span._07f9193042954787-clanTag:not(._63ed30c16c7151f2-guildTag),
 ._6b10264bda9ba40e-actionRow,
 ._5c108c2ec643ddc2-footer,
 ._6fa2e1d9d0f82713-seperator,
+._1de9cda3548b962f-divider,
 .vc-form-divider,
 .filterOptionGroup__61c5c+.filterOptionGroup__61c5c,
 .vc-divider,
@@ -7562,7 +7562,7 @@ span._07f9193042954787-clanTag:not(._63ed30c16c7151f2-guildTag),
 }
 
 ._44f7f7e71cbca2e4-divider,
-._1de9cda3548b962f-divider,
+._23eb0ce12c12b9c8-divider,
 .dotSeparator_e825f6,
 .divider__979dc,
 .separator__0b34e,
@@ -10299,7 +10299,6 @@ div.cardContainer__88e24,
 .dbba9320d9989b05-divider,
 .f83afbab10f4c9aa-divider,
 ._9c880b3dfc2260a9-divider,
-._1de9cda3548b962f-divider,
 .cb32c78a53f54371-rowDivider,
 .b99f57e338f8c028-dot,
 ._9ecf64679723ca2f-clickableRow._9ecf64679723ca2f-selectedRow,
@@ -11897,7 +11896,7 @@ rect[fill="brand-200"] {
 .c7a70f215fc3be44-divider,
 ._4577670752bdbe9c-contentHeaderGameInfoHoverable:hover,
 ._4577670752bdbe9c-dotSpacer,
-.c0bea05627c5dc35-overlay ._1de9cda3548b962f-divider {
+.c0bea05627c5dc35-overlay ._23eb0ce12c12b9c8-divider {
 	background-color: var(--backgroundDark-20);
 	border: none;
 	box-shadow: none;
@@ -13736,7 +13735,7 @@ svg._0f2e83213c878a13-thumbnail {
 	box-shadow: none !important;
 }
 
-._39ec2e3dfb4fd2f2-card ._1de9cda3548b962f-divider {
+._39ec2e3dfb4fd2f2-card ._23eb0ce12c12b9c8-divider {
 	background-color: hsla(0, 0%, 100%, .1);
 }
 
