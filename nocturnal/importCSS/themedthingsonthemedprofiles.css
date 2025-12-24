@@ -25,7 +25,8 @@
 .custom-user-profile-theme ._89036700569ec527-row:hover,
 .custom-user-profile-theme .dfa8b6b94cddb191-role,
 .custom-user-profile-theme .fcb62805acc5d0cc-note textarea:focus,
-.custom-user-profile-theme ._9c3bea41fd465666-profileNote textarea:focus {
+.custom-user-profile-theme ._9c3bea41fd465666-profileNote textarea:focus,
+.custom-user-profile-theme .eb110a19ea3d101d-note textarea:focus {
 	background-color: var(--profile-gradient-secondary-color) !important;
 }
 
