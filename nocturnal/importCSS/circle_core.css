@@ -430,7 +430,8 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"] {
 	background-color: var(--backgroundDark-26);
 }
 
-.c1e9c47c23f12ca3-menu {
+.c1e9c47c23f12ca3-menu,
+._824715b905b4679e-loader {
 	background-color: var(--backgroundDark);
 	border: 1px solid var(--backgroundDark-50);
 	box-sizing: border-box;
@@ -1505,7 +1506,7 @@ svg[name=Nitro] g path {
 
 ._750deea9823265e4-accountBtnInner:hover,
 .b1e4f3fb96801b99-wrapper,
-._4106ae7c1472c1de-wrapper,
+._4e6cebf8beed1ad8-wrapper,
 ._74a6a7a80cfedda2-welcomeChannel,
 ._949ab4d1e52789e8-optionContainer:hover {
 	background-color: color-mix(in oklab, hsl(222 calc(var(--saturation-factor)*22%) 9% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
@@ -2773,7 +2774,7 @@ span._67645e1530f1195d-button._67645e1530f1195d-enabled:not(._67645e1530f1195d-r
 }
 
 .bd-toast.toast-info {
-	--toast-bg: #00a7d6;
+	--toast-fg: hsl(201 calc(var(--saturation-factor) * 100%) 57%);
 }
 
 .b26b790fd1005393-mediaBarInteraction:hover .b26b790fd1005393-mediaBarGrabber,
@@ -5938,13 +5939,6 @@ circle[fill="var(--brand-500)"],
 	background: linear-gradient(to right, var(--primaryGradient1), var(--primaryGradient2)) !important;
 }
 
-._824715b905b4679e-loader {
-	background-color: var(--backgroundDarker);
-	border: 1px solid var(--backgroundDark-50);
-	box-sizing: border-box;
-	box-shadow: 0 0 10px 3px var(--backgroundDark-50);
-}
-
 .a629d4eb1dd44839-wrapper foreignObject,
 .fa285ee86b386220-guildIcon foreignObject {
 	mask: none;
@@ -7964,7 +7958,7 @@ h3._1689b6e8323d95c2-improved:after,
 .b9abc541a0f3bad0-backButton:hover,
 .circularButton__49094,
 ._89307899cb638aba-body,
-._0d1eff984b8fd277-wrapper,
+._4106ae7c1472c1de-wrapper,
 ._0f481cbbd7530492-popoutContainer.emojiDetailsLoader_cf58b5,
 ._6f8c06009fdc1dc6-modalContent,
 ._7fffd6da4ccc81f8-modalContent,
@@ -9807,7 +9801,6 @@ div._656be05658eed04d-profileThemedContainer .c0bea05627c5dc35-inner {
 ._6c39d2934561b275-gifPicker.fed6d32841cc2da2-container .fed6d32841cc2da2-header,
 ._6c39d2934561b275-gifPicker.fed6d32841cc2da2-container,
 .c6f1a49abaa9f1d6-body,
-._0d1eff984b8fd277-wrapper,
 .d4883c8125f433a3-promotionIcon,
 .content_f08fc1,
 .f69538e19b6eaacd-imageContainer,
@@ -10579,7 +10572,7 @@ rect[fill="brand-200"] {
 	background-color: var(--background-base-lower);
 }
 
-.theme-light ._4106ae7c1472c1de-wrapper,
+.theme-light ._4e6cebf8beed1ad8-wrapper,
 .theme-light ._0e476089c37c956f-container,
 .theme-light .a606efe4d3744194-premiumRetentionNotice,
 .theme-light .ac65bb98973892fa-upsell,
@@ -14478,7 +14471,7 @@ svg._0f2e83213c878a13-thumbnail {
 .e348504a04b3195e-caret,
 ._28e57b0268546d72-channelIcon,
 .a4b5f88a32e452e2-linkIcon,
-.a4b5f88a32e452e2-linkIcon,
+._352b79189a3ab95d-linkIcon,
 ._91f7b1bcf9032665-badge,
 .b5010be6beaa8120-rsvpIcon,
 .ac6cb02cd15b4b3b-autocompleteQuerySymbol,
@@ -14493,7 +14486,8 @@ svg._0f2e83213c878a13-thumbnail {
 .collapseButton__427f0,
 .theme-dark ._37e49614b9f110a9-iconForeground,
 .visual-refresh button._67645e1530f1195d-button:not(._67645e1530f1195d-redGlow), .visual-refresh span._67645e1530f1195d-button:not(._67645e1530f1195d-redGlow),
-.visual-refresh button._67645e1530f1195d-button._67645e1530f1195d-enabled:not(._67645e1530f1195d-redGlow):hover, .visual-refresh span._67645e1530f1195d-button._67645e1530f1195d-enabled:not(._67645e1530f1195d-redGlow):hover {
+.visual-refresh button._67645e1530f1195d-button._67645e1530f1195d-enabled:not(._67645e1530f1195d-redGlow):hover, .visual-refresh span._67645e1530f1195d-button._67645e1530f1195d-enabled:not(._67645e1530f1195d-redGlow):hover,
+._1bb324526a52affb-clearSearchHistoryIcon {
 	color: var(--primary);
 }
 
@@ -14501,6 +14495,7 @@ svg._0f2e83213c878a13-thumbnail {
 	fill: white;
 }
 
+._959cbfbb20fb39e8-joinOptionContent path,
 .cfee8f19fcd7f4a6-tag path,
 ._8bb30d6117b46cf5-uploadIcon path,
 ._9443936bd3681b09-uploadIcon path,
