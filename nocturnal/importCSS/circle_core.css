@@ -8320,6 +8320,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .c3fe2596aebefa6b-tableContainer,
 .skeletonBody__08415,
 .fcb62805acc5d0cc-note textarea:focus,
+.eb110a19ea3d101d-note textarea:focus,
 ._8823a89839c9e7ef-header,
 .c590712dbcf16100-iconMask,
 ._33d66b8603f565e5-pill,
@@ -11362,6 +11363,9 @@ rect[fill="brand-200"] {
 	overflow: hidden !important;
 }
 
+.eb110a19ea3d101d-note textarea,
+.eb110a19ea3d101d-note textarea:focus:focus,
+.eb110a19ea3d101d-note textarea:focus:focus:hover,
 .c0bea05627c5dc35-outer,
 .inputWrapperWithEmojiPicker_ac72c6 ._0ed4fc708cdbac0d-input,
 .inputWrapperWithEmojiPicker_ac72c6 ._0ed4fc708cdbac0d-input:focus,
