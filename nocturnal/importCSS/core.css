@@ -2263,6 +2263,7 @@ span._67645e1530f1195d-button._67645e1530f1195d-enabled:not(._67645e1530f1195d-r
 
 .menu_c8834f,
 ._16b66d7b4c923028-colorHeaderSecondary,
+[style="color: var(--text-default);"],
 [style="color: var(--text-tertiary);"],
 [style="color: var(--text-secondary);"],
 [style="color: var(--text-muted-on-default);"],
@@ -8188,12 +8189,14 @@ h3._1689b6e8323d95c2-improved:after,
 	left: -4px;
 }
 
+path[fill="var(--text-default)"],
 path[fill="var(--text-secondary)"],
 path[fill="var(--text-tertiary)"],
 path[fill="var(--icon-tertiary)"],
 path[fill="var(--text-muted-on-default)"],
 path[fill="var(--interactive-text-default)"],
 path[fill="var(--interactive-icon-default)"],
+rect[fill="var(--text-default)"],
 rect[fill="var(--text-secondary)"],
 rect[fill="var(--text-tertiary)"],
 rect[fill="var(--icon-tertiary)"],
@@ -8204,12 +8207,14 @@ rect[fill="var(--interactive-icon-default)"] {
 	fill: #fff;
 }
 
+.theme-light path[fill="var(--text-default)"],
 .theme-light path[fill="var(--text-secondary)"],
 .theme-light path[fill="var(--text-tertiary)"],
 .theme-light path[fill="var(--icon-tertiary)"],
 .theme-light path[fill="var(--text-muted-on-default)"],
 .theme-light path[fill="var(--interactive-text-default)"],
 .theme-light path[fill="var(--interactive-icon-default)"],
+.theme-light rect[fill="var(--text-default)"],
 .theme-light rect[fill="var(--text-secondary)"],
 .theme-light rect[fill="var(--text-tertiary)"],
 .theme-light rect[fill="var(--icon-tertiary)"],
@@ -13788,6 +13793,7 @@ svg._0f2e83213c878a13-thumbnail {
 	background-color: rgb(4, 137, 232) !important;
 }
 
+._354ecbbf936fa060-tab:hover,
 .fc7677f98f23281c-fontButton.fc7677f98f23281c-selected,
 .caa50c0e8e84d066-effectContainer.caa50c0e8e84d066-selected,
 .febe194135dcdd22-source:hover:not(.febe194135dcdd22-selectedSource) .febe194135dcdd22-sourcePreviewContainer:before {
