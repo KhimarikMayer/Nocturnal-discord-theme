@@ -9629,7 +9629,7 @@ path[fill="var(--background-brand)"] {
 .fccfdf3cfff21921-expandButton,
 .fccfdf3cfff21921-collapseButton {
 	background-color: rgba(0, 0, 0, 0) !important;
-	padding: 4px;
+	padding: 2px 4px;
 }
 
 .dfa8b6b94cddb191-role,
@@ -14807,6 +14807,8 @@ svg._0f2e83213c878a13-thumbnail {
 	fill: white;
 }
 
+._14245bb948377a25-headerCollapseIcon path,
+._14245bb948377a25-headerIcon path,
 ._959cbfbb20fb39e8-joinOptionContent path,
 .cfee8f19fcd7f4a6-tag path,
 ._8bb30d6117b46cf5-uploadIcon path,
