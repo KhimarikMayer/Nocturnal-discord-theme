@@ -14245,6 +14245,29 @@ svg._0f2e83213c878a13-thumbnail {
 	}
 }
 
+.theme-light.c0bea05627c5dc35-outer.custom-user-profile-theme .topSectionStreaming .profileButtons,
+.theme-light.c0bea05627c5dc35-outer .topSectionStreaming .profileButtons,
+.theme-light.c0bea05627c5dc35-outer.custom-user-profile-theme .topSectionNormal .profileButtons,
+.theme-light.c0bea05627c5dc35-outer .topSectionNormal .profileButtons,
+.theme-light.c0bea05627c5dc35-outer.custom-user-profile-theme .topSectionXbox .profileButtons,
+.theme-light.c0bea05627c5dc35-outer .topSectionXbox .profileButtons,
+.theme-light.c0bea05627c5dc35-outer.custom-user-profile-theme .topSectionSpotify .profileButtons,
+.theme-light.c0bea05627c5dc35-outer .topSectionSpotify .profileButtons,
+.theme-light.c0bea05627c5dc35-outer.custom-user-profile-theme .topSectionPlaying .profileButtons,
+.theme-light.c0bea05627c5dc35-outer .topSectionPlaying .profileButtons {
+	.themeColor_fb7f94.secondary_fb7f94:not(.color_f9d37d.banner_fb7f94),
+	.a22cb0c66246f5d3-sm:not(.a22cb0c66246f5d3-hasText),
+	.a22cb0c66246f5d3-sm,
+	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled):not(.color_f9d37d.banner_fb7f94),
+	.a22cb0c66246f5d3-sm:hover:not(:disabled):not(.a22cb0c66246f5d3-hasText),
+	.a22cb0c66246f5d3-sm:hover:not(:disabled),
+	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled):not(.color_f9d37d.banner_fb7f94),
+	.a22cb0c66246f5d3-sm:active:not(:disabled):not(.a22cb0c66246f5d3-hasText),
+	.a22cb0c66246f5d3-sm:active:not(:disabled) {
+		color: #000 !important;
+	}
+}
+
 .c0bea05627c5dc35-outer.custom-user-profile-theme .topSectionPlaying .profileButtons,
 .c0bea05627c5dc35-outer .topSectionPlaying .profileButtons {
 	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled):not(.color_f9d37d.banner_fb7f94),
@@ -14276,6 +14299,16 @@ svg._0f2e83213c878a13-thumbnail {
 	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled):not(.color_f9d37d.banner_fb7f94),
 	.a22cb0c66246f5d3-sm:active:not(:disabled):not(.a22cb0c66246f5d3-hasText) {
 		color: #fff !important;
+	}
+}
+
+.theme-light.c0bea05627c5dc35-outer.custom-user-profile-theme .topSectionPlaying .profileButtons,
+.theme-light.c0bea05627c5dc35-outer .topSectionPlaying .profileButtons {
+	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled):not(.color_f9d37d.banner_fb7f94),
+	.a22cb0c66246f5d3-sm:hover:not(:disabled):not(.a22cb0c66246f5d3-hasText),
+	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled):not(.color_f9d37d.banner_fb7f94),
+	.a22cb0c66246f5d3-sm:active:not(:disabled):not(.a22cb0c66246f5d3-hasText) {
+		color: #000 !important;
 	}
 }
 
@@ -14353,11 +14386,60 @@ svg._0f2e83213c878a13-thumbnail {
 	}
 }
 
+.theme-light.c0bea05627c5dc35-outer.custom-user-profile-theme .topSectionSpotify .profileButtons,
+.theme-light.c0bea05627c5dc35-outer .topSectionSpotify .profileButtons {
+	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled):not(.color_f9d37d.banner_fb7f94),
+	.a22cb0c66246f5d3-sm:hover:not(:disabled):not(.a22cb0c66246f5d3-hasText),
+	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled):not(.color_f9d37d.banner_fb7f94),
+	.a22cb0c66246f5d3-sm:active:not(:disabled):not(.a22cb0c66246f5d3-hasText) {
+		color: #000 !important;
+	}
+}
+
+.theme-light.c0bea05627c5dc35-outer.custom-user-profile-theme .topSectionXbox .profileButtons,
+.theme-light.c0bea05627c5dc35-outer .topSectionXbox .profileButtons {
+	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled):not(.color_f9d37d.banner_fb7f94),
+	.a22cb0c66246f5d3-sm:hover:not(:disabled):not(.a22cb0c66246f5d3-hasText),
+	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled):not(.color_f9d37d.banner_fb7f94),
+	.a22cb0c66246f5d3-sm:active:not(:disabled):not(.a22cb0c66246f5d3-hasText) {
+		color: #000 !important;
+	}
+}
+.theme-light.c0bea05627c5dc35-outer.custom-user-profile-theme .topSectionNormal .profileButtons,
+.theme-light.c0bea05627c5dc35-outer .topSectionNormal .profileButtons {
+	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled):not(.color_f9d37d.banner_fb7f94),
+	.a22cb0c66246f5d3-sm:hover:not(:disabled):not(.a22cb0c66246f5d3-hasText),
+	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled):not(.color_f9d37d.banner_fb7f94),
+	.a22cb0c66246f5d3-sm:active:not(:disabled):not(.a22cb0c66246f5d3-hasText) {
+		color: #000 !important;
+	}
+}
+
+.theme-light.c0bea05627c5dc35-outer.custom-user-profile-theme .topSectionPlaying .profileButtons,
+.theme-light.c0bea05627c5dc35-outer .topSectionPlaying .profileButtons {
+	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled):not(.color_f9d37d.banner_fb7f94),
+	.a22cb0c66246f5d3-sm:hover:not(:disabled):not(.a22cb0c66246f5d3-hasText),
+	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled):not(.color_f9d37d.banner_fb7f94),
+	.a22cb0c66246f5d3-sm:active:not(:disabled):not(.a22cb0c66246f5d3-hasText) {
+		color: #000 !important;
+	}
+}
+
+.theme-light.c0bea05627c5dc35-outer.custom-user-profile-theme .topSectionStreaming .profileButtons,
+.theme-light.c0bea05627c5dc35-outer .topSectionStreaming .profileButtons {
+	.themeColor_fb7f94.secondary_fb7f94:hover:not(:disabled):not(.color_f9d37d.banner_fb7f94),
+	.a22cb0c66246f5d3-sm:hover:not(:disabled):not(.a22cb0c66246f5d3-hasText),
+	.themeColor_fb7f94.secondary_fb7f94:active:not(:disabled):not(.color_f9d37d.banner_fb7f94),
+	.a22cb0c66246f5d3-sm:active:not(:disabled):not(.a22cb0c66246f5d3-hasText) {
+		color: #000 !important;
+	}
+}
+
 .c0bea05627c5dc35-outer.theme-light :is(.topSectionPlaying, .topSectionSpotify, .topSectionStreaming, .topSectionXbox) {
     & .profileButtons {
         & .themeColor_fb7f94.secondary_fb7f94:not(.color_f9d37d.banner_fb7f94), & .a22cb0c66246f5d3-sm:not(.a22cb0c66246f5d3-hasText) {
             svg {
-                stroke: #fff !important;
+                stroke: #000 !important;
             }
         }
     }
@@ -14371,6 +14453,16 @@ svg._0f2e83213c878a13-thumbnail {
 
 .activityProfile ._635edac6e9713347-badgeContainer svg path {
 	fill: #fff !important;
+}
+
+.theme-light .headerText,
+.theme-light .activityProfile ._635edac6e9713347-badgeContainer ._4bd5201c86a2042b-tabularNumbers,
+.theme-light .activityProfile :is(.nameNormal, .details, .state, .timestamp) {
+	color: #000 !important;
+}
+
+.theme-light .activityProfile ._635edac6e9713347-badgeContainer svg path {
+	fill: #000 !important;
 }
 
 .c0bea05627c5dc35-outer:not(.custom-user-profile-theme) .activityProfile .actionsProfile button:not(:disabled),
@@ -14874,4 +14966,16 @@ svg._0f2e83213c878a13-thumbnail {
 
 .theme-midnight .bd-notice-button:hover {
 	color: hsl(218 calc(var(--saturation-factor)*100%) 31% /1);
+}
+
+.theme-light :is(.topSectionPlaying, .topSectionSpotify, .topSectionStreaming, .topSectionXbox, .topSectionNormal) {
+    .nameTag {
+        color: #000;
+    }
+}
+
+.theme-light :is(.activityProfileContainerVoice, .activityProfileContainerStream) .textRow svg {
+    path {
+        fill: #000;
+    }
 }
