@@ -4891,7 +4891,8 @@ body,
 
 ._5e434347c823b592-panels,
 .custom-theme-background ._5e434347c823b592-panels,
-._133bf5eea8e33a34-container {
+._133bf5eea8e33a34-container,
+.c8ffbb79449f399c-container {
 	background: var(--background-gradient-app-frame, var(--backgroundDark));
 	border-color: var(--backgroundDark-25);
 }
@@ -8675,7 +8676,7 @@ rect[fill="var(--control-brand-foreground)"] {
 }
 
 ._01c8cef726c85956-scroller,
-._8a529c8f8d8148a5-container,
+.container__4216d,
 .bb8774b01419b2c6-card,
 ._3f11f6a5944d427f-permissionItemContainer,
 ._6fddf2ee3574a18a-calloutContainer,
@@ -9025,7 +9026,7 @@ input[type=checkbox]:focus-visible+._0d242e583d6053f6-label {
 
 ._4c85741a503d2e03-toast path[fill="var(--text-brand)"],
 ._3f11f6a5944d427f-elevatedPermissionContainer path[fill="var(--text-brand)"],
-._8a529c8f8d8148a5-container path[fill="var(--text-brand)"],
+.container__4216d path[fill="var(--text-brand)"],
 path[fill="var(--text-brand)"],
 ._290218226e53085c-eventStatusContainer path[fill="#949cf7"],
 ._290218226e53085c-eventStatusContainer path[fill="#93a7fd"],
@@ -14865,6 +14866,9 @@ svg._0f2e83213c878a13-thumbnail {
 ._1a4ef2934d882343-removeIcon,
 .c99c29809d200a61-clickable,
 .faa96b2163f6a142-messageCountIcon,
+._5f97b45169dc1b9d-dragIcon,
+._81b3e843d09e285a-menu,
+.e29cd7b93c4f1266-addRole,
 ._1bb324526a52affb-clearSearchHistoryIcon {
 	color: var(--primary) !important;
 }
@@ -14900,6 +14904,7 @@ svg._0f2e83213c878a13-thumbnail {
 	fill: white;
 }
 
+.e29cd7b93c4f1266-title polygon,
 ._5c7993de8a83f05a-channelIcon path,
 ._14245bb948377a25-headerCollapseIcon path,
 ._14245bb948377a25-headerIcon path,
@@ -14993,7 +14998,10 @@ svg._0f2e83213c878a13-thumbnail {
 .f37cb1984c371ee5-inviteButton path,
 .edbb22df99c39831-title path,
 ._15cd2ff5aac66053-raisedHandIcon rect,
-._15cd2ff5aac66053-raisedHandIcon path {
+._15cd2ff5aac66053-raisedHandIcon path,
+.d8f25bf4f76423e6-icon path,
+.d8f25bf4f76423e6-arrow path,
+._5f97b45169dc1b9d-person path {
 	fill: var(--primary) !important;
 }
 
