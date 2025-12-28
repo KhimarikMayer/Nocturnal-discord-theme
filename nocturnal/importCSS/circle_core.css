@@ -14661,13 +14661,16 @@ svg._0f2e83213c878a13-thumbnail {
 ._71961da99d37ac57-icon,
 .c2b141c0f80863fb-closeButton,
 .icon_fea832,
+._2692d04af6567ec8-tutorialIcon,
 ._252afeffa4155627-copyButton,
 ._13533e3c5791980f-icon,
 ._1a58aeaaf7cc4963-selected ._1a58aeaaf7cc4963-icon,
 ._1a58aeaaf7cc4963-selected:hover ._1a58aeaaf7cc4963-icon,
 ._1a58aeaaf7cc4963-icon,
 ._1a4ef2934d882343-removeIcon,
-.c99c29809d200a61-clickable {
+.c99c29809d200a61-clickable,
+.faa96b2163f6a142-messageCountIcon,
+._1bb324526a52affb-clearSearchHistoryIcon {
 	color: var(--primary) !important;
 }
 
@@ -14696,8 +14699,7 @@ svg._0f2e83213c878a13-thumbnail {
 .collapseButton__427f0,
 .theme-dark ._37e49614b9f110a9-iconForeground,
 .visual-refresh button._67645e1530f1195d-button:not(._67645e1530f1195d-redGlow), .visual-refresh span._67645e1530f1195d-button:not(._67645e1530f1195d-redGlow),
-.visual-refresh button._67645e1530f1195d-button._67645e1530f1195d-enabled:not(._67645e1530f1195d-redGlow):hover, .visual-refresh span._67645e1530f1195d-button._67645e1530f1195d-enabled:not(._67645e1530f1195d-redGlow):hover,
-._1bb324526a52affb-clearSearchHistoryIcon {
+.visual-refresh button._67645e1530f1195d-button._67645e1530f1195d-enabled:not(._67645e1530f1195d-redGlow):hover, .visual-refresh span._67645e1530f1195d-button._67645e1530f1195d-enabled:not(._67645e1530f1195d-redGlow):hover {
 	color: var(--primary);
 }
 
@@ -14705,6 +14707,7 @@ svg._0f2e83213c878a13-thumbnail {
 	fill: white;
 }
 
+._5c7993de8a83f05a-channelIcon path,
 ._14245bb948377a25-headerCollapseIcon path,
 ._14245bb948377a25-headerIcon path,
 ._959cbfbb20fb39e8-joinOptionContent path,
