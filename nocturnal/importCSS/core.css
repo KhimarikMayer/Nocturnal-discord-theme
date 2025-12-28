@@ -14974,6 +14974,7 @@ svg._0f2e83213c878a13-thumbnail {
 ._1a58aeaaf7cc4963-icon,
 ._1a4ef2934d882343-removeIcon,
 .c99c29809d200a61-clickable,
+.faa96b2163f6a142-messageCountIcon,
 ._1bb324526a52affb-clearSearchHistoryIcon {
 	color: var(--primary) !important;
 }
@@ -15011,6 +15012,7 @@ svg._0f2e83213c878a13-thumbnail {
 	fill: white;
 }
 
+._5c7993de8a83f05a-channelIcon path,
 ._14245bb948377a25-headerCollapseIcon path,
 ._14245bb948377a25-headerIcon path,
 ._959cbfbb20fb39e8-joinOptionContent path,
