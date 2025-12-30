@@ -4193,6 +4193,7 @@ span._67645e1530f1195d-button._67645e1530f1195d-enabled:not(._67645e1530f1195d-r
 .guildFeatureAvailabilityIndicator_cd0bbe,
 .bd-number-input,
 .bd-select,
+._50e4ecc92cc862b6-roleRow,
 .ef2eb43282958c32-roleRow,
 .f0dcafd910670ca4-roleRow {
 	background-color: var(--backgroundDark-35);
@@ -9716,6 +9717,7 @@ path[fill="var(--background-brand)"] {
 .bd-error-content,
 .upsellCTAContainer_ca9b56,
 ._16462760b3537d72-tableContainer,
+._50e4ecc92cc862b6-tableContainer,
 .b5493bb5330ab072-card,
 .a61c561e7be40d05-expandedProgressBarContainer,
 .cb32c78a53f54371-container,
@@ -13563,11 +13565,6 @@ svg._0f2e83213c878a13-thumbnail {
 	height: 36px;
 	border-radius: 4px;
 	box-shadow: 0 0 0 2px #666;
-}
-
-.bd-gp-tab:hover {
-	color: var(--interactive-hover);
-	border-bottom-color: var(--interactive-hover);
 }
 
 .e88f3fec6ea23bee-key,
