@@ -14570,6 +14570,7 @@ svg._0f2e83213c878a13-thumbnail {
 ._5f97b45169dc1b9d-dragIcon,
 ._81b3e843d09e285a-menu,
 .e29cd7b93c4f1266-addRole,
+._710ee07a7daf765f-icon,
 ._1bb324526a52affb-clearSearchHistoryIcon {
 	color: var(--primary) !important;
 }
@@ -14605,6 +14606,11 @@ svg._0f2e83213c878a13-thumbnail {
 	fill: white;
 }
 
+._9bb02e82f9a1c59d-container path[fill="var(--interactive-icon-default)"],
+._4eb6ed35b1d1f3c8-channelOptionIcon path,
+._8a031a135bfcb9ba-headerSubtitleIcon path,
+._5a8382cf5c9d77df-icon path,
+._88a69141dd70013a-icon path,
 .e29cd7b93c4f1266-title polygon,
 ._5c7993de8a83f05a-channelIcon path,
 ._14245bb948377a25-headerCollapseIcon path,
@@ -15000,4 +15006,12 @@ button._67645e1530f1195d-plateMuted._67645e1530f1195d-button._67645e1530f1195d-r
 button._67645e1530f1195d-plateMuted._67645e1530f1195d-button._67645e1530f1195d-enabled:hover._67645e1530f1195d-redGlow, span._67645e1530f1195d-plateMuted._67645e1530f1195d-button._67645e1530f1195d-enabled:hover._67645e1530f1195d-redGlow,
 button._67645e1530f1195d-plateMuted._67645e1530f1195d-button._67645e1530f1195d-enabled._67645e1530f1195d-redGlow:hover, span._67645e1530f1195d-plateMuted._67645e1530f1195d-button._67645e1530f1195d-enabled._67645e1530f1195d-redGlow:hover {
 	background-color: var(--opacity-red-24) !important;
+}
+
+._740174f3d6a2c8fe-channelTextArea:not(._740174f3d6a2c8fe-flushContainer)._0511a39e97dd4674-topicContainer {
+	border-radius: 0 0 5px 5px;
+}
+
+.bba88350df28dff1-staticToolbar {
+	border-radius: 5px 5px 0 0;
 }
