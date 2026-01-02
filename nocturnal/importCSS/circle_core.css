@@ -920,9 +920,9 @@ svg._42bf58529787eb7a-contentImage,
 	border-color: var(--primary) !important;
 }
 
-._4bb93312e84f332e-card:before {
+.b846e57d7dad7f1a-card:before {
 	background-color: var(--backgroundDark-20);
-	border-color: var(--backgroundDark-20);
+	border: none;
 }
 
 .a582673ee150fcb4-content,
@@ -2224,7 +2224,7 @@ span._67645e1530f1195d-button._67645e1530f1195d-enabled:not(._67645e1530f1195d-r
 
 .menu_c8834f,
 ._16b66d7b4c923028-colorHeaderSecondary,
-[style="color: var(--text-default);"]:not(.memberSinceServer),
+[style="color: var(--text-default);"]:not(.memberSinceServer,.memberSinceundefined),
 [style="color: var(--text-tertiary);"],
 [style="color: var(--text-secondary);"],
 [style="color: var(--text-muted-on-default);"],
@@ -11201,6 +11201,7 @@ rect[fill="brand-200"] {
 ._7e354f20d41ba5d7-content,
 ._2ff9f10a29f93cb2-step,
 ._2ff9f10a29f93cb2-stepNumber,
+._3f982e8c53dc4521-footer,
 ._19fd16f9b3ed863d-clickable {
 	border: none;
 	background-color: var(--backgroundDark-15);
@@ -14574,6 +14575,7 @@ svg._0f2e83213c878a13-thumbnail {
 ._81b3e843d09e285a-menu,
 .e29cd7b93c4f1266-addRole,
 ._710ee07a7daf765f-icon,
+.e18686589e1e1110-button,
 ._1bb324526a52affb-clearSearchHistoryIcon {
 	color: var(--primary) !important;
 }
@@ -14609,6 +14611,7 @@ svg._0f2e83213c878a13-thumbnail {
 	fill: white;
 }
 
+.b969678e799b85d3-dragContainer path[fill="currentColor"],
 ._9bb02e82f9a1c59d-container path[fill="var(--interactive-icon-default)"],
 ._4eb6ed35b1d1f3c8-channelOptionIcon path,
 ._8a031a135bfcb9ba-headerSubtitleIcon path,
@@ -14715,6 +14718,10 @@ svg._0f2e83213c878a13-thumbnail {
 	fill: var(--primary) !important;
 }
 
+.cc46f0f859f26200-toggleIconOn .cc46f0f859f26200-fill {
+	fill: var(--primary);
+}
+
 .bd-button-content svg,
 .lucide.caf372efc4d47562-icon,
 .f3b986a284a18c78-spinnerWrapper,
@@ -14804,12 +14811,6 @@ svg._0f2e83213c878a13-thumbnail {
 	border-radius: 8px;
 }
 
-.theme-light :is(.topSectionPlaying, .topSectionSpotify, .topSectionStreaming, .topSectionXbox) {
-    .tabBarItem:hover {
-        border-bottom-color: #fff;
-    }
-}
-
 .headerFill {
 	background-color: var(--backgroundDark-15);
 	box-shadow: 0 4px 2px -2px var(--backgroundDark-50);
@@ -14862,21 +14863,16 @@ svg._0f2e83213c878a13-thumbnail {
 	background-color: rgba(0, 0, 0, 0) !important;
 }
 
-.tabBarItem {
-	color: var(--text-subtle);
+.theme-light :is(.topSectionPlaying, .topSectionSpotify, .topSectionStreaming, .topSectionXbox) {
+    .tabBarItem {
+        color: rgba(0, 0, 0, 0.4);
+    }
 }
 
-.tabBarItem:hover {
-	color: var(--text-strong);
-}
-
-.tabBarItem[aria-selected=true] {
-	color: var(--interactive-text-active);
-}
-
-:is(.topSectionPlaying, .topSectionSpotify, .topSectionStreaming, .topSectionXbox) {
+.theme-light :is(.topSectionPlaying, .topSectionSpotify, .topSectionStreaming, .topSectionXbox, .topSectionNormal) {
     .tabBarItem[aria-selected=true] {
-        color: var(--interactive-text-active);
+        color: #000;
+        border-bottom-color: #000;
     }
 }
 
@@ -14986,12 +14982,6 @@ svg._0f2e83213c878a13-thumbnail {
 	color: hsl(218 calc(var(--saturation-factor)*100%) 31% /1);
 }
 
-.theme-light :is(.topSectionPlaying, .topSectionSpotify, .topSectionStreaming, .topSectionXbox, .topSectionNormal) {
-    .nameTag {
-        color: #000;
-    }
-}
-
 .theme-light :is(.activityProfileContainerVoice, .activityProfileContainerStream) .textRow svg {
     path {
         fill: #000;
@@ -15017,4 +15007,14 @@ button._67645e1530f1195d-plateMuted._67645e1530f1195d-button._67645e1530f1195d-e
 
 .bba88350df28dff1-staticToolbar {
 	border-radius: 5px 5px 0 0;
+}
+
+.has-webkit-scrollbar ._8a031a135bfcb9ba-bodyInner {
+	padding-right: calc(var(--custom-modal-padding) - var(--space-12)) !important;
+}
+
+.theme-light :is(.topSectionPlaying, .topSectionSpotify, .topSectionStreaming, .topSectionXbox, .topSectionNormal) {
+    .activityHeader, .customStatusText {
+        color: #000;
+    }
 }
