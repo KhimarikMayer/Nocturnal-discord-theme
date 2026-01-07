@@ -376,7 +376,7 @@ div[style*="/assets/f046e2247d730629309457e902d5c5b3.svg"] {
 	border: 1px solid var(--backgroundDark-25) !important;
 }
 
-._974928fe84ca9647-search .DraftEditor-root {
+.c322aadb96ff59c9-search .DraftEditor-root {
 	line-height: 24px;
 }
 
@@ -1950,8 +1950,8 @@ svg[name=Nitro] g path {
 	border: none;
 }
 
-._974928fe84ca9647-search .DraftEditor-root .public-DraftStyleDefault-block,
-._974928fe84ca9647-search .DraftEditor-root .public-DraftEditorPlaceholder-root {
+.c322aadb96ff59c9-search .DraftEditor-root .public-DraftStyleDefault-block,
+.c322aadb96ff59c9-search .DraftEditor-root .public-DraftEditorPlaceholder-root {
 	padding-top: 1px;
 }
 
@@ -1969,12 +1969,12 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDark-25);
 }
 
-._46696d17714f10ab-path:not(.f3b986a284a18c78-spinnerPath) {
+._46696d17714f10ab-path:not(.ae7890a1b8e75804-spinnerPath) {
 	stroke: var(--primary);
 }
 
-._46696d17714f10ab-path2:not(.f3b986a284a18c78-spinnerPath),
-._46696d17714f10ab-path3:not(.f3b986a284a18c78-spinnerPath) {
+._46696d17714f10ab-path2:not(.ae7890a1b8e75804-spinnerPath),
+._46696d17714f10ab-path3:not(.ae7890a1b8e75804-spinnerPath) {
 	stroke: var(--text-senary);
 }
 
@@ -2181,7 +2181,7 @@ svg[name=Nitro] g path {
 	border-radius: 5px;
 }
 
-._02a39cb2980ceaaf-searchResult:before {
+._80bf8435713f6adb-searchResult:before {
 	background-image: none;
 }
 
@@ -2189,7 +2189,7 @@ svg[name=Nitro] g path {
 	background-color: var(--backgroundDarker);
 }
 
-._02a39cb2980ceaaf-searchResult:after {
+._80bf8435713f6adb-searchResult:after {
 	background-image: none;
 }
 
@@ -2386,7 +2386,7 @@ span._67645e1530f1195d-button._67645e1530f1195d-enabled:not(._67645e1530f1195d-r
 	box-shadow: none;
 }
 
-._02a39cb2980ceaaf-searchResult {
+._80bf8435713f6adb-searchResult {
 	background-color: var(--backgroundDark);
 	border: none;
 }
@@ -2427,6 +2427,7 @@ span._67645e1530f1195d-button._67645e1530f1195d-enabled:not(._67645e1530f1195d-r
 	background-color: var(--backgroundDark);
 }
 
+.refresh-active-now ._00943886e1cf89d1-header,
 .bf1984a18b3ec6f0-outer,
 #app-mount :where(.bd-paginator-back, .bd-paginator-next):hover,
 .c1521037ef09de7e-pageButton:hover {
@@ -2583,7 +2584,10 @@ span._67645e1530f1195d-button._67645e1530f1195d-enabled:not(._67645e1530f1195d-r
 }
 
 .bf1984a18b3ec6f0-outer.bf1984a18b3ec6f0-interactive:hover,
-.bf1984a18b3ec6f0-outer.bf1984a18b3ec6f0-active,
+.bf1984a18b3ec6f0-outer.bf1984a18b3ec6f0-active {
+	background-color: var(--backgroundDark-15);
+}
+
 .b7f4b43fe1b6e285-reactionSelected,
 .b7f4b43fe1b6e285-reactionSelected:hover,
 ._01c8cef726c85956-voteSelected,
@@ -2853,7 +2857,7 @@ span._67645e1530f1195d-button._67645e1530f1195d-enabled:not(._67645e1530f1195d-r
 
 ._7d20cf18f8a2784c-scroller,
 ._56ccd9a4ea869e7b-scroller,
-.a9e7064fdee8e9b0-scroller {
+.a98f3b020416ad54-scroller {
 	padding-right: 10px !important;
 	margin-left: 0;
 }
@@ -4851,7 +4855,7 @@ svg._42bf58529787eb7a-contentImage path {
 
 .d806b9d3430d54a9-container,
 ._535437b3d3b11fd1-scroller,
-._02a39cb2980ceaaf-button,
+._80bf8435713f6adb-button,
 .e131a99484292a19-noiseCancellationPopout,
 ._50387b5c048bc9e1-debugPanelStandalone,
 ._133bf5eea8e33a34-nowPlayingColumn,
@@ -4960,7 +4964,7 @@ html:not(.chat-input) .b1f01d03ecc7d736-inputInner,
 	box-shadow: var(--shadow-high);
 }
 
-.theme-dark ._974928fe84ca9647-searchBar {
+.theme-dark .c322aadb96ff59c9-searchBar {
 	background: var(--background-gradient-app-frame, var(--backgroundDark));
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-50);
 	border: none;
@@ -5235,7 +5239,7 @@ html:not(.chat-input) .b1f01d03ecc7d736-inputInner,
 }
 
 .container_c2efea,
-.a9e7064fdee8e9b0-searchResultsWrap,
+.a98f3b020416ad54-searchResultsWrap,
 .sidebar__68062,
 .background_c54132,
 ._5d7c9a81ac5dd074-emptyPage,
@@ -7402,7 +7406,7 @@ span._07f9193042954787-clanTag:not(._63ed30c16c7151f2-guildTag),
 .z-select:hover,
 .z-select.menu-open,
 ._56fec8e8b8048fe0-resultsGroup:before,
-.f3b986a284a18c78-searchHeader,
+.ae7890a1b8e75804-searchHeader,
 ._686cf09df72934da-columnHeading,
 ._686cf09df72934da-tableCell,
 .headerCell_e9cd98,
@@ -11828,12 +11832,12 @@ rect[fill="brand-200"] {
 ._2e223b71e11aa968-listBoxItem:focus:not([aria-disabled]),
 .mouse-mode ._2e223b71e11aa968-listBoxItem:hover:not([aria-disabled]),
 ._4d307bb213548a7a-previews ._4d307bb213548a7a-reactions,
-._1bb324526a52affb-itemContainer:active,
-._1bb324526a52affb-itemContainer:hover,
-._1bb324526a52affb-itemContainer[aria-selected=true],
-._1bb324526a52affb-answerPill,
-._1bb324526a52affb-filterPill,
-._1bb324526a52affb-divider,
+._8de16516b8d9f538-itemContainer:active,
+._8de16516b8d9f538-itemContainer:hover,
+._8de16516b8d9f538-itemContainer[aria-selected=true],
+._8de16516b8d9f538-answerPill,
+._8de16516b8d9f538-filterPill,
+._8de16516b8d9f538-divider,
 #bd-editor-controls button:hover,
 .f74169e64a84b861-game:hover,
 .c7a70f215fc3be44-divider,
@@ -13537,6 +13541,7 @@ svg._0f2e83213c878a13-thumbnail {
 	margin: 10px;
 }
 
+.refresh-active-now ._00943886e1cf89d1-wrapper,
 ._7e354f20d41ba5d7-headerIconWrapper,
 .bb8774b01419b2c6-image,
 ._4d95d73152192cf9-modalContent ._4d95d73152192cf9-codeView,
@@ -14099,13 +14104,13 @@ svg._0f2e83213c878a13-thumbnail {
 	}
 }
 
-.f1c5c9823fbd3ef8-container {
+.b6544fb09f373e60-container {
 	background-color: var(--backgroundDark);
 	border: none;
 	padding-right: 2px !important;
 }
 
-._1bb324526a52affb-item {
+._8de16516b8d9f538-item {
 	mask-image: linear-gradient(to right, var(--backgroundDark) 90%, rgba(0, 0, 0, 0) 100%);
 }
 
@@ -14159,6 +14164,7 @@ svg._0f2e83213c878a13-thumbnail {
 	transition: 250ms background-color ease-in-out;
 }
 
+.noIcon,
 .tabBarContainer:hover {
 	background-color: var(--backgroundDark-50);
 }
@@ -14771,7 +14777,9 @@ svg._0f2e83213c878a13-thumbnail {
 }
 
 .c0bea05627c5dc35-outer:not(.custom-user-profile-theme) .activityProfile .actionsProfile button:not(:disabled),
-.c0bea05627c5dc35-outer .activityProfile .actionsProfile button:not(:disabled) {
+.c0bea05627c5dc35-outer .activityProfile .actionsProfile button:not(:disabled),
+.c0bea05627c5dc35-outer:not(.custom-user-profile-theme) .activityProfile .actionsProfile button.spotify-activity-btn:disabled,
+.c0bea05627c5dc35-outer .activityProfile .actionsProfile button.spotify-activity-btn:disabled {
 	background: rgba(0, 0, 0, 0) !important;
 	border-width: 1px 0 !important;
 	font-size: 14px;
@@ -14788,7 +14796,11 @@ svg._0f2e83213c878a13-thumbnail {
 .c0bea05627c5dc35-outer:not(.custom-user-profile-theme) .activityProfile .actionsProfile button:hover:not(:disabled),
 .c0bea05627c5dc35-outer:not(.custom-user-profile-theme) .activityProfile .actionsProfile button:active:not(:disabled),
 .c0bea05627c5dc35-outer .activityProfile .actionsProfile button:hover:not(:disabled),
-.c0bea05627c5dc35-outer .activityProfile .actionsProfile button:active:not(:disabled) {
+.c0bea05627c5dc35-outer .activityProfile .actionsProfile button:active:not(:disabled),
+.c0bea05627c5dc35-outer:not(.custom-user-profile-theme) .activityProfile .actionsProfile button.spotify-activity-btn:hover:not(:disabled),
+.c0bea05627c5dc35-outer:not(.custom-user-profile-theme) .activityProfile .actionsProfile button.spotify-activity-btn:active:not(:disabled),
+.c0bea05627c5dc35-outer .activityProfile .actionsProfile button.spotify-activity-btn:hover:not(:disabled),
+.c0bea05627c5dc35-outer .activityProfile .actionsProfile button.spotify-activity-btn:active:not(:disabled) {
 	background: rgba(0, 0, 0, 0) !important;
 	border-width: 1px 0 !important;
 	font-size: 14px;
@@ -14800,6 +14812,21 @@ svg._0f2e83213c878a13-thumbnail {
 	border: 1px solid white !important;
 	border-width: 1px 0 !important;
 	border-radius: 0 !important;
+}
+
+.theme-light .c0bea05627c5dc35-outer:not(.custom-user-profile-theme) .activityProfile .actionsProfile button:not(:disabled),
+.theme-light .c0bea05627c5dc35-outer .activityProfile .actionsProfile button:not(:disabled),
+.theme-light .c0bea05627c5dc35-outer:not(.custom-user-profile-theme) .activityProfile .actionsProfile button.spotify-activity-btn:disabled,
+.theme-light .c0bea05627c5dc35-outer .activityProfile .actionsProfile button.spotify-activity-btn:disabled,
+.theme-light .c0bea05627c5dc35-outer:not(.custom-user-profile-theme) .activityProfile .actionsProfile button:hover:not(:disabled),
+.theme-light .c0bea05627c5dc35-outer:not(.custom-user-profile-theme) .activityProfile .actionsProfile button:active:not(:disabled),
+.theme-light .c0bea05627c5dc35-outer .activityProfile .actionsProfile button:hover:not(:disabled),
+.theme-light .c0bea05627c5dc35-outer .activityProfile .actionsProfile button:active:not(:disabled),
+.theme-light .c0bea05627c5dc35-outer:not(.custom-user-profile-theme) .activityProfile .actionsProfile button.spotify-activity-btn:hover:not(:disabled),
+.theme-light .c0bea05627c5dc35-outer:not(.custom-user-profile-theme) .activityProfile .actionsProfile button.spotify-activity-btn:active:not(:disabled),
+.theme-light .c0bea05627c5dc35-outer .activityProfile .actionsProfile button.spotify-activity-btn:hover:not(:disabled),
+.theme-light .c0bea05627c5dc35-outer .activityProfile .actionsProfile button.spotify-activity-btn:active:not(:disabled) {
+	color: #000 !important;
 }
 
 ._06ab41fd2ef7af3f-hoverButton,
@@ -14872,7 +14899,8 @@ svg._0f2e83213c878a13-thumbnail {
 .e29cd7b93c4f1266-addRole,
 ._710ee07a7daf765f-icon,
 .e18686589e1e1110-button,
-._1bb324526a52affb-clearSearchHistoryIcon {
+.icon_9cab3e,
+._8de16516b8d9f538-clearSearchHistoryIcon {
 	color: var(--primary) !important;
 }
 
@@ -14907,6 +14935,8 @@ svg._0f2e83213c878a13-thumbnail {
 	fill: white;
 }
 
+.e1364f9f8fc00ea0-commentIcon path,
+._62dd31d5e86f2841-dragHandleButton path,
 .b969678e799b85d3-dragContainer path[fill="currentColor"],
 ._9bb02e82f9a1c59d-container path[fill="var(--interactive-icon-default)"],
 ._4eb6ed35b1d1f3c8-channelOptionIcon path,
@@ -14969,7 +14999,7 @@ svg._0f2e83213c878a13-thumbnail {
 ._754bde0f294a39cb-editIcon path,
 .ec5befa5cc542b17-editableGdmIconIndicator path,
 ._1fc18cdca0445214-frequentFriendsInfoIcon path,
-._1bb324526a52affb-itemIcon path,
+._8de16516b8d9f538-itemIcon path,
 .aec7abc73c126bc0-buttonInner path,
 ._71c22426f1aad6f4-button path,
 ._4914c777b1fd0f99-titleCaret path,
@@ -15020,8 +15050,8 @@ svg._0f2e83213c878a13-thumbnail {
 
 .bd-button-content svg,
 .lucide.caf372efc4d47562-icon,
-.f3b986a284a18c78-spinnerWrapper,
-.f3b986a284a18c78-spinnerPath {
+.ae7890a1b8e75804-spinnerWrapper,
+.ae7890a1b8e75804-spinnerPath {
 	stroke: var(--primary);
 }
 
@@ -15315,4 +15345,8 @@ button._67645e1530f1195d-plateMuted._67645e1530f1195d-button._67645e1530f1195d-e
     .activityHeader, .customStatusText {
         color: #000;
     }
+}
+
+._5fa2fb5c4d963128-selectField:not(._5fa2fb5c4d963128-isInert)._5fa2fb5c4d963128-isFocused, ._5fa2fb5c4d963128-selectField:not(._5fa2fb5c4d963128-isInert):focus-within {
+	outline-color: var(--primary);
 }
