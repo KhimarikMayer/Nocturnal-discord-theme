@@ -6458,6 +6458,7 @@ circle[fill="var(--brand-500)"],
 ._72c3859781ebce8f-wrapper {
 	--custom-input-border-color: rgba(0, 0, 0, 0);
 	--custom-input-hover-border-color: var(--deprecated-text-input-border);
+	--custom-input-focus-border-color: color-mix(in oklab, hsl(204 calc(var(--saturation-factor)*100%) 45% /1) 100%, hsl(var(--custom-theme-base-color-hsl, 0 0% 0%)/1) var(--custom-theme-base-color-amount, 0%));
 }
 
 .nameInput_ac72c6,
@@ -15047,8 +15048,4 @@ button._67645e1530f1195d-plateMuted._67645e1530f1195d-button._67645e1530f1195d-e
     .activityHeader, .customStatusText {
         color: #000;
     }
-}
-
-._5fa2fb5c4d963128-selectField:not(._5fa2fb5c4d963128-isInert)._5fa2fb5c4d963128-isFocused, ._5fa2fb5c4d963128-selectField:not(._5fa2fb5c4d963128-isInert):focus-within {
-	outline-color: var(--primary);
 }
