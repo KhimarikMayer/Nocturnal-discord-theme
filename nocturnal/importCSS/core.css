@@ -10747,7 +10747,8 @@ rect[fill="brand-200"] {
 }
 
 .b5b7aaa6ce54422c-darkThemeGradient,
-.b5b7aaa6ce54422c-darkerThemeGradient {
+.b5b7aaa6ce54422c-darkerThemeGradient,
+.b5b7aaa6ce54422c-midnightThemeGradient {
 	background: linear-gradient(to top, hsl(225 calc(1*20%) 8% /1) 0, hsl(225 calc(1*20%) 8% /.95) 20.31%, hsl(225 calc(1*20%) 8% /0) 100%);
 }
 
@@ -15241,4 +15242,8 @@ button._67645e1530f1195d-plateMuted._67645e1530f1195d-button._67645e1530f1195d-e
 
 .ce5f0d40e8f15f27-progressCircleBackground {
 	fill: var(--backgroundDarker);
+}
+
+.ce5f0d40e8f15f27-progressCircleRing {
+	fill: var(--backgroundDark-20);
 }
