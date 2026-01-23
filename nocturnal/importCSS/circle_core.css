@@ -1550,7 +1550,10 @@ svg[name=Nitro] g path {
 	right: 223px;
 }
 
-.c1e9c47c23f12ca3-item:hover,
+.c1e9c47c23f12ca3-item:hover:not(.c1e9c47c23f12ca3-colorDanger) {
+	background-color: var(--backgroundDark-20);
+}
+
 .c1e9c47c23f12ca3-colorDefault.c1e9c47c23f12ca3-focused:not(.c1e9c47c23f12ca3-colorDanger):not(.c1e9c47c23f12ca3-hideInteraction),
 .c2c6a6d2eee20594-customLabelContainer:hover,
 ._786f453be957f780-nagivateBackContainer:hover,
@@ -4002,6 +4005,7 @@ span._67645e1530f1195d-button._67645e1530f1195d-enabled:not(._67645e1530f1195d-r
 .d2eed6166a4ad770-contentWarningPopout {
 	background-color: var(--backgroundDark);
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
+	border: none;
 }
 
 .dropCard_e8af36,
@@ -10525,7 +10529,9 @@ rect[fill="brand-200"] {
 	color: rgb(0, 87, 111, .7);
 }
 
-.b5b7aaa6ce54422c-darkThemeGradient {
+.b5b7aaa6ce54422c-darkThemeGradient,
+.b5b7aaa6ce54422c-darkerThemeGradient,
+.b5b7aaa6ce54422c-midnightThemeGradient {
 	background: linear-gradient(to top, hsl(225 calc(1*20%) 8% /1) 0, hsl(225 calc(1*20%) 8% /.95) 20.31%, hsl(225 calc(1*20%) 8% /0) 100%);
 }
 
@@ -11122,6 +11128,8 @@ rect[fill="brand-200"] {
 ._611f64ab320721b6-card,
 ._2ff9f10a29f93cb2-serverIpInput,
 .cec93441fbd47328-container,
+.ce5f0d40e8f15f27-container,
+.ce5f0d40e8f15f27-progressContainer,
 .d4320211765954c6-header {
 	border: none;
 	box-shadow: none;
@@ -11614,6 +11622,8 @@ rect[fill="brand-200"] {
 .a22cb0c66246f5d3-color-mix:hover:before,
 ._2e223b71e11aa968-listBoxItem:focus:not([aria-disabled]),
 .mouse-mode ._2e223b71e11aa968-listBoxItem:hover:not([aria-disabled]),
+._2e223b71e11aa968-listBox:not(:focus-within) ._2e223b71e11aa968-listBoxItem[data-focus-visible=true],
+.keyboard-mode ._2e223b71e11aa968-listBoxItem:focus,
 ._4d307bb213548a7a-previews ._4d307bb213548a7a-reactions,
 ._971b54896d13e42d-itemContainer:active,
 ._971b54896d13e42d-itemContainer:hover,
@@ -13677,6 +13687,7 @@ svg._0f2e83213c878a13-thumbnail {
 ._1bad5bf832d69c38-row._1bad5bf832d69c38-clickable:hover,
 ._611f64ab320721b6-divider,
 ._740174f3d6a2c8fe-spacer,
+.ce5f0d40e8f15f27-availableReferralSlot,
 ._7bf69159ddc1fc15-separator {
 	background-color: var(--backgroundDark-20);
 }
@@ -14557,6 +14568,7 @@ span._67645e1530f1195d-button:not(._67645e1530f1195d-plateMuted,._67645e1530f119
     fill: var(--__lottieIconColor, var(--primary));
 }
 
+.ce5f0d40e8f15f27-referredFriendAvatar,
 ._24e2c2ebe64fd7d3-videoQuestPreviewCont,
 ._6d1908c48c1f2850-card {
 	border: none;
@@ -14654,6 +14666,7 @@ span._67645e1530f1195d-button:not(._67645e1530f1195d-plateMuted,._67645e1530f119
     color: var(--text-default) !important;
 }
 
+._6d7dafd03f0cfa6f-BadgeClockIcon,
 .bd-addon-controls .bd-button svg {
 	color: white;
 }
@@ -14668,6 +14681,7 @@ span._67645e1530f1195d-button:not(._67645e1530f1195d-plateMuted,._67645e1530f119
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
 }
 
+._6d7dafd03f0cfa6f-premiumAcknowledgedBadge,
 ._43963ae61224cded-premiumIndicator,
 ._7061714195257845-badge,
 .bd-settings-group.collapsible .bd-settings-title:after {
@@ -14924,4 +14938,12 @@ button._67645e1530f1195d-plateMuted._67645e1530f1195d-button._67645e1530f1195d-e
 .d901142d0e363e66-bar {
 	background-color: var(--backgroundDarker);
 	border-radius: 5px 5px 0 0;
+}
+
+.ce5f0d40e8f15f27-progressCircleBackground {
+	fill: var(--backgroundDarker);
+}
+
+.ce5f0d40e8f15f27-progressCircleRing {
+	fill: var(--backgroundDark-20);
 }
