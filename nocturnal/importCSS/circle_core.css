@@ -14920,37 +14920,6 @@ button._67645e1530f1195d-plateMuted._67645e1530f1195d-button._67645e1530f1195d-e
 	background-color: var(--custom-nameplate) !important;
 }
 
-._44b0c28be7879b7b-wrapper:has([fill="#45a366"])[role="img"]:before {
-	box-shadow: 0 0 0 2px var(--rs-online-color);
-}
-
-._44b0c28be7879b7b-wrapper:has([fill="#da3e44"])[role="img"]:before {
-	box-shadow: 0 0 0 2px var(--rs-dnd-color);
-}
-
-._44b0c28be7879b7b-wrapper:has([fill="#ffc04e"])[role="img"]:before,
-._44b0c28be7879b7b-wrapper:has([fill*="rgba(255"])[role="img"]:before,
-._44b0c28be7879b7b-wrapper:has([fill*="rgba(254"])[role="img"]:before,
-._44b0c28be7879b7b-wrapper:has([fill*="rgba(253"])[role="img"]:before,
-._44b0c28be7879b7b-wrapper:has([fill*="rgba(252"])[role="img"]:before,
-._44b0c28be7879b7b-wrapper:has([fill*="rgba(251"])[role="img"]:before,
-._44b0c28be7879b7b-wrapper:has([fill*="rgba(250"])[role="img"]:before,
-._44b0c28be7879b7b-wrapper:has([fill*="rgba(249"])[role="img"]:before,
-._44b0c28be7879b7b-wrapper:has([fill*="rgba(248"])[role="img"]:before,
-._44b0c28be7879b7b-wrapper:has([fill*="rgba(247"])[role="img"]:before,
-._44b0c28be7879b7b-wrapper:has([fill*="rgba(246"])[role="img"]:before,
-._44b0c28be7879b7b-wrapper:has([fill*="rgba(245"])[role="img"]:before,
-._44b0c28be7879b7b-wrapper:has([fill*="rgba(244"])[role="img"]:before,
-._44b0c28be7879b7b-wrapper:has([fill*="rgba(243"])[role="img"]:before,
-._44b0c28be7879b7b-wrapper:has([fill*="rgba(242"])[role="img"]:before,
-._44b0c28be7879b7b-wrapper:has([fill*="rgba(190, 16"])[role="img"]:before {
-	box-shadow: 0 0 0 2px var(--rs-idle-color);
-}
-
-._44b0c28be7879b7b-wrapper:has([fill="#84858d"])[role="img"]:before {
-	box-shadow: 0 0 0 2px var(--rs-offline-color);
-}
-
 .d901142d0e363e66-bar {
 	background-color: var(--backgroundDarker);
 	border-radius: 5px 5px 0 0;
