@@ -6436,10 +6436,6 @@ circle[fill="var(--brand-500)"],
 	color: var(--text-senary) !important;
 }
 
-[style="color: var(--text-brand);"] {
-	color: var(--text-senary) !important;
-}
-
 [style="color: #949cf7;"],
 [style="color: #93a7fd;"],
 [style="color: rgba(148, 156, 247);"],
