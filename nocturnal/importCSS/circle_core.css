@@ -13704,7 +13704,7 @@ svg._0f2e83213c878a13-thumbnail {
 ._611f64ab320721b6-divider,
 ._740174f3d6a2c8fe-spacer,
 .ce5f0d40e8f15f27-availableReferralSlot,
-._63abbca6d53b6035-backForwardButtons ._63abbca6d53b6035-button:not(._63abbca6d53b6035-disabled):hover
+._63abbca6d53b6035-backForwardButtons ._63abbca6d53b6035-button:not(._63abbca6d53b6035-disabled):hover,
 ._7bf69159ddc1fc15-separator {
 	background-color: var(--backgroundDark-20);
 }
@@ -14415,7 +14415,7 @@ svg._0f2e83213c878a13-thumbnail {
 .icon_9cab3e,
 button._67645e1530f1195d-button:not(._67645e1530f1195d-plateMuted,._67645e1530f1195d-redGlow),
 span._67645e1530f1195d-button:not(._67645e1530f1195d-plateMuted,._67645e1530f1195d-redGlow),
-._63abbca6d53b6035-backForwardButtons ._63abbca6d53b6035-button
+._63abbca6d53b6035-backForwardButtons ._63abbca6d53b6035-button,
 ._971b54896d13e42d-clearSearchHistoryIcon {
 	color: var(--primary) !important;
 }
