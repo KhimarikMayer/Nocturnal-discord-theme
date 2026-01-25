@@ -1,4 +1,4 @@
-.theme-dark ._33d1236760f7073e-image[style*='background-image: url("/assets/cbb4a0ecd21297ba.svg");'] {
+.theme-dark .image__33d12[style*='background-image: url("/assets/cbb4a0ecd21297ba.svg");'] {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/airplane.svg") !important;
 }
 
@@ -6,7 +6,7 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/airplane.svg");
 }
 
-.theme-dark ._33d1236760f7073e-image[style*='background-image: url("/assets/1712159ed9a9430b.svg");'] {
+.theme-dark .image__33d12[style*='background-image: url("/assets/1712159ed9a9430b.svg");'] {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/arcades.svg") !important;
 }
 
@@ -14,7 +14,7 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/arcades.svg");
 }
 
-.theme-dark ._33d1236760f7073e-image[style*='background-image: url("/assets/626d8d0fc1024e29.svg");'] {
+.theme-dark .image__33d12[style*='background-image: url("/assets/626d8d0fc1024e29.svg");'] {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/ban_hammer.svg") !important;
 }
 
@@ -22,11 +22,11 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/ban_hammer.svg");
 }
 
-.theme-dark .a9e7064fdee8e9b0-errorImage {
+.theme-dark .errorImage_a98f3b {
 	background: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/broken.svg") center/cover;
 }
 
-.theme-dark .dede4b50b98d4eb6-verification .dede4b50b98d4eb6-image {
+.theme-dark .verification_dede4b .image_dede4b {
 	background: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/castle.svg") 50%/80% no-repeat;
 }
 
@@ -34,7 +34,7 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/channel_settings.svg");
 }
 
-.theme-dark ._33d1236760f7073e-image[style*='background-image: url("/assets/b00bbf36ff21d401.svg");'] {
+.theme-dark .image__33d12[style*='background-image: url("/assets/b00bbf36ff21d401.svg");'] {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/channel_settings.svg") !important;
 }
 
@@ -42,7 +42,7 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/category_settings.svg");
 }
 
-.theme-dark ._33d1236760f7073e-image[style*='background-image: url("/assets/8819ff5e2c203fa4.svg");'] {
+.theme-dark .image__33d12[style*='background-image: url("/assets/8819ff5e2c203fa4.svg");'] {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/category_settings.svg") !important;
 }
 
@@ -50,20 +50,20 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/4eadba1e452270d0.svg");
 }
 
-.theme-dark ._33d1236760f7073e-image[style*='background-image: url("/assets/4eadba1e452270d0.svg");'] {
+.theme-dark .image__33d12[style*='background-image: url("/assets/4eadba1e452270d0.svg");'] {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/computer.svg") !important;
 }
 
-.theme-dark ._61a6bac39bf12a0c-image {
+.theme-dark .image__61a6b {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/crash.svg");
 }
 
-.theme-dark ._33d1236760f7073e-image[style*='background-image: url("/assets/fe00d138a10c4d10a245.svg");'],
-.theme-dark ._33d1236760f7073e-image[style*='background-image: url("/assets/e39ad82e6a363d79f2a9.svg");'] {
+.theme-dark .image__33d12[style*='background-image: url("/assets/fe00d138a10c4d10a245.svg");'],
+.theme-dark .image__33d12[style*='background-image: url("/assets/e39ad82e6a363d79f2a9.svg");'] {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/dev_options.svg") !important;
 }
 
-.theme-dark ._33d1236760f7073e-image[style*='background-image: url("/assets/4a1048df8a7e1175.svg");'] {
+.theme-dark .image__33d12[style*='background-image: url("/assets/4a1048df8a7e1175.svg");'] {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/emojis.svg") !important;
 }
 
@@ -80,11 +80,11 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/friend.svg") !important;
 }
 
-.theme-dark ._29ebda89742214e9-sadImage {
+.theme-dark .sadImage__29ebd {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/gif_not_found.svg");
 }
 
-.theme-dark ._2dc39186a9b98da4-endContainer::after {
+.theme-dark .endContainer__2dc39::after {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/gif_picker_end.svg");
 }
 
@@ -92,16 +92,16 @@
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/groups.svg");
 }
 
-.theme-dark .d4883c8125f433a3-emptyStateImage,
-.theme-dark .adb41f8099151bc8-emptyWumpus {
+.theme-dark .emptyStateImage_d4883c,
+.theme-dark .emptyWumpus_adb41f {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/gift_inventory.svg");
 }
 
-.theme-dark ._9d78f306fb3bc112-emptyIconGuilds {
+.theme-dark .emptyIconGuilds__9d78f {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/houses.svg");
 }
 
-.theme-dark ._98b952271168897c-footerImage {
+.theme-dark .footerImage__98b95 {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/integrations.svg");
 }
 
@@ -109,7 +109,7 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/key.svg") !important;
 }
 
-.theme-dark ._33d1236760f7073e-image[style*='background-image: url("/assets/4f56a41d7fd9fb42.svg");'] {
+.theme-dark .image__33d12[style*='background-image: url("/assets/4f56a41d7fd9fb42.svg");'] {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/no_channel.svg") !important;
 }
 
@@ -117,20 +117,20 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/no_channel.svg");
 }
 
-.theme-dark ._33d1236760f7073e-image[style*='background-image: url("/assets/12d9bda733d6432d605e8011c22c3e56.svg");'],
-.theme-dark ._33d1236760f7073e-image[style*='background-image: url("/assets/8de4b17bb44ad5ef9f21f2f6f16aa8d1.svg");'] {
+.theme-dark .image__33d12[style*='background-image: url("/assets/12d9bda733d6432d605e8011c22c3e56.svg");'],
+.theme-dark .image__33d12[style*='background-image: url("/assets/8de4b17bb44ad5ef9f21f2f6f16aa8d1.svg");'] {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/no_keybinds.svg") !important;
 }
 
-.theme-dark ._9d78f306fb3bc112-emptyIconFriends {
+.theme-dark .emptyIconFriends__9d78f {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/no_mutuals.svg");
 }
 
-.theme-dark .ac6cb02cd15b4b3b-emptyState {
+.theme-dark .emptyState_ac6cb0 {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/no_results_conv.svg");
 }
 
-.theme-dark .a98f3b020416ad54-noResultsImage {
+.theme-dark .noResultsImage_a98f3b {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/no_results.svg");
 }
 
@@ -142,40 +142,40 @@
 	fill: #71f7e4;
 }
 
-.theme-dark .verificationBlock__2ee71 .dede4b50b98d4eb6-image.phone__0b460 {
+.theme-dark .verificationBlock__2ee71 .image_dede4b.phone__0b460 {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/phones.svg");
 }
 
-.theme-dark ._33d1236760f7073e-image[style*='background-image: url("/assets/45cf7a69a42186cb.svg");'] {
+.theme-dark .image__33d12[style*='background-image: url("/assets/45cf7a69a42186cb.svg");'] {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/pictures.svg") !important;
 }
 
 .theme-dark [src="/assets/1772d54cb566d95b.svg"],
-.theme-dark .e8b59c4b335dd2fc-image[style='background-image: url("/assets/1772d54cb566d95b.svg");'] {
+.theme-dark .image_e8b59c[style='background-image: url("/assets/1772d54cb566d95b.svg");'] {
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/pinned.svg");
 }
 
-.theme-dark ._33d1236760f7073e-image[style*='background-image: url("/assets/1772d54cb566d95b.svg");'] {
+.theme-dark .image__33d12[style*='background-image: url("/assets/1772d54cb566d95b.svg");'] {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/pinned.svg") !important;
 }
 
-.theme-dark ._857bf4d78ba068ea-invalidPoop,
-.theme-dark .d5f3cd116f175f35-guildIconExpired {
+.theme-dark .invalidPoop__857bf,
+.theme-dark .guildIconExpired_d5f3cd {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/poop.svg");
 }
 
-.theme-dark .af017ab847f75d02-imageError,
+.theme-dark .imageError_af017a,
 .theme-dark [src="/assets/cdccee83bde523baf3d5.svg"],
 .theme-dark [src="/assets/e4a502bfc6589d65.svg"],
 .theme-dark [src="/assets/eb4644cbe2f3e90f.svg"] {
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/poop.svg")
 }
 
-.theme-dark ._33d1236760f7073e-image[style*='background-image: url("/assets/0b332e9c4f0b8b49.svg");'] {
+.theme-dark .image__33d12[style*='background-image: url("/assets/0b332e9c4f0b8b49.svg");'] {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/scroll.svg") !important;
 }
 
-.images-dark .e1fee6c31193b9d5-searchIndexBackground {
+.images-dark .searchIndexBackground__8a209 {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/searching.svg");
 }
 
@@ -183,12 +183,12 @@
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/spotify_error.svg");
 }
 
-.theme-dark ._29ebda89742214e9-sadImage[style='background-image: url("/assets/af915c9500af51c7.svg");'] {
+.theme-dark .sadImage__29ebd[style='background-image: url("/assets/af915c9500af51c7.svg");'] {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/sticker_not_found.svg") !important;
 }
 
-.theme-dark .aa3ffd68c8f6a69a-streamerModeEnabledImage,
-.theme-dark ._9d78f306fb3bc112-emptyIconStreamerMode {
+.theme-dark .streamerModeEnabledImage_aa3ffd,
+.theme-dark .emptyIconStreamerMode__9d78f {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/streamer_mode.svg");
 }
 
@@ -200,12 +200,12 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/treasure_chest.svg");
 }
 
-.theme-dark ._33d1236760f7073e-image[style*='background-image: url("/assets/5800882047a89a6a.svg");'],
+.theme-dark .image__33d12[style*='background-image: url("/assets/5800882047a89a6a.svg");'],
 .theme-dark .bd-gp-page [style*='background-image: url("/assets/99ad5845cf7de1c326e2.svg");'] {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/wumpus_mining.svg") !important;
 }
 
-.theme-dark ._33d1236760f7073e-image[style*='background-image: url("/assets/4e11cf8e80a816c6.svg");'] {
+.theme-dark .image__33d12[style*='background-image: url("/assets/4e11cf8e80a816c6.svg");'] {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/wumpus_mountain.svg") !important;
 }
 
@@ -289,11 +289,11 @@
 	fill: #46965B;
 }
 
-.theme-dark ._33d1236760f7073e-image[style*='background-image: url("/assets/390f0abb99b8c8a1.svg");'] {
+.theme-dark .image__33d12[style*='background-image: url("/assets/390f0abb99b8c8a1.svg");'] {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/wumpus_sleeping.svg") !important;
 }
 
-.theme-dark ._33d1236760f7073e-image[style*='background-image: url("/assets/d44b0727db0c5052.svg");'],
+.theme-dark .image__33d12[style*='background-image: url("/assets/d44b0727db0c5052.svg");'],
 .theme-dark .notFriends_cba592 .errorStateIcon_cba592 {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/wumpus_tea_party.svg") !important;
 }
@@ -302,53 +302,53 @@
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/weapons.svg") !important;
 }
 
-.theme-dark .d2eed6166a4ad770-contentWarningPopout g> :nth-child(2)> :first-child path {
+.theme-dark .contentWarningPopout_d2eed6 g> :nth-child(2)> :first-child path {
 	fill: #0000003d;
 }
 
-.theme-dark .d2eed6166a4ad770-contentWarningPopout g> :nth-child(3)> :first-child path {
+.theme-dark .contentWarningPopout_d2eed6 g> :nth-child(3)> :first-child path {
 	fill: #41d0cc;
 }
 
-.theme-dark .d2eed6166a4ad770-contentWarningPopout g> :nth-child(3)> :nth-child(2) path {
+.theme-dark .contentWarningPopout_d2eed6 g> :nth-child(3)> :nth-child(2) path {
 	fill: #22b3bb;
 }
 
-.theme-dark .d2eed6166a4ad770-contentWarningPopout g> :nth-child(4)> :first-child path {
+.theme-dark .contentWarningPopout_d2eed6 g> :nth-child(4)> :first-child path {
 	fill: #5befef;
 }
 
-.theme-dark .d2eed6166a4ad770-contentWarningPopout g> :nth-child(4)> :nth-child(2) path {
+.theme-dark .contentWarningPopout_d2eed6 g> :nth-child(4)> :nth-child(2) path {
 	fill: #6af7e5;
 }
 
-.theme-dark .d2eed6166a4ad770-contentWarningPopout g> :nth-child(4)> :nth-child(3) path,
-.theme-dark .d2eed6166a4ad770-contentWarningPopout g> :nth-child(4)> :nth-child(4) path {
+.theme-dark .contentWarningPopout_d2eed6 g> :nth-child(4)> :nth-child(3) path,
+.theme-dark .contentWarningPopout_d2eed6 g> :nth-child(4)> :nth-child(4) path {
 	fill: #48d7d0;
 }
 
-.theme-dark .d2eed6166a4ad770-contentWarningPopout g> :nth-child(4)> :nth-child(5) path,
-.theme-dark .d2eed6166a4ad770-contentWarningPopout g> :nth-child(4)> :nth-child(6) path {
+.theme-dark .contentWarningPopout_d2eed6 g> :nth-child(4)> :nth-child(5) path,
+.theme-dark .contentWarningPopout_d2eed6 g> :nth-child(4)> :nth-child(6) path {
 	fill: #22b3bb;
 }
 
-.theme-dark .d2eed6166a4ad770-contentWarningPopout g> :nth-child(4)> :nth-child(7) path {
+.theme-dark .contentWarningPopout_d2eed6 g> :nth-child(4)> :nth-child(7) path {
 	fill: #33c5c6;
 }
 
-.theme-dark .d2eed6166a4ad770-contentWarningPopout g> :nth-child(4)> :nth-child(8) path {
+.theme-dark .contentWarningPopout_d2eed6 g> :nth-child(4)> :nth-child(8) path {
 	fill: #6af7e5;
 }
 
-.theme-dark .d2eed6166a4ad770-contentWarningPopout g> :nth-child(6)> :nth-child(2) path {
+.theme-dark .contentWarningPopout_d2eed6 g> :nth-child(6)> :nth-child(2) path {
 	fill: #41d0cc;
 }
 
-.theme-dark .d2eed6166a4ad770-contentWarningPopout g> :nth-child(10)> :first-child path {
+.theme-dark .contentWarningPopout_d2eed6 g> :nth-child(10)> :first-child path {
 	fill: #e0c310;
 }
 
-.theme-dark .d2eed6166a4ad770-contentWarningPopout g> :nth-child(11)> :first-child path {
+.theme-dark .contentWarningPopout_d2eed6 g> :nth-child(11)> :first-child path {
 	fill: #fbd907;
 }
 
@@ -372,9 +372,9 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/157ccfe93c91db60adddd48a75b69205.svg");
 }
 
-.theme-dark ._41ea06378162693a-icon._41ea06378162693a-archive,
-.theme-dark .uploadModal_b78547 .b7854763c4a57c63-inner .file_b78547 .b7854763c4a57c63-icon.b7854763c4a57c63-archive,
-.theme-dark .b7854763c4a57c63-archive {
+.theme-dark .icon__41ea0.archive__41ea0,
+.theme-dark .uploadModal_b78547 .inner_b78547 .file_b78547 .icon_b78547.archive_b78547,
+.theme-dark .archive_b78547 {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/157ccfe93c91db60adddd48a75b69205.svg");
 }
 
@@ -466,9 +466,9 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/c1ebd9af7ce0a639af9d99b4980bda13.svg");
 }
 
-.theme-dark ._41ea06378162693a-icon._41ea06378162693a-spreadsheet,
-.theme-dark .uploadModal_b78547 .b7854763c4a57c63-inner .file_b78547 .b7854763c4a57c63-icon.b7854763c4a57c63-spreadsheet,
-.theme-dark .b7854763c4a57c63-spreadsheet {
+.theme-dark .icon__41ea0.spreadsheet__41ea0,
+.theme-dark .uploadModal_b78547 .inner_b78547 .file_b78547 .icon_b78547.spreadsheet_b78547,
+.theme-dark .spreadsheet_b78547 {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/c1ebd9af7ce0a639af9d99b4980bda13.svg");
 }
 
@@ -580,7 +580,7 @@
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/1f0bfc0865d324c2587920a7d80c609b.png") !important;
 }
 
-.theme-dark .c19a557985eb7793-avatar[src*="https://cdn.discordapp.com/avatars/643945264868098049/c6a249645d46209f337279cd2ca998c7.webp"] {
+.theme-dark .avatar_c19a55[src*="https://cdn.discordapp.com/avatars/643945264868098049/c6a249645d46209f337279cd2ca998c7.webp"] {
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/c6a249645d46209f337279cd2ca998c7.webp")
 }
 
@@ -596,9 +596,9 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/7b3a37fa249a857b0ff136db0a73f44c.svg")
 }
 
-.theme-dark ._41ea06378162693a-icon._41ea06378162693a-unknown,
-.theme-dark .uploadModal_b78547 .b7854763c4a57c63-inner .file_b78547 .b7854763c4a57c63-icon.b7854763c4a57c63-unknown,
-.theme-dark .b7854763c4a57c63-unknown {
+.theme-dark .icon__41ea0.unknown__41ea0,
+.theme-dark .uploadModal_b78547 .inner_b78547 .file_b78547 .icon_b78547.unknown_b78547,
+.theme-dark .unknown_b78547 {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/7b3a37fa249a857b0ff136db0a73f44c.svg")
 }
 
@@ -606,9 +606,9 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/325421cb49d6e0717b8c7b9dfa2d4bdc.svg");
 }
 
-.theme-dark ._41ea06378162693a-icon._41ea06378162693a-acrobat,
-.theme-dark .uploadModal_b78547 .b7854763c4a57c63-inner .file_b78547 .b7854763c4a57c63-icon.b7854763c4a57c63-acrobat,
-.theme-dark .b7854763c4a57c63-acrobat {
+.theme-dark .icon__41ea0.acrobat__41ea0,
+.theme-dark .uploadModal_b78547 .inner_b78547 .file_b78547 .icon_b78547.acrobat_b78547,
+.theme-dark .acrobat_b78547 {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/325421cb49d6e0717b8c7b9dfa2d4bdc.svg");
 }
 
@@ -616,9 +616,9 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/35827c42a3af54bd169cff0a866eb428.svg");
 }
 
-.theme-dark ._41ea06378162693a-icon._41ea06378162693a-code,
-.theme-dark .uploadModal_b78547 .b7854763c4a57c63-inner .file_b78547 .b7854763c4a57c63-icon.b7854763c4a57c63-code,
-.theme-dark .b7854763c4a57c63-code {
+.theme-dark .icon__41ea0.code__41ea0,
+.theme-dark .uploadModal_b78547 .inner_b78547 .file_b78547 .icon_b78547.code_b78547,
+.theme-dark .code_b78547 {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/35827c42a3af54bd169cff0a866eb428.svg");
 }
 
@@ -626,9 +626,9 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/515d0236bce3ba834026209dc78489f0.svg");
 }
 
-.theme-dark ._41ea06378162693a-icon._41ea06378162693a-document,
-.theme-dark .uploadModal_b78547 .b7854763c4a57c63-inner .file_b78547 .b7854763c4a57c63-icon.b7854763c4a57c63-document,
-.theme-dark .b7854763c4a57c63-document {
+.theme-dark .icon__41ea0.document__41ea0,
+.theme-dark .uploadModal_b78547 .inner_b78547 .file_b78547 .icon_b78547.document_b78547,
+.theme-dark .document_b78547 {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/515d0236bce3ba834026209dc78489f0.svg");
 }
 
@@ -636,8 +636,8 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/6b35b41a1e3a8099667499b71414328b.svg");
 }
 
-.theme-dark ._41ea06378162693a-icon.web_41ea06378162693a-code,
-.theme-dark .uploadModal_b78547 .b7854763c4a57c63-inner .file_b78547 .b7854763c4a57c63-icon.webb7854763c4a57c63-code,
+.theme-dark .icon__41ea0.web_41ea06378162693a-code,
+.theme-dark .uploadModal_b78547 .inner_b78547 .file_b78547 .icon_b78547.webb7854763c4a57c63-code,
 .theme-dark .webb7854763c4a57c63-code {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/6b35b41a1e3a8099667499b71414328b.svg");
 }
@@ -646,8 +646,8 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/7252adb1cdb9603a49ce1bab7c3c41e7.svg");
 }
 
-.theme-dark .uploadModal_b78547 .b7854763c4a57c63-inner .file_b78547 .b7854763c4a57c63-icon.b7854763c4a57c63-video,
-.theme-dark .b7854763c4a57c63-video {
+.theme-dark .uploadModal_b78547 .inner_b78547 .file_b78547 .icon_b78547.video_b78547,
+.theme-dark .video_b78547 {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/7252adb1cdb9603a49ce1bab7c3c41e7.svg");
 }
 
@@ -655,8 +655,8 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/a532e755c36b75762a75ff0794456efb.svg");
 }
 
-.theme-dark .uploadModal_b78547 .b7854763c4a57c63-inner .file_b78547 .b7854763c4a57c63-icon.b7854763c4a57c63-image,
-.theme-dark .b7854763c4a57c63-image {
+.theme-dark .uploadModal_b78547 .inner_b78547 .file_b78547 .icon_b78547.image_b78547,
+.theme-dark .image_b78547 {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/a532e755c36b75762a75ff0794456efb.svg");
 }
 
@@ -665,19 +665,19 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/e83eaad3ae5c32a355b55f157e6cd3da.svg");
 }
 
-.theme-dark ._41ea06378162693a-icon._41ea06378162693a-audio,
-.theme-dark .uploadModal_b78547 .b7854763c4a57c63-inner .file_b78547 .b7854763c4a57c63-icon.b7854763c4a57c63-audio,
-.theme-dark .b7854763c4a57c63-audio,
-.theme-dark .cf09d85aafe7e124-audioMetadata:before {
+.theme-dark .icon__41ea0.audio__41ea0,
+.theme-dark .uploadModal_b78547 .inner_b78547 .file_b78547 .icon_b78547.audio_b78547,
+.theme-dark .audio_b78547,
+.theme-dark .audioMetadata_cf09d8:before {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/e83eaad3ae5c32a355b55f157e6cd3da.svg");
 }
 
-.images-dark ._5ca14cde5e287f4e-header {
+.images-dark .header__5ca14 {
 	background-color: rgba(0, 0, 0, 0);
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/d84c4c746db08b0e4193.svg");
 }
 
-.theme-dark .a9e7064fdee8e9b0-noResultsImage.a9e7064fdee8e9b0-alt {
+.theme-dark .noResultsImage_a98f3b.alt_a98f3b {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/3c7bf5537c8d167a6d83.svg");
 }
 
@@ -689,8 +689,8 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/8545c1ec2e8f647afe56.svg");
 }
 
-.theme-dark .d2eed6166a4ad770-animation path[fill="rgb(79,83,92)"],
-.theme-dark .d2eed6166a4ad770-animation path[fill="rgb(31,33,36)"] {
+.theme-dark .animation_d2eed6 path[fill="rgb(79,83,92)"],
+.theme-dark .animation_d2eed6 path[fill="rgb(31,33,36)"] {
 	fill: #040506;
 }
 
@@ -706,7 +706,7 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/3ddd194f468b0a998570.svg");
 }
 
-.theme-dark ._5b7543e94411a579-image {
+.theme-dark .image__5b754 {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/3ddd194f468b0a998570.svg");
 }
 
@@ -762,23 +762,23 @@
 
 .images-dark .imageUploaderInnerSquare__97197,
 .images-dark .imageUploaderInnerSquare_b2b948,
-.images-dark .bbb935a1dbde326f-imageUploaderInnerSquare {
+.images-dark .imageUploaderInnerSquare_bbb935 {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/community_banner.svg");
 }
 
-.images-dark .cba5926a3ea0ad97-noResults .errorStateIcon_cba592 {
+.images-dark .noResults_cba592 .errorStateIcon_cba592 {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/3ddd194f468b0a998570.svg");
 }
 
-.images-dark .c68065c20f8328a7-resultsBlockedImage {
+.images-dark .resultsBlockedImage_a7e67f {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/2d58a0636f814ac589e0.svg");
 }
 
-.theme-dark .fdf9c03b99993a54-background {
+.theme-dark .background_fdf9c0 {
 	background: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/5071d09daafd2d99.svg");
 }
 
-.theme-dark .a419e028a747f0b6-preview,
+.theme-dark .preview_a419e0,
 .theme-dark [src='/assets/5682f76b7c3741bd.svg'] {
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/5682f76b7c3741bd.svg");
 }
@@ -835,7 +835,7 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/59b21530c5141645.svg");
 }
 
-.theme-dark .f608190f11a53dac-gifTag {
+.theme-dark .gifTag_f60819 {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/9811b405dc8e999f.svg");
 }
 
@@ -847,7 +847,7 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/7af394f8519f888f.svg");
 }
 
-.images-dark .e131a99484292a19-krispLogo {
+.images-dark .krispLogo_e131a9 {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/e9ed313dde26d91b.svg");
 }
 
@@ -855,7 +855,7 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/f9951f6f63451f68.svg");
 }
 
-.theme-dark .b766146650f2018a-headerSuccess {
+.theme-dark .headerSuccess_b76614 {
 	background-image: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/6410595f71273140.svg");
 }
 
@@ -881,7 +881,7 @@
 }
 
 .theme-dark [src='/assets/6b1a461f35c05c7a.svg'],
-.images-dark ._0466635b0fbd5ad3-emptyPreviewImage {
+.images-dark .emptyPreviewImage__04666 {
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/6b1a461f35c05c7a.svg");
 }
 
@@ -961,6 +961,6 @@
 	content: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/271f10f75e0892e1.svg");
 }
 
-.fdf9c03b99993a54-root:not(:has(.c0bea05627c5dc35-outer)) .fdf9c03b99993a54-background {
+.root_fdf9c0:not(:has(.outer_c0bea0)) .background_fdf9c0 {
 	background: url("https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/DiscordProfileModalSkeleton_2020_Darker.svg");
 }
