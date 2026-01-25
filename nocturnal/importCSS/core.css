@@ -2250,7 +2250,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 
 .menu_c8834f,
 .colorHeaderSecondary__16b66,
-[style="color: var(--text-default);"]:not(.memberSinceServer,.memberSinceundefined),
+[style="color: var(--text-default);"]:not(.memberSince,.memberSinceServer,.memberSinceundefined),
 [style="color: var(--text-tertiary);"],
 [style="color: var(--text-secondary);"],
 [style="color: var(--text-muted-on-default);"],
@@ -15284,4 +15284,45 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 
 .progressCircleRing_ce5f0d {
 	fill: var(--backgroundDark-20);
+}
+
+.theme-light :is(.topSectionPlaying, .topSectionSpotify, .topSectionStreaming, .topSectionXbox) {
+    .nameTag,
+	.displayName {
+        color: #000;
+    }
+}
+
+.role_af3987 {
+    transform: translate(0);
+    border: 0 !important;
+    max-width: 225px !important;
+    height: 22px;
+}
+
+.activityProfile .text__8e51c {
+    font-size: 12px !important;
+    font-weight: 400;
+    font-family: var(--font-primary) !important;
+	margin-top: -6px;
+}
+
+.theme-light .activityProfile .text__8e51c[style="color: var(--text-default);"]:not(.memberSince,.memberSinceServer,.memberSinceundefined) {
+	color: #000 !important;
+}
+
+.theme-dark .profileButtons {
+    & .bannerButton_fb7f94, & .sm_a22cb0:not(.hasText_a22cb0) {
+        svg {
+            stroke: #fff;
+        }
+    }
+}
+
+.theme-light .profileButtons {
+    & .bannerButton_fb7f94, & .sm_a22cb0:not(.hasText_a22cb0) {
+        svg {
+            stroke: #000;
+        }
+    }
 }
