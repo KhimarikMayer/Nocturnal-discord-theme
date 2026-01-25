@@ -155,9 +155,9 @@
 .custom-user-profile-theme .divider_b9fccc,
 .custom-user-profile-theme .menu_ad5fac .colorDefault_c1e9c4.focused_c1e9c4:not(.hideInteraction_c1e9c4),
 .custom-user-profile-theme .menu_ad5fac .colorDefault_c1e9c4:active:not(.hideInteraction_c1e9c4),
-.custom-user-profile-theme .overlay_c0bea0 .divider__1de9c,
+.custom-user-profile-theme .overlay_c0bea0 .divider__23eb0,
 .custom-user-profile-theme .menuOverlay_ce8328 .menuItemColor_ce8328:hover,
-.custom-user-profile-theme .menuDivider_ce8328
+.custom-user-profile-theme .menuDivider_ce8328,
 .custom-user-profile-theme .voiceChannelDivider__39ec2,
 .custom-user-profile-theme .menuItemInner_ce8328:hover,
 .custom-user-profile-theme .menuItem_ce8328:after {
@@ -348,3 +348,4 @@
 .custom-user-profile-theme .userInfoSection[style] {
 	border-top: 1px solid var(--profile-gradient-secondary-color) !important;
 }
+
