@@ -3862,9 +3862,9 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	background-color: var(--backgroundDark-30);
 }
 
-.guildIcon_d5f3cd,
-.guildIconExpired_d5f3cd,
-.guildIconImage_d5f3cd {
+.visual-refresh .guildIcon_d5f3cd,
+.visual-refresh .guildIconExpired_d5f3cd,
+.visual-refresh .guildIconImage_d5f3cd {
 	background-color: rgba(0, 0, 0, 0);
 }
 
