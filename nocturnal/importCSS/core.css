@@ -11085,6 +11085,7 @@ rect[fill="brand-200"] {
 	background-color: color-mix(in oklab, hsl(221 calc(var(--saturation-factor)*21%) 15% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
 }
 
+.visual-refresh .sidebarListRounded_c48ade,
 .bannerVisible_f37cb1 .header_f37cb1 {
 	border-top-left-radius: 0;
 }
