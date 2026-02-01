@@ -1482,8 +1482,7 @@ svg[name=Nitro] g path {
 .visual-refresh .reaction__23977,
 .custom-theme-background .reaction__23977,
 .reaction_f8896c,
-.reactionBtn__23977,
-.reactionBtn__23977,
+.visual-refresh .reactionBtn__23977,
 .addReactButton__34c2c,
 .buttonInner__34c2c {
 	background-color: var(--backgroundDark-25);
@@ -2205,8 +2204,8 @@ svg[name=Nitro] g path {
 .withTagless_b2ca13[aria-expanded=true],
 .withTagAsButton_b2ca13:hover,
 .withTagless_b2ca13:hover,
-.avatarWrapper__37e49:hover,
-.avatarWrapper__37e49[aria-expanded=true],
+.visual-refresh .avatarWrapper__37e49:hover,
+.visual-refresh .avatarWrapper__37e49[aria-expanded=true],
 button.button__67645.enabled__67645:not(.redGlow__67645):hover,
 span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .micButtonParent__37e49:hover>button:not(.redGlow__67645):hover {
@@ -2709,13 +2708,12 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	text-decoration: underline;
 }
 
-.reactionBtn__23977:hover,
+.visual-refresh .reactionBtn__23977:hover,
 .addReactButton__34c2c:hover,
 .buttonInner__34c2c:hover,
 .visual-refresh .reaction__23977:hover,
 .custom-theme-background .reaction__23977:hover,
-.reaction_f8896c:hover,
-.reactionBtn__23977:hover {
+.reaction_f8896c:hover {
 	background-color: var(--backgroundDark-35);
 	border-color: rgba(0, 0, 0, 0);
 }
@@ -2724,7 +2722,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .visual-refresh .reaction__23977:active,
 .custom-theme-background .reaction__23977:active,
 .reaction_f8896c:active,
-.reactionBtn__23977:active {
+.visual-refresh .reactionBtn__23977:active {
 	background-color: var(--backgroundDark-45);
 	border-color: rgba(0, 0, 0, 0);
 }
@@ -11933,7 +11931,7 @@ rect[fill="brand-200"] {
 
 .rsvpCount_b5010b,
 .separator_aa8da2,
-.guildSeparator__252b6,
+.visual-refresh .guildSeparator__252b6,
 .visual-refresh .sectionDivider__629e4,
 .divider__04d5b,
 .divider__1feb0,
@@ -14705,8 +14703,8 @@ svg.thumbnail__0f2e8 {
 .navItemIcon__551b0,
 .button_f7ecac,
 .activityIcon_b1f768,
-.reactionBtn__23977 .icon__23977,
-.reactionBtn__23977 .icon_f8896c,
+.visual-refresh .reactionBtn__23977 .icon__23977,
+.visual-refresh .reactionBtn__23977 .icon_f8896c,
 .categoryIcon_b9ee0c,
 .categoryItemDefaultCategorySelected_b9ee0c .categoryIcon_b9ee0c,
 .categoryItemDefaultCategorySelected_b9ee0c:hover .categoryIcon_b9ee0c,
