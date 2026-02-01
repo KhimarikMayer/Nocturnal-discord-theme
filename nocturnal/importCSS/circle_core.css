@@ -13732,6 +13732,8 @@ svg.thumbnail__0f2e8 {
 .backForwardButtons__63abb .button__63abb:not(.disabled__63abb):hover,
 .lockIconContainer_e99fef,
 .triggerButton__64c86,
+.clickable_c99c29.withHighlight_c99c29:hover,
+.button__85643.smallButton__85643:hover svg,
 .separator__7bf69 {
 	background-color: var(--backgroundDark-20);
 }
