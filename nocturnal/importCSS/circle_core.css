@@ -1501,7 +1501,7 @@ svg[name=Nitro] g path {
 
 .accountBtnInner__750de:hover,
 .wrapper_b1e4f3,
-.wrapper__0d1ef,
+.wrapper__4e6ce,
 .welcomeChannel__74a6a,
 .optionContainer__949ab:hover {
 	background-color: color-mix(in oklab, hsl(222 calc(var(--saturation-factor)*22%) 9% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
@@ -10589,7 +10589,7 @@ rect[fill="brand-200"] {
 	background-color: var(--background-base-lower);
 }
 
-.theme-light .wrapper__0d1ef,
+.theme-light .wrapper__4e6ce,
 .theme-light .container__0e476,
 .theme-light .premiumRetentionNotice_a606ef,
 .theme-light .upsell_ac65bb,
@@ -11824,7 +11824,6 @@ rect[fill="brand-200"] {
 .fractionalPremiumAccountCredit__94f72,
 .premiumSubscriptionAccountCredit__94f72,
 .heroAssetCont_c93f8c,
-.container__581dd,
 .badgeGradientWrapper__89307,
 .container_a244c3,
 .bd-error-toggle-wrapper,
