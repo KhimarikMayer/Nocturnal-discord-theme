@@ -1921,7 +1921,6 @@ svg[name=Nitro] g path {
 }
 
 .theme-dark .friendSelected_bbd192,
-.card_b846e5,
 .emptyChannelIcon__00de6,
 .iconBackground__0b34e,
 .stageIconBackground__4c084,
@@ -1953,9 +1952,7 @@ svg[name=Nitro] g path {
 	padding: 10px 0;
 }
 
-.card_aae012:hover,
-.row_d5ae15:focus .rowInner_d5ae15,
-.row_d5ae15:hover .rowInner_d5ae15 {
+.card_aae012:hover {
 	background-color: var(--backgroundDark-25);
 }
 
@@ -2042,7 +2039,6 @@ svg[name=Nitro] g path {
 	border-color: var(--backgroundDarker)
 }
 
-.row_d5ae15.selected_d5ae15 .rowInner_d5ae15,
 .item__344e6:hover:not(.selected__344e6),
 #bd-settings-sidebar .ui-tab-bar-separator {
 	background-color: var(--backgroundDark-35);
@@ -6946,7 +6942,9 @@ rect[fill="rgb(123,162,255)"] {
 }
 
 .tooltipGreen_c36707,
-.tooltipBrand_c36707 {
+.tooltipBrand_c36707,
+.custom-theme-background .tooltipGreen_c36707,
+.custom-theme-background .tooltipBrand_c36707 {
 	background-color: var(--backgroundDark);
 	border: 2px solid var(--primary);
 	border-radius: 6px;
@@ -7391,6 +7389,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .scroller_b7f4b4,
 .trialRecipientRow__2441a,
 .divider_b9d8f0,
+.separator__7116a,
 .table_e7d73e {
 	border-color: var(--backgroundDark-20);
 }
@@ -8315,8 +8314,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .iconMask_c59071,
 .pill__33d66,
 .bd-addon-store-card-tag,
-.optionName_b088b0,
-.container_d5ae15 {
+.optionName_b088b0 {
 	background-color: var(--backgroundDarker);
 	border: none;
 }
@@ -9355,9 +9353,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 .collapsed_c3cd7d,
 .container__60f82,
 .tabs__955a3,
-.section_d5ae15,
 .content_f0d60d,
-.empty_d5ae15,
 .gameContainer__70617,
 .inventoryFilter__1feb0 {
 	padding-right: 14px;
@@ -9981,9 +9977,12 @@ div.cardContainer__88e24,
 	margin-right: 0;
 }
 
-.header_fa2640,
-.tableContainer_fa2640 {
+.header_fa2640 {
 	padding: 0;
+}
+
+.tableContainer_fa2640 {
+	padding-left: 0;
 }
 
 .addMembersContainer_b545d5,
@@ -16160,7 +16159,11 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 	margin-left: -4px;
 }
 
-:is(.roleCircle__4f569,.roleFlowerStar_af3987):before {
+.roleCircle__4f569 {
+	margin-left: 0;
+}
+
+:is(.role_af3987 .roleCircle__4f569,.roleFlowerStar_af3987):before {
     position: absolute;
     top: 0;
     left: 0;
@@ -16179,12 +16182,12 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 	pointer-events: none;
 }
 
-:is(.roleDot__5d7c9):before {
-	margin-left: 0;
+.role_af3987 .roleCircle__4f569 {
+	margin-left: 1px;
 }
 
-.roleCircle__4f569 {
-	margin-left: 1px;
+.role__5d7c9 .text-xs\/medium_cf4812 {
+	margin-right: 1px;
 }
 
 .roleName_af3987 {
@@ -16227,4 +16230,8 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 
 .addButton_af3987.showLabel_af3987 {
 	padding-inline-start: 4px;
+}
+
+.settingsHorizontalScroller_fa2640 {
+	margin-right: 0 !important;
 }
