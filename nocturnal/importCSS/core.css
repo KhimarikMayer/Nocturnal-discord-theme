@@ -872,7 +872,6 @@ svg.contentImage__42bf5,
 }
 
 .layer__960e4,
-.layer__960e4.baseLayer__960e4,
 .standardSidebarView__23e6b,
 .sidebarRegionScroller__23e6b,
 .contentRegionScroller__23e6b {
@@ -5638,7 +5637,6 @@ html:not(.chat-input) .inputInner_b1f01d,
 	height: 24px;
 }
 
-.icon_a14595,
 .avatar_e90879,
 .avatar__4cb8a {
 	border-radius: 12px;
@@ -12388,7 +12386,7 @@ rect[fill="brand-200"] {
 .icon_bd6d20:not(.appIcon__7bdb0),
 .avatar_c19a55.avatar_e9c564 .avatar_c19a55,
 .buttons__2d021,
-.custom-theme-background .wrapper_ef3116,
+.visual-refresh.custom-theme-background .wrapper_ef3116,
 .theme-dark .overridePlaceholder__856b5,
 .wishlistButton__979b1,
 .queryContainer__55c99,
