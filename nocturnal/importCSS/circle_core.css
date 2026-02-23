@@ -13330,9 +13330,12 @@ svg.thumbnail__0f2e8 {
 
 .imageContainer_db811b,
 .image_db811b,
-.spoilerMarkdownContent__299eb,
-.guildIcon img {
+.spoilerMarkdownContent__299eb {
 	border-radius: 50px;
+}
+
+.guildIcon img {
+	border-radius: 50px !important;
 }
 
 .spoilerMarkdownContent__299eb:not(:has(.wrapper_f61d60)) {
@@ -16174,6 +16177,10 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
     content: "";
     z-index: -1;
 	pointer-events: none;
+}
+
+:is(.roleDot__5d7c9):before {
+	margin-left: 0;
 }
 
 .roleCircle__4f569 {
