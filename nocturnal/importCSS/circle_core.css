@@ -9542,12 +9542,12 @@ path[fill="var(--background-brand)"] {
 	border: none;
 }
 
-.progress__0ccae[style="background-color: var(--interactive-background-active);"] {
+.progress__45530[style="background-color: var(--progressbar-track-background);"] {
 	background-color: var(--backgroundDark-26) !important;
 }
 
 .vc-addon-badge[style*="237, 66, 69"],
-.progressBar__5a6ab[style*=brand-500] {
+.progressBar__45530[style*="progressbar-indicator-background"] {
 	background-color: var(--primary) !important;
 }
 
