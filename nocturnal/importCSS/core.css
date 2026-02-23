@@ -16475,6 +16475,10 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 	pointer-events: none;
 }
 
+:is(.roleDot__5d7c9):before {
+	margin-left: 0;
+}
+
 .roleName_af3987 {
 	margin-right: -1px;
 }
