@@ -11367,7 +11367,7 @@ rect[fill="brand-200"] {
 	border-right: 6px solid var(--backgroundDark) !important;
 }
 
-.folderIconWrapper__48112  {
+.folderIconWrapper__48112 .folderIcon__48112 {
 	color: var(--custom-folder-color, var(--primary));
 	border-radius: 50px;
 }
