@@ -4846,7 +4846,8 @@ svg.contentImage__42bf5 path {
 .vc-shc-topic-container,
 .vc-shc-default-emoji-container,
 .vc-shc-tags-container,
-.vc-shc-allowed-users-and-roles-container {
+.vc-shc-allowed-users-and-roles-container,
+.mainPageScroller__80907 {
 	background: var(--background-gradient-app-frame, var(--backgroundDark));
 	border: none;
 }
@@ -7384,6 +7385,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .spacer_b7f4b4,
 .scroller_b7f4b4,
 .trialRecipientRow__2441a,
+.divider_b9d8f0,
 .table_e7d73e {
 	border-color: var(--backgroundDark-20);
 }
@@ -8518,7 +8520,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .container_b9f75c,
 .card_b5493b,
 .container_da4aee,
-.seeAllPerksButton_ca1a02,
+.seeAllPerksButton__80907,
 .cardProgressBar__3cf14,
 .markdown_d285a6 tr:nth-child(2n) {
 	background-color: var(--backgroundDarker);
@@ -8548,8 +8550,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .upsellWrapper__8fe94,
 .strangerDangerBanner_f0ba46,
 .popout__7fe3a,
-.mainPageScroller_ca1a02,
-.allPerksScroller_ca1a02,
+.allPerksScroller__80907,
 .theme-dark .leftArrow__3cf14,
 .theme-dark .rightArrow__3cf14,
 .theme-dark .inactiveArrow__3cf14,
@@ -8584,7 +8585,7 @@ div.cardContainer__88e24,
 .content_e825f6,
 .sub_97f37b35f073229d-headerText,
 .section_efc71f,
-.column_ca1a02,
+.column__80907,
 .questsCard__12e16,
 .questSplash__092f9,
 .banner__1f369,
@@ -9275,10 +9276,6 @@ html:not(.chat-input) .inputInner_b1f01d,
 	padding: 0;
 }
 
-.mainPageScroller_ca1a02 {
-	padding-left: 6px;
-}
-
 .cardDescription__1f069 {
 	background-image: linear-gradient(to bottom, var(--backgroundDarker) 50%, hsl(var(--backgroundDarker-hsl) / .75) 80%);
 }
@@ -9816,7 +9813,7 @@ div.profileThemedContainer__656be .inner_c0bea0 {
 .progressTextOverlay__146e2,
 .gameActivityLevel_fda254,
 .emojiCircle__9be63,
-.modalBg__45776,
+.modalBg__8fb25,
 .bd-store-card-icon,
 .theme-dark :where(.bd-paginator-back, .bd-paginator-next):disabled:hover,
 .clickable_f37cb1 .header_f37cb1:hover,
@@ -10481,6 +10478,7 @@ rect[fill="brand-200"] {
 .animatedInfoContainer_ab2592,
 .toolbar_ab2592,
 .container_c3474d,
+.rolePopout__75297,
 .noResults_a16aea {
 	background-color: var(--backgroundDark);
 	border: none !important;
@@ -11173,6 +11171,7 @@ rect[fill="brand-200"] {
 .promoCardContainer_e99fef,
 .container__7137c,
 .perkCard_b62c4e,
+.container_e0cd4a,
 .header_d43202 {
 	border: none;
 	box-shadow: none;
@@ -12146,7 +12145,7 @@ rect[fill="brand-200"] {
 .wishlistButton__979b1,
 .queryContainer__55c99,
 .partnerGameTile__3a1f6,
-.modalBodyWithBorder__45776,
+.modalBody__8fb25,
 .joinOptionContent__959cb {
 	border: none;
 }
@@ -13565,7 +13564,7 @@ svg.thumbnail__0f2e8 {
 	margin-right: 16px;
 }
 
-.modalContent__45776,
+.modalContent__8fb25,
 .previewCards__4671c .chatMessage__4671c {
 	background-color: var(--backgroundDark) !important;
 	border: none;
@@ -13766,6 +13765,7 @@ svg.thumbnail__0f2e8 {
 .triggerButton__64c86,
 .clickable_c99c29.withHighlight_c99c29:hover,
 .button__85643.smallButton__85643:hover svg,
+.rewardPill_b9d8f0,
 .separator__7bf69 {
 	background-color: var(--backgroundDark-20);
 }
