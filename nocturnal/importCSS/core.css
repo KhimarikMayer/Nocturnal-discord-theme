@@ -1482,7 +1482,7 @@ svg[name=Nitro] g path {
 }
 
 .visual-refresh .reaction__23977,
-.custom-theme-background .reaction__23977,
+.visual-refresh.custom-theme-background .reaction__23977,
 .reaction_f8896c,
 .visual-refresh .reactionBtn__23977,
 .addReactButton__34c2c,
@@ -2587,7 +2587,9 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .custom-theme-background .circleIconButton__5bc7e.selected__5bc7e,
 .custom-theme-background .circleIconButton__5bc7e:hover:not(.disabled__5bc7e),
 .visual-refresh .circleIconButton__5bc7e.selected__5bc7e,
-.visual-refresh .circleIconButton__5bc7e:hover:not(.disabled__5bc7e) {
+.visual-refresh .circleIconButton__5bc7e:hover:not(.disabled__5bc7e),
+.visual-refresh.custom-theme-background .circleIconButton__5bc7e.selected__5bc7e,
+.visual-refresh.custom-theme-background .circleIconButton__5bc7e:hover:not(.disabled__5bc7e) {
 	background-color: var(--primary);
 }
 
@@ -2716,7 +2718,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .addReactButton__34c2c:hover,
 .buttonInner__34c2c:hover,
 .visual-refresh .reaction__23977:hover,
-.custom-theme-background .reaction__23977:hover,
+.visual-refresh.custom-theme-background .reaction__23977:hover,
 .reaction_f8896c:hover {
 	background-color: var(--backgroundDark-35);
 	border-color: rgba(0, 0, 0, 0);
@@ -2724,7 +2726,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 
 .channel__5ca14,
 .visual-refresh .reaction__23977:active,
-.custom-theme-background .reaction__23977:active,
+.visual-refresh.custom-theme-background .reaction__23977:active,
 .reaction_f8896c:active,
 .visual-refresh .reactionBtn__23977:active {
 	background-color: var(--backgroundDark-45);
@@ -2741,7 +2743,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	border-color: var(--primary);
 }
 
-.custom-theme-background .reaction__23977.reactionMe__23977 {
+.visual-refresh.custom-theme-background .reaction__23977.reactionMe__23977 {
 	background-color: var(--primary-15a);
 	border-color: var(--primary);
 }
@@ -2750,7 +2752,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	color: var(--undenaryforreactions);
 }
 
-.custom-theme-background .reaction__23977.reactionMe__23977 .reactionCount__23977,
+.visual-refresh.custom-theme-background .reaction__23977.reactionMe__23977 .reactionCount__23977,
 .reaction_f8896c.reactionMe_f8896c .reactionCount_f8896c {
 	color: var(--text-senary);
 }
@@ -3060,7 +3062,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 }
 
 .visual-refresh .container__9271d,
-.custom-theme-background .container__9271d {
+.visual-refresh.custom-theme-background .container__9271d {
 	background-color: var(--backgroundDark-26);
 	border: none;
 }
@@ -7977,7 +7979,7 @@ h3.improved__1689b:after,
 	background: color-mix(in oklab, var(--primaryforcodes) 95%, #fff);
 }
 
-.embed__623de code,
+.visual-refresh .embed__623de code,
 .autocompleteQuerySymbol_ac6cb0,
 .inviteContainer__23437,
 .bd-changelog-modal code,
@@ -7987,7 +7989,7 @@ h3.improved__1689b:after,
 	border: none;
 }
 
-.custom-theme-background .embed__623de code {
+.visual-refresh.custom-theme-background .embed__623de code {
 	background: color-mix(in oklab, var(--backgroundDark-65) 95%, #fff);
 }
 
