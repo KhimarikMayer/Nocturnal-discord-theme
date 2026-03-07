@@ -3264,6 +3264,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .textBadge__2b1f5[style="background-color: var(--button-danger-background);"],
 .textBadge__2b1f5[style="background-color: var(--control-critical-primary-background-default);"],
 .textBadge__2b1f5[style="background-color: var(--badge-brand-text);"],
+.textBadge__2b1f5[style="background-color: var(--badge-background-brand);"],
 .maskBackground_db811b[style="background-color: var(--background-mod-strong);"] {
 	background-color: var(--primary) !important;
 }
@@ -3920,8 +3921,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	background-color: var(--backgroundDark-30);
 }
 
-.visual-refresh .guildIcon_d5f3cd,
-.visual-refresh .guildIconExpired_d5f3cd,
+.visual-refresh .guildIcon_d5f3cd:not(.guildIconExpired_d5f3cd),
 .visual-refresh .guildIconImage_d5f3cd {
 	background-color: rgba(0, 0, 0, 0);
 }
@@ -7541,6 +7541,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .trialRecipientRow__2441a,
 .divider_b9d8f0,
 .separator__7116a,
+.row__0a9d0,
 .table_e7d73e {
 	border-color: var(--backgroundDark-20);
 }
@@ -10750,10 +10751,16 @@ rect[fill="brand-200"] {
 .greyedOut__83ef9,
 .container__23ba6,
 .recipientError__50f14,
+.card__3b770,
+.listItem_bb27fe,
 .warningContainer_bc32e9 {
 	background-color: var(--backgroundDarker);
 	border: none;
 	box-shadow: none;
+}
+
+.listItemExpanded_bb27fe {
+	background-color: var(--backgroundDarker-alt);
 }
 
 .fieldBackground_d48a51:not(.input__0ed4f),
@@ -11317,6 +11324,7 @@ rect[fill="brand-200"] {
 .galleryItem_d75751,
 .buttonContainer_e8b59c,
 .container__70617,
+.scroller__00843,
 .mediaMosaicAltText__0f481:active {
 	background-color: var(--backgroundDark);
 }
@@ -11415,6 +11423,7 @@ rect[fill="brand-200"] {
 .container__7137c,
 .perkCard_b62c4e,
 .container_e0cd4a,
+.card_c50892,
 .header_d43202 {
 	border: none;
 	box-shadow: none;
@@ -16534,3 +16543,39 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 	margin-right: 0 !important;
 }
 
+.headerGradient__00843 {
+	background: radial-gradient(ellipse 100% 70% at 50% 0,rgba(156,89,209,.6) 0,rgba(88,47,140,.3) 50%,transparent 80%),var(--backgroundDark);
+}
+
+.card__65e57 {
+	background: radial-gradient(ellipse 355px 208px at 50% -31.5px,rgba(86,22,138,.5) 0,rgba(86,22,138,0) 100%),var(--backgroundDark-20);
+	border: none;
+}
+
+.badge__65e57,
+.boostsBadge_c50892,
+.container__52d93 {
+	background-color: var(--backgroundDark-15);
+	border: none;
+}
+
+.closeButton__00843 {
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.gemContainerActive_c50892.gemContainerLevel1_c50892,
+.gemContainerActive_c50892.gemContainerLevel2_c50892,
+.gemContainerActive_c50892.gemContainerLevel3_c50892 {
+	border-color: var(--backgroundDarker);
+}
+
+.guildIcon__9dbc9,
+.guildIcon__9ed0b {
+	border: none;
+}
+
+.innerWrapper__9ed0b {
+	background-color: var(--backgroundDark);
+	border: none;
+	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
+}
