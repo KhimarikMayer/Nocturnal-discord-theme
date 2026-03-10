@@ -168,7 +168,7 @@
 	background: var(--profile-gradient-primary-color);
 }
 
-.custom-user-profile-theme .button_b46968 {
+.custom-user-profile-theme .button__7d7f7 {
 	background-color: var(--profile-gradient-secondary-color) !important;
 }
 
@@ -348,4 +348,3 @@
 .custom-user-profile-theme .userInfoSection[style] {
 	border-top: 1px solid var(--profile-gradient-secondary-color) !important;
 }
-
