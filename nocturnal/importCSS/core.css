@@ -9638,7 +9638,7 @@ path[fill="var(--background-brand)"] {
 }
 
 .vc-permviewer-role-button,
-.button_b46968 {
+.button__7d7f7 {
 	background-color: rgba(0, 0, 0, 0) !important;
 	border: 1px solid #4f545c !important;
 	max-height: 22px;
@@ -9659,7 +9659,7 @@ path[fill="var(--background-brand)"] {
 	max-height: 12px;
 }
 
-.button_b46968 svg,
+.button__7d7f7 svg,
 .addButton_af3987 svg {
 	width: 12px;
 	height: 12px;
@@ -12394,6 +12394,8 @@ rect[fill="brand-200"] {
 .listContainer__527b1,
 .note_fcb628 textarea,
 .note_fcb628 textarea:hover,
+.note_f37d39 textarea,
+.note_f37d39 textarea:hover,
 .avatar__03630,
 .vc-permviewer-modal-perms-item-icon,
 .vc-settings-modal-link-icon,
