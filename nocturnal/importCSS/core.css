@@ -8496,7 +8496,6 @@ rect[fill="var(--control-brand-foreground)"] {
 .skeleton__08415,
 .editCard_a25a68 .backgroundContainer_eaaeee,
 .shopCardDark_c3d04b,
-.theme-dark .container_b5b7aa,
 .shopAll__08415:hover,
 .bannerImage_cb32c7,
 .pill_f7c056,
@@ -8735,6 +8734,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .container_da4aee,
 .seeAllPerksButton__80907,
 .cardProgressBar__3cf14,
+.container_b5b7aa,
 .markdown_d285a6 tr:nth-child(2n) {
 	background-color: var(--backgroundDarker);
 	border: none;
@@ -14090,6 +14090,7 @@ svg.thumbnail__0f2e8 {
 .clickable_c99c29.withHighlight_c99c29:hover,
 .button__85643.smallButton__85643:hover svg,
 .rewardPill_b9d8f0,
+.button__85643:hover svg,
 .separator__7bf69 {
 	background-color: var(--backgroundDark-20);
 }
@@ -16593,4 +16594,8 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 	background-color: var(--backgroundDark);
 	border: none;
 	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
+}
+
+.overlay_b5b7aa {
+	background: linear-gradient(to top, var(--backgroundDarker) 0, color-mix(in oklab, var(--backgroundDarker) 95%, rgba(0, 0, 0, 0)) 20.31%, rgba(0, 0, 0, 0) 100%);
 }
