@@ -7543,6 +7543,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .divider_b9d8f0,
 .separator__7116a,
 .row__0a9d0,
+.footer__272c7,
 .table_e7d73e {
 	border-color: var(--backgroundDark-20);
 }
@@ -11245,6 +11246,7 @@ rect[fill="brand-200"] {
 	border-top-color: var(--backgroundDark-25);
 }
 
+.footerButton__272c7,
 .footerButton__7f9c0 {
 	height: 32px;
 }
