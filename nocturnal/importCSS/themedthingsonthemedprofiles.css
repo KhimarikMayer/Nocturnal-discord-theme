@@ -142,6 +142,7 @@
 	color: #060607 !important;
 }
 
+.footerButton__272c7,
 .custom-user-profile-theme .connectedAccountContainer_e6abe8,
 .custom-user-profile-theme .badge_separator {
 	border-color: var(--profile-gradient-secondary-color);
@@ -347,4 +348,9 @@
 
 .custom-user-profile-theme .userInfoSection[style] {
 	border-top: 1px solid var(--profile-gradient-secondary-color) !important;
+}
+
+.custom-user-profile-theme .card__9ed47 {
+    background-color: var(--profile-gradient-primary-color);
+    box-shadow: inset 0 0 100000px 0 var(--backgroundDark-50);
 }
