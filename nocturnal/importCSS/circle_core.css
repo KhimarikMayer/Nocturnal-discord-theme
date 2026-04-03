@@ -8039,7 +8039,7 @@ path[fill="var(--text-tertiary)"],
 path[fill="var(--icon-tertiary)"],
 path[fill="var(--text-muted-on-default)"],
 path[fill="var(--interactive-text-default)"],
-path[fill="var(--interactive-icon-default)"]:not(.icon__4ea49),
+path[fill="var(--interactive-icon-default)"]:not(.icon__4ea49,.icon__8efcc),
 rect[fill="var(--icon-muted)"],
 rect[fill="var(--text-default)"],
 rect[fill="var(--text-secondary)"],
@@ -8882,6 +8882,11 @@ rect[fill="#93a7fd"],
 rect[fill="#7a8ef9"],
 rect[fill="#6a7df6"] {
 	fill: rgb(59, 204, 241);
+}
+
+path[fill="#94a8ff"],
+rect[fill="#94a8ff"] {
+	fill: rgb(59, 216, 249);
 }
 
 .toast__4c857 path[fill="var(--text-brand)"],
@@ -11207,6 +11212,7 @@ rect[fill="brand-200"] {
 .giftCard_a45ed3,
 .expandedProgressBarContainerSettingsPage__2c345,
 .card__9ed47,
+.container__1dc40,
 .header_d43202 {
 	border: none;
 	box-shadow: none;
@@ -13508,6 +13514,7 @@ svg.thumbnail__0f2e8 {
 .addButton__25a50,
 .theme-light .tag__25a50,
 .theme-light .addButton__25a50,
+.theme-dark .card__88264,
 .container__203bc {
 	border: none !important;
 }
@@ -14596,6 +14603,8 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .ruleIcon_c5e6a1,
 .actionIcon_bc4513,
 .actionIcon__6446f,
+.radioItemIcon__64e61,
+.channelContainer__88264,
 .theme-dark .iconForeground__37e49 {
 	color: var(--primary);
 }
@@ -16143,6 +16152,7 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 }
 
 .icon__4ea49,
+.icon__8efcc,
 .radioGroupOption__64e61[data-selected] .outerRadioFill__64e61, .standaloneRadioIndicator__64e61[data-selected=true] .outerRadioFill__64e61 {
 	fill: var(--primary);
 }
@@ -16326,6 +16336,7 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 	border: none;
 }
 
+.container__8efcc,
 .container__10737,
 .badge__65e57,
 .boostsBadge_c50892,
