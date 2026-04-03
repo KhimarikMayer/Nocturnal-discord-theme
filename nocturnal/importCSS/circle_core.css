@@ -16336,6 +16336,7 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 }
 
 .footerButton__272c7,
+.footerButton__272c7:hover:after,
 .closeButton__00843 {
 	background-color: rgba(0, 0, 0, 0) !important;
 }
