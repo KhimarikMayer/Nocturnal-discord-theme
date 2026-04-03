@@ -12610,7 +12610,7 @@ rect[fill="#D3D6ED"] {
 .recentMentionsPopout__95796.messagesPopoutWrap_e8b59c,
 .shopBanner__7f856,
 .chat_a44415:before,
-.chat_a44415:before,
+.chat_ee72fa:before,
 .bar__3b95d,
 .chat_fb64c9:before {
 	outline: none !important;
@@ -14878,6 +14878,9 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .collapseButton__35a7e,
 .connectedAccountOpenIcon_e6abe8,
 .channelIcon__628e6,
+.icon_f2170c,
+.leftTrayIcon_cb9592 .controlIcon_f1ceac,
+.rightTrayIcon_cb9592 .controlIcon_f1ceac,
 .clearSearchHistoryIcon__971b5 {
 	color: var(--primary) !important;
 }
@@ -14925,6 +14928,7 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .actionIcon__6446f,
 .radioItemIcon__64e61,
 .channelContainer__88264,
+.channelIcon_d5f3cd,
 .theme-dark .iconForeground__37e49 {
 	color: var(--primary);
 }
@@ -15047,6 +15051,7 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .channelIcon__628e6 path,
 .children__9293f path,
 .subHeaderContainer__75e8e path,
+.icon__1bad5 path,
 .person__5f97b path {
 	fill: var(--primary) !important;
 }
