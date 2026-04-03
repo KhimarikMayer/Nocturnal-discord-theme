@@ -12827,14 +12827,20 @@ svg[color="var(--brand-500)"] {
 	}
 }
 
+.filterTabs_f2af23 .filterTab_f2af23,
 .ukTeenDisclaimer__3b923,
 .breadcrumb_c2a763 .innerContainer_c2a763,
 .container__62dd3 {
 	background-color: var(--backgroundDark-15);
 }
 
+.filterTabs_f2af23 .filterTab_f2af23:hover,
 .breadcrumb_c2a763:hover .innerContainer_c2a763 {
 	background-color: var(--backgroundDark-25);
+}
+
+.filterTabs_f2af23 .filterTab_f2af23:active {
+	background-color: var(--backgroundDark-35);
 }
 
 .custom-user-profile-theme .breadcrumb_c2a763 .innerContainer_c2a763 {
@@ -13652,6 +13658,7 @@ svg.thumbnail__0f2e8 {
 	background-color: rgb(4, 137, 232) !important;
 }
 
+.filterTabs_f2af23 .filterTab_f2af23[aria-selected=true],
 .tab__354ec:hover,
 .fontButton_fc7677.selected_fc7677,
 .effectContainer_caa50c.selected_caa50c,
@@ -15119,18 +15126,21 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 	--custom-background: var(--backgroundDark-20);
 }
 
+.theme-dark .progressContainer__0fd7d.blue__0fd7d,
 .theme-dark .progressContainer__9258b.blue__9258b {
 	--custom-gradient-start: var(--secondary);
     --custom-gradient-end: hsl(191 calc(var(--saturation-factor)*86%) 60% /1);
     --custom-gradient-glow: hsl(191 calc(var(--saturation-factor)*86%) 60% /1);
 }
 
+.theme-darker .progressContainer__0fd7d.blue__0fd7d,
 .theme-darker .progressContainer__9258b.blue__9258b {
 	--custom-gradient-start: hsl(204 calc(var(--saturation-factor)*100%) 41% /1);
     --custom-gradient-end: hsl(191 calc(var(--saturation-factor)*86%) 60% /1);
     --custom-gradient-glow: hsl(191 calc(var(--saturation-factor)*86%) 60% /1);
 }
 
+.theme-midnight .progressContainer__0fd7d.blue__0fd7d,
 .theme-midnight .progressContainer__9258b.blue__9258b {
 	--custom-gradient-start: hsl(206 calc(var(--saturation-factor)*100%) 35% /1);
     --custom-gradient-end: hsl(191 calc(var(--saturation-factor)*86%) 60% /1);
@@ -16708,4 +16718,8 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 .currentUserAvatar__10737 {
 	border: none;
 	margin-inline-start: 4px;
+}
+
+.blurOverlay__5b393 {
+	--custom-tint-color: var(--backgroundDark-20) !important;
 }
