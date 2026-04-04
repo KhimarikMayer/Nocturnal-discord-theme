@@ -2577,6 +2577,10 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 }
 
 .scroller__7d20c {
+	border-inline-start: 1px solid var(--backgroundDark-25);
+}
+
+.custom-theme-background .scroller__7d20c {
 	border: none;
 }
 
