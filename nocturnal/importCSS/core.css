@@ -2577,7 +2577,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 }
 
 .scroller__7d20c {
-	border-left: 1px solid var(--backgroundDark-25);
+	border: none;
 }
 
 .circleIconButton__5bc7e.selected__5bc7e,
@@ -10125,7 +10125,7 @@ div.cardContainer__88e24,
 .bd-description code,
 .activityProfile .assets .assetsSmallImage,
 .activityProfile .assets .assetsSmallImage path,
-.avatarAccessory_ec77f2,
+.avatarAccessory__56a50,
 .avatar_f0960a,
 .roleDot_f0960a,
 .header__8823a,
@@ -14910,7 +14910,7 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .bd-addon-header .bd-icon,
 .caret_dc2e44,
 .detailsIcon__4a3a5,
-.iconAccessory_ec77f2,
+.iconAccessory__56a50,
 .caret_e34850,
 .channelIcon__28e57,
 .linkIcon_a4b5f8,
@@ -15059,6 +15059,7 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .children__9293f path,
 .subHeaderContainer__75e8e path,
 .icon__1bad5 path,
+.clearButton__0edde path,
 .person__5f97b path {
 	fill: var(--primary) !important;
 }
@@ -16722,4 +16723,11 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 
 .blurOverlay__5b393 {
 	--custom-tint-color: var(--backgroundDark-20) !important;
+}
+
+@media (min-width: 937px) {
+    .sectionsContainer_e396b4 {
+        box-sizing: border-box;
+        max-width: none;
+    }
 }
