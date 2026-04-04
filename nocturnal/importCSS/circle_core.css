@@ -14568,6 +14568,9 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .icon_f2170c,
 .leftTrayIcon_cb9592 .controlIcon_f1ceac,
 .rightTrayIcon_cb9592 .controlIcon_f1ceac,
+.secondaryButton__9be63,
+.secondaryIcon__84bad,
+.secondaryIconDisabled__84bad,
 .clearSearchHistoryIcon__971b5 {
 	color: var(--primary) !important;
 }
@@ -14740,7 +14743,13 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .subHeaderContainer__75e8e path,
 .icon__1bad5 path,
 .clearButton__0edde path,
-.person__5f97b path {
+.navigatorIcon__15430 path,
+.nitroWheel__673eb path,
+.navigatorTrailing__15430 path,
+.icon__64c86 path,
+.deviceIcon__12eef path,
+.selectedIcon__2e223 path,
+.person__5f97b path[fill="var(--icon-strong)"] {
 	fill: var(--primary) !important;
 }
 
