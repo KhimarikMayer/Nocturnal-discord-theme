@@ -16447,6 +16447,6 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 	border-radius: 100%;
 }
 
-.wrapper__44b0c.avatar__62b8c::before {
+.wrapper__44b0c.avatar__62b8c[style="width: 24px; height: 24px;"]::before {
 	width: calc(100% + 1px) !important;
 }
