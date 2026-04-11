@@ -6468,9 +6468,9 @@ circle[fill="var(--brand-500)"],
 	padding-top: 0;
 }
 
-.mini_a562c8 .bar_a562c8:not(.sliderBar_ac7648):not([style*="green-360"]):not(.inputSensitivityToggle_ac7648.manual_ac7648 .microphone_ac7648),
-.slider_a562c8 .bar_a562c8:not(.sliderBar_ac7648):not([style*="green-360"]):not(.inputSensitivityToggle_ac7648.manual_ac7648 .microphone_ac7648),
-.bar_a562c8:not(.sliderBar_ac7648):not([style*="green-360"]):not(.inputSensitivityToggle_ac7648.manual_ac7648 .microphone_ac7648),
+.mini_a562c8 .bar_a562c8:not(.sliderBar_d293c5):not([style*="green-360"]):not(.inputSensitivityToggle_d293c5.manual_d293c5 .microphone_d293c5),
+.slider_a562c8 .bar_a562c8:not(.sliderBar_d293c5):not([style*="green-360"]):not(.inputSensitivityToggle_d293c5.manual_d293c5 .microphone_d293c5),
+.bar_a562c8:not(.sliderBar_d293c5):not([style*="green-360"]):not(.inputSensitivityToggle_d293c5.manual_d293c5 .microphone_d293c5),
 .markDash_a562c8 {
 	background-color: var(--backgroundDark) !important;
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-50);
@@ -7285,7 +7285,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .tabBar_d6f9e9,
 .container__4efb4,
 .separator_c1e9c4,
-.session__803f2,
+.session_c8ddd4,
 .z-select:hover,
 .z-select.menu-open,
 .resultsGroup__16eb0:before,
@@ -8670,13 +8670,13 @@ div.cardContainer__88e24,
 	padding-right: 16px;
 }
 
-.sessionIcon__803f2,
-.legacySession__803f2 .sessionIcon__803f2 {
+.sessionIcon_c8ddd4,
+.legacySession_c8ddd4 .sessionIcon_c8ddd4 {
 	background-color: var(--primary);
 	color: #fff;
 }
 
-.legacySession__803f2 .sessionIcon__803f2 {
+.legacySession_c8ddd4 .sessionIcon_c8ddd4 {
 	opacity: .3;
 }
 
@@ -9621,6 +9621,8 @@ path[fill="var(--background-brand)"] {
 .caret__5bc6a g,
 .theme-dark .activityProfile .assets:has(.assetsSmallImage) .assetsLargeImage,
 .recipientAvatarMask__75e8e foreignObject,
+.iconImage__46773,
+.iconPlaceholder__46773,
 .accountProfileCard_a27e58 foreignObject {
 	mask: none;
 }
@@ -10141,6 +10143,8 @@ div.cardContainer__88e24,
 .button__24af7:not(.noHover__24af7):hover,
 .nameplatePlaceholderBar_e75aa6,
 .nameplatePlaceholderAvatar_e75aa6,
+.nameplatePlaceholderAvatar__257fb,
+.nameplatePlaceholderBar__257fb,
 .emojiButton__74017:hover,
 .buttonContainer_e6e74f:hover,
 .progress__823e1.none__823e1,
@@ -12351,7 +12355,7 @@ rect[fill="#D3D6ED"] {
 .premiumTrialAcknowledgedBadge_e4ef22,
 .discordIcon__56dee,
 .badge_c99c29,
-.inputSensitivityBarFill_ac7648,
+.inputSensitivityBarFill_d293c5,
 .pauseBackground_d70e0d,
 .newBadge__8e830,
 .redDot_cbe0b4,
@@ -12406,8 +12410,8 @@ path[fill="#C12A35"] {
 	fill: #008ae6;
 }
 
-.answerSelectionIcon__4c520 path[fill="var(--control-connect-background-default)"],
-.victorIcon_f69538 path[fill="var(--control-connect-background-default)"] {
+.answerSelectionIcon__4c520 path[fill="var(--control-connected-background-default)"],
+.victorIcon_f69538 path[fill="var(--control-connected-background-default)"] {
 	fill: var(--primary);
 }
 
@@ -14658,7 +14662,7 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .icon__38524 path[fill="currentColor"],
 .accountButtonInner__4109d path[fill="currentColor"],
 .connectionDelete__4109d path[fill="currentColor"],
-.sessionMoreButton__803f2 path[fill="currentColor"],
+.sessionMoreButton_c8ddd4 path[fill="currentColor"],
 .actionMenuButton__12cd0 path,
 .appDetailsSectionHeader__24605 path,
 .iconContainer__416c7 path,
@@ -14717,7 +14721,7 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .icon__8cc9a path,
 .iconContainer__0624f path,
 .channelIcon__3ddc0 path,
-.editProfilesRow__99464 path,
+.editProfilesRow_f3be29 path,
 .icon_caf372 path[fill="currentColor"],
 .overflowIcon__4d95d path[fill="currentColor"],
 .languageIcon__4d95d path[fill="currentColor"],
@@ -14749,6 +14753,10 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .clearButton__0edde path,
 .navigatorIcon__15430 path,
 .nitroWheel__673eb path,
+.nitroWheel__0aa03 path,
+.nitroWheel_c5f0dc path,
+.settingsIcon__61424 path,
+.headerIcon__61424 path,
 .navigatorTrailing__15430 path,
 .icon__64c86 path,
 .deviceIcon__12eef path,
@@ -14785,6 +14793,7 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
     fill: var(--__lottieIconColor, var(--primary));
 }
 
+.card__9ed47:after,
 .referredFriendAvatar_ce5f0d,
 .videoQuestPreviewCont__24e2c,
 .card__6d190,
@@ -16372,6 +16381,7 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 .badge__65e57,
 .boostsBadge_c50892,
 .content__75e8e,
+:not(.custom-user-profile-theme) .card__73abe.wishlistCard__73abe,
 .container__52d93 {
 	background-color: var(--backgroundDark-15);
 	border: none;
@@ -16430,4 +16440,13 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 .scroller__01c8c {
 	padding-right: 18px !important;
 	border-color: var(--backgroundDark-25);
+}
+
+.nameplatePlaceholderAvatar__257fb,
+.nameplatePlaceholderBar__257fb {
+	border-radius: 100%;
+}
+
+.wrapper__44b0c.avatar__62b8c::before {
+	width: calc(100% + 1px) !important;
 }
