@@ -1000,6 +1000,7 @@ svg.contentImage__42bf5,
 .calendarPicker_d27f17 .react-datepicker,
 .calendarPicker_d27f17 .react-datepicker__header {
 	background-color: var(--backgroundDarker) !important;
+	border: none !important;
 }
 
 .calendarPicker_d27f17 .react-datepicker__current-month {
@@ -3394,7 +3395,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 }
 
 .container_a68543,
-.container__5a2c6,
+.container__93db4,
 .tagsButton_f369db,
 .container_ca49a1,
 .loadingCard_f369db,
@@ -12606,15 +12607,6 @@ svg[color="var(--brand-500)"] {
 	background-color: var(--backgroundDark-35);
 }
 
-.custom-user-profile-theme .breadcrumb_c2a763 .innerContainer_c2a763 {
-	background-color: var(--profile-gradient-secondary-color);
-}
-
-.custom-user-profile-theme .breadcrumb_c2a763:hover .innerContainer_c2a763 {
-	background-color: var(--profile-gradient-secondary-color);
-	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-15);
-}
-
 .container__62dd3 {
 	border: none !important;
 }
@@ -16389,6 +16381,7 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 
 .footerButton__272c7,
 .footerButton__272c7:hover:after,
+.custom-user-profile-theme .footerButton__272c7:before,
 .closeButton__00843 {
 	background-color: rgba(0, 0, 0, 0) !important;
 }
