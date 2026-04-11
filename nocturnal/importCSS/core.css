@@ -5375,6 +5375,7 @@ html:not(.chat-input) .inputInner_b1f01d,
 	border: none;
 }
 
+.link_ceab1a:hover,
 .row_d13feb:hover {
 	background-color: color-mix(in oklab, hsl(222 calc(var(--saturation-factor)*22%) 9% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
 }
@@ -7545,6 +7546,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .row__0a9d0,
 .footer__272c7,
 .spacer__01c8c,
+.container_d9246e .detailsRow_d9246e:not(:last-child),
 .table_e7d73e {
 	border-color: var(--backgroundDark-20);
 }
@@ -11453,6 +11455,8 @@ rect[fill="brand-200"] {
 .expandedProgressBarContainerSettingsPage__2c345,
 .card__9ed47,
 .container__1dc40,
+.container_ceab1a,
+.container_d9246e,
 .header_d43202 {
 	border: none;
 	box-shadow: none;
@@ -16765,4 +16769,16 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 
 .wrapper__44b0c.avatar__62b8c[style="width: 24px; height: 24px;"]::before {
 	width: calc(100% + 1px) !important;
+}
+
+.backgroundGradient__8e688 {
+	background: linear-gradient(to bottom,rgba(0, 0, 0, 0) 0,var(--backgroundDark) 200px);
+}
+
+.twoColumnMainContent__81040 {
+	padding-inline-end: calc(var(--custom-spacing)*2 - 6px);
+}
+
+.thumbnailSelected_cc030b .thumbnailWrapper_cc030b::after {
+	box-shadow: inset 0 0 0 2px var(--primary);
 }
