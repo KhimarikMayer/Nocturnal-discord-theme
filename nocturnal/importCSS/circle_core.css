@@ -206,16 +206,12 @@
 }
 
 .theme-dark .peopleListItem_cc6179:not(.listItem__2bb83) {
-	border-top-color: var(--backgroundDark-20);
-	margin-right: 18px;
+	margin-inline-end: 8px;
 }
 
 .theme-dark .peopleListItem_cc6179.active_cc6179:not(.listItem__2bb83),
 .theme-dark .peopleListItem_cc6179:hover:not(.listItem__2bb83) {
 	background: var(--backgroundDark-15);
-	border-top-color: rgba(0, 0, 0, 0);
-	margin-right: 10px;
-	padding-right: 18px;
 }
 
 .actionButton_f8fa06,
