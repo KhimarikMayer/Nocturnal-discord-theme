@@ -4412,10 +4412,6 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	background-color: var(--primary);
 }
 
-.member-perms .member-perm .perm-circle {
-	margin-left: 2px;
-}
-
 .avatarUploaderPremiumNoBanner_ab876d {
 	border: 4px solid var(--profile-avatar-border-color);
 	background-color: var(--profile-avatar-border-color);
