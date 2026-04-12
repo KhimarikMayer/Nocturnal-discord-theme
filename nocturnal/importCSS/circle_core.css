@@ -11104,6 +11104,9 @@ rect[fill="brand-200"] {
 .container_ceab1a,
 .container_d9246e,
 .card_ac86f6,
+.container_a5da35,
+.mainCard__250d5,
+.smallCard__250d5,
 .header_d43202 {
 	border: none;
 	box-shadow: none;
@@ -13709,6 +13712,7 @@ svg.thumbnail__0f2e8 {
 .rewardPill_b9d8f0,
 .button__85643:hover svg,
 .divider_cc6179,
+.divider__4495e:after,
 .separator__7bf69 {
 	background-color: var(--backgroundDark-20);
 }
@@ -16284,4 +16288,13 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 .ui-close-button.PermissionsViewer-1ltsp6t {
 	color: var(--primary) !important;
 	background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.compactBarBackground__8e688 {
+	background-color: color-mix(in srgb,var(--backgroundDark) 90%,rgba(0, 0, 0, 0));
+	border-color: var(--backgroundDark-20);
+}
+
+.guildIcon_a5da35 {
+	border: 4px solid var(--backgroundDarker);
 }
