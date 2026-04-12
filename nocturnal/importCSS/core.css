@@ -7531,6 +7531,7 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .spacer__01c8c,
 .container_d9246e .detailsRow_d9246e:not(:last-child),
 .innerContainer_ceab1a:not(:last-child),
+.ui-sidebar-search.PermissionsViewer-15abvfz,
 .table_e7d73e {
 	border-color: var(--backgroundDark-20);
 }
