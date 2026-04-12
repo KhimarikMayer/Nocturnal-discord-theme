@@ -5218,25 +5218,6 @@ html:not(.chat-input) .inputInner_b1f01d,
 	height: 12px;
 }
 
-.tagRoleColor__0e476 {
-	width: 14px;
-	height: 14px;
-	margin-left: -2px;
-}
-
-.tag__0e476:has(.tagRoleColor__0e476) .tagLabel__0e476 {
-	padding-left: 4px;
-}
- 
-.tag__0e476:has(.tagRoleColor__0e476) {
-	padding: 0 6px;
-	padding-right: 3px;
-}
-
-.tag__0e476:has(.tagRoleColor__0e476) .close__0e476 {
-	margin-left: 2px;
-}
-
 .bd-addon-controls .bd-search {
 	font-size: 14px;
 }
