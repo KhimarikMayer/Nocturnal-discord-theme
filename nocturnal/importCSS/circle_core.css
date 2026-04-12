@@ -7377,6 +7377,8 @@ span.clanTag__07f91:not(.guildTag__63ed3),
 .footer__272c7,
 .spacer__01c8c,
 .container_d9246e .detailsRow_d9246e:not(:last-child),
+.innerContainer_ceab1a:not(:last-child),
+.ui-sidebar-search.PermissionsViewer-15abvfz,
 .table_e7d73e {
 	border-color: var(--backgroundDark-20);
 }
@@ -14620,6 +14622,7 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .attachmentRow__68334 path,
 .closeButton__00843 path,
 .icon__76f04 path,
+.detailsRowValue_d9246e path,
 .person__5f97b path[fill="var(--icon-strong)"] {
 	fill: var(--primary) !important;
 }
@@ -16266,9 +16269,11 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 .permission-item.PermissionsViewer-18b2fsv {
 	background-color: rgba(0, 0, 0, 0) !important;
 }
+
 .main-body.PermissionsViewer-18b2fsv {
 	scrollbar-color: var(--backgroundDark-45) rgba(0, 0, 0, 0) !important;
-	padding-right: 14px;
+	padding-right: 12px;
+	margin-right: -2px;
 }
 
 .permission-item.PermissionsViewer-18b2fsv {
@@ -16297,4 +16302,10 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 
 .guildIcon_a5da35 {
 	border: 4px solid var(--backgroundDarker);
+}
+
+.ui-sidebar-body.PermissionsViewer-15abvfz {
+	scrollbar-color: var(--backgroundDark-45) rgba(0, 0, 0, 0) !important;
+	padding-right: 0px;
+	margin-right: -2px;
 }
