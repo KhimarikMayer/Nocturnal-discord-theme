@@ -11222,6 +11222,7 @@ rect[fill="brand-200"] {
 .container__1dc40,
 .container_ceab1a,
 .container_d9246e,
+.card_ac86f6,
 .header_d43202 {
 	border: none;
 	box-shadow: none;
@@ -13159,6 +13160,7 @@ svg.thumbnail__0f2e8 {
 .hasBanner_f37cb1 .addActionButton_f37cb1:hover,
 .hasBanner_f37cb1 .inviteButton_f37cb1:hover,
 .filterSortOption__57454:hover,
+.itemIconBackground_d9866f,
 .attachButtonInner__0923f:hover {
 	background-color: rgba(0, 0, 0, 0);
 	border: none;
@@ -14785,6 +14787,7 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .card__6d190,
 .container__040eb,
 .contentWrapper__0829a,
+.wishlistBannerContainer_b05cb4,
 .contentWrapper__5d00f {
 	border: none;
 }
@@ -16409,8 +16412,12 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 	border-radius: 100%;
 }
 
-.wrapper__44b0c.avatar__62b8c[style="width: 24px; height: 24px;"]::before {
+.card__9ed47.card__73abe.wishlistCard__73abe .wrapper__44b0c.avatar__62b8c[style="width: 24px; height: 24px;"]::before {
 	width: calc(100% + 1px) !important;
+}
+
+.nameplatePreview__6d099 .wrapper__44b0c.avatar__62b8c[style="width: 32px; height: 32px;"]::before {
+	width: calc(100% - 1px) !important;
 }
 
 .backgroundGradient__8e688 {
