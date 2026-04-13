@@ -220,6 +220,7 @@
 	background-color: var(--profile-gradient-primary-color);
 }
 
+.custom-user-profile-theme .userPopout .bodyInnerWrapper .note textarea:focus,
 .custom-user-profile-theme .vc-permviewer-role-button {
 	background-color: var(--profile-gradient-secondary-color) !important;
 }
