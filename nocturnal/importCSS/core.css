@@ -4453,7 +4453,15 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	background-color: var(--backgroundDark-20);
 }
 
+.roleColor_b4b2c3,
+.roleDot__5d7c9 {
+    width: 12px;
+    height: 12px;
+}
+
 .tagRoleColor__0e476 {
+	width: 14px;
+    height: 14px;
 	border-radius: 2.5px;
 }
 
