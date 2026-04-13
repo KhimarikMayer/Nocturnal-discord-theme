@@ -1638,7 +1638,7 @@ svg[name=Nitro] g path {
 }
 
 .iconInactive_f34534:not(.statImage__74acd,.statIcon_dc06fd),
-.theme-dark .avatar_b50d96,
+.theme-dark .avatar__4495e,
 .guildIcon img {
 	border-radius: 30%;
 }
@@ -2876,7 +2876,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 
 .theme-dark .iconWrapper__9293f foreignObject,
 .theme-dark .svg_d48241:not(.mask_a423bd) foreignObject,
-.theme-dark .avatarMask_b50d96 foreignObject,
+.theme-dark .avatarMask__4495e foreignObject,
 .theme-dark .avatar__9ac28,
 .theme-dark .mask_db811b foreignObject,
 .theme-dark .mask__44b0c foreignObject,
@@ -2885,7 +2885,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	mask: none;
 }
 
-.theme-dark .avatarMask_b50d96 {
+.theme-dark .avatarMask__4495e {
 	margin-right: 6.5px;
 }
 
@@ -7193,7 +7193,6 @@ rect[fill="rgb(123,162,255)"] {
 }
 
 .row_fec266,
-.divider_b50d96,
 .rowIcon__95bea,
 .soundButtonWrapper__9be63,
 .circle__60626,
@@ -14820,6 +14819,7 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .channelContainer__88264,
 .channelIcon_d5f3cd,
 .mentionLimitIcon_ed9c90,
+.preview__05e8e,
 .theme-dark .iconForeground__37e49 {
 	color: var(--primary);
 }
@@ -14958,6 +14958,14 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .closeButton__00843 path,
 .icon__76f04 path,
 .detailsRowValue_d9246e path,
+.colorPickerSwatch__459fb .colorPickerDropper__459fb path,
+.innerBottomRowAction__34940 path,
+.modInfoItemIcon__96c0b path,
+.viewAllPermissions__1ef77 path,
+.backButton__15c82 path,
+.addRoleIcon__3a5a1 path,
+.headerTitle__3a5a1 path,
+.closeAction__34940
 .person__5f97b path[fill="var(--icon-strong)"] {
 	fill: var(--primary) !important;
 }
@@ -15327,1058 +15335,6 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 	border-color: var(--backgroundDark-40) !important;
 }
 
-.switchIndicator_a28278[style*="88, 101, 242"] {
-	background-color: rgb(0, 138, 230) !important;
-}
-
-.switchIndicator_a28278[style*="88, 101, 241"] {
-	background-color: rgb(0, 138, 229) !important;
-}
-
-.switchIndicator_a28278[style*="87, 101, 241"] {
-	background-color: rgb(0, 137, 229) !important;
-}
-
-.switchIndicator_a28278[style*="87, 101, 240"] {
-	background-color: rgb(0, 137, 228) !important;
-}
-
-.switchIndicator_a28278[style*="87, 100, 241"] {
-	background-color: rgb(0, 136, 229) !important;
-}
-
-.switchIndicator_a28278[style*="87, 100, 240"] {
-	background-color: rgb(0, 136, 228) !important;
-}
-
-.switchIndicator_a28278[style*="87, 100, 239"] {
-	background-color: rgb(0, 136, 227) !important;
-}
-
-.switchIndicator_a28278[style*="87, 100, 238"] {
-	background-color: rgb(0, 136, 226) !important;
-}
-
-.switchIndicator_a28278[style*="87, 99, 239"] {
-	background-color: rgb(0, 135, 227) !important;
-}
-
-.switchIndicator_a28278[style*="86, 100, 239"] {
-	background-color: rgb(0, 135, 227) !important;
-}
-
-.switchIndicator_a28278[style*="86, 99, 239"] {
-	background-color: rgb(0, 134, 227) !important;
-}
-
-.switchIndicator_a28278[style*="87, 99, 238"] {
-	background-color: rgb(0, 135, 226) !important;
-}
-
-.switchIndicator_a28278[style*="86, 100, 238"] {
-	background-color: rgb(0, 135, 226) !important;
-}
-
-.switchIndicator_a28278[style*="86, 99, 238"] {
-	background-color: rgb(0, 134, 226) !important;
-}
-
-.switchIndicator_a28278[style*="86, 99, 237"] {
-	background-color: rgb(0, 134, 225) !important;
-}
-
-.switchIndicator_a28278[style*="86, 99, 236"] {
-	background-color: rgb(0, 134, 224) !important;
-}
-
-.switchIndicator_a28278[style*="85, 98, 237"] {
-	background-color: rgb(0, 132, 225) !important;
-}
-
-.switchIndicator_a28278[style*="85, 98, 236"] {
-	background-color: rgb(0, 132, 224) !important;
-}
-
-.switchIndicator_a28278[style*="85, 98, 235"] {
-	background-color: rgb(0, 132, 223) !important;
-}
-
-.switchIndicator_a28278[style*="85, 98, 234"] {
-	background-color: rgb(0, 132, 222) !important;
-}
-
-.switchIndicator_a28278[style*="85, 98, 233"] {
-	background-color: rgb(0, 132, 221) !important;
-}
-
-.switchIndicator_a28278[style*="85, 98, 232"] {
-	background-color: rgb(0, 132, 220) !important;
-}
-
-.switchIndicator_a28278[style*="84, 97, 235"] {
-	background-color: rgb(0, 130, 223) !important;
-}
-
-.switchIndicator_a28278[style*="84, 97, 234"] {
-	background-color: rgb(0, 130, 222) !important;
-}
-
-.switchIndicator_a28278[style*="84, 97, 233"] {
-	background-color: rgb(0, 130, 221) !important;
-}
-
-.switchIndicator_a28278[style*="84, 97, 232"] {
-	background-color: rgb(0, 130, 220) !important;
-}
-
-.switchIndicator_a28278[style*="84, 97, 231"] {
-	background-color: rgb(0, 130, 219) !important;
-}
-
-.switchIndicator_a28278[style*="83, 96, 232"] {
-	background-color: rgb(0, 128, 220) !important;
-}
-
-.switchIndicator_a28278[style*="83, 96, 231"] {
-	background-color: rgb(0, 128, 219) !important;
-}
-
-.switchIndicator_a28278[style*="83, 96, 229"] {
-	background-color: rgb(0, 128, 217) !important;
-}
-
-.switchIndicator_a28278[style*="83, 96, 232"] {
-	background-color: rgb(0, 128, 220) !important;
-}
-
-.switchIndicator_a28278[style*="83, 96, 232"] {
-	background-color: rgb(0, 128, 220) !important;
-}
-
-.switchIndicator_a28278[style*="83, 96, 231"] {
-	background-color: rgb(0, 128, 219) !important;
-}
-
-.switchIndicator_a28278[style*="83, 97, 230"] {
-	background-color: rgb(0, 129, 218) !important;
-}
-
-.switchIndicator_a28278[style*="83, 96, 230"] {
-	background-color: rgb(0, 128, 218) !important;
-}
-
-.switchIndicator_a28278[style*="83, 96, 229"] {
-	background-color: rgb(0, 128, 217) !important;
-}
-
-.switchIndicator_a28278[style*="83, 96, 228"] {
-	background-color: rgb(0, 128, 216) !important;
-}
-
-.switchIndicator_a28278[style*="83, 96, 227"] {
-	background-color: rgb(0, 128, 215) !important;
-}
-
-.switchIndicator_a28278[style*="83, 96, 226"] {
-	background-color: rgb(0, 128, 214) !important;
-}
-
-.switchIndicator_a28278[style*="83, 96, 225"] {
-	background-color: rgb(0, 128, 213) !important;
-}
-
-.switchIndicator_a28278[style*="82, 96, 228"] {
-	background-color: rgb(0, 127, 216) !important;
-}
-
-.switchIndicator_a28278[style*="82, 96, 227"] {
-	background-color: rgb(0, 127, 215) !important;
-}
-
-.switchIndicator_a28278[style*="82, 95, 228"] {
-	background-color: rgb(0, 126, 216) !important;
-}
-
-.switchIndicator_a28278[style*="82, 95, 227"] {
-	background-color: rgb(0, 126, 215) !important;
-}
-
-.switchIndicator_a28278[style*="82, 95, 226"] {
-	background-color: rgb(0, 126, 214) !important;
-}
-
-.switchIndicator_a28278[style*="82, 95, 225"] {
-	background-color: rgb(0, 126, 213) !important;
-}
-
-.switchIndicator_a28278[style*="82, 95, 224"] {
-	background-color: rgb(0, 126, 212) !important;
-}
-
-.switchIndicator_a28278[style*="82, 95, 223"] {
-	background-color: rgb(0, 126, 211) !important;
-}
-
-.switchIndicator_a28278[style*="81, 95, 228"] {
-	background-color: rgb(0, 125, 216) !important;
-}
-
-.switchIndicator_a28278[style*="81, 95, 227"] {
-	background-color: rgb(0, 125, 215) !important;
-}
-
-.switchIndicator_a28278[style*="81, 95, 226"] {
-	background-color: rgb(0, 125, 214) !important;
-}
-
-.switchIndicator_a28278[style*="81, 95, 225"] {
-	background-color: rgb(0, 125, 213) !important;
-}
-
-.switchIndicator_a28278[style*="81, 95, 224"] {
-	background-color: rgb(0, 125, 212) !important;
-}
-
-.switchIndicator_a28278[style*="81, 95, 223"] {
-	background-color: rgb(0, 125, 211) !important;
-}
-
-.switchIndicator_a28278[style*="81, 94, 225"] {
-	background-color: rgb(0, 124, 213) !important;
-}
-
-.switchIndicator_a28278[style*="81, 94, 224"] {
-	background-color: rgb(0, 124, 212) !important;
-}
-
-.switchIndicator_a28278[style*="81, 94, 223"] {
-	background-color: rgb(0, 124, 211) !important;
-}
-
-.switchIndicator_a28278[style*="81, 94, 222"] {
-	background-color: rgb(0, 124, 210) !important;
-}
-
-.switchIndicator_a28278[style*="81, 93, 223"] {
-	background-color: rgb(0, 123, 211) !important;
-}
-
-.switchIndicator_a28278[style*="81, 93, 222"] {
-	background-color: rgb(0, 123, 210) !important;
-}
-
-.switchIndicator_a28278[style*="81, 93, 221"] {
-	background-color: rgb(0, 123, 209) !important;
-}
-
-.switchIndicator_a28278[style*="81, 93, 220"] {
-	background-color: rgb(0, 123, 208) !important;
-}
-
-.switchIndicator_a28278[style*="81, 93, 219"] {
-	background-color: rgb(0, 123, 207) !important;
-}
-
-.switchIndicator_a28278[style*="81, 93, 218"] {
-	background-color: rgb(0, 123, 206) !important;
-}
-
-.switchIndicator_a28278[style*="80, 94, 223"] {
-	background-color: rgb(0, 123, 211) !important;
-}
-
-.switchIndicator_a28278[style*="80, 94, 222"] {
-	background-color: rgb(0, 123, 210) !important;
-}
-
-.switchIndicator_a28278[style*="80, 94, 221"] {
-	background-color: rgb(0, 123, 209) !important;
-}
-
-.switchIndicator_a28278[style*="80, 94, 220"] {
-	background-color: rgb(0, 123, 208) !important;
-}
-
-.switchIndicator_a28278[style*="80, 94, 219"] {
-	background-color: rgb(0, 123, 207) !important;
-}
-
-.switchIndicator_a28278[style*="80, 94, 218"] {
-	background-color: rgb(0, 123, 206) !important;
-}
-
-.switchIndicator_a28278[style*="80, 93, 223"] {
-	background-color: rgb(0, 122, 211) !important;
-}
-
-.switchIndicator_a28278[style*="80, 93, 222"] {
-	background-color: rgb(0, 122, 210) !important;
-}
-
-.switchIndicator_a28278[style*="80, 93, 221"] {
-	background-color: rgb(0, 122, 209) !important;
-}
-
-.switchIndicator_a28278[style*="80, 93, 220"] {
-	background-color: rgb(0, 122, 208) !important;
-}
-
-.switchIndicator_a28278[style*="80, 93, 219"] {
-	background-color: rgb(0, 122, 207) !important;
-}
-
-.switchIndicator_a28278[style*="79, 93, 219"] {
-	background-color: rgb(0, 121, 207) !important;
-}
-
-.switchIndicator_a28278[style*="80, 93, 218"] {
-	background-color: rgb(0, 122, 206) !important;
-}
-
-.switchIndicator_a28278[style*="79, 92, 223"] {
-	background-color: rgb(0, 120, 211) !important;
-}
-
-.switchIndicator_a28278[style*="79, 92, 222"] {
-	background-color: rgb(0, 120, 210) !important;
-}
-
-.switchIndicator_a28278[style*="79, 92, 221"] {
-	background-color: rgb(0, 120, 209) !important;
-}
-
-.switchIndicator_a28278[style*="79, 92, 220"] {
-	background-color: rgb(0, 120, 208) !important;
-}
-
-.switchIndicator_a28278[style*="79, 92, 219"] {
-	background-color: rgb(0, 120, 207) !important;
-}
-
-.switchIndicator_a28278[style*="79, 92, 218"] {
-	background-color: rgb(0, 120, 206) !important;
-}
-
-.switchIndicator_a28278[style*="79, 92, 217"] {
-	background-color: rgb(0, 120, 205) !important;
-}
-
-.switchIndicator_a28278[style*="78, 92, 217"] {
-	background-color: rgb(0, 119, 205) !important;
-}
-
-.switchIndicator_a28278[style*="78, 92, 216"] {
-	background-color: rgb(0, 119, 204) !important;
-}
-
-.switchIndicator_a28278[style*="78, 92, 215"] {
-	background-color: rgb(0, 119, 203) !important;
-}
-
-.switchIndicator_a28278[style*="78, 91, 215"] {
-	background-color: rgb(0, 118, 203) !important;
-}
-
-.switchIndicator_a28278[style*="78, 92, 214"] {
-	background-color: rgb(0, 119, 202) !important;
-}
-
-.switchIndicator_a28278[style*="78, 92, 213"] {
-	background-color: rgb(0, 119, 201) !important;
-}
-
-.switchIndicator_a28278[style*="78, 92, 212"] {
-	background-color: rgb(0, 119, 200) !important;
-}
-
-.switchIndicator_a28278[style*="78, 92, 211"] {
-	background-color: rgb(0, 119, 199) !important;
-}
-
-.switchIndicator_a28278[style*="78, 92, 210"] {
-	background-color: rgb(0, 119, 198) !important;
-}
-
-.switchIndicator_a28278[style*="77, 92, 216"] {
-	background-color: rgb(0, 118, 204) !important;
-}
-
-.switchIndicator_a28278[style*="77, 92, 215"] {
-	background-color: rgb(0, 118, 203) !important;
-}
-
-.switchIndicator_a28278[style*="77, 92, 214"] {
-	background-color: rgb(0, 118, 202) !important;
-}
-
-.switchIndicator_a28278[style*="77, 92, 213"] {
-	background-color: rgb(0, 118, 201) !important;
-}
-
-.switchIndicator_a28278[style*="77, 92, 212"] {
-	background-color: rgb(0, 118, 200) !important;
-}
-
-.switchIndicator_a28278[style*="77, 92, 211"] {
-	background-color: rgb(0, 118, 199) !important;
-}
-
-.switchIndicator_a28278[style*="77, 92, 210"] {
-	background-color: rgb(0, 118, 198) !important;
-}
-
-.switchIndicator_a28278[style*="77, 91, 216"] {
-	background-color: rgb(0, 117, 204) !important;
-}
-
-.switchIndicator_a28278[style*="77, 91, 215"] {
-	background-color: rgb(0, 117, 203) !important;
-}
-
-.switchIndicator_a28278[style*="77, 91, 214"] {
-	background-color: rgb(0, 117, 202) !important;
-}
-
-.switchIndicator_a28278[style*="77, 91, 213"] {
-	background-color: rgb(0, 117, 201) !important;
-}
-
-.switchIndicator_a28278[style*="77, 91, 212"] {
-	background-color: rgb(0, 117, 200) !important;
-}
-
-.switchIndicator_a28278[style*="77, 91, 211"] {
-	background-color: rgb(0, 117, 199) !important;
-}
-
-.switchIndicator_a28278[style*="77, 91, 210"] {
-	background-color: rgb(0, 117, 198) !important;
-}
-
-.switchIndicator_a28278[style*="77, 90, 213"] {
-	background-color: rgb(0, 116, 201) !important;
-}
-
-.switchIndicator_a28278[style*="77, 90, 212"] {
-	background-color: rgb(0, 116, 200) !important;
-}
-
-.switchIndicator_a28278[style*="77, 90, 211"] {
-	background-color: rgb(0, 116, 199) !important;
-}
-
-.switchIndicator_a28278[style*="77, 90, 210"] {
-	background-color: rgb(0, 116, 198) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 216"] {
-	background-color: rgb(0, 116, 204) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 215"] {
-	background-color: rgb(0, 116, 203) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 214"] {
-	background-color: rgb(0, 116, 202) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 213"] {
-	background-color: rgb(0, 116, 201) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 212"] {
-	background-color: rgb(0, 116, 200) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 211"] {
-	background-color: rgb(0, 116, 199) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 210"] {
-	background-color: rgb(0, 116, 198) !important;
-}
-
-.switchIndicator_a28278[style*="76, 90, 216"] {
-	background-color: rgb(0, 115, 204) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 216"] {
-	background-color: rgb(0, 116, 204) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 215"] {
-	background-color: rgb(0, 116, 203) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 214"] {
-	background-color: rgb(0, 116, 202) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 213"] {
-	background-color: rgb(0, 116, 201) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 212"] {
-	background-color: rgb(0, 116, 200) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 211"] {
-	background-color: rgb(0, 116, 199) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 210"] {
-	background-color: rgb(0, 116, 198) !important;
-}
-
-.switchIndicator_a28278[style*="76, 90, 216"] {
-	background-color: rgb(0, 115, 204) !important;
-}
-
-.switchIndicator_a28278[style*="76, 92, 216"] {
-	background-color: rgb(0, 117, 204) !important;
-}
-
-.switchIndicator_a28278[style*="76, 92, 215"] {
-	background-color: rgb(0, 117, 203) !important;
-}
-
-.switchIndicator_a28278[style*="76, 92, 214"] {
-	background-color: rgb(0, 117, 202) !important;
-}
-
-.switchIndicator_a28278[style*="76, 92, 213"] {
-	background-color: rgb(0, 117, 201) !important;
-}
-
-.switchIndicator_a28278[style*="76, 92, 212"] {
-	background-color: rgb(0, 117, 200) !important;
-}
-
-.switchIndicator_a28278[style*="76, 92, 211"] {
-	background-color: rgb(0, 117, 199) !important;
-}
-
-.switchIndicator_a28278[style*="76, 92, 210"] {
-	background-color: rgb(0, 117, 198) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 216"] {
-	background-color: rgb(0, 116, 204) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 215"] {
-	background-color: rgb(0, 116, 203) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 214"] {
-	background-color: rgb(0, 116, 202) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 213"] {
-	background-color: rgb(0, 116, 201) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 212"] {
-	background-color: rgb(0, 116, 200) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 211"] {
-	background-color: rgb(0, 116, 199) !important;
-}
-
-.switchIndicator_a28278[style*="76, 91, 210"] {
-	background-color: rgb(0, 116, 198) !important;
-}
-
-.switchIndicator_a28278[style*="76, 90, 216"] {
-	background-color: rgb(0, 115, 204) !important;
-}
-
-.switchIndicator_a28278[style*="76, 90, 215"] {
-	background-color: rgb(0, 115, 203) !important;
-}
-
-.switchIndicator_a28278[style*="76, 90, 214"] {
-	background-color: rgb(0, 115, 202) !important;
-}
-
-.switchIndicator_a28278[style*="76, 90, 213"] {
-	background-color: rgb(0, 115, 201) !important;
-}
-
-.switchIndicator_a28278[style*="76, 90, 212"] {
-	background-color: rgb(0, 115, 200) !important;
-}
-
-.switchIndicator_a28278[style*="76, 90, 211"] {
-	background-color: rgb(0, 115, 199) !important;
-}
-
-.switchIndicator_a28278[style*="76, 90, 210"] {
-	background-color: rgb(0, 115, 198) !important;
-}
-
-.switchIndicator_a28278[style*="76, 89, 216"] {
-	background-color: rgb(0, 114, 204) !important;
-}
-
-.switchIndicator_a28278[style*="76, 89, 215"] {
-	background-color: rgb(0, 114, 203) !important;
-}
-
-.switchIndicator_a28278[style*="76, 89, 214"] {
-	background-color: rgb(0, 114, 202) !important;
-}
-
-.switchIndicator_a28278[style*="76, 89, 213"] {
-	background-color: rgb(0, 114, 201) !important;
-}
-
-.switchIndicator_a28278[style*="76, 89, 212"] {
-	background-color: rgb(0, 114, 200) !important;
-}
-
-.switchIndicator_a28278[style*="76, 89, 211"] {
-	background-color: rgb(0, 114, 199) !important;
-}
-
-.switchIndicator_a28278[style*="76, 89, 210"] {
-	background-color: rgb(0, 114, 198) !important;
-}
-
-.switchIndicator_a28278[style*="76, 89, 209"] {
-	background-color: rgb(0, 114, 197) !important;
-}
-
-.switchIndicator_a28278[style*="75, 89, 210"] {
-	background-color: rgb(0, 113, 198) !important;
-}
-
-.switchIndicator_a28278[style*="75, 89, 209"] {
-	background-color: rgb(0, 113, 197) !important;
-}
-
-.switchIndicator_a28278[style*="75, 89, 208"] {
-	background-color: rgb(0, 113, 196) !important;
-}
-
-.switchIndicator_a28278[style*="75, 89, 207"] {
-	background-color: rgb(0, 113, 195) !important;
-}
-
-.switchIndicator_a28278[style*="75, 89, 206"] {
-	background-color: rgb(0, 113, 194) !important;
-}
-
-.switchIndicator_a28278[style*="75, 88, 209"] {
-	background-color: rgb(0, 112, 197) !important;
-}
-
-.switchIndicator_a28278[style*="75, 88, 208"] {
-	background-color: rgb(0, 112, 196) !important;
-}
-
-.switchIndicator_a28278[style*="75, 88, 207"] {
-	background-color: rgb(0, 112, 195) !important;
-}
-
-.switchIndicator_a28278[style*="75, 88, 206"] {
-	background-color: rgb(0, 112, 194) !important;
-}
-
-.switchIndicator_a28278[style*="74, 88, 206"] {
-	background-color: rgb(0, 111, 194) !important;
-}
-
-.switchIndicator_a28278[style*="74, 88, 204"] {
-	background-color: rgb(0, 111, 192) !important;
-}
-
-.switchIndicator_a28278[style*="74, 88, 203"] {
-	background-color: rgb(0, 111, 191) !important;
-}
-
-.switchIndicator_a28278[style*="74, 88, 202"] {
-	background-color: rgb(0, 111, 190) !important;
-}
-
-.switchIndicator_a28278[style*="74, 87, 205"] {
-	background-color: rgb(0, 110, 193) !important;
-}
-
-.switchIndicator_a28278[style*="74, 87, 204"] {
-	background-color: rgb(0, 110, 192) !important;
-}
-
-.switchIndicator_a28278[style*="74, 87, 203"] {
-	background-color: rgb(0, 110, 191) !important;
-}
-
-.switchIndicator_a28278[style*="74, 87, 202"] {
-	background-color: rgb(0, 110, 190) !important;
-}
-
-.switchIndicator_a28278[style*="74, 86, 204"] {
-	background-color: rgb(0, 109, 192) !important;
-}
-
-.switchIndicator_a28278[style*="74, 86, 203"] {
-	background-color: rgb(0, 109, 191) !important;
-}
-
-.switchIndicator_a28278[style*="74, 86, 202"] {
-	background-color: rgb(0, 109, 190) !important;
-}
-
-.switchIndicator_a28278[style*="73, 87, 205"] {
-	background-color: rgb(0, 111, 193) !important;
-}
-
-.switchIndicator_a28278[style*="73, 87, 204"] {
-	background-color: rgb(0, 111, 192) !important;
-}
-
-.switchIndicator_a28278[style*="73, 87, 203"] {
-	background-color: rgb(0, 111, 191) !important;
-}
-
-.switchIndicator_a28278[style*="73, 87, 202"] {
-	background-color: rgb(0, 111, 190) !important;
-}
-
-.switchIndicator_a28278[style*="73, 86, 202"] {
-	background-color: rgb(0, 108, 190) !important;
-}
-
-.switchIndicator_a28278[style*="73, 86, 201"] {
-	background-color: rgb(0, 108, 189) !important;
-}
-
-.switchIndicator_a28278[style*="72, 86, 201"] {
-	background-color: rgb(0, 107, 189) !important;
-}
-
-.switchIndicator_a28278[style*="72, 86, 200"] {
-	background-color: rgb(0, 107, 188) !important;
-}
-
-.switchIndicator_a28278[style*="72, 86, 199"] {
-	background-color: rgb(0, 107, 187) !important;
-}
-
-.switchIndicator_a28278[style*="72, 86, 198"] {
-	background-color: rgb(0, 107, 186) !important;
-}
-
-.switchIndicator_a28278[style*="73, 85, 201"] {
-	background-color: rgb(0, 107, 189) !important;
-}
-
-.switchIndicator_a28278[style*="72, 85, 201"] {
-	background-color: rgb(0, 106, 189) !important;
-}
-
-.switchIndicator_a28278[style*="72, 85, 200"] {
-	background-color: rgb(0, 106, 188) !important;
-}
-
-.switchIndicator_a28278[style*="72, 85, 199"] {
-	background-color: rgb(0, 106, 187) !important;
-}
-
-.switchIndicator_a28278[style*="72, 85, 198"] {
-	background-color: rgb(0, 106, 186) !important;
-}
-
-.switchIndicator_a28278[style*="71, 85, 198"] {
-	background-color: rgb(0, 105, 186) !important;
-}
-
-.switchIndicator_a28278[style*="71, 85, 197"] {
-	background-color: rgb(0, 105, 185) !important;
-}
-
-.switchIndicator_a28278[style*="71, 84, 197"] {
-	background-color: rgb(0, 104, 185) !important;
-}
-
-.switchIndicator_a28278[style*="70, 84, 197"] {
-	background-color: rgb(0, 103, 185) !important;
-}
-
-.switchIndicator_a28278[style*="70, 84, 196"] {
-	background-color: rgb(0, 103, 184) !important;
-}
-
-.switchIndicator_a28278[style*="70, 84, 195"] {
-	background-color: rgb(0, 103, 183) !important;
-}
-
-.switchIndicator_a28278[style*="70, 84, 194"] {
-	background-color: rgb(0, 103, 182) !important;
-}
-
-.switchIndicator_a28278[style*="70, 84, 193"] {
-	background-color: rgb(0, 103, 181) !important;
-}
-
-.switchIndicator_a28278[style*="70, 84, 192"] {
-	background-color: rgb(0, 103, 180) !important;
-}
-
-.switchIndicator_a28278[style*="70, 84, 191"] {
-	background-color: rgb(0, 103, 179) !important;
-}
-
-.switchIndicator_a28278[style*="70, 84, 190"] {
-	background-color: rgb(0, 103, 178) !important;
-}
-
-.switchIndicator_a28278[style*="70, 84, 189"] {
-	background-color: rgb(0, 103, 177) !important;
-}
-
-.switchIndicator_a28278[style*="70, 84, 188"] {
-	background-color: rgb(0, 103, 176) !important;
-}
-
-.switchIndicator_a28278[style*="70, 84, 187"] {
-	background-color: rgb(0, 103, 175) !important;
-}
-
-.switchIndicator_a28278[style*="69, 83, 193"] {
-	background-color: rgb(0, 101, 181) !important;
-}
-
-.switchIndicator_a28278[style*="69, 83, 192"] {
-	background-color: rgb(0, 101, 180) !important;
-}
-
-.switchIndicator_a28278[style*="69, 83, 191"] {
-	background-color: rgb(0, 101, 179) !important;
-}
-
-.switchIndicator_a28278[style*="69, 82, 191"] {
-	background-color: rgb(0, 100, 179) !important;
-}
-
-.switchIndicator_a28278[style*="69, 83, 190"] {
-	background-color: rgb(0, 101, 178) !important;
-}
-
-.switchIndicator_a28278[style*="69, 83, 189"] {
-	background-color: rgb(0, 101, 177) !important;
-}
-
-.switchIndicator_a28278[style*="69, 83, 188"] {
-	background-color: rgb(0, 101, 176) !important;
-}
-
-.switchIndicator_a28278[style*="69, 83, 187"] {
-	background-color: rgb(0, 101, 175) !important;
-}
-
-.switchIndicator_a28278[style*="68, 82, 188"] {
-	background-color: rgb(0, 99, 176) !important;
-}
-
-.switchIndicator_a28278[style*="68, 82, 187"] {
-	background-color: rgb(0, 99, 175) !important;
-}
-
-.switchIndicator_a28278[style*="68, 82, 186"] {
-	background-color: rgb(0, 99, 174) !important;
-}
-
-.switchIndicator_a28278[style*="68, 81, 188"] {
-	background-color: rgb(0, 98, 176) !important;
-}
-
-.switchIndicator_a28278[style*="68, 81, 187"] {
-	background-color: rgb(0, 98, 175) !important;
-}
-
-.switchIndicator_a28278[style*="68, 81, 186"] {
-	background-color: rgb(0, 98, 174) !important;
-}
-
-.switchIndicator_a28278[style*="68, 82, 187"] {
-	background-color: rgb(0, 99, 175) !important;
-}
-
-.switchIndicator_a28278[style*="67, 81, 188"] {
-	background-color: rgb(0, 97, 176) !important;
-}
-
-.switchIndicator_a28278[style*="67, 81, 187"] {
-	background-color: rgb(0, 97, 175) !important;
-}
-
-.switchIndicator_a28278[style*="67, 81, 186"] {
-	background-color: rgb(0, 97, 174) !important;
-}
-
-.switchIndicator_a28278[style*="67, 81, 185"] {
-	background-color: rgb(0, 97, 173) !important;
-}
-
-.switchIndicator_a28278[style*="67, 81, 184"] {
-	background-color: rgb(0, 97, 172) !important;
-}
-
-.switchIndicator_a28278[style*="66, 79, 185"] {
-	background-color: rgb(0, 94, 173) !important;
-}
-
-.switchIndicator_a28278[style*="66, 79, 184"] {
-	background-color: rgb(0, 94, 172) !important;
-}
-
-.switchIndicator_a28278[style*="66, 79, 183"] {
-	background-color: rgb(0, 94, 171) !important;
-}
-
-.switchIndicator_a28278[style*="66, 80, 185"] {
-	background-color: rgb(0, 95, 173) !important;
-}
-
-.switchIndicator_a28278[style*="66, 80, 184"] {
-	background-color: rgb(0, 95, 172) !important;
-}
-
-.switchIndicator_a28278[style*="66, 80, 183"] {
-	background-color: rgb(0, 95, 171) !important;
-}
-
-.switchIndicator_a28278[style*="66, 80, 182"] {
-	background-color: rgb(0, 95, 170) !important;
-}
-
-.switchIndicator_a28278[style*="66, 80, 181"] {
-	background-color: rgb(0, 95, 169) !important;
-}
-
-.switchIndicator_a28278[style*="65, 79, 181"] {
-	background-color: rgb(0, 93, 169) !important;
-}
-
-.switchIndicator_a28278[style*="65, 79, 180"] {
-	background-color: rgb(0, 93, 168) !important;
-}
-
-.switchIndicator_a28278[style*="65, 79, 179"] {
-	background-color: rgb(0, 93, 167) !important;
-}
-
-.switchIndicator_a28278[style*="64, 78, 179"] {
-	background-color: rgb(0, 91, 167) !important;
-}
-
-.switchIndicator_a28278[style*="64, 78, 178"] {
-	background-color: rgb(0, 91, 166) !important;
-}
-
-.switchIndicator_a28278[style*="64, 78, 177"] {
-	background-color: rgb(0, 91, 165) !important;
-}
-
-.switchIndicator_a28278[style*="64, 78, 176"] {
-	background-color: rgb(0, 91, 164) !important;
-}
-
-.switchIndicator_a28278[style*="63, 77, 176"] {
-	background-color: rgb(0, 89, 164) !important;
-}
-
-.switchIndicator_a28278[style*="63, 77, 175"] {
-	background-color: rgb(0, 89, 163) !important;
-}
-
-.switchIndicator_a28278[style*="63, 77, 174"] {
-	background-color: rgb(0, 89, 162) !important;
-}
-
-.switchIndicator_a28278[style*="63, 76, 175"] {
-	background-color: rgb(0, 88, 163) !important;
-}
-
-.switchIndicator_a28278[style*="63, 76, 174"] {
-	background-color: rgb(0, 88, 162) !important;
-}
-
-.switchIndicator_a28278[style*="62, 76, 175"] {
-	background-color: rgb(0, 87, 163) !important;
-}
-
-.switchIndicator_a28278[style*="62, 76, 174"] {
-	background-color: rgb(0, 87, 162) !important;
-}
-
-.switchIndicator_a28278[style*="62, 76, 173"] {
-	background-color: rgb(0, 87, 161) !important;
-}
-
-.switchIndicator_a28278[style*="62, 76, 172"] {
-	background-color: rgb(0, 87, 160) !important;
-}
-
-.switchIndicator_a28278[style*="62, 76, 171"] {
-	background-color: rgb(0, 87, 159) !important;
-}
-
-.switchIndicator_a28278[style*="61, 76, 171"] {
-	background-color: rgb(0, 86, 159) !important;
-}
-
-.switchIndicator_a28278[style*="62, 75, 171"] {
-	background-color: rgb(0, 86, 159) !important;
-}
-
-.switchIndicator_a28278[style*="61, 75, 171"] {
-	background-color: rgb(0, 85, 159) !important;
-}
-
-.switchIndicator_a28278[style*="61, 75, 170"] {
-	background-color: rgb(0, 85, 158) !important;
-}
-
-.switchIndicator_a28278[style*="61, 75, 169"] {
-	background-color: rgb(0, 85, 157) !important;
-}
-
-.switchIndicator_a28278[style*="60, 74, 169"] {
-	background-color: rgb(0, 83, 157) !important;
-}
-
-.switchIndicator_a28278[style*="60, 74, 168"] {
-	background-color: rgb(0, 83, 156) !important;
-}
-
-.switchIndicator_a28278[style*="60, 74, 167"] {
-	background-color: rgb(0, 83, 155) !important;
-}
-
-.switchIndicator_a28278[style*="59, 73, 166"] {
-	background-color: rgb(0, 81, 154) !important;
-}
-
-.switchIndicator_a28278[style*="59, 73, 165"] {
-	background-color: rgb(0, 81, 153) !important;
-}
-
-.switchIndicator_a28278[style*="59, 73, 164"] {
-	background-color: rgb(0, 81, 152) !important;
-}
-
-.switchIndicator_a28278[style*="58, 72, 164"] {
-	background-color: rgb(0, 79, 152) !important;
-}
-
-.switchIndicator_a28278[style*="58, 72, 163"] {
-	background-color: rgb(0, 79, 151) !important;
-}
-
 .switchIndicator_a28278[style] {
 	border: none !important;
 }
@@ -16643,4 +15599,95 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 	scrollbar-color: var(--backgroundDark-45) rgba(0, 0, 0, 0) !important;
 	padding-right: 0px;
 	margin-right: -2px;
+}
+
+.switchIndicator_a28278[style*="(88,"],
+.switchIndicator_a28278[style*="(87,"],
+.switchIndicator_a28278[style*="(86,"],
+.switchIndicator_a28278[style*="(85,"],
+.switchIndicator_a28278[style*="(84,"],
+.switchIndicator_a28278[style*="(83,"],
+.switchIndicator_a28278[style*="(82,"],
+.switchIndicator_a28278[style*="(81,"],
+.switchIndicator_a28278[style*="(80,"],
+.switchIndicator_a28278[style*="(79,"],
+.switchIndicator_a28278[style*="(78,"],
+.switchIndicator_a28278[style*="(77,"],
+.switchIndicator_a28278[style*="(76,"],
+.switchIndicator_a28278[style*="(75,"],
+.switchIndicator_a28278[style*="(74,"],
+.switchIndicator_a28278[style*="(73,"],
+.switchIndicator_a28278[style*="(72,"],
+.switchIndicator_a28278[style*="(71,"],
+.switchIndicator_a28278[style*="(70,"],
+.switchIndicator_a28278[style*="(69,"],
+.switchIndicator_a28278[style*="(68,"],
+.switchIndicator_a28278[style*="(67,"],
+.switchIndicator_a28278[style*="(66,"],
+.switchIndicator_a28278[style*="(65,"],
+.switchIndicator_a28278[style*="(64,"],
+.switchIndicator_a28278[style*="(63,"],
+.switchIndicator_a28278[style*="(62,"],
+.switchIndicator_a28278[style*="(61,"],
+.switchIndicator_a28278[style*="(60,"],
+.switchIndicator_a28278[style*="(59,"],
+.switchIndicator_a28278[style*="(58,"],
+.switchIndicator_a28278[style*="(57,"],
+.switchIndicator_a28278[style*="(56,"],
+.switchIndicator_a28278[style*="(55,"],
+.switchIndicator_a28278[style*="(54,"],
+.switchIndicator_a28278[style*="(53,"],
+.switchIndicator_a28278[style*="(52,"],
+.switchIndicator_a28278[style*="(51,"],
+.switchIndicator_a28278[style*="(50,"],
+.switchIndicator_a28278[style*="(49,"],
+.switchIndicator_a28278[style*="(48,"],
+.switchIndicator_a28278[style*="(47,"],
+.switchIndicator_a28278[style*="(46,"],
+.switchIndicator_a28278[style*="(45,"],
+.switchIndicator_a28278[style*="(44,"],
+.switchIndicator_a28278[style*="(43,"],
+.switchIndicator_a28278[style*="(42,"],
+.switchIndicator_a28278[style*="(41,"],
+.switchIndicator_a28278[style*="(40,"],
+.switchIndicator_a28278[style*="(39,"],
+.switchIndicator_a28278[style*="(38,"],
+.switchIndicator_a28278[style*="(37,"],
+.switchIndicator_a28278[style*="(36,"],
+.switchIndicator_a28278[style*="(35,"],
+.switchIndicator_a28278[style*="(34,"],
+.switchIndicator_a28278[style*="(33,"],
+.switchIndicator_a28278[style*="(32,"],
+.switchIndicator_a28278[style*="(31,"],
+.switchIndicator_a28278[style*="(30,"],
+.switchIndicator_a28278[style*="(29,"],
+.switchIndicator_a28278[style*="(28,"],
+.switchIndicator_a28278[style*="(27,"],
+.switchIndicator_a28278[style*="(26,"],
+.switchIndicator_a28278[style*="(25,"],
+.switchIndicator_a28278[style*="(24,"],
+.switchIndicator_a28278[style*="(23,"],
+.switchIndicator_a28278[style*="(22,"],
+.switchIndicator_a28278[style*="(21,"],
+.switchIndicator_a28278[style*="(20,"],
+.switchIndicator_a28278[style*="(19,"],
+.switchIndicator_a28278[style*="(18,"],
+.switchIndicator_a28278[style*="(17,"],
+.switchIndicator_a28278[style*="(16,"],
+.switchIndicator_a28278[style*="(15,"],
+.switchIndicator_a28278[style*="(14,"],
+.switchIndicator_a28278[style*="(13,"],
+.switchIndicator_a28278[style*="(12,"],
+.switchIndicator_a28278[style*="(11,"],
+.switchIndicator_a28278[style*="(10,"],
+.switchIndicator_a28278[style*="(9,"],
+.switchIndicator_a28278[style*="(8,"],
+.switchIndicator_a28278[style*="(7,"],
+.switchIndicator_a28278[style*="(6,"],
+.switchIndicator_a28278[style*="(5,"],
+.switchIndicator_a28278[style*="(4,"],
+.switchIndicator_a28278[style*="(3,"],
+.switchIndicator_a28278[style*="(2,"],
+.switchIndicator_a28278[style*="(1,"] {
+    background-color: rgb(0, 138, 230) !important;
 }
