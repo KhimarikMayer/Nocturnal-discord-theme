@@ -1026,7 +1026,9 @@ svg.contentImage__42bf5,
 }
 
 .content_f1d99d,
-.entitledHeader__408e5 {
+.entitledHeader__408e5,
+.headerNormal,
+.topSectionNormal {
 	background-color: var(--backgroundDark-35) !important;
 }
 
@@ -1965,7 +1967,7 @@ svg[name=Nitro] g path {
 	border-radius: 7px;
 }
 
-.userInfoSection_f3eb60 {
+.userInfoSection {
 	padding: 10px 0;
 }
 
@@ -11358,6 +11360,7 @@ rect[fill="brand-200"] {
 .container_a5da35,
 .mainCard__250d5,
 .smallCard__250d5,
+.container__3ae56,
 .header_d43202 {
 	border: none;
 	box-shadow: none;
@@ -13373,6 +13376,7 @@ svg.thumbnail__0f2e8 {
 .filterSortOption__57454:hover,
 .itemIconBackground_d9866f,
 .userPopout :is(.body, .footer),
+.opencriticTopCriticContainer_ceab1a,
 .attachButtonInner__0923f:hover {
 	background-color: rgba(0, 0, 0, 0);
 	border: none;
@@ -15069,10 +15073,6 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 	padding: 0 4px 0 10px !important;
 }
 
-.userInfoSection {
-	padding: 10px 0;
-}
-
 .textBadge__2b1f5[style="background-color: var(--badge-background-default);"],
 .progressBar__5a6ab[style*="brand-500"] {
 	background-color: var(--primary) !important;
@@ -15808,4 +15808,15 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 
 .bodyTitle.size12[style] {
 	margin-bottom: 0 !important;
+}
+
+.bd-text-normal[style*="border-top: thin solid var(--border-subtle)"] {
+	border-color: var(--backgroundDark-20) !important;
+}
+
+.user-profile-modal-v2 .body .member-perms-header {
+	font-weight: 700;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
 }
