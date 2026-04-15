@@ -1693,3 +1693,7 @@
 .wrapper__44b0c[role="img"][aria-label*="오프라인 표시"] foreignObject:after {
 	background-color: var(--rs-offline-color);
 }
+
+.preview__0e467 .wrapper__44b0c .mask__44b0c foreignObject[mask*=mobile][width="32"]:after {
+    right: 0px;
+}
