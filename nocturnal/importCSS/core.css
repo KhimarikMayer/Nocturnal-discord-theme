@@ -2709,7 +2709,8 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .applicationName_f9f2ca.clickable_c19a55[aria-expanded=true],
 .commandName_c19a55.clickable_c19a55[aria-expanded=true],
 .username_c19a55.clickable_c19a55[aria-expanded=true],
-.anchor_edefb8[aria-expanded=true] {
+.anchor_edefb8[aria-expanded=true],
+.mentioned__5126c .mention.interactive[aria-expanded=true] {
 	text-decoration: underline;
 }
 
@@ -13571,6 +13572,7 @@ svg.thumbnail__0f2e8 {
 }
 
 .spoilerMarkdownContent__299eb:not(:has(.wrapper_f61d60)) {
+	border-radius: 50px;
 	padding: .5px 5px;
 }
 
