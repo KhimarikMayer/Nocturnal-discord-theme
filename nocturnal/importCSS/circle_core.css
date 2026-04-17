@@ -2015,8 +2015,15 @@ svg[name=Nitro] g path {
 	backdrop-filter: blur(2px);
 }
 
-.empty__99e7c {
+.empty__99e7c,
+.empty__99e7c rect,
+.empty__99e7c circle {
 	fill: var(--backgroundDarker);
+}
+
+.empty__99e7c rect[width="32"][height="32"] {
+	rx: 50;
+	ry: 50;
 }
 
 .container__24c2d {
@@ -2184,7 +2191,19 @@ svg[name=Nitro] g path {
 .accountPopoutButtonWrapper__37e49[aria-expanded=true],
 button.button__67645.enabled__67645:not(.redGlow__67645):hover,
 span.button__67645.enabled__67645:not(.redGlow__67645):hover,
-.micButtonParent__37e49:hover>button:not(.redGlow__67645):hover {
+.micButtonParent__37e49:hover>button:not(.redGlow__67645):hover,
+.audioButtonParent__5e764.popoutOpen__5e764 .audioButtonWithMenu__5e764,
+.audioButtonParent__5e764.popoutOpen__5e764 .buttonChevron__5e764,
+.audioButtonParent__5e764:not(.hasColorGlow__5e764):hover .audioButtonWithMenu__5e764,
+.audioButtonParent__5e764:not(.hasColorGlow__5e764):hover .buttonChevron__5e764,
+.audioButtonParent__5e764.popoutOpen__5e764 .audioButtonWithMenu__5e764.popoutOpen__5e764,
+.audioButtonParent__5e764.popoutOpen__5e764 .audioButtonWithMenu__5e764:hover,
+.audioButtonParent__5e764.popoutOpen__5e764 .buttonChevron__5e764.popoutOpen__5e764,
+.audioButtonParent__5e764.popoutOpen__5e764 .buttonChevron__5e764:hover,
+.audioButtonParent__5e764:not(.hasColorGlow__5e764):hover .audioButtonWithMenu__5e764.popoutOpen__5e764,
+.audioButtonParent__5e764:not(.hasColorGlow__5e764):hover .audioButtonWithMenu__5e764:hover,
+.audioButtonParent__5e764:not(.hasColorGlow__5e764):hover .buttonChevron__5e764.popoutOpen__5e764,
+.audioButtonParent__5e764:not(.hasColorGlow__5e764):hover .buttonChevron__5e764:hover {
 	background-color: var(--backgroundDark-25);
 }
 
@@ -4564,6 +4583,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .monaco-inputbox,
 .wrapper .input.empty,
 .monaco-tree-row:hover,
+.icon_cf9ac1,
 .action-menu-item.monaco-submenu-item[style*="background-color"] {
 	background-color: var(--backgroundDark-20) !important;
 }
@@ -5961,6 +5981,7 @@ circle[fill="var(--brand-500)"],
 .dotBorderColor__0b40d,
 .avatar_bc9cc2 circle,
 .wrapper__44b0c[style*="80px"] circle,
+.wrapper__44b0c[style*="96px"] circle,
 .wrapper__44b0c[style*="120px"] circle,
 .avatar__89036 circle {
 	display: none;
@@ -9486,7 +9507,8 @@ path[fill="var(--background-brand)"] {
 .iconPlaceholder__46773,
 .iconContainer__46773.petite__46773 .iconImage__46773,
 .iconContainer__46773.petite__46773 .iconPlaceholder__46773,
-.emptyUser__93528:not(:last-of-type), .player__93528:not(:last-of-type) {
+.emptyUser__93528:not(:last-of-type), .player__93528:not(:last-of-type),
+.avatarHint foreignObject {
 	mask: none;
 }
 
@@ -10979,6 +11001,7 @@ rect[fill="brand-200"] {
 .scroller__00843,
 .ui-modal.PermissionsViewer-jvc0fb,
 .container__3a8da,
+.decorationWrapper__6131a.sticky__6131a:before,
 .mediaMosaicAltText__0f481:active {
 	background-color: var(--backgroundDark);
 }
@@ -13014,6 +13037,8 @@ svg.thumbnail__0f2e8 {
 .userPopout :is(.body, .footer),
 .opencriticTopCriticContainer_ceab1a,
 .player__93528,
+.mainCardImageContainer__250d5,
+.smallCardImageContainer__250d5,
 .attachButtonInner__0923f:hover {
 	background-color: rgba(0, 0, 0, 0);
 	border: none;
@@ -14618,7 +14643,8 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .addRoleIcon__3a5a1 path,
 .headerTitle__3a5a1 path,
 .closeAction__34940 path,
-.iconContainer__235ca path,
+.channelNameIcon__971b5 path,
+.iconContainer__235ca path[fill="currentColor"],
 .person__5f97b path[fill="var(--icon-strong)"] {
 	fill: var(--primary) !important;
 }
@@ -15210,6 +15236,7 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 	border-color: var(--backgroundDark-25);
 }
 
+.avatarHintInner,
 .nameplatePlaceholderAvatar__257fb,
 .nameplatePlaceholderBar__257fb {
 	border-radius: 100%;
@@ -15407,10 +15434,10 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
     }
 }
 
-.outer_c0bea0 .activityUserPopout .sm_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0,
-.outer_c0bea0 .activityUserPopout .actionsUserPopout button,
-.outer_c0bea0 .activityUserPopout .actionsUserPopout button:hover:not(:disabled),
-.outer_c0bea0 .activityUserPopout .actionsUserPopout button:active:not(:disabled) {
+.outer_c0bea0 .headerSpotify .activityUserPopout .sm_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0,
+.outer_c0bea0 .headerSpotify .activityUserPopout .actionsUserPopout button,
+.outer_c0bea0 .headerSpotify .activityUserPopout .actionsUserPopout button:hover:not(:disabled),
+.outer_c0bea0 .headerSpotify .activityUserPopout .actionsUserPopout button:active:not(:disabled) {
 	padding: 0 !important;
 }
 
@@ -15539,4 +15566,21 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 
 .blacklistItem__97b5e .blacklistItemIcon__97b5e[style*=background-brand] {
 	background-color: var(--primary) !important;
+}
+
+.preview__0e467 {
+	background-color: var(--backgroundDark);
+	border-color: var(--backgroundDark-20);
+}
+
+.container__75920[data-nav-anchor-key="display_in_app_icon_category"],
+[data-settings-category-key="display_in_app_icon_category"] {
+	display: none;
+}
+
+.theme-light .activity-timer.timer-mode-for_duration span,
+.theme-light .activity-timer.timer-mode-just_started span,
+.theme-light .activity-timer.timer-mode-elapsed span,
+.theme-light .activity-timer.timer-mode-left span {
+	color: #000 !important;
 }
