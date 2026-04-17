@@ -2038,8 +2038,11 @@ svg[name=Nitro] g path {
 	backdrop-filter: blur(2px);
 }
 
-.empty__99e7c {
+.empty__99e7c rect[width="144"][height="20"],
+.empty__99e7c rect[width="32"][height="32"] {
 	fill: var(--backgroundDarker);
+	rx: 5;
+	ry: 5;
 }
 
 .container__24c2d {
@@ -2207,7 +2210,19 @@ svg[name=Nitro] g path {
 .accountPopoutButtonWrapper__37e49[aria-expanded=true],
 button.button__67645.enabled__67645:not(.redGlow__67645):hover,
 span.button__67645.enabled__67645:not(.redGlow__67645):hover,
-.micButtonParent__37e49:hover>button:not(.redGlow__67645):hover {
+.micButtonParent__37e49:hover>button:not(.redGlow__67645):hover,
+.audioButtonParent__5e764.popoutOpen__5e764 .audioButtonWithMenu__5e764,
+.audioButtonParent__5e764.popoutOpen__5e764 .buttonChevron__5e764,
+.audioButtonParent__5e764:not(.hasColorGlow__5e764):hover .audioButtonWithMenu__5e764,
+.audioButtonParent__5e764:not(.hasColorGlow__5e764):hover .buttonChevron__5e764,
+.audioButtonParent__5e764.popoutOpen__5e764 .audioButtonWithMenu__5e764.popoutOpen__5e764,
+.audioButtonParent__5e764.popoutOpen__5e764 .audioButtonWithMenu__5e764:hover,
+.audioButtonParent__5e764.popoutOpen__5e764 .buttonChevron__5e764.popoutOpen__5e764,
+.audioButtonParent__5e764.popoutOpen__5e764 .buttonChevron__5e764:hover,
+.audioButtonParent__5e764:not(.hasColorGlow__5e764):hover .audioButtonWithMenu__5e764.popoutOpen__5e764,
+.audioButtonParent__5e764:not(.hasColorGlow__5e764):hover .audioButtonWithMenu__5e764:hover,
+.audioButtonParent__5e764:not(.hasColorGlow__5e764):hover .buttonChevron__5e764.popoutOpen__5e764,
+.audioButtonParent__5e764:not(.hasColorGlow__5e764):hover .buttonChevron__5e764:hover {
 	background-color: var(--backgroundDark-25);
 }
 
@@ -4660,6 +4675,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 .monaco-inputbox,
 .wrapper .input.empty,
 .monaco-tree-row:hover,
+.icon_cf9ac1,
 .action-menu-item.monaco-submenu-item[style*="background-color"] {
 	background-color: var(--backgroundDark-20) !important;
 }
@@ -6099,6 +6115,7 @@ circle[fill="var(--brand-500)"],
 .dotBorderColor__0b40d,
 .avatar_bc9cc2 circle,
 .wrapper__44b0c[style*="80px"] circle,
+.wrapper__44b0c[style*="96px"] circle,
 .wrapper__44b0c[style*="120px"] circle,
 .avatar__89036 circle {
 	display: none;
@@ -9639,7 +9656,8 @@ path[fill="var(--background-brand)"] {
 .iconPlaceholder__46773,
 .iconContainer__46773.petite__46773 .iconImage__46773,
 .iconContainer__46773.petite__46773 .iconPlaceholder__46773,
-.emptyUser__93528:not(:last-of-type), .player__93528:not(:last-of-type) {
+.emptyUser__93528:not(:last-of-type), .player__93528:not(:last-of-type),
+.avatarHint foreignObject {
 	mask: none;
 }
 
@@ -11221,6 +11239,7 @@ rect[fill="brand-200"] {
 .scroller__00843,
 .ui-modal.PermissionsViewer-jvc0fb,
 .container__3a8da,
+.decorationWrapper__6131a.sticky__6131a:before,
 .mediaMosaicAltText__0f481:active {
 	background-color: var(--backgroundDark);
 }
@@ -12915,107 +12934,11 @@ svg.thumbnail__0f2e8 {
 	border-color: var(--backgroundDark-15);
 }
 
-.mask__68edb rect {
-	rx: 12px;
-	ry: 12px;
-	fill: black;
-	stroke: white;
-	stroke-width: 500px;
-	paint-order: stroke;
+.accountProfileCard_a27e58 .mask__68edb,
+.mask__68edb[viewBox="0 0 696 100"] {
+    display: none;
 }
 
-.mask__68edb[viewBox="0 0 600 210"] rect {
-	x: 16px;
-	y: 137px;
-	stroke-width: 950px;
-}
-
-.mask__68edb[viewBox="0 0 400 140"]:has(circle[cx="92"][cy="140"][r="68"]) rect {
-    x: 24px;
-    y: 72px;
-}
-
-.mask__68edb[viewBox="0 0 400 140"]:has(circle[cx="84"][cy="140"][r="68"]) rect {
-    x: 16px;
-	y: 72px;
-}
-
-.mask__68edb[viewBox="0 0 400 140"]:has(circle[cx="72"][cy="140"][r="56"]) rect {
-    x: 16px;
-    y: 84px;
-    width: 112px;
-    height: 112px;
-}
-
-.mask__68edb[viewBox="0 0 600 210"] rect,
-.mask__68edb[viewBox="0 0 400 140"] rect {
-	width: 136px;
-	height: 136px;
-}
-
-.mask__68edb[viewBox="0 0 300 105"] rect,
-.mask__68edb[viewBox="0 0 340 120"] rect {
-	width: 92px;
-	height: 92px;
-}
-
-.mask__68edb[viewBox="0 0 300 105"] rect,
-.mask__68edb[viewBox="0 0 340 120"] rect {
-	x: 10px;
-	y: 55px;
-}
-
-.mask__68edb[viewBox="0 0 340 120"] rect {
-	y: 66px;
-}
-
-.mask__68edb[viewBox="0 0 300 105"]:has(circle[cx="52"][cy="97"][r="46"]) rect {
-	x: 6px;
-	y: 51px;
-}
-
-.mask__68edb[viewBox="0 0 172 60"] rect {
-	width: 64px;
-	height: 64px;
-	x: 4px;
-	y: 22px;
-	stroke-width: 250px;
-}
-
-.mask__68edb[viewBox="0 0 696 100"] rect,
-.bd-gp-modal svg[viewBox="0 0 600 210"] mask circle,
-.mask__68edb circle,
-.accountProfileCard_a27e58 .mask__68edb {
-	display: none;
-}
-
-.bd-gp-modal svg[viewBox="0 0 600 210"] mask rect {
-	width: 136px;
-	height: 136px;
-	rx: 12px;
-	ry: 12px;
-	fill: black;
-	stroke: white;
-	stroke-width: 950px;
-	paint-order: stroke;
-}
-
-.bd-gp-modal svg[viewBox="0 0 600 210"] mask:has(circle[cx="84"][cy="205"][r="68"]) rect {
-    x: 16px;
-    y: 137px;
-}
-
-.bd-gp-modal svg[viewBox="0 0 600 210"] mask:has(circle[cx="76"][cy="205"][r="68"]) rect {
-    x: 8px;
-    y: 137px;
-}
-
-.bd-gp-modal svg[viewBox="0 0 600 210"] mask:has(circle[cx="64"][cy="205"][r="56"]) rect {
-	width: 112px;
-	height: 112px;
-    x: 8px;
-    y: 149px;
-}
 
 .modalContent_a13acd,
 .modalContent_c50f62 {
@@ -13355,6 +13278,8 @@ svg.thumbnail__0f2e8 {
 .userPopout :is(.body, .footer),
 .opencriticTopCriticContainer_ceab1a,
 .player__93528,
+.mainCardImageContainer__250d5,
+.smallCardImageContainer__250d5,
 .attachButtonInner__0923f:hover {
 	background-color: rgba(0, 0, 0, 0);
 	border: none;
@@ -14042,6 +13967,7 @@ svg.thumbnail__0f2e8 {
 .role_af3987,
 .role_af3987.pillButton_af3987,
 .addButton_af3987,
+:is(.role__5d7c9:has(.twoColorGradient_e5de78,.gradientDotAnimation_e5de78) .roleDot__5d7c9):before,
 :is(.role__48c1c:has(.twoColorGradient_e5de78,.gradientDotAnimation_e5de78) .roleCircle__4f569):before,
 :is(.role_af3987:has(.twoColorGradient_e5de78,.gradientDotAnimation_e5de78) .roleCircle__4f569,.roleFlowerStar_af3987):before,
 .userInfoSection .note textarea {
@@ -14961,7 +14887,8 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .addRoleIcon__3a5a1 path,
 .headerTitle__3a5a1 path,
 .closeAction__34940 path,
-.iconContainer__235ca path,
+.channelNameIcon__971b5 path,
+.iconContainer__235ca path[fill="currentColor"],
 .person__5f97b path[fill="var(--icon-strong)"] {
 	fill: var(--primary) !important;
 }
@@ -15748,10 +15675,10 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
     }
 }
 
-.outer_c0bea0 .activityUserPopout .sm_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0,
-.outer_c0bea0 .activityUserPopout .actionsUserPopout button,
-.outer_c0bea0 .activityUserPopout .actionsUserPopout button:hover:not(:disabled),
-.outer_c0bea0 .activityUserPopout .actionsUserPopout button:active:not(:disabled) {
+.outer_c0bea0 .headerSpotify .activityUserPopout .sm_a22cb0.hasText_a22cb0 .buttonChildrenWrapper_a22cb0,
+.outer_c0bea0 .headerSpotify .activityUserPopout .actionsUserPopout button,
+.outer_c0bea0 .headerSpotify .activityUserPopout .actionsUserPopout button:hover:not(:disabled),
+.outer_c0bea0 .headerSpotify .activityUserPopout .actionsUserPopout button:active:not(:disabled) {
 	padding: 0 !important;
 }
 
@@ -15887,4 +15814,121 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 
 .blacklistItem__97b5e .blacklistItemIcon__97b5e[style*=background-brand] {
 	background-color: var(--primary) !important;
+}
+
+.mask__68edb mask rect[fill="black"],
+.bd-gp-modal mask rect[fill="black"] {
+    rx: 12px;
+    ry: 12px;
+}
+
+.mask__68edb[viewBox="0 0 400 140"] rect[fill="black"] {
+    width: 136px;
+    height: 136px;
+}
+
+.mask__68edb[viewBox="0 0 400 140"]:has(circle[cx="84"][cy="140"][r="68"]) rect[fill="black"] {
+    x: 16px;
+    y: 72px;
+}
+
+.mask__68edb[viewBox="0 0 400 140"]:has(circle[cx="92"][cy="140"][r="68"]) rect[fill="black"] {
+    x: 24px;
+    y: 72px;
+}
+
+.mask__68edb[viewBox="0 0 400 140"]:has(circle[cx="72"][cy="140"][r="56"]) rect[fill="black"] {
+    x: 16px;
+    y: 84px;
+    width: 112px;
+    height: 112px;
+}
+
+.mask__68edb circle {
+    display: none;
+}
+
+.mask__68edb[viewBox="0 0 600 210"] rect[fill="black"],
+.bd-gp-modal svg[viewBox="0 0 600 210"] mask rect[fill="black"] {
+    width: 136px;
+    height: 136px;
+}
+
+.mask__68edb[viewBox="0 0 600 210"]:has(circle[cx="84"][cy="205"][r="68"]) rect[fill="black"],
+.bd-gp-modal svg[viewBox="0 0 600 210"] mask:has(circle[cx="84"][cy="205"][r="68"]) rect[fill="black"] {
+    x: 16px;
+    y: 137px;
+}
+
+.mask__68edb[viewBox="0 0 600 210"]:has(circle[cx="76"][cy="205"][r="68"]) rect[fill="black"],
+.bd-gp-modal svg[viewBox="0 0 600 210"] mask:has(circle[cx="76"][cy="205"][r="68"]) rect[fill="black"] {
+    x: 8px;
+    y: 137px;
+}
+
+.mask__68edb[viewBox="0 0 600 210"]:has(circle[cx="64"][cy="205"][r="56"]) rect[fill="black"],
+.bd-gp-modal svg[viewBox="0 0 600 210"] mask:has(circle[cx="64"][cy="205"][r="56"]) rect[fill="black"] {
+    width: 112px;
+    height: 112px;
+    x: 8px;
+    y: 149px;
+}
+
+.mask__68edb[viewBox="0 0 300 105"] rect[fill="black"] {
+    width: 92px;
+    height: 92px;
+    x: 10px;
+    y: 55px;
+}
+
+.mask__68edb[viewBox="0 0 300 105"]:has(circle[cx="52"][cy="97"][r="46"]) rect[fill="black"] {
+    x: 6px;
+    y: 51px;
+}
+
+.mask__68edb[viewBox="0 0 340 120"] rect[fill="black"] {
+    width: 92px;
+    height: 92px;
+    x: 10px;
+    y: 66px;
+}
+
+.mask__68edb[viewBox="0 0 172 60"] rect[fill="black"] {
+    width: 64px;
+    height: 64px;
+    x: 4px;
+    y: 22px;
+}
+
+.bd-gp-modal svg mask circle,
+.mask__68edb circle {
+    display: none !important;
+}
+
+.preview__0e467 {
+	background-color: var(--backgroundDark);
+	border-color: var(--backgroundDark-20);
+}
+
+.container__75920[data-nav-anchor-key="display_in_app_icon_category"],
+[data-settings-category-key="display_in_app_icon_category"] {
+	display: none;
+}
+
+.dot__4f569,
+.dotBorderColor__4f569,
+.dotBorderBase__4f569 {
+	rx: 2.5px;
+	ry: 2.5px;
+}
+
+.avatarHintInner {
+	border-radius: 6px;
+}
+
+.theme-light .activity-timer.timer-mode-for_duration span,
+.theme-light .activity-timer.timer-mode-just_started span,
+.theme-light .activity-timer.timer-mode-elapsed span,
+.theme-light .activity-timer.timer-mode-left span {
+	color: #000 !important;
 }
