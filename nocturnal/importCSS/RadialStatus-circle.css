@@ -20,7 +20,7 @@
 	height: calc(100% - 4px);
 	box-shadow: 0 0 0 2px var(--rs-default-color);
 	border-radius: 100%;
-	z-index: 1;
+	z-index: 5;
 }
 
 .wrapper__44b0c[role="img"] .avatar__44b0c,
@@ -1341,7 +1341,7 @@
 	position: absolute;
 	right: 0%;
 	bottom: 0%;
-	z-index: 1;
+	z-index: 5;
 }
 
 .wrapper__44b0c .mask__44b0c foreignObject[mask*="mobile"][width="20"],
