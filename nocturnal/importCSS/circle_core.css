@@ -665,6 +665,7 @@ svg.assetsSmallImage,
 svg.assetsLargeImage,
 svg.gameIcon,
 svg.gameIcon_b52e4f,
+svg.gameIcon__93528,
 svg.contentImage__42bf5,
 .gameUnknownImage_a3ec8a svg {
 	background-image: url(https://khimarikmayer.github.io/Nocturnal-discord-theme/nocturnal/importCSS/Discolored/assets/emptygameicon.png) !important;
@@ -1646,6 +1647,7 @@ svg[name=Nitro] g path {
 .liveBadge__8c6c2,
 .speakerIconContainer_a3dbfd,
 .voiceSectionIconWrapper__00943,
+.theme-dark .voiceSectionIconWrapper__93528,
 .icon__71eb2.invited__71eb2,
 .VoiceActivity-voiceicon-icon,
 .VoiceActivity-voiceicon-iconCurrentCall {
@@ -1654,12 +1656,16 @@ svg[name=Nitro] g path {
 }
 
 .voiceSectionGuildImage__00943,
-.voiceSectionNoGuildImageWrapper__00943 {
+.voiceSectionNoGuildImageWrapper__00943,
+.voiceSectionGuildImage__93528,
+.voiceSectionNoGuildImageWrapper__93528 {
 	mask: none;
 }
 
 .voiceSectionIcon__00943,
-.xboxSectionIcon__00943 {
+.xboxSectionIcon__00943,
+.voiceSectionIcon__93528,
+.xboxSectionIcon__93528 {
 	color: #fff;
 }
 
@@ -4689,6 +4695,10 @@ svg.gameIcon_b52e4f circle,
 svg.gameIcon_b52e4f path,
 svg.gameIcon_b52e4f g,
 svg.gameIcon_b52e4f rect,
+svg.gameIcon__93528 circle,
+svg.gameIcon__93528 path,
+svg.gameIcon__93528 g,
+svg.gameIcon__93528 rect,
 .noItemsIcon__70151 circle,
 .noItemsIcon_e335a7 path,
 .noItemsIcon__70151 g,
@@ -15511,8 +15521,8 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
     .headerActions__93528 .button__2cbe2.lookFilled__201d5:hover:not(:disabled), .cardBody__93528 button:hover:not(:disabled) {
 		color: #fff !important;
 		border: 2px solid rgba(0, 0, 0, 0) !important;
-		background-color: hsl(201 calc(var(--saturation-factor)*100%) 43% /1);
-		background: linear-gradient(to right, hsl(201 calc(var(--saturation-factor)*100%) 43% /1), hsl(159 calc(var(--saturation-factor)*100%) 43% /1)) !important;
+		background-color: var(--primary);
+		background: linear-gradient(to right, var(--primaryGradient1), var(--primaryGradient1)) !important;
 		background-position: center !important;
 		background-repeat: no-repeat !important;
 		background-size: 200% 200% !important;
@@ -15530,6 +15540,30 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 		background-repeat: no-repeat !important;
 		background-size: 200% 200% !important;
 		transform: none;
+    }
+}
+
+.cardV2__93528 {
+    & .headerActions__93528 .button__2cbe2.lookFilled__201d5, & .cardBody__93528 button {
+        &:hover:not(:disabled) {
+            background-color: var(--primary);
+			background: linear-gradient(to right, var(--primaryGradient1), var(--primaryGradient2)) !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: 200% 200% !important;
+        }
+    }
+}
+
+.cardV2__93528 {
+    & .headerActions__93528 .button__2cbe2.lookFilled__201d5, & .cardBody__93528 button {
+        &:active:not(:disabled) {
+            background-color: hsl(201 calc(var(--saturation-factor) * 100%) 43% / 1);
+			background: linear-gradient(to right, var(--buttons-active-primaryGradient1), var(--buttons-active-primaryGradient2)) !important;
+			background-position: center !important;
+			background-repeat: no-repeat !important;
+			background-size: 200% 200% !important;
+        }
     }
 }
 
@@ -15582,9 +15616,29 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 	display: none;
 }
 
+.theme-light .activity-timer span,
 .theme-light .activity-timer.timer-mode-for_duration span,
 .theme-light .activity-timer.timer-mode-just_started span,
 .theme-light .activity-timer.timer-mode-elapsed span,
 .theme-light .activity-timer.timer-mode-left span {
 	color: #000 !important;
+}
+
+.cardV2__93528 {
+	background: linear-gradient(45deg, var(--backgroundDark-15), var(--backgroundDark-25));
+	outline: none !important;
+}
+
+.cardV2__93528 {
+    .section__93528 {
+        background-color: var(--backgroundDark-45);
+        border-radius: var(--radius-sm);
+        padding: var(--space-sm);
+    }
+}
+
+.cardV2__93528 {
+    svg.gameIcon__93528 {
+        border-radius: 0;
+    }
 }
