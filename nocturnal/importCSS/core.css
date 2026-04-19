@@ -12239,12 +12239,12 @@ rect[fill="brand-200"] {
 
 .icon_ea1e0b {
 	background-color: var(--backgroundDark);
-	z-index: 1;
+	z-index: 5;
 }
 
 .avatarIconContainer__7970d {
 	background-color: var(--backgroundDarker-alt);
-	z-index: 1;
+	z-index: 5;
 }
 
 .iconContainer__46773.petite__46773 .pencilIconWrapper__46773 {
