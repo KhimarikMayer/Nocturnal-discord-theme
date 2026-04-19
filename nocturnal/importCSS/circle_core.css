@@ -927,6 +927,7 @@ svg.contentImage__42bf5,
 	border: none;
 }
 
+.content__43fa9,
 .content_a58267,
 .container__9a9f9 {
 	background-color: var(--backgroundDark);
@@ -9010,12 +9011,14 @@ html:not(.chat-input) .inputInner_b1f01d,
 .upsellContainer__0b69f:not(.floatingUpsell__9d295, .container__23ba6) {
 	background: var(--backgroundDark);
 	box-shadow: 0 0 3.5px 1.5px var(--backgroundDark-50);
+	border: none;
 }
 
 .theme-light .upsellContainer_a3bc57,
 .theme-light .upsellContainer__0b69f:not(.floatingUpsell__9d295) {
 	background: linear-gradient(var(--background-surface-high), var(--background-surface-high))padding-box, var(--custom-premium-colors-premium-gradient-tier-2-tri-color)border-box;
 	box-shadow: none;
+	border: none;
 }
 
 .content__19236 {
@@ -9412,6 +9415,7 @@ path[fill="var(--background-brand)"] {
 	margin-right: 0;
 }
 
+.floatingNitroUpsell_e110d6,
 .vc-error-card,
 .textAreaForUserProfile__74017,
 .blockedPaymentsWarning_b7b2cf,
@@ -9519,7 +9523,8 @@ path[fill="var(--background-brand)"] {
 .iconContainer__46773.petite__46773 .iconPlaceholder__46773,
 .emptyUser__93528:not(:last-of-type), .player__93528:not(:last-of-type),
 .assets__93528:has(.assetsSmallImage__93528) .assetsLargeImage__93528,
-.avatarHint foreignObject {
+.avatarHint foreignObject,
+.badgeContainer__81391 foreignObject {
 	mask: none;
 }
 
@@ -9687,6 +9692,7 @@ div.profileThemedContainer__656be .inner_c0bea0 {
 .channelResult_b2c7eb:hover,
 .nameplatePreviewPlaceholder__39749,
 .nameplatePreviewPlaceholder__14af9,
+.nameplatePreviewPlaceholder_e110d6,
 .accountConnectedPrivacyOptionsContainer_a470b4,
 .accountConnectedPreviewConnectedUserAccount_a470b4,
 .skeleton__89401,
@@ -11129,6 +11135,7 @@ rect[fill="brand-200"] {
 .smallCard__250d5,
 .container__3ae56,
 .graphContainer__56e31,
+.colorThemesBackground_c936d7,
 .header_d43202 {
 	border: none;
 	box-shadow: none;
@@ -13743,6 +13750,7 @@ svg.thumbnail__0f2e8 {
 	background-color: var(--backgroundDark-20);
 }
 
+.activityProfile .assets .gameIcon,
 .userInfoSection .note textarea {
 	border-radius: 5px;
 }
@@ -14511,6 +14519,7 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .channelIcon_d5f3cd,
 .mentionLimitIcon_ed9c90,
 .preview__05e8e,
+.channelIcon__6ae25,
 .theme-dark .iconForeground__37e49 {
 	color: var(--primary);
 }
@@ -14857,6 +14866,7 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 	border-radius: 100%;
 }
 
+.theme-dark .userPopout .headerTag,
 .BogoBadgeClockIcon_e4ef22,
 .inner .topSectionNormal .activityHeader,
 .topSectionNormal .customStatusContent .customStatusText {
@@ -15189,6 +15199,7 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 .boostsBadge_c50892,
 .content__75e8e,
 :not(.custom-user-profile-theme) .card__73abe.wishlistCard__73abe,
+.cta__0ea1a,
 .container__52d93 {
 	background-color: var(--backgroundDark-15);
 	border: none;
@@ -15616,6 +15627,7 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 	display: none;
 }
 
+.theme-light .userPopout .headerTag,
 .theme-light .activity-timer span,
 .theme-light .activity-timer.timer-mode-for_duration span,
 .theme-light .activity-timer.timer-mode-just_started span,
@@ -15641,4 +15653,13 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
     svg.gameIcon__93528 {
         border-radius: 0;
     }
+}
+
+.userPopout .headerText:is(.headerTextPomelo) .headerName {
+	margin-bottom: 0;
+}
+
+.tryItOutButton_e110d6,
+.upsellContainer__0b69f.updatedStyling__0b69f {
+	border: none;
 }
