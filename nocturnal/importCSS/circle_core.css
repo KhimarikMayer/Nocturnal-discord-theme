@@ -2017,18 +2017,17 @@ svg[name=Nitro] g path {
 	background-color: rgba(0, 0, 0, 0);
 }
 
-.avatarWrapper_f89da9 {
+.avatarWrapper {
 	border-radius: 100%;
 	backdrop-filter: blur(2px);
 }
 
-.empty__99e7c,
-.empty__99e7c rect,
-.empty__99e7c circle {
+.empty__99e7c {
 	fill: var(--backgroundDarker);
 }
 
 .empty__99e7c rect[width="32"][height="32"] {
+	fill: var(--backgroundDarker);
 	rx: 50;
 	ry: 50;
 }
@@ -4768,7 +4767,7 @@ svg.contentImage__42bf5 path {
 	color: var(--backgroundDark);
 }
 
-.container_d806b9,
+.container__09ccc,
 .scroller__53543,
 .button__80bf8,
 .noiseCancellationPopout_e131a9,
@@ -14499,7 +14498,6 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .bd-addon-header .bd-icon,
 .caret_dc2e44,
 .detailsIcon__4a3a5,
-.iconAccessory__56a50,
 .caret_e34850,
 .channelIcon__28e57,
 .linkIcon_a4b5f8,
@@ -14681,6 +14679,7 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .perm-details-button,
 .linkIcon_ebf183 path,
 .connectionRoleIcon_af3987 path,
+.memberRow__9a73f path,
 .person__5f97b path[fill="var(--icon-strong)"] {
 	fill: var(--primary) !important;
 }
@@ -14875,6 +14874,7 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 	border-radius: 100%;
 }
 
+.premiumTrialBadge__4c1e4,
 .theme-dark .userPopout .headerTag,
 .BogoBadgeClockIcon_e4ef22,
 .inner .topSectionNormal .activityHeader,
