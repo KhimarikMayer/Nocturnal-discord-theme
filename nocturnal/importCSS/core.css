@@ -14673,8 +14673,6 @@ svg.thumbnail__0f2e8 {
     }
 }
 
-
-
 .hasMultipleCards__9d597:focus-within .firstCardContainer__9d597 .card__9d597, .hasMultipleCards__9d597:hover .firstCardContainer__9d597 .card__9d597 {
 	transform: none;
 }
@@ -15713,4 +15711,10 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 .iconAccessory__56a50 rect[width="12"][height="12"] {
 	rx: 3;
 	ry: 3;
+}
+
+.theme-light :is(.activityUserPopoutContainerVoice, .activityUserPopoutContainerStream) .textRow svg {
+    path {
+        fill: #000;
+    }
 }
