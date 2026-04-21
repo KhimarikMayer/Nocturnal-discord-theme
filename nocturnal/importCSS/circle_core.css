@@ -15359,3 +15359,9 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 .activity:not(:has(.nameNormal)) .headerTextNormal {
 	margin-bottom: 0px !important;
 }
+
+.theme-light :is(.activityUserPopoutContainerVoice, .activityUserPopoutContainerStream) .textRow svg {
+    path {
+        fill: #000;
+    }
+}
