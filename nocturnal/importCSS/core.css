@@ -8298,6 +8298,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .tooltip_ad198f,
 .container_a14595,
 .wishlistButton__80679,
+.wishlistButton__979b1.variantSecondary__979b1,
 .sidebar-role.PermissionsViewer-otwe8i:hover,
 .container_a3e8db.default_a3e8db {
 	background-color: var(--backgroundDark-20);
@@ -8313,6 +8314,8 @@ rect[fill="var(--control-brand-foreground)"] {
 .sidebar-role.active.PermissionsViewer-otwe8i,
 .wishlistButton__80679:active,
 .wishlistButton__80679:hover,
+.wishlistButton__979b1.variantSecondary__979b1:not(.disabled__979b1):active,
+.wishlistButton__979b1.variantSecondary__979b1:not(.disabled__979b1):hover,
 .addAnswerButtonDefault_d97f89:hover,
 .bd-addon-controls .bd-button:hover,
 .tipNumber_a193aa,
@@ -12539,9 +12542,14 @@ rect[fill="#D3D6ED"] {
 .chat_a44415:before,
 .chat_ee72fa:before,
 .bar__3b95d,
+.card__5b393,
 .chat_fb64c9:before {
 	outline: none !important;
 	box-shadow: none;
+}
+
+.cardContainer__5b393:focus-within .card__5b393, .cardContainer__5b393:hover .card__5b393 {
+    box-shadow: var(--shadow-low-hover);
 }
 
 .newlyAddedHighlightContainer_fc7141:hover .newlyAddedHighlight_fc7141 {
@@ -15204,13 +15212,13 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 	border-radius: 4px;
 }
 
-.nameplatePreview__62b8c .wrapper__44b0c.avatar__62b8c[style="width: 24px; height: 24px;"]::before,
+.cardPreview__73abe .wrapper__44b0c.avatar__62b8c[style="width: 24px; height: 24px;"]::before,
 .card__9ed47.card__73abe.wishlistCard__73abe .wrapper__44b0c.avatar__62b8c[style="width: 24px; height: 24px;"]::before {
 	width: calc(100% + 1px) !important;
 }
 
 .nameplatePreview__6d099 .wrapper__44b0c.avatar__62b8c[style="width: 32px; height: 32px;"]::before {
-	width: calc(100% - 8px) !important;
+	width: calc(100% - 1px) !important;
 }
 
 .backgroundGradient__8e688 {
