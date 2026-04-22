@@ -15599,10 +15599,6 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
     height: 112px;
 }
 
-.mask__68edb circle {
-    display: none;
-}
-
 .mask__68edb[viewBox="0 0 600 210"] rect[fill="black"],
 .bd-gp-modal svg[viewBox="0 0 600 210"] mask rect[fill="black"] {
     width: 136px;
@@ -15732,4 +15728,9 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
     path {
         fill: #000;
     }
+}
+
+.member-perms-header {
+	font-weight: 500;
+	margin-bottom: 4px;
 }
