@@ -619,6 +619,7 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .memberRow__9a73f path,
 .stickerCategoryGenericIcon__3ad28 path,
 .standardStickerShortcut__3ad28 path,
+.iconWrapper__979b1 path,
 .person__5f97b path {
 	fill: var(--primary) !important;
 }
