@@ -12810,6 +12810,10 @@ svg[color="var(--brand-500)"] {
 }
 
 .iconContainer__0ecc4>foreignObject {
+	background: none;
+}
+
+.iconContainer__0ecc4:not(:has(img[src]))>foreignObject {
 	background: linear-gradient(0deg, var(--backgroundDark-50, rgba(0, 0, 0, .45)) 0, var(--backgroundDark-50, rgba(0, 0, 0, .45)) 100%), var(--backgroundDarker);
 }
 
@@ -15200,6 +15204,7 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 	border-radius: 4px;
 }
 
+.nameplatePreview__62b8c .wrapper__44b0c.avatar__62b8c[style="width: 24px; height: 24px;"]::before,
 .card__9ed47.card__73abe.wishlistCard__73abe .wrapper__44b0c.avatar__62b8c[style="width: 24px; height: 24px;"]::before {
 	width: calc(100% + 1px) !important;
 }
@@ -15652,7 +15657,8 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 }
 
 .container__75920[data-nav-anchor-key="display_in_app_icon_category"],
-[data-settings-category-key="display_in_app_icon_category"] {
+[data-settings-category-key="display_in_app_icon_category"],
+[data-nav-anchor-key="appearance_in_app_icon_category"] {
 	display: none;
 }
 
