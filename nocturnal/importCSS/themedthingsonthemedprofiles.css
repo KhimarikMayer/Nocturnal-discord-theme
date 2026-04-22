@@ -352,6 +352,6 @@
 }
 
 .custom-user-profile-theme .card__9ed47 {
-    background-color: var(--profile-gradient-primary-color);
+    background-color: var(--profile-gradient-primary-color) !important;
     box-shadow: inset 0 0 100000px 0 var(--backgroundDark-50);
 }
