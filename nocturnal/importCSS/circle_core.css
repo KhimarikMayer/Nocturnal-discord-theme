@@ -15380,3 +15380,8 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
         fill: #000;
     }
 }
+
+.member-perms-header {
+	font-weight: 500;
+	margin-bottom: 4px;
+}
