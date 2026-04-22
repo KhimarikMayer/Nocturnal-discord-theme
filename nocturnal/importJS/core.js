@@ -468,6 +468,17 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 	color: var(--primary) !important;
 }
 
+.circleIconButton__5bc7e.selected__5bc7e,
+.circleIconButton__5bc7e:hover:not(.disabled__5bc7e),
+.custom-theme-background .circleIconButton__5bc7e.selected__5bc7e,
+.custom-theme-background .circleIconButton__5bc7e:hover:not(.disabled__5bc7e),
+.visual-refresh .circleIconButton__5bc7e.selected__5bc7e,
+.visual-refresh .circleIconButton__5bc7e:hover:not(.disabled__5bc7e),
+.visual-refresh.custom-theme-background .circleIconButton__5bc7e.selected__5bc7e,
+.visual-refresh.custom-theme-background .circleIconButton__5bc7e:hover:not(.disabled__5bc7e) {
+	color: #fff !important;
+}
+
 .childContainer__3e3b0 path[fill="var(--primary-500)"] {
 	fill: white;
 }
