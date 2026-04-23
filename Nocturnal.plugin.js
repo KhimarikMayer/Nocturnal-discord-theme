@@ -431,7 +431,6 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .iconContainer__46773 .pencilIconWrapper__46773,
 .embedSuppressButton__623de,
 .removeButton_af3987,
-.addButton_af3987,
 .closeButton_e876a8,
 .button_e18686,
 .clearSearchHistoryIcon__971b5,
@@ -637,6 +636,7 @@ span.button__67645:not(.plateMuted__67645,.redGlow__67645),
 .stickerCategoryGenericIcon__3ad28 path,
 .standardStickerShortcut__3ad28 path,
 .iconWrapper__979b1 path,
+.addButton_af3987 path,
 .person__5f97b path {
 	fill: var(--primary) !important;
 }
