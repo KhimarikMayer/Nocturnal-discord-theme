@@ -7877,7 +7877,7 @@ h3.improved__1689b:after,
 .modalContent__7fffd,
 .productThumbnail__79d38,
 .giftCardButton_da4aee,
-.previewBorder__36852:before {
+.previewBorder_c9911d:before {
 	background-color: rgba(0, 0, 0, 0);
 	border: none;
 	box-shadow: none;
@@ -10992,8 +10992,8 @@ rect[fill="brand-200"] {
 .full-motion .shuffleOutro__08415,
 .themeResponsiveContainer__83f66,
 .nameplate__5a2c6,
-.previewBox__36852,
-.inventoryControlsButton__6980e,
+.previewBox_c9911d,
+.inventoryControlsButton__042c9,
 .deleteButton__1df30,
 .upsellContainer__4a7f0,
 .infoGroup_f549e5,
@@ -11390,7 +11390,7 @@ rect[fill="brand-200"] {
 	background: var(--background-base-low);
 }
 
-.selected__6980e {
+.selected__042c9 {
 	box-shadow: inset 0 0 0 2px var(--primary);
 }
 
@@ -14937,8 +14937,7 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 }
 
 .avatarHintInner,
-.nameplatePlaceholderAvatar__257fb,
-.nameplatePlaceholderBar__257fb {
+.nameplatePlaceholderAvatar__257fb {
 	border-radius: 100%;
 }
 
