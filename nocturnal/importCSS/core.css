@@ -1808,10 +1808,7 @@ svg[name=Nitro] g path {
 	padding-right: 2px !important;
 }
 
-.container__95796 {
-	padding-right: 10px;
-}
-
+.scroller__95796[style*="8px"],
 .scroller__2692d {
 	padding-right: 10px !important;
 }
@@ -12722,6 +12719,7 @@ svg[color="var(--brand-500)"] {
 .breadcrumb_c2a763 .innerContainer_c2a763,
 .container__62dd3 {
 	background-color: var(--backgroundDark-15);
+	border: none;
 }
 
 .filterTabs_f2af23 .filterTab_f2af23:hover,
@@ -15539,6 +15537,85 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
     ry: 12px;
 }
 
+.mask__68edb[viewBox="0 0 400 140"] rect[fill="black"] {
+    width: 136px;
+    height: 136px;
+}
+
+.mask__68edb[viewBox="0 0 400 140"]:has(circle[cx="84"][cy="140"][r="68"]) rect[fill="black"] {
+    x: 16px;
+    y: 72px;
+}
+
+.mask__68edb[viewBox="0 0 400 140"]:has(circle[cx="92"][cy="140"][r="68"]) rect[fill="black"] {
+    x: 24px;
+    y: 72px;
+}
+
+.mask__68edb[viewBox="0 0 400 140"]:has(circle[cx="72"][cy="140"][r="56"]) rect[fill="black"] {
+    x: 16px;
+    y: 84px;
+    width: 112px;
+    height: 112px;
+}
+
+.mask__68edb[viewBox="0 0 600 210"] rect[fill="black"],
+.bd-gp-modal svg[viewBox="0 0 600 210"] mask rect[fill="black"] {
+    width: 136px;
+    height: 136px;
+}
+
+.mask__68edb[viewBox="0 0 600 210"]:has(circle[cx="84"][cy="205"][r="68"]) rect[fill="black"],
+.bd-gp-modal svg[viewBox="0 0 600 210"] mask:has(circle[cx="84"][cy="205"][r="68"]) rect[fill="black"] {
+    x: 16px;
+    y: 137px;
+}
+
+.mask__68edb[viewBox="0 0 600 210"]:has(circle[cx="76"][cy="205"][r="68"]) rect[fill="black"],
+.bd-gp-modal svg[viewBox="0 0 600 210"] mask:has(circle[cx="76"][cy="205"][r="68"]) rect[fill="black"] {
+    x: 8px;
+    y: 137px;
+}
+
+.mask__68edb[viewBox="0 0 600 210"]:has(circle[cx="64"][cy="205"][r="56"]) rect[fill="black"],
+.bd-gp-modal svg[viewBox="0 0 600 210"] mask:has(circle[cx="64"][cy="205"][r="56"]) rect[fill="black"] {
+    width: 112px;
+    height: 112px;
+    x: 8px;
+    y: 149px;
+}
+
+.mask__68edb[viewBox="0 0 300 105"] rect[fill="black"] {
+    width: 92px;
+    height: 92px;
+    x: 10px;
+    y: 55px;
+}
+
+.mask__68edb[viewBox="0 0 300 105"]:has(circle[cx="52"][cy="97"][r="46"]) rect[fill="black"] {
+    x: 6px;
+    y: 51px;
+}
+
+.mask__68edb[viewBox="0 0 340 120"] rect[fill="black"] {
+    width: 92px;
+    height: 92px;
+    x: 10px;
+    y: 66px;
+}
+
+.mask__68edb[viewBox="0 0 172 60"] rect[fill="black"] {
+    width: 64px;
+    height: 64px;
+    x: 4px;
+    y: 22px;
+}
+
+.bd-gp-modal svg mask circle,
+.mask__68edb circle {
+    display: none !important;
+}
+
 .preview__0e467 {
 	background-color: var(--backgroundDark);
 	border-color: var(--backgroundDark-20);
@@ -15592,6 +15669,7 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
     }
 }
 
+.dataAssurance__2a048,
 .theme-dark .wishlistButton__979b1.variantDefault__979b1,
 .theme-dark .wishlistButton__979b1.variantSecondary__979b1,
 .memberContainer__1dc40,
