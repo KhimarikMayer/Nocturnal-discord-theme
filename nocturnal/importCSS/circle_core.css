@@ -8551,6 +8551,12 @@ div.cardContainer__88e24,
 .container__9c880,
 .container__38524,
 .containerV2__38524,
+.section__730fc,
+.section_f2af23,
+.container_e0cd4a,
+.headerContainer__101ad,
+.bannerContainer_ce5f0d,
+.container_ce5f0d,
 .wrapper__33d12 {
 	max-width: none;
 }
@@ -12463,7 +12469,10 @@ svg[color="var(--brand-500)"] {
 	}
 }
 
-.filterTabs_f2af23 .filterTab_f2af23,
+.filterTabs_f2af23 .filterTab_f2af23 {
+	background-color: var(--backgroundDark-15);
+}
+
 .ukTeenDisclaimer__3b923,
 .breadcrumb_c2a763 .innerContainer_c2a763,
 .container__62dd3 {
@@ -14017,10 +14026,6 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 	margin-inline-start: 4px;
 }
 
-.blurOverlay__5b393 {
-	--custom-tint-color: var(--backgroundDark-20) !important;
-}
-
 @media (min-width: 937px) {
     .sectionsContainer_e396b4 {
         box-sizing: border-box;
@@ -14434,6 +14439,6 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 	background: linear-gradient(var(--backgroundDarker), var(--backgroundDarker)) padding-box, var(--custom-premium-colors-premium-gradient-tier-2-tri-color) border-box;
 }
 
-.blurOverlay__5b393 {
-	--custom-tint-color: var(--backgroundDarker) !important;
+.card__5b393.featured__5b393 .blurOverlay__5b393, .cardContainer__5b393:focus-within .blurOverlay__5b393, .cardContainer__5b393:hover .blurOverlay__5b393 {
+	background: var(--backgroundDarker);
 }
