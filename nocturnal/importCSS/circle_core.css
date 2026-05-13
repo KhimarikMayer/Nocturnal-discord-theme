@@ -13527,8 +13527,8 @@ svg.thumbnail__0f2e8 {
 }
 
 .listBox__2e223.scrollable__2e223 {
-	padding-right: 0;
-	margin-right: -2px;
+	padding-left: 6px;
+	padding-right: 0px !important;
 }
 
 .theme-light:not(.custom-user-profile-theme) .container_ab8609 {
