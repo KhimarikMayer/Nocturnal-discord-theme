@@ -3032,7 +3032,7 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	background-color: #fff;
 }
 
-.collapseable__217b7:not(.appDetailsSection__24605) {
+.collapseable__217b7:not(.appDetailsSection__92059) {
 	background-color: var(--backgroundDark);
 }
 
@@ -3452,13 +3452,13 @@ span.button__67645.enabled__67645:not(.redGlow__67645):hover,
 	border: none;
 }
 
-.groupContainer__6f5a6:not(.appDetailsSection__24605),
-.collapseable__217b7:not(.appDetailsSection__24605):active,
-.collapseable__4546e.collapseable__217b7.toggled__217b7:not(.appDetailsSection__24605):active {
+.groupContainer__6f5a6:not(.appDetailsSection__92059),
+.collapseable__217b7:not(.appDetailsSection__92059):active,
+.collapseable__4546e.collapseable__217b7.toggled__217b7:not(.appDetailsSection__92059):active {
 	background-color: var(--backgroundDarker-alt);
 }
 
-.collapseable__217b7.toggled__217b7:not(.appDetailsSection__24605):active {
+.collapseable__217b7.toggled__217b7:not(.appDetailsSection__92059):active {
 	background-color: color-mix(in oklab, hsl(220 calc(var(--saturation-factor)*20%) 6% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
 }
 
@@ -7223,7 +7223,7 @@ span.clanTag__07f91:not(.guildTag__26b1f),
 .bodySpacerBottomBorder__8a031,
 .bd-divider,
 .settingsTabBar_dc2e0e,
-.appDetailsContainer__24605 .appDetailsSection__24605,
+.appDetailsContainer__92059 .appDetailsSection__92059,
 .more__76f04,
 .tabBar__0b563,
 .badge_separator,
@@ -9701,9 +9701,9 @@ div.profileThemedContainer__656be .inner_c0bea0 {
 .container_e928f4:before,
 .sidebarCard_b962dc,
 .folderIconContent__93fc9,
-.actionMenuButton__12cd0,
-.actionMenuButton__12cd0:hover,
-.actionMenuButton__12cd0:active,
+.actionMenuButton__8dc78,
+.actionMenuButton__8dc78:hover,
+.actionMenuButton__8dc78:active,
 .guildTagContainer__26b1f,
 .guildTagContainer__26b1f:hover,
 .headerIconWrapper__7bf69,
@@ -9972,7 +9972,7 @@ div.cardContainer__88e24,
 .dot_b99f57,
 .clickableRow__9ecf6.selectedRow__9ecf6,
 .bd-settings-group.collapsible .bd-settings-title::before,
-.divider__24605,
+.divider__92059,
 .divider_ee23ac,
 .tagsDivider_d9be46,
 .divider_f369db,
@@ -10048,7 +10048,7 @@ div.cardContainer__88e24,
 .trait_a2b4d3,
 .theme__11877,
 .bd-gp-user:hover,
-.headerV2__24605,
+.headerV2__92059,
 .theme-dark .listItem__2bb83:hover,
 .notifTabs__8683b,
 .controls__8683b,
@@ -11009,7 +11009,7 @@ rect[fill="brand-200"] {
 .roleStyleUpsell__981c8,
 .roleStylePreviewContainer__981c8,
 .emptyContainer__5348b,
-.authedAppV2__24605,
+.authedAppV2__92059,
 .confirmation__1051d,
 .guildRow__58ae6,
 .right__58ae6,
@@ -11058,7 +11058,7 @@ rect[fill="brand-200"] {
 .bd-error-container,
 .theme-dark .separator__2e257,
 .container_a1d343,
-.collapseable__70d86:not(.appDetailsSection__24605),
+.collapseable__70d86:not(.appDetailsSection__92059),
 .wrapper__5c108,
 .embedContainer__03498,
 .defaultKeybindGroup__57111,
@@ -11439,7 +11439,7 @@ rect[fill="brand-200"] {
 	background-color: rgb(0, 132, 226) !important;
 }
 
-.appAvatarV2__24605 {
+.appAvatarV2__92059 {
 	border-radius: 50px;
 	border: none;
 }
@@ -12593,7 +12593,7 @@ svg[color="var(--brand-500)"] {
 .spotifyLargeImage__16b66,
 .assetsLargeImage__16b66,
 .loadingItem__764cd>:first-child,
-.groupContainer__6f5a6:not(.appDetailsSection__24605),
+.groupContainer__6f5a6:not(.appDetailsSection__92059),
 .media__41ea0:not(.imageSmall__41ea0) {
 	border-radius: 8px;
 }
@@ -13804,7 +13804,7 @@ svg.thumbnail__0f2e8 {
 	background-color: var(--primary);
 }
 
-.appDetailsContainer__24605 .appDetailsSection__24605:active {
+.appDetailsContainer__92059 .appDetailsSection__92059:active {
 	background-color: rgba(0, 0, 0, 0) !important;
 }
 
