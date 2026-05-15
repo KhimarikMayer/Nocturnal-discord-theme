@@ -21,7 +21,7 @@
 .custom-user-profile-theme .statusBubbleOuter_af9888:after,
 .custom-user-profile-theme .divider__979dc,
 .custom-user-profile-theme .listRow__9d78f:hover,
-.custom-user-profile-theme .row__0a95c:hover,
+.custom-user-profile-theme:not(.disable-profile-themes) .row__0a95c:hover,
 .custom-user-profile-theme .row__89036:hover,
 .custom-user-profile-theme .role_dfa8b6,
 .custom-user-profile-theme .note_fcb628 textarea:focus,
@@ -52,8 +52,8 @@
 .theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225,
 .theme-dark.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225,
 .theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225,
-.theme-dark.custom-user-profile-theme .primary_a22cb0,
-.theme-light.custom-user-profile-theme .primary_a22cb0,
+.theme-dark.custom-user-profile-theme:not(.disable-profile-themes) .primary_a22cb0,
+.theme-light.custom-user-profile-theme:not(.disable-profile-themes) .primary_a22cb0,
 .theme-dark.custom-user-profile-theme .secondary_a22cb0,
 .theme-light.custom-user-profile-theme .secondary_a22cb0 {
 	background-color: rgba(0, 0, 0, .5) !important;
@@ -90,12 +90,12 @@
 .theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225:active:not(:disabled),
 .theme-dark.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225:active:not(:disabled),
 .theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225:active:not(:disabled),
-.theme-dark.custom-user-profile-theme .primary_a22cb0:hover:not(:disabled),
-.theme-light.custom-user-profile-theme .primary_a22cb0:hover:not(:disabled),
-.theme-dark.custom-user-profile-theme .primary_a22cb0:active:not(:disabled),
-.theme-light.custom-user-profile-theme .primary_a22cb0:active:not(:disabled),
-.theme-dark.custom-user-profile-theme .primary_a22cb0[aria-expanded=true],
-.theme-light.custom-user-profile-theme .primary_a22cb0[aria-expanded=true],
+.theme-dark.custom-user-profile-theme:not(.disable-profile-themes) .primary_a22cb0:hover:not(:disabled),
+.theme-light.custom-user-profile-theme:not(.disable-profile-themes) .primary_a22cb0:hover:not(:disabled),
+.theme-dark.custom-user-profile-theme:not(.disable-profile-themes) .primary_a22cb0:active:not(:disabled),
+.theme-light.custom-user-profile-theme:not(.disable-profile-themes) .primary_a22cb0:active:not(:disabled),
+.theme-dark.custom-user-profile-theme:not(.disable-profile-themes) .primary_a22cb0[aria-expanded=true],
+.theme-light.custom-user-profile-theme:not(.disable-profile-themes) .primary_a22cb0[aria-expanded=true],
 .theme-dark.custom-user-profile-theme .secondary_a22cb0:hover:not(:disabled),
 .theme-light.custom-user-profile-theme .secondary_a22cb0:hover:not(:disabled),
 .theme-dark.custom-user-profile-theme .secondary_a22cb0:active:not(:disabled),
@@ -131,10 +131,10 @@
 .theme-light.custom-user-profile-theme .lookFilled__201d5.colorBrand__201d5:disabled,
 .theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_dfbe6b:disabled,
 .theme-light.custom-user-profile-theme .lookFilled__201d5.buttonColor_f00225:disabled,
-.theme-light.custom-user-profile-theme .primary_a22cb0,
-.theme-light.custom-user-profile-theme .primary_a22cb0:hover:not(:disabled),
-.theme-light.custom-user-profile-theme .primary_a22cb0:active:not(:disabled),
-.theme-light.custom-user-profile-theme .primary_a22cb0:disabled,
+.theme-light.custom-user-profile-theme:not(.disable-profile-themes) .primary_a22cb0,
+.theme-light.custom-user-profile-theme:not(.disable-profile-themes) .primary_a22cb0:hover:not(:disabled),
+.theme-light.custom-user-profile-theme:not(.disable-profile-themes) .primary_a22cb0:active:not(:disabled),
+.theme-light.custom-user-profile-theme:not(.disable-profile-themes) .primary_a22cb0:disabled,
 .theme-light.custom-user-profile-theme .secondary_a22cb0,
 .theme-light.custom-user-profile-theme .secondary_a22cb0:hover:not(:disabled),
 .theme-light.custom-user-profile-theme .secondary_a22cb0:active:not(:disabled),
@@ -143,8 +143,8 @@
 }
 
 .custom-user-profile-theme .footer__272c7,
-.custom-user-profile-theme .connectedAccountContainer_e6abe8,
-.custom-user-profile-theme .badge_separator {
+.custom-user-profile-theme:not(.disable-profile-themes) .connectedAccountContainer_e6abe8,
+.custom-user-profile-theme:not(.disable-profile-themes) .badge_separator {
 	border-color: var(--profile-gradient-secondary-color);
 }
 
