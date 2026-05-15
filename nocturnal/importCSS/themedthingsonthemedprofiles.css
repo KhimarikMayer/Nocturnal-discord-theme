@@ -348,7 +348,7 @@
 	border: none !important;
 }
 
-.custom-user-profile-theme .userInfoSection[style] {
+.custom-user-profile-theme:not(.disable-profile-themes) .userInfoSection[style] {
 	border-top: 1px solid var(--profile-gradient-secondary-color) !important;
 }
 
