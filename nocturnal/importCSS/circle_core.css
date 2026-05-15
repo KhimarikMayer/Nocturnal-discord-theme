@@ -14561,35 +14561,3 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 .profileAvatar__89307.profileAvatar__89307 {
     inset-inline-start: 10px;
 }
-
-.disable-profile-themes .connectedAccount {
-	border-color: var(--backgroundDark-20) !important;
-}
-
-.profileButtons {
-    .lookFilled__201d5:is(.colorBrand__201d5, .colorPrimary__201d5:is(.grow__201d5)):hover, .hasText_a22cb0:not(.primaryFilled):hover {
-        color: #fff !important;
-		border: 2px solid rgba(0, 0, 0, 0) !important;
-		background-color: var(--primary);
-		background: linear-gradient(to right, var(--primaryGradient1), var(--primaryGradient2)) !important;
-		background-position: center !important;
-		background-repeat: no-repeat !important;
-		background-size: 200% 200% !important;
-		box-shadow: none;
-		transform: none;
-    }
-}
-
-.profileButtons {
-    .lookFilled__201d5:is(.colorBrand__201d5, .colorPrimary__201d5:is(.grow__201d5)):active, .hasText_a22cb0:not(.primaryFilled):active {
-        color: #fff !important;
-		border: 2px solid rgba(0, 0, 0, 0) !important;
-		background-color: var(--primary);
-		background: linear-gradient(to right, var(--buttons-active-primaryGradient1), var(--buttons-active-primaryGradient2)) !important;
-		background-position: center !important;
-		background-repeat: no-repeat !important;
-		background-size: 200% 200% !important;
-		box-shadow: none;
-		transform: none;
-    }
-}
