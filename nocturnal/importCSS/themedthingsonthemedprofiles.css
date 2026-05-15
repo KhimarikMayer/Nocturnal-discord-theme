@@ -143,8 +143,8 @@
 }
 
 .custom-user-profile-theme .footer__272c7,
-.custom-user-profile-theme:not(.disable-profile-themes) .connectedAccountContainer_e6abe8,
-.custom-user-profile-theme:not(.disable-profile-themes) .badge_separator {
+.outer_c0bea0.custom-user-profile-theme:not(.disable-profile-themes) .connectedAccountContainer_e6abe8,
+.outer_c0bea0.custom-user-profile-theme:not(.disable-profile-themes) .badge_separator {
 	border-color: var(--profile-gradient-secondary-color);
 }
 
@@ -348,7 +348,7 @@
 	border: none !important;
 }
 
-.custom-user-profile-theme:not(.disable-profile-themes) .userInfoSection[style] {
+.outer_c0bea0.custom-user-profile-theme:not(.disable-profile-themes) .userInfoSection[style] {
 	border-top: 1px solid var(--profile-gradient-secondary-color) !important;
 }
 
