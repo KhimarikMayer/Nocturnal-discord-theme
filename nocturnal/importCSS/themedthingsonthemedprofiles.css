@@ -318,18 +318,18 @@
 }
 
 .custom-user-profile-theme .card__39b32,
-.custom-user-profile-theme .container_a99829.inlineContainer__74017:not(.flushContainer__74017),
+.custom-user-profile-theme:not(.disable-profile-themes) .container_a99829.inlineContainer__74017:not(.flushContainer__74017),
 .custom-user-profile-theme .removeGameButton_a62a28,
 .custom-user-profile-theme .removeItemButton__39b32 {
 	background-color: var(--profile-gradient-secondary-color);
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-50);
 }
 
-.custom-user-profile-theme .container_a99829.inlineContainer__74017:not(.flushContainer__74017):hover {
+.custom-user-profile-theme:not(.disable-profile-themes) .container_a99829.inlineContainer__74017:not(.flushContainer__74017):hover {
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-50), 0 0 0 2px var(--profile-gradient-secondary-color);
 }
 
-.custom-user-profile-theme .container_a99829.inlineContainer__74017:not(.flushContainer__74017):focus-within {
+.custom-user-profile-theme:not(.disable-profile-themes) .container_a99829.inlineContainer__74017:not(.flushContainer__74017):focus-within {
 	transition: var(--transition);
 	transition-property: box-shadow;
 	box-shadow: inset 0 0 100000px 0 var(--backgroundDark-50), 0 0 0 2px hsl(var(--accent)), 0 0 calc(var(--glow-intensity) * 20px) calc(var(--glow-intensity) * 5px) hsl(var(--accent), 0.25);
