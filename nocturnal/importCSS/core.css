@@ -10597,9 +10597,14 @@ rect[fill="brand-200"] {
 .toolbar_ab2592,
 .container_c3474d,
 .rolePopout__75297,
-.container_dca174,
 .noResults_a16aea {
 	background-color: var(--backgroundDark);
+	border: none !important;
+}
+
+.container_dca174 {
+	background-color: var(--backgroundDark);
+	box-shadow: 0 0 16px 8px var(--backgroundDark-50);
 	border: none !important;
 }
 
@@ -11270,7 +11275,6 @@ rect[fill="brand-200"] {
 .uploadImage_e45886,
 .profilePreviewContainer_dbba93 .avatarWrapper_dca174,
 .enableSwitchContainer_a84c50,
-.gradient__864b0+.container_dca174,
 .container__6c253,
 .containerCompact__6c253,
 .wideBannerBackgroundImg__08415,
@@ -13930,6 +13934,8 @@ svg.thumbnail__0f2e8 {
 .floatingUpsell__9d295,
 .container__2ecd5,
 .featureCard__3e32a,
+.divider__2ecd5,
+.contentWrapperLoading__0829a,
 .separator__7bf69 {
 	background-color: var(--backgroundDark-20);
 }
@@ -14881,8 +14887,4 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 .theme-dark .nowPlaying__93528 .emptyState__2cbe2 {
 	background-color: var(--backgroundDark-30);
 	border: none;
-}
-
-.profileAvatar__89307.profileAvatar__89307 {
-    inset-inline-start: 10px;
 }
