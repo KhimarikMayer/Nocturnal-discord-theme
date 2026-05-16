@@ -221,7 +221,7 @@
 }
 
 #app-mount .custom-user-profile-theme:not(.disable-profile-themes) .userInfoSection .note textarea:focus,
-.custom-user-profile-theme:not(.disable-profile-themes) .userPopout .bodyInnerWrapper .note textarea:focus,
+#app-mount .custom-user-profile-theme:not(.disable-profile-themes) .userPopout .bodyInnerWrapper .note textarea:focus,
 .custom-user-profile-theme .vc-permviewer-role-button {
 	background-color: var(--profile-gradient-secondary-color) !important;
 }
