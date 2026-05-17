@@ -9612,6 +9612,7 @@ div.profileThemedContainer__656be .inner_c0bea0 {
 .icon__1a58a img,
 .iconContainer__0ecc4,
 .vc-notification-icon,
+.iconActiveSmall_f34534,
 .iconActiveSmaller_f34534,
 .option_f494f4 .icon_f494f4,
 .guildIcon_a217fa,
@@ -11125,12 +11126,15 @@ rect[fill="brand-200"] {
 .card_a12047,
 .card__4b63d,
 .listItem_a04c02,
+.boostRow__1bfce,
+.serverCard__7bc6f,
 .header_d43202 {
 	border: none;
 	box-shadow: none;
 	background-color: var(--backgroundDarker);
 }
 
+.card__1bfce,
 .listItemExpanded_a04c02 {
 	background-color: color-mix(in oklab, hsl(222 calc(var(--saturation-factor)*22%) 9% /1) 100%, var(--custom-theme-base-color, #000) var(--custom-theme-base-color-amount, 0%));
 }
@@ -13737,6 +13741,7 @@ svg.thumbnail__0f2e8 {
 .contentWrapperLoading__0829a,
 .favoritesPlaceholderBarLong__629e4,
 .favoritesPlaceholderBarShort__629e4,
+.tierPill__7bc6f,
 .separator__7bf69 {
 	background-color: var(--backgroundDark-20);
 }
@@ -14592,4 +14597,9 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 
 .container__11fc5 {
 	margin: 0 0 -90px;
+}
+
+.guildIcon__7bc6f {
+	box-shadow: none;
+	border: none;
 }
