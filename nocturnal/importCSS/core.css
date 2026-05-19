@@ -14938,3 +14938,8 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 	background-color: var(--backgroundDark);
 	box-shadow: 0 0 3.5px 1.5px var(--backgroundDark-50);
 }
+
+.bottomBar__0f481::before {
+	-webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 0), var(--backgroundDarker) 10%, var(--backgroundDarker) 90%, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 0), var(--backgroundDarker) 10%, var(--backgroundDarker) 90%, rgba(0, 0, 0, 0));
+}
