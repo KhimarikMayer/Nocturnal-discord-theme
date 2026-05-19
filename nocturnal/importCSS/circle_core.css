@@ -1118,7 +1118,7 @@ svg[name=Nitro] g path {
 	border-radius: 20px;
 }
 
-.addGamePopout__5d912 {
+.addGamePopout__254c2 {
 	background-color: var(--backgroundDark);
 	box-shadow: var(--shadow-high);
 	border: none;
@@ -2036,7 +2036,7 @@ button.inner__02fc8.accountButtonInner__41de9:hover,
 	background-color: var(--backgroundDark-35);
 }
 
-.game__497cd {
+.game_b53c4e {
 	background-color: var(--backgroundDark-20);
 }
 
@@ -5388,8 +5388,8 @@ html:not(.chat-input) .inputInner_b1f01d,
 .radioGroupHorizontal__2869f .formatOptionRadioItem__2869f[aria-checked=true] .formatRadioIconWrapper__2869f,
 .checked__23488 .checkboxDisplay__23488,
 .disabled__23488 .checkboxDisplay__23488,
-.gameNameInput__497cd:focus,
-.gameNameInput__497cd:hover,
+.gameNameInput_b53c4e:focus,
+.gameNameInput_b53c4e:hover,
 .checkboxDisplay__23488,
 .chipletContainer__3b3ff {
 	background-color: var(--backgroundDark);
@@ -6149,9 +6149,9 @@ circle[fill="var(--brand-500)"],
 }
 
 .container_bc0d35,
-.decorationPreview__51743,
-.smallDecorationPreviewsContainer__51743,
-.decorationGridItem_dfa67d,
+.decorationPreview__00c46,
+.smallDecorationPreviewsContainer__00c46,
+.decorationGridItem__828af,
 .pillContainer__9e06a,
 .testimonialHeroContainer__3e7e2,
 .actionItem_d2b0e4,
@@ -7449,7 +7449,7 @@ span.clanTag__07f91:not(.guildTag__26b1f),
 	border-color: var(--backgroundDark);
 }
 
-.notDetected__497cd,
+.notDetected_b53c4e,
 .cameraWrapper__92346 {
 	background-color: var(--backgroundDark-30);
 	border: none;
@@ -8006,7 +8006,7 @@ path[fill="var(--textbox-markdown-syntax)"],
 rect[fill="var(--text-muted)"],
 rect[fill="var(--header-muted)"],
 rect[fill="var(--textbox-markdown-syntax)"],
-.toggleIconOn__497cd .fill__497cd {
+.toggleIconOn_b53c4e .fill_b53c4e {
 	fill: #e9eaeb;
 }
 
@@ -8095,7 +8095,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .learnMoreTipContainer__9c6a8,
 .container__3dc42,
 .clipItem__1d12e,
-.smallDecorationPreviewsContainer__51743,
+.smallDecorationPreviewsContainer__00c46,
 .bannedUser__4b8d8:hover,
 .replies__1b03e,
 .container_a548c7,
@@ -8146,8 +8146,8 @@ rect[fill="var(--control-brand-foreground)"] {
 	outline: none;
 }
 
-.selected_dfa67d,
-.selected_b4019a {
+.selected__828af,
+.selected_f9347f {
 	box-shadow: 0 0 0 2px var(--primary);
 }
 
@@ -8209,7 +8209,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .cardDescription__72fa0,
 .cardTitle__72fa0,
 .cardAvatar__72fa0,
-.shopPreviewBanner__51743 {
+.shopPreviewBanner__00c46 {
 	background-color: var(--backgroundDark);
 	outline: none;
 }
@@ -8218,7 +8218,7 @@ rect[fill="var(--control-brand-foreground)"] {
 	box-shadow: none !important;
 }
 
-.shopPreviewContainer__51743 {
+.shopPreviewContainer__00c46 {
 	background: linear-gradient(var(--backgroundDarker), var(--backgroundDarker)) padding-box, var(--custom-premium-colors-premium-gradient-tier-2-diagonal) border-box;
 }
 
@@ -8233,7 +8233,7 @@ rect[fill="var(--control-brand-foreground)"] {
 .sidebarContainer__1d6c7,
 .wrapper__8823a,
 .classificationPolicyCard_a48d6b,
-.effectGridItem_b4019a,
+.effectGridItem_f9347f,
 .dropdown_edf232,
 .featuredPackFooter_fbeabf,
 .metricCard_c0544c,
@@ -8569,6 +8569,7 @@ div.cardContainer__88e24,
 .centeredSection__08415,
 .centeredSection_b558e5,
 .content__00843,
+.container__2c345,
 .wrapper__33d12 {
 	max-width: none;
 }
@@ -9397,7 +9398,7 @@ path[fill="var(--background-brand)"] {
 	margin-right: 0;
 }
 
-.floatingNitroUpsell_e110d6,
+.floatingNitroUpsell__1abfe,
 .vc-error-card,
 .textAreaForUserProfile__74017,
 .blockedPaymentsWarning_b7b2cf,
@@ -9658,7 +9659,7 @@ div.profileThemedContainer__656be .inner_c0bea0 {
 .channelResult_b2c7eb:hover,
 .nameplatePreviewPlaceholder__39749,
 .nameplatePreviewPlaceholder__14af9,
-.nameplatePreviewPlaceholder_e110d6,
+.nameplatePreviewPlaceholder__1abfe,
 .nameplatePreviewPlaceholder__1abfe,
 .accountConnectedPrivacyOptionsContainer_a470b4,
 .accountConnectedPreviewConnectedUserAccount_a470b4,
@@ -9974,7 +9975,7 @@ div.cardContainer__88e24,
 .divider__13533:after,
 .interactionsContainer_af3b89:before,
 .user-profile-modal-v2 .row__19fd1:not(:last-child)::after,
-.settingsDivider__70d86,
+.settingsDivider_ef8d95,
 .headerDivider__4e30a,
 .divider_c4b47c,
 .memberRowContainer__71c22 td:after,
@@ -10701,8 +10702,8 @@ rect[fill="brand-200"] {
 	border-bottom-color: var(--control-quinary-foreground);
 }
 
-&.theme-dark .lookLink__201d5.colorLink__201d5:not(.cancelButton__497cd),
-&.theme-dark .lookLink__201d5.colorPrimary__201d5:not(.cancelButton__497cd) {
+&.theme-dark .lookLink__201d5.colorLink__201d5:not(.cancelButton_b53c4e),
+&.theme-dark .lookLink__201d5.colorPrimary__201d5:not(.cancelButton_b53c4e) {
 	color: var(--quinary);
 }
 
@@ -11047,10 +11048,10 @@ rect[fill="brand-200"] {
 .wideBannerBackgroundImg__08415,
 .featuredBlockSkeleton__08415,
 .artContainer__22b59,
-.groupContainer__70d86,
-.mainCollapseableContainer__70d86,
-.standaloneContainer__70d86,
-.groupCollapsedContainer__70d86,
+.groupContainer_ef8d95,
+.mainCollapseableContainer_ef8d95,
+.standaloneContainer_ef8d95,
+.groupCollapsedContainer_ef8d95,
 .iconLink__9b0f4,
 .circle__710ee,
 .iconContainer_a2844c,
@@ -11078,7 +11079,7 @@ rect[fill="brand-200"] {
 .bd-error-container,
 .theme-dark .separator__2e257,
 .container_a1d343,
-.collapseable__70d86:not(.appDetailsSection__92059),
+.collapseable_ef8d95:not(.appDetailsSection__92059),
 .wrapper__5c108,
 .embedContainer__03498,
 .defaultKeybindGroup_f82450,
@@ -11227,7 +11228,7 @@ rect[fill="brand-200"] {
 	background: radial-gradient(123.96% 100% at 50% 100%, var(--backgroundDark) 52.07%, rgba(36, 36, 41, 0) 100%), linear-gradient(270deg, rgba(160, 86, 242, .3), rgba(62, 22, 137, .3));
 }
 
-.widgetSettingsContainer__70d86,
+.widgetSettingsContainer_ef8d95,
 .addButtonContainer__4a011,
 .whatYouLoseItem__89307.premiumRebrand__89307,
 .option__81345,
@@ -11367,7 +11368,7 @@ rect[fill="brand-200"] {
 :where(.banner__68edb):before,
 .gameIconImage__4e338,
 .bannerBlockContainer__08415,
-.voiceWidgetContainer__70d86,
+.voiceWidgetContainer_ef8d95,
 .high-contrast-mode .page__5e434,
 .theme-midnight .page__5e434 {
 	border: none;
@@ -11738,6 +11739,7 @@ rect[fill="brand-200"] {
 	color: var(--undenary);
 }
 
+.floatingNitroUpsell__1abfe,
 .floatingNitroUpsell__39749 {
 	margin-left: auto;
 	margin-right: auto;
@@ -11819,8 +11821,8 @@ rect[fill="brand-200"] {
 .badgeGradientWrapper__89307,
 .container_a244c3,
 .bd-error-toggle-wrapper,
-.expandedContainer__70d86,
-.groupHeader__70d86 {
+.expandedContainer_ef8d95,
+.groupHeader_ef8d95 {
 	background-color: var(--backgroundDarker-alt);
 }
 
@@ -12724,7 +12726,7 @@ svg.thumbnail__0f2e8 {
 }
 
 .bd-install-modal-items>.bd-install-modal-item:not(:last-child),
-.notificationSettingsContainer__70d86 .notificationItem__70d86,
+.notificationSettingsContainer_ef8d95 .notificationItem_ef8d95,
 .header__38524 {
 	border-color: var(--backgroundDark-15);
 }
@@ -14160,6 +14162,10 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 	overflow: hidden scroll;
 }
 
+.switchIndicator_a28278[style*="(92,"],
+.switchIndicator_a28278[style*="(91,"],
+.switchIndicator_a28278[style*="(90,"],
+.switchIndicator_a28278[style*="(89,"],
 .switchIndicator_a28278[style*="(88,"],
 .switchIndicator_a28278[style*="(87,"],
 .switchIndicator_a28278[style*="(86,"],
@@ -14494,7 +14500,7 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 .theme-dark .wishlistButton__979b1.variantSecondary__979b1,
 .memberContainer__1dc40,
 .thumbnailContainer__1dc40,
-.tryItOutButton_e110d6,
+.tryItOutButton__1abfe,
 .notice__4fbcc,
 .upsellContainer__0b69f.updatedStyling__0b69f {
 	border: none;
@@ -14585,6 +14591,7 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 	background-color: var(--backgroundDarker);
 }
 
+.refreshDiscountCallout__390b6,
 .theme-dark .nowPlaying__93528 .emptyState__2cbe2 {
 	background-color: var(--backgroundDark-30);
 	border: none;
@@ -14602,4 +14609,9 @@ button.plateMuted__67645.button__67645.enabled__67645.redGlow__67645:hover, span
 .guildIcon__7bc6f {
 	box-shadow: none;
 	border: none;
+}
+
+.upsellContainer__0b69f.updatedStyling__0b69f {
+	background-color: var(--backgroundDark);
+	box-shadow: 0 0 3.5px 1.5px var(--backgroundDark-50);
 }
